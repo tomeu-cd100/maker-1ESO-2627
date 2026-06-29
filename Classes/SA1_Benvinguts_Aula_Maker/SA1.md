@@ -104,7 +104,7 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
 ## 7. Recursos i materials
 - Ordinadors amb Inkscape + xTool Creative Space.
 - Talladora làser xTool S1; planxa de fusta fina (DM/contraxapat 3 mm) o metacrilat; anelles de clauer.
-- `Recursos/` (cursos d'Inkscape i `Enllacos_i_tutorials.md`), `Normativa/Normes_seguretat_taller.md`.
+- Tutorials d'Inkscape validats a `Recursos/Enllacos_i_tutorials.md`; `Normativa/Normes_seguretat_taller.md`.
 - Plantilla base: `Recursos/Plantilles_disseny/clauer_SA1.svg`.
 - Fitxa de l'alumnat: `Fitxa_alumnat.md` · Rúbrica: `Rubrica_SA1.md`.
 

@@ -22,7 +22,7 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 > – Un **joc** (peces d'escacs/dames, un joc d'enginy, un trencaclosques 3D).
 > – Una **peça per millorar el centre** (porta-cartells, organitzador, senyalística).»
 
-(Inspirat en projectes com el disseny d'un joc d'escacs en 3D — vegeu `Recursos/`.)
+(Inspirat en projectes com el disseny d'un joc d'escacs en 3D.)
 
 ## 🎯 Pregunta guia
 > «Com dissenyo una solució 3D que ajudi de veritat algú?»
@@ -49,6 +49,9 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 - **CE3** → CA3.2, CA3.3
 - **CE5** → CA5.1, CA5.2, CA5.3
 - **CE6** → CA6.1, CA6.2
+- **Transversals** → **TE** (participació equitativa) i **TA** (orientació a l'usuari/APS): SA
+  especialment idònia per avaluar l'APS (usuari real, prova i impacte). Vegeu
+  `Avaluació/Rubrica_general_competencial.md` i `Programació didàctica/Interdisciplinarietat_i_APS.md`.
 
 ## 3. Sabers
 - Disseny centrat en l'usuari (empatia, requisits).
@@ -94,7 +97,8 @@ Solució 3D funcional al repte triat + evidència de proves amb l'usuari + prese
 
 ## 7. Recursos i materials
 - Tinkercad; Bambu Studio; P2S; filament PLA; material de muntatge.
-- `Recursos/` (projecte d'escacs 3D, propostes didàctiques). `Fitxa_alumnat.md` · `Rubrica_SA6.md`.
+- `Programació didàctica/Gestio_temps_maquina_fabricacio.md` (cua d'impressió en equip);
+  `Reptes/Reptes_3D.md`. `Fitxa_alumnat.md` · `Rubrica_SA6.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
 **Rutina de pensament (equip):** *Què ha dit l'usuari / Què canviem* després de la prova amb

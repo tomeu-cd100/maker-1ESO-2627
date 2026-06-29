@@ -25,7 +25,7 @@ maker-1ESO-2627/
 ├── Reptes/                    ← reptes curts (fast finishers, escalfament)
 ├── Simulacions/               ← eines virtuals per practicar sense material
 ├── Memòria de treball/        ← bitàcola, incidències, inventari, memòria final
-└── Recursos/                  ← formació docent i materials de referència
+└── Recursos/                  ← plantilles de disseny pròpies i enllaços/tutorials validats
 ```
 
 ## 3. Per on començar (ordre de lectura recomanat)

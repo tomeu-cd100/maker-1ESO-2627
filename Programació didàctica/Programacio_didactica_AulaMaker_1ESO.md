@@ -218,7 +218,8 @@ aritmètica), prioritzant l'evolució i les darreres evidències.
 - **Fungibles:** filament PLA, planxes de fusta de DM/contraxapat i/o metacrilat per a làser,
   material de muntatge.
 - **Programari:** Inkscape, Tinkercad, Bambu Studio, xTool Creative Space, CoSpaces Edu.
-- **Documentació de suport:** carpeta `Recursos/` (cursos de formació) i `Simulacions/`.
+- **Documentació de suport:** carpeta `Recursos/` (plantilles de disseny i enllaços/tutorials
+  validats a `Enllacos_i_tutorials.md`) i `Simulacions/`.
 
 ---
 

@@ -43,8 +43,10 @@ famílies.
 `projecte integrador` · `planificació` · `fita` · `portafoli` · `audiència` · `transferència`
 
 ## 2. Competències específiques i criteris avaluats
-Aquesta SA integra **totes les competències** (CE1–CE6) i la majoria de criteris (vegeu la
-matriu a `Avaluació/Criteris_i_qualificacio.md`).
+Aquesta SA integra **totes les competències** (CE1–CE6) i la majoria de criteris, més els
+**indicadors transversals TE** (participació equitativa) i **TA** (orientació a l'usuari/audiència,
+APS) en presentar a la Fira (vegeu la matriu a `Avaluació/Criteris_i_qualificacio.md` i
+`Avaluació/Rubrica_general_competencial.md`).
 
 ## 3. Sabers
 Integració de tots els blocs de sabers del curs: procés tecnològic complet, disseny i
@@ -56,8 +58,10 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
 1. **Repte i exemples (20')**.
 2. **Tria de tema i abast (40')**: cada equip tria el tema i defineix què farà a làser/3D i
    què farà en 360/VR.
-3. **Pla de projecte (50')**: requisits, peces, tasques, calendari (incloent temps de màquina),
-   rols. Validació del docent (**document de pla de projecte**).
+3. **Pla de projecte (50')**: requisits, peces, tasques, calendari (incloent **temps de màquina**:
+   planifiqueu *batch* de làser i cua d'impressió 3D segons
+   `Programació didàctica/Gestio_temps_maquina_fabricacio.md`), rols. Validació del docent
+   (**document de pla de projecte**).
 4. **Diari (10')**.
 
 ### Sessió 2 — Disseny i fabricació (2 h)
@@ -92,6 +96,9 @@ final del curs.
 ## 7. Recursos i materials
 - Tot el maquinari: làser xTool S1, Bambu Lab P2S, càmera 360, ulleres VR.
 - Tot el programari del curs; material de muntatge i retolació per als estands.
+- `Programació didàctica/Gestio_temps_maquina_fabricacio.md` (fabricació) i
+  `Normativa/Protocol_us_VR.md` (ús de VR a la Fira: edat, torns i **alternativa en pantalla** a
+  l'estand per a qui no en faci ús).
 - `Avaluació/Rubrica_producte_final.md`. `Fitxa_alumnat.md` · `Rubrica_SA9.md`.
 
 ## 🧠 Metacognició i tiquet de sortida

@@ -18,7 +18,7 @@ STEAM i maker, currículum de Catalunya (Decret 175/2022, LOMLOE).
 | [`Reptes/`](Reptes/) | Reptes curts 2D / 3D / immersius + insígnies |
 | [`Simulacions/`](Simulacions/) | Eines virtuals per practicar sense material |
 | [`Memòria de treball/`](Memòria%20de%20treball/) | Bitàcola, incidències, inventari, memòria final |
-| [`Recursos/`](Recursos/) | Formació docent i materials de referència |
+| [`Recursos/`](Recursos/) | Plantilles de disseny pròpies i enllaços/tutorials validats |
 
 ## Les 9 situacions d'aprenentatge
 

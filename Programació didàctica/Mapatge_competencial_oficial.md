@@ -8,10 +8,10 @@
 > **vectors** del currículum de Catalunya.
 
 > ⚠️ **Nota de validació:** els enunciats de les 7 competències específiques (§2) s'han
-> **transcrit del PDF oficial** de *Tecnologia i Digitalització* (XTEC, Decret 175/2022). Dos
-> fragments breus marcats amb `[…]` no s'han pogut llegir net de l'extracció automàtica:
-> **completa'ls** obrint el PDF (§1). La correspondència de la taula §3 és la proposta del centre,
-> contrastada amb el text oficial.
+> **transcrit del currículum oficial** de *Tecnologia i Digitalització* (XTEC, Decret 175/2022).
+> Abans de presentar el document, fes-hi una **última comparació literal** amb el PDF oficial (§1),
+> com a bona pràctica per a qualsevol document de validació. La correspondència de la taula §3 és
+> la proposta del centre, contrastada amb el text oficial.
 
 ---
 
@@ -50,10 +50,12 @@
   resoldre problemes concrets, automatitzar processos i aplicar-los en sistemes de control o
   robòtica.
 - **CE6 T&D** — Utilitzar els fonaments del funcionament dels dispositius i de les aplicacions
-  `[…]`-ne els components i les funcions i ajustant-los a les necessitats per fer-ne un ús més
-  eficient i segur, per detectar i resoldre problemes tècnics senzills.
-- **CE7 T&D** — Fer ús ètic, sostenible i ecosocialment responsable de la tecnologia, `[…]`
-  (valorant-ne les aportacions i repercussions per al desenvolupament sostenible).
+  habituals de l'entorn digital d'aprenentatge, analitzant-ne els components i les funcions i
+  ajustant-los a les necessitats per fer-ne un ús més eficient i segur, per detectar i resoldre
+  problemes tècnics senzills.
+- **CE7 T&D** — Fer un ús ètic, sostenible i ecosocialment responsable de la tecnologia,
+  identificant-ne les repercussions i les aportacions, per valorar l'impacte del desenvolupament
+  tecnològic a la societat i a l'entorn.
 
 ---
 

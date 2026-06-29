@@ -68,7 +68,9 @@ converteix en línies que la màquina pot tallar i gravar.
 
 ### Sessió 3 — Fabricació i avaluació (2 h)
 1. **Preparació a XCS (20')**: importar, assignar tall/gravat, paràmetres segons material.
-2. **Fabricació per torns (75')**: tall i gravat supervisat; reptes express mentre s'espera.
+2. **Fabricació per *batch* (75')**: agrupa els dissenys en una sola planxa (*nesting*) per
+   estalviar temps de làser i material; tall i gravat supervisat. Reptes express mentre s'espera
+   (vegeu `Programació didàctica/Gestio_temps_maquina_fabricacio.md`).
 3. **Postprocés (10')**: netejar, posar la borla.
 4. **Galeria i coavaluació (15')**: `Avaluació/Autoavaluacio_coavaluacio.md`.
 
@@ -80,11 +82,11 @@ Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, docum
 > `Programació didàctica/DUA_adaptacions_SA.md`.
 - Banc de plantilles i d'imatges senzilles per vectoritzar.
 - Repte base (forma + text) i ampliació ⭐ (forma complexa, patró, calat).
-- Fitxa visual pas a pas i vídeos curts (carpeta `Recursos/`).
+- Fitxa visual pas a pas i vídeos curts (tutorials validats a `Recursos/Enllacos_i_tutorials.md`).
 
 ## 7. Recursos i materials
 - Inkscape + xTool Creative Space; làser xTool S1; fusta fina / cartolina gruixuda; borles/cordó.
-- `Recursos/` (cursos d'Inkscape, vectorització i `Enllacos_i_tutorials.md`).
+- Tutorials d'Inkscape i vectorització validats a `Recursos/Enllacos_i_tutorials.md`.
 - Plantilla base: `Recursos/Plantilles_disseny/marcapagines_SA2.svg`.
 - `Fitxa_alumnat.md` · `Rubrica_SA2.md`.
 

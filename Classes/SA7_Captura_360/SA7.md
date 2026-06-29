@@ -70,7 +70,9 @@ a alumnat nou de 6è de primària…).
 
 ### Sessió 3 — Muntatge i visualització (2 h)
 1. **Muntar el tour (70')**: enllaçar les escenes amb punts de navegació; títols/etiquetes.
-2. **Visualització en VR (30')**: provar el tour amb les ulleres (per torns).
+2. **Visualització (30')**: explorar el tour. Amb ulleres VR **per torns** (segons l'edat del
+   model, `Normativa/Protocol_us_VR.md`) i **sempre amb alternativa en pantalla** per a qui no en
+   faci ús.
 3. **Avaluació i galeria (20')**: coavaluació + diari de taller.
 
 ## 5. Producte final
