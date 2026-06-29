@@ -1,0 +1,114 @@
+# SA3 — «Projecte làser: la meva identitat»
+
+| | |
+|---|---|
+| **Matèria** | Aula Maker (optativa) |
+| **Nivell** | 1r ESO |
+| **Trimestre** | 1r — **Producte final de trimestre** |
+| **Temporització** | 5 sessions de 2 h (setmanes 7–11) |
+| **Eix** | Projecte de fabricació làser (procés tecnològic complet) |
+| **Producte final** | Un **objecte d'identitat** funcional tallat i gravat (organitzador d'escriptori, làmpada, joc senzill o caixa) |
+
+---
+
+## 1. Descripció (context + repte)
+
+Tanquem el trimestre amb un projecte més ambiciós que recull tot el que hem après. L'alumnat
+aplica el **procés tecnològic complet**: detectar una necessitat, idear, dissenyar, fabricar,
+muntar, provar i millorar (cultura del prototip), i finalment presentar.
+
+> **Repte:** «Dissenya i fabrica un **objecte que et representi i sigui útil**: un organitzador
+> per a l'escriptori, una làmpada decorativa, un joc de taula senzill o una caixa
+> personalitzada. Ha de tenir parts que **encaixin** (unions a mida del gruix del material).»
+
+És el primer projecte amb **muntatge de diverses peces**, que introdueix les unions per
+encaix (*kerf* / joints) i el treball en equip.
+
+## 🎯 Pregunta guia
+> «Com dissenyo i construeixo un objecte útil i amb la meva identitat, fet de peces que encaixin?»
+
+## 👁️ Aprenentatge visible (per a l'alumnat)
+**En acabar aquesta SA seré capaç de…**
+- Aplicar el procés tecnològic complet (necessitat → idea → disseny → fabricació → millora).
+- Dissenyar unions per encaix tenint en compte el gruix del material.
+- Treballar en equip assumint un rol.
+- Presentar el meu projecte.
+
+**Sabré que ho he aconseguit si… (criteris d'èxit)**
+- [ ] Hem definit la necessitat i els requisits.
+- [ ] Les peces encaixen i l'objecte fa la seva funció.
+- [ ] Hem millorat el prototip almenys una vegada (iteració).
+- [ ] Hem presentat el projecte amb claredat.
+
+## 🔑 Vocabulari clau (word wall)
+`procés tecnològic` · `requisit` · `prototip` · `iteració` · `unió per encaix` · `rol d'equip`
+
+## 2. Competències específiques i criteris avaluats
+- **CE1** → CA1.1, CA1.2, CA1.3, CA1.4
+- **CE2** → CA2.1, CA2.3
+- **CE3** → CA3.1, CA3.3
+- **CE5** → CA5.1, CA5.2, CA5.3
+- **CE6** → CA6.1, CA6.2
+
+## 3. Sabers
+- Procés tecnològic complet i planificació de projecte.
+- Unions per encaix; tenir en compte el **gruix del material** i el *kerf* (amplada del tall).
+- Disseny de peces múltiples; muntatge i ajust.
+- Comunicació de projectes (presentació).
+
+## 4. Seqüència de sessions
+
+### Sessió 1 — Repte i idea (2 h)
+1. **Presentació del repte i exemples (20')**.
+2. **Detectar necessitat + idear (40')**: cada equip defineix l'objecte, l'usuari i els requisits.
+3. **Esbós i planificació (50')**: dibuix de les peces, mides, materials, repartiment de rols.
+   Validació del docent (`CA1.1–1.3`).
+
+### Sessió 2 — Disseny digital (2 h)
+1. **Demo: unions per encaix (25')**: com fer ranures de l'amplada del gruix de la fusta.
+2. **Disseny a Inkscape (85')**: totes les peces, gravats i unions; capes tall/gravat.
+3. **Diari de taller (10')**.
+
+### Sessió 3 — Fabricació (2 h)
+1. **Preparació i prova (20')**: tallar primer una **mostra d'encaix** per validar mides.
+2. **Fabricació de les peces (90')** per torns; ajustar disseny si l'encaix no quadra (iteració).
+3. **Diari (10')**.
+
+### Sessió 4 — Muntatge i millora (2 h)
+1. **Muntatge (60')**: ajustar, encolar si cal, provar la funcionalitat.
+2. **Iteració (40')**: refabricar peces que no encaixin / millorar.
+3. **Preparació de la presentació (20')**.
+
+### Sessió 5 — Presentació i avaluació (2 h)
+1. **Fira de productes (60')**: cada equip presenta (problema, solució, procés, millores).
+2. **Coavaluació (30')**: `Avaluació/Autoavaluacio_coavaluacio.md`.
+3. **Tancament de trimestre (30')**: portafoli, autoavaluació, recollida del diari.
+
+## 5. Producte final
+Objecte d'identitat funcional muntat a partir de diverses peces + presentació + portafoli del
+procés.
+
+## 6. Atenció a la diversitat (DUA)
+> 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
+> `Programació didàctica/DUA_adaptacions_SA.md`.
+- Catàleg d'objectes-tipus amb diferent dificultat (caixa simple → làmpada amb calats ⭐).
+- Plantilles d'unions per encaix per a qui ho necessiti.
+- Rols d'equip adaptats a fortaleses (disseny, fabricació, documentació, presentació).
+
+## 7. Recursos i materials
+- Inkscape + XCS; làser xTool S1; fusta DM/contraxapat 3-4 mm; cola, LED de pila (si làmpada).
+- `Recursos/` i `Reptes/`. `Fitxa_alumnat.md` · `Rubrica_SA3.md`.
+- Caixa amb encaix: `Recursos/Plantilles_disseny/generador_caixa_encaix.py` (+ exemple SVG).
+
+## 🧠 Metacognició i tiquet de sortida
+**Rutina de pensament (equip):** *El més difícil / Com ho hem resolt* — registreu els obstacles
+que heu trobat i com els heu superat.
+
+**Tiquet de sortida (equip):**
+1. La millor decisió de disseny que hem pres: …
+2. Què refaríem si comencéssim de nou: …
+3. Com ha funcionat el nostre equip? 🔴 🟡 🟢
+
+## 8. Avaluació
+- Producte final: `Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md`.
+- Procés/equip: `Full_seguiment_grup.md`. Diari/portafoli i coavaluació.

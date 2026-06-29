@@ -1,0 +1,13 @@
+# Sistema operatiu
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Temporals
+*.tmp
+*~
+~$*
+
+# Sortides generades pel docent (descomenta si no les vols versionar)
+# *.gcode
+# *.3mf

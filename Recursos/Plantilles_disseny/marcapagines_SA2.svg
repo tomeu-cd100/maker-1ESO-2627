@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Plantilla marcapàgines SA2 - Aula Maker. Unitats en mm.
+     TALL = vermell (#FF0000) gruix 0.1 mm; GRAVAT = negre (#000000). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="50mm" height="150mm"
+     viewBox="0 0 50 150">
+  <!-- ===== CAPA TALL (vermell) ===== -->
+  <g id="TALL" fill="none" stroke="#FF0000" stroke-width="0.1">
+    <rect x="0.5" y="0.5" width="49" height="149" rx="6" ry="6"/>
+    <!-- Forat per a la borla -->
+    <circle cx="25" cy="8" r="2.5"/>
+  </g>
+  <!-- ===== CAPA GRAVAT (negre) ===== -->
+  <g id="GRAVAT" fill="#000000" stroke="none">
+    <!-- Marc decoratiu interior gravat (línia fina = gravat de línia) -->
+    <rect x="5" y="16" width="40" height="128" rx="4" ry="4"
+          fill="none" stroke="#000000" stroke-width="0.4"/>
+    <!-- Missatge: gira el text per llegir-lo en vertical -->
+    <text x="25" y="85" font-family="serif" font-size="8"
+          text-anchor="middle" transform="rotate(90 25 85)">EL TEU MISSATGE</text>
+    <!-- Zona per a la imatge vectoritzada (substitueix aquest cercle) -->
+    <circle cx="25" cy="40" r="12" fill="none" stroke="#000000" stroke-width="0.4"/>
+    <text x="25" y="42" font-family="sans-serif" font-size="3.5"
+          text-anchor="middle">imatge aquí</text>
+  </g>
+</svg>
