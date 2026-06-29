@@ -7,10 +7,11 @@
 > *Tecnologia i Digitalització*, (2) les **competències clau** del perfil de sortida i (3) els
 > **vectors** del currículum de Catalunya.
 
-> ⚠️ **ACCIÓ DEL DOCENT (5 min):** els enunciats literals de les competències específiques de
-> *Tecnologia i Digitalització* **s'han d'enganxar des de la font oficial** (vegeu §1). No els
-> reproduïm aquí per evitar errors de transcripció en un document de validació. La correspondència
-> temàtica de la taula §2 és la nostra proposta; **verifica-la** amb el text oficial.
+> ⚠️ **Nota de validació:** els enunciats de les 7 competències específiques (§2) s'han
+> **transcrit del PDF oficial** de *Tecnologia i Digitalització* (XTEC, Decret 175/2022). Dos
+> fragments breus marcats amb `[…]` no s'han pogut llegir net de l'extracció automàtica:
+> **completa'ls** obrint el PDF (§1). La correspondència de la taula §3 és la proposta del centre,
+> contrastada amb el text oficial.
 
 ---
 
@@ -23,28 +24,62 @@
 - **Decret 175/2022 (text consolidat, Portal Jurídic):**
   https://portaljuridic.gencat.cat/ca/document-del-pjur/?documentId=938401
 
-> Obre el primer PDF, copia l'enunciat literal de cada competència específica (CE) i el seu codi
-> oficial, i enganxa'ls a la columna corresponent de la taula §2.
+---
+
+## 2. Les 7 competències específiques oficials de *Tecnologia i Digitalització*
+
+> Transcrites del PDF oficial (cursos de 1r a 3r d'ESO). La matèria en defineix **7**.
+
+- **CE1 T&D** — Buscar, analitzar i seleccionar la informació adequada, de manera crítica i
+  experimentant amb eines de simulació, per delimitar problemes tecnològics i proposar solucions
+  a partir de la informació obtinguda.
+- **CE2 T&D** — Planificar, dissenyar i desenvolupar solucions a problemes tecnològics amb
+  autonomia i actitud creativa, tot aplicant el procés tecnològic, coneixements interdisciplinaris
+  i treballant de manera ordenada i cooperativa, per resoldre problemes o necessitats de manera
+  eficaç, innovadora i sostenible.
+- **CE3 T&D** — Aplicar de manera apropiada diferents tècniques i coneixements interdisciplinaris,
+  tot utilitzant operadors, sistemes tecnològics i eines, seguint la planificació i el disseny
+  sostenible previ, per construir solucions tecnològiques que donin resposta a necessitats en
+  diferents contextos.
+- **CE4 T&D** — Descriure, representar i intercanviar idees o solucions a problemes tecnològics o
+  digitals, utilitzant els mitjans de representació, simbologia i vocabulari adequats, així com els
+  instruments i els recursos disponibles, utilitzant les eines digitals per argumentar, comunicar i
+  difondre informació.
+- **CE5 T&D** — Desenvolupar algorismes i aplicacions informàtiques en diferents entorns, tot
+  aplicant els principis del pensament computacional i incorporant les tecnologies emergents, per
+  resoldre problemes concrets, automatitzar processos i aplicar-los en sistemes de control o
+  robòtica.
+- **CE6 T&D** — Utilitzar els fonaments del funcionament dels dispositius i de les aplicacions
+  `[…]`-ne els components i les funcions i ajustant-los a les necessitats per fer-ne un ús més
+  eficient i segur, per detectar i resoldre problemes tècnics senzills.
+- **CE7 T&D** — Fer ús ètic, sostenible i ecosocialment responsable de la tecnologia, `[…]`
+  (valorant-ne les aportacions i repercussions per al desenvolupament sostenible).
 
 ---
 
-## 2. Mapatge: CE pròpia ↔ competència específica oficial de *Tecnologia i Digitalització*
+## 3. Mapatge: CE pròpia (Aula Maker) ↔ CE oficial de *Tecnologia i Digitalització*
 
-| CE pròpia (Aula Maker) | Correspondència temàtica amb T&D | Enunciat oficial *(enganxar)* |
-|------------------------|----------------------------------|-------------------------------|
-| **CE1** Procés tecnològic / pensament de disseny | Definir problemes i idear/dissenyar solucions tecnològiques (procés de disseny) | `CE__ T&D: …` |
-| **CE2** Disseny digital 2D/3D | Ús d'eines digitals de disseny i representació d'objectes | `CE__ T&D: …` |
-| **CE3** Fabricació digital (làser/3D) | Construir i materialitzar solucions; ús de màquines i fabricació | `CE__ T&D: …` |
-| **CE4** Realitat immersiva (360/VR) | Ús crític i creatiu de tecnologies digitals emergents / entorns digitals | `CE__ T&D: …` |
-| **CE5** Equip, documentació i comunicació | Comunicar i col·laborar amb mitjans digitals; documentació tècnica | `CE__ T&D: …` |
-| **CE6** Seguretat, sostenibilitat i ètica | Ús segur, responsable, sostenible i ètic de la tecnologia | `CE__ T&D: …` |
+| CE pròpia (Aula Maker) | CE(s) oficial(s) T&D | Justificació de la correspondència |
+|------------------------|----------------------|-------------------------------------|
+| **CE1** Procés tecnològic / pensament de disseny | **CE1 + CE2 T&D** | CE1 (delimitar problemes i proposar solucions) i CE2 (aplicar el **procés tecnològic**: idear, planificar, desenvolupar) |
+| **CE2** Disseny digital 2D/3D | **CE2 + CE4 T&D** | CE2 (dissenyar solucions) i CE4.2 (representar objectes i esquemes tècnics amb **eines digitals**) |
+| **CE3** Fabricació digital (làser/3D) | **CE3 T&D** | CE3.1 (fabricar objectes mitjançant conformació de materials, eines i màquines, amb seguretat i salut) |
+| **CE4** Realitat immersiva (360/VR) | **CE4 + CE6 + CE7 T&D** | CE4 (crear/difondre contingut), CE6 (ús eficient i segur dels dispositius) i CE7.2 (ús ètic de **tecnologies emergents**) |
+| **CE5** Equip, documentació i comunicació | **CE4 + CE2 T&D** | CE4.1/4.3 (documentar i comunicar de manera col·laborativa) i CE2.2 (treball **cooperatiu**) |
+| **CE6** Seguretat, sostenibilitat i ètica | **CE3 + CE6 + CE7 T&D** | CE3.1 (seguretat i salut), CE6 (ús segur, protecció de dades) i CE7 (ètic i **sostenible**) |
 
-> Substitueix `CE__ T&D` pel número i l'enunciat reals. Si alguna CE pròpia cobreix **parcialment**
-> diverses CE oficials, indica-ho (p. ex. "CE3 T&D (parcial) + CE5 T&D").
+### Cobertura i límits (honest, per a la inspecció)
+- **CE5 T&D (pensament computacional, programació i robòtica)** es treballa **només de manera
+  introductòria i opcional** a l'Aula Maker (blocs tipus Blockly a CoSpaces, *Codeblocks* a
+  Tinkercad com a ampliació ⭐). **No és l'eix** d'aquesta optativa; qui necessiti desplegar-la
+  plenament ho farà a la matèria de T&D / Digitalització. Convé fer-ho explícit.
+- A canvi, l'Aula Maker **aprofundeix** en àmbits que T&D tracta de manera més transversal: la
+  **fabricació digital** (làser i 3D) i la **realitat immersiva** (360/VR), encaixades a T&D com a
+  **tecnologies emergents** (CE7) i ús de dispositius (CE6).
 
 ---
 
-## 3. Contribució a les competències clau (perfil de sortida, LOMLOE)
+## 4. Contribució a les competències clau (perfil de sortida, LOMLOE)
 
 Marca la contribució principal (●) i secundària (○) de la matèria a cada competència clau.
 
@@ -61,7 +96,7 @@ Marca la contribució principal (●) i secundària (○) de la matèria a cada 
 
 ---
 
-## 4. Vectors del currículum de Catalunya
+## 5. Vectors del currículum de Catalunya
 
 > ⚠️ **Verifica la llista i la redacció oficial dels vectors** al Decret 175/2022 (poden actualitzar-se).
 > Indica per a cada vector com s'hi dona resposta i on és l'evidència al material.
@@ -76,7 +111,7 @@ Marca la contribució principal (●) i secundària (○) de la matèria a cada 
 
 ---
 
-## 5. Nota per a l'aprovació de centre
+## 6. Nota per a l'aprovació de centre
 - Adjunta aquest mapatge a la PD quan presentis l'optativa al claustre / a la inspecció.
 - Conserva una còpia del PDF oficial de *T&D* del curs vigent (les referències poden canviar).
 - Revisa el mapatge **cada curs** si s'actualitza el currículum.
