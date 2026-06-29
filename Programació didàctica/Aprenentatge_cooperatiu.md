@@ -62,4 +62,4 @@ Ens comprometem a:
 4. Si no es resol, **demanem ajuda** al/a la docent (mediació).
 
 > Connecta amb: `Programació didàctica/Programacio_didactica_AulaMaker_1ESO.md` (metodologia),
-> `Avaluació/Instruments_formatius.md` i el `Reglament_aula_maker.md`.
+> `Avaluació/Instruments_formatius.md` i el `Normativa/Reglament_aula_maker.md`.

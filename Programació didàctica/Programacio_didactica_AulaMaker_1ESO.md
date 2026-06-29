@@ -219,7 +219,7 @@ aritmètica), prioritzant l'evolució i les darreres evidències.
   material de muntatge.
 - **Programari:** Inkscape, Tinkercad, Bambu Studio, xTool Creative Space, CoSpaces Edu.
 - **Documentació de suport:** carpeta `Recursos/` (plantilles de disseny i enllaços/tutorials
-  validats a `Enllacos_i_tutorials.md`) i `Simulacions/`.
+  validats a `Recursos/Enllacos_i_tutorials.md`) i `Simulacions/`.
 
 ---
 

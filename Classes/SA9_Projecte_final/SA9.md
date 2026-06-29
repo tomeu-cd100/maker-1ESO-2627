@@ -112,5 +112,5 @@ final del curs.
 
 ## 8. Avaluació
 - Producte integrador: `Rubrica_SA9.md` + `Avaluació/Rubrica_producte_final.md`.
-- Procés i equip: `Full_seguiment_grup.md`. Portafoli final, autoavaluació i coavaluació.
+- Procés i equip: `Avaluació/Full_seguiment_grup.md`. Portafoli final, autoavaluació i coavaluació.
 - Aquesta SA té pes destacat en la **valoració global de curs**.

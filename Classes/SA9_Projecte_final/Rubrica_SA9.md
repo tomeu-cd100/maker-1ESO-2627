@@ -13,4 +13,8 @@ integra totes les competències; pes destacat en la valoració global de curs.
 | **Seguretat, sostenibilitat i ètica (CE6)** | Incompleix | Amb recordatoris | Compleix | Exemplar i ho argumenta |
 | **Portafoli final (CA5.2)** | No el lliura | Incomplet | Complet | Complet, clar i reflexiu |
 
+> **Indicadors transversals:** la fila *Comunicació a la Fira* recull el **TA** (orientació a
+> l'audiència/APS); el **TE** (participació equitativa) es valora per observació
+> (`Avaluació/Full_seguiment_grup.md`). Vegeu `Avaluació/Rubrica_general_competencial.md`.
+
 **Observacions:**

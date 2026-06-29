@@ -98,4 +98,4 @@ Escena VR explorable + fitxa d'anàlisi crítica d'usos de la VR + documentació
 3. Com em sento creant en VR? 🔴 🟡 🟢
 
 ## 8. Avaluació
-- Escena + anàlisi crítica: `Rubrica_SA8.md`. Equip i procés: `Full_seguiment_grup.md`. Diari.
+- Escena + anàlisi crítica: `Rubrica_SA8.md`. Equip i procés: `Avaluació/Full_seguiment_grup.md`. Diari.

@@ -9,7 +9,7 @@
 |--|----------|-----------|--------------|-------------|
 | **Entenc el repte** | No sé què he de fer | Ho entenc amb ajuda | Sé què he de fer i què necessito | Ho tinc clar i ho explico als altres |
 | **Tinc idees** | No se m'acut res | Tinc una idea | Tinc diverses idees i en trio una | Comparo idees i explico per què trio una |
-| **Millloro** | No reviso el que faig | Veig un error amb ajuda | Trobo errors i els arreglo | Provo, milloro i ho torno a provar |
+| **Milloro** | No reviso el que faig | Veig un error amb ajuda | Trobo errors i els arreglo | Provo, milloro i ho torno a provar |
 
 ## Dissenyo (CE2)
 | | 🌱 Començo | 🙂 Ho faig | 💪 Ho faig bé | 🌟 Ho domino |
@@ -41,6 +41,12 @@
 |--|----------|-----------|--------------|-------------|
 | **Seguretat** | No respecto les normes | Les respecto si m'ho recorden | Respecto les normes | Vetllo també per la seguretat dels altres |
 | **Material** | Malgasto material | El cuido amb ajuda | Aprofito el material | Aprofito i proposo no malgastar |
+
+## Equip just i penso en qui ho farà servir (transversals)
+| | 🌱 Començo | 🙂 Ho faig | 💪 Ho faig bé | 🌟 Ho domino |
+|--|----------|-----------|--------------|-------------|
+| **Tothom hi participa (TE)** | Sempre fan servir les màquines els mateixos | Hi participo si m'ho diuen | Passo per tots els rols, també les màquines | M'asseguro que tothom de l'equip hi participi |
+| **Penso en qui ho farà servir (TA)** | No hi penso | Hi penso una mica | Penso en una persona concreta i què necessita | Ho provo amb ella i ho milloro |
 
 > **Com l'uso:** al final de cada SA, marca on et trobes en cada fila i posa't **un objectiu**
 > per a la propera ("la propera vegada vull passar de 🙂 a 💪 en…").

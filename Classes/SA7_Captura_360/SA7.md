@@ -87,7 +87,7 @@ Tour virtual del centre (navegable) + visualització VR + documentació del proc
 
 ## 7. Recursos i materials
 - **Càmera 360** + trípode/perxa; ordinadors; ulleres VR; programari/visor de tours.
-- `Normativa/Protocol_us_VR.md` i `Autoritzacio_families_VR_360.md` (drets d'imatge).
+- `Normativa/Protocol_us_VR.md` i `Normativa/Autoritzacio_families_VR_360.md` (drets d'imatge).
 - `Simulacions/Experiencies_VR_360.md`. `Fitxa_alumnat.md` · `Rubrica_SA7.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
@@ -99,4 +99,4 @@ Tour virtual del centre (navegable) + visualització VR + documentació del proc
 3. Com em sento creant contingut 360? 🔴 🟡 🟢
 
 ## 8. Avaluació
-- Captura + tour: `Rubrica_SA7.md`. Equip i procés: `Full_seguiment_grup.md`. Diari de taller.
+- Captura + tour: `Rubrica_SA7.md`. Equip i procés: `Avaluació/Full_seguiment_grup.md`. Diari de taller.

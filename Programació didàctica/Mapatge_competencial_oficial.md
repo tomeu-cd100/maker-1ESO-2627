@@ -108,7 +108,7 @@ Marca la contribució principal (●) i secundària (○) de la matèria a cada 
 | Aprenentatge competencial i amb sentit | Reptes/projectes amb producte real (ABP/ABR) | `Programacio_didactica…`, cada `SAx.md` |
 | Perspectiva de gènere | Referents diversos STEAM, agrupaments i reptes equitatius | `Equitat_genere_STEAM.md` |
 | Universalitat del currículum (DUA) | Menú base + adaptacions per barrera i per màquina | `DUA_adaptacions_SA.md` |
-| Benestar emocional | Cultura de l'error, espai de calma, semàfor, parelles d'ajuda | `Instruments_formatius.md`, `Aprenentatge_cooperatiu.md` |
+| Benestar emocional | Cultura de l'error, espai de calma, semàfor, parelles d'ajuda | `Avaluació/Instruments_formatius.md`, `Aprenentatge_cooperatiu.md` |
 | Ciutadania democràtica i consciència global | ODS, drets d'imatge, sostenibilitat, APS | `Interdisciplinarietat_i_APS.md`, PD §10 |
 
 ---

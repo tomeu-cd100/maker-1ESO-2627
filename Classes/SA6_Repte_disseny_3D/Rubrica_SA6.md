@@ -12,4 +12,8 @@ Nivells: **NA / AS / AN / AE**. Combineu amb `Avaluació/Rubrica_producte_final.
 | **Treball en equip (CA5.1)** | No col·labora | Col·labora puntualment | Assumeix el rol | Coordina i fa avançar l'equip |
 | **Comunicació (CA5.3)** | No presenta | Confusa | Clara | Clara i convincent |
 
+> **Indicadors transversals:** les files *Empatia i requisits* i *Impacte* recullen el **TA**
+> (orientació a l'usuari/APS); el **TE** (participació equitativa) es valora per observació
+> (`Avaluació/Full_seguiment_grup.md`). Vegeu `Avaluació/Rubrica_general_competencial.md`.
+
 **Observacions:**

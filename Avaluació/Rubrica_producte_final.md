@@ -1,9 +1,11 @@
 # Rúbrica de producte final — «Aula Maker» (1r ESO)
 
 Aplicable als productes finals de cada SA i, especialment, als productes finals de trimestre
-(SA3, SA6, SA9). Puntuació orientativa: NA(1-4) · AS(5-6) · AN(7-8) · AE(9-10).
+(SA3, SA6, SA9). Qualificació **qualitativa** per nivells **NA/AS/AN/AE** (no es converteix a una
+nota d'1 a 10; vegeu `Criteris_i_qualificacio.md`). La columna **Pes** és **orientativa** del
+judici global de cada producte, **no** una fórmula de mitjana ponderada.
 
-| Criteri | Pes | NA | AS | AN | AE |
+| Criteri | Pes orient. | NA | AS | AN | AE |
 |---------|----:|----|----|----|----|
 | **Funcionalitat / compliment dels requisits** | 25 % | No compleix els requisits | Compleix els mínims | Compleix tots els requisits | Supera els requisits i afegeix valor |
 | **Qualitat del disseny i la fabricació** | 25 % | Acabat deficient | Acabat acceptable | Bon acabat i precisió | Acabat excel·lent i acurat |

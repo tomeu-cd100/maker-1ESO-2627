@@ -93,4 +93,4 @@ modelaria amb cossos i forats.
 3. Com em sento modelant en 3D? 🔴 🟡 🟢
 
 ## 8. Avaluació
-- Model i mesures: `Rubrica_SA4.md`. Diari de taller. Observació: `Full_seguiment_grup.md`.
+- Model i mesures: `Rubrica_SA4.md`. Diari de taller. Observació: `Avaluació/Full_seguiment_grup.md`.

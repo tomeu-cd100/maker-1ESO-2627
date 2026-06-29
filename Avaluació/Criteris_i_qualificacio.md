@@ -68,7 +68,7 @@ Marca on s'avalua cada criteri al llarg del curs (assegura que tots es treballen
 
 > **TE** i **TA** són **indicadors transversals** (no CE noves): vegeu
 > `Rubrica_general_competencial.md` (secció *Eixos transversals — Equitat i APS*),
-> `Equitat_genere_STEAM.md` i `Interdisciplinarietat_i_APS.md`.
+> `Programació didàctica/Equitat_genere_STEAM.md` i `Programació didàctica/Interdisciplinarietat_i_APS.md`.
 
 ## 5. Avaluació formativa
 A més dels instruments de qualificació, useu els recursos d'**avaluació formativa** per fer

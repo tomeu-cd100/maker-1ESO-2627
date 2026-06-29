@@ -18,7 +18,7 @@
 ---
 
 ## 2. El "menú" base (per a tothom, cada SA)
-- **Objectius i criteris d'èxit visibles** a l'inici (ja a cada SA) + `Rubrica_alumnat_amigable.md`.
+- **Objectius i criteris d'èxit visibles** a l'inici (ja a cada SA) + `Avaluació/Rubrica_alumnat_amigable.md`.
 - **Fitxa pas a pas** amb captures i icones, i **vídeo** de la tècnica del dia.
 - **Exemple resolt** com a referent (`Exemple_resolt.md`).
 - **Plantilles de partida** (`Recursos/Plantilles_disseny/`) per a qui necessita una bastida.

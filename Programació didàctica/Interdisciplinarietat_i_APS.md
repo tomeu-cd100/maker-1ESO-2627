@@ -46,7 +46,8 @@ Un projecte té més sentit si **resol una necessitat real** d'una persona o de 
 - Tour 360 del centre per a **futur alumnat** o per a persones que no s'hi poden desplaçar.
 
 ## 3. Avaluació coherent
-- L'**impacte real** i l'orientació a l'usuari ja es valoren a `Rubrica_SA6.md` i `Rubrica_SA9.md`.
+- L'**impacte real** i l'orientació a l'usuari ja es valoren a `Classes/SA6_Repte_disseny_3D/Rubrica_SA6.md`
+  i `Classes/SA9_Projecte_final/Rubrica_SA9.md`.
 - Afegeix evidència del **contacte amb l'usuari** (entrevista, prova, lliurament) al portafoli.
 
 > Relacionat amb: les SA6 i SA9, `Aprenentatge_cooperatiu.md` i la `Programació didàctica`

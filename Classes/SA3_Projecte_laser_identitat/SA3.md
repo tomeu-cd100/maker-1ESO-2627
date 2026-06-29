@@ -114,4 +114,4 @@ que heu trobat i com els heu superat.
 
 ## 8. Avaluació
 - Producte final: `Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md`.
-- Procés/equip: `Full_seguiment_grup.md`. Diari/portafoli i coavaluació.
+- Procés/equip: `Avaluació/Full_seguiment_grup.md`. Diari/portafoli i coavaluació.

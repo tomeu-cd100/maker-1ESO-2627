@@ -10,7 +10,7 @@
 - **Rotació obligatòria de rols** (vegeu `Aprenentatge_cooperatiu.md`): tothom passa per
   operar màquines, dissenyar, documentar i coordinar. Evita que sempre operin les màquines els
   mateixos perfils.
-- Vigila el biaix "ell talla / ella documenta": observa-ho amb el `Full_seguiment_grup.md` i
+- Vigila el biaix "ell talla / ella documenta": observa-ho amb el `Avaluació/Full_seguiment_grup.md` i
   reequilibra.
 - En equips mixtos, evita deixar **una sola noia** (o un sol perfil minoritari) per equip quan
   sigui possible.

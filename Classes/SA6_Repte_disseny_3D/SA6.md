@@ -111,4 +111,4 @@ la persona destinatària.
 
 ## 8. Avaluació
 - Producte final: `Rubrica_SA6.md` + `Avaluació/Rubrica_producte_final.md`.
-- Equip i procés: `Full_seguiment_grup.md`. Diari/portafoli i coavaluació.
+- Equip i procés: `Avaluació/Full_seguiment_grup.md`. Diari/portafoli i coavaluació.

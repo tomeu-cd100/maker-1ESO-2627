@@ -99,4 +99,4 @@ Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, docum
 3. Com em sento amb el disseny vectorial? 🔴 🟡 🟢
 
 ## 8. Avaluació
-- Procés i producte: `Rubrica_SA2.md`. Observació: `Full_seguiment_grup.md`. Diari de taller.
+- Procés i producte: `Rubrica_SA2.md`. Observació: `Avaluació/Full_seguiment_grup.md`. Diari de taller.
