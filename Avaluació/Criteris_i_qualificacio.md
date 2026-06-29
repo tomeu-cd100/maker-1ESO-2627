@@ -5,26 +5,38 @@ Avaluació **competencial, contínua i formativa**. S'avalua l'assoliment de les
 específiques (CE1–CE6) mitjançant els seus criteris (vegeu la Programació didàctica) a través
 dels productes, el procés i l'actitud al taller.
 
-## 2. Ponderació de la qualificació trimestral
+## 2. Pes orientatiu de les evidències
 
-| Component | Pes | Instrument |
-|-----------|----:|-----------|
-| Producte final + procés de disseny | 50 % | Rúbrica de la SA / `Rubrica_producte_final.md` |
-| Diari de taller / portafoli | 20 % | `Diari_de_taller.md` |
-| Treball en equip, actitud, seguretat i autonomia | 20 % | `Full_seguiment_grup.md` (observació) |
-| Autoavaluació i coavaluació | 10 % | `Autoavaluacio_coavaluacio.md` |
+> ⚠️ **Important:** aquests percentatges **no són una fórmula per fer una mitjana ponderada**.
+> Indiquen el **pes orientatiu** que cada tipus d'evidència té dins el **judici competencial
+> global** del docent. La qualificació és **qualitativa** (NA/AS/AN/AE), no el resultat d'una
+> operació aritmètica (coherent amb l'avaluació competencial del Decret 175/2022).
 
-> La nota de curs és una valoració **global** de l'assoliment competencial (no la mitjana
-> aritmètica dels trimestres), prioritzant l'evolució i les darreres evidències.
+| Font d'evidència | Pes orientatiu | Instrument |
+|------------------|:--------------:|-----------|
+| Producte final + procés de disseny | alt (~50 %) | Rúbrica de la SA / `Rubrica_producte_final.md` |
+| Diari de taller / portafoli | mitjà (~20 %) | `Diari_de_taller.md` |
+| Treball en equip, actitud, seguretat i autonomia | mitjà (~20 %) | `Full_seguiment_grup.md` (observació) |
+| Autoavaluació i coavaluació | baix (~10 %) | `Autoavaluacio_coavaluacio.md` |
+
+> La nota trimestral i la de curs són una valoració **global** de l'assoliment competencial
+> (CE1–CE6), **no** la mitjana aritmètica dels components ni dels trimestres, prioritzant
+> **l'evolució** i les **darreres evidències** de cada competència.
 
 ## 3. Nivells d'assoliment
 
-| Sigla | Nivell | Equivalència orientativa |
-|-------|--------|--------------------------|
-| **NA** | No assolit | 1–4 |
-| **AS** | Assoliment satisfactori | 5–6 |
-| **AN** | Assoliment notable | 7–8 |
-| **AE** | Assoliment excel·lent | 9–10 |
+Qualificació **qualitativa per nivells**. No es converteixen a una nota numèrica de l'1 al 10:
+el nivell expressa el **grau d'assoliment competencial**, no una puntuació.
+
+| Sigla | Nivell | Descripció (grau d'assoliment) |
+|-------|--------|--------------------------------|
+| **NA** | No assolit | Encara no demostra l'assoliment de la competència |
+| **AS** | Assoliment satisfactori | Demostra la competència en situacions bàsiques, amb suport |
+| **AN** | Assoliment notable | Demostra la competència amb autonomia en situacions habituals |
+| **AE** | Assoliment excel·lent | Demostra la competència amb autonomia, qualitat i transferència a situacions noves |
+
+> Si el centre necessita un **referent numèric** per als seus tràmits interns, aplica
+> l'equivalència que tingui aprovada el centre; aquí el referent **és el nivell competencial**.
 
 ## 4. Matriu de traçabilitat: criteris ↔ SA
 
@@ -51,6 +63,12 @@ Marca on s'avalua cada criteri al llarg del curs (assegura que tots es treballen
 | CA6.1 Seguretat i ús | ● | ● | ● | ● | ● | ● | ● | ● | ● |
 | CA6.2 Sostenibilitat | | ● | ● | | ● | ● | | | ● |
 | CA6.3 Ètica digital | ● | | | | | | ● | ● | ● |
+| **TE Participació equitativa** | ● | ● | ● | ● | ● | ● | ● | ● | ● |
+| **TA Orientació a l'usuari (APS)** | | | ● | | ● | ● | ● | | ● |
+
+> **TE** i **TA** són **indicadors transversals** (no CE noves): vegeu
+> `Rubrica_general_competencial.md` (secció *Eixos transversals — Equitat i APS*),
+> `Equitat_genere_STEAM.md` i `Interdisciplinarietat_i_APS.md`.
 
 ## 5. Avaluació formativa
 A més dels instruments de qualificació, useu els recursos d'**avaluació formativa** per fer

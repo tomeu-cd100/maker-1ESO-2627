@@ -81,9 +81,11 @@ talladora làser) que es desenvoluparan en SA2 i SA3.
 ### Sessió 3 — Fabricació a làser i reflexió (2 h)
 1. **Seguretat làser (15')**: repàs del protocol abans d'engegar (ventilació, no deixar la
    màquina sola, materials permesos).
-2. **Fabricació per torns (75')**: el docent (o alumnat amb supervisió estreta) envia els
-   treballs a la xTool S1 des de l'XCS. Mentre esperen torn, els altres fan un **repte express**
-   (vegeu `Reptes/`) o milloren el disseny.
+2. **Fabricació per *batch* (75')**: ⏱️ amb 1 sol làser i tot el grup, **no** es tallen els
+   clauers un a un (no hi cabria). Es munten **tots els dissenys en una sola planxa** (*nesting*)
+   i es fan poques passades → minuts reals, no hores. Vegeu l'estratègia completa a
+   `Programació didàctica/Gestio_temps_maquina_fabricacio.md`. Mentre s'envia el treball, la
+   resta fa un **repte express** (`Reptes/`) o millora el disseny.
 3. **Acabat i muntatge (15')**: posar l'anella, revisar.
 4. **Reflexió i galeria (15')**: cadascú mostra el seu clauer; coavaluació ràpida i tancament
    de la SA al diari.

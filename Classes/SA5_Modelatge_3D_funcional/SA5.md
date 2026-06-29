@@ -65,8 +65,10 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 1. **Exportar STL + Bambu Studio (40')**: importar, orientar la peça, paràmetres bàsics
    (alçada de capa, farciment 15-20 %, suports si cal, *brim* per a l'adherència).
 2. **Comprendre el laminat (30')**: previsualització de capes, temps i grams estimats.
-3. **Cua d'impressió (40')**: enviar a la P2S; comencen les primeres peces. Reptes express
-   mentre s'imprimeix.
+3. **Cua d'impressió (40')**: enviar a la P2S amb un **kanban visible** (Per imprimir · Imprimint
+   · Fet) i un criteri d'ordre **just** perquè tothom imprimeixi; les impressions llargues van
+   **fora d'horari** (vegeu `Programació didàctica/Gestio_temps_maquina_fabricacio.md`). Comencen
+   les primeres peces; reptes express mentre s'imprimeix.
 4. **Diari (10')**.
 
 ### Sessió 3 — Impressió i seguiment (2 h)

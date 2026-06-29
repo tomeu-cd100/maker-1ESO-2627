@@ -11,10 +11,10 @@ STEAM i maker, currículum de Catalunya (Decret 175/2022, LOMLOE).
 
 | Carpeta | Contingut |
 |---------|-----------|
-| [`Programació didàctica/`](Programació%20didàctica/) | PD, temporització, cooperatiu, equitat/gènere, interdisciplinarietat/APS i adaptacions DUA |
+| [`Programació didàctica/`](Programació%20didàctica/) | PD, temporització, **gestió del temps-màquina**, **mapatge competencial oficial**, cooperatiu, equitat/gènere, interdisciplinarietat/APS i adaptacions DUA |
 | [`Classes/`](Classes/) | Les **9 SA** desenvolupades (SA1–SA9) amb exemple resolt |
 | [`Avaluació/`](Avaluació/) | Avaluació inicial, criteris, rúbriques, instruments formatius, diari, auto/coavaluació |
-| [`Normativa/`](Normativa/) | Seguretat, protocol VR, reglament, marc normatiu, autoritzacions |
+| [`Normativa/`](Normativa/) | Seguretat, protocol VR, reglament, marc normatiu, **carta i autoritzacions de famílies** |
 | [`Reptes/`](Reptes/) | Reptes curts 2D / 3D / immersius + insígnies |
 | [`Simulacions/`](Simulacions/) | Eines virtuals per practicar sense material |
 | [`Memòria de treball/`](Memòria%20de%20treball/) | Bitàcola, incidències, inventari, memòria final |
@@ -37,8 +37,9 @@ STEAM i maker, currículum de Catalunya (Decret 175/2022, LOMLOE).
 ## Llicència
 Material original sota **[CC BY-SA 4.0](LICENSE)** (Reconeixement-CompartirIgual): el podeu
 reutilitzar i adaptar citant l'autoria i compartint-lo amb la mateixa llicència.
-⚠️ **Excepció:** els materials de tercers de la carpeta `Recursos/` en conserven els drets els
-seus autors i **no** estan coberts per aquesta llicència (vegeu el fitxer `LICENSE`).
+ℹ️ La carpeta `Recursos/` **no redistribueix material de tercers**: només conté material propi
+(plantilles i enllaços). La formació de tercers s'enllaça a la font (vegeu
+`Recursos/Enllacos_i_tutorials.md`) per respectar-ne l'autoria i la llicència.
 
 ## Notes
 - Tot el material està en **Markdown**, editable i convertible a Word/Google Docs/PDF.

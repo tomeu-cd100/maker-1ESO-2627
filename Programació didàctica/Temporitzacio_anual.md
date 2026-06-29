@@ -57,6 +57,11 @@
 ---
 
 ### Notes
+- ⏱️ **Temps-màquina (clau):** amb 1 làser i 1 impressora 3D per a tot el grup, la fabricació és
+  el coll d'ampolla. Apliqueu sempre les estratègies de
+  `Gestio_temps_maquina_fabricacio.md` (***batch*/*nesting*** a làser, **cua/kanban** d'impressió
+  i **treball paral·lel**) i feu la **matemàtica del temps** abans de cada SA de fabricació
+  (SA1, SA3, SA5, SA6, SA9).
 - Les setmanes amb impressió 3D preveuen temps de màquina; planifiqueu impressions llargues
   fora de l'horari de classe sempre que sigui possible.
 - Els reptes express (`Reptes/`) cobreixen els temps morts i els *fast finishers*.

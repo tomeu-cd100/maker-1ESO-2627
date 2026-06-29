@@ -17,6 +17,7 @@ Respon amb sinceritat (1 = gens / 4 = molt). No hi ha respostes bones o dolentes
 | 6 | Quan una cosa no surt, ho torno a provar sense rendir-me | | | | |
 | 7 | M'agrada explicar a altres el que he fet | | | | |
 | 8 | M'imagino fàcilment com és un objecte per dins / en 3D | | | | |
+| 9 | M'imagino fent coses de tecnologia o disseny en el futur | | | | |
 
 **Preguntes obertes:**
 - Una cosa que m'agradaria fabricar aquest curs: ____________________

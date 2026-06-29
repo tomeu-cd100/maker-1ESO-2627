@@ -49,3 +49,20 @@ Rúbrica transversal aplicable a qualsevol SA. Cada SA pot afegir indicadors esp
 | Seguretat i ús (CA6.1) | Incompleix normes | Compleix amb recordatoris | Compleix les normes de seguretat | Compleix i vetlla per la seguretat del grup |
 | Sostenibilitat (CA6.2) | Malgasta material | Cuida el material amb ajuda | Optimitza material i gestiona residus | Optimitza recursos i proposa millores sostenibles |
 | Ètica digital (CA6.3) | No respecta drets/llicències | Necessita recordatoris | Respecta drets d'imatge i llicències | Actua èticament i ho argumenta |
+
+---
+
+### Eixos transversals — Equitat i APS
+
+> Indicadors **transversals** (T) que fan visibles i avaluables dos eixos conscients de la matèria.
+> No són competències específiques noves: **travessen** diverses CE/CA. Vegeu
+> `Programació didàctica/Equitat_genere_STEAM.md` i `Programació didàctica/Interdisciplinarietat_i_APS.md`.
+
+| Indicador | NA | AS | AN | AE |
+|-----------|----|----|----|----|
+| **TE — Participació equitativa** (travessa CA5.1, CA6.1) | Es desentén de rols o màquines, o monopolitza la tasca | Participa quan se li recorda; rols poc equilibrats | Assumeix tots els rols (inclosa l'operació de màquines) de manera equilibrada | Vetlla perquè tothom de l'equip participi per igual, sense biaixos de gènere/perfil |
+| **TA — Orientació a l'usuari i impacte (APS)** (travessa CA1.1, CA5.3) | No té en compte cap usuari o necessitat real | Pensa en un usuari genèric amb ajuda | Orienta el projecte a una necessitat/usuari concret i ho té present | Manté el contacte amb l'usuari real, lliura la solució i en valora l'impacte |
+
+> **Com s'avaluen:** **TE** sobretot per **observació** (`Full_seguiment_grup.md`, codis +/-/!),
+> a totes les SA; **TA** pel **producte i el portafoli** (evidència de contacte amb l'usuari:
+> entrevista, prova, lliurament), sobretot a **SA6** i **SA9**.

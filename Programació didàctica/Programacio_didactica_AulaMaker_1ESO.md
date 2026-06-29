@@ -41,7 +41,10 @@ educatiu), Bambu Studio, xTool Creative Space, CoSpaces Edu, visor de fotos 360.
 
 > Aquesta optativa, en ser de disseny de centre, pren com a referència les competències
 > específiques i els criteris d'avaluació de *Tecnologia i Digitalització* de 1r cicle d'ESO,
-> adaptats al nivell de 1r i als recursos de fabricació digital.
+> adaptats al nivell de 1r i als recursos de fabricació digital. El **pont explícit** entre la
+> codificació pròpia (CE1–CE6), les competències específiques oficials, les competències clau del
+> perfil de sortida i els vectors del currículum és a `Mapatge_competencial_oficial.md`
+> (recomanat adjuntar-lo per a l'aprovació de centre i la inspecció).
 
 ---
 
@@ -170,16 +173,18 @@ rúbriques) és a la carpeta `Avaluació/`.
 **Instruments:** rúbriques competencials per SA i de producte final, observació d'aula i full
 de seguiment, diari de taller / portafoli de l'alumnat, autoavaluació i coavaluació.
 
-**Ponderació orientativa de la qualificació trimestral:**
-- Producte final i procés de disseny (rúbrica de la SA): **50 %**
-- Diari de taller / portafoli i documentació: **20 %**
-- Treball en equip, actitud, seguretat i autonomia (observació): **20 %**
-- Autoavaluació i coavaluació: **10 %**
+**Pes orientatiu de les evidències** (no és una fórmula de mitjana ponderada, sinó el pes de
+cada evidència dins el judici competencial global; detall a `Avaluació/Criteris_i_qualificacio.md`):
+- Producte final i procés de disseny (rúbrica de la SA): ~**50 %**
+- Diari de taller / portafoli i documentació: ~**20 %**
+- Treball en equip, actitud, seguretat i autonomia (observació): ~**20 %**
+- Autoavaluació i coavaluació: ~**10 %**
 
-Nivells d'assoliment: **NA** (No assolit) · **AS** (Assoliment satisfactori) ·
-**AN** (Assoliment notable) · **AE** (Assoliment excel·lent).
+Nivells d'assoliment (qualificació **qualitativa**, no convertible a nota 1–10): **NA** (No
+assolit) · **AS** (Assoliment satisfactori) · **AN** (Assoliment notable) · **AE** (Assoliment
+excel·lent).
 
-La nota de curs és la valoració global de l'assoliment de les competències (no la mitjana
+La nota de curs és la valoració **global** de l'assoliment de les competències (**no** la mitjana
 aritmètica), prioritzant l'evolució i les darreres evidències.
 
 ---

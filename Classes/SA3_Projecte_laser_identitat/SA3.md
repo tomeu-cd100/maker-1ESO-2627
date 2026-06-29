@@ -71,7 +71,10 @@ encaix (*kerf* / joints) i el treball en equip.
 
 ### Sessió 3 — Fabricació (2 h)
 1. **Preparació i prova (20')**: tallar primer una **mostra d'encaix** per validar mides.
-2. **Fabricació de les peces (90')** per torns; ajustar disseny si l'encaix no quadra (iteració).
+2. **Fabricació de les peces (90')** per torns d'equip; agrupa les peces de cada equip en una
+   passada (*batch*) per estalviar temps de làser (vegeu
+   `Programació didàctica/Gestio_temps_maquina_fabricacio.md`). Ajustar el disseny si l'encaix
+   no quadra (iteració).
 3. **Diari (10')**.
 
 ### Sessió 4 — Muntatge i millora (2 h)
