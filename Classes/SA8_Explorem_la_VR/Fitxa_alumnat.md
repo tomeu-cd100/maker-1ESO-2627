@@ -5,8 +5,9 @@
 ## Part A — Normes d'ús de la VR (signa)
 - [ ] Faré servir les ulleres el **temps indicat** (descansos)
 - [ ] **Netejaré** les ulleres abans i després
-- [ ] Em **assec** o avisaré si em marejo
+- [ ] M'**assec** o avisaré si em marejo
 - [ ] Vigilaré l'**espai** al meu voltant
+- [ ] Si no faig servir les ulleres, **exploro l'escena en pantalla** (és igual de vàlid)
 Signatura: ____________
 
 ## Part B — La VR al món real (anàlisi crítica)

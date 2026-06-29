@@ -27,8 +27,9 @@ Captureu en 360 i munteu un **tour virtual** del centre, visible amb les ulleres
 - [ ] Escenes ordenades   - [ ] Punts de navegació entre espais   - [ ] Títols/etiquetes
 - Ampliació ⭐: àudio o punts d'informació
 
-## Visualització VR
-- Recorda el `Protocol_us_VR`: temps limitat, neteja, seure si et marejes.
+## Visualització
+- Amb ulleres VR per torns (recorda el `Normativa/Protocol_us_VR.md`: temps limitat, neteja,
+  seure si et marejes) **o en pantalla** — explorar el tour a l'ordinador és igual de vàlid.
 
 ## Reflexió
 - Què ha quedat millor del nostre tour? ____________________
