@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Simuladors de disseny i fabricació (2D / 3D) · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../index.html">Inici</a>
+    <a href="../sa.html">Les 9 SA</a>
+    <a href="../docent.html">Docent</a>
+    <a href="../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../index.html">Inici</a> <span class="sep">›</span> <a href="../simulacions/index.html">Simulacions</a> <span class="sep">›</span> <span>Simuladors de disseny i fabricació (2D / 3D)</span></div>
+<main class="content">
+<article class="doc"><h1>Simuladors de disseny i fabricació (2D / 3D)</h1>
+<blockquote>
+<p>Eines per dissenyar i "simular" la fabricació sense gastar material. Comproveu accés i edat.</p>
+</blockquote>
+<h2>Disseny 2D / vectorial (per a la làser)</h2>
+<table>
+<thead>
+<tr>
+<th>Eina</th>
+<th>Per a què</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Inkscape</strong></td>
+<td>Disseny vectorial (eina principal del curs)</td>
+<td>Gratuït, d'escriptori</td>
+</tr>
+<tr>
+<td><strong>xTool Creative Space (XCS)</strong></td>
+<td>Preparar i previsualitzar el treball de la làser</td>
+<td>Mostra capes tall/gravat</td>
+</tr>
+<tr>
+<td><strong>MakerCase / boxes.py</strong></td>
+<td>Generen plànols de <strong>caixes amb encaix</strong> automàticament</td>
+<td>Web; molt útil per a la SA3</td>
+</tr>
+<tr>
+<td><strong>Festi / generadors d'engranatges</strong></td>
+<td>Plantilles de peces tècniques</td>
+<td>Web</td>
+</tr>
+</tbody>
+</table>
+<h2>Modelatge 3D</h2>
+<table>
+<thead>
+<tr>
+<th>Eina</th>
+<th>Per a què</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tinkercad</strong></td>
+<td>Modelatge 3D (eina principal del curs)</td>
+<td>Web, compte educatiu; també <strong>Codeblocks</strong> i circuits</td>
+</tr>
+<tr>
+<td><strong>Bambu Studio</strong></td>
+<td>Laminat per a la Bambu Lab P2S; <strong>previsualització de capes</strong></td>
+<td>Simula temps i material abans d'imprimir</td>
+</tr>
+<tr>
+<td><strong>Thingiverse / Printables</strong></td>
+<td>Banc de models 3D per analitzar i remesclar</td>
+<td>Atenció a les llicències</td>
+</tr>
+</tbody>
+</table>
+<h2>"Simular" la fabricació (sense màquina)</h2>
+<ul>
+<li><strong>Bambu Studio (mode previsualització):</strong> lamina i mira capa a capa, temps i grams → simula
+  la impressió sense imprimir.</li>
+<li><strong>XCS (previsualització):</strong> comprova recorregut de tall/gravat i temps estimat.</li>
+<li>Activitat: <em>"Dissenya, lamina i estima"</em> — predir temps/material i comparar amb el real.</li>
+</ul>
+<h2>Programació i pensament computacional (suport/ampliació)</h2>
+<table>
+<thead>
+<tr>
+<th>Eina</th>
+<th>Per a què</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tinkercad Codeblocks</strong></td>
+<td>Modelar en 3D amb blocs (pensament computacional)</td>
+</tr>
+<tr>
+<td><strong>Scratch</strong></td>
+<td>Lògica i seqüències; pont cap a la programació d'interaccions</td>
+</tr>
+</tbody>
+</table></article>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

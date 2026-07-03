@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exemple resolt (model per a l&#x27;alumnat) — SA3 · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../../index.html">Inici</a>
+    <a href="../../sa.html">Les 9 SA</a>
+    <a href="../../docent.html">Docent</a>
+    <a href="../../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../../index.html">Inici</a> <span class="sep">›</span> <a href="../../classes/index.html">Classes</a> <span class="sep">›</span> <span>SA3 Projecte laser identitat</span> <span class="sep">›</span> <span>Exemple resolt (model per a l&#x27;alumnat) — SA3</span></div>
+<main class="content">
+<article class="doc"><h1>Exemple resolt (model per a l'alumnat) — SA3</h1>
+<blockquote>
+<p><strong>Nota docent:</strong> projecte d'equip. Useu aquest model per mostrar <strong>com es documenta un
+projecte</strong> i com és una <strong>unió per encaix</strong> ben resolta. Ideal per comentar la <em>cultura del
+prototip</em> (la primera versió no va encaixar... i això és normal).</p>
+</blockquote>
+<hr />
+<h2>🔑 Exemple de producte: organitzador d'escriptori "Equip Galàctic"</h2>
+<pre><code>   _____________________
+  |  []   []   []  []   |   &lt;- compartiments per a bolígrafs
+  |  ___________________|
+  |_| porta-clips |_____|
+   ^ peces unides per encaix (ranures = gruix de la fusta, 3 mm)
+   Mida: 120 x 80 x 70 mm · DM 3 mm · 5 peces
+</code></pre>
+<p><strong>Per què és un bon producte (🌟):</strong>
+- Resol una <strong>necessitat real</strong> (endreçar la taula d'estudi).
+- Les <strong>5 peces encaixen</strong> sense cola gràcies a les ranures a mida del gruix.
+- Té <strong>identitat</strong>: el nom de l'equip gravat i un patró d'estrelles.</p>
+<hr />
+<h2>📝 Exemple de fitxa d'equip (emplenada)</h2>
+<ul>
+<li><strong>Necessitat:</strong> a casa tenim els bolis i clips escampats.</li>
+<li><strong>Requisits:</strong> ha de tenir ≥3 compartiments, cabre en una cantonada, muntar-se sense cola.</li>
+<li><strong>Idees:</strong> (1) safata plana (2) torre vertical (3) organitzador amb calaix → <strong>triem la 1</strong>
+  perquè és més estable i fàcil d'encaixar.</li>
+<li><strong>Peces:</strong> base, 2 laterals, 2 separadors. <strong>Material:</strong> DM 3 mm.</li>
+<li><strong>Rols:</strong> Aina (disseny), Pol (operador làser), Nora (documentació), Hug (coordinació).</li>
+</ul>
+<hr />
+<h2>📔 Exemple d'entrada al diari (ben feta)</h2>
+<blockquote>
+<p><strong>Sessió 3:</strong> abans de tallar-ho tot vam fer una <strong>mostra d'encaix</strong> (dos trossets). La
+primera ranura era de 3,2 mm i quedava fluixa → la vam ajustar a <strong>3,0 mm</strong> i va encaixar
+perfecte. Després vam tallar totes les peces. <strong>Aprenentatge:</strong> sempre val la pena provar una
+mostra abans! <strong>Evidència:</strong> [foto de la mostra i de l'organitzador muntat].</p>
+</blockquote>
+<p><strong>Per què és bona:</strong> documenta una <strong>iteració real</strong> (provar → fallar → ajustar → encertar),
+que és el cor del pensament de disseny.</p>
+<hr />
+<h2>⚠️ Contraexemple</h2>
+<ul>
+<li>Tallar les 50 peces sense provar una mostra → si el gruix no quadra, es malgasta tot.</li>
+<li>"Projecte" d'una sola peça plana sense unions → no compleix el repte.</li>
+<li>Repartir-se la feina sense coordinar les <strong>mides comunes</strong> → les peces no encaixen entre si.</li>
+</ul></article>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

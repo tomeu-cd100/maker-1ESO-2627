@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alumnat · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="index.html">Inici</a>
+    <a href="sa.html">Les 9 SA</a>
+    <a href="docent.html">Docent</a>
+    <a href="alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="index.html">Inici</a> <span class="sep">›</span> <span>Alumnat</span></div>
+<main class="content">
+
+<h1>🧑‍🎓 Per a l'alumnat</h1>
+<p class="lead">Tot el que fas servir tu: les fitxes de cada repte, com t'avaluaran
+(sense sorpreses!) i el joc de carnets i insígnies.</p>
+<h2>✏️ Les fitxes de cada SA</h2>
+<div class="chips"><a class="chip" href="classes/sa1_benvinguts_aula_maker/fitxa_alumnat.html">SA1</a>
+<a class="chip" href="classes/sa2_dissenyem_en_2d/fitxa_alumnat.html">SA2</a>
+<a class="chip" href="classes/sa3_projecte_laser_identitat/fitxa_alumnat.html">SA3</a>
+<a class="chip" href="classes/sa4_del_2d_al_3d/fitxa_alumnat.html">SA4</a>
+<a class="chip" href="classes/sa5_modelatge_3d_funcional/fitxa_alumnat.html">SA5</a>
+<a class="chip" href="classes/sa6_repte_disseny_3d/fitxa_alumnat.html">SA6</a>
+<a class="chip" href="classes/sa7_captura_360/fitxa_alumnat.html">SA7</a>
+<a class="chip" href="classes/sa8_explorem_la_vr/fitxa_alumnat.html">SA8</a>
+<a class="chip" href="classes/sa9_projecte_final/fitxa_alumnat.html">SA9</a></div>
+<h2>Els teus documents</h2>
+<div class="grid"><a class="card" href="avaluacio/diari_de_taller.html"><div class="card-icon">📔</div><div><h3>El diari de taller </h3><p>La teva llibreta maker: una entrada per sessió</p></div></a>
+<a class="card" href="avaluacio/avaluacio_explicada_alumnat.html"><div class="card-icon">🔍</div><div><h3>Com m&#x27;avaluaran? </h3><p>Tot el sistema d&#x27;avaluació explicat en una pàgina</p></div></a>
+<a class="card" href="avaluacio/rubrica_alumnat_amigable.html"><div class="card-icon">🌱</div><div><h3>Rúbrica amigable </h3><p>Els nivells 🌱🙂💪🌟 en primera persona</p></div></a>
+<a class="card" href="reptes/passaport_maker.html"><div class="card-icon">🛠️</div><div><h3>Passaport maker </h3><p>Carnets, insígnies i segells: tot el joc en un paper</p></div></a>
+<a class="card" href="reptes/index_reptes.html"><div class="card-icon">🏅</div><div><h3>Reptes express </h3><p>Reptes curts 2D, 3D i immersius amb insígnies</p></div></a>
+<a class="card" href="reptes/projecte_personal.html"><div class="card-icon">🚀</div><div><h3>El meu objecte del curs </h3><p>El projecte personal que creix tot l&#x27;any</p></div></a>
+<a class="card" href="normativa/normes_seguretat_taller.html"><div class="card-icon">🛡️</div><div><h3>Normes de seguretat </h3><p>Lectura obligatòria abans de tocar màquines</p></div></a>
+<a class="card" href="normativa/protocol_us_vr.html"><div class="card-icon">🥽</div><div><h3>Protocol d&#x27;ús de la VR </h3><p>Temps, higiene i seguretat amb les ulleres</p></div></a>
+<a class="card" href="programacio-didactica/grans_idees_maker.html"><div class="card-icon">🧭</div><div><h3>Les 5 Grans Idees </h3><p>El que quedarà quan oblidis els menús d&#x27;Inkscape</p></div></a>
+<a class="card" href="programacio-didactica/museu_dels_errors.html"><div class="card-icon">🏛️</div><div><h3>El Museu dels Errors </h3><p>Aquí els errors valen punts si n&#x27;aprenem</p></div></a></div>
+
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

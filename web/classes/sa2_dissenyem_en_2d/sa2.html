@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SA2 — «Dissenyem en 2D» · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../../index.html">Inici</a>
+    <a href="../../sa.html">Les 9 SA</a>
+    <a href="../../docent.html">Docent</a>
+    <a href="../../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../../index.html">Inici</a> <span class="sep">›</span> <a href="../../classes/index.html">Classes</a> <span class="sep">›</span> <span>SA2 Dissenyem en 2D</span> <span class="sep">›</span> <span>SA2 — «Dissenyem en 2D»</span></div>
+<main class="content">
+<article class="doc"><h1>SA2 — «Dissenyem en 2D»</h1>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Matèria</strong></td>
+<td>Aula Maker (optativa)</td>
+</tr>
+<tr>
+<td><strong>Nivell</strong></td>
+<td>1r ESO</td>
+</tr>
+<tr>
+<td><strong>Trimestre</strong></td>
+<td>1r</td>
+</tr>
+<tr>
+<td><strong>Temporització</strong></td>
+<td>3 sessions de 2 h (setmanes 4–6)</td>
+</tr>
+<tr>
+<td><strong>Eix</strong></td>
+<td>Disseny vectorial (Inkscape) + fabricació làser</td>
+</tr>
+<tr>
+<td><strong>Producte final</strong></td>
+<td>Un <strong>marcapàgines o etiqueta personalitzada</strong> tallat i gravat a làser</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>1. Descripció (context + repte)</h2>
+<p>Després del primer contacte, ara aprofundim en el <strong>disseny vectorial</strong>, l'eina clau per
+fabricar a làser. Treballarem amb nodes, formes i text, i descobrirem com una imatge es
+converteix en línies que la màquina pot tallar i gravar.</p>
+<blockquote>
+<p><strong>Repte:</strong> «Dissenya un <strong>marcapàgines (o etiqueta)</strong> personalitzat per a tu, un familiar o
+per regalar, combinant tall i gravat, amb un missatge i una imatge vectoritzada.»</p>
+</blockquote>
+<h2>🎯 Pregunta guia</h2>
+<blockquote>
+<p>«Com converteixo una idea en un disseny vectorial que la làser pugui tallar i gravar?»</p>
+<p>🧭 <strong>Gran idea 3 — Mesura dues vegades, fabrica una:</strong> mides exactes i aprofitament de la
+planxa (<a class="doclink" href="../../programacio-didactica/grans_idees_maker.html"><code>Programació didàctica/Grans_idees_maker.md</code></a>).</p>
+</blockquote>
+<h2>👁️ Aprenentatge visible (per a l'alumnat)</h2>
+<p><strong>En acabar aquesta SA seré capaç de…</strong>
+- Crear formes noves amb operacions de camí (unió, diferència).
+- Convertir text a camí i vectoritzar una imatge.
+- Preparar les capes de tall i de gravat.
+- Aprofitar bé el material.</p>
+<p><strong>Sabré que ho he aconseguit si… (criteris d'èxit)</strong>
+- [ ] El meu marcapàgines té forma, missatge i imatge vectoritzada.
+- [ ] El text està <strong>convertit a camí</strong>.
+- [ ] Les capes tall/gravat són correctes.
+- [ ] He aprofitat bé la planxa (poc malbaratament).</p>
+<h2>🔑 Vocabulari clau (word wall)</h2>
+<p><code>node</code> · <code>camí</code> · <code>operació booleana</code> · <code>vectoritzar</code> · <code>capa</code> · <code>ompliment</code> · <code>nesting (aprofitar la planxa)</code></p>
+<h2>2. Competències específiques i criteris avaluats</h2>
+<ul>
+<li><strong>CE1</strong> → CA1.2, CA1.4</li>
+<li><strong>CE2</strong> → CA2.1, CA2.3</li>
+<li><strong>CE3</strong> → CA3.1, CA3.3</li>
+<li><strong>CE5</strong> → CA5.2</li>
+<li><strong>CE6</strong> → CA6.1, CA6.2</li>
+</ul>
+<h2>3. Sabers</h2>
+<ul>
+<li>Disseny vectorial: nodes, camins, unió/diferència de formes, alineació, text a camí.</li>
+<li><strong>Vectorització</strong> d'una imatge (traçat de mapa de bits).</li>
+<li>Diferència tall/gravat; gravat de línia vs gravat d'ompliment.</li>
+<li>Optimització de material (aprofitar la planxa, <em>nesting</em> bàsic).</li>
+</ul>
+<h2>4. Seqüència de sessions</h2>
+<h3>Sessió 1 — Inkscape a fons (2 h)</h3>
+<ol>
+<li><strong>Repàs i reptes guiats (30')</strong>: formes, duplicar, alinear, agrupar.</li>
+<li><strong>Operacions de camí (40')</strong>: unió, diferència, intersecció (crear formes noves).</li>
+<li><strong>Text i tipografia (25')</strong>: text, convertir text a camí (per a la làser), text a camí corb.</li>
+<li><strong>Diari de taller (15')</strong>.</li>
+</ol>
+<h3>Sessió 2 — De la imatge al vector + disseny del producte (2 h)</h3>
+<ol>
+<li><strong>Vectorització (30')</strong>: importar una imatge senzilla i traçar-la (Camí → Vectoritza mapa de bits).</li>
+<li><strong>Disseny del marcapàgines (70')</strong>: forma base (~150×50 mm), missatge gravat, imatge
+   vectoritzada, forat per a la borla. Definir capes tall/gravat.</li>
+<li><strong>Optimització i revisió (20')</strong>: comprovar mides, gruixos de línia, aprofitament de material.</li>
+</ol>
+<blockquote>
+<p>⏸️ <strong>Mínim d'avui</strong>: forma + missatge (text a camí) + forat, amb capes correctes — si la
+vectorització pròpia no surt, es pot agafar una imatge del banc de plantilles i tothom
+fabrica igualment.</p>
+</blockquote>
+<h3>Sessió 3 — Fabricació i avaluació (2 h)</h3>
+<ol>
+<li><strong>Preparació a XCS (20')</strong>: importar, assignar tall/gravat, paràmetres segons material.</li>
+<li><strong>Fabricació per <em>batch</em> (75')</strong>: agrupa els dissenys en una sola planxa (<em>nesting</em>) per
+   estalviar temps de làser i material; tall i gravat supervisat. Reptes express mentre s'espera
+   (vegeu <a class="doclink" href="../../programacio-didactica/gestio_temps_maquina_fabricacio.html"><code>Programació didàctica/Gestio_temps_maquina_fabricacio.md</code></a>).</li>
+<li><strong>Postprocés (10')</strong>: netejar, posar la borla.</li>
+<li><strong>Galeria i coavaluació (15')</strong>: <a class="doclink" href="../../avaluacio/autoavaluacio_coavaluacio.html"><code>Avaluació/Autoavaluacio_coavaluacio.md</code></a>.</li>
+</ol>
+<h2>5. Producte final</h2>
+<p>Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, documentat al diari.</p>
+<h2>6. Atenció a la diversitat (DUA)</h2>
+<blockquote>
+<p>📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
+<a class="doclink" href="../../programacio-didactica/dua_adaptacions_sa.html"><code>Programació didàctica/DUA_adaptacions_SA.md</code></a>.
+- Banc de plantilles i d'imatges senzilles per vectoritzar.
+- Repte base (forma + text) i ampliació ⭐ (forma complexa, patró, calat).
+- Fitxa visual pas a pas i vídeos curts (tutorials validats a <a class="doclink" href="../../recursos/enllacos_i_tutorials.html"><code>Recursos/Enllacos_i_tutorials.md</code></a>).</p>
+</blockquote>
+<h2>7. Recursos i materials</h2>
+<ul>
+<li>Inkscape + xTool Creative Space; làser xTool S1; fusta fina / cartolina gruixuda; borles/cordó.</li>
+<li>Tutorials d'Inkscape i vectorització validats a <a class="doclink" href="../../recursos/enllacos_i_tutorials.html"><code>Recursos/Enllacos_i_tutorials.md</code></a>.</li>
+<li>Plantilla base: <code>Recursos/Plantilles_disseny/marcapagines_SA2.svg</code>.</li>
+<li><a class="doclink" href="../../classes/sa2_dissenyem_en_2d/fitxa_alumnat.html"><code>Fitxa_alumnat.md</code></a> · <a class="doclink" href="../../classes/sa2_dissenyem_en_2d/rubrica_sa2.html"><code>Rubrica_SA2.md</code></a>.</li>
+</ul>
+<h2>🧠 Metacognició i tiquet de sortida</h2>
+<blockquote>
+<p>♻️ <strong>Una sola reflexió per sessió:</strong> la rutina o el tiquet <strong>s'integren al diari</strong> (ocupen
+una de les seves preguntes) — trieu-ne una per sessió, mai totes.
+<strong>Rutina de pensament:</strong> <em>Abans pensava / Ara penso</em> sobre què vol dir dissenyar per a una màquina.</p>
+</blockquote>
+<p><strong>Tiquet de sortida:</strong>
+1. El truc d'Inkscape que més m'ha servit: …
+2. Què faria diferent al meu disseny: …
+3. Com em sento amb el disseny vectorial? 🔴 🟡 🟢</p>
+<h2>8. Avaluació — què s'avalua, amb què i qui</h2>
+<blockquote>
+<p>SA curta → <strong>rúbrica reduïda</strong> (<a class="doclink" href="../../avaluacio/criteris_i_qualificacio.html"><code>Avaluació/Criteris_i_qualificacio.md</code></a> §2·bis). La versió
+per a l'alumnat és a la fitxa («Com m'avaluaran?»).</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Evidència (sessió d'on surt)</th>
+<th>Instrument</th>
+<th>Qui avalua</th>
+<th>Criteris</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Marcapàgines</strong> amb text a camí i imatge vectoritzada (S2-S3)</td>
+<td>Checklist de criteris d'èxit + fila CA2.1 de <a class="doclink" href="../../classes/sa2_dissenyem_en_2d/rubrica_sa2.html"><code>Rubrica_SA2.md</code></a></td>
+<td>Docent + autoaval.</td>
+<td>CA2.1, CA2.3, CA3.1</td>
+</tr>
+<tr>
+<td><strong>Aprofitament del material</strong> a la planxa (S2-S3)</td>
+<td>Fila CA6.2 de la rúbrica (observant el nesting)</td>
+<td>Docent</td>
+<td>CA6.2</td>
+</tr>
+<tr>
+<td><strong>Diari de taller</strong> (1 entrada/sessió + tancament amb 🎯)</td>
+<td>Pauta del diari</td>
+<td>Docent</td>
+<td>CA5.2, CA1.4</td>
+</tr>
+<tr>
+<td><strong>Treball i seguretat</strong> (contínua)</td>
+<td><a class="doclink" href="../../avaluacio/full_seguiment_grup.html"><code>Avaluació/Full_seguiment_grup.md</code></a> (+/-/!)</td>
+<td>Els dos docents</td>
+<td>CA6.1</td>
+</tr>
+<tr>
+<td><strong>Autoavaluació i galeria</strong> (S3)</td>
+<td><a class="doclink" href="../../avaluacio/autoavaluacio_coavaluacio.html"><code>Avaluació/Autoavaluacio_coavaluacio.md</code></a></td>
+<td>Alumne + companys</td>
+<td>contrast</td>
+</tr>
+</tbody>
+</table>
+<p><strong>En tancar la SA:</strong> nivell de les CE treballades → <a class="doclink" href="../../avaluacio/full_progres_competencial.html"><code>Avaluació/Full_progres_competencial.md</code></a>.</p></article>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exemple resolt (model per a l&#x27;alumnat) — SA9 · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../../index.html">Inici</a>
+    <a href="../../sa.html">Les 9 SA</a>
+    <a href="../../docent.html">Docent</a>
+    <a href="../../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../../index.html">Inici</a> <span class="sep">›</span> <a href="../../classes/index.html">Classes</a> <span class="sep">›</span> <span>SA9 Projecte final</span> <span class="sep">›</span> <span>Exemple resolt (model per a l&#x27;alumnat) — SA9</span></div>
+<main class="content">
+<article class="doc"><h1>Exemple resolt (model per a l'alumnat) — SA9</h1>
+<blockquote>
+<p><strong>Nota docent:</strong> model d'un <strong>projecte integrador</strong> que combina fabricació i contingut
+immersiu, i d'un <strong>portafoli final</strong> ben fet. Útil per fixar el llistó de la Fira Aula Maker.</p>
+</blockquote>
+<hr />
+<h2>🔑 Exemple de producte: estand "Viatge a la Lluna"</h2>
+<pre><code>   ESTAND &quot;VIATGE A LA LLUNA&quot;
+   ┌───────────────────────────────┐
+   │  🌙 maqueta de la Lluna (3D)   │  &lt;- impresa en 3D
+   │  🚀 cohet gravat (làser)       │  &lt;- tallat/gravat a làser
+   │  🥽 tour 360 de &quot;la superfície&quot;│  &lt;- experiència immersiva (ulleres VR)
+   │  🪧 cartells informatius        │
+   └───────────────────────────────┘
+   Integra: 3D + làser + 360/VR  ✓
+</code></pre>
+<p><strong>Per què és un bon producte (🌟):</strong>
+- <strong>Integra les 3 tecnologies</strong> del curs (objecte 3D + peça làser + experiència 360/VR).
+- Té un <strong>fil temàtic</strong> clar i cartells que expliquen l'estand.
+- La presentació a la Fira és <strong>assajada</strong> i atractiva.</p>
+<hr />
+<h2>📝 Exemple de pla de projecte (emplenat)</h2>
+<table>
+<thead>
+<tr>
+<th>Element</th>
+<th style="text-align: center;">Tecnologia</th>
+<th>Responsable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Maqueta de la Lluna</td>
+<td style="text-align: center;">Impressió 3D</td>
+<td>Aran</td>
+</tr>
+<tr>
+<td>Cohet decoratiu</td>
+<td style="text-align: center;">Làser</td>
+<td>Mireia</td>
+</tr>
+<tr>
+<td>Tour 360 "superfície lunar"</td>
+<td style="text-align: center;">Càmera 360 / VR</td>
+<td>Pau</td>
+</tr>
+<tr>
+<td>Cartells i guió</td>
+<td style="text-align: center;">Tots</td>
+<td>Júlia (coord.)</td>
+</tr>
+</tbody>
+</table>
+<p>Calendari: S2 disseny i fabricació · S3 component immersiu · S4 muntatge i assaig · S5 Fira.</p>
+<hr />
+<h2>📔 Exemple de portafoli final (fragment)</h2>
+<blockquote>
+<p><strong>El meu viatge maker:</strong> <em>Abans del curs</em> no sabia dissenyar res digital. <em>Ara sé</em> fer peces
+a làser i en 3D i muntar un tour 360. <em>Després</em> vull aprendre a programar les ulleres.
+<strong>El projecte de què estic més orgullós/a:</strong> l'estand de la Lluna, perquè vam combinar-ho tot
+i a la Fira la gent feia cua per provar les ulleres. <strong>El més difícil:</strong> quadrar els temps
+d'impressió amb la resta de tasques → ho vam resoldre imprimint la maqueta de nit.
+<strong>Evidència:</strong> [fotos de l'estand, del procés i del públic].</p>
+</blockquote>
+<p><strong>Per què és bo:</strong> fa una <strong>síntesi reflexiva del curs</strong> (rutina <em>Abans / Ara / Després</em>) i
+documenta el projecte amb evidències del <strong>procés</strong>, no només del resultat.</p>
+<hr />
+<h2>⚠️ Contraexemple</h2>
+<ul>
+<li>Estand amb una sola tecnologia (només un objecte imprès) → no és integrador.</li>
+<li>Deixar el component immersiu per a l'últim dia i no acabar-lo.</li>
+<li>Portafoli només amb la foto final, sense procés ni reflexió.</li>
+</ul></article>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

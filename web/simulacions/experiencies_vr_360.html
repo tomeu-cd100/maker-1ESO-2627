@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Experiències VR i 360 — catàleg per a l&#x27;aula · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../index.html">Inici</a>
+    <a href="../sa.html">Les 9 SA</a>
+    <a href="../docent.html">Docent</a>
+    <a href="../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../index.html">Inici</a> <span class="sep">›</span> <a href="../simulacions/index.html">Simulacions</a> <span class="sep">›</span> <span>Experiències VR i 360 — catàleg per a l&#x27;aula</span></div>
+<main class="content">
+<article class="doc"><h1>Experiències VR i 360 — catàleg per a l'aula</h1>
+<blockquote>
+<p>Catàleg orientatiu d'eines i tipus d'experiències immersives per a les SA7–SA9. <strong>Verifiqueu
+sempre l'edat recomanada, l'idioma, el cost i la compatibilitat amb les vostres ulleres</strong>, i
+seguiu el <a class="doclink" href="../normativa/protocol_us_vr.html"><code>Normativa/Protocol_us_VR.md</code></a>.</p>
+</blockquote>
+<h2>Eines de creació immersiva</h2>
+<table>
+<thead>
+<tr>
+<th>Eina</th>
+<th>Per a què</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>CoSpaces Edu</strong></td>
+<td>Crear escenes 3D/VR (eina principal de la SA8)</td>
+<td>Web; blocs de codi (CoBlocks) per ampliar; compte educatiu</td>
+</tr>
+<tr>
+<td><strong>Visor de tours 360</strong></td>
+<td>Muntar i veure tours a partir de fotos 360</td>
+<td>Trieu un que exporti a un format compatible amb les ulleres</td>
+</tr>
+<tr>
+<td><strong>Programari de la càmera 360</strong></td>
+<td>Transferir i editar les captures</td>
+<td>Segons el model de càmera del centre</td>
+</tr>
+</tbody>
+</table>
+<h2>Tipus d'experiències per explorar (consum crític)</h2>
+<table>
+<thead>
+<tr>
+<th>Tipus</th>
+<th>Exemple d'ús educatiu</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Tours de llocs</strong></td>
+<td>Visites virtuals a ciutats, monuments, espais naturals</td>
+</tr>
+<tr>
+<td><strong>Museus i art</strong></td>
+<td>Recórrer museus i col·leccions en 360</td>
+</tr>
+<tr>
+<td><strong>Ciència/natura</strong></td>
+<td>Cos humà, sistema solar, fons marí</td>
+</tr>
+<tr>
+<td><strong>Oficis i indústria</strong></td>
+<td>Veure entorns de treball reals</td>
+</tr>
+<tr>
+<td><strong>Creacions de l'alumnat</strong></td>
+<td>Els tours (SA7) i escenes (SA8) del propi grup</td>
+</tr>
+</tbody>
+</table>
+<h2>Activitats associades</h2>
+<ul>
+<li><strong>Anàlisi crítica (SA8):</strong> després d'explorar, omplir la fitxa d'usos, beneficis i riscos.</li>
+<li><strong>De consumidor a creador:</strong> comparar una experiència professional amb la pròpia escena.</li>
+<li><strong>Accessibilitat:</strong> sempre una <strong>alternativa en pantalla</strong> per a qui no usi ulleres.</li>
+</ul>
+<blockquote>
+<p>Recomanació: mantingueu una llista curta i validada d'experiències concretes (amb enllaç i
+edat) revisada cada curs, ja que la disponibilitat canvia.</p>
+</blockquote></article>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

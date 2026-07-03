@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Registre d&#x27;incidències i manteniment del maquinari · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../index.html">Inici</a>
+    <a href="../sa.html">Les 9 SA</a>
+    <a href="../docent.html">Docent</a>
+    <a href="../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../index.html">Inici</a> <span class="sep">›</span> <a href="../memoria-de-treball/index.html">Memòria de treball</a> <span class="sep">›</span> <span>Registre d&#x27;incidències i manteniment del maquinari</span></div>
+<main class="content">
+<article class="doc"><h1>Registre d'incidències i manteniment del maquinari</h1>
+<blockquote>
+<p>Anoteu aquí qualsevol incidència, reparació o tasca de manteniment de les màquines. Ajuda a
+diagnosticar problemes recurrents i a planificar el manteniment.</p>
+</blockquote>
+<h2>Registre d'incidències</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Màquina</th>
+<th>Incidència</th>
+<th>Acció presa</th>
+<th style="text-align: center;">Resolt?</th>
+<th>Responsable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td style="text-align: center;"></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h2>Manteniment preventiu</h2>
+<h3>Talladora làser (xTool S1)</h3>
+<ul>
+<li class="task">☐ Neteja de lents i miralls — <em>periodicitat:</em> ______</li>
+<li class="task">☐ Comprovació/neteja de l'extracció de fums — ______</li>
+<li class="task">☐ Neteja de la base i restes — ______</li>
+<li class="task">☐ Revisió de la cinta/guies — ______</li>
+</ul>
+<h3>Impressora 3D (Bambu Lab P2S)</h3>
+<ul>
+<li class="task">☐ Neteja de la placa d'impressió — ______</li>
+<li class="task">☐ Comprovació del broquet (obstruccions) — ______</li>
+<li class="task">☐ Lubricació de guies — ______</li>
+<li class="task">☐ Actualització de firmware / Bambu Studio — ______</li>
+<li class="task">☐ Estoc de filament — ______</li>
+</ul>
+<h3>Ulleres VR</h3>
+<ul>
+<li class="task">☐ Neteja i higiene — <em>després de cada ús</em></li>
+<li class="task">☐ Càrrega de bateries — ______</li>
+<li class="task">☐ Actualitzacions de programari — ______</li>
+</ul>
+<h3>Càmera 360</h3>
+<ul>
+<li class="task">☐ Càrrega i estat de la bateria — ______</li>
+<li class="task">☐ Neteja de lents — ______</li>
+<li class="task">☐ Buidatge de la targeta — ______</li>
+</ul>
+<h2>Historial de manteniment</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Màquina</th>
+<th>Tasca realitzada</th>
+<th>Responsable</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></article>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

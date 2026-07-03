@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Recursos · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../index.html">Inici</a>
+    <a href="../sa.html">Les 9 SA</a>
+    <a href="../docent.html">Docent</a>
+    <a href="../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../index.html">Inici</a> <span class="sep">›</span> <span>Recursos</span></div>
+<main class="content">
+<h1>🧰 Recursos</h1>
+<div class='grid'><a class="card" href="../recursos/00_index_recursos.html"><div class="card-icon">🧰</div><div><h3>Índex de recursos — Aula Maker</h3><p>00_Index_recursos.md</p></div></a>
+<a class="card" href="../recursos/enllacos_i_tutorials.html"><div class="card-icon">🧰</div><div><h3>Enllaços i tutorials validats — Aula Maker</h3><p>Enllacos_i_tutorials.md</p></div></a>
+<a class="card" href="../recursos/plantilles_disseny/readme.html"><div class="card-icon">🧰</div><div><h3>Plantilles de disseny — Aula Maker</h3><p>README.md</p></div></a></div>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

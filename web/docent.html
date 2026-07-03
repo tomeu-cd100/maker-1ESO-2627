@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Docent · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="index.html">Inici</a>
+    <a href="sa.html">Les 9 SA</a>
+    <a href="docent.html">Docent</a>
+    <a href="alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="index.html">Inici</a> <span class="sep">›</span> <span>Docent</span></div>
+<main class="content">
+
+<h1>👩‍🏫 Per al professorat</h1>
+<p class="lead">El material complet de l'optativa: comença per la guia d'inici i tingues
+sempre a mà la gestió del temps-màquina — és el que fa que tot rutlli.</p>
+<h2>Imprescindibles</h2>
+<div class="grid"><a class="card" href="00_guia_inici_docent.html"><div class="card-icon">🚀</div><div><h3>Guia d&#x27;inici docent </h3><p>Per on començar: la posada en marxa completa</p></div></a>
+<a class="card" href="00_guia_inici_codocent.html"><div class="card-icon">👥</div><div><h3>Guia del co-docent </h3><p>Una pàgina per al company de desdoblament</p></div></a>
+<a class="card" href="programacio-didactica/codocencia_desdoblament.html"><div class="card-icon">🤝</div><div><h3>Codocència i desdoblament </h3><p>Rotació, estacions i repartiment d&#x27;avaluació</p></div></a>
+<a class="card" href="programacio-didactica/gestio_temps_maquina_fabricacio.html"><div class="card-icon">⏱️</div><div><h3>Gestió del temps-màquina </h3><p>Batch, cua, paral·lel: el coll d&#x27;ampolla resolt</p></div></a>
+<a class="card" href="programacio-didactica/temporitzacio_anual.html"><div class="card-icon">🗓️</div><div><h3>Temporització anual </h3><p>Setmana a setmana, amb contingències</p></div></a>
+<a class="card" href="avaluacio/criteris_i_qualificacio.html"><div class="card-icon">📊</div><div><h3>Criteris i qualificació </h3><p>El mapa operatiu de l&#x27;avaluació</p></div></a></div>
+<h2>Tot el material, per carpetes</h2>
+<div class="grid"><a class="card" href="programacio-didactica/index.html"><div class="card-icon">📚</div><div><h3>Programació didàctica </h3><p>PD, temporització, temps-màquina, codocència, DUA…</p></div></a>
+<a class="card" href="classes/index.html"><div class="card-icon">🧩</div><div><h3>Classes </h3><p>Les 9 SA amb fitxa, rúbrica i exemple resolt</p></div></a>
+<a class="card" href="avaluacio/index.html"><div class="card-icon">📊</div><div><h3>Avaluació </h3><p>Criteris, rúbriques, full de progrés, instruments</p></div></a>
+<a class="card" href="normativa/index.html"><div class="card-icon">🛡️</div><div><h3>Normativa </h3><p>Seguretat, carnets, protocol VR, famílies</p></div></a>
+<a class="card" href="reptes/index.html"><div class="card-icon">🏅</div><div><h3>Reptes </h3><p>Reptes express, passaport, projecte personal</p></div></a>
+<a class="card" href="simulacions/index.html"><div class="card-icon">💻</div><div><h3>Simulacions </h3><p>Practicar sense material</p></div></a>
+<a class="card" href="memoria-de-treball/index.html"><div class="card-icon">🗂️</div><div><h3>Memòria de treball </h3><p>Bitàcola, incidències, inventari, memòria</p></div></a>
+<a class="card" href="recursos/index.html"><div class="card-icon">🧰</div><div><h3>Recursos </h3><p>Plantilles pròpies i enllaços validats</p></div></a></div>
+
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

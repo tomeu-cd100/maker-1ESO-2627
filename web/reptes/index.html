@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reptes · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../index.html">Inici</a>
+    <a href="../sa.html">Les 9 SA</a>
+    <a href="../docent.html">Docent</a>
+    <a href="../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../index.html">Inici</a> <span class="sep">›</span> <span>Reptes</span></div>
+<main class="content">
+<h1>🏅 Reptes</h1>
+<div class='grid'><a class="card" href="../reptes/index_reptes.html"><div class="card-icon">🏅</div><div><h3>Reptes maker — Índex</h3><p>Index_reptes.md</p></div></a>
+<a class="card" href="../reptes/passaport_maker.html"><div class="card-icon">🏅</div><div><h3>Passaport maker — tot el joc en un sol paper</h3><p>Passaport_maker.md</p></div></a>
+<a class="card" href="../reptes/projecte_personal.html"><div class="card-icon">🏅</div><div><h3>El meu objecte del curs — projecte personal longitudinal (opcional)</h3><p>Projecte_personal.md</p></div></a>
+<a class="card" href="../reptes/reptes_3d.html"><div class="card-icon">🏅</div><div><h3>Reptes 3D (Tinkercad)</h3><p>Reptes_3D.md</p></div></a>
+<a class="card" href="../reptes/reptes_express_2d.html"><div class="card-icon">🏅</div><div><h3>Reptes express 2D (Inkscape / làser)</h3><p>Reptes_express_2D.md</p></div></a>
+<a class="card" href="../reptes/reptes_immersius_360_vr.html"><div class="card-icon">🏅</div><div><h3>Reptes immersius (360 i VR)</h3><p>Reptes_immersius_360_VR.md</p></div></a></div>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

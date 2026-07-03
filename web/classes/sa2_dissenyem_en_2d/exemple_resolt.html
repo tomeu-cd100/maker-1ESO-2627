@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exemple resolt (model per a l&#x27;alumnat) — SA2 · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../../index.html">Inici</a>
+    <a href="../../sa.html">Les 9 SA</a>
+    <a href="../../docent.html">Docent</a>
+    <a href="../../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../../index.html">Inici</a> <span class="sep">›</span> <a href="../../classes/index.html">Classes</a> <span class="sep">›</span> <span>SA2 Dissenyem en 2D</span> <span class="sep">›</span> <span>Exemple resolt (model per a l&#x27;alumnat) — SA2</span></div>
+<main class="content">
+<article class="doc"><h1>Exemple resolt (model per a l'alumnat) — SA2</h1>
+<blockquote>
+<p><strong>Nota docent:</strong> projecta'l després del primer disseny i fes que l'alumnat <strong>identifiqui</strong>
+quins criteris d'èxit compleix abans d'explicar-ho tu (apropiació dels criteris).</p>
+</blockquote>
+<hr />
+<h2>🔑 Exemple de producte: el marcapàgines del Marc</h2>
+<pre><code> +------------------------------+
+ |   ( o )  &lt;- forat per a la borla
+ |   .----.                     |
+ |   | ☼  |  &lt;- imatge vectoritzada (un sol) gravada
+ |   '----'                     |
+ |                              |
+ |   &quot;Llegir és viatjar&quot;  &lt;-- missatge gravat (text → camí)
+ |                              |
+ |   [marc interior gravat]     |
+ +------------------------------+
+   Mida: 50 x 150 mm · DM 3 mm
+   TALL: contorn + forat · GRAVAT: sol + missatge + marc
+</code></pre>
+<p><strong>Per què és un bon producte (🌟):</strong>
+- Conté <strong>forma + missatge + imatge vectoritzada</strong> (els 3 elements).
+- El text està <strong>convertit a camí</strong> (no es desmuntarà a la làser).
+- Aprofita bé la planxa: el disseny és compacte, deixa poc material malgastat.</p>
+<hr />
+<h2>📝 Exemple de fitxa (emplenada)</h2>
+<ul>
+<li><strong>Per a qui:</strong> per a la meva àvia, que llegeix molt.</li>
+<li><strong>Missatge:</strong> "Llegir és viatjar". <strong>Imatge:</strong> un sol (vectoritzat d'una icona).</li>
+<li><strong>Operacions de camí usades:</strong> <em>unió</em> per fer el marc; el sol amb <em>diferència</em>.</li>
+<li><strong>Aprofitament:</strong> he posat el marcapàgines en vertical per encabir-ne dos a la planxa.</li>
+</ul>
+<hr />
+<h2>📔 Exemple d'entrada al diari (ben feta)</h2>
+<blockquote>
+<p><strong>Sessió 2:</strong> he vectoritzat la imatge del sol (Camí → Vectoritza mapa de bits) i he ajustat
+el <strong>llindar</strong> perquè quedés net. El text al principi sortia com a contorn buit; la profe
+m'ha ensenyat a fer <strong>Objecte a camí</strong> i a posar-lo de gravat. He comprovat que tot fa 50 mm
+d'ample. <strong>Problema:</strong> la imatge tenia massa detalls i el gravat trigava molt → l'he
+simplificada. <strong>Evidència:</strong> [captura del fitxer amb les capes].</p>
+</blockquote>
+<p><strong>Per què és bona:</strong> mostra una <strong>decisió tècnica</strong> (simplificar per reduir temps de gravat) i
+usa el <strong>vocabulari clau</strong> (vectoritzar, llindar, camí, capa).</p>
+<hr />
+<h2>⚠️ Contraexemple</h2>
+<ul>
+<li>Deixar el text com a <strong>text</strong> (no convertit a camí) → pot fallar o canviar de tipografia.</li>
+<li>Imatge amb massa detall → gravat lentíssim i brut.</li>
+<li>Disseny escampat per la planxa → es malgasta material.</li>
+</ul></article>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

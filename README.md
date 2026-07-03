@@ -43,6 +43,17 @@ reutilitzar i adaptar citant l'autoria i compartint-lo amb la mateixa llicència
 (plantilles i enllaços). La formació de tercers s'enllaça a la font (vegeu
 `Recursos/Enllacos_i_tutorials.md`) per respectar-ne l'autoria i la llicència.
 
+## 🌐 Versió web
+
+Tot el material té una **versió web navegable** (disseny net, mode fosc, imprimible) a la
+carpeta [`web/`](web/), amb portades separades per a **docents** i **alumnat**:
+
+- **Regenerar-la** després d'editar qualsevol `.md`: `python build_web.py`
+  (cal `pip install markdown`; l'estil viu a `web_assets/style.css`).
+- **Publicar-la**: el workflow `.github/workflows/pages.yml` la desplega a **GitHub Pages** a
+  cada push. Activació (un sol cop): *Settings → Pages → Source: GitHub Actions*.
+- També funciona **offline**: obriu `web/index.html` amb el navegador.
+
 ## Notes
 - Tot el material està en **Markdown**, editable i convertible a Word/Google Docs/PDF.
 - Adapteu les referències normatives i els models d'autorització al vostre centre cada curs.

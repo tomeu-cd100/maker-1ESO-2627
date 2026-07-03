@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inici · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="index.html">Inici</a>
+    <a href="sa.html">Les 9 SA</a>
+    <a href="docent.html">Docent</a>
+    <a href="alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><span>Inici</span></div>
+<main class="content">
+
+<section class="hero">
+  <h1>🛠️ Aula Maker</h1>
+  <p class="tagline">Optativa de 1r d'ESO · imaginar, dissenyar i <strong>fabricar de veritat</strong>:
+  talladora làser, impressió 3D, càmera 360 i realitat virtual.</p>
+  <div class="hero-actions">
+    <a class="btn btn-primary" href="docent.html">👩‍🏫 Soc docent</a>
+    <a class="btn" href="alumnat.html">🧑‍🎓 Soc alumne/a</a>
+  </div>
+</section>
+<section>
+  <h2>Les 9 situacions d'aprenentatge</h2>
+  <div class="grid"><a class="card sa" href="classes/sa1_benvinguts_aula_maker/sa1.html"><div class="card-icon">🔑</div><div><h3>SA1 · Benvinguts a l&#x27;Aula Maker <span class="badge">1r trim.</span></h3><p>Clauer gravat a làser</p></div></a>
+<a class="card sa" href="classes/sa2_dissenyem_en_2d/sa2.html"><div class="card-icon">📐</div><div><h3>SA2 · Dissenyem en 2D <span class="badge">1r trim.</span></h3><p>Marcapàgines o etiqueta</p></div></a>
+<a class="card sa" href="classes/sa3_projecte_laser_identitat/sa3.html"><div class="card-icon">🪵</div><div><h3>SA3 · Projecte làser: la meva identitat <span class="badge">1r trim. ⭐</span></h3><p>Objecte d&#x27;identitat amb encaixos</p></div></a>
+<a class="card sa" href="classes/sa4_del_2d_al_3d/sa4.html"><div class="card-icon">🧊</div><div><h3>SA4 · Del 2D al 3D <span class="badge">2n trim.</span></h3><p>Figura o clauer 3D</p></div></a>
+<a class="card sa" href="classes/sa5_modelatge_3d_funcional/sa5.html"><div class="card-icon">🔧</div><div><h3>SA5 · Modelatge 3D funcional <span class="badge">2n trim.</span></h3><p>Peça útil impresa</p></div></a>
+<a class="card sa" href="classes/sa6_repte_disseny_3d/sa6.html"><div class="card-icon">🤝</div><div><h3>SA6 · Repte de disseny 3D <span class="badge">2n trim. ⭐</span></h3><p>Solució per a un usuari real</p></div></a>
+<a class="card sa" href="classes/sa7_captura_360/sa7.html"><div class="card-icon">🌐</div><div><h3>SA7 · Captura el món en 360 <span class="badge">3r trim.</span></h3><p>Tour virtual del centre</p></div></a>
+<a class="card sa" href="classes/sa8_explorem_la_vr/sa8.html"><div class="card-icon">🥽</div><div><h3>SA8 · Explorem la Realitat Virtual <span class="badge">3r trim.</span></h3><p>Escena VR interactiva</p></div></a>
+<a class="card sa" href="classes/sa9_projecte_final/sa9.html"><div class="card-icon">🎪</div><div><h3>SA9 · Projecte final Aula Maker <span class="badge">3r trim. ⭐</span></h3><p>Estand a la Fira Aula Maker</p></div></a></div>
+</section>
+<section>
+  <h2>Les 5 Grans Idees del curs</h2>
+  <div class="ideas">
+    <span>1️⃣ El material mana</span><span>2️⃣ Petit i acabat guanya gran i a mitges</span>
+    <span>3️⃣ Mesura dues vegades, fabrica una</span><span>4️⃣ L'error és informació</span>
+    <span>5️⃣ Dissenyem per a algú</span>
+  </div>
+  <p><a class="doclink" href="programacio-didactica/grans_idees_maker.html">→ Què volen dir i on es veuen</a></p>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

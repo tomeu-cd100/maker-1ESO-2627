@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Quadern digital del docent — un sol full de càlcul per a tota la gestió · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../index.html">Inici</a>
+    <a href="../sa.html">Les 9 SA</a>
+    <a href="../docent.html">Docent</a>
+    <a href="../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../index.html">Inici</a> <span class="sep">›</span> <a href="../avaluacio/index.html">Avaluació</a> <span class="sep">›</span> <span>Quadern digital del docent — un sol full de càlcul per a …</span></div>
+<main class="content">
+<article class="doc"><h1>Quadern digital del docent — un sol full de càlcul per a tota la gestió</h1>
+<blockquote>
+<p><strong>El problema que resol:</strong> el sistema d'avaluació i seguiment genera cinc registres
+paral·lels (2 fulls de seguiment, 20 fulls de progrés, registre de carnets amb usos,
+recompte d'equitat, kanban) que en paper s'han de creuar a mà a cada coordinació. La
+solució: <strong>un únic full de càlcul compartit</strong> (Google Sheets, compte de centre) amb una
+pestanya per registre — les dades s'entren una sola vegada i els recomptes surten sols.
+El paper queda per a l'alumnat (diari, fitxes, passaport); la gestió docent, digital.</p>
+</blockquote>
+<h2>Estructura del full de càlcul (pestanyes)</h2>
+<h3>1. <code>Alumnat</code> (la taula mestra)</h3>
+<table>
+<thead>
+<tr>
+<th>Columna</th>
+<th>Contingut</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Nom</td>
+<td>—</td>
+</tr>
+<tr>
+<td>Grup</td>
+<td>A / B</td>
+</tr>
+<tr>
+<td>Equip T1 / T2 / T3</td>
+<td>nom d'equip de cada trimestre (es re-formen!)</td>
+</tr>
+<tr>
+<td>Perfil</td>
+<td>notes d'avaluació inicial, NESE, adaptacions</td>
+</tr>
+</tbody>
+</table>
+<p>Totes les altres pestanyes referencien aquesta columna de noms (rang amb nom <code>ALUMNES</code>).</p>
+<h3>2. <code>Seguiment</code> (substitueix els dos fulls de paper)</h3>
+<p>Una fila per observació: <strong>Data · Alumne/a (desplegable) · Docent (Maker/Co) · Codi (+/-/!) ·
+CA · Nota breu</strong>. En codocència, els dos docents escriuen a la mateixa pestanya des del seu
+dispositiu — la posada en comú setmanal ja està feta quan arribeu a la coordinació.</p>
+<h3>3. <code>Progrés</code> (el full de progrés competencial, digital)</h3>
+<p>Files = alumnes; columnes = CE1…CE6, TE, TA <strong>per SA</strong> (SA1-CE1, SA1-CE2… o una columna per
+SA amb el detall en comentari). Valors: NA/AS/AN/AE amb <strong>format condicional</strong> (vermell →
+verd): la trajectòria de cada alumne es veu d'un cop d'ull, i ensenyar-li «la seva fila» al
+trimestre és girar la pantalla. La versió paper (<a class="doclink" href="../avaluacio/full_progres_competencial.html"><code>Full_progres_competencial.md</code></a>) queda com a
+alternativa per a qui la prefereixi.</p>
+<h3>4. <code>Carnets</code> (registre + usos)</h3>
+<p>Files = alumnes; columnes: data de cada carnet (🔴🟠🟢🔵) + <strong>una columna d'usos per màquina i
+trimestre</strong> (s'hi suma 1 cada vegada que l'alumne opera). D'aquí mengen dues coses:
+- El <strong>passaport maker</strong> de l'alumne (<a class="doclink" href="../reptes/passaport_maker.html"><code>Reptes/Passaport_maker.md</code></a>) — el registre oficial és aquest.
+- La <strong>revisió trimestral d'equitat</strong> ↓</p>
+<h3>5. <code>Equitat</code> (es calcula sola)</h3>
+<p>Taula dinàmica o fórmules sobre <code>Carnets</code>: usos per màquina desagregats per gènere/perfil i
+trimestre. La revisió trimestral (<a class="doclink" href="../programacio-didactica/equitat_genere_steam.html"><code>Programació didàctica/Equitat_genere_STEAM.md</code></a> §3·bis)
+passa de «recompte a mà» a <strong>llegir una taula que ja està feta</strong> i decidir la correcció.</p>
+<h3>6. <code>Kanban</code> (opcional)</h3>
+<p>Columnes: Peça/Placa · Alumnes · Estat (Per imprimir/Imprimint/Fet) · Temps · Grams · Data.
+El kanban físic a la paret continua manant a l'aula; aquesta pestanya és el registre
+(i la font de la matemàtica del temps real per ajustar la temporització el curs vinent).</p>
+<h3>7. <code>Valoracions</code> (veu de l'alumnat)</h3>
+<p>Enllaç als resultats del <strong>tiquet trimestral de valoració de l'assignatura</strong>
+(<a class="doclink" href="../avaluacio/instruments_formatius.html"><code>Instruments_formatius.md</code></a> §9, per Google Forms) — al costat de les vostres dades, les seves.</p>
+<h2>Regles d'ús</h2>
+<ul>
+<li><strong>Compartit entre els dos docents</strong> amb edició; l'alumnat no hi té accés (RGPD: dades
+  d'avaluació — compte de centre, no personal).</li>
+<li><strong>Menys és més:</strong> si una pestanya no s'omple en dues setmanes, elimineu-la — el quadern ha
+  de treure feina, no afegir-ne.</li>
+<li>Còpia de seguretat trimestral (Fitxer → Fes una còpia) abans de cada tancament.</li>
+<li>En el <strong>traspàs de co-docent</strong> (vegeu <a class="doclink" href="../programacio-didactica/codocencia_desdoblament.html"><code>Programació didàctica/Codocencia_desdoblament.md</code></a>
+  §7), el quadern és l'única cosa que cal traspassar: tot el seguiment hi és.</li>
+</ul>
+<blockquote>
+<p>Relacionat amb: <a class="doclink" href="../avaluacio/full_progres_competencial.html"><code>Full_progres_competencial.md</code></a> (versió paper), <a class="doclink" href="../avaluacio/full_seguiment_grup.html"><code>Full_seguiment_grup.md</code></a>
+(codis), <a class="doclink" href="../normativa/carnet_de_maquina.html"><code>Normativa/Carnet_de_maquina.md</code></a>, <a class="doclink" href="../programacio-didactica/equitat_genere_steam.html"><code>Equitat_genere_STEAM.md</code></a> §3·bis i
+<a class="doclink" href="../reptes/passaport_maker.html"><code>Reptes/Passaport_maker.md</code></a>.</p>
+</blockquote></article>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Passaport maker — tot el joc en un sol paper · Aula Maker 1r ESO</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
+</head>
+<body>
+<header class="site-header">
+  <a class="brand" href="../index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <nav>
+    <a href="../index.html">Inici</a>
+    <a href="../sa.html">Les 9 SA</a>
+    <a href="../docent.html">Docent</a>
+    <a href="../alumnat.html">Alumnat</a>
+    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+  </nav>
+</header>
+<div class="crumb"><a href="../index.html">Inici</a> <span class="sep">›</span> <a href="../reptes/index.html">Reptes</a> <span class="sep">›</span> <span>Passaport maker — tot el joc en un sol paper</span></div>
+<main class="content">
+<article class="doc"><h1>Passaport maker — tot el joc en un sol paper</h1>
+<blockquote>
+<p><strong>El problema que resol:</strong> la gamificació s'havia dispersat en quatre sistemes (insígnies,
+carnets, error del trimestre, votació de la Fira), cadascun amb el seu registre — quatre
+coses a mig recordar per a l'alumne i quatre llistes per al docent. El passaport ho unifica:
+<strong>un sol document per alumne/a</strong>, que es guarda a l'aula (funda o arxivador) i que al juny
+se l'enduen com a record del curs. El registre oficial del docent continua sent el quadern
+digital (<a class="doclink" href="../avaluacio/quadern_digital_docent.html"><code>Avaluació/Quadern_digital_docent.md</code></a>); el passaport és <strong>de l'alumne</strong>.</p>
+</blockquote>
+<h2>Model imprimible (mitja A4 doblegada, o A5)</h2>
+<pre><code>+====================================================+
+|            🛠️  PASSAPORT MAKER — 1r ESO            |
+|                                                    |
+|  Nom: ______________________  Grup: ____  Any: __  |
+|                                                    |
+|  --- CARNETS DE MÀQUINA -------------------------- |
+|  [ ] 🔴 Làser          data: __/__/__  ___________ |
+|  [ ] 🟠 Impressora 3D  data: __/__/__  ___________ |
+|  [ ] 🟢 Càmera 360     data: __/__/__  ___________ |
+|  [ ] 🔵 VR / guia VR   data: __/__/__  ___________ |
+|                                    (signa el/la profe)
+|                                                    |
+|  --- INSÍGNIES ------------------------------------ |
+|  [ ] 🥇 Mestre/a del vector   [ ] 🧊 Escultor/a 3D  |
+|  [ ] 🌐 Explorador/a immersiu [ ] 🛠️ Tot terreny    |
+|  [ ] ♻️ Maker sostenible      [ ] 🤝 Company/a maker|
+|  [ ] 🎓 Operador/a certificat [ ] 🏆 Error del trim.|
+|                                                    |
+|  --- SEGELLS DE TRIMESTRE ------------------------- |
+|  T1 (producte SA3): ______   T2 (SA6): ______      |
+|  T3 (Fira SA9): ______                             |
+|                                                    |
+|  --- EL MEU PROJECTE PERSONAL (si en tinc) -------- |
+|  Objecte: ____________________  [ ]T1 [ ]T2 [ ]T3  |
+|                                                    |
+|  «Fet, provat i millorat a l'Aula Maker.»          |
++====================================================+
+</code></pre>
+<h2>Regles d'ús</h2>
+<ol>
+<li><strong>S'imprimeix la setmana 1</strong> (un per alumne/a) i es presenta amb el contracte d'aula: «aquí
+   hi cabrà tot el que et guanyis aquest curs».</li>
+<li><strong>Es guarda a l'aula</strong> (no viatja a casa fins al juny): així mai es perd i sempre és a mà
+   per segellar.</li>
+<li>Cada carnet/insígnia <strong>se segella al moment de guanyar-lo</strong> (checkpoint, repte validat,
+   votació) — el moment de segellar davant de l'alumne és part del premi; no ho acumuleu.</li>
+<li>El docent replica la dada al <strong>quadern digital</strong> (pestanya <code>Carnets</code>): el passaport és de
+   l'alumne, el registre és del docent — si un passaport es perd, es reimprimeix des del
+   quadern.</li>
+<li><strong>Al juny se l'enduen</strong>: és l'objecte-memòria del curs (i per a les famílies, el resum més
+   llegible del que ha fet el seu fill/a).</li>
+</ol>
+<blockquote>
+<p>Substitueix el model de carnet solt de <a class="doclink" href="../normativa/carnet_de_maquina.html"><code>Normativa/Carnet_de_maquina.md</code></a> §5 (que queda com a
+alternativa si preferiu carnets individuals). Insígnies: <a class="doclink" href="../reptes/index_reptes.html"><code>Index_reptes.md</code></a> · Error del
+trimestre: <a class="doclink" href="../programacio-didactica/museu_dels_errors.html"><code>Programació didàctica/Museu_dels_errors.md</code></a> · Projecte personal:
+<a class="doclink" href="../reptes/projecte_personal.html"><code>Projecte_personal.md</code></a>.</p>
+</blockquote></article>
+</main>
+<footer class="site-footer">
+  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+</footer>
+<script>
+const t=document.getElementById('theme');
+const saved=localStorage.getItem('theme');
+if(saved)document.documentElement.dataset.theme=saved;
+t.onclick=()=>{const d=document.documentElement.dataset;
+d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);};
+</script>
+</body>
+</html>
