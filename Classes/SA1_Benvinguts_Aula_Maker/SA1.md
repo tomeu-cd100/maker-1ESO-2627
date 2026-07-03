@@ -5,24 +5,24 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 1r |
-| **Temporització** | 3 sessions de 2 h (setmanes 1–3) |
-| **Eix** | Cultura maker · seguretat · fabricació 2D (iniciació làser) |
+| **Temporització** | 2 sessions de 2 h (setmanes 2–3) — la benvinguda, la seguretat i el diagnòstic són a la **SA0** (setmana 1) |
+| **Eix** | Primer disseny vectorial · fabricació 2D (iniciació làser) |
 | **Producte final** | Un **clauer personalitzat** gravat/tallat a làser |
 
 ---
 
 ## 1. Descripció (context + repte)
 
-Comencem el curs entrant a l'Aula Maker: un espai per **imaginar, dissenyar i fabricar**.
-Abans de tocar les màquines, hem de saber què és la cultura maker i, sobretot, com treballar-hi
-amb seguretat. El repte d'arrencada és senzill però real i motivador:
+A la **SA0** hem conegut el taller, hem signat el contracte i sabem d'on partim. Ara toca el
+que hem vingut a fer: **el primer objecte real**. El repte d'arrencada és senzill però
+motivador:
 
 > **Repte:** «Dissenya i fabrica el teu **clauer personalitzat** per identificar la teva
 > motxilla o les claus de casa.» Així tothom s'endú un primer objecte fet per ell/a mateix/a
 > el primer dia que toquem la làser.
 
-Aquesta SA posa les bases (cultura, vocabulari, normes i un primer contacte amb Inkscape i la
-talladora làser) que es desenvoluparan en SA2 i SA3.
+Aquesta SA posa les bases tècniques (Inkscape, tall vs gravat, el carnet 🔴) que es
+desenvoluparan en SA2 i SA3.
 
 ## 🎯 Pregunta guia
 > «Què és l'Aula Maker i com hi puc treballar amb seguretat per crear el meu primer objecte?»
@@ -32,14 +32,13 @@ talladora làser) que es desenvoluparan en SA2 i SA3.
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
-- Explicar amb les meves paraules què és la cultura maker.
-- Reconèixer les màquines del taller i les normes de seguretat bàsiques.
 - Dissenyar una forma senzilla amb text a Inkscape.
-- Distingir què és **tallar** i què és **gravar**.
+- Distingir què és **tallar** i què és **gravar** i preparar les capes.
+- Operar la làser amb seguretat (amb el carnet 🔴!).
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
-- [ ] He signat el contracte d'aula i el compleixo.
-- [ ] M'he guanyat el **carnet 🔴 d'operador/a làser** (checkpoint de la sessió 3).
+- [ ] Compleixo el contracte d'aula que vam signar a la SA0.
+- [ ] M'he guanyat el **carnet 🔴 d'operador/a làser** (checkpoint de la sessió 2).
 - [ ] El meu clauer té forma, nom/inicial i forat per a l'anella.
 - [ ] He separat els elements de **tall** (vermell) i de **gravat** (negre).
 - [ ] He fet la meva entrada al diari de taller.
@@ -62,29 +61,11 @@ talladora làser) que es desenvoluparan en SA2 i SA3.
 
 ## 4. Seqüència de sessions
 
-### Sessió 1 — Què és l'Aula Maker? Cultura i seguretat (2 h)
-1. **Activador (15')**: vídeo curt de *fab labs* / objectes fets a màquines. Pluja d'idees:
-   "Què t'agradaria fabricar aquest curs?".
-2. **Cultura maker (20')**: aprendre fent, prototipar, compartir, errar per millorar.
-3. **Coneixem el taller (25')**: recorregut per les zones (disseny, fabricació, immersiva,
-   muntatge) i les màquines (P2S, làser xTool S1, càmera 360, VR) — només mirar, encara no tocar.
-4. **Gimcana de seguretat (35')**: les normes s'aprenen **jugant-hi**, no escoltant-les. En
-   equips, rotació per 4 proves actives basades en `Normativa/Normes_seguretat_taller.md`
-   (**tot el material amb solucions**: `Material_gimcana_seguretat.md`):
-   - *Troba els perills*: fotos preparades d'escenes de taller amb errors (màquina sola,
-     cabells solts, beguda vora l'ordinador…) — quants en trobeu?
-   - *Permès o prohibit?*: classificar targetes de materials per a la làser (i saber **per
-     què** el PVC és perillós).
-   - *Què faries si…*: mini-casos (fum excessiu, cremada, un company corre) amb resposta d'equip.
-   - *Cada norma té una raó*: aparellar normes amb la seva justificació.
-   Posada en comú breu (5') i **signatura del contracte d'aula** — ara amb coneixement de causa.
-   Presentació del **carnet de màquina** (`Normativa/Carnet_de_maquina.md`): el primer
-   checkpoint (🔴 làser) serà a la sessió 3.
-5. **Avaluació inicial (20')**: qüestionari i mini-repte diagnòstic
-   (`Avaluació/Avaluacio_inicial.md`) — sense nota; serveix per formar equips i personalitzar.
-6. **Tancament (5')**: primera entrada al **diari de taller**.
+> 📍 La benvinguda, el recorregut pel taller, la **gimcana de seguretat**, el contracte i
+> l'**avaluació 0** són la **SA0** (`Classes/SA0_Punt_de_partida/SA0.md`, setmana 1). Aquesta
+> SA comença amb tot això fet.
 
-### Sessió 2 — Disseny del clauer amb Inkscape (2 h)
+### Sessió 1 — Disseny del clauer amb Inkscape (2 h)
 1. **Demo Inkscape (30')**: obrir, llenç, formes bàsiques, afegir text, mida en mm.
 2. **Disseny guiat (60')**: cada alumne/a dissenya el seu clauer (forma base + nom/inicial +
    un detall), mida orientativa 60×25 mm, forat per a l'anella.
@@ -93,9 +74,9 @@ talladora làser) que es desenvoluparan en SA2 i SA3.
 4. **Tancament (10')**: diari de taller.
 
 > ⏸️ **Mínim d'avui** (per a qui va lent): forma base + nom + forat, amb capes revisades — el
-> detall decoratiu és ampliació. Qui té el mínim, fabrica a la sessió 3 com tothom.
+> detall decoratiu és ampliació. Qui té el mínim, fabrica a la sessió 2 com tothom.
 
-### Sessió 3 — Fabricació a làser i reflexió (2 h)
+### Sessió 2 — Fabricació a làser i reflexió (2 h)
 1. **Checkpoint del carnet 🔴 de làser (15' + durant els torns)**: repàs del protocol abans
    d'engegar (ventilació, no deixar la màquina sola, materials permesos) en format checkpoint
    (`Normativa/Carnet_de_maquina.md`): 3 preguntes + demostració supervisada. Qui el supera obté
@@ -133,8 +114,8 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
 ## 🧠 Metacognició i tiquet de sortida
 > ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
 > una de les seves preguntes) — trieu-ne una per sessió, mai totes.
-**Rutina de pensament (sessió 1):** *Veig – Penso – Em pregunto* davant les màquines —
-observa una màquina i anota **què veus**, **què penses** que fa i **què et preguntes**.
+**Rutina de pensament:** *Abans pensava / Ara penso* sobre què cal per fabricar un objecte de
+veritat (de la idea al clauer a la mà: què t'ha sorprès del procés?).
 
 **Tiquet de sortida (final de la SA):**
 1. Una cosa nova que he après: …
@@ -148,10 +129,10 @@ observa una màquina i anota **què veus**, **què penses** que fa i **què et p
 
 | Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
 |------------------------------|-----------|------------|----------|
-| **Clauer fabricat** amb capes correctes (S2-S3) | Checklist de criteris d'èxit + files CA2.1/CA3.1 de `Rubrica_SA1.md` | Docent + autoaval. | CA2.1, CA3.1 |
-| **Contracte signat + carnet 🔴** (S1, S3) | Gimcana + checkpoint del carnet | Docent | CA6.1, CA6.3 |
+| **Clauer fabricat** amb capes correctes (S1-S2) | Checklist de criteris d'èxit + files CA2.1/CA3.1 de `Rubrica_SA1.md` | Docent + autoaval. | CA2.1, CA3.1 |
+| **Carnet 🔴 d'operador/a làser** (S2) | Checkpoint del carnet (el contracte ve signat de la SA0) | Docent | CA6.1, CA6.3 |
 | **Diari de taller** (1 entrada/sessió + tancament amb 🎯) | Pauta de `Avaluació/Diari_de_taller.md` | Docent | CA5.2, CA1.4 |
-| **Seguretat i actitud al taller** (S1-S3, contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
-| **Coavaluació de la galeria** (S3) | `Avaluació/Autoavaluacio_coavaluacio.md` (C) | Companys | contrast |
+| **Seguretat i actitud al taller** (S1-S2, contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
+| **Coavaluació de la galeria** (S2) | `Avaluació/Autoavaluacio_coavaluacio.md` (C) | Companys | contrast |
 
 **En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.

@@ -43,6 +43,7 @@ SECTION_ICONS = {
 }
 
 SA_CARDS = [
+    ("SA0", "Punt de partida", "setm. 1", "📍 Benvinguda, seguretat i avaluació 0", "SA0_Punt_de_partida"),
     ("SA1", "Benvinguts a l'Aula Maker", "1r trim.", "🔑 Clauer gravat a làser", "SA1_Benvinguts_Aula_Maker"),
     ("SA2", "Dissenyem en 2D", "1r trim.", "📐 Marcapàgines o etiqueta", "SA2_Dissenyem_en_2D"),
     ("SA3", "Projecte làser: la meva identitat", "1r trim. ⭐", "🪵 Objecte d'identitat amb encaixos", "SA3_Projecte_laser_identitat"),
@@ -55,6 +56,7 @@ SA_CARDS = [
 ]
 
 ALUMNAT_LINKS = [
+    ("📖", "Vocabulari bàsic del curs", "Classes/SA0_Punt_de_partida/Vocabulari_basic.md", "Totes les paraules maker, explicades curt i clar"),
     ("📔", "El diari de taller", "Avaluació/Diari_de_taller.md", "La teva llibreta maker: una entrada per sessió"),
     ("🔍", "Com m'avaluaran?", "Avaluació/Avaluacio_explicada_alumnat.md", "Tot el sistema d'avaluació explicat en una pàgina"),
     ("🌱", "Rúbrica amigable", "Avaluació/Rubrica_alumnat_amigable.md", "Els nivells 🌱🙂💪🌟 en primera persona"),
@@ -69,6 +71,7 @@ ALUMNAT_LINKS = [
 
 DOCENT_DESTACATS = [
     ("🚀", "Guia d'inici docent", "00_Guia_inici_docent.md", "Per on començar: la posada en marxa completa"),
+    ("🗺️", "Guió del curs, sessió a sessió", "00_Guio_del_curs_docent.md", "Les 35 setmanes: què preparar, què fer i què registrar"),
     ("👥", "Guia del co-docent", "00_Guia_inici_codocent.md", "Una pàgina per al company de desdoblament"),
     ("🤝", "Codocència i desdoblament", "Programació didàctica/Codocencia_desdoblament.md", "Rotació, estacions i repartiment d'avaluació"),
     ("⏱️", "Gestió del temps-màquina", "Programació didàctica/Gestio_temps_maquina_fabricacio.md", "Batch, cua, paral·lel: el coll d'ampolla resolt"),
@@ -307,7 +310,7 @@ def build_section_indexes(pages):
         out_rel = slugify(section) + "/index.html"
         icon = SECTION_ICONS.get(section, "📄")
         if section == "Classes":
-            body = [f"<h1>{icon} Les 9 situacions d'aprenentatge</h1>"]
+            body = [f"<h1>{icon} El curs, SA a SA (SA0 + les 9 SA)</h1>"]
             for code, name, trim, product, folder in SA_CARDS:
                 docs = [(rel, t) for rel, t in entries if f"/{folder}/" in "/" + rel]
                 links = []
@@ -354,7 +357,7 @@ def build_home(pages):
   </div>
 </section>
 <section>
-  <h2>Les 9 situacions d'aprenentatge</h2>
+  <h2>El curs, SA a SA</h2>
   <div class="grid">{sa_grid}</div>
 </section>
 <section>

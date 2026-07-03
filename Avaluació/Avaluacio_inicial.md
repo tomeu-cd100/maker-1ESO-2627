@@ -1,6 +1,7 @@
 # Avaluació inicial / diagnòstica — Aula Maker (1r ESO)
 
-> Es passa la **setmana 1** (dins la SA1). No té nota: serveix per conèixer el punt de partida
+> És l'**avaluació 0** del curs: es passa la **setmana 1**, dins la **SA0**
+> (`Classes/SA0_Punt_de_partida/SA0.md`). No té nota: serveix per conèixer el punt de partida
 > de cada alumne/a, formar equips equilibrats i ajustar la personalització (DUA). Es torna a
 > mirar a final de curs per veure l'**evolució**.
 
@@ -23,6 +24,17 @@ Respon amb sinceritat (1 = gens / 4 = molt). No hi ha respostes bones o dolentes
 - Una cosa que m'agradaria fabricar aquest curs: ____________________
 - Una cosa que em fa una mica de respecte o no he fet mai: ____________________
 - Què se'm dona bé i podria aportar a un equip? ____________________
+
+## A·bis) Vocabulari de partida (2 min — es repeteix al juny)
+
+Marca les paraules que **ja saps què volen dir** (de veritat — no passa res si són poques!):
+
+☐ prototip  ☐ vectoritzar  ☐ STL  ☐ laminat  ☐ kerf  ☐ tolerància
+☐ equirectangular  ☐ farciment  ☐ nesting  ☐ realitat virtual
+
+> Per al docent: el recompte setembre→juny és la mesura de creixement de vocabulari tècnic més
+> barata que existeix (totes són al glossari `Classes/SA0_Punt_de_partida/Vocabulari_basic.md`).
+> Un alumne que passa de 1/10 a 9/10 té una evidència d'aprenentatge que entén tothom.
 
 ## B) Mini-repte diagnòstic (observació, ~20 min)
 Petit repte sense ensenyar res abans, per observar punts de partida (no es qualifica):
@@ -49,5 +61,6 @@ Petit repte sense ensenyar res abans, per observar punts de partida (no es quali
   evidenciar **l'evolució** de cada alumne/a (avaluació de l'aprenentatge, no de l'arrencada).
 
 ## E) Tancament del cicle (final de curs)
-A la SA9, torna a passar el **qüestionari A** i compara. Pregunta de síntesi per a l'alumnat:
+A la SA9 (o al coixí de la setmana 35), torna a passar el **qüestionari A** i el **vocabulari
+A·bis** i compara. Pregunta de síntesi per a l'alumnat:
 > "Mira les teves respostes de setembre. En què has canviat més? Posa'n un exemple concret."

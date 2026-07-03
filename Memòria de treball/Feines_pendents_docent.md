@@ -23,7 +23,7 @@
 - [ ] **Pila de targetes del Museu dels Errors** (4 per full).
 - [ ] `Normativa/Normes_seguretat_taller.md` + **contracte d'aula**.
 - [ ] `Avaluació/Avaluacio_explicada_alumnat.md` (per repartir la setmana 1 amb la carta).
-- [ ] Fitxes de la **SA1** per a l'alumnat.
+- [ ] Fitxes de la **SA0** (punt de partida) i de la **SA1** per a l'alumnat.
 
 ## 🏗️ Aula i material (abans de setembre)
 
@@ -50,10 +50,10 @@
 
 ## 🚀 Setmana 1
 
-- [ ] Passar l'**avaluació inicial** i formar els **grups A/B** estables (equips heterogenis
-  dins de cada grup).
-- [ ] Presentar contracte, **passaports** i el sistema d'avaluació (una pàgina) a l'alumnat.
-- [ ] Gimcana de seguretat (SA1, sessió 1) — el material ja el tens imprès. 🎉
+- [ ] **SA0 sencera** (benvinguda, gimcana, contracte, passaports, avaluació 0 — tot al guió:
+  `Classes/SA0_Punt_de_partida/SA0.md`).
+- [ ] Amb l'avaluació 0 feta: formar els **grups A/B** estables (equips heterogenis dins de
+  cada grup).
 
 ## 🔁 Cada trimestre (recordatoris de tancament — SA3, SA6, SA9)
 

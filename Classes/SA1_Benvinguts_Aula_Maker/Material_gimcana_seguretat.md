@@ -1,7 +1,8 @@
-# Material de la gimcana de seguretat — SA1, sessió 1
+# Material de la gimcana de seguretat — SA0 (setmana 1)
 
-> Tot el que cal per muntar les **4 proves** de la gimcana (35', equips de 4-5, rotació de
-> ~7' per prova + 5' de posada en comú). Imprimiu i retalleu les targetes; les respostes per
+> Tot el que cal per muntar les **4 proves** de la gimcana de la **SA0**
+> (`Classes/SA0_Punt_de_partida/SA0.md`): 35', equips de 4-5, rotació de
+> ~7' per prova + 5' de posada en comú. Imprimiu i retalleu les targetes; les respostes per
 > al docent van al final de cada prova. Contingut alineat amb
 > `Normativa/Normes_seguretat_taller.md` (que és el que s'avalua al checkpoint del carnet).
 
@@ -114,5 +115,5 @@ Retalleu les normes i les raons per separat; l'equip les aparella.
 - **Posada en comú (5'):** un error de cada escena, el material que més ha sorprès (el PVC!),
   i el cas més discutit.
 - **Tancament:** signatura del **contracte d'aula** (ara amb coneixement de causa) i
-  presentació del **carnet de màquina** (`Normativa/Carnet_de_maquina.md`): «el checkpoint de
-  la sessió 3 pregunta exactament aquestes coses».
+  presentació del **carnet de màquina** (`Normativa/Carnet_de_maquina.md`): «el checkpoint del
+  carnet 🔴 (SA1, sessió 2) pregunta exactament aquestes coses».

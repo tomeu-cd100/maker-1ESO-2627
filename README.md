@@ -14,7 +14,7 @@ STEAM i maker, currículum de Catalunya (Decret 175/2022, LOMLOE).
 | Carpeta | Contingut |
 |---------|-----------|
 | [`Programació didàctica/`](Programació%20didàctica/) | PD, temporització, **gestió del temps-màquina**, **codocència/desdoblament**, **les 5 Grans Idees**, **Museu dels Errors**, **mapatge competencial oficial**, cooperatiu, equitat/gènere, interdisciplinarietat/APS i adaptacions DUA |
-| [`Classes/`](Classes/) | Les **9 SA** desenvolupades (SA1–SA9) amb exemple resolt |
+| [`Classes/`](Classes/) | La **SA0** (punt de partida + vocabulari bàsic) i les **9 SA** desenvolupades (SA1–SA9) amb exemple resolt |
 | [`Avaluació/`](Avaluació/) | Avaluació inicial, criteris + **mapa operatiu per SA**, rúbriques, **full de progrés competencial**, **quadern digital del docent**, **l'avaluació explicada a l'alumnat**, instruments formatius, diari, auto/coavaluació |
 | [`Normativa/`](Normativa/) | Seguretat, **carnet de màquina**, protocol VR, reglament, marc normatiu, **carta i autoritzacions de famílies** |
 | [`Reptes/`](Reptes/) | Reptes curts 2D / 3D / immersius + insígnies + **projecte personal longitudinal** |
@@ -22,11 +22,12 @@ STEAM i maker, currículum de Catalunya (Decret 175/2022, LOMLOE).
 | [`Memòria de treball/`](Memòria%20de%20treball/) | Bitàcola, incidències, inventari, memòria final |
 | [`Recursos/`](Recursos/) | Plantilles de disseny pròpies i enllaços/tutorials validats |
 
-## Les 9 situacions d'aprenentatge
+## Les situacions d'aprenentatge (SA0 + 9)
 
 | SA | Títol | Trim. | Eix | Producte final |
 |----|-------|:----:|-----|----------------|
-| SA1 | Benvinguts a l'Aula Maker | 1 | Cultura maker + làser | Clauer gravat |
+| SA0 | Punt de partida | 1 | Acollida · seguretat · **avaluació 0** | El punt de partida de cadascú (sense nota) |
+| SA1 | Benvinguts a l'Aula Maker | 1 | Primer disseny + làser | Clauer gravat |
 | SA2 | Dissenyem en 2D | 1 | Inkscape + làser | Marcapàgines/etiqueta |
 | SA3 | Projecte làser: la meva identitat | 1 | Projecte làser | Objecte d'identitat ⭐T1 |
 | SA4 | Del 2D al 3D | 2 | Tinkercad | Figura/clauer 3D |

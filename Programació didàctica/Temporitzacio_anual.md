@@ -8,9 +8,9 @@
 
 | Setmana | SA | Sessió / contingut | Fita |
 |--------:|----|--------------------|------|
-| 1 | SA1 | Benvinguda, cultura maker, normes i seguretat del taller | Contracte d'aula signat |
-| 2 | SA1 | Coneixem les màquines + repte ràpid (clauer gravat), intro Inkscape | Clauer dissenyat |
-| 3 | SA1 | Fabricació del clauer a làser + reflexió | Producte SA1 |
+| 1 | **SA0** | Punt de partida: benvinguda, gimcana de seguretat, com funciona el curs, **avaluació 0** | Contracte signat + diagnòstic fet |
+| 2 | SA1 | Disseny del clauer amb Inkscape (capes tall/gravat) | Clauer dissenyat |
+| 3 | SA1 | Fabricació del clauer a làser + carnet 🔴 + reflexió | Producte SA1 |
 | 4 | SA2 | Disseny vectorial amb Inkscape (nodes, formes, text) | — |
 | 5 | SA2 | Vectorització i preparació per a làser (capes tall/gravat) | Disseny a punt |
 | 6 | SA2 | Fabricació marcapàgines/etiqueta + avaluació | Producte SA2 |

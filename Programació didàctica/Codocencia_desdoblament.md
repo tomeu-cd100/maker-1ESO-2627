@@ -30,7 +30,8 @@ Règim per defecte de cada sessió de 2 h:
 - El co-docent sosté **50 minuts** de tasca pautada, no 2 hores.
 
 **Excepcions (grup sencer, els dos docents junts, a l'aula ordinària o espai gran):**
-- Sessió 1 de cada SA (presentació del repte i activació) — inclou la gimcana de seguretat de SA1.
+- La **SA0 sencera** (setmana 1: benvinguda, gimcana de seguretat i avaluació 0).
+- Sessió 1 de cada SA (presentació del repte i activació).
 - Galeries, coavaluacions i tancaments de SA.
 - Presentacions de SA3 i SA6, i la **Fira** de SA9 (els visitants passen per l'aula Maker en
   grups de ≤10, respectant l'aforament).

@@ -9,7 +9,8 @@
 - Optativa **anual** de 1r d'ESO, **2 h/setmana** (1 bloc), enfocament **STEAM i maker**.
 - L'alumnat aprèn **fent**: dissenya i fabrica objectes reals amb làser i 3D, i crea contingut
   immersiu (360/VR).
-- **9 situacions d'aprenentatge (SA)**, 3 per trimestre, amb progressió **2D → 3D → immersiu →
+- Una **SA0 de punt de partida** (benvinguda, seguretat i avaluació 0, setmana 1) + **9
+  situacions d'aprenentatge (SA)**, 3 per trimestre, amb progressió **2D → 3D → immersiu →
   projecte integrador**.
 - Avaluació **competencial** (NA/AS/AN/AE) amb el **diari de taller** com a fil conductor.
 
@@ -18,6 +19,7 @@
 maker-1ESO-2627/
 ├── 00_Guia_inici_docent.md   ← ETS AQUÍ
 ├── 00_Guia_inici_codocent.md  ← per al company/a de desdoblament
+├── 00_Guio_del_curs_docent.md ← les 35 setmanes, sessió a sessió
 ├── README.md                  ← índex general
 ├── Programació didàctica/     ← QUÈ s'ensenya i com s'avalua (comença aquí)
 ├── Classes/                   ← les 9 SA, llestes per impartir (SA1…SA9)
@@ -33,7 +35,8 @@ maker-1ESO-2627/
 1. `Programació didàctica/Programacio_didactica_AulaMaker_1ESO.md` — el marc complet.
 2. `Programació didàctica/Temporitzacio_anual.md` — el calendari setmana a setmana.
 3. `Avaluació/Criteris_i_qualificacio.md` — com avaluaràs.
-4. `Classes/SA1_Benvinguts_Aula_Maker/SA1.md` — la primera SA, llesta per a la setmana 1.
+4. `Classes/SA0_Punt_de_partida/SA0.md` — la sessió d'arrencada, llesta per a la setmana 1
+   (i `00_Guio_del_curs_docent.md` per veure tot el curs sessió a sessió).
 5. `Normativa/Normes_seguretat_taller.md` — imprescindible abans de tocar màquines.
 6. **Si treballeu en desdoblament** (2 docents, aforament limitat a l'aula Maker):
    `Programació didàctica/Codocencia_desdoblament.md` — model de rotació i estacions — i dona
@@ -57,7 +60,7 @@ maker-1ESO-2627/
   amb el co-docent els 10' de coordinació setmanal (`Programació didàctica/Codocencia_desdoblament.md`).
 - [ ] Llegir la metodologia de **treball cooperatiu** (`Programació didàctica/Aprenentatge_cooperatiu.md`)
   i preparar el **referent de la setmana** (`Programació didàctica/Equitat_genere_STEAM.md`).
-- [ ] Començar amb la **SA1**.
+- [ ] Començar amb la **SA0** (`Classes/SA0_Punt_de_partida/`).
 
 ## 5. Posada en marxa del maquinari i programari
 
