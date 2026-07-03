@@ -13,6 +13,8 @@ Reptes **curts i autònoms** per fer servir com a:
 - [`Reptes_express_2D.md`](Reptes_express_2D.md) — disseny vectorial i làser.
 - [`Reptes_3D.md`](Reptes_3D.md) — modelatge 3D (Tinkercad).
 - [`Reptes_immersius_360_VR.md`](Reptes_immersius_360_VR.md) — 360 i realitat virtual.
+- [`Projecte_personal.md`](Projecte_personal.md) — **«El meu objecte del curs»**: l'alternativa
+  longitudinal als reptes solts (un objecte personal que creix amb cada tecnologia, T1→T3).
 
 ## Sistema d'insígnies (suggeriment)
 | Insígnia | Com s'aconsegueix |
@@ -23,5 +25,7 @@ Reptes **curts i autònoms** per fer servir com a:
 | 🛠️ Tot terreny maker | Una insígnia de cada categoria |
 | ♻️ Maker sostenible | Reaprofitar material en un repte |
 | 🤝 Company/a maker | Ajudar 3 companys a resoldre un repte |
+| 🎓 Operador/a certificat | Aconseguir els 4 **carnets de màquina** (`Normativa/Carnet_de_maquina.md`) |
+| 🏆 L'error del trimestre | Donar al **Museu dels Errors** la peça que més ha ensenyat al grup (votació trimestral; `Programació didàctica/Museu_dels_errors.md`) |
 
 > Anoteu les insígnies aconseguides al final del diari de taller.

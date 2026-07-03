@@ -23,6 +23,9 @@ converteix en línies que la màquina pot tallar i gravar.
 ## 🎯 Pregunta guia
 > «Com converteixo una idea en un disseny vectorial que la làser pugui tallar i gravar?»
 
+> 🧭 **Gran idea 3 — Mesura dues vegades, fabrica una:** mides exactes i aprofitament de la
+> planxa (`Programació didàctica/Grans_idees_maker.md`).
+
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
 - Crear formes noves amb operacions de camí (unió, diferència).
@@ -37,7 +40,7 @@ converteix en línies que la màquina pot tallar i gravar.
 - [ ] He aprofitat bé la planxa (poc malbaratament).
 
 ## 🔑 Vocabulari clau (word wall)
-`node` · `camí` · `operació booleana` · `vectoritzar` · `capa` · `kerf (amplada de tall)` · `ompliment`
+`node` · `camí` · `operació booleana` · `vectoritzar` · `capa` · `ompliment` · `nesting (aprofitar la planxa)`
 
 ## 2. Competències específiques i criteris avaluats
 - **CE1** → CA1.2, CA1.4
@@ -98,5 +101,17 @@ Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, docum
 2. Què faria diferent al meu disseny: …
 3. Com em sento amb el disseny vectorial? 🔴 🟡 🟢
 
-## 8. Avaluació
-- Procés i producte: `Rubrica_SA2.md`. Observació: `Avaluació/Full_seguiment_grup.md`. Diari de taller.
+## 8. Avaluació — què s'avalua, amb què i qui
+
+> SA curta → **rúbrica reduïda** (`Avaluació/Criteris_i_qualificacio.md` §2·bis). La versió
+> per a l'alumnat és a la fitxa («Com m'avaluaran?»).
+
+| Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
+|------------------------------|-----------|------------|----------|
+| **Marcapàgines** amb text a camí i imatge vectoritzada (S2-S3) | Checklist de criteris d'èxit + fila CA2.1 de `Rubrica_SA2.md` | Docent + autoaval. | CA2.1, CA2.3, CA3.1 |
+| **Aprofitament del material** a la planxa (S2-S3) | Fila CA6.2 de la rúbrica (observant el nesting) | Docent | CA6.2 |
+| **Diari de taller** (1 entrada/sessió + tancament amb 🎯) | Pauta del diari | Docent | CA5.2, CA1.4 |
+| **Treball i seguretat** (contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
+| **Autoavaluació i galeria** (S3) | `Avaluació/Autoavaluacio_coavaluacio.md` | Alumne + companys | contrast |
+
+**En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.

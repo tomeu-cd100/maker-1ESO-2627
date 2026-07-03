@@ -50,3 +50,7 @@
 - **El que m'ha costat més:**
 - **Una cosa que faria diferent:**
 - **Nota que crec que mereixo i per què:**
+- 🎯 **El meu objectiu per a la propera SA** (mira la teva rúbrica: què vols millorar?):
+
+> 🎯 *Aquest objectiu no es perd: el recuperaràs a l'inici de la propera SA («què faràs
+> diferent?») i el docent en fa el seguiment al teu full de progrés.*

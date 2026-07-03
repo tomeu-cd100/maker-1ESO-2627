@@ -43,16 +43,16 @@
 | Setmana | SA | Sessió / contingut | Fita |
 |--------:|----|--------------------|------|
 | 25 | SA7 | Imatge/vídeo 360: conceptes i càmera | — |
-| 26 | SA7 | Captura 360 d'espais del centre | Captures fetes |
+| 26 | SA7 | Captura 360 d'espais del centre (torns de càmera) | Captures fetes |
 | 27 | SA7 | Muntatge tour virtual + visualització VR | Producte SA7 |
-| 28 | SA8 | Exploració educativa amb ulleres VR (ús segur i crític) | Fitxa d'anàlisi |
-| 29 | SA8 | Creació d'escena amb CoSpaces Edu | — |
-| 30 | SA8 | Acabar escena + visualització i avaluació | Producte SA8 |
-| 31 | SA9 | Projecte final integrador: planificació en equip | Pla de projecte |
-| 32 | SA9 | Disseny i fabricació (làser/3D) | — |
-| 33 | SA9 | Component immersiu (360/VR) | — |
-| 34 | SA9 | Muntatge final i assaig de presentació | — |
-| 35 | SA9 | **Fira/Exposició Aula Maker** + tancament de curs | **Producte final de curs** |
+| 28 | SA8 | Exploració VR per estacions (ús segur i crític) + tria del tema | Fitxa d'anàlisi |
+| 29 | SA8 | Creació d'escena amb CoSpaces Edu + visualització i avaluació | Producte SA8 |
+| 30 | SA9 | Projecte final integrador: planificació en equip | Pla de projecte |
+| 31 | SA9 | Disseny i fabricació (làser/3D) | — |
+| 32 | SA9 | Component immersiu (360/VR) | — |
+| 33 | SA9 | Muntatge final i assaig de presentació | — |
+| 34 | SA9 | **Fira/Exposició Aula Maker** | **Producte final de curs** |
+| 35 | — | **Coixí de final de curs** + tancament (portafoli final, retorn de l'avaluació inicial, valoració de l'optativa; si no ha calgut recuperar cap sessió: sessió ⭐ d'ampliació VR de la SA8 o celebració) | Tancament de curs |
 
 ---
 
@@ -63,6 +63,13 @@
   i **treball paral·lel**) i feu la **matemàtica del temps** abans de cada SA de fabricació
   (SA1, SA3, SA5, SA6, SA9).
 - Les setmanes amb impressió 3D preveuen temps de màquina; planifiqueu impressions llargues
-  fora de l'horari de classe sempre que sigui possible.
+  fora de l'horari de classe sempre que sigui possible i agrupeu peces petites en **batch de
+  placa** (`Gestio_temps_maquina_fabricacio.md` §2B).
+- ⏱️ **Temps-dispositiu al 3r trimestre:** amb 1 càmera 360 i 5 ulleres VR, les sessions de
+  SA7/SA8 usen **rotació cronometrada per estacions** (`Gestio_temps_maquina_fabricacio.md` §5).
+- 📅 **Per què la Fira és la setmana 34 i no la 35:** el juny sempre porta imprevistos
+  (sortides, proves, actes de final de curs). La setmana 35 queda de **coixí**: absorbeix
+  qualsevol sessió perduda del trimestre i, si no ha calgut, s'usa per al tancament ampliat o
+  la sessió ⭐ d'ampliació de la SA8.
 - Els reptes express (`Reptes/`) cobreixen els temps morts i els *fast finishers*.
 - Reserveu sempre 5-10 min de **neteja i manteniment** al final de cada sessió de fabricació.

@@ -22,6 +22,9 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 ## 🎯 Pregunta guia
 > «Com passo d'una idea plana a un objecte amb volum que es pugui imprimir?»
 
+> 🧭 **Gran idea 2 — Petit i acabat guanya gran i a mitges:** el primer objecte 3D es fa
+> dins dels límits (`Programació didàctica/Grans_idees_maker.md`).
+
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
 - Pensar en 3D (vistes i eixos X/Y/Z).
@@ -32,7 +35,8 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
 - [ ] El meu model combina ≥3 cossos i ≥1 forat.
 - [ ] Té gruix suficient per no trencar-se.
-- [ ] He comprovat les mides.
+- [ ] He comprovat les mides: fa **com a màxim ~50 mm** i s'imprimiria pla, **sense suports**
+  (així cap al *batch* de placa amb els dels companys).
 - [ ] L'he exportat en **STL**.
 
 ## 🔑 Vocabulari clau (word wall)
@@ -63,13 +67,18 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 3. **Diari (20')**: captura del progrés.
 
 ### Sessió 3 — El meu objecte 3D + exportar (2 h)
-1. **Disseny lliure del clauer/figura (70')**: ≥3 cossos + 1 forat, mides raonables (cap a 50 mm).
+1. **Disseny lliure del clauer/figura (70')**: ≥3 cossos + 1 forat, mides raonables (cap a 50 mm)
+   i **sense suports** (condició per entrar al *batch* de placa).
 2. **Exportar STL (20')**: Exporta → .STL; comprovar mides.
-3. **Mostra d'impressió (20')**: el docent imprimeix una mostra a la P2S; observació del procés.
+3. **Batch de placa (20')**: el docent agrupa **diversos models del grup en una sola placa** a
+   Bambu Studio (*batch* de placa, vegeu `Programació didàctica/Gestio_temps_maquina_fabricacio.md`
+   §2B) i llança la impressió; observació del procés i de la previsualització (temps i grams).
+   La resta de plaques s'imprimeixen fora d'horari perquè **tothom** tingui la seva peça.
 4. **Avaluació i diari (10')**.
 
 ## 5. Producte final
-Model 3D propi exportat en STL (i, si hi ha temps de màquina, imprès) + diari amb captures.
+Model 3D propi exportat en STL i imprès dins el **batch de placa** del grup (a classe o fora
+d'horari) + diari amb captures.
 
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
@@ -92,5 +101,16 @@ modelaria amb cossos i forats.
 2. Una operació de Tinkercad que vull practicar més: …
 3. Com em sento modelant en 3D? 🔴 🟡 🟢
 
-## 8. Avaluació
-- Model i mesures: `Rubrica_SA4.md`. Diari de taller. Observació: `Avaluació/Full_seguiment_grup.md`.
+## 8. Avaluació — què s'avalua, amb què i qui
+
+> SA curta → **rúbrica reduïda** (`Avaluació/Criteris_i_qualificacio.md` §2·bis). La versió
+> per a l'alumnat és a la fitxa («Com m'avaluaran?»).
+
+| Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
+|------------------------------|-----------|------------|----------|
+| **Model 3D exportat en STL** (≥3 cossos + 1 forat, dins els límits) (S3) | Checklist de criteris d'èxit + fila CA2.2 de `Rubrica_SA4.md` | Docent + autoaval. | CA2.2, CA2.3 |
+| **Diari amb captures** del progrés (S1-S3) + tancament amb 🎯 | Pauta del diari | Docent | CA5.2, CA1.4 |
+| **Treball i actitud** (contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
+| **Autoavaluació** (S3) | Rúbrica amigable 🌱🙂💪🌟 | Alumne | contrast |
+
+**En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.

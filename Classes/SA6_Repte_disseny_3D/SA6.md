@@ -27,6 +27,9 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 ## 🎯 Pregunta guia
 > «Com dissenyo una solució 3D que ajudi de veritat algú?»
 
+> 🧭 **Gran idea 5 — Dissenyem per a algú:** qui ho farà servir decideix què és «bo»
+> (`Programació didàctica/Grans_idees_maker.md`).
+
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
 - Empatitzar i definir requisits centrats en l'usuari.
@@ -36,6 +39,8 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
 - [ ] Hem entès la necessitat de l'usuari.
+- [ ] Cada peça s'imprimeix en **menys d'1 h i amb menys de 40 g** (ho diu Bambu Studio) i
+  hem repartit les peces al calendari d'impressió.
 - [ ] Les peces encaixen i la solució funciona.
 - [ ] Hem provat amb l'usuari i hem iterat.
 - [ ] Hem comunicat l'impacte de la solució.
@@ -68,11 +73,16 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 4. **Diari (10')**.
 
 ### Sessió 2 — Disseny (2 h)
-1. **Modelatge en equip (100')**: cada membre modela una part; coordinació de mides comunes.
-2. **Revisió conjunta (20')**: encaixos, mides, imprimibilitat. Validació del docent.
+1. **Modelatge en equip (100')**: cada membre modela una part; coordinació de mides comunes i
+   dels **límits per peça** (< 1 h, < 40 g, sense suports si és possible).
+2. **Revisió conjunta (20')**: encaixos, mides, imprimibilitat amb el checklist (com a SA5);
+   cada membre fa la **versió 2** de la seva peça i anota al diari què hi ha canviat (CA1.4).
+   Validació del docent.
 
 ### Sessió 3 — Impressió (2 h)
-1. **Laminat i cua (30')**: prioritzar peces; impressions llargues fora d'hores si cal.
+1. **Laminat i cua (30')**: agrupar les peces de l'equip en **batches de placa** (una targeta
+   de kanban per placa); prioritzar peces; plaques llargues fora d'hores si cal (vegeu
+   `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §2B).
 2. **Impressió i treball paral·lel (90')**: seguiment + millora del disseny + reptes.
 
 ### Sessió 4 — Muntatge, proves i iteració (2 h)
@@ -109,6 +119,20 @@ la persona destinatària.
 2. Una millora que ens ha suggerit l'usuari: …
 3. Com ha funcionat el nostre equip? 🔴 🟡 🟢
 
-## 8. Avaluació
-- Producte final: `Rubrica_SA6.md` + `Avaluació/Rubrica_producte_final.md`.
-- Equip i procés: `Avaluació/Full_seguiment_grup.md`. Diari/portafoli i coavaluació.
+## 8. Avaluació — què s'avalua, amb què i qui
+
+> ⭐ Producte final de trimestre → **rúbrica completa** (`Avaluació/Criteris_i_qualificacio.md`
+> §2·bis). La versió per a l'alumnat és a la fitxa («Com m'avaluaran?»).
+
+| Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
+|------------------------------|-----------|------------|----------|
+| **Solució 3D funcional** per a l'usuari (S3-S4) | `Rubrica_SA6.md` **completa** + `Avaluació/Rubrica_producte_final.md` | Docents | CA2.2, CA2.3, CA3.2, CA3.3 |
+| **Empatia i requisits** centrats en l'usuari (S1) | Files CA1.x de la rúbrica + fitxa d'equip | Docents | CA1.1-1.3 |
+| **Prova amb l'usuari real i iteració** (S4) | Fila «Impressió i iteració» + evidència al portafoli (què va dir, què vam canviar) | Docents + **usuari** | CA1.4, TA |
+| **Contribució individual** (taula «Peça/Responsable» + v2 de cada peça) | Fila específica de la rúbrica + diari | Docents | CA5.1, CA5.2 |
+| **Presentació de l'impacte** (S5) | Fila CA5.3 de la rúbrica | Docents + companys | CA5.3 |
+| **Coavaluació d'equip** (S5, amb calibratge previ si és la 1a del T2) | `Avaluació/Autoavaluacio_coavaluacio.md` | Equip | CA5.1 (contrast) |
+| **Portafoli del T2** (S5) | Pauta del diari | Docent | CA5.2 |
+| **Equitat de rols i seguretat** (contínua) | `Avaluació/Full_seguiment_grup.md` | Els dos docents | CA6.1, CA6.2, TE |
+
+**En tancar la SA:** nivells → `Avaluació/Full_progres_competencial.md` + **valoració T2**.

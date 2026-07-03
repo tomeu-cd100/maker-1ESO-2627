@@ -8,6 +8,7 @@ Modela un **clauer o figura 3D** amb Tinkercad. Requisits:
 - [ ] Mínim **1 forat** (cos "buit")
 - [ ] El teu nom o inicial en relleu
 - [ ] Mida raonable (cap a **50 mm**, gruix mínim 3 mm perquè no es trenqui)
+- [ ] S'imprimeix **pla i sense suports** (així entra al *batch* de placa amb els dels companys)
 - [ ] Exportat en **.STL**
 
 ## Tinkercad: el que necessito
@@ -18,9 +19,12 @@ Modela un **clauer o figura 3D** amb Tinkercad. Requisits:
 - **Alinear:** selecciona → eina **Alinea**
 
 ## El meu esbós (3 vistes)
+📄 *En paper, reserva **mig full**: una vista gran per requadre, amb les mides apuntades.*
 ```
  Davant        Costat        Dalt
 +------+      +------+      +------+
+|      |      |      |      |      |
+|      |      |      |      |      |
 |      |      |      |      |      |
 +------+      +------+      +------+
 ```
@@ -32,3 +36,14 @@ Modela un **clauer o figura 3D** amb Tinkercad. Requisits:
 ## Reflexió
 - Pensar en 3D m'ha semblat: fàcil / normal / difícil
 - El truc de Tinkercad que més m'ha servit: ____________________
+
+## 🔍 Com m'avaluaran en aquesta SA?
+
+| Què es mira | Com | Qui |
+|-------------|-----|-----|
+| El meu **model 3D**: ≥3 cossos + 1 forat + nom en relleu + dins els límits | El checklist final d'aquesta fitxa | El/la profe, amb mi |
+| Les **mides**: raonables i amb gruix perquè no es trenqui | Comprovant-les al model | El/la profe |
+| L'**STL exportat** correctament | Que s'obri i entri al batch de placa | El/la profe |
+| El meu **diari amb captures** del progrés | Una entrada per sessió | El/la profe |
+
+**En acabar:** nivell (🌱🙂💪🌟) + 🎯 objectiu al diari + full de progrés.

@@ -34,3 +34,15 @@ Captureu en 360 i munteu un **tour virtual** del centre, visible amb les ulleres
 ## Reflexió
 - Què ha quedat millor del nostre tour? ____________________
 - Què milloraríem de la captura? ____________________
+
+## 🔍 Com ens avaluaran en aquesta SA?
+
+| Què es mira | Com | Qui |
+|-------------|-----|-----|
+| Les nostres **captures**: estables i ben il·luminades | Mirant les imatges triades | El/la profe |
+| El **tour navegable i publicat** (títols, etiquetes, punts de navegació) | El checklist de muntatge d'aquesta fitxa | El/la profe, amb nosaltres |
+| **Drets d'imatge**: permisos demanats, privadesa respectada | La checklist d'ètica (a dalt) + revisió abans de publicar | El/la profe |
+| El **pla de captures** i el meu rol a l'equip | La taula de planificació + observació | Els/les profes |
+| El carnet 🟢 de **càmera 360** | Checkpoint: drets d'imatge + captura estable | El/la profe |
+
+**En acabar:** nivell (🌱🙂💪🌟) + 🎯 objectiu al diari + full de progrés.

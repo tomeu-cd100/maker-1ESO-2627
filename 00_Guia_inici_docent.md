@@ -17,6 +17,7 @@
 ```
 maker-1ESO-2627/
 ├── 00_Guia_inici_docent.md   ← ETS AQUÍ
+├── 00_Guia_inici_codocent.md  ← per al company/a de desdoblament
 ├── README.md                  ← índex general
 ├── Programació didàctica/     ← QUÈ s'ensenya i com s'avalua (comença aquí)
 ├── Classes/                   ← les 9 SA, llestes per impartir (SA1…SA9)
@@ -34,16 +35,24 @@ maker-1ESO-2627/
 3. `Avaluació/Criteris_i_qualificacio.md` — com avaluaràs.
 4. `Classes/SA1_Benvinguts_Aula_Maker/SA1.md` — la primera SA, llesta per a la setmana 1.
 5. `Normativa/Normes_seguretat_taller.md` — imprescindible abans de tocar màquines.
+6. **Si treballeu en desdoblament** (2 docents, aforament limitat a l'aula Maker):
+   `Programació didàctica/Codocencia_desdoblament.md` — model de rotació i estacions — i dona
+   al teu company/a la `00_Guia_inici_codocent.md` (no li cal saber res de màquines).
 
 ## 4. La primera setmana (checklist)
 - [ ] Llegir la PD i la temporització; adaptar les setmanes al calendari del centre.
 - [ ] Preparar l'aula per zones (disseny / fabricació / immersiva / muntatge).
 - [ ] Comprovar que totes les màquines engeguen i tens els consumibles bàsics.
-- [ ] Imprimir el `Normativa/Normes_seguretat_taller.md` i el **contracte d'aula**.
+- [ ] Imprimir el `Normativa/Normes_seguretat_taller.md`, el **contracte d'aula** i els
+  **carnets de màquina** (`Normativa/Carnet_de_maquina.md`).
 - [ ] Recollir les **autoritzacions** de família (si en faràs servir VR/360 aquest curs).
 - [ ] Crear els comptes de classe (Tinkercad, CoSpaces Edu).
 - [ ] Tenir a punt el **diari de taller** (paper o digital).
 - [ ] Preparar l'**avaluació inicial** (`Avaluació/Avaluacio_inicial.md`) per a la setmana 1.
+- [ ] Imprimir/compartir `Avaluació/Avaluacio_explicada_alumnat.md` (el sistema d'avaluació en
+  una pàgina, per a alumnat i famílies) — es presenta la setmana 1 amb el contracte d'aula.
+- [ ] Si feu desdoblament: formar els **grups A/B estables** amb l'avaluació inicial i acordar
+  amb el co-docent els 10' de coordinació setmanal (`Programació didàctica/Codocencia_desdoblament.md`).
 - [ ] Llegir la metodologia de **treball cooperatiu** (`Programació didàctica/Aprenentatge_cooperatiu.md`)
   i preparar el **referent de la setmana** (`Programació didàctica/Equitat_genere_STEAM.md`).
 - [ ] Començar amb la **SA1**.
@@ -71,10 +80,18 @@ maker-1ESO-2627/
 ### Comptes i programari a tenir llest
 - [ ] Inkscape instal·lat · [ ] xTool Creative Space · [ ] Bambu Studio
 - [ ] Tinkercad (classe) · [ ] CoSpaces Edu (classe) · [ ] Programari càmera 360
+- [ ] Si feu desdoblament: **Linux + Inkscape als Chromebooks** (coordinació TIC; vegeu
+  `Programació didàctica/Codocencia_desdoblament.md` §3)
 
 ## 6. Rutines d'aula que funcionen
 - **Inici (5'):** objectiu del dia + repte d'escalfament.
 - **Torns de màquina:** qui espera, treballa al diari o fa un repte (`Reptes/`).
+- **Carnet de màquina:** ningú opera una màquina sense el seu carnet
+  (`Normativa/Carnet_de_maquina.md`); el checkpoint es fa dins la SA corresponent (làser a SA1,
+  3D a SA5, càmera a SA7, VR a SA8) i gamifica la seguretat.
+- **Museu dels Errors:** les peces fallides instructives no van a la paperera — es donen al
+  museu amb la seva targeta (`Programació didàctica/Museu_dels_errors.md`); insígnia 🏆
+  trimestral a l'error que més ha ensenyat.
 - **Final (5-10'):** neteja + entrada al diari de taller.
 - Una **demo curta** abans de cada tècnica nova; bastides retirables.
 - **Exemples resolts:** cada SA inclou un `Exemple_resolt.md` (model de producte, fitxa i diari
@@ -82,8 +99,14 @@ maker-1ESO-2627/
   i comenta'l amb el llenguatge dels criteris d'èxit (no per copiar, sinó com a referent).
 
 ## 7. Avaluació en la pràctica
-- **Comença cada SA fent visible l'aprenentatge:** projecta la *pregunta guia*, els *objectius*
-  ("Seré capaç de…") i els *criteris d'èxit* que ja porta cada SA; torna-hi al final.
+- **Comença cada SA fent visible l'aprenentatge:** 2' de *feed-forward* (cadascú recupera el
+  seu 🎯 objectiu del diari) + projecta la *pregunta guia*, els *objectius* ("Seré capaç de…"),
+  els *criteris d'èxit* i la **🧭 Gran Idea** de la SA
+  (`Programació didàctica/Grans_idees_maker.md`, pòster a l'aula); torna-hi al final.
+- **Full de progrés per alumne** (`Avaluació/Full_progres_competencial.md`): 2-3 min en tancar
+  cada SA i al juny tens la trajectòria de cada competència, no records.
+- **Calibra la coavaluació** una vegada per trimestre amb l'exemple resolt
+  (`Avaluació/Autoavaluacio_coavaluacio.md` §0) — si no, mesura amistats.
 - Durant la sessió, usa instruments **formatius** ràpids (`Avaluació/Instruments_formatius.md`):
   tiquet de sortida, semàfor 🔴🟡🟢, rutines de pensament.
 - Observa amb el `Avaluació/Full_seguiment_grup.md` (codis ràpids +/-/!).
@@ -91,6 +114,9 @@ maker-1ESO-2627/
 - Tanca cada SA amb la seva **rúbrica** + autoavaluació/coavaluació; l'alumnat pot usar la
   `Avaluació/Rubrica_alumnat_amigable.md`.
 - Productes finals de trimestre: **SA3, SA6, SA9**.
+- ⚖️ **No ho apliquis tot a totes les SA:** rúbrica completa només a SA3/SA6/SA9; a les SA
+  curtes, checklist de criteris d'èxit i mostreig del diari (vegeu la **jerarquia
+  d'instruments** a `Avaluació/Criteris_i_qualificacio.md` §2·bis).
 
 ## 8. Manteniment i millora contínua
 - Anota incidències a `Memòria de treball/Registre_incidencies_i_manteniment.md`.

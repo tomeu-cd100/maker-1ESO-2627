@@ -23,6 +23,29 @@ dels productes, el procés i l'actitud al taller.
 > (CE1–CE6), **no** la mitjana aritmètica dels components ni dels trimestres, prioritzant
 > **l'evolució** i les **darreres evidències** de cada competència.
 
+## 2·bis. Jerarquia d'instruments (perquè l'avaluació sigui sostenible)
+
+Amb ~25 alumnes i 9 SA, aplicar **tots** els instruments a **totes** les SA no és realista i
+acaba degradant-los tots alhora. Prioritzeu així (la matriu del §4 garanteix que cap criteri
+queda sense avaluar):
+
+| Instrument | SA de producte trimestral (SA3, SA6, SA9) | SA curtes (SA1, SA2, SA4, SA5, SA7, SA8) |
+|------------|-------------------------------------------|-------------------------------------------|
+| Rúbrica de la SA | **Completa**, alumne per alumne | **Reduïda**: valida els criteris d'èxit (checklist) + 1-2 files clau de la rúbrica |
+| Full de seguiment (observació) | Continu (codis +/-/!) | Continu (codis +/-/!) — és l'instrument barat: no el retalleu |
+| Diari de taller | Lectura completa del tancament de SA | **Mostreig rotatiu**: llegiu a fons ⅓ del grup per sessió; el tancament de SA, de tothom |
+| Auto/coavaluació | Completa (`Autoavaluacio_coavaluacio.md`) | Versió curta (semàfor + una frase) o la diana |
+
+> La rúbrica reduïda no és menys rigor: els **criteris d'èxit** de cada SA ja són observables i
+> alineats amb els CA. Reserveu l'energia avaluativa fina per a les SA amb més pes d'evidència.
+
+**On conflueix tot:** en tancar cada SA, el nivell de cada competència treballada s'anota al
+**`Full_progres_competencial.md`** (una pàgina per alumne/a, 2-3 min per SA). És l'instrument
+que fa **operativa** la valoració global i evolutiva: cada fila es llegeix com una
+**trajectòria** (les darreres evidències matisades pel camí), no com una llista per fer
+mitjana. També hi consten els **objectius personals** de l'alumnat (🎯 tancament del diari) i
+el seu seguiment.
+
 ## 3. Nivells d'assoliment
 
 Qualificació **qualitativa per nivells**. No es converteixen a una nota numèrica de l'1 al 10:
@@ -70,11 +93,48 @@ Marca on s'avalua cada criteri al llarg del curs (assegura que tots es treballen
 > `Rubrica_general_competencial.md` (secció *Eixos transversals — Equitat i APS*),
 > `Programació didàctica/Equitat_genere_STEAM.md` i `Programació didàctica/Interdisciplinarietat_i_APS.md`.
 
+## 4·bis. Mapa operatiu: què s'avalua a cada SA, amb què i qui
+
+Vista de curs per al docent (el detall per sessió és al **§8 de cada SA**, i la versió per a
+l'alumnat, a la seva **fitxa** — secció «Com m'avaluaran?» — i a `Avaluacio_explicada_alumnat.md`).
+
+| SA | Evidència principal | Altres evidències | Instrument de qualificació | Qui avalua |
+|----|--------------------|-------------------|---------------------------|------------|
+| SA1 | Clauer fabricat | Diari, carnet 🔴, contracte | Checklist criteris d'èxit + 2 files clau de la rúbrica | Docents + autoaval. |
+| SA2 | Marcapàgines | Diari, aprofitament de material | Checklist criteris d'èxit + files CA2.1/CA6.2 | Docents + autoaval. |
+| SA3 ⭐ | Objecte d'identitat (equip) | Mostra d'encaix/kerf, presentació, portafoli T1 | **Rúbrica completa** + `Rubrica_producte_final.md` + calibratge i coavaluació | Docents + equip + alumne |
+| SA4 | STL propi (imprès en batch) | Diari amb captures | Checklist criteris d'èxit + fila CA2.2 | Docents + autoaval. |
+| SA5 | Peça funcional impresa | v1→v2 documentada, fitxa tècnica, carnet 🟠 | Checklist + files CA1.4 (iteració) i CA3.2 | Docents + parella (revisió) |
+| SA6 ⭐ | Solució 3D per a usuari real (equip) | Prova amb l'usuari, presentació, portafoli T2 | **Rúbrica completa** + producte final + coavaluació calibrada | Docents + usuari + equip |
+| SA7 | Tour 360 **publicat** | Pla de rodatge, carnet 🟢, drets d'imatge | Checklist + files CA4.1/CA6.3 | Docents + autoaval. |
+| SA8 | Escena VR explorable | Fitxa d'anàlisi crítica, carnet 🔵 | Checklist + files CA4.2/CA4.3 | Docents + autoaval. |
+| SA9 ⭐ | Estand de la Fira (equip) | Portafoli final de curs, pla de projecte | **Rúbrica completa** + producte final + coavaluació + votació | Docents + públic + equip |
+
+**Constants de totes les SA** (no es repeteixen a la taula):
+- **Diari de taller**: una entrada per sessió + tancament amb 🎯 (pauta de `Diari_de_taller.md`).
+- **Observació contínua**: `Full_seguiment_grup.md` amb codis +/-/! (en codocència, un full per
+  docent segons el repartiment de CA).
+- **En tancar cada SA**: el nivell de cada CE treballada s'anota al `Full_progres_competencial.md`.
+
+### Calendari de fites avaluatives del curs
+
+| Moment | Fita |
+|--------|------|
+| Setmana 1 | **Avaluació inicial** (sense nota) → formar grups i anticipar barreres |
+| Inici de cada SA | *Feed-forward* (recuperar 🎯) + criteris d'èxit i Gran Idea visibles |
+| Tancament de cada SA | Checklist/rúbrica + diari + columna del full de progrés |
+| 1a coavaluació de cada trimestre | **Calibratge previ** amb l'exemple resolt (`Autoavaluacio_coavaluacio.md` §0) |
+| Tancament de trimestre (SA3/6/9) | Rúbrica completa + portafoli + **valoració trimestral** al full de progrés + revisió d'equitat amb dades |
+| Un cop per trimestre | Ensenyar a cada alumne/a **el seu full de progrés** |
+| Juny (SA9) | Columna «Global curs» fila a fila (trajectòria) + retorn de l'avaluació inicial |
+
 ## 5. Avaluació formativa
 A més dels instruments de qualificació, useu els recursos d'**avaluació formativa** per fer
 visible i regular l'aprenentatge durant el procés:
 - `Instruments_formatius.md` — tiquets de sortida, semàfor, rutines de pensament, diana, galeria.
 - `Rubrica_alumnat_amigable.md` — la rúbrica competencial en llenguatge d'alumnat (autoavaluació).
+- `Avaluacio_explicada_alumnat.md` — **tot el sistema d'avaluació en una pàgina** per a
+  l'alumnat i les famílies (repartiu-la la setmana 1, amb la carta a les famílies).
 - Cada SA porta **pregunta guia**, **objectius i criteris d'èxit** i una **rutina de
   metacognició** per compartir amb l'alumnat a l'inici i tancar al final.
 

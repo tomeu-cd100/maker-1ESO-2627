@@ -27,6 +27,9 @@ encaix (*kerf* / joints) i el treball en equip.
 ## 🎯 Pregunta guia
 > «Com dissenyo i construeixo un objecte útil i amb la meva identitat, fet de peces que encaixin?»
 
+> 🧭 **Gran idea 1 — El material mana** (el kerf es menja mil·límetres!) **+ 4 — L'error és
+> informació** (la mostra d'encaix) (`Programació didàctica/Grans_idees_maker.md`).
+
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
 - Aplicar el procés tecnològic complet (necessitat → idea → disseny → fabricació → millora).
@@ -41,7 +44,7 @@ encaix (*kerf* / joints) i el treball en equip.
 - [ ] Hem presentat el projecte amb claredat.
 
 ## 🔑 Vocabulari clau (word wall)
-`procés tecnològic` · `requisit` · `prototip` · `iteració` · `unió per encaix` · `rol d'equip`
+`procés tecnològic` · `requisit` · `prototip` · `iteració` · `unió per encaix` · `kerf (amplada de tall)` · `rol d'equip`
 
 ## 2. Competències específiques i criteris avaluats
 - **CE1** → CA1.1, CA1.2, CA1.3, CA1.4
@@ -61,8 +64,9 @@ encaix (*kerf* / joints) i el treball en equip.
 ### Sessió 1 — Repte i idea (2 h)
 1. **Presentació del repte i exemples (20')**.
 2. **Detectar necessitat + idear (40')**: cada equip defineix l'objecte, l'usuari i els requisits.
-3. **Esbós i planificació (50')**: dibuix de les peces, mides, materials, repartiment de rols.
-   Validació del docent (`CA1.1–1.3`).
+3. **Esbós i planificació (50')**: dibuix de les peces, mides, materials, repartiment de rols
+   amb **signatura de peça** (cada membre queda responsable identificable d'una part concreta;
+   ho recull la rúbrica). Validació del docent (`CA1.1–1.3`).
 
 ### Sessió 2 — Disseny digital (2 h)
 1. **Demo: unions per encaix (25')**: com fer ranures de l'amplada del gruix de la fusta.
@@ -71,6 +75,8 @@ encaix (*kerf* / joints) i el treball en equip.
 
 ### Sessió 3 — Fabricació (2 h)
 1. **Preparació i prova (20')**: tallar primer una **mostra d'encaix** per validar mides.
+   Mesureu-hi el **kerf** real (dibuixeu una ranura de 3,0 mm, mesureu-la tallada amb el peu de
+   rei: la diferència és el que "es menja" el làser) i ajusteu les unions si cal.
 2. **Fabricació de les peces (90')** per torns d'equip; agrupa les peces de cada equip en una
    passada (*batch*) per estalviar temps de làser (vegeu
    `Programació didàctica/Gestio_temps_maquina_fabricacio.md`). Ajustar el disseny si l'encaix
@@ -112,6 +118,19 @@ que heu trobat i com els heu superat.
 2. Què refaríem si comencéssim de nou: …
 3. Com ha funcionat el nostre equip? 🔴 🟡 🟢
 
-## 8. Avaluació
-- Producte final: `Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md`.
-- Procés/equip: `Avaluació/Full_seguiment_grup.md`. Diari/portafoli i coavaluació.
+## 8. Avaluació — què s'avalua, amb què i qui
+
+> ⭐ Producte final de trimestre → **rúbrica completa** (`Avaluació/Criteris_i_qualificacio.md`
+> §2·bis). La versió per a l'alumnat és a la fitxa («Com m'avaluaran?»).
+
+| Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
+|------------------------------|-----------|------------|----------|
+| **Objecte d'identitat** muntat i funcional (S3-S4) | `Rubrica_SA3.md` **completa** + `Avaluació/Rubrica_producte_final.md` | Docents | CA2.1, CA2.3, CA3.1, CA3.3 |
+| **Procés complet**: requisits, esbós, pla, mostra d'encaix/kerf, iteració (S1-S4) | Files CA1.x de la rúbrica + fitxa d'equip | Docents | CA1.1-1.4 |
+| **Contribució individual** («signatura de peça») (S1-S5) | Fila específica de la rúbrica + diari | Docents | CA5.1, CA5.2 |
+| **Presentació a la fira de productes** (S5) | Fila CA5.3 de la rúbrica | Docents + companys | CA5.3 |
+| **Coavaluació d'equip** (S5, amb **calibratge previ** §0) | `Avaluació/Autoavaluacio_coavaluacio.md` | Equip | CA5.1 (contrast) |
+| **Portafoli del T1** (diari + evidències) (S5) | Pauta del diari | Docent | CA5.2 |
+| **Equitat de rols i seguretat** (contínua) | `Avaluació/Full_seguiment_grup.md` | Els dos docents | CA6.1, CA6.2, TE, TA |
+
+**En tancar la SA:** nivells → `Avaluació/Full_progres_competencial.md` + **valoració T1**.

@@ -30,3 +30,15 @@ Signatura: ____________
 ## Reflexió
 - El que més ens agrada de la nostra escena: ____________________
 - El que ha estat més difícil: ____________________
+
+## 🔍 Com ens avaluaran en aquesta SA?
+
+| Què es mira | Com | Qui |
+|-------------|-----|-----|
+| La nostra **escena VR**: es pot explorar i comunica el tema | La Part C d'aquesta fitxa + provar-la | El/la profe, amb nosaltres |
+| La meva **anàlisi crítica** de la VR (usos, riscos, límits) | La Part B d'aquesta fitxa | El/la profe |
+| Que compleixi el **protocol VR** (temps, higiene, guia) + carnet 🔵 | Observació a l'estació VR + checkpoint | El/la profe |
+| La meva **tasca dins l'equip** (taula de repartiment) | Observació + el meu diari | Els/les profes |
+| La **galeria d'escenes** (provar la d'un altre equip) | Feedback concret (★★ i un desig) | Els companys |
+
+**En acabar:** nivell (🌱🙂💪🌟) + 🎯 objectiu al diari + full de progrés.

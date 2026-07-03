@@ -23,6 +23,9 @@ a alumnat nou de 6è de primària…).
 ## 🎯 Pregunta guia
 > «Com capturo i comparteixo un espai perquè algú el pugui explorar com si hi fos?»
 
+> 🧭 **Gran idea 5 — Dissenyem per a algú** (l'audiència del tour és real) **+ 3 — Mesura dues
+> vegades** (pla de rodatge abans de sortir) (`Programació didàctica/Grans_idees_maker.md`).
+
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
 - Explicar què és una imatge/vídeo 360.
@@ -34,6 +37,8 @@ a alumnat nou de 6è de primària…).
 - [ ] Les meves captures són estables i ben il·luminades.
 - [ ] El tour es pot navegar i té títols/etiquetes.
 - [ ] He demanat permisos i respectat la privadesa.
+- [ ] El tour s'ha **publicat i lliurat a l'audiència real** (web del centre / QR / jornada de
+  portes obertes).
 - [ ] He documentat el procés.
 
 ## 🔑 Vocabulari clau (word wall)
@@ -57,26 +62,39 @@ a alumnat nou de 6è de primària…).
 ### Sessió 1 — Què és el 360? (2 h)
 1. **Immersió (20')**: visualització d'exemples 360/tours; què el fa diferent del vídeo normal.
 2. **La càmera 360 (40')**: parts, com es captura, projecció equirectangular, on amagar-se el
-   fotògraf, transferència d'arxius.
+   fotògraf, transferència d'arxius. Inclou el **checkpoint del carnet 🟢 de càmera 360**
+   (`Normativa/Carnet_de_maquina.md`): drets d'imatge + captura estable (es pot completar a la
+   sessió 2, al primer torn de cada equip).
 3. **Ètica i privadesa (20')**: drets d'imatge; demanar permís; espais a evitar.
 4. **Planificació del tour (30')**: triar espais, ordre, punts de captura. Repartiment de rols.
 5. **Diari (10')**.
 
 ### Sessió 2 — Captura al centre (2 h)
-1. **Preparació (15')**: rutes i responsabilitats per equips.
-2. **Captura guiada (85')**: cada equip captura els seus espais (estabilitat, llum, sense gent
-   no autoritzada al pla). Repeticions si cal.
-3. **Transferència i selecció (20')**: passar les imatges, triar les millors.
+1. **Preparació (15')**: rutes i responsabilitats per equips; **full de reserva de torns** de
+   càmera públic (cap equip surt sense pla de captura escrit).
+2. **Captura per torns rotatius (85')**: ⏱️ amb **1 sola càmera** per a 6-7 equips, cada equip
+   té un torn de **~12 min** (temporitzador visible). Mentrestant, la resta treballa a les
+   **estacions**: guió i redacció d'etiquetes del tour · transferència i selecció de les
+   captures ja fetes · repte immersiu (`Reptes/Reptes_immersius_360_VR.md`). Vegeu la rotació
+   completa a `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5. Estabilitat, llum,
+   sense gent no autoritzada al pla; repeticions si cal.
+3. **Posada en comú i selecció final (20')**: cada equip tria les seves millors captures.
 
-### Sessió 3 — Muntatge i visualització (2 h)
-1. **Muntar el tour (70')**: enllaçar les escenes amb punts de navegació; títols/etiquetes.
-2. **Visualització (30')**: explorar el tour. Amb ulleres VR **per torns** (segons l'edat del
+### Sessió 3 — Muntatge, publicació i visualització (2 h)
+1. **Muntar el tour (60')**: enllaçar les escenes amb punts de navegació; títols/etiquetes.
+2. **Publicació (10')**: el tour es **lliura de veritat a l'audiència** — es penja a la web
+   del centre i/o es genera un **codi QR** per a l'entrada i la jornada de portes obertes
+   (coordinació TIC). ⚠️ Si l'audiència anunciada («famílies, alumnat de 6è») no rep mai el
+   tour, la lliçó apresa és que era ficció retòrica: l'APS només funciona si el lliurament és
+   real. Revisió prèvia de **drets d'imatge** abans de publicar (CA6.3).
+3. **Visualització (30')**: explorar el tour. Amb ulleres VR **per torns** (segons l'edat del
    model, `Normativa/Protocol_us_VR.md`) i **sempre amb alternativa en pantalla** per a qui no en
    faci ús.
-3. **Avaluació i galeria (20')**: coavaluació + diari de taller.
+4. **Avaluació i galeria (20')**: coavaluació + diari de taller.
 
 ## 5. Producte final
-Tour virtual del centre (navegable) + visualització VR + documentació del procés.
+Tour virtual del centre (navegable) **publicat per a l'audiència real** (web/QR, jornada de
+portes obertes o visita de 6è) + visualització VR + documentació del procés.
 
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
@@ -87,6 +105,9 @@ Tour virtual del centre (navegable) + visualització VR + documentació del proc
 
 ## 7. Recursos i materials
 - **Càmera 360** + trípode/perxa; ordinadors; ulleres VR; programari/visor de tours.
+- Full de reserva de torns de càmera i rotació d'estacions:
+  `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5. Carnet 🟢:
+  `Normativa/Carnet_de_maquina.md`.
 - `Normativa/Protocol_us_VR.md` i `Normativa/Autoritzacio_families_VR_360.md` (drets d'imatge).
 - `Simulacions/Experiencies_VR_360.md`. `Fitxa_alumnat.md` · `Rubrica_SA7.md`.
 
@@ -98,5 +119,18 @@ Tour virtual del centre (navegable) + visualització VR + documentació del proc
 2. Què milloraríem de la captura: …
 3. Com em sento creant contingut 360? 🔴 🟡 🟢
 
-## 8. Avaluació
-- Captura + tour: `Rubrica_SA7.md`. Equip i procés: `Avaluació/Full_seguiment_grup.md`. Diari de taller.
+## 8. Avaluació — què s'avalua, amb què i qui
+
+> SA curta → **rúbrica reduïda** (`Avaluació/Criteris_i_qualificacio.md` §2·bis). La versió
+> per a l'alumnat és a la fitxa («Com m'avaluaran?»).
+
+| Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
+|------------------------------|-----------|------------|----------|
+| **Tour navegable i publicat** (S3) | Checklist de criteris d'èxit + fila CA4.2 de `Rubrica_SA7.md` | Docent + autoaval. | CA4.1, CA4.2 |
+| **Captures estables i ben il·luminades** (S2) | Fila CA4.1 de la rúbrica | Docent | CA4.1 |
+| **Drets d'imatge i permisos** (S1-S3, revisió abans de publicar) | Fila CA6.3 de la rúbrica + carnet 🟢 | Docent | CA6.3 |
+| **Pla de rodatge i rol dins l'equip** (S1-S2) | Full de reserva de torns + observació | Els dos docents | CA5.1, CA1.4 |
+| **Diari** (1 entrada/sessió + tancament amb 🎯) | Pauta del diari | Docent | CA5.2 |
+| **Coavaluació de la galeria de tours** (S3) | `Avaluació/Autoavaluacio_coavaluacio.md` (C) | Companys | CA5.3 (contrast) |
+
+**En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.

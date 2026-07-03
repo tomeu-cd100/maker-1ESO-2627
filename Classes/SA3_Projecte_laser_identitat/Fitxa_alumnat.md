@@ -26,6 +26,7 @@ encaixin**. Trieu un tipus:
 ## Fase 3 — Dissenyar (Inkscape)
 - [ ] Totes les peces dibuixades   - [ ] Unions a l'amplada del gruix
 - [ ] Capes tall/gravat   - [ ] **Mostra d'encaix** provada abans de tallar-ho tot
+- Kerf mesurat a la mostra: hem dibuixat ____ mm i ha quedat ____ mm → el làser es menja ____ mm
 
 ## Fase 4 — Muntar i millorar
 - L'encaix ha funcionat a la primera? Sí / No → Què hem canviat? ____________________
@@ -37,3 +38,16 @@ Preparem una mini presentació (2-3 min): problema → solució → procés → 
 ## Reflexió d'equip
 - El millor del nostre projecte: ____________________
 - El que ha estat més difícil: ____________________
+
+## 🔍 Com ens avaluaran en aquesta SA? (⭐ producte final de trimestre)
+
+| Què es mira | Com | Qui |
+|-------------|-----|-----|
+| El nostre **objecte**: les peces encaixen i fa la seva funció | Rúbrica completa de la SA (la tenim des del primer dia) | Els/les profes |
+| El **procés sencer**: requisits → idees → pla → mostra d'encaix → millora | Aquesta fitxa + el diari | Els/les profes |
+| **La meva part** (signatura de peça): què he fet JO dins l'equip | La meva peça/tasca identificable + el meu diari | Els/les profes |
+| La **presentació** del projecte | Que expliquem problema → solució → procés → millores | Profes + companys |
+| Com hem **treballat en equip** | Coavaluació (abans calibrem junts amb un exemple) | Nosaltres mateixos |
+| El **portafoli del trimestre** | Diari complet + evidències + fotos | El/la profe |
+
+**En acabar:** nivell (🌱🙂💪🌟) + 🎯 objectiu al diari + full de progrés + **valoració del trimestre**.

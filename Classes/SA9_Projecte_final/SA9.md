@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 3r — **Producte final de curs** |
-| **Temporització** | 5 sessions de 2 h (setmanes 31–35) |
+| **Temporització** | 5 sessions de 2 h (setmanes 30–34) — la Fira és la setmana 34; la 35 queda de **coixí** (juny sempre porta imprevistos) |
 | **Eix** | Projecte integrador (làser + 3D + 360/VR) |
 | **Producte final** | Un **estand/museu interactiu** que combina objectes fabricats i contingut immersiu, presentat en una **Fira Aula Maker** |
 
@@ -25,6 +25,10 @@ famílies.
 
 ## 🎯 Pregunta guia
 > «Com combino tot el que he après per crear i comunicar un projecte que enganxi el públic?»
+
+> 🧭 **Les 5 Grans Idees alhora** — el projecte integrador les convoca totes; a la rutina de
+> tancament, cadascú n'explica una amb un exemple propi de cada trimestre
+> (`Programació didàctica/Grans_idees_maker.md`).
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
@@ -60,8 +64,9 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
    què farà en 360/VR.
 3. **Pla de projecte (50')**: requisits, peces, tasques, calendari (incloent **temps de màquina**:
    planifiqueu *batch* de làser i cua d'impressió 3D segons
-   `Programació didàctica/Gestio_temps_maquina_fabricacio.md`), rols. Validació del docent
-   (**document de pla de projecte**).
+   `Programació didàctica/Gestio_temps_maquina_fabricacio.md`), rols amb **signatura de peça**
+   (cada membre responsable identificable d'una part de l'estand; ho recull la rúbrica).
+   Validació del docent (**document de pla de projecte**).
 4. **Diari (10')**.
 
 ### Sessió 2 — Disseny i fabricació (2 h)
@@ -110,7 +115,21 @@ final del curs.
 2. Una cosa que m'enduc per al futur: …
 3. Com valoro la meva evolució a l'Aula Maker? 🔴 🟡 🟢
 
-## 8. Avaluació
-- Producte integrador: `Rubrica_SA9.md` + `Avaluació/Rubrica_producte_final.md`.
-- Procés i equip: `Avaluació/Full_seguiment_grup.md`. Portafoli final, autoavaluació i coavaluació.
-- Aquesta SA té pes destacat en la **valoració global de curs**.
+## 8. Avaluació — què s'avalua, amb què i qui
+
+> ⭐ Producte final de curs → **rúbrica completa** (`Avaluació/Criteris_i_qualificacio.md`
+> §2·bis). La versió per a l'alumnat és a la fitxa («Com m'avaluaran?»). Aquesta SA té pes
+> destacat en la **valoració global de curs**.
+
+| Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
+|------------------------------|-----------|------------|----------|
+| **Estand integrador** (objecte fabricat + experiència immersiva) (S4-S5) | `Rubrica_SA9.md` **completa** + `Avaluació/Rubrica_producte_final.md` | Docents | CE2, CE3, CE4 |
+| **Pla de projecte i el seu compliment** (S1-S4) | Document de pla validat + seguiment de fites | Docents | CE1 (CA1.1-1.4) |
+| **Contribució individual** («signatura de peça» al pla) (S1-S5) | Fila específica de la rúbrica + diari | Docents | CA5.1, CA5.2 |
+| **Presentació a la Fira** davant públic real (S5) | Fila CA5.3 de la rúbrica + votació de la galeria | Docents + **públic** | CA5.3, TA |
+| **Seguretat, aforament i ètica durant la Fira** (S5) | Observació (rols de Fira) | Els dos docents | CE6 |
+| **Portafoli final de curs** (tot el curs, tancat a S5) | Pauta del diari + rutina «El meu viatge maker» | Docent + alumne | CA5.2, CA1.4 |
+| **Coavaluació d'equip + autoavaluació global** (S5) | `Avaluació/Autoavaluacio_coavaluacio.md` + retorn de l'avaluació inicial | Equip + alumne | contrast |
+
+**En tancar la SA:** nivells → `Avaluació/Full_progres_competencial.md` + **valoració T3** +
+columna **«Global curs»** (fila a fila, per trajectòria).

@@ -3,6 +3,23 @@
 > Pondera un 10 % de la nota. Es passa al final de cada SA. Fomenta la metacognició i la
 > responsabilitat dins l'equip.
 
+## 0. Calibratge previ (15 min, una vegada per trimestre — imprescindible)
+
+Sense calibratge, alumnes de 12 anys valorant companys d'1 a 4 mesuren **amistats**, no
+aprenentatge (i el biaix conegut — les noies tendeixen a subvalorar-se en autoavaluació
+tecnològica, els nois a sobrevalorar-se — treballaria en contra de l'eix d'equitat). Abans de
+la **primera coavaluació de cada trimestre**:
+
+1. Projecteu l'**exemple resolt** de la SA (`Exemple_resolt.md`) i valoreu-lo **tots junts**
+   amb la mateixa graella (secció B/C): quin nivell li posem i **per què**.
+2. Feu el mateix amb el **contraexemple** («què evitar»).
+3. Discutiu les discrepàncies: «tu li has posat 4 i tu 2 — què heu mirat cadascú?». L'objectiu
+   és acordar **què compta com a evidència** (fets observables, no simpaties).
+4. Regla d'or per escrit a la pissarra: *«Valoro el que he **vist fer**, no com em cau».*
+
+> Després del calibratge, la coavaluació es passa amb normalitat. Si detecteu puntuacions
+> sistemàticament esbiaixades (algú que sempre rep 1 o sempre 4 de tothom), recalibreu.
+
 ## A) Autoavaluació individual
 
 Marca el teu nivell (1 = gens · 4 = molt) per a cada afirmació.

@@ -25,9 +25,15 @@ Dissenya i fabrica el **teu clauer personalitzat** a la talladora làser. Ha de 
 - [ ] No posaré materials no autoritzats.
 - [ ] Avisaré immediatament si veig fum excessiu o foc.
 
-## El meu esbós (dibuixa'l aquí abans de fer-lo digital)
+## El meu esbós (dibuixa'l abans de fer-lo digital)
+📄 *Si la fitxa és en paper, reserva-hi **mig full**: dibuixa gran, apunta les mides i marca
+què és tall i què és gravat. L'esbós en paper és pensar amb el llapis, no un tràmit!*
 ```
 +------------------------------------------+
+|                                          |
+|                                          |
+|                                          |
+|                                          |
 |                                          |
 |                                          |
 |                                          |
@@ -39,3 +45,15 @@ Dissenya i fabrica el **teu clauer personalitzat** a la talladora làser. Ha de 
 - El meu clauer ha quedat: ⭐⭐⭐⭐⭐ (encercla)
 - El que més m'ha agradat: ____________________
 - El que milloraria: ____________________
+
+## 🔍 Com m'avaluaran en aquesta SA?
+
+| Què es mira | Com | Qui |
+|-------------|-----|-----|
+| El meu **clauer**: forma + nom + forat + capes tall/gravat ben separades | La llista de dalt d'aquesta fitxa (els criteris d'èxit) | El/la profe, amb mi |
+| Que m'hagi guanyat el **carnet 🔴 de làser** | Checkpoint: 3 preguntes + demostració | El/la profe |
+| El meu **diari de taller** (una entrada per sessió) | Que expliqui decisions i problemes — no la quantitat de text | El/la profe |
+| Com treballo amb **seguretat** cada dia | Observació (+/-/!) | Els/les profes |
+
+**En acabar:** em poso el nivell (🌱🙂💪🌟) amb la rúbrica amigable, escric el meu 🎯 objectiu
+al diari, i el nivell s'apunta al meu **full de progrés** (puc demanar veure'l!).

@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 3r |
-| **Temporització** | 3 sessions de 2 h (setmanes 28–30) |
+| **Temporització** | 2 sessions de 2 h (setmanes 28–29) — deixa lloc al coixí de final de curs; ampliable amb la sessió ⭐ opcional si el calendari ho permet |
 | **Eix** | Ús educatiu i crític de la VR + creació d'escenes (CoSpaces Edu) |
 | **Producte final** | Una **escena VR interactiva** creada en equip (museu, recorregut, mini-història) |
 
@@ -23,6 +23,9 @@ escena 3D que es pot explorar amb les ulleres VR.
 
 ## 🎯 Pregunta guia
 > «Com creo una experiència de realitat virtual i en faig un ús segur i crític?»
+
+> 🧭 **Gran idea 2 — Petit i acabat guanya gran i a mitges:** una escena senzilla i explorable
+> val més que un món ambiciós buit (`Programació didàctica/Grans_idees_maker.md`).
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
@@ -56,21 +59,31 @@ escena 3D que es pot explorar amb les ulleres VR.
 ## 4. Seqüència de sessions
 
 ### Sessió 1 — Viure i entendre la VR (2 h)
-1. **Normes d'ús de la VR (20')**: `Normativa/Protocol_us_VR.md` (temps, higiene, espai, seguretat).
-2. **Exploració guiada (50')** per torns: experiències educatives (vegeu
-   `Simulacions/Experiencies_VR_360.md`); la resta treballa la fitxa d'anàlisi.
-3. **La VR al món real (40')**: debat sobre usos, beneficis, riscos i ètica (privadesa, addicció).
-4. **Diari (10')**.
+1. **Normes d'ús de la VR (20')**: `Normativa/Protocol_us_VR.md` (temps, higiene, espai,
+   seguretat) + **checkpoint del carnet 🔵** (`Normativa/Carnet_de_maquina.md`): ajustar les
+   ulleres i fer de guia (es completa durant les rondes d'exploració).
+2. **Exploració guiada per estacions (50' ≈ 5 rondes de ~10')**: ⏱️ amb **5 ulleres** per a tot
+   el grup, rotació cronometrada (vegeu
+   `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5): estació VR (5 alumnes + els
+   seus guies, experiències de `Simulacions/Experiencies_VR_360.md`) · fitxa d'anàlisi crítica ·
+   la mateixa experiència en pantalla · preparació d'arguments per al debat.
+3. **La VR al món real (30')**: debat sobre usos, beneficis, riscos i ètica (privadesa, addicció).
+4. **El nostre tema (15')**: cada equip tria el tema de l'escena (museu, recorregut,
+   mini-història) i reparteix tasques.
+5. **Diari (5')**.
 
-### Sessió 2 — Crear la nostra escena (2 h)
-1. **Demo CoSpaces (25')**: crear escena, afegir i moure objectes, càmera, "play" en VR.
-2. **Disseny en equip (75')**: idear el tema, repartir tasques, començar a construir l'escena.
-3. **Diari (20')**.
+### Sessió 2 — Crear, provar i avaluar l'escena (2 h)
+1. **Demo CoSpaces (20')**: crear escena, afegir i moure objectes, càmera, "play" en VR.
+2. **Construcció en equip (55')**: cada membre construeix la seva part del tema acordat;
+   qui va ràpid afegeix interaccions ⭐ amb blocs de codi.
+3. **Visualització VR per torns (30')**: cada equip prova la seva escena i la d'un altre equip
+   (rotació d'estacions, com a la sessió 1); ajustos ràpids.
+4. **Galeria i avaluació (15')**: coavaluació + diari.
 
-### Sessió 3 — Acabar, provar i avaluar (2 h)
-1. **Acabar l'escena (60')**: afegir interaccions/text; ampliació ⭐ amb blocs de codi.
-2. **Visualització VR (40')** per torns; ajustos.
-3. **Galeria i avaluació (20')**: coavaluació + diari.
+### Sessió ⭐ d'ampliació (opcional, si el calendari ho permet)
+Polir l'escena, afegir interaccions amb blocs de codi (Blockly), narració, i una segona ronda
+de visualització creuada entre equips. Es pot recuperar com a activitat del **coixí de la
+setmana 35** si el trimestre ha anat sobre rodes (vegeu `Temporitzacio_anual.md`).
 
 ## 5. Producte final
 Escena VR explorable + fitxa d'anàlisi crítica d'usos de la VR + documentació del procés.
@@ -97,5 +110,18 @@ Escena VR explorable + fitxa d'anàlisi crítica d'usos de la VR + documentació
 2. Un límit o risc que tindria en compte: …
 3. Com em sento creant en VR? 🔴 🟡 🟢
 
-## 8. Avaluació
-- Escena + anàlisi crítica: `Rubrica_SA8.md`. Equip i procés: `Avaluació/Full_seguiment_grup.md`. Diari.
+## 8. Avaluació — què s'avalua, amb què i qui
+
+> SA curta → **rúbrica reduïda** (`Avaluació/Criteris_i_qualificacio.md` §2·bis). La versió
+> per a l'alumnat és a la fitxa («Com m'avaluaran?»).
+
+| Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
+|------------------------------|-----------|------------|----------|
+| **Escena VR explorable** (S2) | Checklist de criteris d'èxit + fila CA4.2 de `Rubrica_SA8.md` | Docent + autoaval. | CA4.2, CA1.2 |
+| **Fitxa d'anàlisi crítica** d'usos i riscos de la VR (S1) | Fila CA4.3 de la rúbrica | Docent | CA4.3 |
+| **Protocol VR complert** (torns, temps, higiene, guia) + carnet 🔵 (S1-S2) | Observació a l'estació VR + checkpoint | Docent | CA6.1, CA4.3 |
+| **Treball d'equip a l'escena** (repartiment del tema) (S1-S2) | Observació + diari | Els dos docents | CA5.1 |
+| **Diari** (1 entrada/sessió + tancament amb 🎯) | Pauta del diari | Docent | CA5.2 |
+| **Galeria d'escenes creuada** (S2) | `Avaluació/Autoavaluacio_coavaluacio.md` (C) | Companys | CA5.3 (contrast) |
+
+**En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.

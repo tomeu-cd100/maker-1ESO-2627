@@ -2,6 +2,8 @@
 
 > Document de lectura obligatòria a la SA1. Cal repassar les normes específiques abans de cada
 > ús de cada màquina. El **contracte d'aula** (final del document) el signa tot l'alumnat.
+> Aquestes normes són el contingut que s'avalua als checkpoints del **carnet de màquina**
+> (`Carnet_de_maquina.md`): sense carnet no s'opera la màquina corresponent.
 
 ## 1. Normes generals
 1. **No es toca cap màquina sense autorització** del professorat.

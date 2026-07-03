@@ -75,6 +75,9 @@
 
 ### 🚀 Altes capacitats / qui acaba abans
 - **Ampliacions ⭐** de cada SA i reptes de `Reptes/` (nivells ⭐⭐⭐).
+- **Projecte personal longitudinal** (`Reptes/Projecte_personal.md`): un objecte propi que creix
+  tot el curs amb cada tecnologia — repte sostingut amb sostre alt, especialment potent també
+  per a alumnat amb interessos forts (TEA).
 - Rol de **mentor/a** d'un company (sense convertir-lo en "professor substitut": que també avanci).
 - Reptes oberts: afegir funcionalitat, optimitzar material/temps, combinar tècniques.
 

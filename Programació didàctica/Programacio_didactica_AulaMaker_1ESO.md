@@ -134,6 +134,10 @@ educatiu), Bambu Studio, xTool Creative Space, CoSpaces Edu, visor de fotos 360.
 - **Treball cooperatiu estructurat** amb rols rotatius i responsabilitat individual (vegeu
   `Aprenentatge_cooperatiu.md`: principis, rols, tècniques 1-2-4/jigsaw i contracte d'equip).
 - **Aula-taller** organitzada per zones (disseny, fabricació, immersiva, muntatge).
+- **Codocència en desdoblament** quan l'organització ho requereix (aforament de l'aula Maker):
+  dues estacions simultànies — fabricació/dispositius i disseny/pensament — amb rotació dins la
+  mateixa sessió i repartiment de l'avaluació per competències (vegeu
+  `Codocencia_desdoblament.md`).
 - **Avaluació formativa contínua** amb el *diari de taller* com a fil conductor, partint d'una
   **avaluació inicial** (`Avaluació/Avaluacio_inicial.md`).
 - **Equitat de gènere i referents diversos STEAM** com a eix conscient (vegeu

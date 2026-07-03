@@ -35,7 +35,7 @@ clic mostra el nom · rols: Roc (construcció), Cloe (textos), Tao (codi), Vera 
 ---
 
 ## 📔 Exemple d'entrada al diari (ben feta)
-> **Sessió 3:** vam provar l'escena amb les ulleres seguint el protocol (asseguts, torns de 10
+> **Sessió 2:** vam provar l'escena amb les ulleres seguint el protocol (asseguts, torns de 10
 > min, netejant-les). Un cartell tapava un planeta → el vam moure. *Abans pensava* que la VR
 > només servia per jugar; *ara penso* que serveix per aprendre i practicar coses perilloses
 > sense risc. **Evidència:** [captura de l'escena].

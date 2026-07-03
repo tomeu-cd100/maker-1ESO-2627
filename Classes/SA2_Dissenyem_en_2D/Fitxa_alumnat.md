@@ -22,8 +22,13 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 - Imatge que vectoritzaré: ____________________
 
 ## El meu esbós
+📄 *En paper, reserva **mig full**: dibuixa gran i marca què és tall i què és gravat.*
 ```
 +--------------------------------------------------+
+|                                                  |
+|                                                  |
+|                                                  |
+|                                                  |
 |                                                  |
 |                                                  |
 +--------------------------------------------------+
@@ -36,3 +41,15 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 ## Reflexió
 - El que m'ha costat més d'Inkscape: ____________________
 - Com he aprofitat bé el material: ____________________
+
+## 🔍 Com m'avaluaran en aquesta SA?
+
+| Què es mira | Com | Qui |
+|-------------|-----|-----|
+| El meu **marcapàgines**: text a camí + imatge vectoritzada + capes correctes | Els criteris d'èxit (la llista de requisits de dalt) | El/la profe, amb mi |
+| Com **aprofito el material** de la planxa | Mirant el nesting: poc malbaratament | El/la profe |
+| El meu **diari** (una entrada per sessió) | Decisions, problemes i com els he resolt | El/la profe |
+| Treball i **seguretat** cada dia | Observació (+/-/!) | Els/les profes |
+| La **galeria** de productes | Dono i rebo feedback concret (★★ i un desig) | Els companys |
+
+**En acabar:** nivell (🌱🙂💪🌟) + 🎯 objectiu al diari + full de progrés.

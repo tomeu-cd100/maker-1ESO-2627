@@ -35,3 +35,17 @@ Creeu un **estand interactiu** que combini un **objecte fabricat** (làser o 3D)
 - El millor projecte que he fet aquest curs: ____________________
 - El que més he après a l'Aula Maker: ____________________
 - El que m'enduc per al futur: ____________________
+
+## 🔍 Com ens avaluaran en aquesta SA? (⭐ producte final de curs)
+
+| Què es mira | Com | Qui |
+|-------------|-----|-----|
+| L'**estand sencer**: objecte fabricat + experiència immersiva, integrats | Rúbrica completa + el checklist de mínims d'aquesta fitxa | Els/les profes |
+| El **pla de projecte** i si l'hem complert | La taula de calendari d'aquesta fitxa, sessió a sessió | Els/les profes |
+| **La meva part** de l'estand (taula de responsables) | La meva peça/component identificable + el diari | Els/les profes |
+| La **presentació a la Fira** davant públic de veritat | Que sigui clara i enganxi + votació de la galeria | Profes + **el públic** |
+| El meu **portafoli de tot el curs** | Diari complet + rutina «El meu viatge maker» | Profe + jo |
+| **Seguretat i aforament** durant la Fira | Els rols de Fira (controlador d'aforament, guies VR…) | Els/les profes |
+
+**En acabar:** nivell (🌱🙂💪🌟) + full de progrés amb la columna **«Global curs»** — i tornem
+a mirar el qüestionari de setembre per veure el camí fet. 🎓

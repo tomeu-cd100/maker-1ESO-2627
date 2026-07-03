@@ -6,16 +6,18 @@ STEAM i maker, currículum de Catalunya (Decret 175/2022, LOMLOE).
 **Maquinari:** impressora 3D Bambu Lab P2S · talladora làser xTool S1 · càmera 360 · 5 ulleres VR.
 
 > 👉 **Comença per la [Guia d'inici docent](00_Guia_inici_docent.md).**
+> Si fas codocència en desdoblament, el teu company/a té la seva pròpia
+> [guia d'inici del co-docent](00_Guia_inici_codocent.md) (no cal saber de màquines).
 
 ## Estructura
 
 | Carpeta | Contingut |
 |---------|-----------|
-| [`Programació didàctica/`](Programació%20didàctica/) | PD, temporització, **gestió del temps-màquina**, **mapatge competencial oficial**, cooperatiu, equitat/gènere, interdisciplinarietat/APS i adaptacions DUA |
+| [`Programació didàctica/`](Programació%20didàctica/) | PD, temporització, **gestió del temps-màquina**, **codocència/desdoblament**, **les 5 Grans Idees**, **Museu dels Errors**, **mapatge competencial oficial**, cooperatiu, equitat/gènere, interdisciplinarietat/APS i adaptacions DUA |
 | [`Classes/`](Classes/) | Les **9 SA** desenvolupades (SA1–SA9) amb exemple resolt |
-| [`Avaluació/`](Avaluació/) | Avaluació inicial, criteris, rúbriques, instruments formatius, diari, auto/coavaluació |
-| [`Normativa/`](Normativa/) | Seguretat, protocol VR, reglament, marc normatiu, **carta i autoritzacions de famílies** |
-| [`Reptes/`](Reptes/) | Reptes curts 2D / 3D / immersius + insígnies |
+| [`Avaluació/`](Avaluació/) | Avaluació inicial, criteris + **mapa operatiu per SA**, rúbriques, **full de progrés competencial**, **l'avaluació explicada a l'alumnat**, instruments formatius, diari, auto/coavaluació |
+| [`Normativa/`](Normativa/) | Seguretat, **carnet de màquina**, protocol VR, reglament, marc normatiu, **carta i autoritzacions de famílies** |
+| [`Reptes/`](Reptes/) | Reptes curts 2D / 3D / immersius + insígnies + **projecte personal longitudinal** |
 | [`Simulacions/`](Simulacions/) | Eines virtuals per practicar sense material |
 | [`Memòria de treball/`](Memòria%20de%20treball/) | Bitàcola, incidències, inventari, memòria final |
 | [`Recursos/`](Recursos/) | Plantilles de disseny pròpies i enllaços/tutorials validats |

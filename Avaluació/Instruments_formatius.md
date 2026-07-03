@@ -3,10 +3,16 @@
 > Eines ràpides per fer visible l'aprenentatge i regular-lo **durant** el procés (no només al
 > final). Pensades per a sessions de 2 h. Trieu-ne 1-2 per sessió; no cal usar-les totes.
 
-## 1. Objectius i criteris d'èxit visibles
+## 1. Objectius i criteris d'èxit visibles (+ recuperació de l'objectiu personal)
 A l'inici de cada SA, projecteu/escriviu la **pregunta guia**, els **objectius** ("Seré capaç
 de…") i els **criteris d'èxit** ("Sabré que ho he aconseguit si…") que ja porta cada SA. Hi
 tornareu al final per comprovar-ne l'assoliment.
+
+**Abans, però, 2 minuts de *feed-forward*:** cada alumne/a recupera l'**objectiu personal**
+que va escriure al tancament del diari de la SA anterior («🎯 què vas dir que milloraries?
+què faràs diferent aquesta vegada?»). Un objectiu que ningú no torna a preguntar és un
+tràmit; un que es recupera és un pla. El docent n'anota el seguiment al
+`Full_progres_competencial.md`.
 
 ## 2. Tiquet de sortida (exit ticket)
 Cada SA porta el seu tiquet de sortida. Format genèric ràpid (3-2-1):
