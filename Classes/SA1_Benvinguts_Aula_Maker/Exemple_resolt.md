@@ -35,9 +35,10 @@
 ## 📔 Exemple d'entrada al diari de taller (ben feta)
 
 > **Data:** 12/09 · **Sessió:** 3
-> **1. Objectiu d'avui:** fabricar el meu clauer a la làser.
-> **2. Què he fet:** he revisat les capes amb la profe, he col·locat la fusta i hem enviat el
-> tall. Mentre esperava el torn he fet el repte de l'emoji.
+> **1. Objectiu d'avui:** fabricar el meu clauer a la làser i guanyar-me el carnet.
+> **2. Què he fet:** he passat el **checkpoint del carnet 🔴** (les 3 preguntes i col·locar la
+> fusta amb supervisió), he revisat les capes amb la profe i hem enviat el tall. Mentre
+> esperava el torn he fet el repte de l'emoji.
 > **3. Què he après:** que la línia de **tall** ha de ser molt fina i que el **gravat** es fa
 > amb negre. També per què el PVC està prohibit (fa gasos tòxics).
 > **4. Problemes i solució:** el meu nom era massa gran i tocava el forat → l'he fet més petit.

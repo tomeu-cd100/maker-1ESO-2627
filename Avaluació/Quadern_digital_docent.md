@@ -7,6 +7,10 @@
 > pestanya per registre — les dades s'entren una sola vegada i els recomptes surten sols.
 > El paper queda per a l'alumnat (diari, fitxes, passaport); la gestió docent, digital.
 
+> 📥 **Plantilla llesta per usar:** [`Quadern_digital_docent_plantilla.xlsx`](Quadern_digital_docent_plantilla.xlsx)
+> (generada amb `genera_quadern.py`; també descarregable des del portal docent de la web).
+> Pugeu-la al Drive de centre, poseu-hi els noms **allà** i llestos.
+
 ## Estructura del full de càlcul (pestanyes)
 
 ### 1. `Alumnat` (la taula mestra)
@@ -53,6 +57,10 @@ Enllaç als resultats del **tiquet trimestral de valoració de l'assignatura**
 
 ## Regles d'ús
 
+- ⚠️ **RGPD — regla d'or:** el quadern **emplenat conté dades personals d'alumnes** i aquest
+  repositori és **públic**. El quadern viu **només al Drive de centre** (o a la carpeta local
+  `dades/`, que git ignora): **mai es comiteja** cap fitxer amb noms. Al repositori només hi
+  ha aquesta especificació i la plantilla buida.
 - **Compartit entre els dos docents** amb edició; l'alumnat no hi té accés (RGPD: dades
   d'avaluació — compte de centre, no personal).
 - **Menys és més:** si una pestanya no s'omple en dues setmanes, elimineu-la — el quadern ha

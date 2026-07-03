@@ -35,8 +35,9 @@
 ---
 
 ## 📔 Exemple d'entrada al diari (ben feta)
-> **Sessió 3:** abans de tallar-ho tot vam fer una **mostra d'encaix** (dos trossets). La
-> primera ranura era de 3,2 mm i quedava fluixa → la vam ajustar a **3,0 mm** i va encaixar
+> **Sessió 3:** abans de tallar-ho tot vam fer una **mostra d'encaix** (dos trossets). Vam
+> dibuixar una ranura de 3,0 mm i, tallada, feia 3,15 mm: el làser "es menja" **0,15 mm** — el
+> **kerf**! La primera ranura quedava fluixa → la vam ajustar restant el kerf i va encaixar
 > perfecte. Després vam tallar totes les peces. **Aprenentatge:** sempre val la pena provar una
 > mostra abans! **Evidència:** [foto de la mostra i de l'organitzador muntat].
 

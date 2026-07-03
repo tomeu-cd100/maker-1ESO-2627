@@ -28,7 +28,8 @@
 ## 📝 Exemple de fitxa (emplenada)
 - **Cossos:** base rectangular + lletres "BIEL" elevades (eix Z).
 - **Forat:** un cilindre "buit" agrupat amb la base.
-- **Mides comprovades:** 55 × 25 × 5 mm. **Exportat:** sí, en STL.
+- **Mides comprovades:** 55 × 25 × 5 mm — s'imprimeix **pla i sense suports** (entra al batch!).
+- **Exportat:** sí → `Biel_SA4_v1.stl`, pujat a la carpeta de Drive de la SA.
 - **Operació que vull practicar:** alinear bé les lletres (he hagut de fer servir *Alinea*).
 
 ---

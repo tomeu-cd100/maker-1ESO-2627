@@ -20,6 +20,8 @@
 - **4 escenes** enllaçades i navegables, amb **títols** clars.
 - Captures **estables** (trípode) i **ben il·luminades** (sense contrallum).
 - Respecta els **drets d'imatge**: no hi surt ningú sense permís.
+- **S'ha lliurat de veritat**: publicat a la web del centre amb un **codi QR a l'entrada** —
+  l'audiència (famílies i alumnat de 6è) el pot explorar de debò.
 
 ---
 
@@ -49,3 +51,4 @@ el 360 (captura tot l'entorn).
 - Càmera a la mà i en moviment → imatge torta i moguda.
 - Captar companys o espais privats sense permís → problema de drets d'imatge.
 - Escenes soltes sense enllaçar → no és un "tour".
+- Un tour "per a les famílies" que cap família no veu mai → l'audiència era de mentida.

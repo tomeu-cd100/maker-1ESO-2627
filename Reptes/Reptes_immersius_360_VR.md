@@ -1,6 +1,7 @@
 # Reptes immersius (360 i VR)
 
 > Reptes curts de realitat immersiva. Recorda sempre el `Normativa/Protocol_us_VR.md`.
+> Si prefereixes construir una cosa teva de llarg recorregut: `Projecte_personal.md`.
 
 | # | Repte | Nivell | Què practiques |
 |--:|-------|:------:|----------------|

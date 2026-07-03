@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pòster: les 5 Grans Idees (imprimible) · Aula Maker</title>
+<style>
+  :root { --acc: #e8641b; --ink: #2b2318; --soft: #fdeadd; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+  .toolbar { max-width: 210mm; margin: 0 auto 1rem; display: flex; gap: .6rem; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc); background: #fff; color: var(--acc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc); color: #fff; }
+  .hint { max-width: 210mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+
+  .poster { width: 210mm; min-height: 290mm; margin: 0 auto; background: #fff;
+    border: 4mm solid var(--ink); padding: 12mm 14mm;
+    display: flex; flex-direction: column; }
+  .poster h1 { text-align: center; font-size: 30pt; margin: 0 0 2mm; letter-spacing: 1px; }
+  .poster .sub { text-align: center; font-size: 12pt; color: #6b5d4b; margin: 0 0 8mm; }
+  .idea { display: flex; gap: 6mm; align-items: flex-start; padding: 5.5mm 4mm;
+          border-radius: 4mm; margin-bottom: 4mm; background: var(--soft); }
+  .idea:nth-child(even) { background: #fff; border: 2px dashed var(--acc); }
+  .num { font-size: 26pt; line-height: 1; }
+  .idea h2 { margin: 0 0 1mm; font-size: 16.5pt; text-transform: uppercase;
+             letter-spacing: .5px; }
+  .idea p { margin: 0; font-size: 12.5pt; line-height: 1.4; }
+  .peu { margin-top: auto; text-align: center; font-size: 11pt; color: #6b5d4b;
+         border-top: 2px solid var(--ink); padding-top: 3mm; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    @page { size: A4 portrait; margin: 0; }
+    .poster { border-color: #000; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint">Pensat per a <strong>A4</strong> (un per aula) o ampliat a <strong>A3</strong>
+(«ajusta a la pàgina» al diàleg d'impressió). Un a l'aula Maker i un a l'estudi de disseny.</p>
+
+<div class="poster">
+  <h1>🧭 LES 5 GRANS IDEES</h1>
+  <p class="sub">de l'Aula Maker — valen per al làser, per al 3D i per a la VR</p>
+
+  <div class="idea"><span class="num">1️⃣</span><div>
+    <h2>El material mana</h2>
+    <p>La màquina i el material no són perfectes: dissenya comptant-hi
+       (el kerf, la tolerància, la gravetat).</p></div></div>
+
+  <div class="idea"><span class="num">2️⃣</span><div>
+    <h2>Petit i acabat guanya gran i a mitges</h2>
+    <p>Un prototip acabat ensenya més que un projecte ambiciós a mig fer.</p></div></div>
+
+  <div class="idea"><span class="num">3️⃣</span><div>
+    <h2>Mesura dues vegades, fabrica una</h2>
+    <p>El temps de màquina és car; el de pensar, barat.</p></div></div>
+
+  <div class="idea"><span class="num">4️⃣</span><div>
+    <h2>L'error és informació</h2>
+    <p>Una peça fallida que entens val més que una d'encertada per casualitat.</p></div></div>
+
+  <div class="idea"><span class="num">5️⃣</span><div>
+    <h2>Dissenyem per a algú</h2>
+    <p>No per a nosaltres: qui ho farà servir decideix què és «bo».</p></div></div>
+
+  <p class="peu">🛠️ Aula Maker · 1r d'ESO — Quan et trobis un problema, pregunta't:
+     <strong>quina Gran Idea t'està parlant?</strong></p>
+</div>
+</body>
+</html>

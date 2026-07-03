@@ -1,6 +1,8 @@
 # Reptes 3D (Tinkercad)
 
-> Reptes curts de modelatge 3D. Marca'ls al diari de taller.
+> Reptes curts de modelatge 3D — **es fan en digital**, no ocupen la impressora (el temps de
+> màquina és per a les SA). Marca'ls al diari de taller.
+> Si prefereixes construir una cosa teva de llarg recorregut: `Projecte_personal.md`.
 
 | # | Repte | Nivell | Què practiques |
 |--:|-------|:------:|----------------|
@@ -16,6 +18,9 @@
 | 10 | Crea un **engranatge** o peça mòbil senzilla | ⭐⭐⭐ | Geometria, joc mecànic |
 
 ## Reptes "llampec" (mentre s'imprimeix)
-- Estima quant **temps i grams** trigarà la teva peça abans de laminar-la i comprova-ho.
+- Estima quant **temps i grams** trigarà la teva peça abans de laminar-la i comprova-ho
+  (recorda el límit del repte: < 1 h, < 40 g!).
 - Reorienta una peça perquè **necessiti menys suports**. ♻️
 - Troba per què una peça "fina" es pot **trencar** i com evitar-ho (gruix mínim).
+- Analitza una peça del **Museu dels Errors** i escriu-ne la targeta
+  (`Programació didàctica/Museu_dels_errors.md`). 🏛️

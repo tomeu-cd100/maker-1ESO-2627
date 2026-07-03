@@ -2,7 +2,9 @@
 
 Catàleg d'eines en línia (majoritàriament gratuïtes) per **practicar sense gastar material**,
 explorar conceptes i complementar les SA. Útil també com a **alternativa** quan una màquina no
-està disponible o per a treball a casa.
+està disponible o per a treball a casa — és una peça clau del **pla de contingències**
+(`Programació didàctica/Temporitzacio_anual.md`, secció Contingències) i de la **via curta de
+recuperació** per absències (`Avaluació/Criteris_i_qualificacio.md` §3·bis).
 
 ## Catàlegs
 - [`Simuladors_disseny_2D_3D.md`](Simuladors_disseny_2D_3D.md) — disseny, modelatge i simulació

@@ -45,14 +45,22 @@ reutilitzar i adaptar citant l'autoria i compartint-lo amb la mateixa llicència
 
 ## 🌐 Versió web
 
-Tot el material té una **versió web navegable** (disseny net, mode fosc, imprimible) a la
-carpeta [`web/`](web/), amb portades separades per a **docents** i **alumnat**:
+Tot el material té una **versió web navegable** (disseny net, mode fosc, cercador,
+imprimible), amb portades per a **docents**, **alumnat** i **famílies**:
 
-- **Regenerar-la** després d'editar qualsevol `.md`: `python build_web.py`
-  (cal `pip install markdown`; l'estil viu a `web_assets/style.css`).
-- **Publicar-la**: el workflow `.github/workflows/pages.yml` la desplega a **GitHub Pages** a
-  cada push. Activació (un sol cop): *Settings → Pages → Source: GitHub Actions*.
-- També funciona **offline**: obriu `web/index.html` amb el navegador.
+**https://tomeu-cd100.github.io/maker-1ESO-2627/**
+
+- La web **es construeix sola**: a cada push, el workflow `.github/workflows/pages.yml`
+  verifica els enllaços (`verifica_enllacos.py`), regenera la web des dels `.md`
+  (`build_web.py`) i la publica a GitHub Pages. **No cal fer res més que editar els `.md`.**
+- Per a ús **offline**: `pip install markdown` + `python build_web.py` i obriu
+  `web/index.html` (la carpeta `web/` no es versiona: és un producte generat).
+- L'estil viu a `web_assets/style.css`; les pàgines imprimibles (passaport, pòster,
+  targetes), a `web_assets/impressos/`.
+
+> ⚠️ **Protecció de dades:** el repositori és públic. Els fitxers amb noms d'alumnat
+> (quadern digital emplenat, exportacions) **no s'hi pugen mai** — deseu-los a `dades/`
+> (ignorada per git) o al Drive de centre.
 
 ## Notes
 - Tot el material està en **Markdown**, editable i convertible a Word/Google Docs/PDF.

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Passaport maker (imprimible) · Aula Maker</title>
+<style>
+  :root { --acc: #e8641b; --ink: #2b2318; --soft: #fdeadd; --line: #d8c9b2; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+  .toolbar { max-width: 148mm; margin: 0 auto 1rem; display: flex; gap: .6rem; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc); background: #fff; color: var(--acc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc); color: #fff; }
+  .hint { max-width: 148mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+
+  .passaport { width: 148mm; min-height: 205mm; margin: 0 auto; background: #fff;
+    border: 3px solid var(--ink); border-radius: 6mm; padding: 8mm;
+    display: flex; flex-direction: column; gap: 4mm; }
+  .cap { text-align: center; border-bottom: 3px double var(--ink); padding-bottom: 3mm; }
+  .cap h1 { margin: 0; font-size: 22pt; letter-spacing: 1px; }
+  .cap p { margin: 1mm 0 0; font-size: 10pt; color: #6b5d4b; }
+  .dades { display: flex; gap: 4mm; font-size: 11pt; }
+  .dades span { flex: 1; border-bottom: 1.5px solid var(--ink); padding-bottom: 1mm; }
+  h2 { font-size: 11pt; text-transform: uppercase; letter-spacing: 1.5px;
+       margin: 2mm 0 1mm; color: var(--acc);
+       border-bottom: 1.5px solid var(--line); padding-bottom: 1mm; }
+  table { width: 100%; border-collapse: collapse; font-size: 10.5pt; }
+  td { padding: 2.2mm 1.5mm; border-bottom: 1px dotted var(--line); vertical-align: middle; }
+  .seg { width: 16mm; height: 9mm; border: 1.5px dashed var(--acc); border-radius: 2mm;
+         display: inline-block; }
+  .insig { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5mm 5mm; font-size: 10.5pt; }
+  .insig div { padding: 1.6mm 0; border-bottom: 1px dotted var(--line); }
+  .chk { display: inline-block; width: 4.5mm; height: 4.5mm; border: 1.5px solid var(--ink);
+         border-radius: 1mm; vertical-align: -0.8mm; margin-right: 2mm; }
+  .trim { display: flex; gap: 4mm; text-align: center; font-size: 10pt; }
+  .trim div { flex: 1; border: 1.5px solid var(--line); border-radius: 3mm; padding: 2mm; }
+  .trim .seg { width: 100%; height: 12mm; margin-top: 1mm; }
+  .peu { margin-top: auto; text-align: center; font-style: italic; font-size: 10pt;
+         color: #6b5d4b; border-top: 3px double var(--ink); padding-top: 2mm; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    .passaport { border-color: #000; }
+    @page { size: A4 portrait; margin: 10mm; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint">Mida A5: se n'imprimeixen <strong>2 per full A4</strong> (opció «2 pàgines per
+full» del diàleg d'impressió) o un de sol centrat. Plastificat aguanta tot el curs.</p>
+
+<div class="passaport">
+  <div class="cap">
+    <h1>🛠️ PASSAPORT MAKER</h1>
+    <p>Aula Maker · 1r d'ESO · curs 20___ / 20___</p>
+  </div>
+
+  <div class="dades">
+    <span><strong>Nom:</strong> </span>
+    <span style="flex:.4"><strong>Grup:</strong> </span>
+  </div>
+
+  <h2>Carnets de màquina</h2>
+  <table>
+    <tr><td>🔴 <strong>Operador/a làser</strong> (xTool S1)</td><td>data ____/____</td><td style="text-align:right"><span class="seg"></span></td></tr>
+    <tr><td>🟠 <strong>Operador/a impressora 3D</strong> (P2S)</td><td>data ____/____</td><td style="text-align:right"><span class="seg"></span></td></tr>
+    <tr><td>🟢 <strong>Operador/a càmera 360</strong></td><td>data ____/____</td><td style="text-align:right"><span class="seg"></span></td></tr>
+    <tr><td>🔵 <strong>Usuari/ària responsable VR</strong> / guia</td><td>data ____/____</td><td style="text-align:right"><span class="seg"></span></td></tr>
+  </table>
+
+  <h2>Insígnies</h2>
+  <div class="insig">
+    <div><span class="chk"></span>🥇 Mestre/a del vector</div>
+    <div><span class="chk"></span>🧊 Escultor/a 3D</div>
+    <div><span class="chk"></span>🌐 Explorador/a immersiu</div>
+    <div><span class="chk"></span>🛠️ Tot terreny maker</div>
+    <div><span class="chk"></span>♻️ Maker sostenible</div>
+    <div><span class="chk"></span>🤝 Company/a maker</div>
+    <div><span class="chk"></span>🎓 Operador/a certificat</div>
+    <div><span class="chk"></span>🏆 L'error del trimestre</div>
+  </div>
+
+  <h2>Segells de trimestre</h2>
+  <div class="trim">
+    <div><strong>T1</strong> · producte SA3<span class="seg"></span></div>
+    <div><strong>T2</strong> · producte SA6<span class="seg"></span></div>
+    <div><strong>T3</strong> · Fira SA9<span class="seg"></span></div>
+  </div>
+
+  <h2>El meu projecte personal (opcional)</h2>
+  <table>
+    <tr><td>Objecte: ______________________________</td>
+        <td style="text-align:right"><span class="chk"></span>T1 &nbsp;<span class="chk"></span>T2 &nbsp;<span class="chk"></span>T3</td></tr>
+  </table>
+
+  <p class="peu">«Fet, provat i millorat a l'Aula Maker.»</p>
+</div>
+</body>
+</html>

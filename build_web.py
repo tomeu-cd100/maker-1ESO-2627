@@ -173,6 +173,9 @@ def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str) -> str:
             cand = asset if (ROOT / asset).exists() else f"{current_rel_dir}/{asset}"
             if (ROOT / cand).exists():
                 target = slugify(cand)
+        elif href.endswith(".xlsx"):
+            # les plantilles xlsx es copien a web/impressos/ amb el nom original
+            target = "impressos/" + href.rsplit("/", 1)[-1]
         if target:
             return f'href="{prefix}{target}"'
         return m.group(0)
@@ -227,6 +230,8 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
     <a href="{prefix}sa.html">Les 9 SA</a>
     <a href="{prefix}docent.html">Docent</a>
     <a href="{prefix}alumnat.html">Alumnat</a>
+    <a href="{prefix}families.html">Famílies</a>
+    <a href="{prefix}cerca.html" title="Cerca">🔍</a>
     <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
   </nav>
 </header>
@@ -248,6 +253,9 @@ d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);
 </body>
 </html>
 """
+
+
+SEARCH_INDEX = []  # {t: títol, u: url, s: secció, x: text pla}
 
 
 def build_doc_pages():
@@ -274,6 +282,13 @@ def build_doc_pages():
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(render_page(title, body, out_rel, crumb), encoding="utf-8")
         pages[rel] = (title, out_rel)
+        plain = re.sub(r"<[^>]+>", " ", body)
+        plain = re.sub(r"\s+", " ", html.unescape(plain)).strip()
+        SEARCH_INDEX.append({
+            "t": title, "u": out_rel,
+            "s": rel.split("/")[0] if "/" in rel else "Inici",
+            "x": plain[:4000],
+        })
     return pages
 
 
@@ -335,6 +350,7 @@ def build_home(pages):
   <div class="hero-actions">
     <a class="btn btn-primary" href="docent.html">👩‍🏫 Soc docent</a>
     <a class="btn" href="alumnat.html">🧑‍🎓 Soc alumne/a</a>
+    <a class="btn" href="families.html">👨‍👩‍👧 Soc família</a>
   </div>
 </section>
 <section>
@@ -385,12 +401,25 @@ def build_home(pages):
               "Memòria de treball": "Bitàcola, incidències, inventari, memòria",
               "Recursos": "Plantilles pròpies i enllaços validats"}[s])
         for s in SECTIONS)
+    impresos = "\n".join([
+        card("impressos/passaport.html", "🛠️", "Passaport maker",
+             "A5 per alumne/a: carnets, insígnies i segells", "imprimible"),
+        card("impressos/poster_grans_idees.html", "🧭", "Pòster de les 5 Grans Idees",
+             "A4/A3 per penjar a les dues aules", "imprimible"),
+        card("impressos/targetes_museu.html", "🏛️", "Targetes del Museu dels Errors",
+             "4 per full, per deixar al costat del museu", "imprimible"),
+        card("impressos/Quadern_digital_docent_plantilla.xlsx", "📊",
+             "Plantilla del quadern digital", "Full de càlcul buit: pugeu-lo al Drive de centre",
+             "xlsx"),
+    ])
     body = f"""
 <h1>👩‍🏫 Per al professorat</h1>
 <p class="lead">El material complet de l'optativa: comença per la guia d'inici i tingues
 sempre a mà la gestió del temps-màquina — és el que fa que tot rutlli.</p>
 <h2>Imprescindibles</h2>
 <div class="grid">{dest}</div>
+<h2>🖨️ Impressos i plantilles</h2>
+<div class="grid">{impresos}</div>
 <h2>Tot el material, per carpetes</h2>
 <div class="grid">{sections}</div>
 """
@@ -405,6 +434,76 @@ sempre a mà la gestió del temps-màquina — és el que fa que tot rutlli.</p>
     sa_html = sa_html.replace('href="../', 'href="').replace('src="../', 'src="')
     (OUT / "sa.html").write_text(sa_html, encoding="utf-8")
 
+    # Famílies
+    fam_cards = "\n".join([
+        card(PATH_MAP["Normativa/Carta_families_inici_curs.md"], "✉️",
+             "Carta d'inici de curs", "Què farà el vostre fill/a a l'Aula Maker"),
+        card(PATH_MAP["Avaluació/Avaluacio_explicada_alumnat.md"], "🔍",
+             "Com s'avalua l'optativa", "El sistema d'avaluació explicat en una pàgina"),
+        card(PATH_MAP["Normativa/Autoritzacio_families_VR_360.md"], "📝",
+             "Autorització VR i drets d'imatge", "El document que us demanarem signat"),
+        card(PATH_MAP["Normativa/Protocol_us_VR.md"], "🥽",
+             "Protocol d'ús de la realitat virtual", "Salut, temps d'ús i seguretat amb les ulleres"),
+        card(PATH_MAP["Normativa/Normes_seguretat_taller.md"], "🛡️",
+             "Normes de seguretat del taller", "Com treballem amb les màquines"),
+    ])
+    body = f"""
+<h1>👨‍👩‍👧 Per a les famílies</h1>
+<p class="lead">A l'Aula Maker el vostre fill/a <strong>dissenya i fabrica objectes reals</strong>
+(talladora làser, impressió 3D) i crea contingut immersiu (360/VR), treballant en equip i amb
+la seguretat com a norma número u. Aquí teniu els documents que us afecten directament.</p>
+<div class="grid">{fam_cards}</div>
+<blockquote><p>💡 Al final de curs, la <strong>Fira Aula Maker</strong> és oberta a les famílies:
+hi veureu els projectes i hi podreu provar les experiències que han creat. Us hi esperem!</p></blockquote>
+"""
+    (OUT / "families.html").write_text(
+        render_page("Famílies", body, "families.html",
+                    [("Inici", "index.html"), ("Famílies", None)]), encoding="utf-8")
+
+    # Cerca
+    import json
+    (OUT / "assets" / "cerca-index.json").write_text(
+        json.dumps(SEARCH_INDEX, ensure_ascii=False), encoding="utf-8")
+    body = """
+<h1>🔍 Cerca al material</h1>
+<p class="lead">Cerca per paraula: «kerf», «tolerància», «carnet», «rúbrica SA5»…</p>
+<p><input id="q" type="search" placeholder="Escriu i prem Enter…" autofocus
+   style="width:100%;padding:.8rem 1.2rem;font-size:1.1rem;border-radius:999px;
+          border:2px solid var(--line);background:var(--bg-card);color:var(--ink)"></p>
+<div id="res"></div>
+<script>
+let IDX=null;
+const q=document.getElementById('q'), res=document.getElementById('res');
+async function cerca(){
+  if(!IDX) IDX=await (await fetch('assets/cerca-index.json')).json();
+  const terms=q.value.toLowerCase().split(/\\s+/).filter(t=>t.length>1);
+  if(!terms.length){res.innerHTML='';return;}
+  const out=[];
+  for(const p of IDX){
+    const hay=(p.t+' '+p.x).toLowerCase();
+    let score=0, ok=true;
+    for(const t of terms){
+      const n=hay.split(t).length-1;
+      if(!n){ok=false;break;}
+      score+=n+(p.t.toLowerCase().includes(t)?8:0);
+    }
+    if(ok) out.push([score,p,terms[0]]);
+  }
+  out.sort((a,b)=>b[0]-a[0]);
+  res.innerHTML=out.slice(0,25).map(([s,p,t])=>{
+    const i=p.x.toLowerCase().indexOf(t);
+    const frag=i<0?p.x.slice(0,160):p.x.slice(Math.max(0,i-70),i+110);
+    return `<a class="card" href="${p.u}"><div class="card-icon">📄</div>
+      <div><h3>${p.t} <span class="badge">${p.s}</span></h3><p>…${frag}…</p></div></a>`;
+  }).join('')||'<p>Cap resultat. Prova una paraula més curta o sense accents.</p>';
+}
+q.addEventListener('input',()=>{clearTimeout(q._d);q._d=setTimeout(cerca,250);});
+</script>
+"""
+    (OUT / "cerca.html").write_text(
+        render_page("Cerca", body, "cerca.html",
+                    [("Inici", "index.html"), ("Cerca", None)]), encoding="utf-8")
+
 
 def copy_assets():
     plant = ROOT / "Recursos" / "Plantilles_disseny"
@@ -414,6 +513,16 @@ def copy_assets():
         for f in plant.iterdir():
             if f.suffix in (".svg", ".py"):
                 shutil.copyfile(f, dest / slugify(f.name))
+    impresos = ROOT / "web_assets" / "impressos"
+    if impresos.is_dir():
+        dest = OUT / "impressos"
+        dest.mkdir(parents=True, exist_ok=True)
+        for f in impresos.iterdir():
+            shutil.copyfile(f, dest / f.name)
+    xlsx = ROOT / "Avaluació" / "Quadern_digital_docent_plantilla.xlsx"
+    if xlsx.exists():
+        (OUT / "impressos").mkdir(parents=True, exist_ok=True)
+        shutil.copyfile(xlsx, OUT / "impressos" / xlsx.name)
     if (ROOT / "LICENSE").exists():
         shutil.copyfile(ROOT / "LICENSE", OUT / "LICENSE")
     (OUT / ".nojekyll").write_text("", encoding="utf-8")

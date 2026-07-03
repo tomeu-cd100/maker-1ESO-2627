@@ -69,7 +69,8 @@ talladora làser) que es desenvoluparan en SA2 i SA3.
 3. **Coneixem el taller (25')**: recorregut per les zones (disseny, fabricació, immersiva,
    muntatge) i les màquines (P2S, làser xTool S1, càmera 360, VR) — només mirar, encara no tocar.
 4. **Gimcana de seguretat (35')**: les normes s'aprenen **jugant-hi**, no escoltant-les. En
-   equips, rotació per 4 proves actives basades en `Normativa/Normes_seguretat_taller.md`:
+   equips, rotació per 4 proves actives basades en `Normativa/Normes_seguretat_taller.md`
+   (**tot el material amb solucions**: `Material_gimcana_seguretat.md`):
    - *Troba els perills*: fotos preparades d'escenes de taller amb errors (màquina sola,
      cabells solts, beguda vora l'ordinador…) — quants en trobeu?
    - *Permès o prohibit?*: classificar targetes de materials per a la làser (i saber **per
@@ -123,8 +124,9 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
 - Ordinadors amb Inkscape + xTool Creative Space.
 - Talladora làser xTool S1; planxa de fusta fina (DM/contraxapat 3 mm) o metacrilat; anelles de clauer.
 - Tutorials d'Inkscape validats a `Recursos/Enllacos_i_tutorials.md`; `Normativa/Normes_seguretat_taller.md`.
-- Material de la gimcana de seguretat (fotos d'escenes amb errors, targetes de materials) i
-  carnets imprimibles: `Normativa/Carnet_de_maquina.md`.
+- **Material complet de la gimcana** (escenes amb errors, targetes de materials, casos i
+  parelles norma-raó, amb solucions): `Material_gimcana_seguretat.md`.
+- Carnets imprimibles: `Normativa/Carnet_de_maquina.md` (o el passaport, `Reptes/Passaport_maker.md`).
 - Plantilla base: `Recursos/Plantilles_disseny/clauer_SA1.svg`.
 - Fitxa de l'alumnat: `Fitxa_alumnat.md` · Rúbrica: `Rubrica_SA1.md`.
 

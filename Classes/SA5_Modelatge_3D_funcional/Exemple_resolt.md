@@ -22,6 +22,8 @@
 - Les **mides parteixen de la realitat**: va mesurar el gruix del seu mòbil (9 mm) i va fer la
   ranura de 12 mm (amb **tolerància**).
 - És **estable** (base ampla) i imprimible **sense suports** gràcies a l'orientació.
+- **Compleix els límits del repte**: la primera versió trigava 2 h → la va **buidar per dins i
+  reduir d'alçada** fins a baixar de l'hora. Petit i acabat!
 
 ---
 
@@ -30,12 +32,14 @@
 |-----|-------|
 | Problema | Aguantar el mòbil per veure vídeos |
 | Mides reals preses | Gruix mòbil 9 mm → ranura 12 mm |
+| **Versió 2** (revisió per parelles) | En Jan em va avisar que era massa massissa → l'he buidada per dins i abaixada 15 mm |
 | Gruix de paret | 3 mm |
 | Alçada de capa | 0,2 mm |
 | Farciment | 15 % |
 | Suports | No (ben orientat) |
 | Adherència (brim) | Sí |
-| Temps / material | ~2 h 10 min / 28 g |
+| Temps / material | ~55 min / 26 g ✓ (límit: < 1 h, < 40 g) |
+| Fitxer | `Ona_SA5_v2.stl` → carpeta de Drive de la SA |
 
 ---
 
@@ -55,3 +59,5 @@ l'error és part de l'aprenentatge.
 - Dissenyar "a ull" sense mesurar el mòbil → la ranura no encaixa.
 - Parets d'1 mm → la peça es trenca.
 - Posar la peça en una orientació que necessita molts suports → més temps i pitjor acabat.
+- Una peça de 3 hores d'impressió → no compleix el límit i **bloqueja la cua de tothom**.
+- Fitxer «Untitled(3).stl» → ningú sap de qui és i no entra al batch.

@@ -11,3 +11,13 @@ Desktop.ini
 # Sortides generades pel docent (descomenta si no les vols versionar)
 # *.gcode
 # *.3mf
+
+# Web generada (la construeix el workflow de GitHub Pages a cada push;
+# per a ús offline: python build_web.py)
+web/
+
+# ⚠️ RGPD: MAI comitejar fitxers amb dades d'alumnes — el repositori és PÚBLIC.
+# El quadern digital emplenat i qualsevol exportació amb noms van aquí:
+dades/
+*_DADES.*
+*_dades.*
