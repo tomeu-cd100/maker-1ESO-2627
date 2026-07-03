@@ -69,6 +69,10 @@ converteix en línies que la màquina pot tallar i gravar.
    vectoritzada, forat per a la borla. Definir capes tall/gravat.
 3. **Optimització i revisió (20')**: comprovar mides, gruixos de línia, aprofitament de material.
 
+> ⏸️ **Mínim d'avui**: forma + missatge (text a camí) + forat, amb capes correctes — si la
+> vectorització pròpia no surt, es pot agafar una imatge del banc de plantilles i tothom
+> fabrica igualment.
+
 ### Sessió 3 — Fabricació i avaluació (2 h)
 1. **Preparació a XCS (20')**: importar, assignar tall/gravat, paràmetres segons material.
 2. **Fabricació per *batch* (75')**: agrupa els dissenys en una sola planxa (*nesting*) per
@@ -94,6 +98,8 @@ Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, docum
 - `Fitxa_alumnat.md` · `Rubrica_SA2.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
+> ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
+> una de les seves preguntes) — trieu-ne una per sessió, mai totes.
 **Rutina de pensament:** *Abans pensava / Ara penso* sobre què vol dir dissenyar per a una màquina.
 
 **Tiquet de sortida:**

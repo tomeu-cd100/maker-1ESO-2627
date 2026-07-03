@@ -32,6 +32,8 @@ Modela un **clauer o figura 3D** amb Tinkercad. Requisits:
 ## Checklist final
 - [ ] ≥3 cossos i ≥1 forat   - [ ] Nom en relleu   - [ ] Gruix ≥3 mm
 - [ ] Mides comprovades   - [ ] Exportat STL   - [ ] Captura al diari
+- [ ] Fitxer amb el **nom correcte** (`ElMeuNom_SA4_v1.stl`) i pujat a la **carpeta de Drive**
+  de la SA — sense nom propi, la peça no entra al batch!
 
 ## Reflexió
 - Pensar en 3D m'ha semblat: fàcil / normal / difícil

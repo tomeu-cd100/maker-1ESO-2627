@@ -28,4 +28,6 @@ Reptes **curts i autònoms** per fer servir com a:
 | 🎓 Operador/a certificat | Aconseguir els 4 **carnets de màquina** (`Normativa/Carnet_de_maquina.md`) |
 | 🏆 L'error del trimestre | Donar al **Museu dels Errors** la peça que més ha ensenyat al grup (votació trimestral; `Programació didàctica/Museu_dels_errors.md`) |
 
-> Anoteu les insígnies aconseguides al final del diari de taller.
+> Les insígnies (i els carnets i segells de trimestre) es recullen al **Passaport maker** de
+> cada alumne/a (`Passaport_maker.md`) — un sol paper per a tot el joc, que se segella al
+> moment i se l'enduen al juny.

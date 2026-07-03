@@ -15,7 +15,7 @@ STEAM i maker, currículum de Catalunya (Decret 175/2022, LOMLOE).
 |---------|-----------|
 | [`Programació didàctica/`](Programació%20didàctica/) | PD, temporització, **gestió del temps-màquina**, **codocència/desdoblament**, **les 5 Grans Idees**, **Museu dels Errors**, **mapatge competencial oficial**, cooperatiu, equitat/gènere, interdisciplinarietat/APS i adaptacions DUA |
 | [`Classes/`](Classes/) | Les **9 SA** desenvolupades (SA1–SA9) amb exemple resolt |
-| [`Avaluació/`](Avaluació/) | Avaluació inicial, criteris + **mapa operatiu per SA**, rúbriques, **full de progrés competencial**, **l'avaluació explicada a l'alumnat**, instruments formatius, diari, auto/coavaluació |
+| [`Avaluació/`](Avaluació/) | Avaluació inicial, criteris + **mapa operatiu per SA**, rúbriques, **full de progrés competencial**, **quadern digital del docent**, **l'avaluació explicada a l'alumnat**, instruments formatius, diari, auto/coavaluació |
 | [`Normativa/`](Normativa/) | Seguretat, **carnet de màquina**, protocol VR, reglament, marc normatiu, **carta i autoritzacions de famílies** |
 | [`Reptes/`](Reptes/) | Reptes curts 2D / 3D / immersius + insígnies + **projecte personal longitudinal** |
 | [`Simulacions/`](Simulacions/) | Eines virtuals per practicar sense material |

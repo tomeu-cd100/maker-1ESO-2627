@@ -79,6 +79,10 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
    cada membre fa la **versió 2** de la seva peça i anota al diari què hi ha canviat (CA1.4).
    Validació del docent.
 
+> ⏸️ **Mínim d'avui**: cada membre té **la seva peça imprimible** (dins els límits) i les mides
+> comunes acordades — l'optimització fina pot esperar; sense el mínim, l'equip no entra a la
+> cua d'impressió de la sessió 3.
+
 ### Sessió 3 — Impressió (2 h)
 1. **Laminat i cua (30')**: agrupar les peces de l'equip en **batches de placa** (una targeta
    de kanban per placa); prioritzar peces; plaques llargues fora d'hores si cal (vegeu
@@ -111,6 +115,8 @@ Solució 3D funcional al repte triat + evidència de proves amb l'usuari + prese
   `Reptes/Reptes_3D.md`. `Fitxa_alumnat.md` · `Rubrica_SA6.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
+> ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
+> una de les seves preguntes) — trieu-ne una per sessió, mai totes.
 **Rutina de pensament (equip):** *Què ha dit l'usuari / Què canviem* després de la prova amb
 la persona destinatària.
 

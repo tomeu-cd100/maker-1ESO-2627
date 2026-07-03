@@ -8,6 +8,11 @@
 > **gràfic** (esbós, esquema) o amb **foto comentada**. Documentar és el que més costa a 1r
 > d'ESO: el que s'avalua és el **pensament** (decisions, problemes, millores), **no l'ortografia
 > ni la quantitat de text**. Tens *frases per començar* a sota de cada pregunta.
+>
+> ♻️ **UNA sola reflexió per sessió.** El tiquet de sortida i la rutina de pensament de cada
+> SA **no s'afegeixen** al diari: **s'hi integren**. El docent tria QUINA reflexió toca avui
+> (l'entrada normal, O el tiquet, O la rutina — que ocupa la pregunta 3 o 4), mai totes tres.
+> Triple reflexió = reflexió convertida en tràmit.
 
 **Nom i cognoms:** ______________________  **Equip:** ________  **SA:** ______
 

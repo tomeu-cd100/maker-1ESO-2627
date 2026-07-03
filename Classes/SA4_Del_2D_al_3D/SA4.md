@@ -70,6 +70,9 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 1. **Disseny lliure del clauer/figura (70')**: ≥3 cossos + 1 forat, mides raonables (cap a 50 mm)
    i **sense suports** (condició per entrar al *batch* de placa).
 2. **Exportar STL (20')**: Exporta → .STL; comprovar mides.
+
+> ⏸️ **Mínim d'avui**: 3 cossos + 1 forat, agrupats i exportats — el nom en relleu i els
+> detalls extres són ampliació. Amb el mínim exportat, la peça entra al batch de placa.
 3. **Batch de placa (20')**: el docent agrupa **diversos models del grup en una sola placa** a
    Bambu Studio (*batch* de placa, vegeu `Programació didàctica/Gestio_temps_maquina_fabricacio.md`
    §2B) i llança la impressió; observació del procés i de la previsualització (temps i grams).
@@ -93,6 +96,8 @@ d'horari) + diari amb captures.
 - `Simulacions/Simuladors_disseny_2D_3D.md`. `Fitxa_alumnat.md` · `Rubrica_SA4.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
+> ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
+> una de les seves preguntes) — trieu-ne una per sessió, mai totes.
 **Rutina de pensament:** *Veig – Penso – Em pregunto* agafant un objecte real i imaginant com el
 modelaria amb cossos i forats.
 

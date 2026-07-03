@@ -76,6 +76,9 @@ escena 3D que es pot explorar amb les ulleres VR.
 1. **Demo CoSpaces (20')**: crear escena, afegir i moure objectes, càmera, "play" en VR.
 2. **Construcció en equip (55')**: cada membre construeix la seva part del tema acordat;
    qui va ràpid afegeix interaccions ⭐ amb blocs de codi.
+
+> ⏸️ **Mínim d'avui**: escena amb **3-4 objectes, un text i la càmera ben posada**, explorable
+> de principi a fi — les interaccions i el detall són ampliació (Gran Idea 2: petit i acabat).
 3. **Visualització VR per torns (30')**: cada equip prova la seva escena i la d'un altre equip
    (rotació d'estacions, com a la sessió 1); ajustos ràpids.
 4. **Galeria i avaluació (15')**: coavaluació + diari.
@@ -103,6 +106,8 @@ Escena VR explorable + fitxa d'anàlisi crítica d'usos de la VR + documentació
 - `Fitxa_alumnat.md` · `Rubrica_SA8.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
+> ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
+> una de les seves preguntes) — trieu-ne una per sessió, mai totes.
 **Rutina de pensament:** *Abans pensava / Ara penso* sobre la realitat virtual i els seus usos.
 
 **Tiquet de sortida:**

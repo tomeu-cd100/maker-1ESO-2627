@@ -44,6 +44,9 @@ Intercanvia el disseny amb la teva parella i reviseu-vos mútuament:
 ____________________________________________________________
 *(guarda una captura de la v1 i la v2 per al diari: és la teva iteració!)*
 
+- [ ] Fitxer amb el **nom correcte** (`ElMeuNom_SA5_v2.stl`) i pujat a la **carpeta de Drive**
+  de la SA — sense nom propi, la peça no entra a la cua d'impressió!
+
 ## Fase 3 — Laminat (Bambu Studio)
 | Paràmetre | El meu valor |
 |-----------|--------------|

@@ -43,8 +43,10 @@ maker-1ESO-2627/
 - [ ] Llegir la PD i la temporització; adaptar les setmanes al calendari del centre.
 - [ ] Preparar l'aula per zones (disseny / fabricació / immersiva / muntatge).
 - [ ] Comprovar que totes les màquines engeguen i tens els consumibles bàsics.
-- [ ] Imprimir el `Normativa/Normes_seguretat_taller.md`, el **contracte d'aula** i els
-  **carnets de màquina** (`Normativa/Carnet_de_maquina.md`).
+- [ ] Imprimir el `Normativa/Normes_seguretat_taller.md`, el **contracte d'aula** i un
+  **Passaport maker** per alumne/a (`Reptes/Passaport_maker.md` — unifica carnets i insígnies).
+- [ ] Crear el **quadern digital del docent** (`Avaluació/Quadern_digital_docent.md`): un sol
+  full de càlcul compartit per a seguiment, progrés, carnets i equitat.
 - [ ] Recollir les **autoritzacions** de família (si en faràs servir VR/360 aquest curs).
 - [ ] Crear els comptes de classe (Tinkercad, CoSpaces Edu).
 - [ ] Tenir a punt el **diari de taller** (paper o digital).
@@ -83,6 +85,26 @@ maker-1ESO-2627/
 - [ ] Si feu desdoblament: **Linux + Inkscape als Chromebooks** (coordinació TIC; vegeu
   `Programació didàctica/Codocencia_desdoblament.md` §3)
 
+## 5·bis. El mínim viable de sessió («si només pots fer tres coses»)
+
+El sistema té molts rituals; **no tots pesen igual**. Un dia dolent (substitució, imprevist,
+grup regirat), retalla amb criteri — aquesta és la jerarquia:
+
+**Irrenunciables (no es retallen mai):**
+1. **Seguretat**: normes actives, carnets vigents, màquines mai soles.
+2. **Diari de taller**: els últims 5-10 minuts són sagrats — és LA evidència del procés.
+3. **Kanban/torns**: sense criteri d'ordre públic, la màquina la guanya qui crida més.
+
+**Importants (recupera-les la sessió següent si un dia cauen):**
+objectius i criteris d'èxit visibles · feed-forward 🎯 · full de seguiment.
+
+**Prescindibles puntualment (el curs no se'n ressent si un dia no hi són):**
+Gran Idea del dia · tiquet de sortida · targetes del museu · segells del passaport ·
+referent de la setmana.
+
+> Si et trobes retallant els «irrenunciables», el problema no és el dia: és la planificació —
+> revisa la matemàtica del temps (`Programació didàctica/Gestio_temps_maquina_fabricacio.md` §1).
+
 ## 6. Rutines d'aula que funcionen
 - **Inici (5'):** objectiu del dia + repte d'escalfament.
 - **Torns de màquina:** qui espera, treballa al diari o fa un repte (`Reptes/`).
@@ -108,7 +130,8 @@ maker-1ESO-2627/
 - **Calibra la coavaluació** una vegada per trimestre amb l'exemple resolt
   (`Avaluació/Autoavaluacio_coavaluacio.md` §0) — si no, mesura amistats.
 - Durant la sessió, usa instruments **formatius** ràpids (`Avaluació/Instruments_formatius.md`):
-  tiquet de sortida, semàfor 🔴🟡🟢, rutines de pensament.
+  tiquet de sortida, semàfor 🔴🟡🟢, rutines de pensament — però ♻️ **una sola reflexió per
+  sessió**: tiquet o rutina s'integren al diari, no s'hi sumen.
 - Observa amb el `Avaluació/Full_seguiment_grup.md` (codis ràpids +/-/!).
 - El **diari de taller** és la principal evidència del procés.
 - Tanca cada SA amb la seva **rúbrica** + autoavaluació/coavaluació; l'alumnat pot usar la

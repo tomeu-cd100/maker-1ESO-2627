@@ -18,7 +18,8 @@ Dissenya i fabrica el **teu clauer personalitzat** a la talladora làser. Ha de 
 5. Fes el **forat** de l'anella (un cercle petit, prop d'una vora).
 6. Marca què és **tall** (contorn) i què és **gravat** (nom i detall) — el/la profe t'explica
    com fer-ho amb els colors/capes.
-7. Desa i avisa el/la profe per revisar-lo.
+7. Desa amb el **nom correcte** — `ElMeuNom_SA1_v1.svg` — a la **carpeta de Drive** de la SA
+   (així sabrem sempre quina peça és teva!) i avisa el/la profe per revisar-lo.
 
 ## Abans de fabricar (seguretat)
 - [ ] No deixaré mai la làser funcionant sola.

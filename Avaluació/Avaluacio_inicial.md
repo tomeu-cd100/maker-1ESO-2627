@@ -38,7 +38,10 @@ Petit repte sense ensenyar res abans, per observar punts de partida (no es quali
 
 ## D) Com fer servir els resultats
 - **Formar equips heterogenis:** barreja nivells d'experiència i fortaleses (no ajuntis tots
-  els "experts" en un equip).
+  els "experts" en un equip). **Els equips es re-formen a cada trimestre** (coincidint amb el
+  cicle SA3/SA6/SA9): a 12 anys les dinàmiques socials canvien de mes en mes, i saber que cap
+  situació d'equip és per sempre desactiva els equips tòxics i multiplica les relacions de
+  treball. Manteniu l'heterogeneïtat a cada re-formació.
 - **Tutoria entre iguals:** identifica qui pot ajudar i qui necessitarà més bastida.
 - **DUA / NESE:** anticipa adaptacions (vegeu `Programació didàctica/DUA_adaptacions_SA.md` i el
   `Normativa/Protocol_us_VR.md` per a alternatives a les ulleres).

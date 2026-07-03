@@ -7,6 +7,10 @@
 > molt bons i els molt difícils), no els invisibles del mig. **Una pàgina per alumne/a**
 > (20 pàgines per grup); s'omple en 2-3 minuts en tancar cada SA, a partir de la rúbrica o del
 > checklist de criteris d'èxit.
+>
+> 💻 **Versió recomanada: digital** — la pestanya `Progrés` del quadern digital
+> (`Quadern_digital_docent.md`), amb format condicional que fa visible la trajectòria d'un cop
+> d'ull. Aquest document en paper queda com a alternativa i com a especificació del contingut.
 
 ---
 

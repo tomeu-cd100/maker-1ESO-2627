@@ -73,6 +73,10 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
    prototip sense gastar filament, i és evidència de CA1.4.
 4. **Diari (10')**: incloure captura de la v1 i la v2 amb una frase: "què he canviat i per què".
 
+> ⏸️ **Mínim d'avui**: mides reals preses + v1 modelada (encara que sigui tosca). Si la revisió
+> per parelles no hi cap, obre la sessió 2 amb ella — la v2 abans de laminar és el que no es
+> pot saltar.
+
 ### Sessió 2 — Del model a la impressora (2 h)
 1. **Exportar STL + Bambu Studio (40')**: importar, orientar la peça, paràmetres bàsics
    (alçada de capa, farciment 15-20 %, suports si cal, *brim* per a l'adherència).
@@ -117,6 +121,8 @@ portafoli.
 - `Normativa/Normes_seguretat_taller.md` (apartat 3D). `Fitxa_alumnat.md` · `Rubrica_SA5.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
+> ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
+> una de les seves preguntes) — trieu-ne una per sessió, mai totes.
 **Rutina d'anàlisi d'errors:** *Què ha passat / Per què / Com ho evito* davant una impressió
 fallida (pròpia o d'un altre equip) — l'error com a font d'aprenentatge. Les peces fallides
 instructives es **donen al Museu dels Errors** amb la seva targeta

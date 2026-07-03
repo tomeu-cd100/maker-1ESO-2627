@@ -58,7 +58,9 @@ operat cada màquina i *quantes vegades*.
 
 En tancar cada trimestre (els dos docents junts, a la coordinació):
 1. **Recompte**: qui ha operat el làser / la impressora / la càmera / les ulleres aquest
-   trimestre, i quantes vegades (desagregat per gènere i per perfil).
+   trimestre, i quantes vegades (desagregat per gènere i per perfil). Amb el **quadern digital**
+   (`Avaluació/Quadern_digital_docent.md`, pestanya `Equitat`) aquest recompte surt sol: només
+   cal llegir la taula.
 2. **Pregunta**: hi ha alumnes que **mai** han operat res? El repartiment reflecteix el grup o
    reflecteix el biaix «ell talla / ella documenta»?
 3. **Correcció estructural** (no sermó): si els números surten esbiaixats, el trimestre

@@ -48,6 +48,21 @@ Règim per defecte de cada sessió de 2 h:
 > co-docent no ensenya l'eina: fa que l'alumnat **segueixi la fitxa, es revisi per parelles i
 > documenti**. Vegeu `00_Guia_inici_codocent.md`.
 
+### ⚠️ L'estació de disseny necessita identitat pròpia
+
+L'alumnat es va apuntar a una optativa de màquines i hi passarà la meitat del temps a l'aula
+ordinària: si aquella hora es viu com «classe normal», es viu com el torn de càstig. Coses
+barates que ho eviten:
+- **Nom propi** («Estudi de disseny», que el grup el voti) i cartell a la porta: no és l'aula
+  ordinària, és l'altra meitat del taller.
+- **Material maker físic** a l'estació: peus de rei i regles, mostres de materials (fusta
+  tallada, peces impreses, un encaix per tocar), peces del **Museu dels Errors** per analitzar,
+  esbossos grans a la paret i el pòster de les **Grans Idees**.
+- El co-docent **obre sempre amb el repte** («avui la vostra peça ha de…»), mai amb «continueu
+  la feina».
+- Els productes acabats **passen per l'estació de disseny** abans d'anar a casa: qui dissenya
+  veu i toca el resultat del que es cuina a l'altra sala.
+
 ## 3. Chromebooks: què hi corre i què no
 
 | Eina | Al Chromebook? | On s'usa |
@@ -71,6 +86,23 @@ màquina" davant d'un ordinador que podria ser a l'altra aula.
 > Al 2n i 3r trimestre no hi ha dependència: Tinkercad i CoSpaces són de navegador, i el
 > laminat amb Bambu Studio és una tasca curta de l'estació Maker.
 
+### Gestió de fitxers (la fricció invisible que més temps menja)
+
+20 alumnes × versions v1/v2 × exportacions amb noms com «Untitled(3).stl» × batches on cal
+saber de qui és cada peça = 10 minuts perduts per sessió si no hi ha norma. N'hi ha prou amb
+dues:
+
+1. **Convenció de noms, sempre**: `Nom_SAx_vN` (p. ex. `Aina_SA5_v2.stl`,
+   `Biel_SA2_v1.svg`). Cap fitxer sense nom propi entra a la cua de fabricació — és un
+   requisit com les capes o els límits, i s'ensenya a SA1 amb el primer «Anomena i desa».
+2. **Una carpeta compartida de Drive per grup** (la crea el docent): dins,
+   `SA1/ SA2/ … SA9/`, i dins de cada SA una subcarpeta per equip quan toqui. Els lliuraments
+   es fan **sempre allà** (no per correu, no «el tinc al meu compte»). El batch de placa i el
+   nesting de làser es munten des d'aquesta carpeta.
+
+> Bonus del quadern digital: la targeta del kanban usa el mateix nom de fitxer — traçabilitat
+> completa de la peça des del disseny fins al prestatge.
+
 ## 4. Estacions per SA (que fa cada meitat de sessió)
 
 | SA | 🔧 Estació Maker (50') | 💻 Estació de disseny (50') |
@@ -89,6 +121,8 @@ màquina" davant d'un ordinador que podria ser a l'altra aula.
 
 - **Dos grups estables (A i B) heterogenis**, formats amb l'`Avaluació/Avaluacio_inicial.md`.
 - Els **equips de 3-4 sencers dins del mateix grup**: mai un equip partit entre estacions.
+- Els **equips es re-formen a cada trimestre** (els grups A/B es mantenen): cap situació
+  d'equip és per sempre — vegeu `Avaluació/Avaluacio_inicial.md` §D.
 - **Regla de sincronia:** cap grup comença una fase nova de la SA que l'altre no hagi tancat;
   els **reptes express** absorbeixen els desajustos de ritme.
 - Alterneu **quin grup comença** a l'aula Maker (setmanes senars A, parelles B): que la fatiga
@@ -130,7 +164,12 @@ màquina" davant d'un ordinador que podria ser a l'altra aula.
   Maker (i tu a la seva) per calibrar l'observació i l'avaluació.
 - Un cop per trimestre, **revisió d'equitat amb dades** (10'): recompte del registre de
   carnets i del kanban — qui ha operat màquines i quantes vegades
-  (`Equitat_genere_STEAM.md` §3·bis).
+  (`Equitat_genere_STEAM.md` §3·bis). Amb el **quadern digital**
+  (`Avaluació/Quadern_digital_docent.md`), el recompte ja està fet.
+- **Si el co-docent canvia a mig curs** (reassignació de desdoblaments): el traspàs és el
+  **quadern digital** (tot el seu seguiment hi és) + la `00_Guia_inici_codocent.md` + una
+  sessió d'encavalcament si és possible. El full de progrés no es ressent: les files que
+  avaluava el sortint queden anotades i el nou docent continua des d'allà.
 
 ## 8. Seguretat i aforament
 

@@ -58,6 +58,10 @@ màquina — aquesta columna alimenta la **revisió trimestral d'equitat**, vege
 
 ## 5. Model de carnet imprimible
 
+> 💡 **Recomanat:** useu el **Passaport maker** (`Reptes/Passaport_maker.md`), que unifica els
+> carnets amb les insígnies i els segells de trimestre en un sol paper per alumne/a. El model
+> solt de sota queda com a alternativa.
+
 ```
 +----------------------------------------------+
 |          🛠️  AULA MAKER — CARNET             |

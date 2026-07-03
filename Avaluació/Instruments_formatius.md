@@ -1,7 +1,12 @@
 # Instruments d'avaluació formativa — Aula Maker
 
 > Eines ràpides per fer visible l'aprenentatge i regular-lo **durant** el procés (no només al
-> final). Pensades per a sessions de 2 h. Trieu-ne 1-2 per sessió; no cal usar-les totes.
+> final). Pensades per a sessions de 2 h. **Trieu-ne 1-2 per sessió; no cal usar-les totes.**
+>
+> ♻️ **Regla de la reflexió única:** el diari de taller ja és la reflexió de cada sessió. El
+> tiquet de sortida i la rutina de pensament **s'integren al diari** (ocupen una de les seves
+> preguntes), no s'hi sumen. Un alumne de 12 anys que fa tres reflexions el mateix dia acaba
+> no fent-ne cap de debò.
 
 ## 1. Objectius i criteris d'èxit visibles (+ recuperació de l'objectiu personal)
 A l'inici de cada SA, projecteu/escriviu la **pregunta guia**, els **objectius** ("Seré capaç
@@ -52,7 +57,22 @@ per detectar si es pot avançar.
 En veure els productes: cada alumne/a dona a un altre **dues coses bones** (★★) i **un desig de
 millora** (un consell concret). Vincula amb `Autoavaluacio_coavaluacio.md`.
 
-## 8. Feedback formatiu del docent
+## 8. La veu de l'alumnat: tiquet trimestral de valoració de l'assignatura
+
+**La fletxa també ha d'anar en sentit contrari:** l'alumnat és avaluat contínuament, però si
+només pot valorar l'assignatura al juny, la seva veu arriba quan ja no pots reaccionar. En
+tancar **cada trimestre** (SA3/6/9, 5 minuts), tiquet **anònim** de 3 preguntes (paper o
+formulari — pestanya `Valoracions` del quadern digital):
+
+1. Una cosa de l'Aula Maker que **mantindria** tal com és: …
+2. Una cosa que **trauria o canviaria**: …
+3. Una cosa que **m'agradaria fer** i encara no hem fet: …
+
+Es llegeixen a la coordinació, s'anota una conclusió a la `Memòria de treball/` i — important —
+es **retorna al grup** («ens heu dit X; farem Y»): la veu que no rep resposta ensenya que
+opinar no serveix de res.
+
+## 8·bis. Feedback formatiu del docent
 - Centra't en el **procés** i en el **següent pas**, no només en el producte.
 - Usa el llenguatge dels **criteris d'èxit** de la SA.
 - Pregunta abans de corregir: "Què has provat? Què faries diferent?".

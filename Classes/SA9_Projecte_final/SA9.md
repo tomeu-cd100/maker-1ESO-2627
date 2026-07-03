@@ -73,6 +73,9 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
 1. **Disseny dels objectes (làser i/o 3D) (100')** repartit per l'equip; enviar a fabricar.
 2. **Diari (20')**.
 
+> ⏸️ **Mínim d'avui**: l'**objecte principal de l'estand enviat a fabricar** (batch o cua) —
+> els objectes secundaris poden esperar; el que no s'envia avui potser ja no arriba a la Fira.
+
 ### Sessió 3 — Component immersiu (2 h)
 1. **Crear el 360/VR (100')**: tour de l'espai del tema o escena VR explicativa.
 2. **Diari (20')**.
@@ -107,6 +110,8 @@ final del curs.
 - `Avaluació/Rubrica_producte_final.md`. `Fitxa_alumnat.md` · `Rubrica_SA9.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
+> ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
+> una de les seves preguntes) — trieu-ne una per sessió, mai totes.
 **Rutina de síntesi "El meu viatge maker":** *Abans del curs sabia… / Ara sé… / Després vull…*
 (reflexió de tancament de l'optativa).
 

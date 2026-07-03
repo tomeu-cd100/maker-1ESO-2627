@@ -91,6 +91,9 @@ talladora làser) que es desenvoluparan en SA2 i SA3.
    gravat (negre/ompliment). El docent revisa cada fitxer.
 4. **Tancament (10')**: diari de taller.
 
+> ⏸️ **Mínim d'avui** (per a qui va lent): forma base + nom + forat, amb capes revisades — el
+> detall decoratiu és ampliació. Qui té el mínim, fabrica a la sessió 3 com tothom.
+
 ### Sessió 3 — Fabricació a làser i reflexió (2 h)
 1. **Checkpoint del carnet 🔴 de làser (15' + durant els torns)**: repàs del protocol abans
    d'engegar (ventilació, no deixar la màquina sola, materials permesos) en format checkpoint
@@ -126,6 +129,8 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
 - Fitxa de l'alumnat: `Fitxa_alumnat.md` · Rúbrica: `Rubrica_SA1.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
+> ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
+> una de les seves preguntes) — trieu-ne una per sessió, mai totes.
 **Rutina de pensament (sessió 1):** *Veig – Penso – Em pregunto* davant les màquines —
 observa una màquina i anota **què veus**, **què penses** que fa i **què et preguntes**.
 

@@ -73,6 +73,9 @@ encaix (*kerf* / joints) i el treball en equip.
 2. **Disseny a Inkscape (85')**: totes les peces, gravats i unions; capes tall/gravat.
 3. **Diari de taller (10')**.
 
+> ⏸️ **Mínim d'avui**: les peces **estructurals** amb les unions dibuixades (l'objecte s'ha
+> d'aguantar); els gravats decoratius es poden acabar a la sessió 3 mentre es fabrica per torns.
+
 ### Sessió 3 — Fabricació (2 h)
 1. **Preparació i prova (20')**: tallar primer una **mostra d'encaix** per validar mides.
    Mesureu-hi el **kerf** real (dibuixeu una ranura de 3,0 mm, mesureu-la tallada amb el peu de
@@ -110,6 +113,8 @@ procés.
 - Caixa amb encaix: `Recursos/Plantilles_disseny/generador_caixa_encaix.py` (+ exemple SVG).
 
 ## 🧠 Metacognició i tiquet de sortida
+> ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
+> una de les seves preguntes) — trieu-ne una per sessió, mai totes.
 **Rutina de pensament (equip):** *El més difícil / Com ho hem resolt* — registreu els obstacles
 que heu trobat i com els heu superat.
 

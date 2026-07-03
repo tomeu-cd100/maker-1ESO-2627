@@ -80,6 +80,10 @@ a alumnat nou de 6è de primària…).
    sense gent no autoritzada al pla; repeticions si cal.
 3. **Posada en comú i selecció final (20')**: cada equip tria les seves millors captures.
 
+> ⏸️ **Mínim d'avui**: cada equip té **2 espais capturats i utilitzables** (estables, sense
+> persones no autoritzades) — més espais és ampliació; amb 2 escenes ja es munta un tour
+> navegable a la sessió 3.
+
 ### Sessió 3 — Muntatge, publicació i visualització (2 h)
 1. **Muntar el tour (60')**: enllaçar les escenes amb punts de navegació; títols/etiquetes.
 2. **Publicació (10')**: el tour es **lliura de veritat a l'audiència** — es penja a la web
@@ -112,6 +116,8 @@ portes obertes o visita de 6è) + visualització VR + documentació del procés.
 - `Simulacions/Experiencies_VR_360.md`. `Fitxa_alumnat.md` · `Rubrica_SA7.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
+> ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
+> una de les seves preguntes) — trieu-ne una per sessió, mai totes.
 **Rutina de pensament:** *Veig – Penso – Em pregunto* davant una experiència 360 (consumida o pròpia).
 
 **Tiquet de sortida:**

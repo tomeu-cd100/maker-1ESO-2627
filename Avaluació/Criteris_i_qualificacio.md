@@ -61,6 +61,27 @@ el nivell expressa el **grau d'assoliment competencial**, no una puntuació.
 > Si el centre necessita un **referent numèric** per als seus tràmits interns, aplica
 > l'equivalència que tingui aprovada el centre; aquí el referent **és el nivell competencial**.
 
+## 3·bis. Recuperació d'evidències per absència
+
+Amb SA de 2-3 sessions, un alumne malalt dues setmanes pot perdre una SA sencera. La cel·la
+del full de progrés **no queda buida per sempre**: cada SA curta té una **via curta de
+recuperació** que acredita les CE essencials sense refer tota la SA:
+
+1. **Producte reduït**: la versió mínima del producte (el «⏸️ Mínim d'avui» de la sessió de
+   disseny) fet en temps de reptes/paral·lel de les sessions següents, entrant al primer
+   batch/cua disponible.
+2. **Simulació** (`Simulacions/`) per a la part de màquina que no es pugui recuperar
+   físicament, si la cua no dona per a més.
+3. **Entrada de diari retrospectiva**: què faré / com ho faré (planificació val com a CA1.3)
+   + la reflexió normal en acabar.
+4. **Carnet pendent**: el checkpoint es fa al primer ús real de la màquina (ja previst al
+   carnet: «qui s'incorpora tard el fa al seu primer ús»).
+
+> Les SA de trimestre (SA3/6/9) són d'equip: qui ha faltat es reincorpora al seu equip amb una
+> part assumible («signatura de peça» ajustada) — no refà el projecte en solitari. Si
+> l'absència és llarga (PI, malaltia de llarga durada), coordineu-ho amb la CAD com qualsevol
+> adaptació.
+
 ## 4. Matriu de traçabilitat: criteris ↔ SA
 
 Marca on s'avalua cada criteri al llarg del curs (assegura que tots es treballen i s'avaluen).
@@ -124,7 +145,7 @@ l'alumnat, a la seva **fitxa** — secció «Com m'avaluaran?» — i a `Avaluac
 | Inici de cada SA | *Feed-forward* (recuperar 🎯) + criteris d'èxit i Gran Idea visibles |
 | Tancament de cada SA | Checklist/rúbrica + diari + columna del full de progrés |
 | 1a coavaluació de cada trimestre | **Calibratge previ** amb l'exemple resolt (`Autoavaluacio_coavaluacio.md` §0) |
-| Tancament de trimestre (SA3/6/9) | Rúbrica completa + portafoli + **valoració trimestral** al full de progrés + revisió d'equitat amb dades |
+| Tancament de trimestre (SA3/6/9) | Rúbrica completa + portafoli + **valoració trimestral** al full de progrés + revisió d'equitat amb dades + **tiquet anònim de valoració de l'assignatura** (i retorn al grup) + re-formació d'equips |
 | Un cop per trimestre | Ensenyar a cada alumne/a **el seu full de progrés** |
 | Juny (SA9) | Columna «Global curs» fila a fila (trajectòria) + retorn de l'avaluació inicial |
 

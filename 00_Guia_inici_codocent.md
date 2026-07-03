@@ -17,6 +17,8 @@
 
 ## 2. Què fas durant els 50 minuts (checklist de cada torn)
 
+- [ ] **Obre amb el repte**, mai amb «continueu la feina»: «avui la vostra peça ha de…». La
+  teva estació és l'**estudi de disseny** del taller, no una aula d'espera.
 - [ ] Tothom té la **fitxa de la SA** oberta i sap en quina fase és.
 - [ ] Meitat del torn: **revisió per parelles** (s'intercanvien el treball amb el checklist de
   la fitxa; tu només vigiles que el retorn sigui concret, no "està bé").

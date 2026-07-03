@@ -73,3 +73,16 @@
   la sessió ⭐ d'ampliació de la SA8.
 - Els reptes express (`Reptes/`) cobreixen els temps morts i els *fast finishers*.
 - Reserveu sempre 5-10 min de **neteja i manteniment** al final de cada sessió de fabricació.
+
+### Contingències (tenir-ho decidit abans que passi)
+
+| Situació | Pla |
+|----------|-----|
+| **Absència del docent Maker** (substitut sense perfil) | La sessió sencera passa a l'estació de disseny: fitxa de la SA + `Simulacions/` + diari + reptes. **Cap màquina s'engega.** El substitut segueix la `00_Guia_inici_codocent.md` (està pensada per a algú sense coneixements maker). La fabricació pendent es recupera per batch la setmana següent. |
+| **Làser avariada** a mig 1r trimestre | S'avança la SA de navegador més propera: **SA4 (Tinkercad) es pot permutar** amb la SA pendent — és 100 % Chromebook. Es registra la incidència i es reprèn el làser quan torni. |
+| **Impressora avariada** al 2n trimestre | El disseny i el laminat continuen (Bambu Studio previsualitza sense màquina); la cua s'imprimeix en tornar (batch de placa) o s'avança SA7 (càmera, sense impressora). |
+| **Setmana perduda** (festiu, sortida, vaga) | El coixí de la setmana 35 l'absorbeix; si en cau una segona, SA8 té la sessió ⭐ com a marge i les SA de 5 sessions poden comprimir muntatge+assaig. |
+
+> La regla general: **cap tecnologia és bloquejant** — sempre hi ha una SA o una fase que
+> funciona només amb Chromebooks. Registreu la incidència a
+> `Memòria de treball/Registre_incidencies_i_manteniment.md`.
