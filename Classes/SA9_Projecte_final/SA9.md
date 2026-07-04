@@ -58,6 +58,10 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
 
 ## 4. Seqüència de sessions
 
+> 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
+> estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
+> setmanes 30–34 (+ coixí a la 35).
+
 ### Sessió 1 — Planificació del projecte (2 h)
 1. **Repte i exemples (20')**.
 2. **Tria de tema i abast (40')**: cada equip tria el tema i defineix què farà a làser/3D i

@@ -59,6 +59,10 @@ a alumnat nou de 6è de primària…).
 
 ## 4. Seqüència de sessions
 
+> 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
+> estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
+> setmanes 25–27.
+
 ### Sessió 1 — Què és el 360? (2 h)
 1. **Immersió (20')**: visualització d'exemples 360/tours; què el fa diferent del vídeo normal.
 2. **La càmera 360 (40')**: parts, com es captura, projecció equirectangular, on amagar-se el

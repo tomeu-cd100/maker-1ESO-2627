@@ -61,6 +61,10 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 
 ## 4. Seqüència de sessions
 
+> 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
+> estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
+> setmanes 16–19.
+
 ### Sessió 1 — Detectar i dissenyar (2 h)
 1. **Repte + mesurar el problema (30')**: identificar la necessitat i prendre **mides reals**
    (regle/peu de rei) de l'objecte/espai on anirà la peça. Recordar els **límits del repte**:

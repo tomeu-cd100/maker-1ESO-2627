@@ -19,7 +19,8 @@
 maker-1ESO-2627/
 ├── 00_Guia_inici_docent.md   ← ETS AQUÍ
 ├── 00_Guia_inici_codocent.md  ← per al company/a de desdoblament
-├── 00_Guio_del_curs_docent.md ← les 35 setmanes, sessió a sessió
+├── 00_Guio_del_curs_docent.md ← les 35 setmanes, sessió a sessió (el mapa)
+├── 00_Diari_de_classe_docent.md ← cada sessió al detall: minutatge, estacions, checklist
 ├── README.md                  ← índex general
 ├── Programació didàctica/     ← QUÈ s'ensenya i com s'avalua (comença aquí)
 ├── Classes/                   ← les 9 SA, llestes per impartir (SA1…SA9)
@@ -37,6 +38,8 @@ maker-1ESO-2627/
 3. `Avaluació/Criteris_i_qualificacio.md` — com avaluaràs.
 4. `Classes/SA0_Punt_de_partida/SA0.md` — la sessió d'arrencada, llesta per a la setmana 1
    (i `00_Guio_del_curs_docent.md` per veure tot el curs sessió a sessió).
+   Per al dia a dia, un cop arrencat el curs: `00_Diari_de_classe_docent.md` — la fitxa
+   operativa de cada una de les 35 sessions (obre-la cada setmana abans de classe).
 5. `Normativa/Normes_seguretat_taller.md` — imprescindible abans de tocar màquines.
 6. **Si treballeu en desdoblament** (2 docents, aforament limitat a l'aula Maker):
    `Programació didàctica/Codocencia_desdoblament.md` — model de rotació i estacions — i dona

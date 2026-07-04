@@ -57,6 +57,10 @@ converteix en línies que la màquina pot tallar i gravar.
 
 ## 4. Seqüència de sessions
 
+> 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
+> estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
+> setmanes 4–6.
+
 ### Sessió 1 — Inkscape a fons (2 h)
 1. **Repàs i reptes guiats (30')**: formes, duplicar, alinear, agrupar.
 2. **Operacions de camí (40')**: unió, diferència, intersecció (crear formes noves).

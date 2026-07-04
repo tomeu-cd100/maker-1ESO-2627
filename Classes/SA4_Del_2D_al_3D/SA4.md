@@ -55,6 +55,10 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 
 ## 4. Seqüència de sessions
 
+> 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
+> estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
+> setmanes 13–15.
+
 ### Sessió 1 — Benvinguda al 3D + Tinkercad bàsic (2 h)
 1. **Del 2D al 3D (20')**: del pla al volum; exemples d'objectes 3D quotidians; vistes.
 2. **Comptes i interfície (20')**: accés a Tinkercad (compte de classe), navegació 3D, pla de treball.

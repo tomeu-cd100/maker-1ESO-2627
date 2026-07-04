@@ -5,6 +5,11 @@
 > t'assenyala, setmana a setmana, **què prepares abans**, **quin és el fil de la sessió** i
 > **què registres en acabar** — amb l'enllaç al document que ho desenvolupa. Comença aquí,
 > imprimeix-lo si vols, i marca les setmanes fetes.
+>
+> 📅 **Per preparar la sessió concreta de cada setmana** (minutatge, qui fa què a cada
+> estació de la rotació, checklist de material i el punt crític del dia), la versió expandida
+> és el **`00_Diari_de_classe_docent.md`**: aquest guió és el mapa; aquell, el full de ruta
+> del dia.
 
 ---
 

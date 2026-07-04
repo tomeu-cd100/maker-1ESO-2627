@@ -61,6 +61,10 @@ encaix (*kerf* / joints) i el treball en equip.
 
 ## 4. Seqüència de sessions
 
+> 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
+> estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
+> setmanes 7–11 (+ tancament del T1 a la setmana 12).
+
 ### Sessió 1 — Repte i idea (2 h)
 1. **Presentació del repte i exemples (20')**.
 2. **Detectar necessitat + idear (40')**: cada equip defineix l'objecte, l'usuari i els requisits.

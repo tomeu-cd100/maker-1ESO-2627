@@ -66,6 +66,10 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 
 ## 4. Seqüència de sessions
 
+> 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
+> estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
+> setmanes 20–24.
+
 ### Sessió 1 — Triar repte i empatitzar (2 h)
 1. **Catàleg de reptes (20')**: presentació d'opcions; cada equip en tria un.
 2. **Empatia i requisits (50')**: qui ho farà servir? què necessita? requisits i restriccions.

@@ -65,6 +65,10 @@ desenvoluparan en SA2 i SA3.
 > l'**avaluació 0** són la **SA0** (`Classes/SA0_Punt_de_partida/SA0.md`, setmana 1). Aquesta
 > SA comença amb tot això fet.
 
+> 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
+> estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
+> setmanes 2–3.
+
 ### Sessió 1 — Disseny del clauer amb Inkscape (2 h)
 1. **Demo Inkscape (30')**: obrir, llenç, formes bàsiques, afegir text, mida en mm.
 2. **Disseny guiat (60')**: cada alumne/a dissenya el seu clauer (forma base + nom/inicial +

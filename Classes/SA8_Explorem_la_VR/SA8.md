@@ -58,6 +58,10 @@ escena 3D que es pot explorar amb les ulleres VR.
 
 ## 4. Seqüència de sessions
 
+> 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
+> estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
+> setmanes 28–29.
+
 ### Sessió 1 — Viure i entendre la VR (2 h)
 1. **Normes d'ús de la VR (20')**: `Normativa/Protocol_us_VR.md` (temps, higiene, espai,
    seguretat) + **checkpoint del carnet 🔵** (`Normativa/Carnet_de_maquina.md`): ajustar les

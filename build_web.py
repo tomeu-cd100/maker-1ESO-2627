@@ -72,6 +72,7 @@ ALUMNAT_LINKS = [
 DOCENT_DESTACATS = [
     ("🚀", "Guia d'inici docent", "00_Guia_inici_docent.md", "Per on començar: la posada en marxa completa"),
     ("🗺️", "Guió del curs, sessió a sessió", "00_Guio_del_curs_docent.md", "Les 35 setmanes: què preparar, què fer i què registrar"),
+    ("📅", "Diari de classe, dia a dia", "00_Diari_de_classe_docent.md", "Cada sessió al detall: minutatge, estacions, checklist i punt crític"),
     ("👥", "Guia del co-docent", "00_Guia_inici_codocent.md", "Una pàgina per al company de desdoblament"),
     ("🤝", "Codocència i desdoblament", "Programació didàctica/Codocencia_desdoblament.md", "Rotació, estacions i repartiment d'avaluació"),
     ("⏱️", "Gestió del temps-màquina", "Programació didàctica/Gestio_temps_maquina_fabricacio.md", "Batch, cua, paral·lel: el coll d'ampolla resolt"),

@@ -6,7 +6,9 @@ STEAM i maker, currículum de Catalunya (Decret 175/2022, LOMLOE).
 **Maquinari:** impressora 3D Bambu Lab P2S · talladora làser xTool S1 · càmera 360 · 5 ulleres VR.
 
 > 👉 **Comença per la [Guia d'inici docent](00_Guia_inici_docent.md).**
-> Si fas codocència en desdoblament, el teu company/a té la seva pròpia
+> Per al dia a dia del curs: el [guió de les 35 setmanes](00_Guio_del_curs_docent.md) (el mapa)
+> i el [diari de classe, dia a dia](00_Diari_de_classe_docent.md) (la fitxa operativa de cada
+> sessió). Si fas codocència en desdoblament, el teu company/a té la seva pròpia
 > [guia d'inici del co-docent](00_Guia_inici_codocent.md) (no cal saber de màquines).
 
 ## Estructura
