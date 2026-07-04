@@ -56,7 +56,9 @@ del curs comença a la SA1; el que sí que comença avui és el **diari de talle
 5. **Com funciona el curs (15')**: presentació del **diari de taller**, el **passaport maker**
    (es reparteix i s'hi posa el nom), les **estacions** (si feu desdoblament), els **carnets**
    («el primer, el 🔴 de làser, us el guanyareu a la SA1») i **com s'avalua** — repartiu
-   `Avaluació/Avaluacio_explicada_alumnat.md`: cap sorpresa mai.
+   `Avaluació/Avaluacio_explicada_alumnat.md`: cap sorpresa mai. Ensenyeu també la **web del
+   curs** (projectada: el portal de l'alumnat i «què toca aquesta setmana») i els seus **botons
+   d'ajustos** — A−/A+, Aa↔ lectura fàcil, 🔊 veu alta, 🌗 — perquè cadascú se la configuri.
 6. **Avaluació 0 (15')**: qüestionari d'autopercepció + vocabulari + mini-repte diagnòstic
    (`Avaluació/Avaluacio_inicial.md`). **Sense nota**: serveix per formar equips i personalitzar.
 7. **Tancament (5')**: acabar la primera entrada del diari.

@@ -57,7 +57,7 @@ tu acabis el dia sabent com formar els grups. **Res no es qualifica.**
 2. **Cultura maker i mapa del curs (15')** — 2D → 3D → immersiu → Fira.
 3. **Recorregut pel taller (20')** — zones i màquines, *només mirar*. Rutina *Veig–Penso–Em pregunto* davant una màquina = **primera entrada del diari**.
 4. **Gimcana de seguretat (35')** — 4 proves actives → **signatura del contracte**.
-5. **Com funciona el curs (15')** — diari, passaport, estacions, carnets («el 🔴 us el guanyareu a la SA1»), avaluació (repartiu l'explicada a l'alumnat: cap sorpresa mai).
+5. **Com funciona el curs (15')** — diari, passaport, estacions, carnets («el 🔴 us el guanyareu a la SA1»), avaluació (repartiu l'explicada a l'alumnat: cap sorpresa mai) + la **web del curs** projectada: el portal de l'alumnat, «què toca aquesta setmana» i els **botons d'ajustos** (A−/A+, Aa↔, 🔊, 🌗) perquè cadascú se la configuri.
 6. **Avaluació 0 (15')** — autopercepció + vocabulari + mini-repte (`Avaluació/Avaluacio_inicial.md`). Es pot respondre oralment amb tu si cal.
 7. **Tancament (5')** — acabar la primera entrada del diari.
 

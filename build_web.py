@@ -228,6 +228,7 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛠️</text></svg>">
 </head>
 <body>
+<a class="skip" href="#contingut">Salta al contingut ↓</a>
 <header class="site-header">
   <a class="brand" href="{prefix}index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
   <nav>
@@ -237,11 +238,19 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
     <a href="{prefix}alumnat.html">Alumnat</a>
     <a href="{prefix}families.html">Famílies</a>
     <a href="{prefix}cerca.html" title="Cerca">🔍</a>
-    <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+    <span class="a11y" role="group" aria-label="Ajustos de lectura">
+      <button id="fmenys" title="Lletra més petita" aria-label="Lletra més petita">A−</button>
+      <button id="fmes" title="Lletra més gran" aria-label="Lletra més gran">A+</button>
+      <button id="espaiat" title="Lectura fàcil: més espai entre lletres i línies"
+              aria-label="Lectura fàcil (més espaiat)" aria-pressed="false">Aa↔</button>
+      <button id="llegir" title="Escolta aquesta pàgina en veu alta"
+              aria-label="Escolta aquesta pàgina en veu alta">🔊</button>
+      <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
+    </span>
   </nav>
 </header>
 <div class="crumb">{crumb_html}</div>
-<main class="content">
+<main class="content" id="contingut" tabindex="-1">
 {body}
 </main>
 <footer class="site-footer">
@@ -249,11 +258,32 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
   <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
 </footer>
 <script>
-const t=document.getElementById('theme');
-const saved=localStorage.getItem('theme');
-if(saved)document.documentElement.dataset.theme=saved;
-t.onclick=()=>{{const d=document.documentElement.dataset;
-d.theme=(d.theme==='dark')?'light':'dark';localStorage.setItem('theme',d.theme);}};
+const R=document.documentElement, LS=localStorage;
+const el=id=>document.getElementById(id);
+// tema
+if(LS.getItem('theme'))R.dataset.theme=LS.getItem('theme');
+el('theme').onclick=()=>{{R.dataset.theme=(R.dataset.theme==='dark')?'light':'dark';
+LS.setItem('theme',R.dataset.theme);}};
+// mida de lletra (0=normal, 1=gran, 2=molt gran)
+let fs=+(LS.getItem('fs')||0);
+const aplicaFs=()=>{{R.dataset.fs=fs;LS.setItem('fs',fs);}};aplicaFs();
+el('fmes').onclick=()=>{{fs=Math.min(2,fs+1);aplicaFs();}};
+el('fmenys').onclick=()=>{{fs=Math.max(0,fs-1);aplicaFs();}};
+// lectura fàcil (espaiat ampli, columna estreta)
+const esp=el('espaiat');
+const aplicaEsp=v=>{{if(v)R.dataset.espaiat='1';else delete R.dataset.espaiat;
+esp.setAttribute('aria-pressed',v?'true':'false');LS.setItem('espaiat',v?'1':'0');}};
+aplicaEsp(LS.getItem('espaiat')==='1');
+esp.onclick=()=>aplicaEsp(R.dataset.espaiat!=='1');
+// escolta la pàgina (veu en català si n'hi ha)
+const veu=el('llegir');
+if(!('speechSynthesis' in window))veu.style.display='none';
+else veu.onclick=()=>{{const s=speechSynthesis;
+if(s.speaking){{s.cancel();veu.textContent='🔊';return;}}
+const u=new SpeechSynthesisUtterance(document.querySelector('main').innerText);
+u.lang='ca-ES';const v=s.getVoices().find(v=>v.lang&&v.lang.toLowerCase().startsWith('ca'));
+if(v)u.voice=v;u.rate=.95;u.onend=()=>veu.textContent='🔊';
+veu.textContent='⏹';s.speak(u);}};
 </script>
 </body>
 </html>
@@ -384,6 +414,15 @@ def build_home(pages):
 <h1>🧑‍🎓 Per a l'alumnat</h1>
 <p class="lead">Tot el que fas servir tu: les fitxes de cada repte, com t'avaluaran
 (sense sorpreses!) i el joc de carnets i insígnies.</p>
+<blockquote><p><strong>Com fer servir aquesta web (3 passos):</strong>
+1️⃣ Mira <a href="00_diari_de_classe_alumnat.html">què toca aquesta setmana</a> ·
+2️⃣ Obre la <strong>fitxa de la SA</strong> que estem fent (aquí sota) ·
+3️⃣ Si no entens una paraula, busca-la al
+<a href="classes/sa0_punt_de_partida/vocabulari_basic.html">vocabulari</a>.</p>
+<p>💡 <strong>Fes-te la web teva</strong> amb els botons de dalt: <strong>A−/A+</strong> per la
+mida de la lletra, <strong>Aa↔</strong> per llegir amb més espai (va molt bé si les lletres
+«es mouen»), <strong>🔊</strong> perquè la pàgina es llegeixi sola en veu alta i <strong>🌗</strong>
+pel mode fosc. La web ho recorda per al pròxim dia.</p></blockquote>
 <h2>✏️ Les fitxes de cada SA</h2>
 <div class="chips">{fitxes}</div>
 <h2>Els teus documents</h2>

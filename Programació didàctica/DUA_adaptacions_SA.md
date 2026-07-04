@@ -25,6 +25,11 @@
 - **Repte base + ampliació ⭐** sempre.
 - **Parelles d'ajuda mútua** i tutorització entre iguals.
 - **Temps flexible** i possibilitat d'acabar amb suport.
+- **La web del curs porta el DUA incorporat** (barra d'ajustos a totes les pàgines, es recorda
+  entre sessions): **A−/A+** mida de lletra (baixa visió) · **Aa↔ lectura fàcil** (més espaiat
+  entre lletres i línies i columna estreta — dislèxia) · **🔊 lectura en veu alta** en català
+  (lectoescriptura, nouvinguts) · **🌗 mode fosc** (fatiga visual). Ensenyeu els botons a la
+  SA0 i deixeu que cadascú es configuri la web a la seva mida.
 
 ---
 

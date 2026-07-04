@@ -33,6 +33,30 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
+
+/* ── DUA: ajustos de lectura ───────────────── */
+.skip {
+  position: absolute; left: -999px; top: 0; z-index: 30;
+  background: var(--accent); color: #fff; font-weight: 600;
+  padding: .6rem 1.2rem; border-radius: 0 0 10px 0; text-decoration: none;
+}
+.skip:focus { left: 0; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.a11y { display: inline-flex; gap: .25rem; align-items: center; margin-left: .3rem; }
+.a11y button {
+  border: 1px solid var(--line); background: var(--bg-card); color: var(--ink);
+  border-radius: 999px; padding: .35rem .55rem; cursor: pointer;
+  font-size: .85rem; font-weight: 600; line-height: 1;
+}
+.a11y button:hover { border-color: var(--accent); color: var(--accent); }
+.a11y button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+/* mida de lletra: A+ (persistent) */
+:root[data-fs="1"] body { font-size: 19px; }
+:root[data-fs="2"] body { font-size: 22px; }
+/* lectura fàcil: més aire entre lletres, paraules i línies + columna més estreta */
+:root[data-espaiat="1"] body { letter-spacing: .05em; word-spacing: .16em; line-height: 2; }
+:root[data-espaiat="1"] .content { max-width: 46rem; }
+:root[data-espaiat="1"] p, :root[data-espaiat="1"] li { margin-bottom: .7rem; }
 body {
   margin: 0;
   font-family: "Segoe UI", system-ui, -apple-system, Roboto, sans-serif;
@@ -198,7 +222,7 @@ img { max-width: 100%; }
 
 /* ── impressió (fitxes!) ───────────────────── */
 @media print {
-  .site-header, .crumb, .site-footer, #theme { display: none; }
+  .site-header, .crumb, .site-footer, #theme, .a11y, .skip { display: none; }
   body { background: #fff; color: #000; font-size: 12pt; }
   .content { max-width: none; padding: 0; }
   a { color: inherit; text-decoration: none; }
