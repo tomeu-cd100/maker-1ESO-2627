@@ -19,6 +19,9 @@
 ## 🖨️ Impressions (des del portal docent de la web, secció «Impressos»)
 
 - [ ] **20 Passaports maker** (A5, 2 per full; plastificats aguanten el curs).
+- [ ] **20 quaderns del diari de taller T1** (16 pàgines = 8 fulls a doble cara, grapats:
+  `web_assets/impressos/diari_taller_T1.html`) — el diari és en paper fins que aprenguin a
+  fer el portafoli digital a Tecnologia (final del T1).
 - [ ] **2 pòsters de les 5 Grans Idees** (un per a l'aula Maker, un per a l'estudi de disseny).
 - [ ] **Pila de targetes del Museu dels Errors** (4 per full).
 - [ ] **Targetes de kanban d'impressió** (8 per full; es necessiten a partir de la SA5,

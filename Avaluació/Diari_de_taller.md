@@ -13,6 +13,14 @@
 > SA **no s'afegeixen** al diari: **s'hi integren**. El docent tria QUINA reflexió toca avui
 > (l'entrada normal, O el tiquet, O la rutina — que ocupa la pregunta 3 o 4), mai totes tres.
 > Triple reflexió = reflexió convertida en tràmit.
+>
+> 📄 **El 1r trimestre, en paper.** L'alumnat no aprèn a fer el portafoli digital (Google
+> Sites, a Tecnologia) fins a final del 1r trimestre, així que el diari del T1 es porta en un
+> **quadern imprès**: `web_assets/impressos/diari_taller_T1.html` (a la web: pàgina Docent →
+> Impressos), amb les 12 entrades del trimestre ja etiquetades per setmana i SA i els
+> tancaments de SA1/SA2/SA3. Un per alumne/a, 8 fulls a doble cara, grapat. Del T2 en
+> endavant el diari passa al portafoli digital, i les entrades del quadern s'hi fotografien
+> o enganxen (són la primera evidència del portafoli, no es llencen).
 
 **Nom i cognoms:** ______________________  **Equip:** ________  **SA:** ______
 

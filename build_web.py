@@ -449,6 +449,9 @@ pel mode fosc. La web ho recorda per al pròxim dia.</p></blockquote>
     impresos = "\n".join([
         card("impressos/passaport.html", "🛠️", "Passaport maker",
              "A5 per alumne/a: carnets, insígnies i segells", "imprimible"),
+        card("impressos/diari_taller_T1.html", "📓", "Diari de taller en paper (T1)",
+             "16 pàgines per alumne/a: les 12 entrades del trimestre ja etiquetades + "
+             "tancaments de SA", "imprimible"),
         card("impressos/poster_grans_idees.html", "🧭", "Pòster de les 5 Grans Idees",
              "A4/A3 per penjar a les dues aules", "imprimible"),
         card("impressos/targetes_museu.html", "🏛️", "Targetes del Museu dels Errors",

@@ -53,7 +53,9 @@ del curs comença a la SA1; el que sí que comença avui és el **diari de talle
 4. **Gimcana de seguretat (35')**: les 4 proves actives amb tot el material a
    `Material_gimcana_seguretat.md`. Acaba amb la
    **signatura del contracte d'aula**.
-5. **Com funciona el curs (15')**: presentació del **diari de taller**, el **passaport maker**
+5. **Com funciona el curs (15')**: presentació del **diari de taller** (es reparteix el
+   **quadern imprès del T1** — el diari és en paper fins que s'aprèn el portafoli digital a
+   Tecnologia), el **passaport maker**
    (es reparteix i s'hi posa el nom), les **estacions** (si feu desdoblament), els **carnets**
    («el primer, el 🔴 de làser, us el guanyareu a la SA1») i **com s'avalua** — repartiu
    `Avaluació/Avaluacio_explicada_alumnat.md`: cap sorpresa mai. Ensenyeu també la **web del

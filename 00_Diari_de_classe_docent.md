@@ -48,7 +48,7 @@ digital. Un dia dolent: seguretat + diari + kanban són intocables (guia docent 
 tu acabis el dia sabent com formar els grups. **Res no es qualifica.**
 
 **🎒 Abans:**
-- [ ] Impresos: contracte d'aula, passaports (amb nom per posar), fitxes SA0, `Avaluació/Avaluacio_explicada_alumnat.md`, avaluació 0.
+- [ ] Impresos: contracte d'aula, passaports (amb nom per posar), fitxes SA0, `Avaluació/Avaluacio_explicada_alumnat.md`, avaluació 0, i el **quadern del diari de taller T1** (un per alumne/a, 8 fulls a doble cara: `web_assets/impressos/diari_taller_T1.html`).
 - [ ] **Gimcana muntada**: les 3 escenes fotografiades amb els errors plantats + targetes retallades (`Classes/SA0_Punt_de_partida/Material_gimcana_seguretat.md`).
 - [ ] Pòster de les 5 Grans Idees a la paret; vídeo activador provat; quadern digital creat.
 
