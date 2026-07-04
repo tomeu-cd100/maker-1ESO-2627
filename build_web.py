@@ -56,6 +56,7 @@ SA_CARDS = [
 ]
 
 ALUMNAT_LINKS = [
+    ("📅", "El curs, dia a dia", "00_Diari_de_classe_alumnat.md", "Una targeta per setmana: què farem i què no pots oblidar"),
     ("📖", "Vocabulari bàsic del curs", "Classes/SA0_Punt_de_partida/Vocabulari_basic.md", "Totes les paraules maker, explicades curt i clar"),
     ("📔", "El diari de taller", "Avaluació/Diari_de_taller.md", "La teva llibreta maker: una entrada per sessió"),
     ("🔍", "Com m'avaluaran?", "Avaluació/Avaluacio_explicada_alumnat.md", "Tot el sistema d'avaluació explicat en una pàgina"),

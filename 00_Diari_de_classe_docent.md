@@ -8,6 +8,10 @@
 > **Què NO és:** la bitàcola. Aquest document es llegeix **abans** de la sessió («què faré
 > avui»); la `Memòria de treball/Diari_docent_sessions.md` s'escriu **després** («què ha
 > passat»). L'un alimenta l'altra.
+>
+> 👦👧 **L'alumnat té la seva pròpia versió** d'aquest mapa, setmana a setmana i en el seu
+> llenguatge: `00_Diari_de_classe_alumnat.md` (enllaçada al portal de l'alumnat de la web).
+> Presenteu-la a la SA0: «cap sorpresa mai» també vol dir saber què ve la setmana que ve.
 
 ---
 
