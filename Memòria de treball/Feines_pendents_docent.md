@@ -41,9 +41,10 @@
   de les ulleres.
 - [ ] **Muntar el banc d'imatges per vectoritzar** (SA2, setmanes 4-5): 10-15 imatges
   rasteritzades **simples, d'alt contrast i lliures de drets** (siluetes d'animals, icones,
-  escuts…) a la carpeta `SA2/` del Drive. És el material de la demo de vectorització
-  (`Recursos/Guions_de_demo.md` §3) i el pla B de qui no se'n surt amb la imatge pròpia
-  (el ⏸️ mínim de la SA2 hi compta).
+  escuts…) a la carpeta `SA2/banc_imatges/` del Drive. Les **fonts verificades, els criteris
+  de tria i el flux** són a `Recursos/Enllacos_i_tutorials.md` §«Banc d'imatges per
+  vectoritzar». És el material de la demo de vectorització (`Recursos/Guions_de_demo.md` §3)
+  i el pla B de qui no se'n surt amb la imatge pròpia (el ⏸️ mínim de la SA2 hi compta).
 - [ ] Comptes de classe: **Tinkercad** i **CoSpaces Edu**; XCS i Bambu Studio actualitzats.
 
 ## 📋 Paperassa i coordinació (abans de setembre)

@@ -29,6 +29,29 @@
   Inkscape + làser molt alineada amb la **SA3**: serveiseducatius.xtec.cat/bages.
 > Recomanació: Inkscape **1.x** (qualsevol versió recent va bé per a l'aula).
 
+## 🖼️ Banc d'imatges per vectoritzar (SA2) — on trobar-les
+
+Per a la demo de vectorització i el pla B de l'alumnat calen **imatges rasteritzades (PNG)
+simples, d'alt contrast i lliures de drets**. Fonts verificades (juliol 2026):
+
+- **Openclipart** — openclipart.org — tot **domini públic**; cerca en anglès («cat
+  silhouette», «rocket», «tree icon») i descarrega en **PNG** (tria la mida) — perfecte per
+  traçar.
+- **FreeSVG** — freesvg.org — **CC0**; descàrrega en PNG o SVG (per al banc, agafa el PNG!).
+- **Public Domain Vectors** — publicdomainvectors.org — 45.000+ vectors **CC0** per
+  categories (animals, transport, natura…).
+- **Pixabay** — pixabay.com — cerca «silueta» + filtre «vectors/il·lustracions»; llicència
+  pròpia gratuïta sense atribució.
+
+**Criteris de tria (perquè la vectorització surti bé):** silueta o icona **d'un sol color**,
+fons blanc o transparent, vores netes, sense degradats ni ombres. Les fotos amb ombres són el
+contraexemple: guarda'n una per a la demo del «monstre de mil nodes»
+(`Guions_de_demo.md` §3).
+
+**Flux:** descarrega 10-15 PNG → reanomena'ls amb nom clar (`gat.png`, `coet.png`) → puja'ls a
+la carpeta `SA2/banc_imatges/` del Drive del grup. ⚠️ Encara que siguin CC0, **no els pugis al
+repositori** (política de la carpeta `Recursos/`: material de tercers, només enllaçat).
+
 ## 🧊 Modelatge 3D — Tinkercad (en català)
 - **Tinkercad** (oficial) — tinkercad.com (crea una **classe** amb comptes d'alumnat).
 - **Introducció al 3D amb Tinkercad** — codelearn.cat/introduccio-al-3d-amb-tinkercad
