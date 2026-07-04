@@ -1,6 +1,7 @@
 # Normes de seguretat de l'Aula Maker
 
-> Document de lectura obligatòria a la SA1. Cal repassar les normes específiques abans de cada
+> Document de lectura obligatòria a la SA0 (setmana 1, amb la gimcana de seguretat). Cal
+> repassar les normes específiques abans de cada
 > ús de cada màquina. El **contracte d'aula** (final del document) el signa tot l'alumnat.
 > Aquestes normes són el contingut que s'avalua als checkpoints del **carnet de màquina**
 > (`Carnet_de_maquina.md`): sense carnet no s'opera la màquina corresponent.

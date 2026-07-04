@@ -32,7 +32,7 @@
 ## 🏗️ Aula i material (abans de setembre)
 
 - [ ] **Fotografiar les 3 escenes de la gimcana** amb els errors plantats i **retallar les
-  targetes** de materials i casos (`Classes/SA1_Benvinguts_Aula_Maker/Material_gimcana_seguretat.md`).
+  targetes** de materials i casos (`Classes/SA0_Punt_de_partida/Material_gimcana_seguretat.md`).
 - [ ] **Buidar una lleixa** per al Museu dels Errors (+ posar-hi la pila de targetes).
 - [ ] Preparar l'aula Maker **per zones** i donar identitat a l'**estudi de disseny** de
   l'aula ordinària (peus de rei, mostres de materials, cartell — codocència §2).

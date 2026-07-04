@@ -49,7 +49,7 @@ tu acabis el dia sabent com formar els grups. **Res no es qualifica.**
 
 **🎒 Abans:**
 - [ ] Impresos: contracte d'aula, passaports (amb nom per posar), fitxes SA0, `Avaluació/Avaluacio_explicada_alumnat.md`, avaluació 0.
-- [ ] **Gimcana muntada**: les 3 escenes fotografiades amb els errors plantats + targetes retallades (`Classes/SA1_Benvinguts_Aula_Maker/Material_gimcana_seguretat.md`).
+- [ ] **Gimcana muntada**: les 3 escenes fotografiades amb els errors plantats + targetes retallades (`Classes/SA0_Punt_de_partida/Material_gimcana_seguretat.md`).
 - [ ] Pòster de les 5 Grans Idees a la paret; vídeo activador provat; quadern digital creat.
 
 **▶️ Desenvolupament (2 h, tots dos docents):**

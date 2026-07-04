@@ -51,7 +51,7 @@ del curs comença a la SA1; el que sí que comença avui és el **diari de talle
    màquines (P2S, làser xTool S1, càmera 360, ulleres VR) — només mirar, encara no tocar.
    Rutina *Veig – Penso – Em pregunto* davant una màquina (primera entrada del diari!).
 4. **Gimcana de seguretat (35')**: les 4 proves actives amb tot el material a
-   `Classes/SA1_Benvinguts_Aula_Maker/Material_gimcana_seguretat.md`. Acaba amb la
+   `Material_gimcana_seguretat.md`. Acaba amb la
    **signatura del contracte d'aula**.
 5. **Com funciona el curs (15')**: presentació del **diari de taller**, el **passaport maker**
    (es reparteix i s'hi posa el nom), les **estacions** (si feu desdoblament), els **carnets**
@@ -72,7 +72,7 @@ del curs comença a la SA1; el que sí que comença avui és el **diari de talle
 ## 4. Recursos
 - `Fitxa_alumnat.md` (el mapa del curs i el punt de partida) · `Vocabulari_basic.md`.
 - `Avaluació/Avaluacio_inicial.md` · `Avaluació/Avaluacio_explicada_alumnat.md`.
-- `Classes/SA1_Benvinguts_Aula_Maker/Material_gimcana_seguretat.md` ·
+- `Material_gimcana_seguretat.md` ·
   `Normativa/Normes_seguretat_taller.md` · `Reptes/Passaport_maker.md`.
 - Vídeo d'activador i pòster de les Grans Idees.
 

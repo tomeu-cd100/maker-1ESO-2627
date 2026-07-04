@@ -126,7 +126,7 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
 - Talladora làser xTool S1; planxa de fusta fina (DM/contraxapat 3 mm) o metacrilat; anelles de clauer.
 - Tutorials d'Inkscape validats a `Recursos/Enllacos_i_tutorials.md`; `Normativa/Normes_seguretat_taller.md`.
 - **Material complet de la gimcana** (escenes amb errors, targetes de materials, casos i
-  parelles norma-raó, amb solucions): `Material_gimcana_seguretat.md`.
+  parelles norma-raó, amb solucions): `Classes/SA0_Punt_de_partida/Material_gimcana_seguretat.md`.
 - Carnets imprimibles: `Normativa/Carnet_de_maquina.md` (o el passaport, `Reptes/Passaport_maker.md`).
 - Plantilla base: `Recursos/Plantilles_disseny/clauer_SA1.svg`.
 - Fitxa de l'alumnat: `Fitxa_alumnat.md` · Rúbrica: `Rubrica_SA1.md`.
