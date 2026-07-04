@@ -383,7 +383,8 @@ def build_home(pages):
   <p class="tagline">Optativa de 1r d'ESO · imaginar, dissenyar i <strong>fabricar de veritat</strong>:
   talladora làser, impressió 3D, càmera 360 i realitat virtual.</p>
   <div class="hero-actions">
-    <a class="btn btn-primary" href="docent.html">👩‍🏫 Soc docent</a>
+    <a class="btn btn-primary" href="sa.html">🧩 Les 9 SA</a>
+    <a class="btn" href="docent.html">👩‍🏫 Soc docent</a>
     <a class="btn" href="alumnat.html">🧑‍🎓 Soc alumne/a</a>
     <a class="btn" href="families.html">👨‍👩‍👧 Soc família</a>
   </div>
