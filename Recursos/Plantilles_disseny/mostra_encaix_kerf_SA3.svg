@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Mostra d'encaix + regle de kerf (SA3) - Aula Maker 1r ESO
+  Cupó de 90x35 mm per tallar en un retall abans de fabricar el projecte:
+  - 5 ranures de 2,6 / 2,8 / 3,0 / 3,2 / 3,4 mm: proveu quina agafa el material just.
+  - La ranura de 3,0 mesurada amb el peu de rei dona el kerf: amplada real - 3,0.
+  Convencio de capes: TALL = trac vermell #FF0000 (0,1 mm) - GRAVAT = negre #000000.
+  Abans d'enviar: convertiu els textos a cami (Cami > Objecte a cami) o esborreu-los.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" width="90mm" height="35mm" viewBox="0 0 90 35">
+
+  <!-- CAPA TALL (vermell) -->
+  <g id="TALL" fill="none" stroke="#FF0000" stroke-width="0.1">
+    <!-- contorn del cupó, cantonades arrodonides -->
+    <rect x="0.5" y="0.5" width="89" height="34" rx="3" ry="3"/>
+    <!-- 5 ranures passants de 12 mm d'alçada, centrades a x = 15/30/45/60/75 -->
+    <rect x="13.7" y="5" width="2.6" height="12"/>
+    <rect x="28.6" y="5" width="2.8" height="12"/>
+    <rect x="43.5" y="5" width="3.0" height="12"/>
+    <rect x="58.4" y="5" width="3.2" height="12"/>
+    <rect x="73.3" y="5" width="3.4" height="12"/>
+  </g>
+
+  <!-- CAPA GRAVAT (negre) -->
+  <g id="GRAVAT" fill="#000000" font-family="sans-serif" text-anchor="middle">
+    <text x="15" y="21.5" font-size="3.2">2,6</text>
+    <text x="30" y="21.5" font-size="3.2">2,8</text>
+    <text x="45" y="21.5" font-size="3.2" font-weight="bold">3,0</text>
+    <text x="60" y="21.5" font-size="3.2">3,2</text>
+    <text x="75" y="21.5" font-size="3.2">3,4</text>
+    <!-- marca de la ranura de referència per mesurar el kerf -->
+    <path d="M 44.2 22.6 L 45.8 22.6 L 45 24.2 Z"/>
+    <text x="45" y="28.5" font-size="2.8">MOSTRA D'ENCAIX — quina ranura t'agafa just?</text>
+    <text x="45" y="32.3" font-size="2.6">kerf = amplada real de la ranura 3,0 (peu de rei) − 3,0 mm</text>
+  </g>
+</svg>

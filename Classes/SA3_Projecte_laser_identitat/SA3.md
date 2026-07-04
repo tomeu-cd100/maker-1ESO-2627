@@ -115,6 +115,8 @@ procés.
 - Inkscape + XCS; làser xTool S1; fusta DM/contraxapat 3-4 mm; cola, LED de pila (si làmpada).
 - `Recursos/` i `Reptes/`. `Fitxa_alumnat.md` · `Rubrica_SA3.md`.
 - Caixa amb encaix: `Recursos/Plantilles_disseny/generador_caixa_encaix.py` (+ exemple SVG).
+- Mostra d'encaix llesta per tallar: `Recursos/Plantilles_disseny/mostra_encaix_kerf_SA3.svg`
+  (5 ranures de 2,6–3,4 mm: gruix real + mesura del kerf en 2 minuts de làser).
 
 ## 🧠 Metacognició i tiquet de sortida
 > ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen

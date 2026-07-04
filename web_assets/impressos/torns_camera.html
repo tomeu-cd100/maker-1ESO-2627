@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Full de reserva de torns de càmera 360 (imprimible) · Aula Maker</title>
+<style>
+  :root { --acc: #e8641b; --ink: #2b2318; --line: #d8c9b2; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+  .toolbar { max-width: 210mm; margin: 0 auto 1rem; display: flex; gap: .6rem; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc); background: #fff; color: var(--acc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc); color: #fff; }
+  .hint { max-width: 210mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+
+  .full { width: 210mm; margin: 0 auto; background: #fff; padding: 10mm 12mm; }
+  h1 { margin: 0; font-size: 17pt; color: var(--acc); }
+  .sub { margin: 1mm 0 4mm; font-size: 10pt; color: #6b5d4b; }
+  .meta { display: flex; gap: 8mm; font-size: 10.5pt; margin-bottom: 4mm; }
+  .meta span { flex: 1; border-bottom: 1px solid var(--line); padding-bottom: 1mm; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 10pt; }
+  th { background: #fdf0e5; color: var(--acc); text-transform: uppercase;
+       letter-spacing: .5px; font-size: 8.5pt; }
+  th, td { border: 1px solid var(--line); padding: 2.5mm 2mm; text-align: left;
+           vertical-align: top; }
+  td { height: 16mm; }
+  td.torn { text-align: center; font-weight: 700; font-size: 12pt; color: var(--acc);
+            width: 12mm; }
+  td.hora { width: 24mm; }
+  td.check { width: 20mm; text-align: center; font-size: 9pt; }
+
+  .regles { margin-top: 5mm; font-size: 9.5pt; border: 1.5px solid var(--acc);
+            border-radius: 3mm; padding: 3mm 4mm; }
+  .regles strong { color: var(--acc); }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    @page { size: A4 portrait; margin: 8mm; }
+    .full { padding: 0; width: auto; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../docent.html">← Torna al portal docent</a>
+</div>
+<p class="hint"><strong>1 full per sessió de captura</strong> (SA7 setmana 26 — i SA9 si algun
+equip roda). Es penja a la porta abans de començar: cap equip surt sense el seu torn apuntat
+i el pla de rodatge validat. Torns de ~12 minuts amb temporitzador visible.</p>
+
+<div class="full">
+  <h1>🎥 Reserva de torns — càmera 360</h1>
+  <p class="sub">Aula Maker · 1 càmera per a tots: el full mana. Mentre no és el teu torn:
+  guió, etiquetes i selecció de captures a l'estudi de disseny.</p>
+
+  <div class="meta">
+    <span><strong>Data:</strong> </span>
+    <span><strong>SA / sessió:</strong> </span>
+    <span><strong>Docent que acompanya:</strong> </span>
+  </div>
+
+  <table>
+    <tr>
+      <th>Torn</th><th>Hora</th><th>Equip</th><th>Espais a capturar (del pla de rodatge)</th>
+      <th>Pla validat</th><th>OK / repetir</th>
+    </tr>
+    <tr><td class="torn">1</td><td class="hora"></td><td></td><td></td><td class="check">☐</td><td class="check">☐ OK<br>☐ repetir</td></tr>
+    <tr><td class="torn">2</td><td class="hora"></td><td></td><td></td><td class="check">☐</td><td class="check">☐ OK<br>☐ repetir</td></tr>
+    <tr><td class="torn">3</td><td class="hora"></td><td></td><td></td><td class="check">☐</td><td class="check">☐ OK<br>☐ repetir</td></tr>
+    <tr><td class="torn">4</td><td class="hora"></td><td></td><td></td><td class="check">☐</td><td class="check">☐ OK<br>☐ repetir</td></tr>
+    <tr><td class="torn">5</td><td class="hora"></td><td></td><td></td><td class="check">☐</td><td class="check">☐ OK<br>☐ repetir</td></tr>
+    <tr><td class="torn">6</td><td class="hora"></td><td></td><td></td><td class="check">☐</td><td class="check">☐ OK<br>☐ repetir</td></tr>
+    <tr><td class="torn">7</td><td class="hora"></td><td></td><td></td><td class="check">☐</td><td class="check">☐ OK<br>☐ repetir</td></tr>
+  </table>
+
+  <div class="regles">
+    <strong>Les 4 regles del rodatge:</strong> càmera <strong>estable</strong> (trípode, 3 segons
+    quiet) · <strong>llum</strong> de cara als espais · el fotògraf <strong>s'amaga</strong>
+    (la càmera ho veu TOT) · <strong>ningú sense permís al pla</strong> (drets d'imatge, CA6.3).
+    Torn acabat = targeta buidada i captures amb nom a la carpeta de l'equip.
+  </div>
+</div>
+</body>
+</html>

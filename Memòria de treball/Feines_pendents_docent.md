@@ -21,6 +21,10 @@
 - [ ] **20 Passaports maker** (A5, 2 per full; plastificats aguanten el curs).
 - [ ] **2 pòsters de les 5 Grans Idees** (un per a l'aula Maker, un per a l'estudi de disseny).
 - [ ] **Pila de targetes del Museu dels Errors** (4 per full).
+- [ ] **Targetes de kanban d'impressió** (8 per full; es necessiten a partir de la SA5,
+  setmana 17 — es poden imprimir al desembre).
+- [ ] **Fulls de reserva de torns de càmera** (1 per sessió de captura; es necessiten a la
+  SA7, setmana 26 — es poden imprimir al 3r trimestre).
 - [ ] `Normativa/Normes_seguretat_taller.md` + **contracte d'aula**.
 - [ ] `Avaluació/Avaluacio_explicada_alumnat.md` (per repartir la setmana 1 amb la carta).
 - [ ] Fitxes de la **SA0** (punt de partida) i de la **SA1** per a l'alumnat.

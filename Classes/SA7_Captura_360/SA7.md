@@ -113,7 +113,8 @@ portes obertes o visita de 6è) + visualització VR + documentació del procés.
 
 ## 7. Recursos i materials
 - **Càmera 360** + trípode/perxa; ordinadors; ulleres VR; programari/visor de tours.
-- Full de reserva de torns de càmera i rotació d'estacions:
+- **Full de reserva de torns de càmera imprimible** (1 full per sessió, amb les 4 regles del
+  rodatge): portal docent de la web, secció «Impressos». Rotació d'estacions:
   `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5. Carnet 🟢:
   `Normativa/Carnet_de_maquina.md`.
 - `Normativa/Protocol_us_VR.md` i `Normativa/Autoritzacio_families_VR_360.md` (drets d'imatge).

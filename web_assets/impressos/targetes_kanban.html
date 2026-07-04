@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Targetes de kanban d'impressió 3D (imprimibles) · Aula Maker</title>
+<style>
+  :root { --acc: #e8641b; --ink: #2b2318; --line: #d8c9b2; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+  .toolbar { max-width: 210mm; margin: 0 auto 1rem; display: flex; gap: .6rem; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc); background: #fff; color: var(--acc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc); color: #fff; }
+  .hint { max-width: 210mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+
+  .full { width: 210mm; margin: 0 auto; background: #fff; padding: 8mm;
+          display: grid; grid-template-columns: 1fr 1fr; gap: 0; }
+  .targeta { border: 1.5px dashed #999; padding: 5mm; min-height: 67mm;
+             display: flex; flex-direction: column; gap: 2.6mm; }
+  .targeta h2 { margin: 0; font-size: 12pt; text-align: center; letter-spacing: .5px;
+                color: var(--acc); }
+  .targeta .sub { text-align: center; font-size: 8pt; color: #6b5d4b; margin: -1.5mm 0 0; }
+  .camp { font-size: 9.5pt; }
+  .camp strong { display: block; color: var(--acc); font-size: 8pt;
+                 text-transform: uppercase; letter-spacing: 1px; }
+  .linia { border-bottom: 1px solid var(--line); height: 5.5mm; }
+  .dos { display: flex; gap: 4mm; }
+  .dos .camp { flex: 1; }
+  .estats { margin-top: auto; display: flex; justify-content: space-between;
+            font-size: 9.5pt; font-weight: 600; border-top: 1px solid var(--line);
+            padding-top: 2.5mm; }
+  .limits { font-size: 8pt; color: #6b5d4b; text-align: center; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    @page { size: A4 portrait; margin: 8mm; }
+    .full { padding: 0; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../docent.html">← Torna al portal docent</a>
+</div>
+<p class="hint"><strong>8 targetes per full A4</strong> — una targeta per <strong>placa</strong>
+(no per peça). Es mou pel kanban de la paret: <em>Per imprimir → Imprimint → Fet</em>. El nom
+de la placa usa la mateixa convenció que els fitxers: així cada peça és traçable del disseny
+al prestatge. S'estrenen a la SA5 (setmana 17) i serveixen fins a la Fira.</p>
+
+<div class="full">
+  <!-- targeta repetida 8 vegades -->
+  <div class="targeta">
+    <h2>🖨️ TARGETA DE PLACA</h2>
+    <p class="sub">kanban d'impressió · Aula Maker</p>
+    <div class="camp"><strong>Nom de la placa / fitxer</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Peces i propietaris (Nom_SAx_vN)</strong><div class="linia"></div><div class="linia"></div></div>
+    <div class="dos">
+      <div class="camp"><strong>Temps estimat</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Grams</strong><div class="linia"></div></div>
+    </div>
+    <div class="dos">
+      <div class="camp"><strong>Entra a la cua (data)</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Dins o fora d'horari?</strong><div class="linia"></div></div>
+    </div>
+    <p class="limits">Recorda els límits per peça: &lt; 1 h i &lt; 40 g (ho diu Bambu Studio)</p>
+    <div class="estats"><span>☐ Per imprimir</span><span>☐ Imprimint</span><span>☐ Fet</span></div>
+  </div>
+
+  <div class="targeta">
+    <h2>🖨️ TARGETA DE PLACA</h2>
+    <p class="sub">kanban d'impressió · Aula Maker</p>
+    <div class="camp"><strong>Nom de la placa / fitxer</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Peces i propietaris (Nom_SAx_vN)</strong><div class="linia"></div><div class="linia"></div></div>
+    <div class="dos">
+      <div class="camp"><strong>Temps estimat</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Grams</strong><div class="linia"></div></div>
+    </div>
+    <div class="dos">
+      <div class="camp"><strong>Entra a la cua (data)</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Dins o fora d'horari?</strong><div class="linia"></div></div>
+    </div>
+    <p class="limits">Recorda els límits per peça: &lt; 1 h i &lt; 40 g (ho diu Bambu Studio)</p>
+    <div class="estats"><span>☐ Per imprimir</span><span>☐ Imprimint</span><span>☐ Fet</span></div>
+  </div>
+
+  <div class="targeta">
+    <h2>🖨️ TARGETA DE PLACA</h2>
+    <p class="sub">kanban d'impressió · Aula Maker</p>
+    <div class="camp"><strong>Nom de la placa / fitxer</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Peces i propietaris (Nom_SAx_vN)</strong><div class="linia"></div><div class="linia"></div></div>
+    <div class="dos">
+      <div class="camp"><strong>Temps estimat</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Grams</strong><div class="linia"></div></div>
+    </div>
+    <div class="dos">
+      <div class="camp"><strong>Entra a la cua (data)</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Dins o fora d'horari?</strong><div class="linia"></div></div>
+    </div>
+    <p class="limits">Recorda els límits per peça: &lt; 1 h i &lt; 40 g (ho diu Bambu Studio)</p>
+    <div class="estats"><span>☐ Per imprimir</span><span>☐ Imprimint</span><span>☐ Fet</span></div>
+  </div>
+
+  <div class="targeta">
+    <h2>🖨️ TARGETA DE PLACA</h2>
+    <p class="sub">kanban d'impressió · Aula Maker</p>
+    <div class="camp"><strong>Nom de la placa / fitxer</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Peces i propietaris (Nom_SAx_vN)</strong><div class="linia"></div><div class="linia"></div></div>
+    <div class="dos">
+      <div class="camp"><strong>Temps estimat</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Grams</strong><div class="linia"></div></div>
+    </div>
+    <div class="dos">
+      <div class="camp"><strong>Entra a la cua (data)</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Dins o fora d'horari?</strong><div class="linia"></div></div>
+    </div>
+    <p class="limits">Recorda els límits per peça: &lt; 1 h i &lt; 40 g (ho diu Bambu Studio)</p>
+    <div class="estats"><span>☐ Per imprimir</span><span>☐ Imprimint</span><span>☐ Fet</span></div>
+  </div>
+
+  <div class="targeta">
+    <h2>🖨️ TARGETA DE PLACA</h2>
+    <p class="sub">kanban d'impressió · Aula Maker</p>
+    <div class="camp"><strong>Nom de la placa / fitxer</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Peces i propietaris (Nom_SAx_vN)</strong><div class="linia"></div><div class="linia"></div></div>
+    <div class="dos">
+      <div class="camp"><strong>Temps estimat</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Grams</strong><div class="linia"></div></div>
+    </div>
+    <div class="dos">
+      <div class="camp"><strong>Entra a la cua (data)</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Dins o fora d'horari?</strong><div class="linia"></div></div>
+    </div>
+    <p class="limits">Recorda els límits per peça: &lt; 1 h i &lt; 40 g (ho diu Bambu Studio)</p>
+    <div class="estats"><span>☐ Per imprimir</span><span>☐ Imprimint</span><span>☐ Fet</span></div>
+  </div>
+
+  <div class="targeta">
+    <h2>🖨️ TARGETA DE PLACA</h2>
+    <p class="sub">kanban d'impressió · Aula Maker</p>
+    <div class="camp"><strong>Nom de la placa / fitxer</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Peces i propietaris (Nom_SAx_vN)</strong><div class="linia"></div><div class="linia"></div></div>
+    <div class="dos">
+      <div class="camp"><strong>Temps estimat</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Grams</strong><div class="linia"></div></div>
+    </div>
+    <div class="dos">
+      <div class="camp"><strong>Entra a la cua (data)</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Dins o fora d'horari?</strong><div class="linia"></div></div>
+    </div>
+    <p class="limits">Recorda els límits per peça: &lt; 1 h i &lt; 40 g (ho diu Bambu Studio)</p>
+    <div class="estats"><span>☐ Per imprimir</span><span>☐ Imprimint</span><span>☐ Fet</span></div>
+  </div>
+
+  <div class="targeta">
+    <h2>🖨️ TARGETA DE PLACA</h2>
+    <p class="sub">kanban d'impressió · Aula Maker</p>
+    <div class="camp"><strong>Nom de la placa / fitxer</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Peces i propietaris (Nom_SAx_vN)</strong><div class="linia"></div><div class="linia"></div></div>
+    <div class="dos">
+      <div class="camp"><strong>Temps estimat</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Grams</strong><div class="linia"></div></div>
+    </div>
+    <div class="dos">
+      <div class="camp"><strong>Entra a la cua (data)</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Dins o fora d'horari?</strong><div class="linia"></div></div>
+    </div>
+    <p class="limits">Recorda els límits per peça: &lt; 1 h i &lt; 40 g (ho diu Bambu Studio)</p>
+    <div class="estats"><span>☐ Per imprimir</span><span>☐ Imprimint</span><span>☐ Fet</span></div>
+  </div>
+
+  <div class="targeta">
+    <h2>🖨️ TARGETA DE PLACA</h2>
+    <p class="sub">kanban d'impressió · Aula Maker</p>
+    <div class="camp"><strong>Nom de la placa / fitxer</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Peces i propietaris (Nom_SAx_vN)</strong><div class="linia"></div><div class="linia"></div></div>
+    <div class="dos">
+      <div class="camp"><strong>Temps estimat</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Grams</strong><div class="linia"></div></div>
+    </div>
+    <div class="dos">
+      <div class="camp"><strong>Entra a la cua (data)</strong><div class="linia"></div></div>
+      <div class="camp"><strong>Dins o fora d'horari?</strong><div class="linia"></div></div>
+    </div>
+    <p class="limits">Recorda els límits per peça: &lt; 1 h i &lt; 40 g (ho diu Bambu Studio)</p>
+    <div class="estats"><span>☐ Per imprimir</span><span>☐ Imprimint</span><span>☐ Fet</span></div>
+  </div>
+</div>
+</body>
+</html>
