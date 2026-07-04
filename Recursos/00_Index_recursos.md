@@ -6,6 +6,8 @@ encara que eren Creative Commons, s'ha optat per **enllaçar-ne la font** en com
 per respectar-ne l'autoria i mantenir el repositori net de material d'altri.
 
 ## Materials propis d'aquesta carpeta
+- **[`Guions_de_demo.md`](Guions_de_demo.md)** — les 8 demostracions crítiques del curs, pas a
+  pas: què prepares, què fas i dius, l'error típic i la frase que ha de quedar.
 - **[`Enllacos_i_tutorials.md`](Enllacos_i_tutorials.md)** — llista d'enllaços i tutorials
   **validats** (oficials i en català) per a xTool S1, Bambu P2S, Inkscape, Tinkercad i CoSpaces.
   És el punt de partida per preparar les SA (Inkscape per a SA1–SA3, Tinkercad per a SA4–SA6, etc.).

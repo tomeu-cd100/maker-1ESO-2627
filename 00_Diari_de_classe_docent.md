@@ -34,6 +34,10 @@
 de taller (♻️ una sola reflexió)** · full de seguiment (+/-/!) i ratlleta de carnets al quadern
 digital. Un dia dolent: seguretat + diari + kanban són intocables (guia docent §5·bis).
 
+**Les demos del curs** (Inkscape, capes, vectoritzar, encaixos, Tinkercad, laminat, càmera
+360, CoSpaces) tenen el seu guió pas a pas — amb l'error típic i la frase clau — a
+`Recursos/Guions_de_demo.md`: obre'l el dia que a la fitxa toca «demo».
+
 ---
 
 # 1r TRIMESTRE — Acollida + 2D i làser

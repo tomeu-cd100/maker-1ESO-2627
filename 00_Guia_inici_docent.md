@@ -121,7 +121,8 @@ referent de la setmana.
   museu amb la seva targeta (`Programació didàctica/Museu_dels_errors.md`); insígnia 🏆
   trimestral a l'error que més ha ensenyat.
 - **Final (5-10'):** neteja + entrada al diari de taller.
-- Una **demo curta** abans de cada tècnica nova; bastides retirables.
+- Una **demo curta** abans de cada tècnica nova; bastides retirables. Els guions de les 8
+  demos crítiques (què fer, què dir, l'error típic) són a `Recursos/Guions_de_demo.md`.
 - **Exemples resolts:** cada SA inclou un `Exemple_resolt.md` (model de producte, fitxa i diari
   ben fets, amb anotacions i contraexemple). Mostra'l **després** del primer intent de l'alumnat
   i comenta'l amb el llenguatge dels criteris d'èxit (no per copiar, sinó com a referent).
