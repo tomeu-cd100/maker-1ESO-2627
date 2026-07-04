@@ -18,7 +18,7 @@
 | 8 | SA3 | Disseny detallat a Inkscape | — |
 | 9 | SA3 | Fabricació (tall + gravat) | — |
 | 10 | SA3 | Muntatge i iteració/millora | — |
-| 11 | SA3 | Presentació i coavaluació | **Producte final T1** |
+| 11 | SA3 | 🎪 **Fira de mostres T1** (famílies convidades) + coavaluació | **Producte final T1** |
 | 12 | — | Tancament trimestre, portafoli, autoavaluació | Lliurament portafoli |
 
 ## 2n TRIMESTRE — Disseny i impressió 3D
@@ -36,7 +36,7 @@
 | 21 | SA6 | Disseny i mesures | — |
 | 22 | SA6 | Impressió i iteració | — |
 | 23 | SA6 | Muntatge i proves | — |
-| 24 | SA6 | Presentació i tancament trimestre | **Producte final T2** |
+| 24 | SA6 | 🎪 **Fira de mostres T2** (famílies convidades) + tancament trimestre | **Producte final T2** |
 
 ## 3r TRIMESTRE — Realitat immersiva i projecte integrador
 
@@ -51,7 +51,7 @@
 | 31 | SA9 | Disseny i fabricació (làser/3D) | — |
 | 32 | SA9 | Component immersiu (360/VR) | — |
 | 33 | SA9 | Muntatge final i assaig de presentació | — |
-| 34 | SA9 | **Fira/Exposició Aula Maker** | **Producte final de curs** |
+| 34 | SA9 | 🎪 **Gran Fira Aula Maker** (la 3a del curs: famílies, 6è, altres grups) | **Producte final de curs** |
 | 35 | — | **Coixí de final de curs** + tancament (portafoli final, retorn de l'avaluació inicial, valoració de l'optativa; si no ha calgut recuperar cap sessió: sessió ⭐ d'ampliació VR de la SA8 o celebració) | Tancament de curs |
 
 ---
@@ -71,6 +71,11 @@
   (sortides, proves, actes de final de curs). La setmana 35 queda de **coixí**: absorbeix
   qualsevol sessió perduda del trimestre i, si no ha calgut, s'usa per al tancament ampliat o
   la sessió ⭐ d'ampliació de la SA8.
+- 🎪 **La Fira és trimestral** (setmanes 11, 24 i 34): no esperem al juny per obrir les
+  portes — cada trimestre les famílies venen a veure els productes. Reserveu les **3 dates al
+  setembre** (calendari del centre) i anuncieu-les a la carta d'inici de curs; les invitacions
+  s'envien 2 setmanes abans de cada Fira. L'aforament de l'aula Maker (≤10 visitants,
+  comptats a la porta) val per a les tres.
 - Els reptes express (`Reptes/`) cobreixen els temps morts i els *fast finishers*.
 - Reserveu sempre 5-10 min de **neteja i manteniment** al final de cada sessió de fabricació.
 

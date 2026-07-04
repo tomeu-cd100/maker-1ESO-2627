@@ -44,7 +44,9 @@ pot assolir igualment sense elles.
 
 ## Com podeu ajudar i seguir el curs
 - Pregunteu al vostre fill/a pel seu **diari de taller** (hi documenta el que fa cada setmana).
-- Veniu a la **Fira Aula Maker** de final de curs, on presentarà els seus projectes.
+- Veniu a les **Fires Aula Maker**: n'hi ha **una cada trimestre** (us farem arribar les
+  dates), on el vostre fill/a presentarà els seus projectes — i la **gran Fira** de final de
+  curs com a culminació. Us hi esperem!
 - Per a qualsevol dubte, contacteu amb: **[nom del docent]** · **[correu / canal del centre]**.
 
 ## Què cal que feu ara

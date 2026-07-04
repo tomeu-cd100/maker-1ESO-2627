@@ -225,7 +225,9 @@ encarnada: l'error barat de 2 minuts evita l'error car de 20.
 
 **Fil del dia:** encaixar de veritat. El que no quadra es refabrica: això és la iteració, no un fracàs.
 
-**🎒 Abans:** cola blanca, serjants petits si en tens, LED de pila per a làmpades; retalls per refabricar.
+**🎒 Abans:** cola blanca, serjants petits si en tens, LED de pila per a làmpades; retalls per
+refabricar. **Envia les invitacions de la 🎪 Fira T1 a les famílies** (la data es va reservar
+al setembre; una nota curta amb dia, hora i què veuran).
 **▶️ Obertura (10'):** «avui l'objectiu és que s'aguanti» + recordar criteris d'èxit.
 - 🔧 **Estació Maker:** **muntatge** (ajustar, encolar, provar funció) + **refabricació** de peces que no encaixen (batch curt d'iteració).
 - 💻 **Estudi de disseny:** preparació de la presentació (problema → solució → procés → millores) + portafoli del procés + diari.
@@ -237,24 +239,28 @@ après. Val la pena dir-ho a la galeria.
 
 ---
 
-## Setmana 11 · SA3 · S5/5 — «Presentacions del producte T1» 👥 grup sencer
+## Setmana 11 · SA3 · S5/5 — «🎪 Fira de mostres T1 (amb famílies)» 👥 grup sencer + visitants
 
-**Fil del dia:** primera fira de productes del curs. Els equips presenten; tu passes la
-**rúbrica completa** (és SA ⭐).
+**Fil del dia:** la primera Fira trimestral del curs: els equips presenten davant les
+famílies. Tu passes la **rúbrica completa** (és SA ⭐) — amb públic real, la CA5.3 és en viu.
 
-**🎒 Abans:** ordre de presentacions; `Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md`
+**🎒 Abans:** invitacions enviades la setmana 10 (confirma assistència aproximada); ordre de
+presentacions; espai a punt (si els visitants passen per l'aula Maker: grups de ≤10 comptats
+a la porta, com a la Fira final); `Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md`
 impreses/al quadern; pauta de coavaluació.
-**▶️ Obertura (10'):** com s'escolta una presentació (el públic també s'avalua: CA5.3 en viu).
+**▶️ Obertura (10'):** com s'escolta una presentació (el públic també s'avalua: CA5.3 en viu);
+benvinguda a les famílies i regles de visita.
 **Desenvolupament:**
-1. **Fira de productes (60')** — cada equip: problema, solució, procés, millores. Els dos docents passen rúbrica en paral·lel (cadascú les seves files: tu CA2/CA3, el co-docent CA1/CA5).
-2. **Coavaluació (30')** — amb la pauta ja calibrada.
+1. **Fira de productes amb famílies (60')** — cada equip: problema, solució, procés, millores. Els dos docents passen rúbrica en paral·lel (cadascú les seves files: tu CA2/CA3, el co-docent CA1/CA5).
+2. **Coavaluació (30')** — amb la pauta ja calibrada (les famílies s'acomiaden aquí).
 3. **Inici del tancament (20')** — organitzar el portafoli del T1.
 **⏹️ Tancament (10'):** diari + tiquet d'equip (*Què refaríem si comencéssim de nou*).
 
 **📋 En acabar:** **rúbrica completa + producte final → full de progrés**. Deixa la valoració T1
 a mig fer: la setmana 12 la tanques.
 **⚠️ Vigila:** 6-7 equips × presentació = el temps vola. Cronometra (5-6' per equip, temporitzador
-visible) o la coavaluació desapareix.
+visible) o la coavaluació desapareix. I amb famílies dins, l'aforament de l'aula Maker és tan
+normatiu com sempre.
 
 ---
 
@@ -462,7 +468,9 @@ d'avui és arribar al mínim de la S2, no colar-se a la cua.
 
 **Fil del dia:** el moment de la veritat del T2: l'usuari real prova la solució i diu la seva.
 
-**🎒 Abans:** **usuari disponible i confirmat** (si no pot venir, l'equip hi va o es grava la prova); material de muntatge; les últimes peces impreses.
+**🎒 Abans:** **usuari disponible i confirmat** (si no pot venir, l'equip hi va o es grava la
+prova); material de muntatge; les últimes peces impreses. **Envia les invitacions de la 🎪
+Fira T2 a les famílies** (i convida-hi també els usuaris reals dels projectes!).
 **▶️ Obertura (10'):** com es recull feedback sense defensar-se: escoltar, apuntar, donar les gràcies.
 - 🔧 **Estació Maker:** postprocés i **muntatge** → **prova amb l'usuari** (per torns d'equip) → decidir la iteració (què canviem?); refabricar el que sigui ràpid.
 - 💻 **Estudi de disseny:** preparar la presentació d'impacte + **evidència del feedback** (què va dir, què canviem — foto/cita al portafoli).
@@ -474,14 +482,17 @@ la trobada passi, encara que sigui 10 minuts.
 
 ---
 
-## Setmana 24 · SA6 · S5/5 — «Presentacions d'impacte + tancament T2» 👥 grup sencer
+## Setmana 24 · SA6 · S5/5 — «🎪 Fira de mostres T2 + tancament T2» 👥 grup sencer + visitants
 
-**Fil del dia:** fira de solucions i tancament de trimestre en una sola sessió — cronometra.
+**Fil del dia:** la segona Fira trimestral (famílies i, si poden, els usuaris reals) i el
+tancament de trimestre en una sola sessió — cronometra.
 
-**🎒 Abans:** `Rubrica_SA6.md` completa + rúbrica de producte final; tiquets anònims; fulls de progrés al dia; candidates a 🏆 del Museu.
-**▶️ Obertura (5'):** ordre de presentacions i temps per equip (5').
+**🎒 Abans:** invitacions enviades la setmana 23; espai a punt (aforament ≤10 a l'aula Maker);
+`Rubrica_SA6.md` completa + rúbrica de producte final; tiquets anònims; fulls de progrés al
+dia; candidates a 🏆 del Museu.
+**▶️ Obertura (5'):** benvinguda a les famílies; ordre de presentacions i temps per equip (5').
 **Desenvolupament:**
-1. **Fira de solucions (60')** — repte, solució, **impacte** (què va dir l'usuari). Rúbriques en paral·lel entre els dos docents.
+1. **Fira de solucions amb famílies (60')** — repte, solució, **impacte** (què va dir l'usuari; si l'usuari és a la sala, que ho digui ell/a!). Rúbriques en paral·lel entre els dos docents. Les famílies s'acomiaden en acabar aquest bloc.
 2. **Coavaluació (25')** — calibratge exprés si és la primera del T2.
 3. **Tancament T2 (25')** — portafoli, autoavaluació, 🏆 error del trimestre, tiquet anònim, full de progrés individual (el que no hi capiga, primera sessió del T3), anunci de re-formació d'equips per al T3.
 **⏹️ Tancament (5'):** diari + 🎯 objectiu personal per al T3.
@@ -667,9 +678,11 @@ absorbir aquesta setmana; el dia de la Fira, no.
 
 ---
 
-## Setmana 34 · SA9 · S5/5 — «🎪 FIRA AULA MAKER + tancament de curs» 👥 grup sencer (+ visitants)
+## Setmana 34 · SA9 · S5/5 — «🎪 GRAN FIRA AULA MAKER + tancament de curs» 👥 grup sencer (+ visitants)
 
-**Fil del dia:** el dia gran. Els equips exposen a públic real; el curs es tanca.
+**Fil del dia:** el dia gran — la tercera Fira del curs, la de culminació: les famílies ja
+coneixen el camí (T1 i T2) i ara s'hi sumen 6è i altres grups. Els equips exposen; el curs es
+tanca.
 
 **🎒 Abans:** estands muntats (o muntatge exprés a primera hora); ulleres carregades; **aforament organitzat** (grups de ≤10 amb el controlador comptant a la porta); rúbriques SA9 + producte final a mà; full de votació de la galeria.
 **Desenvolupament:**

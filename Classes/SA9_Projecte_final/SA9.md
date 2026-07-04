@@ -15,8 +15,9 @@
 
 És l'hora de demostrar tot el que hem après. Cada equip crea un projecte que **integra les
 tres tecnologies** del curs: peces fetes a làser i/o impressió 3D, i un component immersiu
-(tour 360 o escena VR). El curs es tanca amb una **Fira Aula Maker** oberta a altres grups i/o
-famílies.
+(tour 360 o escena VR). El curs es tanca amb la **gran Fira Aula Maker** — la tercera del
+curs: les famílies ja coneixen el camí de les fires del T1 (SA3) i el T2 (SA6), i aquesta és
+la culminació, oberta també a altres grups i a l'alumnat de 6è.
 
 > **Repte:** «Dissenyeu i construïu un **estand interactiu** sobre un tema que us interessi
 > (un esport, un planeta, un ofici, un personatge, un problema del barri…). Ha d'incloure:

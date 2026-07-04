@@ -147,7 +147,7 @@
 
 ---
 
-## Setmana 11 · SA3 · S5/5 — Presentacions del producte T1
+## Setmana 11 · SA3 · S5/5 — 🎪 Fira de mostres T1 (famílies)
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -329,7 +329,7 @@
 
 ---
 
-## Setmana 24 · SA6 · S5/5 — Presentacions d'impacte + tancament T2
+## Setmana 24 · SA6 · S5/5 — 🎪 Fira de mostres T2 (famílies) + tancament T2
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -469,7 +469,7 @@
 
 ---
 
-## Setmana 34 · SA9 · S5/5 — 🎪 FIRA AULA MAKER + tancament de curs
+## Setmana 34 · SA9 · S5/5 — 🎪 GRAN FIRA AULA MAKER + tancament de curs
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**

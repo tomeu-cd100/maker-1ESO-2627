@@ -95,8 +95,10 @@ encaix (*kerf* / joints) i el treball en equip.
 2. **Iteració (40')**: refabricar peces que no encaixin / millorar.
 3. **Preparació de la presentació (20')**.
 
-### Sessió 5 — Presentació i avaluació (2 h)
-1. **Fira de productes (60')**: cada equip presenta (problema, solució, procés, millores).
+### Sessió 5 — 🎪 Fira de mostres del T1 (2 h)
+1. **Fira de productes (60')**: cada equip presenta (problema, solució, procés, millores) —
+   **oberta a les famílies**: és la **primera Fira trimestral** del curs (invitacions enviades
+   2 setmanes abans; els visitants entren a l'aula Maker en grups de ≤10, com a la Fira final).
 2. **Coavaluació (30')**: `Avaluació/Autoavaluacio_coavaluacio.md`.
 3. **Tancament de trimestre (30')**: portafoli, autoavaluació, recollida del diari.
 
@@ -139,7 +141,7 @@ que heu trobat i com els heu superat.
 | **Objecte d'identitat** muntat i funcional (S3-S4) | `Rubrica_SA3.md` **completa** + `Avaluació/Rubrica_producte_final.md` | Docents | CA2.1, CA2.3, CA3.1, CA3.3 |
 | **Procés complet**: requisits, esbós, pla, mostra d'encaix/kerf, iteració (S1-S4) | Files CA1.x de la rúbrica + fitxa d'equip | Docents | CA1.1-1.4 |
 | **Contribució individual** («signatura de peça») (S1-S5) | Fila específica de la rúbrica + diari | Docents | CA5.1, CA5.2 |
-| **Presentació a la fira de productes** (S5) | Fila CA5.3 de la rúbrica | Docents + companys | CA5.3 |
+| **Presentació a la fira de productes** (S5, amb famílies presents) | Fila CA5.3 de la rúbrica | Docents + companys + públic | CA5.3 |
 | **Coavaluació d'equip** (S5, amb **calibratge previ** §0) | `Avaluació/Autoavaluacio_coavaluacio.md` | Equip | CA5.1 (contrast) |
 | **Portafoli del T1** (diari + evidències) (S5) | Pauta del diari | Docent | CA5.2 |
 | **Equitat de rols i seguretat** (contínua) | `Avaluació/Full_seguiment_grup.md` | Els dos docents | CA6.1, CA6.2, TE, TA |

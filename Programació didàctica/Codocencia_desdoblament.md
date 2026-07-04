@@ -33,8 +33,9 @@ Règim per defecte de cada sessió de 2 h:
 - La **SA0 sencera** (setmana 1: benvinguda, gimcana de seguretat i avaluació 0).
 - Sessió 1 de cada SA (presentació del repte i activació).
 - Galeries, coavaluacions i tancaments de SA.
-- Presentacions de SA3 i SA6, i la **Fira** de SA9 (els visitants passen per l'aula Maker en
-  grups de ≤10, respectant l'aforament).
+- Les **tres Fires trimestrals** — SA3 (T1), SA6 (T2) i la gran Fira de SA9 (T3), totes amb
+  famílies convidades: els visitants passen per l'aula Maker en grups de ≤10, respectant
+  l'aforament.
 
 ## 2. Les dues estacions
 
@@ -177,8 +178,9 @@ dues:
 - L'aforament de 10 és **normatiu**: cap alumne de més a l'aula Maker, tampoc "un moment".
 - El docent Maker mai deixa la sala amb màquines en marxa (les normes ja ho recullen); si ha
   de sortir, s'atura la fabricació.
-- A la Fira (SA9), els visitants entren a l'aula Maker en **grups de ≤10 comptats a la porta**
-  (rol d'alumne/a "controlador d'aforament": responsabilitat real i avaluable).
+- A les **Fires trimestrals** (SA3, SA6 i SA9), els visitants entren a l'aula Maker en
+  **grups de ≤10 comptats a la porta** (rol d'alumne/a "controlador d'aforament":
+  responsabilitat real i avaluable).
 
 > Relacionat amb: `00_Guia_inici_codocent.md`, `Gestio_temps_maquina_fabricacio.md` (la
 > matemàtica del temps amb grups de 10), `Aprenentatge_cooperatiu.md`, `Normativa/Carnet_de_maquina.md`

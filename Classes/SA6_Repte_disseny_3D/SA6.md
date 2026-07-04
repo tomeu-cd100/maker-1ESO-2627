@@ -98,8 +98,10 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 2. **Proves amb l'usuari (40')**: provar la solució; recollir *feedback*; iterar.
 3. **Preparar presentació (20')**.
 
-### Sessió 5 — Presentació i tancament de trimestre (2 h)
-1. **Fira de solucions (60')**: cada equip presenta el repte, la solució i l'impacte.
+### Sessió 5 — 🎪 Fira de mostres del T2 (2 h)
+1. **Fira de solucions (60')**: cada equip presenta el repte, la solució i l'impacte —
+   **oberta a les famílies** (segona Fira trimestral; si l'usuari real pot venir, presentar
+   davant seu és l'evidència d'impacte més potent).
 2. **Coavaluació (30')**.
 3. **Tancament T2 (30')**: portafoli, autoavaluació, recollida.
 
@@ -140,7 +142,7 @@ la persona destinatària.
 | **Empatia i requisits** centrats en l'usuari (S1) | Files CA1.x de la rúbrica + fitxa d'equip | Docents | CA1.1-1.3 |
 | **Prova amb l'usuari real i iteració** (S4) | Fila «Impressió i iteració» + evidència al portafoli (què va dir, què vam canviar) | Docents + **usuari** | CA1.4, TA |
 | **Contribució individual** (taula «Peça/Responsable» + v2 de cada peça) | Fila específica de la rúbrica + diari | Docents | CA5.1, CA5.2 |
-| **Presentació de l'impacte** (S5) | Fila CA5.3 de la rúbrica | Docents + companys | CA5.3 |
+| **Presentació de l'impacte** (S5, amb famílies presents) | Fila CA5.3 de la rúbrica | Docents + companys + públic | CA5.3 |
 | **Coavaluació d'equip** (S5, amb calibratge previ si és la 1a del T2) | `Avaluació/Autoavaluacio_coavaluacio.md` | Equip | CA5.1 (contrast) |
 | **Portafoli del T2** (S5) | Pauta del diari | Docent | CA5.2 |
 | **Equitat de rols i seguretat** (contínua) | `Avaluació/Full_seguiment_grup.md` | Els dos docents | CA6.1, CA6.2, TE |

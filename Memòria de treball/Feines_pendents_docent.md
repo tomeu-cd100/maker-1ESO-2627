@@ -55,6 +55,9 @@
   enviar-les (afegiu-hi l'enllaç de la web i la pàgina Famílies).
 - [ ] **Ajustar la temporització** al calendari real del centre (festius, sortides) —
   la setmana 35 és el coixí, no la toqueu si no cal.
+- [ ] **Reservar les 3 dates de la Fira trimestral** al calendari del centre (setmanes 11,
+  24 i 34) i anunciar-les a la carta d'inici de curs — la Fira és trimestral per portar les
+  famílies a l'institut cada trimestre, no només al juny.
 - [ ] **Co-docent**: passar-li `00_Guia_inici_codocent.md` (30 min de lectura) i l'enllaç de
   la web; acordar el dia dels **10' de coordinació setmanal**.
 
@@ -67,6 +70,8 @@
 
 ## 🔁 Cada trimestre (recordatoris de tancament — SA3, SA6, SA9)
 
+- [ ] **Invitacions de la 🎪 Fira trimestral** a les famílies, 2 setmanes abans (setmanes 9,
+  22 i 32; al T2, convidar-hi també els usuaris reals de la SA6).
 - [ ] Rúbrica completa + **valoració trimestral** al full de progrés.
 - [ ] **Calibratge de la coavaluació** amb l'exemple resolt (abans de la primera del trimestre).
 - [ ] **Revisió d'equitat amb dades** (pestanya Equitat del quadern) — 10' amb el co-docent.
@@ -80,8 +85,8 @@
 
 - [ ] **Decidir i preparar la publicació del tour 360** (web del centre / QR a l'entrada) —
   és criteri d'èxit de SA7 i tu ets qui ho pot fer real.
-- [ ] Reservar el dia de la **Fira (setmana 34)** al calendari del centre i convidar
-  famílies/6è; recordar l'aforament de 10 a l'aula Maker.
+- [ ] **Gran Fira (setmana 34)**: la data ja és reservada del setembre — confirmar-la,
+  convidar famílies/6è/altres grups i recordar l'aforament de 10 a l'aula Maker.
 
 ---
 

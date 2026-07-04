@@ -54,8 +54,8 @@ l'alumnat escriu el seu 🎯 al diari. **En tancar cada trimestre:** vegeu «fit
 | 7 | Catàleg d'objectes-tipus | Repte + requisits + **signatura de peça** per membre | Validar plans d'equip |
 | 8 | — | Disseny d'unions a Inkscape (⏸️ mínim: peces estructurals) | Revisió conjunta |
 | 9 | Retalls per a mostres | **Mostra d'encaix + mesurar el kerf** → fabricació per equips | Seguiment |
-| 10 | Cola, LED si làmpades | Muntatge + **iteració** (refabricar el que no encaixi) | Seguiment |
-| 11 | — | Presentacions + coavaluació | **Rúbrica completa** + producte final → progrés |
+| 10 | Cola, LED si làmpades; **invitacions de la Fira T1 enviades a les famílies** | Muntatge + **iteració** (refabricar el que no encaixi) | Seguiment |
+| 11 | Espai de la Fira a punt (aforament ≤10 a l'aula Maker) | 🎪 **Fira de mostres T1 amb famílies** + coavaluació | **Rúbrica completa** + producte final → progrés |
 | 12 | — | **Tancament T1**: portafoli, autoavaluació + ⏹️ *fites de trimestre* (final del guió) | Valoració T1 al progrés |
 
 ## 2n TRIMESTRE — 3D i impressió
@@ -81,8 +81,8 @@ l'alumnat escriu el seu 🎯 al diari. **En tancar cada trimestre:** vegeu «fit
 | 20 | Catàleg de reptes; contactar usuaris reals si APS | Tria + **empatia i requisits** + pla amb signatura de peça | Validar plans |
 | 21 | — | Modelatge per membre + revisió conjunta → v2 (⏸️ mínim: cada peça imprimible) | Validació docent |
 | 22 | Kanban | Laminat + batches + impressió | Plaques fora d'horari |
-| 23 | Usuari disponible! | Muntatge + **prova amb l'usuari** + iteració | Evidència del feedback |
-| 24 | — | Presentacions d'impacte + coavaluació + **Tancament T2** (⏹️ fites) | **Rúbrica completa** → progrés + valoració T2 |
+| 23 | Usuari disponible! **Invitacions de la Fira T2 enviades** | Muntatge + **prova amb l'usuari** + iteració | Evidència del feedback |
+| 24 | Espai de la Fira a punt | 🎪 **Fira de mostres T2 amb famílies** + coavaluació + **Tancament T2** (⏹️ fites) | **Rúbrica completa** → progrés + valoració T2 |
 
 ## 3r TRIMESTRE — Immersiu + projecte final
 
@@ -120,6 +120,8 @@ l'alumnat escriu el seu 🎯 al diari. **En tancar cada trimestre:** vegeu «fit
 - [ ] Votació de 🏆 **L'error del trimestre** (Museu).
 - [ ] Ensenyar a cada alumne/a **el seu full de progrés**.
 - [ ] Una línia per sessió al diari docent + temps reals de màquina (per ajustar el curs vinent).
+- [ ] Confirmar la **data de la Fira del trimestre següent** (reservades al setembre: setm.
+  11, 24 i 34) i programar l'enviament de les invitacions (2 setmanes abans).
 
 ## 🧰 On és cada cosa (xuleta)
 

@@ -71,7 +71,9 @@ En tancar cada trimestre (els dos docents junts, a la coordinació):
 
 ## 4. Connexió amb el centre
 - Coordina amb el **pla de coeducació / igualtat** i amb la comissió corresponent.
-- Comparteix els productes de l'alumnat (Fira SA9) donant visibilitat **a tothom** per igual.
+- Comparteix els productes de l'alumnat (les tres Fires trimestrals: SA3, SA6 i SA9) donant
+  visibilitat **a tothom** per igual — amb les famílies presents, la visibilitat equitativa
+  encara importa més.
 
 > Relacionat amb: `Aprenentatge_cooperatiu.md`, `Avaluació/Avaluacio_inicial.md`,
 > `Programacio_didactica_AulaMaker_1ESO.md` (transversalitat i ODS).

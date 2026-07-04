@@ -88,10 +88,11 @@ perquè les peces encaixin sense cola. A l'aula Maker en tocaràs de reals.
 encaixi**. Refer una peça no és fracassar: és iterar, i és exactament el que fan els professionals.
 **No te n'oblidis:** foto del muntatge al diari, encara que no estigui acabat.
 
-### Setmana 11 — Presenteu el vostre projecte 🎤 👥
-**Què farem:** la **fira de productes del T1**: cada equip presenta (problema → solució →
-procés → millores) i coavaluem. És el producte final del trimestre: compta amb rúbrica completa.
-**🎒 Vine amb:** el guió de presentació repassat i clar qui diu què.
+### Setmana 11 — 🎪 Fira de mostres del T1 (amb famílies!) 👥
+**Què farem:** la **primera Fira del curs**: cada equip presenta el seu projecte (problema →
+solució → procés → millores) **davant les famílies**, i després coavaluem. És el producte
+final del trimestre: compta amb rúbrica completa.
+**🎒 Vine amb:** el guió repassat, clar qui diu què — **i la família convidada!**
 
 ### Setmana 12 — Tanquem el 1r trimestre 📦 👥
 **Què farem:** ordenar el teu **portafoli**, veure amb el professor **el teu full de progrés**
@@ -167,11 +168,12 @@ davant vostre. Escolteu, apunteu què diu i decidiu què canvieu — el seu feed
 evidència del projecte.
 **En sortir sabràs:** si la solució ajuda de veritat (ho decideix l'usuari, no vosaltres!).
 
-### Setmana 24 — Presentacions d'impacte + tancament T2 🎤 👥
-**Què farem:** la **fira de solucions**: repte, solució i **impacte** (què va dir l'usuari).
-Coavaluació, portafoli, 🏆 error del trimestre, tiquet anònim, el teu full de progrés i el 🎯
-objectiu per al T3. Rúbrica completa: és el producte final del T2.
-**🎒 Vine amb:** el guió repassat i l'evidència del feedback a punt.
+### Setmana 24 — 🎪 Fira de mostres del T2 + tancament 👥
+**Què farem:** la **segona Fira del curs**: repte, solució i **impacte** (què va dir l'usuari
+— i si l'usuari ve, ho explica ell/a!), davant les famílies. Després: coavaluació, portafoli,
+🏆 error del trimestre, tiquet anònim, el teu full de progrés i el 🎯 objectiu per al T3.
+Rúbrica completa: és el producte final del T2.
+**🎒 Vine amb:** el guió repassat, l'evidència del feedback a punt — **i la família convidada!**
 
 ---
 
@@ -230,9 +232,9 @@ entengui **sense que ningú li ho hagi d'explicar**.
 **assajar amb cronòmetre**: a la Fira el públic no espera. Repartiu-vos les veus.
 **⏸️ Mínim d'avui:** l'estand es veu, s'entén i funciona.
 
-### Setmana 34 — 🎪 LA FIRA AULA MAKER 👥
-**Què farem:** el dia gran: famílies, alumnat de 6è i altres grups visiten els vostres
-estands. Presenteu en bucle, feu de guies VR, controleu l'aforament (màxim 10 a l'aula
+### Setmana 34 — 🎪 LA GRAN FIRA AULA MAKER 👥
+**Què farem:** el dia gran — la tercera Fira del curs, la de debò de debò: famílies, alumnat
+de 6è i altres grups visiten els vostres estands. Presenteu en bucle, feu de guies VR, controleu l'aforament (màxim 10 a l'aula
 Maker — és un rol de veritat). Després: coavaluació, votació de la galeria i tancament de
 curs amb el portafoli final.
 **🎒 Vine amb:** la família convidada! I la rutina final: *abans sabia… / ara sé… / després vull…*

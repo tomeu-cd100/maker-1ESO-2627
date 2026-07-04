@@ -43,7 +43,8 @@
 - **Tu**: autoavaluació amb la rúbrica amigable (🌱🙂💪🌟) al final de cada SA.
 - **Els companys**: coavaluació d'equip i galeria de productes (abans, **calibrem junts** amb
   un exemple perquè tothom valori el mateix: *el que has vist fer, no com et cau algú*).
-- **Gent de fora**, quan toca: l'usuari real de la teva solució (SA6) i el públic de la Fira (SA9).
+- **Gent de fora**, quan toca: l'usuari real de la teva solució (SA6) i el públic de les
+  **Fires trimestrals** (les famílies a SA3 i SA6, i tothom a la gran Fira de SA9).
 
 ## 5. Què puc fer per millorar la meva nota? (la pregunta del milió)
 

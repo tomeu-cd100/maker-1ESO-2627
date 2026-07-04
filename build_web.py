@@ -462,8 +462,10 @@ sempre a mà la gestió del temps-màquina — és el que fa que tot rutlli.</p>
 (talladora làser, impressió 3D) i crea contingut immersiu (360/VR), treballant en equip i amb
 la seguretat com a norma número u. Aquí teniu els documents que us afecten directament.</p>
 <div class="grid">{fam_cards}</div>
-<blockquote><p>💡 Al final de curs, la <strong>Fira Aula Maker</strong> és oberta a les famílies:
-hi veureu els projectes i hi podreu provar les experiències que han creat. Us hi esperem!</p></blockquote>
+<blockquote><p>💡 Cada trimestre hi ha <strong>Fira Aula Maker</strong> oberta a les famílies
+(us farem arribar les dates): hi veureu els projectes del trimestre i, a la <strong>gran
+Fira</strong> de final de curs, hi podreu provar les experiències que han creat. Us hi
+esperem!</p></blockquote>
 """
     (OUT / "families.html").write_text(
         render_page("Famílies", body, "families.html",
