@@ -35,6 +35,11 @@
 - [ ] Comprovar **màquines i consumibles**: DM/contraxapat 3 mm, anelles de clauer, PLA,
   **microfibra per a les lents VR** + tovalloletes per a la interfície facial, funda/càrrega
   de les ulleres.
+- [ ] **Muntar el banc d'imatges per vectoritzar** (SA2, setmanes 4-5): 10-15 imatges
+  rasteritzades **simples, d'alt contrast i lliures de drets** (siluetes d'animals, icones,
+  escuts…) a la carpeta `SA2/` del Drive. És el material de la demo de vectorització
+  (`Recursos/Guions_de_demo.md` §3) i el pla B de qui no se'n surt amb la imatge pròpia
+  (el ⏸️ mínim de la SA2 hi compta).
 - [ ] Comptes de classe: **Tinkercad** i **CoSpaces Edu**; XCS i Bambu Studio actualitzats.
 
 ## 📋 Paperassa i coordinació (abans de setembre)
