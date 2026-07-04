@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diari de taller en paper — 3r trimestre · Aula Maker</title>
+<style>
+  :root { --acc: #e8641b; --ink: #2b2318; --line: #d8c9b2; --suau: #6b5d4b; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+  .toolbar { max-width: 190mm; margin: 0 auto 1rem; display: flex; gap: .6rem; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc); background: #fff; color: var(--acc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc); color: #fff; }
+  .hint { max-width: 190mm; margin: 0 auto 1rem; font-size: .85rem; color: var(--suau); }
+
+  .pagina { width: 190mm; min-height: 272mm; margin: 0 auto 1rem; background: #fff;
+            padding: 8mm 10mm; display: flex; flex-direction: column;
+            box-shadow: 0 2px 8px rgba(0,0,0,.08); }
+  .pagina header { border-bottom: 2.5px solid var(--acc); padding-bottom: 2mm; margin-bottom: 4mm; }
+  .setm { display: inline-block; background: var(--acc); color: #fff; font-weight: 700;
+          font-size: 9.5pt; padding: 1mm 3.5mm; border-radius: 999px; }
+  .pagina h2 { margin: 1.5mm 0 1mm; font-size: 14pt; }
+  .meta { font-size: 10pt; color: var(--suau); }
+  .camp { margin-bottom: 3.5mm; }
+  .camp strong { display: block; font-size: 10.5pt; color: var(--acc); }
+  .camp em { display: block; font-size: 8.5pt; color: var(--suau); margin: .5mm 0 1mm; }
+  .linia { border-bottom: 1px solid var(--line); height: 8mm; }
+  .caixa { border: 1.5px dashed var(--line); height: 34mm; border-radius: 2mm; }
+  .nivell { margin-top: auto; border-top: 1px solid var(--line); padding-top: 2.5mm;
+            font-size: 11pt; }
+  .nivell .mini { font-size: 8.5pt; color: var(--suau); }
+
+  /* portada */
+  .portada { justify-content: flex-start; gap: 5mm; }
+  .portada h1 { font-size: 24pt; margin: 8mm 0 0; text-align: center; }
+  .portada .sub { text-align: center; color: var(--suau); margin: 0; }
+  .dades { border: 2px solid var(--acc); border-radius: 3mm; padding: 5mm; }
+  .dades .camp { margin-bottom: 2.5mm; }
+  .consells { background: #fdeadd; border-radius: 3mm; padding: 4mm 5mm; font-size: 9.5pt; }
+  .consells h3 { margin: 0 0 1.5mm; font-size: 10.5pt; }
+  .consells ul { margin: 0; padding-left: 5mm; }
+  .consells li { margin-bottom: 1mm; }
+  .mapa { font-size: 8.5pt; border-collapse: collapse; width: 100%; }
+  .mapa th, .mapa td { border: 1px solid var(--line); padding: 1mm 2mm; text-align: left; }
+  .mapa th { background: #fdeadd; }
+
+  /* tancament */
+  .tanca header { border-bottom-color: var(--ink); }
+  .tanca .setm { background: var(--ink); }
+  .objectiu { border: 2px solid var(--acc); border-radius: 3mm; padding: 3mm 4mm;
+              background: #fdeadd; }
+  .objectiu strong { color: var(--acc); font-size: 11pt; display: block; }
+  .objectiu em { display: block; font-size: 8.5pt; color: var(--suau); margin: .5mm 0 1mm; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    @page { size: A4 portrait; margin: 9mm 10mm; }
+    .pagina { box-shadow: none; margin: 0; padding: 0 0 2mm; width: auto; min-height: 0;
+              height: 278mm; page-break-after: always; }
+    .pagina:last-child { page-break-after: auto; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint"><strong>Quadern del diari de taller per al 3r trimestre</strong> — 16 pàgines
+(8 fulls a doble cara) per alumne/a: portada, una entrada per sessió (setmanes 25-35, ja
+etiquetades), el tancament de cada SA i el <strong>tancament de curs</strong>. Si el diari
+ja es porta al portafoli digital, aquest quadern és l'opció en paper (DUA) i el pla B
+sense pantalles.</p>
+
+<!-- ═══ PORTADA ═══ -->
+<section class="pagina portada">
+  <h1>📓 El meu diari de taller</h1>
+  <p class="sub">Aula Maker · 1r d'ESO · <strong>3r trimestre</strong> · curs 2026-2027</p>
+  <div class="dades">
+    <div class="camp"><strong>Nom i cognoms</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Grup (A/B)</strong><div class="linia"></div></div>
+    <div class="camp"><strong>Equip del 3r trimestre</strong><div class="linia"></div></div>
+  </div>
+  <div class="consells">
+    <h3>💡 Com s'omple (i com NO s'omple)</h3>
+    <ul>
+      <li><strong>Una entrada per sessió</strong>, els últims 5 minuts. Una frase sincera per
+          pregunta ja és una bona entrada: <strong>no cal escriure molt</strong>.</li>
+      <li>S'avalua el teu <strong>pensament</strong> (decisions, problemes, millores),
+          <strong>no l'ortografia</strong> ni la lletra.</li>
+      <li>Si escriure et costa: <strong>dibuixa</strong> la resposta, fes un esquema, o
+          <strong>dicta-la</strong> a un company/a o al docent perquè te l'apunti.</li>
+      <li>L'evidència pot ser un <strong>esbós</strong> aquí mateix o una <strong>captura /
+          foto 360</strong>: anota on és i penja-la al <strong>portafoli digital</strong>.</li>
+      <li>Aquest trimestre acaba amb el <strong>tancament de curs</strong>: hi compararàs
+          el que sabies al setembre amb tot el que saps ara. Guarda bé el quadern!</li>
+    </ul>
+  </div>
+  <table class="mapa">
+    <tr><th>Setm.</th><th>SA</th><th>Què farem</th></tr>
+    <tr><td>25-27</td><td>SA7</td><td>El tour 360: càmera, captura per torns i publicació + carnet 🟢</td></tr>
+    <tr><td>28-29</td><td>SA8</td><td>Explorem la VR (ús segur i crític) i creem una escena + carnet 🔵</td></tr>
+    <tr><td>30-34</td><td>SA9</td><td>Projecte final integrador → 🎪 la Gran Fira Aula Maker</td></tr>
+    <tr><td>35</td><td>—</td><td>Tancament de curs: portafoli final i mirada enrere</td></tr>
+  </table>
+</section>
+
+<!-- ═══ SETMANA 25 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 25 · SA7</span><h2>Imatge i vídeo 360: conceptes i càmera</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 25 &nbsp;·&nbsp; 🎯 <em>recorda el teu objectiu del tancament del T2!</em></div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he fet jo? (el meu rol i les meves tasques)</strong><em>«El meu rol ha estat… i m'he encarregat de…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Veig – Penso – Em pregunto (la primera imatge 360)</strong><em>«Veig… / Penso que… / Em pregunto si…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Quins problemes han sorgit i com els hem resolt?</strong><em>«No m'ha sortit… perquè… / Ho hem resolt provant…» (si no n'has tingut cap: una decisió difícil)</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa com funciona la càmera 360 (què veu? on s'amaga qui fa la foto?)</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Què faré la propera sessió? / Què milloraria?</strong><em>«La propera vegada provaré… / Milloraria…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ SETMANA 26 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 26 · SA7</span><h2>Captura 360 del centre (torns de càmera) + carnet 🟢</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 26</div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he fet jo? (el meu rol al rodatge)</strong><em>«He capturat / he revisat / he apuntat… al meu torn de càmera»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Què he après?</strong><em>«He après que… / Ara ja sé com…» (i els drets d'imatge? qui pot sortir a la foto?)</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Quins problemes han sorgit i com els hem resolt?</strong><em>«La captura sortia… / Ho hem resolt provant…»</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa el pla de rodatge: quins espais heu capturat i des d'on</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Què faré la propera sessió? / Què milloraria?</strong><em>«La propera vegada provaré… / Milloraria…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ SETMANA 27 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 27 · SA7</span><h2>Muntatge del tour virtual + visualització VR</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 27</div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he fet jo? (el meu rol i les meves tasques)</strong><em>«He muntat / he escrit les etiquetes / he provat…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Què he après?</strong><em>«He après que… / Ara ja sé com…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Quins problemes han sorgit i com els hem resolt?</strong><em>«No m'ha sortit… perquè… / Ho hem resolt provant…»</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa el mapa del vostre tour: escenes i salts entre elles — el tour es PUBLICA!</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Què faré la propera sessió? / Què milloraria?</strong><em>«La propera vegada provaré… / Milloraria…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ TANCAMENT SA7 ═══ -->
+<section class="pagina tanca">
+  <header><span class="setm">Tancament · SA7</span><h2>El nostre tour 360, publicat!</h2>
+  <div class="meta">Data ____ / ____ / ______</div></header>
+  <div class="camp"><strong>El nostre producte final ha quedat…</strong><em>Descriu-lo — i dibuixa'l o enganxa-hi la foto a la caixa (on es pot veure el tour?)</em><div class="linia"></div><div class="caixa"></div></div>
+  <div class="camp"><strong>El que més m'ha agradat</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>El que m'ha costat més</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>Una cosa que faria diferent</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>Nota que crec que mereixo i per què</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="objectiu"><strong>🎯 El meu objectiu per a la SA8</strong><em>Mira la teva rúbrica: què vols millorar? El recuperarem a l'inici de la SA8!</em><div class="linia"></div><div class="linia"></div></div>
+</section>
+
+<!-- ═══ SETMANA 28 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 28 · SA8</span><h2>Explorem la VR per estacions + carnet 🔵</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 28 &nbsp;·&nbsp; 🎯 <em>recorda el teu objectiu del tancament de la SA7!</em></div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…» (recorda: la VR és voluntària — la pantalla també val!)</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he explorat i com m'he sentit?</strong><em>«He provat… i m'he sentit…» (marejat? avisa i seu — és el protocol, no una fallada teva)</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Abans pensava / Ara penso (sobre la VR)</strong><em>«Abans pensava que la VR… / Ara penso que…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Mirada crítica: què fa bé i què fa mal aquesta experiència VR?</strong><em>«M'atrapa perquè… / No m'agrada que…» (la fitxa d'anàlisi t'ajuda)</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa l'experiència que has explorat i el tema que ha triat el vostre equip</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Què faré la propera sessió? / Què milloraria?</strong><em>«La propera vegada provaré… / Milloraria…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ SETMANA 29 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 29 · SA8</span><h2>Creem una escena amb CoSpaces Edu</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 29</div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he fet jo? (el meu rol i les meves tasques)</strong><em>«El meu rol ha estat… i m'he encarregat de…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Què he après?</strong><em>«He après que… / Ara ja sé com…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Quins problemes han sorgit i com els hem resolt?</strong><em>«No m'ha sortit… perquè… / Ho hem resolt provant…»</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa la vostra escena: què hi ha i què pot fer qui la visita?</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Què faré la propera sessió? / Què milloraria?</strong><em>«La propera vegada provaré… / Milloraria…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ TANCAMENT SA8 ═══ -->
+<section class="pagina tanca">
+  <header><span class="setm">Tancament · SA8</span><h2>La meva escena VR, explorable!</h2>
+  <div class="meta">Data ____ / ____ / ______</div></header>
+  <div class="camp"><strong>El meu producte final ha quedat…</strong><em>Descriu-lo — i dibuixa'l o enganxa-hi la captura a la caixa</em><div class="linia"></div><div class="caixa"></div></div>
+  <div class="camp"><strong>El que més m'ha agradat</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>El que m'ha costat més</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>Una cosa que faria diferent</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>Nota que crec que mereixo i per què</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="objectiu"><strong>🎯 El meu objectiu per a la SA9 (el projecte final!)</strong><em>És el projecte que ho ajunta tot: què hi vols aportar i què vols millorar?</em><div class="linia"></div><div class="linia"></div></div>
+</section>
+
+<!-- ═══ SETMANA 30 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 30 · SA9</span><h2>Projecte final: planificació en equip</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 30 &nbsp;·&nbsp; 🎯 <em>recorda el teu objectiu del tancament de la SA8!</em></div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he fet jo? (el meu rol i les meves tasques)</strong><em>«El meu rol a l'equip és… i m'he encarregat de…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Què he après?</strong><em>«He après que planificar… / Ara ja sé com…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Quins problemes han sorgit i com els hem resolt?</strong><em>«No ens posàvem d'acord en… / Ho hem resolt…»</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa el pla del projecte: les fites de cada setmana (el vostre kanban!)</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Què faré la propera sessió? / Què milloraria?</strong><em>«La propera vegada provaré… / Milloraria…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ SETMANA 31 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 31 · SA9</span><h2>Disseny i fabricació (làser / 3D)</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 31</div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…» (com anem respecte al pla?)</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he fet jo? (el meu rol i les meves tasques)</strong><em>«El meu rol a l'equip és… i m'he encarregat de…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Què he après?</strong><em>«He après que… / Ara ja sé com…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Quins problemes han sorgit i com els hem resolt?</strong><em>«No m'ha sortit… perquè… / Ho hem resolt provant…» — l'error és informació!</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa les peces que heu dissenyat o fabricat avui</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Què faré la propera sessió? / Què milloraria?</strong><em>«La propera vegada provaré… / Milloraria…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ SETMANA 32 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 32 · SA9</span><h2>El component immersiu (360 / VR)</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 32</div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…» (com anem respecte al pla?)</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he fet jo? (el meu rol i les meves tasques)</strong><em>«El meu rol a l'equip és… i m'he encarregat de…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Què he après?</strong><em>«He après que… / Ara ja sé com…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Quins problemes han sorgit i com els hem resolt?</strong><em>«No m'ha sortit… perquè… / Ho hem resolt provant…»</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa com el 360/VR s'integra amb el que heu fabricat</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Què faré la propera sessió? / Què milloraria?</strong><em>«La propera vegada provaré… / Milloraria…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ SETMANA 33 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 33 · SA9</span><h2>Muntatge final i assaig de la presentació</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 33</div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he fet jo? (el meu rol i les meves tasques)</strong><em>«He muntat / he assajat… i m'he encarregat de…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Què he après?</strong><em>«He après que… / Ara ja sé com…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Quins problemes han sorgit i com els hem resolt?</strong><em>«A l'assaig hem vist que… / Ho hem resolt…»</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa l'estand tal com el voleu el dia de la Gran Fira</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Què explicaré jo a la Gran Fira?</strong><em>«M'encarregaré de… i diré que…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ SETMANA 34 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 34 · SA9</span><h2>🎪 La Gran Fira Aula Maker</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 34</div></header>
+  <div class="camp"><strong>1 · Què havíem de fer avui? (objectiu)</strong><em>«Avui l'objectiu era…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · Què he fet jo a la Gran Fira?</strong><em>«He explicat… / He ensenyat als visitants…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · Què he après muntant l'estand i presentant?</strong><em>«He après que… / M'ha sorprès que…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · Què m'han dit els visitants del nostre projecte?</strong><em>Dues estrelles ★★ i un desig de millora</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa el moment de la Fira que vols recordar — o anota on és la foto</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Si tornés a començar el projecte, què faria diferent?</strong><em>«Canviaria… / Tornaria a fer…»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'avui: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ SETMANA 35 ═══ -->
+<section class="pagina">
+  <header><span class="setm">Setmana 35 · Tancament de curs</span><h2>Mirada enrere: del setembre fins avui</h2>
+  <div class="meta">Data ____ / ____ / ______ &nbsp;·&nbsp; Sessió núm. 35</div></header>
+  <div class="camp"><strong>1 · Abans pensava… / Ara penso…</strong><em>Recorda l'avaluació 0 del setembre: què en sabies llavors, de tot això?</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>2 · De tot el que hem fabricat, el que em fa més orgull és…</strong><em>«…perquè…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>3 · La cosa més difícil que he superat aquest curs</strong><em>«Em costava… i ho vaig aconseguir…»</em><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>4 · L'error que més m'ha ensenyat (meu o del Museu)</strong><em>«Quan… vam aprendre que…»</em><div class="linia"></div><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>5 · Evidència</strong><em>Dibuixa el teu recorregut maker: del primer clauer fins a la Gran Fira</em><div class="caixa"></div></div>
+  <div class="camp"><strong>6 · Un consell per a l'alumnat de l'any que ve</strong><em>«Si comences l'Aula Maker, …»</em><div class="linia"></div><div class="linia"></div></div>
+  <footer class="nivell">El meu nivell d'aquest curs: &nbsp; 😟 NA &nbsp;·&nbsp; 🙂 AS &nbsp;·&nbsp; 😀 AN &nbsp;·&nbsp; 🤩 AE &nbsp; <span class="mini">(encercla'n un)</span></footer>
+</section>
+
+<!-- ═══ TANCAMENT SA9 I DE CURS ═══ -->
+<section class="pagina tanca">
+  <header><span class="setm">Tancament · SA9 i final de curs</span><h2>El nostre estand de la Gran Fira — i tot un curs maker!</h2>
+  <div class="meta">Data ____ / ____ / ______</div></header>
+  <div class="camp"><strong>El nostre projecte final ha quedat…</strong><em>Descriu-lo — i dibuixa'l o enganxa-hi la foto a la caixa</em><div class="linia"></div><div class="caixa"></div></div>
+  <div class="camp"><strong>El que més m'ha agradat del curs</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>El que m'ha costat més</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>Una cosa que faria diferent si tornés a començar</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="camp"><strong>Nota que crec que mereixo aquest curs i per què</strong><div class="linia"></div><div class="linia"></div></div>
+  <div class="objectiu"><strong>🎯 El meu proper repte maker</strong><em>El curs s'acaba, però tu continues: què t'agradaria construir, aprendre o millorar?</em><div class="linia"></div><div class="linia"></div></div>
+</section>
+
+</body>
+</html>

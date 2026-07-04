@@ -452,6 +452,12 @@ pel mode fosc. La web ho recorda per al pròxim dia.</p></blockquote>
         card("impressos/diari_taller_T1.html", "📓", "Diari de taller en paper (T1)",
              "16 pàgines per alumne/a: les 12 entrades del trimestre ja etiquetades + "
              "tancaments de SA", "imprimible"),
+        card("impressos/diari_taller_T2.html", "📓", "Diari de taller en paper (T2)",
+             "SA4-SA6, setmanes 13-24: opció paper (DUA) i pla B del portafoli digital",
+             "imprimible"),
+        card("impressos/diari_taller_T3.html", "📓", "Diari de taller en paper (T3)",
+             "SA7-SA9 + tancament de curs, setmanes 25-35: opció paper i pla B",
+             "imprimible"),
         card("impressos/poster_grans_idees.html", "🧭", "Pòster de les 5 Grans Idees",
              "A4/A3 per penjar a les dues aules", "imprimible"),
         card("impressos/targetes_museu.html", "🏛️", "Targetes del Museu dels Errors",

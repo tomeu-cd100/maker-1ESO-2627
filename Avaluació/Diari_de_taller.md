@@ -14,13 +14,15 @@
 > (l'entrada normal, O el tiquet, O la rutina — que ocupa la pregunta 3 o 4), mai totes tres.
 > Triple reflexió = reflexió convertida en tràmit.
 >
-> 📄 **El 1r trimestre, en paper.** L'alumnat no aprèn a fer el portafoli digital (Google
-> Sites, a Tecnologia) fins a final del 1r trimestre, així que el diari del T1 es porta en un
-> **quadern imprès**: `web_assets/impressos/diari_taller_T1.html` (a la web: pàgina Docent →
-> Impressos), amb les 12 entrades del trimestre ja etiquetades per setmana i SA i els
-> tancaments de SA1/SA2/SA3. Un per alumne/a, 8 fulls a doble cara, grapat. Del T2 en
-> endavant el diari passa al portafoli digital, i les entrades del quadern s'hi fotografien
-> o enganxen (són la primera evidència del portafoli, no es llencen).
+> 📄 **En paper: quadern imprès per a cada trimestre.** Hi ha un quadern imprimible per
+> trimestre, amb totes les entrades ja etiquetades per setmana i SA i els tancaments de SA:
+> `web_assets/impressos/diari_taller_T1.html`, `diari_taller_T2.html` i `diari_taller_T3.html`
+> (a la web: pàgina Docent → Impressos; un per alumne/a, 8 fulls a doble cara, grapat).
+> Al **T1 el paper és obligat**: l'alumnat no aprèn a fer el portafoli digital (Google Sites,
+> a Tecnologia) fins a final del 1r trimestre. Del T2 en endavant, trieu per alumne/a:
+> **portafoli digital** (el camí per defecte) o **quadern en paper** com a opció DUA — i el
+> quadern és sempre el **pla B** si un dia no hi ha pantalles. Les entrades en paper es
+> fotografien i s'enganxen al portafoli (són evidència, no es llencen).
 
 **Nom i cognoms:** ______________________  **Equip:** ________  **SA:** ______
 
