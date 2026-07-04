@@ -55,7 +55,7 @@
   enviar-les (afegiu-hi l'enllaç de la web i la pàgina Famílies).
 - [ ] **Ajustar la temporització** al calendari real del centre (festius, sortides) —
   la setmana 35 és el coixí, no la toqueu si no cal.
-- [ ] **Reservar les 3 dates de la Fira trimestral** al calendari del centre (setmanes 11,
+- [ ] **Reservar les 3 dates de la Fira trimestral** al calendari del centre (setmanes 12,
   24 i 34) i anunciar-les a la carta d'inici de curs — la Fira és trimestral per portar les
   famílies a l'institut cada trimestre, no només al juny.
 - [ ] **Co-docent**: passar-li `00_Guia_inici_codocent.md` (30 min de lectura) i l'enllaç de
@@ -67,10 +67,14 @@
   `Classes/SA0_Punt_de_partida/SA0.md`).
 - [ ] Amb l'avaluació 0 feta: formar els **grups A/B** estables (equips heterogenis dins de
   cada grup).
+- [ ] Preparar la sessió analògica de la setmana 2 (l'alumnat **encara no té ordinador**):
+  plantilles de paper mil·limetrat 60×25 mm, llapis vermell/negre, mostra per a la demo de
+  làser en directe. Confirmar amb qui toqui que els **Chromebooks es reparteixen abans de la
+  setmana 3**.
 
 ## 🔁 Cada trimestre (recordatoris de tancament — SA3, SA6, SA9)
 
-- [ ] **Invitacions de la 🎪 Fira trimestral** a les famílies, 2 setmanes abans (setmanes 9,
+- [ ] **Invitacions de la 🎪 Fira trimestral** a les famílies, 2 setmanes abans (setmanes 10,
   22 i 32; al T2, convidar-hi també els usuaris reals de la SA6).
 - [ ] Rúbrica completa + **valoració trimestral** al full de progrés.
 - [ ] **Calibratge de la coavaluació** amb l'exemple resolt (abans de la primera del trimestre).

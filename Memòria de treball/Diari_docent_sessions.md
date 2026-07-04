@@ -21,7 +21,7 @@
 
 ---
 
-## Setmana 2 · SA1 · S1/2 — Disseny del clauer (Inkscape)
+## Setmana 2 · SA1 · S1/3 — El clauer en paper + demo de làser (📴 sense ordinadors)
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -35,7 +35,7 @@
 
 ---
 
-## Setmana 3 · SA1 · S2/2 — Fabricació a làser + carnet 🔴
+## Setmana 3 · SA1 · S2/3 — Del paper a Inkscape (digitalitzar l'esbós)
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -49,7 +49,7 @@
 
 ---
 
-## Setmana 4 · SA2 · S1/3 — Inkscape a fons
+## Setmana 4 · SA1 · S3/3 — Fabricació a làser + carnet 🔴
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -63,7 +63,7 @@
 
 ---
 
-## Setmana 5 · SA2 · S2/3 — Vectorització + disseny del marcapàgines
+## Setmana 5 · SA2 · S1/3 — Inkscape a fons
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -77,7 +77,7 @@
 
 ---
 
-## Setmana 6 · SA2 · S3/3 — Fabricació + 1a coavaluació
+## Setmana 6 · SA2 · S2/3 — Vectorització + disseny del marcapàgines
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -91,7 +91,7 @@
 
 ---
 
-## Setmana 7 · SA3 · S1/5 — ⭐ Repte d'identitat: idear i planificar
+## Setmana 7 · SA2 · S3/3 — Fabricació + 1a coavaluació
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -105,7 +105,7 @@
 
 ---
 
-## Setmana 8 · SA3 · S2/5 — Unions per encaix
+## Setmana 8 · SA3 · S1/5 — ⭐ Repte d'identitat: idear i planificar
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -119,7 +119,7 @@
 
 ---
 
-## Setmana 9 · SA3 · S3/5 — Mostra d'encaix, kerf i fabricació
+## Setmana 9 · SA3 · S2/5 — Unions per encaix
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -133,7 +133,7 @@
 
 ---
 
-## Setmana 10 · SA3 · S4/5 — Muntatge i iteració
+## Setmana 10 · SA3 · S3/5 — Mostra d'encaix, kerf i fabricació
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -147,7 +147,7 @@
 
 ---
 
-## Setmana 11 · SA3 · S5/5 — 🎪 Fira de mostres T1 (famílies)
+## Setmana 11 · SA3 · S4/5 — Muntatge i iteració
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**
@@ -161,7 +161,7 @@
 
 ---
 
-## Setmana 12 · Tancament del 1r trimestre
+## Setmana 12 · SA3 · S5/5 — 🎪 Fira de mostres T1 (famílies) + tancament T1
 **Data:** ____/____/____
 
 - **Objectiu de la sessió:**

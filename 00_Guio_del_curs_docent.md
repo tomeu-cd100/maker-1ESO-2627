@@ -35,28 +35,31 @@ l'alumnat escriu el seu 🎯 al diari. **En tancar cada trimestre:** vegeu «fit
 |-------|--------|-----------|
 | Imprimir: contracte, passaports, fitxes SA0, material de la **gimcana** (escenes fotografiades!), avaluació 0. Quadern digital creat. | Benvinguda → mapa del curs → recorregut taller → **gimcana** → com funciona tot (passaport, diari, avaluació) → **avaluació 0** → 1r diari | Buidar l'avaluació 0 a la graella C → **formar grups A/B i equips T1**. Res no es qualifica. |
 
-### SA1 · setmanes 2-3 — El clauer (`Classes/SA1_Benvinguts_Aula_Maker/SA1.md`)
-| Setm. | Abans | Sessió | En acabar |
-|:--:|-------|--------|-----------|
-| 2 | Inkscape llest (Chromebooks/Linux); plantilla `clauer_SA1.svg` a punt | Demo Inkscape → disseny del clauer → capes tall/gravat (⏸️ mínim: forma+nom+forat) | Revisar fitxers (noms correctes!) i muntar la planxa de **batch** |
-| 3 | Planxa DM 3 mm, anelles; làser comprovada | **Checkpoint carnet 🔴** → fabricació per batch (~15-20') → muntatge → galeria | Checklist criteris d'èxit → full de progrés (1a columna qualificada!) |
+### SA1 · setmanes 2-4 — El clauer (`Classes/SA1_Benvinguts_Aula_Maker/SA1.md`)
+> 💻 Les setmanes 2 i 3 de curs l'alumnat **encara no té ordinador**: la sessió de la setmana
+> 2 és 100 % analògica (paper + demo de màquina) — està pensada així.
 
-### SA2 · setmanes 4-6 — Marcapàgines (`Classes/SA2_Dissenyem_en_2D/SA2.md`)
 | Setm. | Abans | Sessió | En acabar |
 |:--:|-------|--------|-----------|
-| 4 | Banc d'imatges per vectoritzar | Operacions de camí, text→camí | Seguiment |
-| 5 | — | Vectorització + disseny (⏸️ mínim: forma+missatge; imatge del banc si cal) | Revisió de fitxers i nesting |
-| 6 | Material a punt | Fabricació batch → postprocés → galeria i **coavaluació** (1a del curs: **calibratge previ** amb l'exemple resolt!) | Checklist → progrés |
+| 2 | Plantilles de paper mil·limetrat 60×25; llapis vermell/negre per parella; mostra per a la demo de làser | **Demo de làser en directe** → esbós del clauer **en paper a mida real** → tall/gravat amb colors (⏸️ mínim: esbós acotat) | Recollir/fotografiar els esbossos; Inkscape llest per a la setmana 3 (Chromebooks/Linux!) |
+| 3 | Chromebooks repartits i provats; plantilla `clauer_SA1.svg` a punt | Demo Inkscape → **digitalitzar l'esbós** → capes tall/gravat (⏸️ mínim: forma+nom+forat) | Revisar fitxers (noms correctes!) i muntar la planxa de **batch** |
+| 4 | Planxa DM 3 mm, anelles; làser comprovada | **Checkpoint carnet 🔴** → fabricació per batch (~15-20') → muntatge → galeria | Checklist criteris d'èxit → full de progrés (1a columna qualificada!) |
 
-### SA3 · setmanes 7-11 — ⭐ Objecte d'identitat (`Classes/SA3_Projecte_laser_identitat/SA3.md`)
+### SA2 · setmanes 5-7 — Marcapàgines (`Classes/SA2_Dissenyem_en_2D/SA2.md`)
 | Setm. | Abans | Sessió | En acabar |
 |:--:|-------|--------|-----------|
-| 7 | Catàleg d'objectes-tipus | Repte + requisits + **signatura de peça** per membre | Validar plans d'equip |
-| 8 | — | Disseny d'unions a Inkscape (⏸️ mínim: peces estructurals) | Revisió conjunta |
-| 9 | Retalls per a mostres | **Mostra d'encaix + mesurar el kerf** → fabricació per equips | Seguiment |
-| 10 | Cola, LED si làmpades; **invitacions de la Fira T1 enviades a les famílies** | Muntatge + **iteració** (refabricar el que no encaixi) | Seguiment |
-| 11 | Espai de la Fira a punt (aforament ≤10 a l'aula Maker) | 🎪 **Fira de mostres T1 amb famílies** + coavaluació | **Rúbrica completa** + producte final → progrés |
-| 12 | — | **Tancament T1**: portafoli, autoavaluació + ⏹️ *fites de trimestre* (final del guió) | Valoració T1 al progrés |
+| 5 | Banc d'imatges per vectoritzar | Operacions de camí, text→camí | Seguiment |
+| 6 | — | Vectorització + disseny (⏸️ mínim: forma+missatge; imatge del banc si cal) | Revisió de fitxers i nesting |
+| 7 | Material a punt | Fabricació batch → postprocés → galeria i **coavaluació** (1a del curs: **calibratge previ** amb l'exemple resolt!) | Checklist → progrés |
+
+### SA3 · setmanes 8-12 — ⭐ Objecte d'identitat (`Classes/SA3_Projecte_laser_identitat/SA3.md`)
+| Setm. | Abans | Sessió | En acabar |
+|:--:|-------|--------|-----------|
+| 8 | Catàleg d'objectes-tipus | Repte + requisits + **signatura de peça** per membre | Validar plans d'equip |
+| 9 | — | Disseny d'unions a Inkscape (⏸️ mínim: peces estructurals) | Revisió conjunta |
+| 10 | Retalls per a mostres; **invitacions de la Fira T1 enviades a les famílies** | **Mostra d'encaix + mesurar el kerf** → fabricació per equips | Seguiment |
+| 11 | Cola, LED si làmpades | Muntatge + **iteració** (refabricar el que no encaixi) | Seguiment |
+| 12 | Espai de la Fira a punt (aforament ≤10 a l'aula Maker); fulls de progrés al dia | 🎪 **Fira de mostres T1 amb famílies** + coavaluació + **Tancament T1** (⏹️ fites de trimestre, final del guió) | **Rúbrica completa** + producte final → progrés + valoració T1 |
 
 ## 2n TRIMESTRE — 3D i impressió
 
@@ -80,8 +83,8 @@ l'alumnat escriu el seu 🎯 al diari. **En tancar cada trimestre:** vegeu «fit
 |:--:|-------|--------|-----------|
 | 20 | Catàleg de reptes; contactar usuaris reals si APS | Tria + **empatia i requisits** + pla amb signatura de peça | Validar plans |
 | 21 | — | Modelatge per membre + revisió conjunta → v2 (⏸️ mínim: cada peça imprimible) | Validació docent |
-| 22 | Kanban | Laminat + batches + impressió | Plaques fora d'horari |
-| 23 | Usuari disponible! **Invitacions de la Fira T2 enviades** | Muntatge + **prova amb l'usuari** + iteració | Evidència del feedback |
+| 22 | Kanban; **invitacions de la Fira T2 enviades** | Laminat + batches + impressió | Plaques fora d'horari |
+| 23 | Usuari disponible! | Muntatge + **prova amb l'usuari** + iteració | Evidència del feedback |
 | 24 | Espai de la Fira a punt | 🎪 **Fira de mostres T2 amb famílies** + coavaluació + **Tancament T2** (⏹️ fites) | **Rúbrica completa** → progrés + valoració T2 |
 
 ## 3r TRIMESTRE — Immersiu + projecte final
@@ -121,7 +124,7 @@ l'alumnat escriu el seu 🎯 al diari. **En tancar cada trimestre:** vegeu «fit
 - [ ] Ensenyar a cada alumne/a **el seu full de progrés**.
 - [ ] Una línia per sessió al diari docent + temps reals de màquina (per ajustar el curs vinent).
 - [ ] Confirmar la **data de la Fira del trimestre següent** (reservades al setembre: setm.
-  11, 24 i 34) i programar l'enviament de les invitacions (2 setmanes abans).
+  12, 24 i 34) i programar l'enviament de les invitacions (2 setmanes abans: setm. 10, 22 i 32).
 
 ## 🧰 On és cada cosa (xuleta)
 

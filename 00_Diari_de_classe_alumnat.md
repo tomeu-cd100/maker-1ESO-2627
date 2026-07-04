@@ -37,67 +37,74 @@ seguretat**, signar el contracte d'aula, estrenar el diari i el passaport, i l'*
 **🎒 Vine amb:** ganes i una resposta a «què t'agradaria fabricar aquest any?» — la guardarem
 i la recuperarem més endavant.
 
-### Setmana 2 — Dissenyes el teu clauer 🔑 👥
-**Què farem:** primera classe d'**Inkscape**: formes, text i mides en mm. Dissenyaràs el teu
-**clauer personalitzat** i prepararàs les capes: **vermell = tall, negre = gravat**.
+### Setmana 2 — Dissenyes el teu clauer… en paper! 📝 🔁
+**Què farem:** encara no tenim ordinadors — i no els necessitem. Veuràs la **làser treballar
+en directe** (el profe talla el seu propi clauer davant teu!) i dissenyaràs el teu **sobre
+paper mil·limetrat, a mida real**, amb regle i el codi de colors del curs: **vermell =
+tallar, negre = gravar**.
+**⏸️ Mínim d'avui:** esbós amb les mides escrites i el vermell/negre marcats.
+**No te n'oblidis:** aquest paper és el teu **plànol** — guarda'l, la setmana que ve el
+convertiràs en fitxer.
+
+### Setmana 3 — Del paper a la pantalla 🔑 👥
+**Què farem:** arriben els Chromebooks! Primera classe d'**Inkscape**: formes, text i mides
+en mm. Avui no decideixes res de nou: **digitalitzes el teu esbós** amb precisió.
 **⏸️ Mínim d'avui:** forma + nom + forat per a l'anella, amb les capes revisades.
 **No te n'oblidis:** desa el fitxer com a `Nom_SA1_v1.svg` — el primer «Anomena i desa» del curs.
 
-### Setmana 3 — La làser talla el teu clauer 🔴 🔁
+### Setmana 4 — La làser talla el teu clauer 🔴 🔁
 **Què farem:** el **checkpoint del carnet 🔴 de làser** (3 preguntes + demostració) i la
 fabricació de tots els clauers en una sola planxa. Mentre esperes torn: reptes express.
 **En sortir tindràs:** el teu **primer objecte fabricat de veritat** — i el carnet 🔴 al passaport.
 **No te n'oblidis:** entrada de tancament al diari **amb foto** del clauer.
 
-### Setmana 4 — Inkscape a fons ✏️ 👥
+### Setmana 5 — Inkscape a fons ✏️ 👥
 **Què farem:** crear formes noves ajuntant-ne i restant-ne d'altres (operacions de camí) i el
 truc més important del trimestre: **convertir el text a camí** perquè la làser l'entengui.
 **En sortir sabràs:** fer formes que no existeixen a cap menú.
 
-### Setmana 5 — De la imatge al vector 🖼️ 🔁
+### Setmana 6 — De la imatge al vector 🖼️ 🔁
 **Què farem:** **vectoritzar** una imatge (convertir-la en línies que la làser pot seguir) i
 dissenyar el teu **marcapàgines o etiqueta**: forma, missatge i imatge.
 **⏸️ Mínim d'avui:** forma + missatge (text a camí!) + forat. Si la teva vectorització no surt,
 agafa una imatge del banc — fabricaràs igualment.
 
-### Setmana 6 — Fabricació + primera coavaluació 🏷️ 🔁
+### Setmana 7 — Fabricació + primera coavaluació 🏷️ 🔁
 **Què farem:** tallar i gravar els marcapàgines, posar la borla i fer la **primera galeria amb
 coavaluació**: aprendràs a valorar la feina dels altres amb criteris, no per amistat (primer
 practicarem amb un exemple).
 **En sortir tindràs:** el teu segon producte — i l'ull més entrenat.
 
-### Setmana 7 — ⭐ Arrenca el projecte d'identitat 🪵 👥
+### Setmana 8 — ⭐ Arrenca el projecte d'identitat 🪵 👥
 **Què farem:** en equip, triareu un **objecte útil que us representi** (organitzador, làmpada,
 joc, caixa…), definireu requisits i fareu el pla. Cadascú **signa una peça**: una part de
 l'objecte que és responsabilitat teva.
 **🎒 Vine amb:** idees. Quin objecte diu alguna cosa de vosaltres?
 **⏸️ Mínim d'avui:** pla d'equip validat pel professor.
 
-### Setmana 8 — Unions que encaixen 🧩 🔁
+### Setmana 9 — Unions que encaixen 🧩 🔁
 **Què farem:** el salt tècnic del trimestre: dissenyar **ranures a mida del gruix de la fusta**
 perquè les peces encaixin sense cola. A l'aula Maker en tocaràs de reals.
 **⏸️ Mínim d'avui:** les peces estructurals amb les unions dibuixades (la decoració pot esperar).
 
-### Setmana 9 — El kerf: la làser es menja mil·límetres 📏 🔁
+### Setmana 10 — El kerf: la làser es menja mil·límetres 📏 🔁
 **Què farem:** abans de fabricar-ho tot, tallarem una **mostra d'encaix** i mesurarem el
 **kerf** (el que «es menja» el làser). Ajustarem el disseny i fabricarem les peces per equips.
 **En sortir sabràs:** per què els makers proven abans de fabricar — l'error barat evita el car.
 
-### Setmana 10 — Muntatge i iteració 🔧 🔁
+### Setmana 11 — Muntatge i iteració 🔧 🔁
 **Què farem:** muntar l'objecte, provar que s'aguanta i funciona, i **refabricar el que no
 encaixi**. Refer una peça no és fracassar: és iterar, i és exactament el que fan els professionals.
-**No te n'oblidis:** foto del muntatge al diari, encara que no estigui acabat.
+**No te n'oblidis:** foto del muntatge al diari, encara que no estigui acabat. I recorda a
+casa que la setmana que ve és la **Fira**!
 
-### Setmana 11 — 🎪 Fira de mostres del T1 (amb famílies!) 👥
+### Setmana 12 — 🎪 Fira de mostres del T1 (amb famílies!) + tancament 📦 👥
 **Què farem:** la **primera Fira del curs**: cada equip presenta el seu projecte (problema →
-solució → procés → millores) **davant les famílies**, i després coavaluem. És el producte
-final del trimestre: compta amb rúbrica completa.
+solució → procés → millores) **davant les famílies**. Després: coavaluació, portafoli del
+trimestre, veure amb el professor **el teu full de progrés**, votar 🏆 **l'error del
+trimestre** al Museu, dir la teva sobre l'assignatura (tiquet anònim) i escriure el teu 🎯
+objectiu per al T2.
 **🎒 Vine amb:** el guió repassat, clar qui diu què — **i la família convidada!**
-
-### Setmana 12 — Tanquem el 1r trimestre 📦 👥
-**Què farem:** ordenar el teu **portafoli**, veure amb el professor **el teu full de progrés**
-(com vas competència a competència), votar 🏆 **l'error del trimestre** al Museu, dir la teva
-sobre l'assignatura (tiquet anònim) i escriure el teu 🎯 objectiu per al T2.
 **En sortir sabràs:** exactament on ets i què vols millorar. Al T2, equips nous!
 
 ---

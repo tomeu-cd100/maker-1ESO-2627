@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 1r |
-| **Temporització** | 2 sessions de 2 h (setmanes 2–3) — la benvinguda, la seguretat i el diagnòstic són a la **SA0** (setmana 1) |
+| **Temporització** | 3 sessions de 2 h (setmanes 2–4) — la benvinguda, la seguretat i el diagnòstic són a la **SA0** (setmana 1). ⚠️ Les **2 primeres setmanes l'alumnat no té ordinador**: la sessió 1 és **100 % analògica** (paper + demo de màquina) per disseny, no per improvisació |
 | **Eix** | Primer disseny vectorial · fabricació 2D (iniciació làser) |
 | **Producte final** | Un **clauer personalitzat** gravat/tallat a làser |
 
@@ -38,7 +38,8 @@ desenvoluparan en SA2 i SA3.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
 - [ ] Compleixo el contracte d'aula que vam signar a la SA0.
-- [ ] M'he guanyat el **carnet 🔴 d'operador/a làser** (checkpoint de la sessió 2).
+- [ ] He fet l'**esbós en paper a mida real**, acotat i amb tall (vermell) i gravat (negre) marcats.
+- [ ] M'he guanyat el **carnet 🔴 d'operador/a làser** (checkpoint de la sessió 3).
 - [ ] El meu clauer té forma, nom/inicial i forat per a l'anella.
 - [ ] He separat els elements de **tall** (vermell) i de **gravat** (negre).
 - [ ] He fet la meva entrada al diari de taller.
@@ -67,20 +68,35 @@ desenvoluparan en SA2 i SA3.
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 2–3.
+> setmanes 2–4.
 
-### Sessió 1 — Disseny del clauer amb Inkscape (2 h)
+### Sessió 1 — El clauer en paper + la làser en directe (2 h, **sense ordinadors d'alumnat**)
+1. **Demo de la làser en directe (30')**: el docent talla i grava una mostra (el seu propi
+   clauer!) davant l'alumnat — què fa la màquina, què és **tallar** i què és **gravar**,
+   materials permesos i perillosos (🧭 Gran Idea 1). Per meitats si cal (aforament!).
+2. **Esbós a mida real (60')**: cada alumne/a dissenya el seu clauer **en paper mil·limetrat**
+   (plantilla 60×25 mm): forma base + nom/inicial + un detall + forat per a l'anella (Ø 4-5 mm,
+   a ≥3 mm de la vora). Les mides s'acoten amb regle: la làser no entén «més o menys».
+3. **La convenció de capes… amb llapis de colors (20')**: contorn a retallar en **vermell**
+   (tall) i el que es dibuixa en **negre** (gravat) — la mateixa convenció que farem servir a
+   Inkscape tota la resta del curs, apresa en paper.
+4. **Tancament (10')**: diari de taller.
+
+> ⏸️ **Mínim d'avui**: esbós acotat amb forma + nom + forat i el vermell/negre marcats — és el
+> plànol que digitalitzaràs la setmana vinent.
+
+### Sessió 2 — Digitalitzar el disseny amb Inkscape (2 h)
 1. **Demo Inkscape (30')**: obrir, llenç, formes bàsiques, afegir text, mida en mm.
-2. **Disseny guiat (60')**: cada alumne/a dissenya el seu clauer (forma base + nom/inicial +
-   un detall), mida orientativa 60×25 mm, forat per a l'anella.
+2. **Digitalització guiada (60')**: cada alumne/a **passa el seu esbós de paper a Inkscape**
+   — les decisions ja estan preses, ara toca l'eina. Mides reals de l'esbós acotat.
 3. **Preparació per a làser (20')**: concepte de **capes** — línia fina de tall (vermell) i
-   gravat (negre/ompliment). El docent revisa cada fitxer.
+   gravat (negre/ompliment), com al paper. El docent revisa cada fitxer.
 4. **Tancament (10')**: diari de taller.
 
 > ⏸️ **Mínim d'avui** (per a qui va lent): forma base + nom + forat, amb capes revisades — el
-> detall decoratiu és ampliació. Qui té el mínim, fabrica a la sessió 2 com tothom.
+> detall decoratiu és ampliació. Qui té el mínim, fabrica a la sessió 3 com tothom.
 
-### Sessió 2 — Fabricació a làser i reflexió (2 h)
+### Sessió 3 — Fabricació a làser i reflexió (2 h)
 1. **Checkpoint del carnet 🔴 de làser (15' + durant els torns)**: repàs del protocol abans
    d'engegar (ventilació, no deixar la màquina sola, materials permesos) en format checkpoint
    (`Normativa/Carnet_de_maquina.md`): 3 preguntes + demostració supervisada. Qui el supera obté
@@ -133,10 +149,10 @@ veritat (de la idea al clauer a la mà: què t'ha sorprès del procés?).
 
 | Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
 |------------------------------|-----------|------------|----------|
-| **Clauer fabricat** amb capes correctes (S1-S2) | Checklist de criteris d'èxit + files CA2.1/CA3.1 de `Rubrica_SA1.md` | Docent + autoaval. | CA2.1, CA3.1 |
-| **Carnet 🔴 d'operador/a làser** (S2) | Checkpoint del carnet (el contracte ve signat de la SA0) | Docent | CA6.1, CA6.3 |
+| **Esbós en paper acotat** (tall/gravat marcats) **+ clauer fabricat** amb capes correctes (S1-S3) | Checklist de criteris d'èxit + files CA2.1/CA3.1 de `Rubrica_SA1.md` | Docent + autoaval. | CA2.1, CA3.1 |
+| **Carnet 🔴 d'operador/a làser** (S3) | Checkpoint del carnet (el contracte ve signat de la SA0) | Docent | CA6.1, CA6.3 |
 | **Diari de taller** (1 entrada/sessió + tancament amb 🎯) | Pauta de `Avaluació/Diari_de_taller.md` | Docent | CA5.2, CA1.4 |
-| **Seguretat i actitud al taller** (S1-S2, contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
-| **Coavaluació de la galeria** (S2) | `Avaluació/Autoavaluacio_coavaluacio.md` (C) | Companys | contrast |
+| **Seguretat i actitud al taller** (S1-S3, contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
+| **Coavaluació de la galeria** (S3) | `Avaluació/Autoavaluacio_coavaluacio.md` (C) | Companys | contrast |
 
 **En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.

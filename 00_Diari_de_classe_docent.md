@@ -68,35 +68,65 @@ prèvia més important de la setmana. I no cedeixis a «tocar una màquina, va»
 
 ---
 
-## Setmana 2 · SA1 · S1/2 — «Disseny del clauer a Inkscape» 👥 grup sencer
+## Setmana 2 · SA1 · S1/3 — «El clauer en paper + la làser en directe» 🔁 rotació (obre Maker: **grup B**) · 📴 sense ordinadors
 
-**Fil del dia:** el primer disseny real. En acabar, cada alumne/a té el seu clauer dibuixat amb
-capes de tall i gravat correctes. 🧭 Gran Idea 1: *el material mana*.
+**Fil del dia:** l'alumnat **encara no té Chromebook — i no en fa cap falta**: avui es
+dissenya amb regle i llapis (Gran Idea 3: el plànol abans que l'eina) i es veu la làser
+treballar per primera vegada. 🧭 Gran Idea 1: *el material mana*.
 
 **🎒 Abans:**
-- [ ] Inkscape funcionant als Chromebooks (Linux) — **prova'n un tu mateix el dia abans**.
-- [ ] `Recursos/Plantilles_disseny/clauer_SA1.svg` a la carpeta compartida de Drive (`SA1/`).
-- [ ] Fitxes SA1 impreses o enllaçades; exemple resolt a mà (es mostra *després* del 1r intent).
+- [ ] Plantilles de **paper mil·limetrat 60×25 mm** (una per alumne/a + recanvis) i regles.
+- [ ] Llapis o retoladors **vermell i negre** per parella.
+- [ ] El teu clauer dissenyat i a punt per tallar (la mostra de la demo); làser i extracció comprovades.
 
-**▶️ Obertura (10'):** pregunta guia («Què és l'Aula Maker i com hi puc treballar amb seguretat
-per crear el meu primer objecte?») + criteris d'èxit + Gran Idea 1.
-**Desenvolupament (grup sencer a l'estudi de disseny — tot és Chromebook):**
-1. **Demo Inkscape (30')** — llenç, formes, text, mides en mm. El co-docent fa d'«alumne 21» i pregunta el que l'alumnat no gosa.
-2. **Disseny guiat (60')** — forma + nom/inicial + detall; ~60×25 mm; forat per a l'anella. Primer «Anomena i desa»: **`Nom_SA1_v1.svg`** — cap fitxer mal anomenat entrarà mai a cua de fabricació.
-3. **Capes tall/gravat (20')** — tall vermell / gravat negre; **tu revises cada fitxer**.
-**⏸️ Mínim:** forma + nom + forat amb capes revisades (el detall decoratiu és ampliació).
-**⏹️ Tancament (10'):** diari (*Abans pensava / Ara penso*: què cal per fabricar de veritat).
+**▶️ Obertura (10'):** pregunta guia + «aquest curs tot es dissenya dues vegades: primer al
+paper, després a la pantalla».
+- 🔧 **Estació Maker:** **demo de làser en directe** — talles i graves el teu propi clauer davant del grup (amb torns de 10, tothom ho veu de prop): què és **tallar**, què és **gravar**, materials permesos i perillosos, seguretat in situ. Primeres preguntes del futur carnet 🔴.
+- 📝 **Estudi de disseny (sense pantalles):** **esbós a mida real** sobre la plantilla — forma + nom/inicial + un detall + forat (Ø 4-5 mm, a ≥3 mm de la vora), tot **acotat amb regle**. Després, el codi de colors: **vermell = tall, negre = gravat** — la convenció de capes del curs, apresa en paper. Vocabulari del word wall.
+**⏸️ Mínim:** esbós acotat amb el vermell/negre marcats — és el plànol de la setmana vinent.
+**⏹️ Tancament (10'):** diari (en paper si cal): *Abans pensava / Ara penso* després de veure
+la làser treballar.
 
-**📋 En acabar:** repassar fitxers a Drive (noms!) i **muntar la planxa de batch** (nesting) per
-a la setmana 3. **⚠️ Vigila:** si Linux/Inkscape falla en algun Chromebook, el pla B són els
-ordinadors de la zona de disseny de l'aula Maker (codocència §3).
+**📋 En acabar:** recollir o fotografiar els esbossos (plànol + evidència) i **confirmar que
+els Chromebooks arriben abans de la setmana 3**; si no, pla B: ordinadors de l'aula Maker per
+torns (codocència §3).
+**⚠️ Vigila:** la demo en directe és el moment més esperat des de la SA0 — màquina en marxa i
+poques paraules, no la converteixis en xerrada. I l'esbós no és dibuix lliure: sense mides no
+és un plànol.
 
 ---
 
-## Setmana 3 · SA1 · S2/2 — «Fabricació del clauer + carnet 🔴» 🔁 rotació (obre Maker: **grup A**)
+## Setmana 3 · SA1 · S2/3 — «Del paper a Inkscape» 👥 grup sencer
 
-**Fil del dia:** primer contacte amb la làser, amb el checkpoint del carnet com a porta. Tothom
-se'n va a casa amb un objecte fet per ell/a.
+**Fil del dia:** el plànol es torna fitxer. Primera classe d'Inkscape: com que les decisions
+de disseny ja estan preses al paper, tota l'energia va a l'eina.
+
+**🎒 Abans:**
+- [ ] **Chromebooks repartits** i Inkscape funcionant (Linux) — **prova'n un tu mateix el dia abans**.
+- [ ] Esbossos de la setmana 2 a mà (cadascú digitalitza el seu).
+- [ ] `Recursos/Plantilles_disseny/clauer_SA1.svg` a la carpeta compartida de Drive (`SA1/`).
+
+**▶️ Obertura (10'):** criteris d'èxit + «avui no decidiu res de nou: copieu el vostre plànol
+amb precisió».
+**Desenvolupament (grup sencer a l'estudi de disseny):**
+1. **Demo Inkscape (30')** — llenç, formes, text, mides en mm. El co-docent fa d'«alumne 21» i pregunta el que l'alumnat no gosa.
+2. **Digitalització guiada (60')** — cada alumne/a passa el seu esbós a Inkscape amb les mides acotades. Primer «Anomena i desa»: **`Nom_SA1_v1.svg`** — cap fitxer mal anomenat entrarà mai a cua de fabricació.
+3. **Capes tall/gravat (20')** — tall vermell / gravat negre, com al paper; **tu revises cada fitxer**.
+**⏸️ Mínim:** forma + nom + forat amb capes revisades (el detall decoratiu és ampliació).
+**⏹️ Tancament (10'):** diari.
+
+**📋 En acabar:** repassar fitxers a Drive (noms!) i **muntar la planxa de batch** (nesting)
+per a la setmana 4.
+**⚠️ Vigila:** si Linux/Inkscape falla en algun Chromebook, el pla B són els ordinadors de la
+zona de disseny de l'aula Maker (codocència §3). Qui hagi perdut l'esbós refà el mínim en 10
+minuts: les decisions ja les té al cap.
+
+---
+
+## Setmana 4 · SA1 · S3/3 — «Fabricació del clauer + carnet 🔴» 🔁 rotació (obre Maker: **grup B**)
+
+**Fil del dia:** primer contacte operatiu amb la làser, amb el checkpoint del carnet com a
+porta. Tothom se'n va a casa amb un objecte fet per ell/a.
 
 **🎒 Abans:**
 - [ ] Planxa DM 3 mm + anelles; làser i extracció comprovades; planxa de batch muntada a XCS.
@@ -114,7 +144,7 @@ galeria, mai el diari. Un alumne sense carnet **no opera**: ho recupera al torn 
 
 ---
 
-## Setmana 4 · SA2 · S1/3 — «Inkscape a fons» 👥 grup sencer
+## Setmana 5 · SA2 · S1/3 — «Inkscape a fons» 👥 grup sencer
 
 **Fil del dia:** ampliar la caixa d'eines vectorial: operacions de camí i text a camí. 🧭 Gran
 Idea 3: *mesura dues vegades, fabrica una*.
@@ -134,11 +164,11 @@ que més es descuida i que més fitxers espatlla a la làser — repeteix-lo fin
 
 ---
 
-## Setmana 5 · SA2 · S2/3 — «Vectoritzar + dissenyar el marcapàgines» 🔁 rotació (obre Maker: **grup A**)
+## Setmana 6 · SA2 · S2/3 — «Vectoritzar + dissenyar el marcapàgines» 🔁 rotació (obre Maker: **grup B**)
 
 **Fil del dia:** de la imatge al vector, i el disseny del producte sencer.
 
-**🎒 Abans:** banc d'imatges senzilles per vectoritzar a Drive; plantilla `marcapagines_SA2.svg`.
+**🎒 Abans:** banc d'imatges per vectoritzar a Drive; plantilla `marcapagines_SA2.svg`.
 **▶️ Obertura (10'):** criteris d'èxit del producte (forma + missatge + imatge vectoritzada).
 - 💻 **Estudi de disseny:** **vectorització** (Camí → Vectoritza mapa de bits) + disseny del marcapàgines (~150×50 mm, missatge gravat, forat per a la borla) + capes.
 - 🔧 **Estació Maker:** preparació a XCS amb els dissenys ja acabats, **proves de paràmetres de gravat sobre retalls** (que vegin què fa cada potència), repàs de fitxers a punt de tall. Si el gruix del dia no ho demana, aquesta sessió admet fer-se **sencera a l'estudi de disseny** (tot és Chromebook): decideix-ho segons com vagi el grup.
@@ -146,13 +176,13 @@ que més es descuida i que més fitxers espatlla a la làser — repeteix-lo fin
 pròpia no surt, imatge del banc i tothom fabrica igualment.
 **⏹️ Tancament (5'):** diari.
 
-**📋 En acabar:** revisió de fitxers i **nesting** de la planxa per a la setmana 6.
+**📋 En acabar:** revisió de fitxers i **nesting** de la planxa per a la setmana 7.
 **⚠️ Vigila:** la vectorització automàtica amb fotos complexes genera monstres de mil nodes —
 imatges simples i d'alt contrast, o banc de plantilles.
 
 ---
 
-## Setmana 6 · SA2 · S3/3 — «Fabricació + 1a coavaluació del curs» 🔁 rotació (obre Maker: **grup B**)
+## Setmana 7 · SA2 · S3/3 — «Fabricació + 1a coavaluació del curs» 🔁 rotació (obre Maker: **grup A**)
 
 **Fil del dia:** segon producte acabat — i la primera coavaluació, que s'ha de **calibrar** abans.
 
@@ -169,7 +199,7 @@ imatges simples i d'alt contrast, o banc de plantilles.
 
 ---
 
-## Setmana 7 · SA3 · S1/5 — «⭐ El repte d'identitat: idear i planificar» 👥 grup sencer
+## Setmana 8 · SA3 · S1/5 — «⭐ El repte d'identitat: idear i planificar» 👥 grup sencer
 
 **Fil del dia:** arrenca el primer projecte d'equip amb muntatge de peces. Avui es decideix
 tot: objecte, requisits, rols i **signatura de peça**.
@@ -188,7 +218,7 @@ pla validat: retorna'l amb preguntes, no amb un «no».
 
 ---
 
-## Setmana 8 · SA3 · S2/5 — «Unions per encaix» 🔁 rotació (obre Maker: **grup B**)
+## Setmana 9 · SA3 · S2/5 — «Unions per encaix» 🔁 rotació (obre Maker: **grup A**)
 
 **Fil del dia:** el salt tècnic del trimestre: dissenyar ranures a mida del gruix del material.
 
@@ -205,82 +235,64 @@ només siluetes.
 
 ---
 
-## Setmana 9 · SA3 · S3/5 — «Mostra d'encaix, kerf i fabricació» 🔁 rotació (obre Maker: **grup A**)
+## Setmana 10 · SA3 · S3/5 — «Mostra d'encaix, kerf i fabricació» 🔁 rotació (obre Maker: **grup B**)
 
 **Fil del dia:** el moment més maker del trimestre: mesurar el kerf real i fabricar per equips.
 
-**🎒 Abans:** retalls per a mostres; peu de rei a l'estació Maker; planxes per equip preparades.
+**🎒 Abans:** retalls per a mostres (i la `mostra_encaix_kerf_SA3.svg` a punt); peu de rei a
+l'estació Maker; planxes per equip preparades. **Envia les invitacions de la 🎪 Fira T1 a les
+famílies** (la data es va reservar al setembre; una nota curta amb dia, hora i què veuran).
 **▶️ Obertura (10'):** què és la mostra d'encaix i per què fabrica abans que ningú.
 - 🔧 **Estació Maker:** tallar la **mostra d'encaix** de cada equip → **mesurar el kerf** (ranura dibuixada 3,0 mm vs mesurada: la diferència és el que es menja el làser) → ajustar unions → **fabricació per batch d'equip**.
 - 💻 **Estudi de disseny:** acabar gravats, començar el guió de presentació, diari; reptes per a qui ja té la seva peça enviada.
 **⏹️ Tancament (5'):** diari.
 
-**📋 En acabar:** seguiment; deixa apuntat quins equips necessiten refabricar peces (setmana 10).
+**📋 En acabar:** seguiment; deixa apuntat quins equips necessiten refabricar peces (setmana 11).
 **⚠️ Vigila:** la temptació de saltar la mostra «per anar de pressa». La mostra és Gran Idea 4
 encarnada: l'error barat de 2 minuts evita l'error car de 20.
 
 ---
 
-## Setmana 10 · SA3 · S4/5 — «Muntatge i iteració» 🔁 rotació (obre Maker: **grup B**)
+## Setmana 11 · SA3 · S4/5 — «Muntatge i iteració» 🔁 rotació (obre Maker: **grup A**)
 
 **Fil del dia:** encaixar de veritat. El que no quadra es refabrica: això és la iteració, no un fracàs.
 
 **🎒 Abans:** cola blanca, serjants petits si en tens, LED de pila per a làmpades; retalls per
-refabricar. **Envia les invitacions de la 🎪 Fira T1 a les famílies** (la data es va reservar
-al setembre; una nota curta amb dia, hora i què veuran).
+refabricar. Confirma l'assistència aproximada de famílies a la 🎪 Fira de la setmana vinent.
 **▶️ Obertura (10'):** «avui l'objectiu és que s'aguanti» + recordar criteris d'èxit.
 - 🔧 **Estació Maker:** **muntatge** (ajustar, encolar, provar funció) + **refabricació** de peces que no encaixen (batch curt d'iteració).
 - 💻 **Estudi de disseny:** preparació de la presentació (problema → solució → procés → millores) + portafoli del procés + diari.
 **⏹️ Tancament (5'):** diari (foto del muntatge, encara que no estigui acabat).
 
-**📋 En acabar:** seguiment; confirma que tots els equips tindran objecte presentable la setmana 11.
+**📋 En acabar:** seguiment; confirma que tots els equips tindran objecte presentable la setmana 12.
 **⚠️ Vigila:** la cola no és una eina de disseny — si tot es fixa amb cola, l'encaix no s'ha
 après. Val la pena dir-ho a la galeria.
 
 ---
 
-## Setmana 11 · SA3 · S5/5 — «🎪 Fira de mostres T1 (amb famílies)» 👥 grup sencer + visitants
+## Setmana 12 · SA3 · S5/5 — «🎪 Fira de mostres T1 + tancament del T1» 👥 grup sencer + visitants
 
-**Fil del dia:** la primera Fira trimestral del curs: els equips presenten davant les
-famílies. Tu passes la **rúbrica completa** (és SA ⭐) — amb públic real, la CA5.3 és en viu.
+**Fil del dia:** la primera Fira trimestral del curs (famílies presents!) i el tancament de
+trimestre en una sola sessió — el mateix format que farà el T2 a la setmana 24. Cronometra.
 
-**🎒 Abans:** invitacions enviades la setmana 10 (confirma assistència aproximada); ordre de
-presentacions; espai a punt (si els visitants passen per l'aula Maker: grups de ≤10 comptats
-a la porta, com a la Fira final); `Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md`
-impreses/al quadern; pauta de coavaluació.
-**▶️ Obertura (10'):** com s'escolta una presentació (el públic també s'avalua: CA5.3 en viu);
-benvinguda a les famílies i regles de visita.
+**🎒 Abans:** invitacions enviades la setmana 10; espai a punt (si els visitants passen per
+l'aula Maker: grups de ≤10 comptats a la porta, rol de controlador); ordre de presentacions;
+`Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md` impreses/al quadern; pauta de
+coavaluació; tiquets anònims; fulls de progrés al dia; targetes del Museu candidates a 🏆.
+**▶️ Obertura (10'):** benvinguda a les famílies i regles de visita + com s'escolta una
+presentació (el públic també s'avalua: CA5.3 en viu).
 **Desenvolupament:**
-1. **Fira de productes amb famílies (60')** — cada equip: problema, solució, procés, millores. Els dos docents passen rúbrica en paral·lel (cadascú les seves files: tu CA2/CA3, el co-docent CA1/CA5).
-2. **Coavaluació (30')** — amb la pauta ja calibrada (les famílies s'acomiaden aquí).
-3. **Inici del tancament (20')** — organitzar el portafoli del T1.
-**⏹️ Tancament (10'):** diari + tiquet d'equip (*Què refaríem si comencéssim de nou*).
+1. **Fira de productes amb famílies (60')** — cada equip: problema, solució, procés, millores (5-6' per equip, temporitzador visible). Els dos docents passen rúbrica en paral·lel (tu CA2/CA3, el co-docent CA1/CA5). Les famílies s'acomiaden en acabar aquest bloc.
+2. **Coavaluació (20')** — amb la pauta ja calibrada.
+3. **Tancament del T1 (25')** — portafoli del trimestre, autoavaluació, 🏆 votació de *L'error del trimestre* (Museu), tiquet anònim de valoració, anunci que els **equips es re-formen al T2**. El full de progrés individual: el que no hi capiga avui, primera sessió del T2.
+**⏹️ Tancament (5'):** diari + 🎯 objectiu personal per al T2.
 
-**📋 En acabar:** **rúbrica completa + producte final → full de progrés**. Deixa la valoració T1
-a mig fer: la setmana 12 la tanques.
-**⚠️ Vigila:** 6-7 equips × presentació = el temps vola. Cronometra (5-6' per equip, temporitzador
-visible) o la coavaluació desapareix. I amb famílies dins, l'aforament de l'aula Maker és tan
-normatiu com sempre.
-
----
-
-## Setmana 12 · Tancament del T1 👥 grup sencer
-
-**Fil del dia:** tancar bé el trimestre: portafoli, mirada enrere i les fites de tancament.
-
-**🎒 Abans:** fulls de progrés al dia; tiquets anònims impresos (o Form); targetes del Museu candidates a 🏆.
-**Desenvolupament:**
-1. **Portafoli del T1 (40')** — diari + evidències ordenades; autoavaluació trimestral (`Avaluació/Autoavaluacio_coavaluacio.md`).
-2. **El meu progrés (30')** — ensenyar a **cada alumne/a el seu full de progrés** (2-3' per cap, mentre la resta acaba el portafoli); cadascú escriu el seu 🎯 objectiu per al T2 al diari.
-3. **Rituals de trimestre (40')** — 🏆 votació de *L'error del trimestre* (Museu) · tiquet anònim de valoració de l'assignatura · anunci que els **equips es re-formen al T2** (els grups A/B es mantenen).
-**⏹️ Tancament (10'):** lliurament del portafoli.
-
-**📋 En acabar (fites T1, la llista sencera és al final del guió):** valoració T1 al progrés ·
-**revisió d'equitat amb dades** (10' amb el co-docent: recompte de carnets/kanban) · retorn del
-tiquet al grup a la primera sessió del T2 («ens heu dit X, farem Y») · re-formar equips ·
-línia per sessió al diari docent + temps reals de màquina.
-**⚠️ Vigila:** aquesta sessió sembla «tova» i és la que més informació et dona per al T2. No la
-converteixis en «acabar feina endarrerida»: la feina endarrerida té el coixí de la setmana 35.
+**📋 En acabar (fites T1, la llista sencera és al final del guió):** **rúbrica completa +
+producte final + valoració T1** al full de progrés · **revisió d'equitat amb dades** (10' amb
+el co-docent) · retorn del tiquet al grup a la setmana 13 («ens heu dit X, farem Y») ·
+re-formar equips · línia per sessió a la bitàcola + temps reals de màquina.
+**⚠️ Vigila:** és la sessió més densa del trimestre: sense temporitzador, el tancament
+desapareix. I amb famílies dins, l'aforament de l'aula Maker és tan normatiu com sempre.
 
 ---
 
@@ -452,7 +464,9 @@ existeix exactament per a això, i és fila de rúbrica.
 
 **Fil del dia:** setmana de màquina: batches de placa per equip, kanban i treball paral·lel.
 
-**🎒 Abans:** kanban amb una targeta per placa; primeres plaques llançades abans de classe si pots.
+**🎒 Abans:** kanban amb una targeta per placa; primeres plaques llançades abans de classe si
+pots. **Envia les invitacions de la 🎪 Fira T2 a les famílies** (i convida-hi també els
+usuaris reals dels projectes!).
 **▶️ Obertura (10'):** estat de la cua en veu alta.
 - 🔧 **Estació Maker:** laminat de les peces validades → **batches de placa per equip** → impressió + seguiment de primera capa; postprocés del que surt.
 - 💻 **Estudi de disseny:** millores de disseny, inici del guió de la **presentació d'impacte** (què resol, per a qui, com ho sabem), reptes, Museu si cau alguna impressió.
@@ -469,8 +483,8 @@ d'avui és arribar al mínim de la S2, no colar-se a la cua.
 **Fil del dia:** el moment de la veritat del T2: l'usuari real prova la solució i diu la seva.
 
 **🎒 Abans:** **usuari disponible i confirmat** (si no pot venir, l'equip hi va o es grava la
-prova); material de muntatge; les últimes peces impreses. **Envia les invitacions de la 🎪
-Fira T2 a les famílies** (i convida-hi també els usuaris reals dels projectes!).
+prova); material de muntatge; les últimes peces impreses. Confirma l'assistència aproximada
+de famílies a la 🎪 Fira de la setmana vinent.
 **▶️ Obertura (10'):** com es recull feedback sense defensar-se: escoltar, apuntar, donar les gràcies.
 - 🔧 **Estació Maker:** postprocés i **muntatge** → **prova amb l'usuari** (per torns d'equip) → decidir la iteració (què canviem?); refabricar el que sigui ràpid.
 - 💻 **Estudi de disseny:** preparar la presentació d'impacte + **evidència del feedback** (què va dir, què canviem — foto/cita al portafoli).

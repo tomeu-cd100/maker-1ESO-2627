@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 1r — **Producte final de trimestre** |
-| **Temporització** | 5 sessions de 2 h (setmanes 7–11) |
+| **Temporització** | 5 sessions de 2 h (setmanes 8–12) — la sessió 5 és la 🎪 **Fira de mostres T1** i inclou el tancament del trimestre |
 | **Eix** | Projecte de fabricació làser (procés tecnològic complet) |
 | **Producte final** | Un **objecte d'identitat** funcional tallat i gravat (organitzador d'escriptori, làmpada, joc senzill o caixa) |
 
@@ -63,7 +63,7 @@ encaix (*kerf* / joints) i el treball en equip.
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 7–11 (+ tancament del T1 a la setmana 12).
+> setmanes 8–12 (la setmana 12 fusiona Fira i tancament del T1, com fa el T2 a la setmana 24).
 
 ### Sessió 1 — Repte i idea (2 h)
 1. **Presentació del repte i exemples (20')**.
