@@ -51,6 +51,29 @@ Valora cada company/a de l'equip (inclòs/a tu) de l'1 al 4 en aquests aspectes:
 **Una cosa positiva del meu equip:** ____________________________
 **Una proposta per treballar millor junts:** ____________________
 
+## B·bis) Checklist de rol (només a les SA de projecte: SA3, SA6 i SA9)
+
+Cada rol té una **responsabilitat observable** (taula de rols d'`Aprenentatge_cooperatiu.md`
+§2: el coordinador presenta el pla, el dissenyador explica les decisions, l'operador documenta
+els paràmetres, el documentalista manté el diari al dia). En tancar el projecte, valoreu-la
+**en equip** (un full per equip, 2-3 minuts parlant-ne junts), rol per rol, amb el semàfor i
+**una evidència vista**:
+
+| Membre | Rol (🧭 ✏️ ⚙️ 📷) | Què havia de fer (responsabilitat del rol) | 🔴🟡🟢 | On es veu (evidència) |
+|--------|:----------------:|--------------------------------------------|:-----:|------------------------|
+| | | | | |
+| | | | | |
+| | | | | |
+| | | | | |
+
+> 🔴 no ho ha fet · 🟡 a mitges o amb molta ajuda · 🟢 fet, i l'equip se n'ha beneficiat.
+>
+> Val la mateixa regla d'or del calibratge: el semàfor es posa per **el que hem vist fer**,
+> amb l'evidència al costat («va presentar el pla dilluns», «el diari té les 3 entrades»).
+> Si no hi ha acord en un semàfor, això és una conversa d'equip pendent, no una casella a
+> mitges. El docent el recull amb la resta de la coavaluació: alimenta CA5.1 i l'observació
+> del `Full_seguiment_grup.md`.
+
 ## C) Coavaluació de productes (galeria)
 
 En veure els productes d'altres equips, anota:

@@ -13,6 +13,9 @@ per respectar-ne l'autoria i mantenir el repositori net de material d'altri.
   És el punt de partida per preparar les SA (Inkscape per a SA1–SA3, Tinkercad per a SA4–SA6, etc.).
 - **[`Plantilles_disseny/`](Plantilles_disseny/)** — plantilles SVG llestes per tallar (clauer
   SA1, marcapàgines SA2) i un **generador de caixes amb encaix** en Python (SA3).
+- **[`Museu_llavor_errors.md`](Museu_llavor_errors.md)** — com fabricar expressament les
+  **5 peces fallides canòniques** (warping, kerf, gravat cremat, forat a la vora, suports)
+  amb la targeta de museu ja resolta, perquè el Museu dels Errors no comenci buit.
 
 ## On trobar la formació (en comptes de copiar-la)
 Per preparar les tècniques, fes servir els **enllaços validats** de `Enllacos_i_tutorials.md` i,

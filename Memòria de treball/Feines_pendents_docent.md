@@ -34,6 +34,8 @@
 - [ ] **Fotografiar les 3 escenes de la gimcana** amb els errors plantats i **retallar les
   targetes** de materials i casos (`Classes/SA0_Punt_de_partida/Material_gimcana_seguretat.md`).
 - [ ] **Buidar una lleixa** per al Museu dels Errors (+ posar-hi la pila de targetes).
+- [ ] **Fabricar el museu llavor**: les 5 peces fallides canòniques amb la targeta resolta
+  (`Recursos/Museu_llavor_errors.md`, una tarda) — així els adults obren el museu el dia 1.
 - [ ] Preparar l'aula Maker **per zones** i donar identitat a l'**estudi de disseny** de
   l'aula ordinària (peus de rei, mostres de materials, cartell — codocència §2).
 - [ ] Comprovar **màquines i consumibles**: DM/contraxapat 3 mm, anelles de clauer, PLA,

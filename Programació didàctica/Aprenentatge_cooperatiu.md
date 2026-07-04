@@ -54,6 +54,8 @@ Ens comprometem a:
 - Tècnica **"el número"** i tiquets de sortida individuals.
 - La nota combina **producte d'equip** + **observació individual** (`Avaluació/Full_seguiment_grup.md`)
   + **coavaluació** (`Avaluació/Autoavaluacio_coavaluacio.md`).
+- En tancar SA3/6/9: el **checklist de rol** (semàfor de la responsabilitat de cada rol,
+  acordat en equip amb una evidència vista) — secció B·bis d'`Avaluació/Autoavaluacio_coavaluacio.md`.
 
 ## 6. Gestió de conflictes (protocol senzill)
 1. **Parem i escoltem:** cadascú diu el problema sense acusar ("jo sento que...").

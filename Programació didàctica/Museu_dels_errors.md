@@ -30,7 +30,9 @@ objecte permanent**.
 2. La targeta parla de la **peça**, mai de la persona: «el forat era massa a prop de la vora»,
    no «en Marc va fer el forat malament».
 3. El docent hi posa les **seves** peces fallides primer (i el co-docent les del seu
-   aprenentatge maker): els adults obren el museu.
+   aprenentatge maker): els adults obren el museu. Per no començar amb la lleixa buida,
+   `Recursos/Museu_llavor_errors.md` explica com fabricar expressament les **5 peces
+   fallides canòniques** amb la targeta ja resolta (el «museu llavor»).
 4. Els errors *repetits* del museu es converteixen en **checklist**: si tres peces han fallat
    pel mateix, allò entra a la fitxa de la SA corresponent.
 
