@@ -55,7 +55,8 @@ imprimible), amb portades per a **docents**, **alumnat** i **famílies**:
 **https://tomeu-cd100.github.io/maker-1ESO-2627/**
 
 - La web **es construeix sola**: a cada push, el workflow `.github/workflows/pages.yml`
-  verifica els enllaços (`verifica_enllacos.py`), regenera la web des dels `.md`
+  verifica els enllaços (`verifica_enllacos.py`), comprova la coherència competencial
+  matriu ↔ SA (`verifica_competencies.py`), regenera la web des dels `.md`
   (`build_web.py`) i la publica a GitHub Pages. **No cal fer res més que editar els `.md`.**
 - Per a ús **offline**: `pip install markdown` + `python build_web.py` i obriu
   `web/index.html` (la carpeta `web/` no es versiona: és un producte generat).

@@ -43,10 +43,13 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 `volum` · `eix X/Y/Z` · `cos` · `buit (forat)` · `agrupar` · `escala` · `STL`
 
 ## 2. Competències específiques i criteris avaluats
+
+> **Focals d'aquesta SA** (els criteris que la distingeixen). A **totes les SA** s'hi avaluen, a
+> més, els **constants** de sota (avaluació contínua). Matriu completa:
+> `Avaluació/Criteris_i_qualificacio.md` §4.
+
 - **CE2** → CA2.2, CA2.3
-- **CE1** → CA1.4
-- **CE5** → CA5.2
-- **CE6** → CA6.1
+- **Constants (totes les SA)** → CA1.4 · CA5.1 · CA5.2 · CA6.1
 
 ## 3. Sabers
 - Pensament tridimensional: vistes, volum, eixos X/Y/Z.

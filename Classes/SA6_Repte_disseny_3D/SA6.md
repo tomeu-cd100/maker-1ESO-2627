@@ -49,11 +49,17 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 `empatia` · `disseny centrat en l'usuari` · `requisit` · `assemblatge` · `iteració` · `impacte`
 
 ## 2. Competències específiques i criteris avaluats
-- **CE1** → CA1.1, CA1.2, CA1.3, CA1.4
+
+> **Focals d'aquesta SA** (els criteris que la distingeixen). A **totes les SA** s'hi avaluen, a
+> més, els **constants** de sota (avaluació contínua). Matriu completa:
+> `Avaluació/Criteris_i_qualificacio.md` §4.
+
+- **CE1** → CA1.1, CA1.2, CA1.3
 - **CE2** → CA2.2, CA2.3
 - **CE3** → CA3.2, CA3.3
-- **CE5** → CA5.1, CA5.2, CA5.3
-- **CE6** → CA6.1, CA6.2
+- **CE5** → CA5.3
+- **CE6** → CA6.2
+- **Constants (totes les SA)** → CA1.4 · CA5.1 · CA5.2 · CA6.1
 - **Transversals** → **TE** (participació equitativa) i **TA** (orientació a l'usuari/APS): SA
   especialment idònia per avaluar l'APS (usuari real, prova i impacte). Vegeu
   `Avaluació/Rubrica_general_competencial.md` i `Programació didàctica/Interdisciplinarietat_i_APS.md`.

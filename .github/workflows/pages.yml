@@ -29,6 +29,8 @@ jobs:
         run: pip install markdown
       - name: Verifica els enllaços dels .md
         run: python verifica_enllacos.py
+      - name: Verifica la coherència competencial (matriu ↔ SA)
+        run: python verifica_competencies.py
       - name: Genera la web des dels .md
         run: python build_web.py
       - uses: actions/configure-pages@v5

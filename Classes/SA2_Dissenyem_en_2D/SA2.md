@@ -43,11 +43,16 @@ converteix en línies que la màquina pot tallar i gravar.
 `node` · `camí` · `operació booleana` · `vectoritzar` · `capa` · `ompliment` · `nesting (aprofitar la planxa)`
 
 ## 2. Competències específiques i criteris avaluats
-- **CE1** → CA1.2, CA1.4
+
+> **Focals d'aquesta SA** (els criteris que la distingeixen). A **totes les SA** s'hi avaluen, a
+> més, els **constants** de sota (avaluació contínua). Matriu completa:
+> `Avaluació/Criteris_i_qualificacio.md` §4.
+
+- **CE1** → CA1.1, CA1.2
 - **CE2** → CA2.1, CA2.3
 - **CE3** → CA3.1, CA3.3
-- **CE5** → CA5.2
-- **CE6** → CA6.1, CA6.2
+- **CE6** → CA6.2
+- **Constants (totes les SA)** → CA1.4 · CA5.1 · CA5.2 · CA6.1
 
 ## 3. Sabers
 - Disseny vectorial: nodes, camins, unió/diferència de formes, alineació, text a camí.

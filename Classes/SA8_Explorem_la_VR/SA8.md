@@ -44,10 +44,17 @@ escena 3D que es pot explorar amb les ulleres VR.
 `realitat virtual` · `immersió` · `escena` · `interacció` · `CoSpaces` · `salut visual` · `ètica digital`
 
 ## 2. Competències específiques i criteris avaluats
+
+> **Focals d'aquesta SA** (els criteris que la distingeixen). A **totes les SA** s'hi avaluen, a
+> més, els **constants** de sota (avaluació contínua). Matriu completa:
+> `Avaluació/Criteris_i_qualificacio.md` §4.
+
+- **CE1** → CA1.2
+- **CE3** → CA3.3
 - **CE4** → CA4.2, CA4.3
-- **CE1** → CA1.2, CA1.4
-- **CE5** → CA5.1, CA5.2, CA5.3
-- **CE6** → CA6.1, CA6.3
+- **CE5** → CA5.3
+- **CE6** → CA6.3
+- **Constants (totes les SA)** → CA1.4 · CA5.1 · CA5.2 · CA6.1
 
 ## 3. Sabers
 - Realitat virtual: dispositius, graus de llibertat, salut visual i seguretat (temps d'ús,

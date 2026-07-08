@@ -45,11 +45,16 @@ a alumnat nou de 6è de primària…).
 `360°` · `equirectangular` · `punt de captura` · `tour virtual` · `navegació` · `drets d'imatge`
 
 ## 2. Competències específiques i criteris avaluats
-- **CE4** → CA4.1, CA4.2
-- **CE1** → CA1.4
+
+> **Focals d'aquesta SA** (els criteris que la distingeixen). A **totes les SA** s'hi avaluen, a
+> més, els **constants** de sota (avaluació contínua). Matriu completa:
+> `Avaluació/Criteris_i_qualificacio.md` §4.
+
 - **CE3** → CA3.3
-- **CE5** → CA5.1, CA5.2, CA5.3
+- **CE4** → CA4.1, CA4.2, CA4.3
+- **CE5** → CA5.3
 - **CE6** → CA6.3
+- **Constants (totes les SA)** → CA1.4 · CA5.1 · CA5.2 · CA6.1
 
 ## 3. Sabers
 - Imatge i vídeo 360: concepte, projecció equirectangular, punt de captura.

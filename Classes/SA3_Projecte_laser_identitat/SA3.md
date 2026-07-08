@@ -47,11 +47,17 @@ encaix (*kerf* / joints) i el treball en equip.
 `procés tecnològic` · `requisit` · `prototip` · `iteració` · `unió per encaix` · `kerf (amplada de tall)` · `rol d'equip`
 
 ## 2. Competències específiques i criteris avaluats
-- **CE1** → CA1.1, CA1.2, CA1.3, CA1.4
+
+> **Focals d'aquesta SA** (els criteris que la distingeixen). A **totes les SA** s'hi avaluen, a
+> més, els **constants** de sota (avaluació contínua). Matriu completa:
+> `Avaluació/Criteris_i_qualificacio.md` §4.
+
+- **CE1** → CA1.1, CA1.2, CA1.3
 - **CE2** → CA2.1, CA2.3
 - **CE3** → CA3.1, CA3.3
-- **CE5** → CA5.1, CA5.2, CA5.3
-- **CE6** → CA6.1, CA6.2
+- **CE5** → CA5.3
+- **CE6** → CA6.2
+- **Constants (totes les SA)** → CA1.4 · CA5.1 · CA5.2 · CA6.1
 
 ## 3. Sabers
 - Procés tecnològic complet i planificació de projecte.

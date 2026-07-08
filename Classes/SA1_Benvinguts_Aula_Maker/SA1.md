@@ -48,11 +48,16 @@ desenvoluparan en SA2 i SA3.
 `maker` · `fabricació digital` · `disseny vectorial` · `tall` · `gravat` · `làser` · `prototip` · `seguretat`
 
 ## 2. Competències específiques i criteris avaluats
-- **CE1** → CA1.1, CA1.4
+
+> **Focals d'aquesta SA** (els criteris que la distingeixen). A **totes les SA** s'hi avaluen, a
+> més, els **constants** de sota (avaluació contínua). Matriu completa:
+> `Avaluació/Criteris_i_qualificacio.md` §4.
+
+- **CE1** → CA1.1
 - **CE2** → CA2.1
 - **CE3** → CA3.1
-- **CE5** → CA5.2
-- **CE6** → CA6.1, CA6.3
+- **CE6** → CA6.3
+- **Constants (totes les SA)** → CA1.4 · CA5.1 · CA5.2 · CA6.1
 
 ## 3. Sabers
 - Cultura maker, fabricació digital, *fab lab*, codi obert i llicències.
