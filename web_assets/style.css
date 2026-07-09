@@ -151,6 +151,11 @@ li.task { list-style: none; margin-left: -1.2rem; }
 li.task.done { color: var(--ink-soft); }
 
 img { max-width: 100%; }
+.doc img {
+  display: block; height: auto; margin: 1.2rem 0;
+  border: 1px solid var(--line); border-radius: 12px;
+  box-shadow: var(--shadow);
+}
 
 /* ── portada ───────────────────────────────── */
 .hero { text-align: center; padding: 2.5rem 0 1.5rem; }

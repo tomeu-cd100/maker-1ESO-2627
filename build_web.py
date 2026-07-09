@@ -202,6 +202,19 @@ def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str) -> str:
         return m.group(0)
 
     html_text = re.sub(r"<code>([^<]+)</code>", fix_code, html_text)
+
+    # 3) imatges: <img src="ruta/relativa/al/repo"> → còpia dins web/
+    def fix_src(m):
+        src = m.group(1)
+        if src.startswith(("http://", "https://", "data:")):
+            return m.group(0)
+        asset = src.replace("%20", " ").lstrip("./")
+        cand = asset if (ROOT / asset).exists() else f"{current_rel_dir}/{asset}"
+        if (ROOT / cand).exists():
+            return f'src="{prefix}{slugify(cand)}"'
+        return m.group(0)
+
+    html_text = re.sub(r'src="([^"]+)"', fix_src, html_text)
     return html_text
 
 
@@ -572,6 +585,13 @@ def copy_assets():
         dest.mkdir(parents=True, exist_ok=True)
         for f in plant.iterdir():
             if f.suffix in (".svg", ".py"):
+                shutil.copyfile(f, dest / slugify(f.name))
+    imatges = ROOT / "Recursos" / "imatges"
+    if imatges.is_dir():
+        dest = OUT / slugify("Recursos/imatges")
+        dest.mkdir(parents=True, exist_ok=True)
+        for f in imatges.iterdir():
+            if f.suffix.lower() in (".png", ".jpg", ".jpeg", ".webp", ".gif", ".svg"):
                 shutil.copyfile(f, dest / slugify(f.name))
     impresos = ROOT / "web_assets" / "impressos"
     if impresos.is_dir():

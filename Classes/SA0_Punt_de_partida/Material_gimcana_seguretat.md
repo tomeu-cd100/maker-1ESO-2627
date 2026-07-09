@@ -20,17 +20,23 @@ plantats** (o representeu-les en làmines). Escenes suggerides amb els errors a 
 4. Un **got de batut** al costat del teclat.
 5. Retalls i restes **acumulats dins** la làser.
 
+![Escena A «La pressa»: fotografia de l'aula Maker amb els 5 perills plantats per trobar-los.](Recursos/imatges/A.jpg)
+
 **Escena B — «El look perillós»** (4 errors)
 1. Alumne/a amb els **cabells llargs solts** inclinat sobre la màquina.
 2. **Mànigues amples** penjant / cordó de la dessuadora sobre la zona de treball.
 3. Toca la peça acabada de tallar **amb els dits** (encara crema).
 4. **Corre** entre les taules amb unes tisores a la mà.
 
+![Escena B «El look perillós»: fotografia de l'aula Maker amb els 4 perills plantats per trobar-los.](Recursos/imatges/B.jpg)
+
 **Escena C — «El material misteriós»** (4 errors)
 1. Una planxa de **PVC/vinil** a punt de posar a la làser.
 2. Material **sense etiquetar** («això que he trobat al garatge»).
 3. **Esprai inflamable** a la lleixa de sobre la làser.
 4. La **finestra tancada** i l'extractor apagat amb la làser preparada.
+
+![Escena C «El material misteriós»: fotografia de l'aula Maker amb els 4 perills plantats per trobar-los.](Recursos/imatges/C.jpg)
 
 **Consigna:** «Quants perills veieu? Anoteu-los i digueu QUÈ pot passar per culpa de cadascun.»
 *(Puntua trobar-los, però sobretot saber-ne la conseqüència.)*
