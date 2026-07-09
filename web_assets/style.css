@@ -157,6 +157,51 @@ img { max-width: 100%; }
   box-shadow: var(--shadow);
 }
 
+/* ── joc Prova 2: classifica els materials ─── */
+.jp2 {
+  border: 2px solid var(--line); border-radius: 16px;
+  background: var(--bg-card); padding: 1.2rem 1.3rem;
+  margin: 1.4rem 0; box-shadow: var(--shadow);
+}
+.jp2-titol { font-size: 1.25rem; font-weight: 700; margin: 0 0 .3rem; }
+.jp2-sub { color: var(--ink-soft); margin: 0 0 1rem; }
+.jp2-btn {
+  font: inherit; font-weight: 600; cursor: pointer;
+  border: 2px solid var(--line); border-radius: 999px;
+  background: var(--bg-card); color: var(--ink); padding: .6rem 1.2rem;
+}
+.jp2-btn:hover { transform: translateY(-1px); transition: transform .15s; }
+.jp2-btn:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+.jp2-comenca, .jp2-torna, .jp2-seguent {
+  background: var(--accent); border-color: var(--accent); color: #fff; font-size: 1.05rem;
+}
+.jp2-barra { height: 8px; border-radius: 999px; background: var(--accent-soft); overflow: hidden; margin-bottom: .6rem; }
+.jp2-barra-plena { height: 100%; width: 0; background: var(--accent); transition: width .3s; }
+.jp2-progres { font-size: .9rem; color: var(--ink-soft); margin: 0 0 1rem; }
+.jp2-carta {
+  display: flex; align-items: center; justify-content: center;
+  min-height: 5.5rem; padding: 1rem; margin-bottom: 1rem;
+  border: 2px dashed var(--line); border-radius: 12px;
+  background: color-mix(in srgb, var(--bg-card) 60%, var(--bg));
+}
+.jp2-material { font-size: 1.5rem; font-weight: 700; text-align: center; }
+.jp2-opcions { display: flex; flex-wrap: wrap; gap: .6rem; }
+.jp2-op { flex: 1 1 8rem; padding: .8rem; font-size: 1rem; }
+.jp2-op:disabled { cursor: default; }
+.jp2-op.jp2-ok { background: #128a4d; border-color: #128a4d; color: #fff; }
+.jp2-op.jp2-ko { background: #c0392b; border-color: #c0392b; color: #fff; }
+.jp2-feedback { margin: 1rem 0 .4rem; line-height: 1.5; }
+.jp2-feedback.jp2-fb-ok, .jp2-feedback.jp2-fb-ko { padding: .8rem 1rem; border-radius: 10px; color: var(--ink); }
+.jp2-fb-ok { background: color-mix(in srgb, #128a4d 15%, var(--bg-card)); border: 1px solid #128a4d; }
+.jp2-fb-ko { background: color-mix(in srgb, #c0392b 15%, var(--bg-card)); border: 1px solid #c0392b; }
+.jp2-seguent { margin-top: .4rem; }
+.jp2-resultat { font-size: 1.1rem; }
+.jp2-repas-tit { font-weight: 600; margin-bottom: .3rem; }
+.jp2-repas ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+.jp2-repas li { margin: .3rem 0; }
+.jp2-taula { margin: 1rem 0; }
+.jp2-taula > summary { cursor: pointer; font-weight: 600; color: var(--accent); padding: .4rem 0; }
+
 /* ── portada ───────────────────────────────── */
 .hero { text-align: center; padding: 2.5rem 0 1.5rem; }
 .hero h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); margin-bottom: .5rem; }
