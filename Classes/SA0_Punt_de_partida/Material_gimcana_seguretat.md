@@ -74,6 +74,8 @@ val mig punt.»
 
 Un cas per targeta; l'equip acorda la resposta en 1 minut. Resposta esperada en cursiva.
 
+<div id="joc-p3" class="jqz"></div>
+
 1. **Veus una flama petita dins la làser.** → *Avisar el docent IMMEDIATAMENT (crit d'avís,
    sense córrer). No obrir la tapa d'entrada; el docent atura la màquina i actua segons el
    protocol del centre. Mai aigua sobre un aparell elèctric.*
@@ -309,6 +311,24 @@ Retalleu les normes i les raons per separat; l'equip les aparella.
     return dades;
   }
 
+  // ── Prova 3: la llista de casos ──
+  function dadesCasos() {
+    var llista = seguentElement(document.getElementById('joc-p3'), 'OL');
+    if (!llista) return [];
+    plega(llista, 'Mostra tots els casos amb resposta (per al docent)');
+    var items = llista.children, dades = [];
+    for (var i = 0; i < items.length; i++) {
+      var cas = items[i].querySelector('strong'), resp = items[i].querySelector('em');
+      if (!cas || !resp) continue;
+      dades.push({
+        enunciat: cas.textContent.trim(),
+        resposta: resp.innerHTML.trim(),
+        repas: '<strong>' + cas.textContent.trim() + '</strong> → ' + resp.innerHTML.trim()
+      });
+    }
+    return dades;
+  }
+
   function init() {
     jocQuiz({
       id: 'joc-p2',
@@ -319,6 +339,16 @@ Retalleu les normes i les raons per separat; l'equip les aparella.
       repasTitol: 'Repassa aquests:',
       perfecte: 'Cap error. Coneixes bé els materials del taller!',
       dades: dadesMaterials()
+    });
+    jocQuiz({
+      id: 'joc-p3',
+      titol: '🎮 Joc: què faries tu?',
+      sub: 'Tens <strong>{n}</strong> casos. Llegeix la situació, pensa què faries (o parleu-ho en parella) i compara-ho amb la resposta del taller.',
+      item: 'Cas', marcador: 'encertats', tipus: 'revela',
+      resultat: "T'has puntuat <strong>{x} de {n}</strong>.",
+      repasTitol: 'Torna a llegir aquests casos:',
+      perfecte: 'Tots encertats. Bons reflexos de taller!',
+      dades: dadesCasos()
     });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
