@@ -101,6 +101,8 @@ Un cas per targeta; l'equip acorda la resposta en 1 minut. Resposta esperada en 
 
 Retalleu les normes i les raons per separat; l'equip les aparella.
 
+<div id="joc-p4" class="jqz"></div>
+
 | Norma | Raó |
 |-------|-----|
 | No es toca cap màquina sense autorització | Les màquines tallen, cremen o atrapen: primer cal saber-ne el funcionament (per això hi ha el **carnet**) |
@@ -329,6 +331,37 @@ Retalleu les normes i les raons per separat; l'equip les aparella.
     return dades;
   }
 
+  // ── Prova 4: la taula norma ↔ raó (2 distractors per targeta) ──
+  function dadesNormes() {
+    var taula = seguentElement(document.getElementById('joc-p4'), 'TABLE');
+    if (!taula) return [];
+    plega(taula, 'Mostra les parelles norma ↔ raó (per al docent)');
+    var files = taula.querySelectorAll('tbody tr'), tot = [];
+    for (var i = 0; i < files.length; i++) {
+      var cel = files[i].querySelectorAll('td');
+      if (cel.length < 2) continue;
+      tot.push({ norma: cel[0].innerHTML.trim(), rao: cel[1].innerHTML.trim() });
+    }
+    var dades = [];
+    for (var i = 0; i < tot.length; i++) {
+      var altres = [];
+      for (var j = 0; j < tot.length; j++) if (j !== i) altres.push(tot[j].rao);
+      barreja(altres);
+      dades.push({
+        enunciat: tot[i].norma,
+        opcions: barreja([
+          { html: tot[i].rao, ok: true },
+          { html: altres[0], ok: false },
+          { html: altres[1], ok: false }
+        ]),
+        perque: tot[i].rao,
+        perqueKo: 'La raó de veritat: ' + tot[i].rao,
+        repas: tot[i].norma + ' → ' + tot[i].rao
+      });
+    }
+    return dades;
+  }
+
   function init() {
     jocQuiz({
       id: 'joc-p2',
@@ -349,6 +382,16 @@ Retalleu les normes i les raons per separat; l'equip les aparella.
       repasTitol: 'Torna a llegir aquests casos:',
       perfecte: 'Tots encertats. Bons reflexos de taller!',
       dades: dadesCasos()
+    });
+    jocQuiz({
+      id: 'joc-p4',
+      titol: '🎮 Joc: cada norma té una raó',
+      sub: 'Tens <strong>{n}</strong> normes. Per a cada una, tria la seva raó de veritat entre tres.',
+      item: 'Norma', marcador: 'encerts a la primera', tipus: 'opcions', vertical: true,
+      resultat: 'Has aparellat bé <strong>{x} de {n}</strong> a la primera.',
+      repasTitol: 'Repassa aquestes parelles:',
+      perfecte: 'Cap error. Les normes ja tenen tot el sentit!',
+      dades: dadesNormes()
     });
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
