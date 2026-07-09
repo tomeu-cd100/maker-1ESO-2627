@@ -48,6 +48,175 @@ plantats** (o representeu-les en làmines). Escenes suggerides amb els errors a 
 Retalleu una targeta per material. L'equip les classifica en **PERMÈS / PROHIBIT / CAL
 PREGUNTAR** i explica per què.
 
+<div id="joc-p2" class="jp2">
+  <div class="jp2-inici">
+    <p class="jp2-titol">🎮 Joc: classifica els materials</p>
+    <p class="jp2-sub">Tens <strong class="jp2-total-inici">12</strong> materials. Digues si cada un és <strong>permès</strong>, <strong>cal preguntar</strong> o <strong>prohibit</strong>… i mira'n el perquè.</p>
+    <button type="button" class="jp2-btn jp2-comenca">Comença ▶</button>
+  </div>
+
+  <div class="jp2-joc" hidden>
+    <div class="jp2-barra"><div class="jp2-barra-plena"></div></div>
+    <p class="jp2-progres">Material <span class="jp2-n">1</span> de <span class="jp2-t">12</span> · encerts a la primera: <span class="jp2-encerts">0</span> · ratxa 🔥 <span class="jp2-ratxa">0</span></p>
+    <div class="jp2-carta"><span class="jp2-material">—</span></div>
+    <div class="jp2-opcions">
+      <button type="button" class="jp2-btn jp2-op" data-cat="permes">✅ Permès</button>
+      <button type="button" class="jp2-btn jp2-op" data-cat="cal-preguntar">⚠️ Cal preguntar</button>
+      <button type="button" class="jp2-btn jp2-op" data-cat="prohibit">❌ Prohibit</button>
+    </div>
+    <div class="jp2-feedback" aria-live="polite"></div>
+    <button type="button" class="jp2-btn jp2-seguent" hidden>Següent →</button>
+  </div>
+
+  <div class="jp2-final" hidden>
+    <p class="jp2-titol">🏁 Fet!</p>
+    <p class="jp2-resultat"></p>
+    <div class="jp2-repas"></div>
+    <button type="button" class="jp2-btn jp2-torna">↺ Torna a jugar</button>
+  </div>
+</div>
+
+<script>
+(function () {
+  function init() {
+    var arrel = document.getElementById('joc-p2');
+    if (!arrel) return;
+
+    var ETIQUETA = { 'permes': '✅ Permès', 'cal-preguntar': '⚠️ Cal preguntar', 'prohibit': '❌ Prohibit' };
+    var NOM = { 'permes': 'Permès', 'cal-preguntar': 'Cal preguntar', 'prohibit': 'Prohibit' };
+
+    function trobaTaula(node) {
+      var n = node.nextElementSibling;
+      while (n && n.tagName !== 'TABLE') n = n.nextElementSibling;
+      return n;
+    }
+    function categoria(text) {
+      if (text.indexOf('✅') !== -1) return 'permes';
+      if (text.indexOf('❌') !== -1) return 'prohibit';
+      if (text.indexOf('⚠') !== -1) return 'cal-preguntar';
+      return null;
+    }
+    function llegeixDades(taula) {
+      var dades = [], files = taula.querySelectorAll('tbody tr');
+      for (var i = 0; i < files.length; i++) {
+        var cel = files[i].querySelectorAll('td');
+        if (cel.length < 3) continue;
+        var cat = categoria(cel[1].textContent);
+        if (!cat) continue;
+        dades.push({ nom: cel[0].textContent.trim(), cat: cat, perque: cel[2].innerHTML.trim() });
+      }
+      return dades;
+    }
+    function barreja(a) {
+      for (var i = a.length - 1; i > 0; i--) {
+        var j = Math.floor(Math.random() * (i + 1)), t = a[i]; a[i] = a[j]; a[j] = t;
+      }
+      return a;
+    }
+
+    var taula = trobaTaula(arrel);
+    if (!taula) return;
+    var DADES = llegeixDades(taula);
+    if (!DADES.length) return;
+
+    var det = document.createElement('details');
+    det.className = 'jp2-taula';
+    var sum = document.createElement('summary');
+    sum.textContent = 'Mostra el full de respostes (per al docent)';
+    taula.parentNode.insertBefore(det, taula);
+    det.appendChild(sum);
+    det.appendChild(taula);
+
+    var $ = function (s) { return arrel.querySelector(s); };
+    var vistaInici = $('.jp2-inici'), vistaJoc = $('.jp2-joc'), vistaFinal = $('.jp2-final');
+    var elMaterial = $('.jp2-material'), elFeedback = $('.jp2-feedback'), elSeguent = $('.jp2-seguent');
+    var elN = $('.jp2-n'), elT = $('.jp2-t'), elEncerts = $('.jp2-encerts'), elRatxa = $('.jp2-ratxa');
+    var elBarra = $('.jp2-barra-plena');
+    var opcions = arrel.querySelectorAll('.jp2-op');
+    $('.jp2-total-inici').textContent = DADES.length;
+
+    var estat = { ordre: [], i: 0, encerts: 0, ratxa: 0, fallats: [] };
+
+    function mostra(v) {
+      vistaInici.hidden = v !== 'inici';
+      vistaJoc.hidden = v !== 'joc';
+      vistaFinal.hidden = v !== 'final';
+    }
+    function comenca() {
+      estat.ordre = barreja(DADES.slice());
+      estat.i = 0; estat.encerts = 0; estat.ratxa = 0; estat.fallats = [];
+      elT.textContent = estat.ordre.length;
+      elEncerts.textContent = '0'; elRatxa.textContent = '0';
+      mostra('joc'); pinta();
+    }
+    function pinta() {
+      var m = estat.ordre[estat.i];
+      elMaterial.textContent = m.nom;
+      elN.textContent = (estat.i + 1);
+      elBarra.style.width = Math.round(estat.i / estat.ordre.length * 100) + '%';
+      elFeedback.textContent = ''; elFeedback.className = 'jp2-feedback';
+      elSeguent.hidden = true;
+      for (var k = 0; k < opcions.length; k++) {
+        opcions[k].disabled = false;
+        opcions[k].classList.remove('jp2-ok', 'jp2-ko');
+      }
+      opcions[0].focus();
+    }
+    function respon(cat, boto) {
+      var m = estat.ordre[estat.i], correcte = (cat === m.cat);
+      for (var k = 0; k < opcions.length; k++) opcions[k].disabled = true;
+      if (correcte) {
+        boto.classList.add('jp2-ok');
+        estat.encerts++; estat.ratxa++;
+        elFeedback.className = 'jp2-feedback jp2-fb-ok';
+        elFeedback.innerHTML = '✅ Molt bé! <strong>' + NOM[m.cat] + '</strong> — ' + m.perque;
+      } else {
+        boto.classList.add('jp2-ko');
+        estat.ratxa = 0; estat.fallats.push(m);
+        for (var j = 0; j < opcions.length; j++) {
+          if (opcions[j].getAttribute('data-cat') === m.cat) opcions[j].classList.add('jp2-ok');
+        }
+        elFeedback.className = 'jp2-feedback jp2-fb-ko';
+        elFeedback.innerHTML = '❌ Era <strong>' + NOM[m.cat] + '</strong> — ' + m.perque;
+      }
+      elEncerts.textContent = estat.encerts; elRatxa.textContent = estat.ratxa;
+      elSeguent.hidden = false; elSeguent.focus();
+    }
+    function seguent() {
+      estat.i++;
+      if (estat.i >= estat.ordre.length) { acaba(); return; }
+      pinta();
+    }
+    function acaba() {
+      elBarra.style.width = '100%';
+      mostra('final');
+      var tot = estat.ordre.length;
+      $('.jp2-resultat').innerHTML = 'Has encertat <strong>' + estat.encerts + ' de ' + tot + '</strong> a la primera.';
+      var repas = $('.jp2-repas');
+      if (estat.fallats.length) {
+        var html = '<p class="jp2-repas-tit">📌 Repassa aquests:</p><ul>';
+        for (var k = 0; k < estat.fallats.length; k++) {
+          var f = estat.fallats[k];
+          html += '<li><strong>' + f.nom + '</strong> → ' + ETIQUETA[f.cat] + ': ' + f.perque + '</li>';
+        }
+        repas.innerHTML = html + '</ul>';
+      } else {
+        repas.innerHTML = '<p class="jp2-repas-tit">🌟 Cap error. Coneixes bé els materials del taller!</p>';
+      }
+    }
+
+    $('.jp2-comenca').addEventListener('click', comenca);
+    $('.jp2-torna').addEventListener('click', comenca);
+    elSeguent.addEventListener('click', seguent);
+    for (var k = 0; k < opcions.length; k++) {
+      (function (b) { b.addEventListener('click', function () { respon(b.getAttribute('data-cat'), b); }); })(opcions[k]);
+    }
+  }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+  else init();
+})();
+</script>
+
 | Targeta | Resposta | Per què (per al docent) |
 |---------|:--------:|--------------------------|
 | Fusta DM 3 mm | ✅ | El material estàndard del taller |
