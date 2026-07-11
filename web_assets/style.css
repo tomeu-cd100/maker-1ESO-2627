@@ -267,6 +267,12 @@ img { max-width: 100%; }
 .sa-block .product { color: var(--ink-soft); margin: .2rem 0 .7rem; }
 .linkrow a { text-decoration: none; font-weight: 500; white-space: nowrap; }
 
+/* ── mapa del curs (el viatge SA0→SA9) ─────── */
+.mapa-curs { margin: 1.4rem auto; }
+.mapa-curs svg {
+  display: block; width: 100%; max-width: 720px; height: auto; margin: 0 auto;
+}
+
 /* ── peu ───────────────────────────────────── */
 .site-footer {
   border-top: 1px solid var(--line);
