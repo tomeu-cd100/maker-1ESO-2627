@@ -16,7 +16,9 @@
   .toolbar button { background: var(--acc); color: #fff; }
   .hint { max-width: 148mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
 
-  .passaport { width: 148mm; min-height: 205mm; margin: 0 auto; background: #fff;
+  .full { display: flex; justify-content: center; gap: 3mm; flex-wrap: wrap;
+    max-width: 297mm; margin: 0 auto; }
+  .passaport { width: 140mm; min-height: 190mm; background: #fff;
     border: 3px solid var(--ink); border-radius: 6mm; padding: 8mm;
     display: flex; flex-direction: column; gap: 4mm; }
   .cap { text-align: center; border-bottom: 3px double var(--ink); padding-bottom: 3mm; }
@@ -44,8 +46,9 @@
   @media print {
     body { background: #fff; padding: 0; }
     .toolbar, .hint { display: none; }
-    .passaport { border-color: #000; }
-    @page { size: A4 portrait; margin: 10mm; }
+    .full { gap: 4mm; max-width: none; flex-wrap: nowrap; align-items: flex-start; }
+    .passaport { border-color: #000; zoom: .75; break-inside: avoid; }
+    @page { size: A4 landscape; margin: 6mm; }
   }
 </style>
 </head>
@@ -54,9 +57,10 @@
   <button onclick="print()">🖨️ Imprimeix</button>
   <a href="../index.html">← Torna a la web</a>
 </div>
-<p class="hint">Mida A5: se n'imprimeixen <strong>2 per full A4</strong> (opció «2 pàgines per
-full» del diàleg d'impressió) o un de sol centrat. Plastificat aguanta tot el curs.</p>
+<p class="hint">Mida A5: ja surten <strong>2 passaports per full A4</strong> (A4 <strong>apaïsat</strong> —
+el diàleg d'impressió ja ho posa sol). Retalla pel mig i plastifica: aguanta tot el curs.</p>
 
+<div class="full">
 <div class="passaport">
   <div class="cap">
     <h1>🛠️ PASSAPORT MAKER</h1>
@@ -102,6 +106,53 @@ full» del diàleg d'impressió) o un de sol centrat. Plastificat aguanta tot el
   </table>
 
   <p class="peu">«Fet, provat i millorat a l'Aula Maker.»</p>
+</div>
+<div class="passaport">
+  <div class="cap">
+    <h1>🛠️ PASSAPORT MAKER</h1>
+    <p>Aula Maker · 1r d'ESO · curs 20___ / 20___</p>
+  </div>
+
+  <div class="dades">
+    <span><strong>Nom:</strong> </span>
+    <span style="flex:.4"><strong>Grup:</strong> </span>
+  </div>
+
+  <h2>Carnets de màquina</h2>
+  <table>
+    <tr><td>🔴 <strong>Operador/a làser</strong> (xTool S1)</td><td>data ____/____</td><td style="text-align:right"><span class="seg"></span></td></tr>
+    <tr><td>🟠 <strong>Operador/a impressora 3D</strong> (P2S)</td><td>data ____/____</td><td style="text-align:right"><span class="seg"></span></td></tr>
+    <tr><td>🟢 <strong>Operador/a càmera 360</strong></td><td>data ____/____</td><td style="text-align:right"><span class="seg"></span></td></tr>
+    <tr><td>🔵 <strong>Usuari/ària responsable VR</strong> / guia</td><td>data ____/____</td><td style="text-align:right"><span class="seg"></span></td></tr>
+  </table>
+
+  <h2>Insígnies</h2>
+  <div class="insig">
+    <div><span class="chk"></span>🥇 Mestre/a del vector</div>
+    <div><span class="chk"></span>🧊 Escultor/a 3D</div>
+    <div><span class="chk"></span>🌐 Explorador/a immersiu</div>
+    <div><span class="chk"></span>🛠️ Tot terreny maker</div>
+    <div><span class="chk"></span>♻️ Maker sostenible</div>
+    <div><span class="chk"></span>🤝 Company/a maker</div>
+    <div><span class="chk"></span>🎓 Operador/a certificat</div>
+    <div><span class="chk"></span>🏆 L'error del trimestre</div>
+  </div>
+
+  <h2>Segells de trimestre</h2>
+  <div class="trim">
+    <div><strong>T1</strong> · producte SA3<span class="seg"></span></div>
+    <div><strong>T2</strong> · producte SA6<span class="seg"></span></div>
+    <div><strong>T3</strong> · Fira SA9<span class="seg"></span></div>
+  </div>
+
+  <h2>El meu projecte personal (opcional)</h2>
+  <table>
+    <tr><td>Objecte: ______________________________</td>
+        <td style="text-align:right"><span class="chk"></span>T1 &nbsp;<span class="chk"></span>T2 &nbsp;<span class="chk"></span>T3</td></tr>
+  </table>
+
+  <p class="peu">«Fet, provat i millorat a l'Aula Maker.»</p>
+</div>
 </div>
 </body>
 </html>
