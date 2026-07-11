@@ -4,6 +4,10 @@
 > (`Classes/SA0_Punt_de_partida/SA0.md`). No té nota: serveix per conèixer el punt de partida
 > de cada alumne/a, formar equips equilibrats i ajustar la personalització (DUA). Es torna a
 > mirar a final de curs per veure l'**evolució**.
+>
+> 🖨️ **Full imprimible per a l'alumnat** (A4, 2 pàgines, amb espai per escriure a mà — pensat
+> per a la SA0, sense ordinador): [`impressos/avaluacio_inicial.html`](../impressos/avaluacio_inicial.html).
+> Inclou només les seccions A, A·bis i B; la graella C i l'ús dels resultats (D/E) es queden aquí.
 
 ## A) Qüestionari per a l'alumnat (autopercepció)
 Respon amb sinceritat (1 = gens / 4 = molt). No hi ha respostes bones o dolentes!

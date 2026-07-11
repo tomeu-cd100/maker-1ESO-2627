@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Avaluació 0 · El meu punt de partida (imprimible) · Aula Maker</title>
+<style>
+  :root { --acc: #e8641b; --ink: #2b2318; --soft: #fdeadd; --line: #c9b89c;
+          --soft2: #f4ede0; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+
+  .toolbar { max-width: 190mm; margin: 0 auto 1rem; display: flex; gap: .6rem; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc); background: #fff; color: var(--acc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc); color: #fff; }
+  .hint { max-width: 190mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+
+  .full { width: 190mm; margin: 0 auto; }
+  .pagina { background: #fff; border: 2px solid var(--ink); border-radius: 4mm;
+    padding: 10mm; margin-bottom: 1rem; }
+
+  .cap { display: flex; justify-content: space-between; align-items: flex-end;
+    border-bottom: 3px double var(--ink); padding-bottom: 3mm; gap: 6mm; }
+  .cap h1 { margin: 0; font-size: 19pt; letter-spacing: .3px; }
+  .cap .sub { font-size: 9.5pt; color: #6b5d4b; margin-top: 1mm; }
+  .cap .sensenota { border: 2px solid var(--acc); color: var(--acc); font-weight: 700;
+    border-radius: 999px; padding: 1mm 3mm; font-size: 9pt; white-space: nowrap; }
+
+  .dades { display: flex; gap: 5mm; margin: 4mm 0 2mm; font-size: 11pt; }
+  .dades span { flex: 1; border-bottom: 1.5px solid var(--ink); padding-bottom: 1mm; }
+  .dades span.g { flex: .5; }
+
+  h2 { font-size: 12pt; text-transform: uppercase; letter-spacing: 1px;
+       margin: 5mm 0 2mm; color: var(--acc);
+       border-bottom: 1.5px solid var(--line); padding-bottom: 1mm; }
+  h2 small { text-transform: none; letter-spacing: 0; color: #6b5d4b; font-weight: 400;
+       font-size: 9.5pt; }
+  .intro { font-size: 10pt; color: #4a4030; margin: 0 0 3mm; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 10.5pt; }
+  th, td { border: 1px solid var(--line); padding: 2mm 2.5mm; }
+  thead th { background: var(--soft); font-size: 9.5pt; }
+  .afirm { text-align: left; }
+  .marca { width: 11mm; text-align: center; }
+  .marca .box { display: inline-block; width: 6mm; height: 6mm; border: 1.5px solid var(--ink);
+    border-radius: 1.5mm; }
+  .legenda { font-size: 9pt; color: #6b5d4b; margin: 1.5mm 0 0; }
+
+  .oberta { margin: 3mm 0; font-size: 10.5pt; }
+  .oberta b { display: block; margin-bottom: 1mm; }
+  .linies { height: 8mm; border-bottom: 1.5px dotted var(--line); }
+
+  .vocab { display: grid; grid-template-columns: 1fr 1fr; gap: 2mm 8mm; font-size: 11pt; }
+  .vocab div { padding: 1.5mm 0; border-bottom: 1px dotted var(--line); }
+  .chk { display: inline-block; width: 5mm; height: 5mm; border: 1.5px solid var(--ink);
+    border-radius: 1mm; vertical-align: -1mm; margin-right: 2.5mm; }
+
+  .esbos-instr { font-size: 10.5pt; color: #4a4030; margin: 0 0 3mm; }
+  .esbos-caixa { border: 2px dashed var(--acc); border-radius: 3mm; height: 130mm;
+    display: flex; align-items: flex-start; justify-content: flex-end; padding: 3mm; }
+  .esbos-caixa span { font-size: 9pt; color: #b99; }
+
+  .peu { margin-top: 4mm; text-align: center; font-style: italic; font-size: 9.5pt;
+    color: #6b5d4b; border-top: 1.5px solid var(--line); padding-top: 2mm; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    .full { width: auto; }
+    .pagina { border: none; border-radius: 0; padding: 0; margin: 0; }
+    .pagina.p2 { break-before: page; }
+    .esbos-caixa { border-color: #000; }
+    @page { size: A4 portrait; margin: 12mm; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint">Full de l'alumnat per a la <strong>SA0</strong> (100 % en paper: encara no tenen
+ordinador). S'imprimeix a <strong>A4</strong>, 2 pàgines: qüestionari + vocabulari i la pàgina
+de l'esbós. La graella de buidatge i l'ús dels resultats són al document del docent
+(<code>Avaluació/Avaluacio_inicial.md</code>).</p>
+
+<div class="full">
+
+  <div class="pagina p1">
+    <div class="cap">
+      <div>
+        <h1>🛠️ El meu punt de partida</h1>
+        <div class="sub">Avaluació 0 · Aula Maker · 1r d'ESO</div>
+      </div>
+      <div class="sensenota">SENSE NOTA</div>
+    </div>
+
+    <div class="dades">
+      <span><strong>Nom:</strong> </span>
+      <span class="g"><strong>Grup:</strong> </span>
+      <span class="g"><strong>Data:</strong> </span>
+    </div>
+
+    <h2>A · Com em veig jo</h2>
+    <p class="intro">Respon amb sinceritat. <strong>No hi ha respostes bones ni dolentes.</strong>
+      Marca una casella per fila: <strong>1 = gens</strong> · 2 = poc · 3 = bastant ·
+      <strong>4 = molt</strong>.</p>
+    <table>
+      <thead>
+        <tr><th class="afirm">Afirmació</th><th class="marca">1</th><th class="marca">2</th><th class="marca">3</th><th class="marca">4</th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="afirm">He fet servir un ordinador per dibuixar o dissenyar</td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td></tr>
+        <tr><td class="afirm">Sé què és una impressora 3D / he vist com funciona</td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td></tr>
+        <tr><td class="afirm">He fet servir ulleres de realitat virtual</td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td></tr>
+        <tr><td class="afirm">M'agrada construir, muntar o reparar coses</td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td></tr>
+        <tr><td class="afirm">Em sento còmode/a treballant en equip</td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td></tr>
+        <tr><td class="afirm">Quan una cosa no surt, ho torno a provar sense rendir-me</td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td></tr>
+        <tr><td class="afirm">M'agrada explicar a altres el que he fet</td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td></tr>
+        <tr><td class="afirm">M'imagino fàcilment com és un objecte per dins / en 3D</td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td></tr>
+        <tr><td class="afirm">M'imagino fent coses de tecnologia o disseny en el futur</td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td><td class="marca"><span class="box"></span></td></tr>
+      </tbody>
+    </table>
+
+    <h2>Tres preguntes obertes</h2>
+    <div class="oberta"><b>Una cosa que m'agradaria <u>fabricar</u> aquest curs:</b>
+      <div class="linies"></div><div class="linies"></div></div>
+    <div class="oberta"><b>Una cosa que em fa una mica de <u>respecte</u> o no he fet mai:</b>
+      <div class="linies"></div><div class="linies"></div></div>
+    <div class="oberta"><b>Què se'm dona bé i podria <u>aportar a un equip</u>?</b>
+      <div class="linies"></div><div class="linies"></div></div>
+  </div>
+
+  <div class="pagina p2">
+    <div class="cap">
+      <div>
+        <h1>🛠️ El meu punt de partida <span style="font-size:12pt;color:#6b5d4b">(full 2)</span></h1>
+        <div class="sub">Avaluació 0 · Aula Maker · 1r d'ESO</div>
+      </div>
+      <div class="sensenota">SENSE NOTA</div>
+    </div>
+    <div class="dades">
+      <span><strong>Nom:</strong> </span>
+      <span class="g"><strong>Grup:</strong> </span>
+    </div>
+
+    <h2>A·bis · Paraules que ja conec <small>(marca només les que saps de veritat!)</small></h2>
+    <div class="vocab">
+      <div><span class="chk"></span>prototip</div>
+      <div><span class="chk"></span>vectoritzar</div>
+      <div><span class="chk"></span>STL</div>
+      <div><span class="chk"></span>laminat</div>
+      <div><span class="chk"></span>kerf</div>
+      <div><span class="chk"></span>tolerància</div>
+      <div><span class="chk"></span>equirectangular</div>
+      <div><span class="chk"></span>farciment</div>
+      <div><span class="chk"></span>nesting</div>
+      <div><span class="chk"></span>realitat virtual</div>
+    </div>
+
+    <h2>B · La meva idea de clauer</h2>
+    <p class="esbos-instr">Dibuixa aquí una <strong>idea per a un clauer amb el teu nom</strong>.
+      No cal que sigui perfecte: pensa la forma, la mida i on aniria el forat de l'anella.
+      <em>Fes-ho com puguis — l'important és provar.</em></p>
+    <div class="esbos-caixa"><span>el meu esbós ✏️</span></div>
+    <p class="peu">«A l'Aula Maker, la primera versió mai és la bona: provar, fallar i millorar és el mètode.»</p>
+  </div>
+
+</div>
+</body>
+</html>
