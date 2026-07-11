@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 3r — **Producte final de curs** |
-| **Temporització** | 5 sessions de 2 h (setmanes 30–34) — la Fira és la setmana 34; la 35 queda de **coixí** (juny sempre porta imprevistos) |
+| **Temporització** | 5 sessions de 2 h (setmanes 31–35) — la Fira és la setmana 35 (l'última); **ja no hi ha coixí de juny** (el marge l'absorbeix la SA0 de 2 setmanes, vegeu `Temporitzacio_anual.md`) |
 | **Eix** | Projecte integrador (làser + 3D + 360/VR) |
 | **Producte final** | Un **estand/museu interactiu** que combina objectes fabricats i contingut immersiu, presentat en una **Fira Aula Maker** |
 
@@ -61,7 +61,7 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 30–34 (+ coixí a la 35).
+> setmanes 31–35.
 
 ### Sessió 1 — Planificació del projecte (2 h)
 1. **Repte i exemples (20')**.

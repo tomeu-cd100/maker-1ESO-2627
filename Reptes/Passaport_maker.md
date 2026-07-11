@@ -41,7 +41,7 @@
 
 ## Regles d'ús
 
-1. **S'imprimeix la setmana 1** (un per alumne/a) i es presenta amb el contracte d'aula: «aquí
+1. **S'imprimeix per a la SA0** (un per alumne/a) i es presenta amb el contracte d'aula: «aquí
    hi cabrà tot el que et guanyis aquest curs».
 2. **Es guarda a l'aula** (no viatja a casa fins al juny): així mai es perd i sempre és a mà
    per segellar.

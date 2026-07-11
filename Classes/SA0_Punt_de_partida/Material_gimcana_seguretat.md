@@ -1,4 +1,4 @@
-# Material de la gimcana de seguretat — SA0 (setmana 1)
+# Material de la gimcana de seguretat — SA0 (setmana 2, sessió 2)
 
 > Tot el que cal per muntar les **4 proves** de la gimcana de la **SA0**
 > (`Classes/SA0_Punt_de_partida/SA0.md`): 35', equips de 4-5, rotació de

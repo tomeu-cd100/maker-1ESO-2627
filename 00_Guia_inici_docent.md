@@ -9,7 +9,7 @@
 - Optativa **anual** de 1r d'ESO, **2 h/setmana** (1 bloc), enfocament **STEAM i maker**.
 - L'alumnat aprèn **fent**: dissenya i fabrica objectes reals amb làser i 3D, i crea contingut
   immersiu (360/VR).
-- Una **SA0 de punt de partida** (benvinguda, seguretat i avaluació 0, setmana 1) + **9
+- Una **SA0 de punt de partida** (benvinguda, cohesió, seguretat i avaluació 0, setmanes 1-2) + **9
   situacions d'aprenentatge (SA)**, 3 per trimestre, amb progressió **2D → 3D → immersiu →
   projecte integrador**.
 - Avaluació **competencial** (NA/AS/AN/AE) amb el **diari de taller** com a fil conductor.
@@ -36,7 +36,7 @@ maker-1ESO-2627/
 1. `Programació didàctica/Programacio_didactica_AulaMaker_1ESO.md` — el marc complet.
 2. `Programació didàctica/Temporitzacio_anual.md` — el calendari setmana a setmana.
 3. `Avaluació/Criteris_i_qualificacio.md` — com avaluaràs.
-4. `Classes/SA0_Punt_de_partida/SA0.md` — la sessió d'arrencada, llesta per a la setmana 1
+4. `Classes/SA0_Punt_de_partida/SA0.md` — les sessions d'arrencada, llestes per a les setmanes 1-2
    (i `00_Guio_del_curs_docent.md` per veure tot el curs sessió a sessió).
    Per al dia a dia, un cop arrencat el curs: `00_Diari_de_classe_docent.md` — la fitxa
    operativa de cada una de les 35 sessions (obre-la cada setmana abans de classe).
@@ -56,9 +56,9 @@ maker-1ESO-2627/
 - [ ] Recollir les **autoritzacions** de família (si en faràs servir VR/360 aquest curs).
 - [ ] Crear els comptes de classe (Tinkercad, CoSpaces Edu).
 - [ ] Tenir a punt el **diari de taller** (paper o digital).
-- [ ] Preparar l'**avaluació inicial** (`Avaluació/Avaluacio_inicial.md`) per a la setmana 1.
+- [ ] Preparar l'**avaluació inicial** (`Avaluació/Avaluacio_inicial.md`) per a la setmana 2 (sessió 2 de la SA0).
 - [ ] Imprimir/compartir `Avaluació/Avaluacio_explicada_alumnat.md` (el sistema d'avaluació en
-  una pàgina, per a alumnat i famílies) — es presenta la setmana 1 amb el contracte d'aula.
+  una pàgina, per a alumnat i famílies) — es presenta la setmana 2 amb el contracte d'aula.
 - [ ] Si feu desdoblament: formar els **grups A/B estables** amb l'avaluació inicial i acordar
   amb el co-docent els 10' de coordinació setmanal (`Programació didàctica/Codocencia_desdoblament.md`).
 - [ ] Llegir la metodologia de **treball cooperatiu** (`Programació didàctica/Aprenentatge_cooperatiu.md`)

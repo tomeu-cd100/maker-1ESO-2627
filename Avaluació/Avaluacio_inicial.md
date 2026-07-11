@@ -1,6 +1,6 @@
 # Avaluació inicial / diagnòstica — Aula Maker (1r ESO)
 
-> És l'**avaluació 0** del curs: es passa la **setmana 1**, dins la **SA0**
+> És l'**avaluació 0** del curs: es passa la **setmana 2** (sessió 2 de la **SA0**)
 > (`Classes/SA0_Punt_de_partida/SA0.md`). No té nota: serveix per conèixer el punt de partida
 > de cada alumne/a, formar equips equilibrats i ajustar la personalització (DUA). Es torna a
 > mirar a final de curs per veure l'**evolució**.
@@ -61,6 +61,6 @@ Petit repte sense ensenyar res abans, per observar punts de partida (no es quali
   evidenciar **l'evolució** de cada alumne/a (avaluació de l'aprenentatge, no de l'arrencada).
 
 ## E) Tancament del cicle (final de curs)
-A la SA9 (o al coixí de la setmana 35), torna a passar el **qüestionari A** i el **vocabulari
+A la SA9 (al tancament de curs, setmana 35), torna a passar el **qüestionari A** i el **vocabulari
 A·bis** i compara. Pregunta de síntesi per a l'alumnat:
 > "Mira les teves respostes de setembre. En què has canviat més? Posa'n un exemple concret."

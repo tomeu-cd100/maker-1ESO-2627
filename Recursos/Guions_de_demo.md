@@ -11,7 +11,7 @@
 
 ---
 
-## Demo 1 — Inkscape: el primer disseny (setmana 2 · SA1 · màx. 30')
+## Demo 1 — Inkscape: el primer disseny (setmana 3 · SA1 · màx. 30')
 
 **Prepara:** Inkscape obert i projectat; la plantilla `Plantilles_disseny/clauer_SA1.svg` a mà.
 **El guió:**
@@ -25,7 +25,7 @@
 forat massa a la vora (es trenca). Ensenya el camp de mides i la regla «forat a ≥3 mm de la vora».
 **La frase que ha de quedar:** «El material mana: dissenyem amb les mides de veritat.»
 
-## Demo 2 — Capes de tall i gravat + text a camí (setmanes 2 i 4 · SA1-SA2 · màx. 15')
+## Demo 2 — Capes de tall i gravat + text a camí (setmanes 3 i 5 · SA1-SA2 · màx. 15')
 
 **Prepara:** el clauer de la demo 1 acabat.
 **El guió:**
@@ -39,7 +39,7 @@ forat massa a la vora (es trenca). Ensenya el camp de mides i la regla «forat a
 surt) i línies de tall gruixudes «perquè es vegin» — el gruix no importa, el color sí.
 **La frase que ha de quedar:** «Vermell talla, negre grava, i el text sempre a camí.»
 
-## Demo 3 — Vectoritzar una imatge (setmana 5 · SA2 · màx. 15')
+## Demo 3 — Vectoritzar una imatge (setmana 6 · SA2 · màx. 15')
 
 **Prepara:** dues imatges del banc: una **bona** (silueta simple, alt contrast) i una **dolenta**
 (foto amb ombres).
@@ -54,7 +54,7 @@ surt) i línies de tall gruixudes «perquè es vegin» — el gruix no importa, 
 (la làser la grava com un borrissol gris).
 **La frase que ha de quedar:** «Imatge simple i amb contrast, i la foto original s'esborra.»
 
-## Demo 4 — Unions per encaix i el kerf (setmanes 8-9 · SA3 · màx. 25')
+## Demo 4 — Unions per encaix i el kerf (setmanes 9-10 · SA3 · màx. 25')
 
 **Prepara:** dues peces reals que encaixin (d'una caixa tallada) i el peu de rei.
 **El guió:**
@@ -64,14 +64,14 @@ surt) i línies de tall gruixudes «perquè es vegin» — el gruix no importa, 
    és 2,7!). «Mesura dues vegades, fabrica una.»
 3. A Inkscape: dibuixa una ranura de l'amplada mesurada en una peça, i la pestanya
    corresponent a l'altra. Alinea-les per ensenyar que coincideixen.
-4. Presenta la **mostra d'encaix** (setmana 9): «abans de fabricar l'objecte, tallem això de
+4. Presenta la **mostra d'encaix** (setmana 10): «abans de fabricar l'objecte, tallem això de
    2 minuts. La ranura dibuixada de 3,0 sortirà més ampla: la diferència és el **kerf**, el
    que es menja el làser. El mesurarem i ajustarem el disseny».
 **L'error que veuràs segur:** ranures «de 3 mm» sobre fusta que en fa 2,7, i equips que volen
 saltar-se la mostra per anar de pressa.
 **La frase que ha de quedar:** «L'error barat de 2 minuts evita l'error car de 20.»
 
-## Demo 5 — Tinkercad: cossos, forats i agrupar (setmanes 13-14 · SA4 · màx. 20')
+## Demo 5 — Tinkercad: cossos, forats i agrupar (setmanes 14-15 · SA4 · màx. 20')
 
 **Prepara:** compte de classe obert; un objecte simple pensat (un got: cilindre + cilindre forat).
 **El guió:**
@@ -85,7 +85,7 @@ saltar-se la mostra per anar de pressa.
 traspassen del tot (fes el forat sempre més llarg que el cos).
 **La frase que ha de quedar:** «Cos + forat + agrupar: amb això es construeix quasi tot.»
 
-## Demo 6 — Laminar amb Bambu Studio (setmana 17 · SA5 · màx. 20')
+## Demo 6 — Laminar amb Bambu Studio (setmana 18 · SA5 · màx. 20')
 
 **Prepara:** un STL d'exemple ja pujat; la impressora visible des d'on projectes.
 **El guió:**
@@ -101,7 +101,7 @@ traspassen del tot (fes el forat sempre més llarg que el cos).
 el «només són 65 minuts, va…» — el límit és el límit.
 **La frase que ha de quedar:** «Els límits no són un càstig: són el que fa que tothom imprimeixi.»
 
-## Demo 7 — Càmera 360: la captura estable (setmana 25 · SA7 · màx. 15')
+## Demo 7 — Càmera 360: la captura estable (setmana 26 · SA7 · màx. 15')
 
 **Prepara:** la càmera carregada + trípode/perxa; una captura d'exemple bona i una de moguda.
 **El guió:**
@@ -115,7 +115,7 @@ el «només són 65 minuts, va…» — el límit és el límit.
 captures caminant.
 **La frase que ha de quedar:** «La càmera ho veu tot — planifica on ets tu i qui surt.»
 
-## Demo 8 — CoSpaces: l'escena mínima explorable (setmana 29 · SA8 · màx. 20')
+## Demo 8 — CoSpaces: l'escena mínima explorable (setmana 30 · SA8 · màx. 20')
 
 **Prepara:** compte de classe; una escena d'exemple mig feta (3 objectes + un text).
 **El guió:**

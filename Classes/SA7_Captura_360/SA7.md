@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 3r |
-| **Temporització** | 3 sessions de 2 h (setmanes 25–27) |
+| **Temporització** | 3 sessions de 2 h (setmanes 26–28) |
 | **Eix** | Imatge i vídeo immersiu (càmera 360) |
 | **Producte final** | Un **tour virtual** d'espais del centre, visualitzable amb les ulleres VR |
 
@@ -66,7 +66,7 @@ a alumnat nou de 6è de primària…).
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 25–27.
+> setmanes 26–28.
 
 ### Sessió 1 — Què és el 360? (2 h)
 1. **Immersió (20')**: visualització d'exemples 360/tours; què el fa diferent del vídeo normal.

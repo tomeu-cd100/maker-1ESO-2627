@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 2n |
-| **Temporització** | 3 sessions de 2 h (setmanes 13–15) |
+| **Temporització** | 3 sessions de 2 h (setmanes 14–16) |
 | **Eix** | Modelatge 3D (iniciació a Tinkercad) |
 | **Producte final** | Un **clauer o figura 3D** modelat i exportat en STL (i imprès de mostra) |
 
@@ -60,7 +60,7 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 13–15.
+> setmanes 14–16.
 
 ### Sessió 1 — Benvinguda al 3D + Tinkercad bàsic (2 h)
 1. **Del 2D al 3D (20')**: del pla al volum; exemples d'objectes 3D quotidians; vistes.

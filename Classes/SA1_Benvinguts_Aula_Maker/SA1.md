@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 1r |
-| **Temporització** | 3 sessions de 2 h (setmanes 2–4) — la benvinguda, la seguretat i el diagnòstic són a la **SA0** (setmana 1). ⚠️ Les **2 primeres setmanes l'alumnat no té ordinador**: la sessió 1 és **100 % analògica** (paper + demo de màquina) per disseny, no per improvisació |
+| **Temporització** | 3 sessions de 2 h (setmanes 3–5) — la benvinguda, la seguretat i el diagnòstic són a la **SA0** (setmanes 1-2). ⚠️ Les **3 primeres setmanes l'alumnat no té ordinador**: la sessió 1 (setmana 3) és **100 % analògica** (paper + demo de màquina) per disseny, no per improvisació |
 | **Eix** | Primer disseny vectorial · fabricació 2D (iniciació làser) |
 | **Producte final** | Un **clauer personalitzat** gravat/tallat a làser |
 
@@ -68,12 +68,12 @@ desenvoluparan en SA2 i SA3.
 ## 4. Seqüència de sessions
 
 > 📍 La benvinguda, el recorregut pel taller, la **gimcana de seguretat**, el contracte i
-> l'**avaluació 0** són la **SA0** (`Classes/SA0_Punt_de_partida/SA0.md`, setmana 1). Aquesta
+> l'**avaluació 0** són la **SA0** (`Classes/SA0_Punt_de_partida/SA0.md`, setmanes 1-2). Aquesta
 > SA comença amb tot això fet.
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 2–4.
+> setmanes 3–5.
 
 ### Sessió 1 — El clauer en paper + la làser en directe (2 h, **sense ordinadors d'alumnat**)
 1. **Demo de la làser en directe (30')**: el docent talla i grava una mostra (el seu propi

@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 3r |
-| **Temporització** | 2 sessions de 2 h (setmanes 28–29) — deixa lloc al coixí de final de curs; ampliable amb la sessió ⭐ opcional si el calendari ho permet |
+| **Temporització** | 2 sessions de 2 h (setmanes 29–30) — ampliable amb la sessió ⭐ opcional si el calendari ho permet (és el marge del 3r trimestre; ja no hi ha coixí de juny) |
 | **Eix** | Ús educatiu i crític de la VR + creació d'escenes (CoSpaces Edu) |
 | **Producte final** | Una **escena VR interactiva** creada en equip (museu, recorregut, mini-història) |
 
@@ -67,7 +67,7 @@ escena 3D que es pot explorar amb les ulleres VR.
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 28–29.
+> setmanes 29–30.
 
 ### Sessió 1 — Viure i entendre la VR (2 h)
 1. **Normes d'ús de la VR (20')**: `Normativa/Protocol_us_VR.md` (temps, higiene, espai,
@@ -96,8 +96,9 @@ escena 3D que es pot explorar amb les ulleres VR.
 
 ### Sessió ⭐ d'ampliació (opcional, si el calendari ho permet)
 Polir l'escena, afegir interaccions amb blocs de codi (Blockly), narració, i una segona ronda
-de visualització creuada entre equips. Es pot recuperar com a activitat del **coixí de la
-setmana 35** si el trimestre ha anat sobre rodes (vegeu `Temporitzacio_anual.md`).
+de visualització creuada entre equips. És la **vàlvula de marge del 3r trimestre**: com que la
+SA0 de 2 setmanes ha consumit el coixí de juny, aquesta sessió ⭐ només es fa si s'ha guanyat
+temps; si s'ha perdut cap sessió, es reprograma o se salta (vegeu `Temporitzacio_anual.md`).
 
 ## 5. Producte final
 Escena VR explorable + fitxa d'anàlisi crítica d'usos de la VR + documentació del procés.

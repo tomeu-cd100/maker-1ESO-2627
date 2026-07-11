@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 2n — **Producte final de trimestre** |
-| **Temporització** | 5 sessions de 2 h (setmanes 20–24) |
+| **Temporització** | 5 sessions de 2 h (setmanes 21–25) |
 | **Eix** | Repte de disseny 3D amb impacte (resolució de problema real) |
 | **Producte final** | Solució impresa en 3D a un repte real (ajuda tècnica, joc, peça per a la comunitat) |
 
@@ -74,7 +74,7 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 20–24.
+> setmanes 21–25.
 
 ### Sessió 1 — Triar repte i empatitzar (2 h)
 1. **Catàleg de reptes (20')**: presentació d'opcions; cada equip en tria un.

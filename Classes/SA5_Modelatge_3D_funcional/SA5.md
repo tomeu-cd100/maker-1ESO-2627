@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 2n |
-| **Temporització** | 4 sessions de 2 h (setmanes 16–19) |
+| **Temporització** | 4 sessions de 2 h (setmanes 17–20) |
 | **Eix** | Disseny 3D funcional + impressió (Bambu Lab P2S) |
 | **Producte final** | Una **peça útil impresa en 3D** (portamòbil, ganxo, suport d'auriculars, organitzador…) |
 
@@ -68,7 +68,7 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 16–19.
+> setmanes 17–20.
 
 ### Sessió 1 — Detectar i dissenyar (2 h)
 1. **Repte + mesurar el problema (30')**: identificar la necessitat i prendre **mides reals**

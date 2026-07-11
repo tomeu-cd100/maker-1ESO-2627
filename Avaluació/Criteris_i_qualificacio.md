@@ -85,7 +85,7 @@ recuperació** que acredita les CE essencials sense refer tota la SA:
 ## 4. Matriu de traçabilitat: criteris ↔ SA
 
 Marca on s'avalua cada criteri al llarg del curs (assegura que tots es treballen i s'avaluen).
-La **SA0** (setmana 1) és **diagnòstica** i no hi apareix: no es qualifica (vegeu
+La **SA0** (setmanes 1-2) és **diagnòstica** i no hi apareix: no es qualifica (vegeu
 `Classes/SA0_Punt_de_partida/SA0.md` i `Avaluacio_inicial.md`).
 
 | Criteri | SA1 | SA2 | SA3 | SA4 | SA5 | SA6 | SA7 | SA8 | SA9 |
@@ -144,7 +144,7 @@ l'alumnat, a la seva **fitxa** — secció «Com m'avaluaran?» — i a `Avaluac
 
 | Moment | Fita |
 |--------|------|
-| Setmana 1 | **SA0**: avaluació 0 (sense nota) + contracte + primera entrada del diari → formar grups i anticipar barreres |
+| Setmanes 1-2 | **SA0**: cohesió de grup + avaluació 0 (sense nota) + contracte + primera entrada del diari → formar grups i anticipar barreres |
 | Inici de cada SA | *Feed-forward* (recuperar 🎯) + criteris d'èxit i Gran Idea visibles |
 | Tancament de cada SA | Checklist/rúbrica + diari + columna del full de progrés |
 | 1a coavaluació de cada trimestre | **Calibratge previ** amb l'exemple resolt (`Autoavaluacio_coavaluacio.md` §0) |

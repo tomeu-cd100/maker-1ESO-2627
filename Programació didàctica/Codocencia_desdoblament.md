@@ -30,7 +30,7 @@ Règim per defecte de cada sessió de 2 h:
 - El co-docent sosté **50 minuts** de tasca pautada, no 2 hores.
 
 **Excepcions (grup sencer, els dos docents junts, a l'aula ordinària o espai gran):**
-- La **SA0 sencera** (setmana 1: benvinguda, gimcana de seguretat i avaluació 0).
+- La **SA0 sencera** (setmanes 1-2: benvinguda, cohesió, gimcana de seguretat i avaluació 0).
 - Sessió 1 de cada SA (presentació del repte i activació).
 - Galeries, coavaluacions i tancaments de SA.
 - Les **tres Fires trimestrals** — SA3 (T1), SA6 (T2) i la gran Fira de SA9 (T3), totes amb

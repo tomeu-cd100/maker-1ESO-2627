@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 1r |
-| **Temporització** | 3 sessions de 2 h (setmanes 5–7) |
+| **Temporització** | 3 sessions de 2 h (setmanes 6–8) |
 | **Eix** | Disseny vectorial (Inkscape) + fabricació làser |
 | **Producte final** | Un **marcapàgines o etiqueta personalitzada** tallat i gravat a làser |
 
@@ -64,7 +64,7 @@ converteix en línies que la màquina pot tallar i gravar.
 
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
-> setmanes 5–7.
+> setmanes 6–8.
 
 ### Sessió 1 — Inkscape a fons (2 h)
 1. **Repàs i reptes guiats (30')**: formes, duplicar, alinear, agrupar.
