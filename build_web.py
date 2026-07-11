@@ -55,6 +55,17 @@ SA_CARDS = [
     ("SA9", "Projecte final Aula Maker", "3r trim. ⭐", "🎪 Estand a la Fira Aula Maker", "SA9_Projecte_final"),
 ]
 
+# imprimibles (a web_assets/impressos/) que toca mostrar a la pàgina de cada SA
+SA_PRINTABLES = {
+    "SA0_Punt_de_partida": [
+        ("avaluacio_inicial.html", "📝 Avaluació 0 (full de l'alumnat)"),
+        ("passaport.html", "🛠️ Passaport maker"),
+    ],
+    "SA1_Benvinguts_Aula_Maker": [
+        ("clauer_paper_SA1.html", "🔑 El clauer en paper (full de disseny)"),
+    ],
+}
+
 ALUMNAT_LINKS = [
     ("📅", "El curs, dia a dia", "00_Diari_de_classe_alumnat.md", "Una targeta per setmana: què farem i què no pots oblidar"),
     ("📖", "Vocabulari bàsic del curs", "Classes/SA0_Punt_de_partida/Vocabulari_basic.md", "Totes les paraules maker, explicades curt i clar"),
@@ -306,6 +317,130 @@ veu.textContent='⏹';s.speak(u);}};
 SEARCH_INDEX = []  # {t: títol, u: url, s: secció, x: text pla}
 
 
+# ── navegació entre SA i hub per SA ────────────────────────────────────────
+def sa_idx(folder: str):
+    for i, c in enumerate(SA_CARDS):
+        if c[4] == folder:
+            return i
+    return None
+
+
+def sa_siblings(folder: str):
+    """Pàgines d'una SA, ordenades: (etiqueta amb emoji, basename html, kind)."""
+    order = {"fitxa": 0, "doc": 1, "rubrica": 2, "exemple": 3, "extra": 5}
+    out = []
+    for p in MD_FILES:
+        rel = str(p.relative_to(ROOT)).replace("\\", "/")
+        if not rel.startswith(f"Classes/{folder}/"):
+            continue
+        fn = rel.rsplit("/", 1)[-1]
+        base = PATH_MAP[rel].rsplit("/", 1)[-1]
+        if fn.startswith("Fitxa"):
+            lbl, kind = "✏️ Fitxa de l'alumnat", "fitxa"
+        elif re.match(r"SA\d", fn):
+            lbl, kind = "📖 La SA (docent)", "doc"
+        elif fn.startswith("Rubrica"):
+            lbl, kind = "📊 Rúbrica", "rubrica"
+        elif fn.startswith("Exemple"):
+            lbl, kind = "🌟 Exemple resolt", "exemple"
+        elif fn.startswith("Dinamica"):
+            lbl, kind = "🤝 Dinàmica de cohesió", "extra"
+        elif fn.startswith("Material_gimcana"):
+            lbl, kind = "🛡️ Gimcana de seguretat", "extra"
+        elif fn.startswith("Vocabulari"):
+            lbl, kind = "📖 Vocabulari bàsic", "extra"
+        else:
+            lbl, kind = "📄 " + fn[:-3].replace("_", " "), "extra"
+        out.append((order[kind], lbl, base, kind))
+    out.sort()
+    return [(lbl, base, kind) for _o, lbl, base, kind in out]
+
+
+def sa_prevnext(folder: str) -> str:
+    """Barra SA anterior / següent (enllaços a hubs germans, mateix nivell de carpeta)."""
+    i = sa_idx(folder)
+    if i is None:
+        return ""
+    if i > 0:
+        c = SA_CARDS[i - 1]
+        left = (f'<a class="sa-prev" href="../{slugify(c[4])}/index.html">'
+                f'<small>← anterior</small><strong>{c[0]} · {html.escape(c[1])}</strong></a>')
+    else:
+        left = '<span class="sa-prev sa-dis"><small>← anterior</small><strong>—</strong></span>'
+    if i < len(SA_CARDS) - 1:
+        c = SA_CARDS[i + 1]
+        right = (f'<a class="sa-next" href="../{slugify(c[4])}/index.html">'
+                 f'<small>següent →</small><strong>{c[0]} · {html.escape(c[1])}</strong></a>')
+    else:
+        right = '<span class="sa-next sa-dis"><small>següent →</small><strong>—</strong></span>'
+    return f'<nav class="sa-nav" aria-label="Navegació entre SA">{left}{right}</nav>'
+
+
+def sa_printables_html(folder: str) -> str:
+    items = SA_PRINTABLES.get(folder, [])
+    if not items:
+        return ""
+    links = " · ".join(f'<a href="../../impressos/{f}">{lbl}</a>' for f, lbl in items)
+    return (f'<div class="sa-print">🖨️ <strong>Per imprimir i repartir a l\'alumnat:</strong> '
+            f'{links}</div>')
+
+
+def sa_context_bar(folder: str, current_base: str) -> str:
+    """Barra que s'injecta a dalt de cada pàgina d'una SA: prev/next + germanes + imprimibles."""
+    chips = [f'<a class="sa-hublink" href="index.html">⌂ Aquesta SA</a>']
+    for lbl, base, _kind in sa_siblings(folder):
+        if base == current_base:
+            chips.append(f'<span class="sa-chip cur">{lbl}</span>')
+        else:
+            chips.append(f'<a class="sa-chip" href="{base}">{lbl}</a>')
+    return (f'{sa_prevnext(folder)}'
+            f'<div class="sa-sib">{"".join(chips)}</div>'
+            f'{sa_printables_html(folder)}')
+
+
+def sa_cards(prefix: str) -> str:
+    """Graella de targetes de SA que porten al hub (compartida per portada i índex de Classes)."""
+    return "\n".join(
+        f'<a class="card sa" href="{prefix}classes/{slugify(folder)}/index.html">'
+        f'<div class="card-icon">{product.split()[0]}</div>'
+        f'<div><h3>{code} · {html.escape(name)} <span class="badge">{trim}</span></h3>'
+        f'<p>{html.escape(product.split(" ", 1)[1])}</p></div></a>'
+        for code, name, trim, product, folder in SA_CARDS)
+
+
+def build_sa_hubs():
+    """Una pàgina hub per SA: entrada única igual des de tot arreu."""
+    for code, name, trim, product, folder in SA_CARDS:
+        slug = slugify(folder)
+        out_rel = f"classes/{slug}/index.html"
+        sibs = sa_siblings(folder)
+        fitxa = next((b for lbl, b, k in sibs if k == "fitxa"), None)
+        primary = ""
+        if fitxa:
+            primary = (f'<a class="sa-primary" href="{fitxa}"><span class="sa-primary-ic">✏️</span>'
+                       f'<span><strong>Fitxa de l\'alumnat</strong>'
+                       f'<small>el full amb què treballes aquesta SA</small></span></a>')
+        others = [(lbl, b, k) for lbl, b, k in sibs if k != "fitxa"]
+        cards = "\n".join(
+            f'<a class="card" href="{b}"><div class="card-icon">{lbl.split(" ", 1)[0]}</div>'
+            f'<div><h3>{html.escape(lbl.split(" ", 1)[1])}</h3></div></a>'
+            for lbl, b, k in others)
+        body = f"""
+<h1>{code} · {html.escape(name)} <span class="badge">{trim}</span></h1>
+<p class="product">{html.escape(product)}</p>
+{sa_prevnext(folder)}
+{primary}
+{sa_printables_html(folder)}
+<h2>Tot el material d'aquesta SA</h2>
+<div class="grid">{cards}</div>
+"""
+        crumb = [("Inici", "index.html"), ("Classes", "classes/index.html"),
+                 (f"{code} · {name}" if len(f"{code} · {name}") < 60 else f"{code}", None)]
+        (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
+        (OUT / out_rel).write_text(
+            render_page(f"{code} · {name}", body, out_rel, crumb), encoding="utf-8")
+
+
 def build_doc_pages():
     pages = {}  # rel md → (title, out_rel)
     for p in MD_FILES:
@@ -318,7 +453,15 @@ def build_doc_pages():
         current_dir = rel.rsplit("/", 1)[0] if "/" in rel else ""
         body = rewrite_links(body, out_rel, current_dir)
         body = checkboxify(body)
-        body = f'<article class="doc">{body}</article>'
+        plain_src = body  # sense la barra de navegació (per a l'índex de cerca)
+        parts = rel.split("/")
+        if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
+            folder = parts[1]
+            top = sa_context_bar(folder, out_rel.rsplit("/", 1)[-1])
+            bottom = f'<div class="sa-nav-bottom">{sa_prevnext(folder)}</div>'
+            body = f'<article class="doc">{top}{body}{bottom}</article>'
+        else:
+            body = f'<article class="doc">{body}</article>'
         crumb = [("Inici", "index.html")]
         if "/" in rel:
             section = rel.split("/")[0]
@@ -330,7 +473,7 @@ def build_doc_pages():
         out.parent.mkdir(parents=True, exist_ok=True)
         out.write_text(render_page(title, body, out_rel, crumb), encoding="utf-8")
         pages[rel] = (title, out_rel)
-        plain = re.sub(r"<[^>]+>", " ", body)
+        plain = re.sub(r"<[^>]+>", " ", plain_src)
         plain = re.sub(r"\s+", " ", html.unescape(plain)).strip()
         SEARCH_INDEX.append({
             "t": title, "u": out_rel,
@@ -355,21 +498,11 @@ def build_section_indexes(pages):
         out_rel = slugify(section) + "/index.html"
         icon = SECTION_ICONS.get(section, "📄")
         if section == "Classes":
-            body = [f"<h1>{icon} El curs, SA a SA (SA0 + les 9 SA)</h1>"]
-            for code, name, trim, product, folder in SA_CARDS:
-                docs = [(rel, t) for rel, t in entries if f"/{folder}/" in "/" + rel]
-                links = []
-                for rel, t in docs:
-                    label = {"SA": "📖 La SA completa", "Fi": "✏️ Fitxa de l'alumnat",
-                             "Ru": "📊 Rúbrica", "Ex": "🌟 Exemple resolt"}.get(
-                        rel.rsplit("/", 1)[-1][:2], t)
-                    links.append(f'<a href="../{pages[rel][1]}">{label}</a>')
-                body.append(
-                    f'<section class="sa-block"><h2>{code} — {html.escape(name)} '
-                    f'<span class="badge">{trim}</span></h2>'
-                    f'<p class="product">{html.escape(product)}</p>'
-                    f'<div class="linkrow">{" · ".join(links)}</div></section>')
-            body_html = "\n".join(body)
+            body_html = (f"<h1>{icon} El curs, SA a SA (SA0 + les 9 SA)</h1>"
+                         f"<p class=\"lead\">Clica una SA per obrir-la: hi trobaràs la fitxa de "
+                         f"l'alumnat, el material del docent i tot el que cal imprimir, amb "
+                         f"navegació a la SA anterior i la següent.</p>"
+                         f"<div class='grid'>{sa_cards('../')}</div>")
         else:
             items = "\n".join(
                 f'<a class="card" href="../{pages[rel][1]}"><div class="card-icon">{icon}</div>'
@@ -384,12 +517,7 @@ def build_section_indexes(pages):
 
 
 def build_home(pages):
-    sa_grid = "\n".join(
-        f'<a class="card sa" href="classes/{slugify(folder)}/{slugify(code)}.html">'
-        f'<div class="card-icon">{product.split()[0]}</div>'
-        f'<div><h3>{code} · {html.escape(name)} <span class="badge">{trim}</span></h3>'
-        f'<p>{html.escape(product.split(" ", 1)[1])}</p></div></a>'
-        for code, name, trim, product, folder in SA_CARDS)
+    sa_grid = sa_cards("")
     body = f"""
 <section class="hero">
   <h1>🛠️ Aula Maker</h1>
@@ -422,7 +550,7 @@ def build_home(pages):
     # Alumnat
     cards = "\n".join(card(PATH_MAP[rel], icon, t, d) for icon, t, rel, d in ALUMNAT_LINKS)
     fitxes = "\n".join(
-        f'<a class="chip" href="classes/{slugify(folder)}/fitxa_alumnat.html">{code}</a>'
+        f'<a class="chip" href="classes/{slugify(folder)}/index.html">{code}</a>'
         for code, _n, _t, _p, folder in SA_CARDS)
     body = f"""
 <h1>🧑‍🎓 Per a l'alumnat</h1>
@@ -620,6 +748,7 @@ def main():
     (OUT / "assets").mkdir(parents=True)
     shutil.copyfile(ROOT / "web_assets" / "style.css", OUT / "assets" / "style.css")
     pages = build_doc_pages()
+    build_sa_hubs()
     build_section_indexes(pages)
     build_home(pages)
     copy_assets()

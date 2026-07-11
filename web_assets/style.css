@@ -267,6 +267,36 @@ img { max-width: 100%; }
 .sa-block .product { color: var(--ink-soft); margin: .2rem 0 .7rem; }
 .linkrow a { text-decoration: none; font-weight: 500; white-space: nowrap; }
 
+/* ── navegació entre SA + hub per SA ────────── */
+.sa-nav { display: flex; gap: .6rem; margin: 1rem 0; }
+.sa-nav a, .sa-nav span { flex: 1; display: flex; flex-direction: column; gap: .1rem;
+  padding: .5rem .9rem; border: 1px solid var(--line); border-radius: 12px;
+  background: var(--bg-card); text-decoration: none; color: var(--ink); }
+.sa-nav a:hover { border-color: var(--accent); }
+.sa-nav small { font-size: .72rem; color: var(--ink-soft); }
+.sa-nav strong { font-size: .92rem; }
+.sa-nav .sa-next { text-align: right; align-items: flex-end; }
+.sa-nav .sa-dis { opacity: .35; }
+.sa-nav-bottom { margin-top: 1.6rem; }
+.sa-sib { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin: .8rem 0; }
+.sa-chip, .sa-hublink { border: 1px solid var(--line); border-radius: 999px;
+  padding: .3rem .75rem; font-size: .85rem; text-decoration: none; color: var(--ink);
+  background: var(--bg-card); white-space: nowrap; }
+.sa-chip:hover, .sa-hublink:hover { border-color: var(--accent); color: var(--accent); }
+.sa-chip.cur { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
+.sa-hublink { font-weight: 600; }
+.sa-primary { display: flex; gap: .9rem; align-items: center; margin: 1.1rem 0;
+  padding: 1rem 1.2rem; border: 2px solid var(--accent); border-radius: 14px;
+  background: var(--accent-soft); text-decoration: none; color: var(--ink); }
+.sa-primary:hover { box-shadow: var(--shadow); }
+.sa-primary-ic { font-size: 2rem; line-height: 1; }
+.sa-primary strong { font-size: 1.1rem; }
+.sa-primary small { display: block; color: var(--ink-soft); font-size: .85rem; }
+.sa-print { margin: .9rem 0; padding: .7rem 1rem; border-left: 4px solid var(--accent);
+  background: var(--code-bg); border-radius: 8px; font-size: .92rem; }
+.sa-print a { color: var(--accent); font-weight: 600; text-decoration: none; }
+.sa-print a:hover { text-decoration: underline; }
+
 /* ── mapa del curs (el viatge SA0→SA9) ─────── */
 .mapa-curs { margin: 1.4rem auto; }
 .mapa-curs svg {
