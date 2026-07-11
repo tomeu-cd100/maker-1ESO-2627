@@ -6,20 +6,39 @@
 
 ---
 
-## 🔑 Exemple de producte: el clauer de la Júlia
+## 🔑 Exemple de producte: dos clauers acabats
 
-```
-   ___________________________
-  ( o )   J Ú L I A     ★      |   <- gravat: nom + estrella (negre)
-  (___)__________________________|   <- contorn: tall (vermell), cantons arrodonits
-   ^ forat per a l'anella (Ø 5 mm)
-   Mida: 60 x 25 mm · material: fusta DM 3 mm
-```
+Dos exemples resolts, a **mida real (60 × 25 mm)**, sobre fusta DM de 3 mm. Cada un té el
+**vectorial SVG** descarregable: obre'l a **Inkscape** o a **xTool Creative Space** per veure com
+estan fetes les capes de **tall** (vermell) i **gravat** (negre).
 
-**Per què és un bon producte (nivell 🌟):**
-- Té els **3 elements** demanats: forma + nom + detall (l'estrella).
-- El **forat** està prop de la vora i té mida suficient per a l'anella.
-- Els elements de **gravat** (nom, estrella) i de **tall** (contorn, forat) estan ben separats.
+<div style="display:flex;gap:1.5rem;flex-wrap:wrap;margin:1.2rem 0">
+  <figure style="flex:1;min-width:250px;margin:0;text-align:center">
+    <div style="background:#fff;border:1px solid var(--line);border-radius:12px;padding:1rem 1.2rem">
+      <img src="Recursos/Plantilles_disseny/clauer_exemple_Catalina.svg" style="width:100%;max-width:340px"
+           alt="Clauer d'exemple amb el nom Catalina: contorn i forat de tall en vermell, nom gravat en negre amb una estrella i una floritura.">
+    </div>
+    <figcaption style="margin-top:.6rem">Clauer de la <strong>Catalina</strong> ·
+      <a href="Recursos/Plantilles_disseny/clauer_exemple_Catalina.svg">⬇️ vectorial SVG (obre a Inkscape)</a></figcaption>
+  </figure>
+  <figure style="flex:1;min-width:250px;margin:0;text-align:center">
+    <div style="background:#fff;border:1px solid var(--line);border-radius:12px;padding:1rem 1.2rem">
+      <img src="Recursos/Plantilles_disseny/clauer_exemple_Tomeu.svg" style="width:100%;max-width:340px"
+           alt="Clauer d'exemple amb el nom Tomeu: contorn i forat de tall en vermell, nom gravat en negre amb dues estrelles i una floritura.">
+    </div>
+    <figcaption style="margin-top:.6rem">Clauer del <strong>Tomeu</strong> ·
+      <a href="Recursos/Plantilles_disseny/clauer_exemple_Tomeu.svg">⬇️ vectorial SVG (obre a Inkscape)</a></figcaption>
+  </figure>
+</div>
+
+**Per què són bons productes (nivell 🌟):**
+- Tenen els **3 elements** demanats: forma + nom + detall (les estrelles i la floritura).
+- El **forat** està prop de la vora (a ≥3 mm) i té mida suficient per a l'anella (Ø 5 mm).
+- Els elements de **gravat** (nom, estrelles, marc) i de **tall** (contorn, forat) estan en
+  **capes separades** (`TALL` vermella i `GRAVAT` negra) — la làser sap exactament què fer.
+
+> ⚠️ **Abans de fabricar:** al vectorial, el nom és **text editable**. Selecciona'l i fes
+> «Objecte → Objecte a camí» perquè es gravi igual encara que l'ordinador no tingui la mateixa font.
 
 ---
 
