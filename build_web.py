@@ -462,6 +462,12 @@ pel mode fosc. La web ho recorda per al pròxim dia.</p></blockquote>
     impresos = "\n".join([
         card("impressos/passaport.html", "🛠️", "Passaport maker",
              "A5 per alumne/a: carnets, insígnies i segells", "imprimible"),
+        card("impressos/avaluacio_inicial.html", "📝", "Avaluació 0 (full de l'alumnat)",
+             "A4, 2 pàgines: autopercepció + vocabulari + esbós del clauer. Per a la SA0 "
+             "(sense ordinador), amb espai per escriure a mà", "imprimible"),
+        card("impressos/clauer_paper_SA1.html", "🔑", "Clauer en paper (full de disseny SA1)",
+             "A4, 2 pàgines: ruta de disseny amb caselles + tauler mil·limetrat a mida real. "
+             "Per a la sessió 1 de la SA1 (en paper, sense ordinador)", "imprimible"),
         card("impressos/diari_taller_T1.html", "📓", "Diari de taller en paper (T1)",
              "16 pàgines per alumne/a: les 12 entrades del trimestre ja etiquetades + "
              "tancaments de SA", "imprimible"),

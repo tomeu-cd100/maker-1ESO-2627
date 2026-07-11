@@ -75,20 +75,38 @@ desenvoluparan en SA2 i SA3.
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
 > setmanes 3–5.
 
-### Sessió 1 — El clauer en paper + la làser en directe (2 h, **sense ordinadors d'alumnat**)
-1. **Demo de la làser en directe (30')**: el docent talla i grava una mostra (el seu propi
+### Sessió 1 — El clauer en paper: el meu primer plànol (2 h, **en paper, sense ordinadors**)
+
+> 🖨️ **Es reparteix un full per alumne/a:** el **full de disseny imprimible**
+> (`impressos/clauer_paper_SA1.html`) — porta la **ruta de disseny** amb caselles, la **zona de
+> proves** i el **tauler mil·limetrat** per dibuixar a mida real. És alhora l'activitat i
+> l'autocomprovació. Cada alumne/a ve amb **llapis vermell i negre** i **regle**.
+
+L'objectiu d'avui **no** és l'ordinador: és decidir **com serà** el clauer i deixar-ho dibuixat
+i acotat en paper. Qui té el plànol clar, la setmana que ve el digitalitza en 20 minuts.
+
+1. **Demo de la làser en directe (25')**: el docent talla i grava una mostra (el seu propi
    clauer!) davant l'alumnat — què fa la màquina, què és **tallar** i què és **gravar**,
    materials permesos i perillosos (🧭 Gran Idea 1). Per meitats si cal (aforament!).
-2. **Esbós a mida real (60')**: cada alumne/a dissenya el seu clauer **en paper mil·limetrat**
-   (plantilla 60×25 mm): forma base + nom/inicial + un detall + forat per a l'anella (Ø 4-5 mm,
-   a ≥3 mm de la vora). Les mides s'acoten amb regle: la làser no entén «més o menys».
-3. **La convenció de capes… amb llapis de colors (20')**: contorn a retallar en **vermell**
-   (tall) i el que es dibuixa en **negre** (gravat) — la mateixa convenció que farem servir a
-   Inkscape tota la resta del curs, apresa en paper.
-4. **Tancament (10')**: diari de taller.
+2. **El repte i el codi de colors (10')**: es reparteix el full de disseny. S'explica el **codi
+   de colors del curs** —🔴 **vermell = tallar** (contorn + forat), ⚫ **negre = gravar** (nom +
+   detalls)— i el **truc maker** que fa que l'activitat tingui repte: *les lletres s'han de tocar
+   entre elles o tocar el contorn, o cauen quan es talla*. (És el mateix codi que faràs servir a
+   l'ordinador; aquí l'aprens en paper.)
+3. **Disseny autoguiat amb la ruta (55')**: cada alumne/a segueix **els 7 passos** del full pel
+   seu compte: prova 2-3 idees a la **zona de proves** → tria → dibuixa el **definitiu al tauler
+   mil·limetrat a mida real** → l'**acota** amb regle → el repassa amb el codi de colors. El
+   docent circula i ajuda. **Micro-fites** (per no encallar-se): proves fetes cap als 15';
+   definitiu acotat cap als 45'.
+4. **Autocomprovació + galeria llampec (20')**: cadascú passa la **checklist** del full («abans
+   d'aixecar la mà, comprovo…»), **ensenya el disseny a la seva parella** (entén el nom? el forat
+   és prou lluny de la vora?) i 2-3 el mostren en veu alta. Qui acaba fa el **repte ⭐** del full.
+5. **Tancament (10')**: entrada al diari de taller.
 
-> ⏸️ **Mínim d'avui**: esbós acotat amb forma + nom + forat i el vermell/negre marcats — és el
-> plànol que digitalitzaràs la setmana vinent.
+> ⏸️ **Mínim d'avui**: el tauler amb la forma + nom + forat, **acotat** i amb el vermell/negre
+> marcats — és el plànol que digitalitzaràs la setmana vinent.
+> ⭐ **Ampliació**: forma pròpia (no la plantilla), lletres que comparteixen traç, o un gravat
+> que expliqui alguna cosa de tu.
 
 ### Sessió 2 — Digitalitzar el disseny amb Inkscape (2 h)
 1. **Demo Inkscape (30')**: obrir, llenç, formes bàsiques, afegir text, mida en mm.
@@ -133,7 +151,10 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
 - **Material complet de la gimcana** (escenes amb errors, targetes de materials, casos i
   parelles norma-raó, amb solucions): `Classes/SA0_Punt_de_partida/Material_gimcana_seguretat.md`.
 - Carnets imprimibles: `Normativa/Carnet_de_maquina.md` (o el passaport, `Reptes/Passaport_maker.md`).
-- Plantilla base: `Recursos/Plantilles_disseny/clauer_SA1.svg`.
+- **Full de disseny en paper imprimible** (sessió 1, un per alumne/a):
+  [`impressos/clauer_paper_SA1.html`](../../impressos/clauer_paper_SA1.html) — ruta de disseny,
+  zona de proves i tauler mil·limetrat a mida real.
+- Plantilla base (per a la sessió 2, a l'ordinador): `Recursos/Plantilles_disseny/clauer_SA1.svg`.
 - Fitxa de l'alumnat: `Fitxa_alumnat.md` · Rúbrica: `Rubrica_SA1.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
