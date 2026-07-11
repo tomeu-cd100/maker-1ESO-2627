@@ -356,24 +356,50 @@ def sa_siblings(folder: str):
     return [(lbl, base, kind) for _o, lbl, base, kind in out]
 
 
-def sa_prevnext(folder: str) -> str:
-    """Barra SA anterior / següent (enllaços a hubs germans, mateix nivell de carpeta)."""
-    i = sa_idx(folder)
+# Seqüència lineal única del recorregut de l'alumne: dins de cada SA es passa pels seus passos
+# (hub → fitxa → exemple → activitats) i només al final se salta a la SA següent. Les pàgines
+# de referència del docent (la SA completa i la rúbrica) NO són passos de l'alumne.
+_WALK_PRIO = {"hub": -1, "fitxa": 0, "exemple": 1, "extra": 2}
+SA_SEQUENCE = []            # [{folder, base, label, kind}] en ordre de recorregut
+SEQ_INDEX = {}              # (folder, base) → posició a SA_SEQUENCE
+
+
+def build_sequence():
+    SA_SEQUENCE.clear()
+    SEQ_INDEX.clear()
+    for code, name, _trim, _product, folder in SA_CARDS:
+        SA_SEQUENCE.append({"folder": folder, "base": "index.html", "kind": "hub",
+                            "label": f"{code} · {html.escape(name)}"})
+        sibs = [s for s in sa_siblings(folder) if s[2] in _WALK_PRIO]
+        for lbl, base, kind in sorted(sibs, key=lambda s: _WALK_PRIO[s[2]]):
+            SA_SEQUENCE.append({"folder": folder, "base": base, "kind": kind,
+                                "label": f"{code} · {lbl}"})
+    for i, e in enumerate(SA_SEQUENCE):
+        SEQ_INDEX[(e["folder"], e["base"])] = i
+
+
+def step_nav(folder: str, base: str) -> str:
+    """Pas anterior / següent del recorregut de l'alumne per a la pàgina (folder, base)."""
+    i = SEQ_INDEX.get((folder, base))
     if i is None:
         return ""
-    if i > 0:
-        c = SA_CARDS[i - 1]
-        left = (f'<a class="sa-prev" href="../{slugify(c[4])}/index.html">'
-                f'<small>← anterior</small><strong>{c[0]} · {html.escape(c[1])}</strong></a>')
+
+    def rel_href(e):
+        return e["base"] if e["folder"] == folder else f'../{slugify(e["folder"])}/{e["base"]}'
+
+    prev = SA_SEQUENCE[i - 1] if i > 0 else None
+    nxt = SA_SEQUENCE[i + 1] if i < len(SA_SEQUENCE) - 1 else None
+    if prev:
+        left = (f'<a class="sa-prev" href="{rel_href(prev)}">'
+                f'<small>← pas anterior</small><strong>{prev["label"]}</strong></a>')
     else:
-        left = '<span class="sa-prev sa-dis"><small>← anterior</small><strong>—</strong></span>'
-    if i < len(SA_CARDS) - 1:
-        c = SA_CARDS[i + 1]
-        right = (f'<a class="sa-next" href="../{slugify(c[4])}/index.html">'
-                 f'<small>següent →</small><strong>{c[0]} · {html.escape(c[1])}</strong></a>')
+        left = '<span class="sa-prev sa-dis"><small>← pas anterior</small><strong>—</strong></span>'
+    if nxt:
+        right = (f'<a class="sa-next" href="{rel_href(nxt)}">'
+                 f'<small>pas següent →</small><strong>{nxt["label"]}</strong></a>')
     else:
-        right = '<span class="sa-next sa-dis"><small>següent →</small><strong>—</strong></span>'
-    return f'<nav class="sa-nav" aria-label="Navegació entre SA">{left}{right}</nav>'
+        right = '<span class="sa-next sa-dis"><small>pas següent →</small><strong>fi del curs 🎉</strong></span>'
+    return f'<nav class="sa-nav" aria-label="Pas anterior i següent">{left}{right}</nav>'
 
 
 def sa_printables_html(folder: str) -> str:
@@ -386,16 +412,16 @@ def sa_printables_html(folder: str) -> str:
 
 
 def sa_context_bar(folder: str, current_base: str) -> str:
-    """Barra que s'injecta a dalt de cada pàgina d'una SA: prev/next + germanes + imprimibles."""
+    """Peu discret de cada pàgina d'una SA: germanes + imprimibles + prev/next (a sota de tot)."""
     chips = [f'<a class="sa-hublink" href="index.html">⌂ Aquesta SA</a>']
     for lbl, base, _kind in sa_siblings(folder):
         if base == current_base:
             chips.append(f'<span class="sa-chip cur">{lbl}</span>')
         else:
             chips.append(f'<a class="sa-chip" href="{base}">{lbl}</a>')
-    return (f'{sa_prevnext(folder)}'
-            f'<div class="sa-sib">{"".join(chips)}</div>'
-            f'{sa_printables_html(folder)}')
+    return (f'<div class="sa-sib">{"".join(chips)}</div>'
+            f'{sa_printables_html(folder)}'
+            f'{step_nav(folder, current_base)}')
 
 
 def sa_cards(prefix: str) -> str:
@@ -428,11 +454,11 @@ def build_sa_hubs():
         body = f"""
 <h1>{code} · {html.escape(name)} <span class="badge">{trim}</span></h1>
 <p class="product">{html.escape(product)}</p>
-{sa_prevnext(folder)}
 {primary}
 {sa_printables_html(folder)}
 <h2>Tot el material d'aquesta SA</h2>
 <div class="grid">{cards}</div>
+<footer class="sa-foot">{step_nav(folder, "index.html")}</footer>
 """
         crumb = [("Inici", "index.html"), ("Classes", "classes/index.html"),
                  (f"{code} · {name}" if len(f"{code} · {name}") < 60 else f"{code}", None)]
@@ -456,10 +482,8 @@ def build_doc_pages():
         plain_src = body  # sense la barra de navegació (per a l'índex de cerca)
         parts = rel.split("/")
         if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
-            folder = parts[1]
-            top = sa_context_bar(folder, out_rel.rsplit("/", 1)[-1])
-            bottom = f'<div class="sa-nav-bottom">{sa_prevnext(folder)}</div>'
-            body = f'<article class="doc">{top}{body}{bottom}</article>'
+            foot = sa_context_bar(parts[1], out_rel.rsplit("/", 1)[-1])
+            body = f'<article class="doc">{body}<footer class="sa-foot">{foot}</footer></article>'
         else:
             body = f'<article class="doc">{body}</article>'
         crumb = [("Inici", "index.html")]
@@ -747,6 +771,7 @@ def main():
         shutil.rmtree(OUT)
     (OUT / "assets").mkdir(parents=True)
     shutil.copyfile(ROOT / "web_assets" / "style.css", OUT / "assets" / "style.css")
+    build_sequence()
     pages = build_doc_pages()
     build_sa_hubs()
     build_section_indexes(pages)

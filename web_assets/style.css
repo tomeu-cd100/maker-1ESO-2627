@@ -268,23 +268,28 @@ img { max-width: 100%; }
 .linkrow a { text-decoration: none; font-weight: 500; white-space: nowrap; }
 
 /* ── navegació entre SA + hub per SA ────────── */
-.sa-nav { display: flex; gap: .6rem; margin: 1rem 0; }
-.sa-nav a, .sa-nav span { flex: 1; display: flex; flex-direction: column; gap: .1rem;
-  padding: .5rem .9rem; border: 1px solid var(--line); border-radius: 12px;
-  background: var(--bg-card); text-decoration: none; color: var(--ink); }
-.sa-nav a:hover { border-color: var(--accent); }
-.sa-nav small { font-size: .72rem; color: var(--ink-soft); }
-.sa-nav strong { font-size: .92rem; }
-.sa-nav .sa-next { text-align: right; align-items: flex-end; }
-.sa-nav .sa-dis { opacity: .35; }
-.sa-nav-bottom { margin-top: 1.6rem; }
-.sa-sib { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin: .8rem 0; }
+/* peu discret al final de cada pàgina de SA */
+.sa-foot { margin-top: 2.5rem; padding-top: 1rem; border-top: 1px solid var(--line); }
+.doc .sa-foot h2, .doc .sa-foot { border: none; }
+.doc .sa-foot { border-top: 1px solid var(--line); }
+/* prev/next: enllaços de text discrets, no caixes */
+.sa-nav { display: flex; justify-content: space-between; gap: 1rem; margin: .8rem 0 0;
+  font-size: .85rem; }
+.sa-nav a, .sa-nav span { display: inline-flex; flex-direction: column; gap: .05rem;
+  text-decoration: none; color: var(--ink-soft); }
+.sa-nav a:hover { color: var(--accent); }
+.sa-nav small { font-size: .7rem; opacity: .8; }
+.sa-nav strong { font-size: .85rem; font-weight: 600; }
+.sa-nav .sa-next { text-align: right; }
+.sa-nav .sa-dis { opacity: .3; }
+/* chips de germanes: petits i sobris */
+.sa-sib { display: flex; flex-wrap: wrap; gap: .35rem; align-items: center; margin: 0 0 .6rem; }
 .sa-chip, .sa-hublink { border: 1px solid var(--line); border-radius: 999px;
-  padding: .3rem .75rem; font-size: .85rem; text-decoration: none; color: var(--ink);
-  background: var(--bg-card); white-space: nowrap; }
+  padding: .22rem .6rem; font-size: .78rem; text-decoration: none; color: var(--ink-soft);
+  background: transparent; white-space: nowrap; }
 .sa-chip:hover, .sa-hublink:hover { border-color: var(--accent); color: var(--accent); }
 .sa-chip.cur { background: var(--accent); border-color: var(--accent); color: #fff; font-weight: 600; }
-.sa-hublink { font-weight: 600; }
+.sa-hublink { font-weight: 600; color: var(--ink); }
 .sa-primary { display: flex; gap: .9rem; align-items: center; margin: 1.1rem 0;
   padding: 1rem 1.2rem; border: 2px solid var(--accent); border-radius: 14px;
   background: var(--accent-soft); text-decoration: none; color: var(--ink); }
