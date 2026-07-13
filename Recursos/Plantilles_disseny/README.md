@@ -1,6 +1,7 @@
 # Plantilles de disseny — Aula Maker
 
 Fitxers llestos per usar a l'aula. **Convenció de capes** per a la làser xTool S1:
+
 - **TALL** → traç **vermell** (`#FF0000`), gruix de línia mínim (0,1 mm), sense ompliment.
 - **GRAVAT** → elements **negres** (`#000000`).
 
@@ -22,6 +23,7 @@ Requereix Python 3. Des d'aquesta carpeta:
 python generador_caixa_encaix.py --ancho 100 --largo 60 --alto 40 --grosor 3 --salida la_meva_caixa.svg
 ```
 Paràmetres:
+
 - `--ancho` / `--largo` / `--alto`: dimensions en mm.
 - `--grosor`: **gruix real del material** (clau perquè l'encaix quadri!).
 - `--salida`: nom del fitxer SVG de sortida.

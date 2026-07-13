@@ -38,6 +38,7 @@ T1: ______  T2: ______  T3: ______
 
 **Objectius personals de l'alumne/a** (els que escriu al tancament del diari; anoteu-ne el
 seguiment):
+
 - SA__ → SA__: ______________________________ (assolit? __ )
 - SA__ → SA__: ______________________________ (assolit? __ )
 - SA__ → SA__: ______________________________ (assolit? __ )
@@ -51,8 +52,10 @@ seguiment):
 - **Cada fila es llegeix d'esquerra a dreta com una trajectòria**, no com una llista de notes:
   un alumne NA-AS-AS-AN en CE2 està **progressant** (i això és el que es qualifica); un
   AN-AN-AS-AS està **retrocedint** i demana una conversa, no una mitjana.
+
 - **La valoració global de cada CE és el nivell que l'alumne demostra al final** (les darreres
   evidències), matisat per la trajectòria — mai la mitjana aritmètica de la fila.
+
 - Les SA amb ⭐ (SA3, SA6, SA9) porten rúbrica completa i pesen més com a evidència; a la
   resta, el nivell surt del **checklist de criteris d'èxit** (vegeu la jerarquia d'instruments,
   `Criteris_i_qualificacio.md` §2·bis). Aquest full no és feina nova: és **on conflueix** el
@@ -64,9 +67,11 @@ seguiment):
 - **En codocència:** cada docent omple les files que avalua (vegeu el repartiment a
   `Programació didàctica/Codocencia_desdoblament.md` §6) — el full és el punt de trobada dels
   dos fulls de seguiment.
+
 - **Amb l'alumne/a:** ensenyeu-li el seu full **una vegada per trimestre** (o quan demani "quina
   nota tinc"): veure la pròpia fila de CE2 passar de NA a AN és el retorn més motivador que
   existeix, i fa comprensible la qualificació competencial a les famílies.
+
 - **Al juny:** la columna «Global curs» s'omple fila a fila mirant la trajectòria. La nota final
   és el judici global de les **6 competències específiques (CE1–CE6)**; les files **TE** i **TA**
   són **informatives** i **maticen** CE5/CE6 i CE1 (no són competències noves ni se sumen a part,

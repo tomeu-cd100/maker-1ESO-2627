@@ -51,9 +51,11 @@
 - A l'**obertura de cada SA** (els 10' conjunts), el docent assenyala la Gran Idea del dia:
   «avui treballem la 3️⃣ — on la veurem?». Cada SA porta la seva etiqueta 🧭 al costat de la
   pregunta guia.
+
 - Quan un alumne topa amb un problema, la pregunta de bastida és: «**quina Gran Idea t'està
   parlant ara?**» (la peça deformada = 1️⃣; el projecte inacabable = 2️⃣; l'encaix que balla
   sense mostra prèvia = 3️⃣…).
+
 - Al **tancament de curs** (SA9, rutina «El meu viatge maker»): «explica una Gran Idea amb un
   exemple teu de cada trimestre» — és la prova de transferència més neta que hi ha.
 

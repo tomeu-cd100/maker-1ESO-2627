@@ -19,8 +19,10 @@
 
 - **Currículum de la matèria *Tecnologia i Digitalització* (ESO):**
   https://xtec.gencat.cat/web/.content/curriculum/eso/curriculum-175-2022/Tecnologia-i-Digitalitzacio.pdf
+
 - **Portal del currículum 175/2022 (XTEC):**
   https://xtec.gencat.cat/ca/curriculum/eso/curriculum-175-2022/
+
 - **Decret 175/2022 (text consolidat, Portal Jurídic):**
   https://portaljuridic.gencat.cat/ca/document-del-pjur/?documentId=938401
 
@@ -33,26 +35,32 @@
 - **CE1 T&D** — Buscar, analitzar i seleccionar la informació adequada, de manera crítica i
   experimentant amb eines de simulació, per delimitar problemes tecnològics i proposar solucions
   a partir de la informació obtinguda.
+
 - **CE2 T&D** — Planificar, dissenyar i desenvolupar solucions a problemes tecnològics amb
   autonomia i actitud creativa, tot aplicant el procés tecnològic, coneixements interdisciplinaris
   i treballant de manera ordenada i cooperativa, per resoldre problemes o necessitats de manera
   eficaç, innovadora i sostenible.
+
 - **CE3 T&D** — Aplicar de manera apropiada diferents tècniques i coneixements interdisciplinaris,
   tot utilitzant operadors, sistemes tecnològics i eines, seguint la planificació i el disseny
   sostenible previ, per construir solucions tecnològiques que donin resposta a necessitats en
   diferents contextos.
+
 - **CE4 T&D** — Descriure, representar i intercanviar idees o solucions a problemes tecnològics o
   digitals, utilitzant els mitjans de representació, simbologia i vocabulari adequats, així com els
   instruments i els recursos disponibles, utilitzant les eines digitals per argumentar, comunicar i
   difondre informació.
+
 - **CE5 T&D** — Desenvolupar algorismes i aplicacions informàtiques en diferents entorns, tot
   aplicant els principis del pensament computacional i incorporant les tecnologies emergents, per
   resoldre problemes concrets, automatitzar processos i aplicar-los en sistemes de control o
   robòtica.
+
 - **CE6 T&D** — Utilitzar els fonaments del funcionament dels dispositius i de les aplicacions
   habituals de l'entorn digital d'aprenentatge, analitzant-ne els components i les funcions i
   ajustant-los a les necessitats per fer-ne un ús més eficient i segur, per detectar i resoldre
   problemes tècnics senzills.
+
 - **CE7 T&D** — Fer un ús ètic, sostenible i ecosocialment responsable de la tecnologia,
   identificant-ne les repercussions i les aportacions, per valorar l'impacte del desenvolupament
   tecnològic a la societat i a l'entorn.
@@ -75,6 +83,7 @@
   introductòria i opcional** a l'Aula Maker (blocs tipus Blockly a CoSpaces, *Codeblocks* a
   Tinkercad com a ampliació ⭐). **No és l'eix** d'aquesta optativa; qui necessiti desplegar-la
   plenament ho farà a la matèria de T&D / Digitalització. Convé fer-ho explícit.
+
 - A canvi, l'Aula Maker **aprofundeix** en àmbits que T&D tracta de manera més transversal: la
   **fabricació digital** (làser i 3D) i la **realitat immersiva** (360/VR), encaixades a T&D com a
   **tecnologies emergents** (CE7) i ús de dispositius (CE6).

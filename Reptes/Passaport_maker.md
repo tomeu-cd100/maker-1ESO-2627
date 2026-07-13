@@ -43,13 +43,17 @@
 
 1. **S'imprimeix per a la SA0** (un per alumne/a) i es presenta amb el contracte d'aula: «aquí
    hi cabrà tot el que et guanyis aquest curs».
+
 2. **Es guarda a l'aula** (no viatja a casa fins al juny): així mai es perd i sempre és a mà
    per segellar.
+
 3. Cada carnet/insígnia **se segella al moment de guanyar-lo** (checkpoint, repte validat,
    votació) — el moment de segellar davant de l'alumne és part del premi; no ho acumuleu.
+
 4. El docent replica la dada al **quadern digital** (pestanya `Carnets`): el passaport és de
    l'alumne, el registre és del docent — si un passaport es perd, es reimprimeix des del
    quadern.
+
 5. **Al juny se l'enduen**: és l'objecte-memòria del curs (i per a les famílies, el resum més
    llegible del que ha fet el seu fill/a).
 

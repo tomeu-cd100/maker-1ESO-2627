@@ -27,12 +27,15 @@ objecte permanent**.
 
 1. **Entrar-hi és voluntari i és un honor**, mai un càstig: la peça s'hi *dona*, no s'hi
    *exposa*. Qui dona la peça n'escriu la targeta (o la dicta).
+
 2. La targeta parla de la **peça**, mai de la persona: «el forat era massa a prop de la vora»,
    no «en Marc va fer el forat malament».
+
 3. El docent hi posa les **seves** peces fallides primer (i el co-docent les del seu
    aprenentatge maker): els adults obren el museu. Per no començar amb la lleixa buida,
    `Recursos/Museu_llavor_errors.md` explica com fabricar expressament les **5 peces
    fallides canòniques** amb la targeta ja resolta (el «museu llavor»).
+
 4. Els errors *repetits* del museu es converteixen en **checklist**: si tres peces han fallat
    pel mateix, allò entra a la fitxa de la SA corresponent.
 
@@ -41,8 +44,10 @@ objecte permanent**.
 - **Demo tàctil**: abans de cada SA de fabricació, 5 minuts al museu — «mireu què li va passar
   a aquesta peça; què farem diferent?». És la bastida DUA més barata que hi ha (visual,
   tàctil, sense text).
+
 - **Estació del desdoblament**: analitzar una peça del museu amb la targeta és tasca vàlida de
   l'estació de disseny (alimenta el diari i CA1.4/CA3.3).
+
 - **Rutina de SA5**: la sessió d'anàlisi d'errors usa el museu com a corpus.
 - **Fira SA9**: el museu s'exposa amb la resta — explica als visitants què és aprendre de debò.
 
@@ -59,6 +64,7 @@ aprenentatge per a tothom.
 
 - Aforament del museu: **una lleixa** — quan és ple, les peces més antigues es retiren
   (foto + targeta al portafoli de grup) i el material es recicla (CA6.2).
+
 - Les targetes buides viuen al costat del museu; escriure'n una són 3 minuts.
 - 📦 **Capsa de préstec:** com que l'anàlisi de peces es fa a l'**estació de disseny** (aula
   ordinària) i el museu és a l'aula Maker, una capsa amb **3-4 peces + les seves targetes**

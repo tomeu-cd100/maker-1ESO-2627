@@ -19,9 +19,11 @@
 
 - [ ] **Obre amb el repte**, mai amb «continueu la feina»: «avui la vostra peça ha de…». La
   teva estació és l'**estudi de disseny** del taller, no una aula d'espera.
+
 - [ ] Tothom té la **fitxa de la SA** oberta i sap en quina fase és.
 - [ ] Meitat del torn: **revisió per parelles** (s'intercanvien el treball amb el checklist de
   la fitxa; tu només vigiles que el retorn sigui concret, no "està bé").
+
 - [ ] Qui acaba, **repte express** (`Reptes/`) — mai "temps lliure".
 - [ ] Últims 10': tothom escriu (o grava en àudio) la seva entrada al **diari de taller**.
 - [ ] Anota al teu full de seguiment (`Avaluació/Full_seguiment_grup.md`) amb codis ràpids:
@@ -41,6 +43,7 @@
 
 - Demana a l'alumnat que **t'expliqui** què fa: explicar a algú que no en sap és la millor
   prova d'aprenentatge que existeix (i a tu et forma gratis).
+
 - **Treu-te els carnets de màquina** (`Normativa/Carnet_de_maquina.md`) durant el curs, amb
   els mateixos checkpoints que ells, davant d'ells. Un adult que aprèn, s'equivoca i itera és
   exactament la cultura que aquesta assignatura vol ensenyar.
@@ -50,8 +53,10 @@
 - **Tu:** el **procés** (CA1: requisits, idees, planificació, iteració), l'**equip, la
   documentació i la comunicació** (CA5), l'**ètica digital** (CA6.3) i que **tothom participi
   per igual** (TE). Tot això es veu perfectament des de la teva estació.
+
 - **No tu:** la qualitat tècnica del disseny i la fabricació (CA2, CA3, CA4) i la seguretat de
   màquines (CA6.1) — això ho avalua el docent Maker.
+
 - Les **rúbriques** de cada SA es passen conjuntament a la coordinació.
 
 ## 6. Coordinació

@@ -10,8 +10,10 @@
 1. **⏱️ Temps curt:** màxim **10-15 minuts** amb les ulleres, i després descans.
 2. **🤢 Si em marejo, paro:** noto mareig, nàusees o mal de cap → em trec les ulleres, m'assec
    i aviso. No aguanto «per acabar».
+
 3. **🧼 Higiene:** les lents **només** amb el drap de microfibra **sec** (mai tovalloletes ni
    aigua); la part de la cara es neteja abans i després.
+
 4. **👀 Faig de guia:** quan un company/a porta les ulleres, jo vigilo que no topi amb res ni
    ningú i que tingui espai lliure.
 
@@ -24,15 +26,19 @@
   comptes **de centre educatiu** (Meta for Education) estan pensats per a alumnat de **13 anys
   o més**. L'alumnat de 1r d'ESO en té **12**: amb comptes gestionats pel centre, la restricció
   **s'aplica**.
+
 - 📋 **Verifica-ho a l'inici de cada curs** als termes vigents de Meta i **documenta la
   conclusió** a la fitxa del final d'aquest document (§8), perquè la decisió no s'hagi de
   rediscutir a cada sessió.
+
 - **Si la política vigent és 13+ (o superior a l'edat de l'alumnat):**
   - L'**alternativa en pantalla** (visualització de l'escena/tour a l'ordinador) passa a ser la
     **via principal** de l'activitat, no una excepció.
+
   - L'ús de les ulleres queda **reservat** als alumnes que ja tinguin l'edat i amb
     **consentiment exprés** de la família (vegeu `Carta_families_inici_curs.md` i
     `Autoritzacio_families_VR_360.md`).
+
   - Les SA7–SA9 estan dissenyades perquè el **producte i l'avaluació es puguin assolir sense
     ulleres** (creació i visualització en pantalla); la immersió amb ulleres és un complement.
 
@@ -46,9 +52,11 @@
 - ⚠️ **Les lents NO es netegen mai amb tovalloletes humides ni alcohol** (ratllen i degraden el
   recobriment de les lents de les Quest 3): **només drap de microfibra sec**, amb moviments
   circulars suaus.
+
 - La **interfície facial** (l'escuma/silicona en contacte amb la cara) sí que es neteja amb
   tovalloletes sense alcohol **abans i després** de cada ús; opcionalment, **fundes facials
   individuals** d'un sol ús o per alumne/a.
+
 - Ús individual per torns; no compartir sense netejar.
 
 ## 4. Seguretat física
@@ -73,6 +81,7 @@
 - ☀️ **Mai exposar les lents a la llum solar directa** (ni un minut vora una finestra): les
   lents *pancake* de les Quest 3 concentren el sol i **cremen la pantalla de manera
   irreversible**. Guardar-les sempre amb les lents cap avall o tapades.
+
 - Registrar qualsevol incidència a `Memòria de treball/Registre_incidencies_i_manteniment.md`.
 
 ## 8. Fitxa de verificació anual (omplir a l'inici de cada curs)

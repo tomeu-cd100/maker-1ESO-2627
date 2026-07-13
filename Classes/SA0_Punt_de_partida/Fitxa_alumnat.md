@@ -77,14 +77,19 @@ sovint — i està bé: aquí **l'error és informació**.
 
 1. **📔 El diari de taller** — cada sessió hi escrius (o hi graves en àudio!) què has fet, què
    has après i quins problemes has resolt. És la teva evidència més important.
+
 2. **🛠️ El passaport maker** — hi aniràs guanyant els 4 **carnets de màquina** (sense carnet no
    s'opera!), les insígnies i els segells de trimestre. Al juny te l'endús.
+
 3. **🎯 Els criteris d'èxit** — cada repte et diu **el primer dia** exactament què es mirarà.
    Mai t'avaluarem de res que no t'hàgim ensenyat.
+
 4. **🌱🙂💪🌟 Els nivells** — no hi ha notes de l'1 al 10: hi ha «encara no», «ho faig», «ho
    faig bé» i «ho domino». El que compta és **com evoluciones**.
+
 5. **♻️ La cultura del prototip** — la primera versió mai és la bona. Provar, fallar, entendre
    i millorar és el mètode (i les peces fallides van al **Museu dels Errors**, no a la paperera).
+
 6. **🛡️ La seguretat** — és l'única cosa innegociable. El contracte que signes avui val tot
    el curs.
 
@@ -109,6 +114,7 @@ Marca les que **ja saps què volen dir** (de veritat!) — al juny ho tornarem a
 ## La meva primera entrada al diari (rutina *Veig – Penso – Em pregunto*)
 
 Tria **una màquina** del taller i completa:
+
 - **Veig:** ____________________________________________
 - **Penso** que serveix per: ____________________________
 - **Em pregunto:** ______________________________________

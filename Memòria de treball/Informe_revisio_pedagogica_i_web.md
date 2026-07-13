@@ -128,6 +128,7 @@ En projectes cooperatius de fabricació, si no s'assignen responsabilitats clare
 ### 4.2. Càpsules "Inspira't": Referents Makers i Socials
 
 Per dotar de sentit i context social el que es fabrica a l'aula, cada Situació d'Aprenentatge integrarà una breu càpsula documental (*Inspira't*):
+
 * **SA1–SA3 (Identitat i 2D):** Exemples de disseny paramètric aplicat a senyalística accessible per a persones amb discapacitat visual (braille gravat a làser).
 * **SA4–SA6 (Disseny 3D Funcional):** Referents de *protesisme obert* (ex.: projecte *e-NABLE* de pròtesis mecàniques impreses en 3D per joves) i dissenyadores industrials contemporànies.
 * **SA7–SA8 (Immersiu i VR):** Aplicacions de la Realitat Virtual en preservació del patrimoni cultural i rehabilitació mèdica.

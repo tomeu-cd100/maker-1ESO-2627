@@ -22,12 +22,14 @@ tràmit; un que es recupera és un pla. El docent n'anota el seguiment al
 ## 2. Tiquet de sortida (exit ticket)
 Cada SA porta el seu tiquet de sortida. Format ràpid **1-1-1** (per no convertir-lo en un
 tràmit d'escriure molt):
+
 - **1** cosa que he après · **1** cosa que vull millorar · **1** dubte o pregunta.
 Recolliu-los (paper o formulari) per ajustar la sessió següent.
 
 **Variant: termòmetre d'autonomia** (30 segons, dits 1-4 o gomets). Mesura *quanta ajuda he
 necessitat avui* amb una escala de graons 🪜 (⚠️ **això NO és el teu nivell d'assoliment**:
 mesura l'ajuda d'avui, no com de bé ho fas):
+
 - 🪜1 He necessitat ajuda contínua del docent per avançar.
 - 🪜2 He seguit la fitxa, però m'he encallat en un punt i m'han hagut de desencallar.
 - 🪜3 M'he desencallat sol/a (amb `Recursos/Primers_auxilis_maker.md` o un company/a).
@@ -42,6 +44,7 @@ la bastida (demo, guia, parelles), no córrer més.
 
 ## 3. Semàfor d'autoavaluació
 Senyal ràpid de l'estat de cadascú (mà, gomets o targeta):
+
 - 🔴 **Vermell:** estic encallat/da, necessito ajuda.
 - 🟡 **Groc:** vaig avançant però tinc dubtes.
 - 🟢 **Verd:** ho tinc clar, puc ajudar algú.

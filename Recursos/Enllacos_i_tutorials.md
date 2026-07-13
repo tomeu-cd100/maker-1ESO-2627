@@ -37,9 +37,11 @@ simples, d'alt contrast i lliures de drets**. Fonts verificades (juliol 2026):
 - **Openclipart** — openclipart.org — tot **domini públic**; cerca en anglès («cat
   silhouette», «rocket», «tree icon») i descarrega en **PNG** (tria la mida) — perfecte per
   traçar.
+
 - **FreeSVG** — freesvg.org — **CC0**; descàrrega en PNG o SVG (per al banc, agafa el PNG!).
 - **Public Domain Vectors** — publicdomainvectors.org — 45.000+ vectors **CC0** per
   categories (animals, transport, natura…).
+
 - **Pixabay** — pixabay.com — cerca «silueta» + filtre «vectors/il·lustracions»; llicència
   pròpia gratuïta sense atribució.
 
@@ -66,12 +68,14 @@ repositori** (política de la carpeta `Recursos/`: material de tercers, només e
 - **Compte gratuït de professor** (CoSpaces Edu Basic): fins a **30 seients** (profe + 29 alumnes).
 - **Tutorials en vídeo:** "CoSpaces Edu for beginners – Teacher tutorial" i "First class with
   CoSpaces Edu" (YouTube).
+
 - **Ressenya educativa** (Common Sense Education) — útil per valorar edat i privadesa.
 - Usos: tours 360, jocs amb codi (CoBlocks), exposicions, històries interactives (SA8/SA9).
 
 ## 🎥 Càmera 360
 - Programari i guies **segons el model concret** de la càmera del centre (consulteu el web del
   fabricant). Anoteu aquí el model i l'enllaç:
+
   - Model de la càmera 360 del centre: ____________________
   - App/programari de la càmera: ____________________
 - **Muntatge del tour: CoSpaces Edu** (foto 360 com a fons d'escena + punts de navegació) — la
@@ -84,6 +88,7 @@ repositori** (política de la carpeta `Recursos/`: material de tercers, només e
   poden caure): els cursos amb `course?id=…`, les pàgines `xtec.cat/~usuari` i els blogs
   personals. Si en trobes un de mort, substitueix-lo per documentació **oficial** o de
   **Softcatalà**, que són més estables.
+
 - Afegeix els tutorials concrets que **et funcionin** a classe.
 - Per a les experiències VR/360 que facis servir amb l'alumnat, mantén una llista curta amb
   **enllaç + edat recomanada** a `Simulacions/Experiencies_VR_360.md`.

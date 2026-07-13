@@ -29,6 +29,7 @@ del curs comença a la SA1; el que sí que comença avui és el **diari de talle
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar la SA0 seré capaç de…**
+
 - Explicar què és la cultura maker i què farem aquest curs (el mapa de les 9 SA).
 - Conèixer les normes de seguretat del taller i per què existeixen.
 - Saber com funciona el curs: diari, passaport, estacions, com m'avaluaran.
@@ -51,15 +52,19 @@ temps de fer-se bé (sense córrer).
 
 1. **Activador (15')**: vídeo curt de *fab labs* / objectes fets amb màquines. Pluja d'idees:
    «Què t'agradaria fabricar aquest curs?» (es recull a la fitxa — tornarà a sortir a SA5!).
+
 2. **Cultura maker i el mapa del curs (15')**: aprendre fent, prototipar, compartir, errar per
    millorar. El recorregut de l'any amb el mapa de la fitxa: 2D → 3D → immersiu → Fira.
+
 3. **Recorregut pel taller (25')**: les zones (disseny, fabricació, immersiva, muntatge) i les
    màquines (P2S, làser xTool S1, càmera 360, ulleres VR) — només mirar, encara no tocar.
    Rutina *Veig – Penso – Em pregunto* davant una màquina (primera entrada del diari!).
+
 4. **Dinàmica de cohesió de grup (35')**: trencagels de tota la classe amb `Dinamica_cohesio_grup.md`
    (bingo maker «Busca algú que…» + rotllana de tancament). **Avui no es formen equips fixos**:
    només ens coneixem. Els **equips de treball del curs** els forma el docent a la **SA1** amb les
    dades del diagnòstic.
+
 5. **Com funciona el curs (25')**: presentació del **diari de taller** (es reparteix el
    **quadern imprès del T1** — el diari és en paper fins que s'aprèn el portafoli digital a
    Tecnologia), el **passaport maker**
@@ -68,6 +73,7 @@ temps de fer-se bé (sense córrer).
    `Avaluació/Avaluacio_explicada_alumnat.md`: cap sorpresa mai. Ensenyeu també la **web del
    curs** (projectada: el portal de l'alumnat i «què toca aquesta setmana») i els seus **botons
    d'ajustos** — A−/A+, Aa↔ lectura fàcil, 🔊 veu alta, 🌗 — perquè cadascú se la configuri.
+
 6. **Tancament (5')**: acabar la primera entrada del diari.
 
 ### Sessió 2 (2 h) — Seguretat i diagnòstic
@@ -75,11 +81,14 @@ temps de fer-se bé (sense córrer).
 1. **Represa i grups aleatoris (10')**: repàs llampec del taller i les zones; es fan **grups
    aleatoris ràpids de 4-5** per a la gimcana (mètode a `Dinamica_cohesio_grup.md`, part C).
    Recorda: són **provisionals**, només per a la gimcana.
+
 2. **Gimcana de seguretat (50')**: les 4 proves actives amb tot el material a
    `Material_gimcana_seguretat.md` (rotació + posada en comú). Acaba amb la
    **signatura del contracte d'aula**.
+
 3. **Avaluació 0 (45')**: qüestionari d'autopercepció + vocabulari + mini-repte diagnòstic
    (`Avaluació/Avaluacio_inicial.md`). **Sense nota**: serveix per formar equips i personalitzar.
+
 4. **Tancament (15')**: entrada del diari de la sessió i tancament de la SA0.
 
 ## 3. Atenció a la diversitat (DUA)
@@ -94,6 +103,7 @@ temps de fer-se bé (sense córrer).
 - `Avaluació/Avaluacio_inicial.md` · `Avaluació/Avaluacio_explicada_alumnat.md`.
 - `Material_gimcana_seguretat.md` ·
   `Normativa/Normes_seguretat_taller.md` · `Reptes/Passaport_maker.md`.
+
 - Vídeo d'activador i pòster de les Grans Idees.
 
 ## 5. Avaluació — què s'avalua, amb què i qui

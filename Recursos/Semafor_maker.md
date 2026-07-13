@@ -16,6 +16,7 @@ Després mira les mides del fitxer digital.
 - [ ] El document està en **mm** (no en píxels).
 - [ ] La peça digital fa **exactament** els mil·límetres de l'esbós (ex.: 60 × 25 mm — i no
       600 × 250!).
+
 - [ ] La peça cap al material que tens assignat.
 
 > 💡 Per redimensionar sense deformar: **cadenat de proporció tancat** 🔒.
@@ -23,12 +24,14 @@ Després mira les mides del fitxer digital.
 ## 🟡 Llum 2 — Capes i colors (que la màquina entengui el fitxer)
 
 **Si és 2D (làser):**
+
 - [ ] Contorn de **tall** = vermell pur (**RGB 255, 0, 0**), gruix fi (≈0,1 mm).
 - [ ] **Gravat** = negre (**RGB 0, 0, 0**).
 - [ ] Tots els textos convertits a camí (**Camí → Objecte a camí**).
 - [ ] Cap línia doble ni forma duplicada.
 
 **Si és 3D (impressora):**
+
 - [ ] La peça **toca el pla de treball** (tecla **D**).
 - [ ] Forats **agrupats** amb la peça (Ctrl+G) — comprova que foraden de veritat.
 - [ ] Parets d'un mínim de **2 mm**.
@@ -38,6 +41,7 @@ Després mira les mides del fitxer digital.
 
 - [ ] El fitxer exportat es diu **`ElMeuNom_SAx_vN`** (ex.: `Marc_SA3_v2.svg`,
       `Aina_SA5_v1.stl`).
+
 - [ ] És el fitxer **exportat** (`.svg` pla / `.stl`), no el projecte d'edició.
 - [ ] Pujat a la **carpeta de Drive de la SA** del teu equip.
 

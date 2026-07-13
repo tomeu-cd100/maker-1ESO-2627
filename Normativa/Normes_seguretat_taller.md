@@ -17,20 +17,24 @@
 
 ## 2. Talladora làser (xTool S1)
 **Riscos:** crema, fum/gasos tòxics, incendi, dany ocular.
+
 - ⚠️ **MAI deixar la làser funcionant sense vigilància.**
 - Comprovar sempre la **ventilació/extracció** abans d'engegar.
 - Usar **només materials autoritzats** (fusta fina DM/contraxapat, cartró, metacrilat opac/de
   colors — només amb el docent). ❌ **PROHIBIT:** PVC, vinil, policarbonat, ABS, metacrilat
   transparent (el làser de díode el travessa) i materials desconeguts (alliberen gasos
   tòxics/corrosius o no tallen).
+
 - Mantenir la **tapa tancada** durant el funcionament; no mirar fixament el punt de tall.
 - Saber on és el **botó d'aturada** de la màquina. Si apareix una flama al material,
   l'alumnat **atura la màquina i avisa** immediatament: **no apaga mai res pel seu compte**
   (el docent segueix el protocol d'extinció del centre).
+
 - No deixar materials inflamables a prop. Retirar les restes en acabar.
 
 ## 3. Impressora 3D (Bambu Lab P2S)
 **Riscos:** crema (broquet ~200 °C i base calenta), pessics amb peces mòbils.
+
 - No tocar el **broquet ni la base** durant o just després d'imprimir.
 - No introduir les mans dins la màquina en moviment; mantenir la **porta tancada**.
 - Retirar les peces amb les **eines adequades** (espàtula) i amb la base freda o segons indicació.
@@ -48,6 +52,7 @@
 ## 6. En cas d'emergència
 - **Foc:** avisar el professorat, no apagar amb aigua aparells elèctrics; seguir el pla
   d'evacuació del centre.
+
 - **Cremada/tall:** rentar amb aigua, avisar el professorat → infermeria/farmaciola.
 - Conèixer la ubicació de l'**extintor**, la **farmaciola** i les **sortides**.
 
@@ -55,6 +60,7 @@
 
 ## Contracte de l'Aula Maker
 Jo, ___________________________, del grup ______, em comprometo a:
+
 - Respectar aquestes normes de seguretat i les indicacions del professorat.
 - Tenir cura de les màquines, les eines i els materials.
 - Treballar en equip amb respecte i deixar l'espai net.

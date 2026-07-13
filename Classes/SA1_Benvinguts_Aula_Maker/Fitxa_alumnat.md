@@ -4,6 +4,7 @@
 
 ## El repte
 Dissenya i fabrica el **teu clauer personalitzat** a la talladora làser. Ha de tenir:
+
 - [ ] Una forma base (rectangle arrodonit, cercle, o la teva forma)
 - [ ] El teu nom o inicial gravat
 - [ ] Un detall o dibuix que t'identifiqui
@@ -31,6 +32,7 @@ Ara que ja tens l'esbós decidit, el passes a l'ordinador. Les decisions ja esta
 5. Fes el **forat** de l'anella (un cercle petit, prop d'una vora).
 6. Marca què és **tall** (contorn) i què és **gravat** (nom i detall) — el/la profe t'explica
    com fer-ho amb els colors/capes.
+
 7. Desa amb el **nom correcte** — `ElMeuNom_SA1_v1.svg` — a la **carpeta de Drive** de la SA
    (així sabrem sempre quina peça és teva!) i avisa el/la profe per revisar-lo.
 

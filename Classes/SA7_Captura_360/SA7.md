@@ -28,14 +28,17 @@ a alumnat nou de 6è de primària…).
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
+
 - Explicar què és una imatge/vídeo 360.
 - Capturar amb estabilitat i bona llum.
 - Muntar un tour navegable amb etiquetes.
 - Respectar els drets d'imatge.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
+
 - [ ] Les meves captures compleixen els **3 checks**: horitzó recte · cap zona borrosa ·
   es distingeixen els detalls de les zones fosques (i ningú no hi surt sense voler-ho).
+
 - [ ] El tour es pot navegar i té títols/etiquetes.
 - [ ] He demanat permisos i respectat la privadesa.
 - [ ] El tour queda **a punt de publicar**: revisat de drets d'imatge i amb el QR generat.
@@ -74,6 +77,7 @@ a alumnat nou de 6è de primària…).
    fotògraf, transferència d'arxius. Inclou el **checkpoint del carnet 🟢 de càmera 360**
    (`Normativa/Carnet_de_maquina.md`): drets d'imatge + captura estable (es pot completar a la
    sessió 2, al primer torn de cada equip).
+
 3. **Ètica i privadesa (20')**: drets d'imatge; demanar permís; espais a evitar.
 4. **Planificació del tour (30')**: triar espais, ordre, punts de captura. Repartiment de rols.
 5. **Diari (10')**.
@@ -82,6 +86,7 @@ a alumnat nou de 6è de primària…).
 1. **Preparació (15')**: rutes i responsabilitats per equips; **full de reserva de torns** de
    càmera públic (cap equip surt sense pla de captura escrit). **Assigneu espais propers**
    (ruta de <2' des de l'aula) perquè el torn sigui de captura, no de passadís.
+
 2. **Captura per torns rotatius (85')**: ⏱️ amb **1 sola càmera** i el règim de desdoblament,
    **~3 equips per torn** amb **~15 min** cadascun (temporitzador visible). **Un dels dos
    docents acompanya sempre l'equip de captura** (menors fora de l'aula amb material car i
@@ -90,6 +95,7 @@ a alumnat nou de 6è de primària…).
    les captures ja fetes · repte immersiu (`Reptes/Reptes_immersius_360_VR.md`). Rotació
    completa a `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5. Estabilitat, llum,
    màxim **2 espais per torn**; sense gent no autoritzada al pla.
+
 3. **Posada en comú i selecció final (20')**: cada equip tria les seves millors captures.
 
 > ⏸️ **Mínim d'avui**: cada equip té **2 espais capturats i utilitzables** (estables, sense
@@ -105,16 +111,19 @@ a alumnat nou de 6è de primària…).
 0. **Demo del muntatge (15')**: el docent mostra els **5 passos** per fer el tour a CoSpaces
    (crear escena → posar la foto 360 de fons → afegir un punt de navegació a la següent →
    títol/etiqueta → provar-lo). Xuleta de 5 passos a `Recursos/Guions_de_demo.md` (Demo 10).
+
 1. **Muntar el tour (45')**: enllaçar les escenes amb punts de navegació; títols/etiquetes.
 2. **Publicació (10')**: el tour es **lliura de veritat a l'audiència** — es penja a la web
    del centre i/o es genera un **codi QR** per a l'entrada i la jornada de portes obertes
    (coordinació TIC). ⚠️ Si l'audiència anunciada («famílies, alumnat de 6è») no rep mai el
    tour, la lliçó apresa és que era ficció retòrica: l'APS només funciona si el lliurament és
    real. Revisió prèvia de **drets d'imatge** abans de publicar (CA6.3).
+
 3. **Visualització (30')**: explorar el tour. Amb ulleres VR **per torns** (segons l'edat del
    model, `Normativa/Protocol_us_VR.md`) i **sempre amb alternativa en pantalla** per a qui no en
    faci ús. 🔵 **Abans del primer torn amb ulleres, mini-checkpoint del carnet VR** (les 4
    regles: temps, mareig, higiene, guia) — és el primer ús real de VR del curs.
+
 4. **Avaluació i galeria (20')**: coavaluació + diari de taller.
 
 ## 5. Producte final
@@ -124,6 +133,7 @@ portes obertes o visita de 6è) + visualització VR + documentació del procés.
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
 > `Programació didàctica/DUA_adaptacions_SA.md`.
+
 - Rols variats: captura, selecció, muntatge, redacció d'etiquetes, guia del tour.
 - Plantilla de planificació de captures.
 - Ampliació ⭐: afegir narració/àudio o punts d'informació al tour.
@@ -136,10 +146,12 @@ portes obertes o visita de 6è) + visualització VR + documentació del procés.
   l'alumnat estrena CoSpaces aquí (tour senzill) i a SA8 hi afegeix interacció. *Alternativa
   sense CoSpaces:* Marzipano (web, sense compte) o H5P «Virtual Tour (360)» si el centre té
   Moodle. **La demo de l'eina és a `Recursos/Guions_de_demo.md` (Demo 10).**
+
 - **Full de reserva de torns de càmera imprimible** (1 full per sessió, amb les 4 regles del
   rodatge): portal docent de la web, secció «Impressos». Rotació d'estacions:
   `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5. Carnet 🟢:
   `Normativa/Carnet_de_maquina.md`.
+
 - `Normativa/Protocol_us_VR.md` i `Normativa/Autoritzacio_families_VR_360.md` (drets d'imatge).
 - `Simulacions/Experiencies_VR_360.md`. `Fitxa_alumnat.md` · `Rubrica_SA7.md`.
 
@@ -149,6 +161,7 @@ portes obertes o visita de 6è) + visualització VR + documentació del procés.
 **Rutina de pensament:** *Veig – Penso – Em pregunto* davant una experiència 360 (consumida o pròpia).
 
 **Tiquet de sortida:**
+
 1. El que ha quedat millor del nostre tour: …
 2. Què milloraríem de la captura: …
 3. Com em sento creant contingut 360? 🔴 🟡 🟢

@@ -19,6 +19,7 @@ Creeu un **estand interactiu** que combini un **objecte fabricat** (làser o 3D)
 - 🔒 **Límits de sempre:** cada peça 3D **< 1 h i < 40 g**; el fitxer làser passa el 🚦 semàfor
   (`Recursos/Semafor_maker.md`). Si fa temps que no toques Inkscape, obre la teva fitxa de SA2
   («Recorda d'Inkscape»): el codi de colors i les capes són els de sempre.
+
 - Calendari (qui fa què i quan, comptant el temps de màquina):
   | Sessió | Objectiu | Qui |
   |:-----:|----------|-----|
@@ -35,6 +36,7 @@ Creeu un **estand interactiu** que combini un **objecte fabricat** (làser o 3D)
 
 ## 🎤 El nostre guió de presentació (1-2 min, l'assagem)
 Ompliu una frase per pas i repartiu **qui diu cada part**:
+
 1. **Salutació** («Hola, som l'equip ___ i us presentem…»): ____________________
 2. **Què és** l'estand: ____________________
 3. **Com ho hem fet** (l'objecte + el component immersiu): ____________________
@@ -43,6 +45,7 @@ Ompliu una frase per pas i repartiu **qui diu cada part**:
 ## 🗂️ El nostre portafoli final (què hi ha d'haver)
 - [ ] **1 evidència de cada trimestre** (foto del producte de T1, T2 i T3) amb **una frase de
   reflexió** cadascuna (què vaig aprendre-hi).
+
 - [ ] La **fitxa d'aquest projecte** i el **diari** de les sessions de SA9.
 - [ ] La rutina **«El meu viatge maker»** (*Abans / Ara / Després* del curs).
 > 💡 No cal començar-lo l'últim dia: es va omplint als minuts de diari de les sessions 2-3-4.

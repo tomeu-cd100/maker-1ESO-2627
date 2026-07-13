@@ -27,16 +27,19 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
+
 - Pensar en 3D (vistes i eixos X/Y/Z).
 - Combinar cossos i forats a Tinkercad.
 - Escalar i mesurar amb sentit.
 - Exportar el model en STL.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
+
 - [ ] El meu model combina ≥3 cossos i ≥1 forat.
 - [ ] Té **gruix ≥3 mm** perquè no es trenqui.
 - [ ] He comprovat les mides: fa **com a màxim ~50 mm** i s'imprimiria **pla i sense suports**
   (mirant-lo de costat, res no sobresurt en l'aire per sota) — així cap al *batch* de placa.
+
 - [ ] L'he exportat en **STL**.
 - [ ] ⭐ *Ampliació:* el meu nom o inicial **en relleu**.
 
@@ -77,15 +80,16 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 ### Sessió 3 — El meu objecte 3D + exportar (2 h)
 1. **Disseny lliure del clauer/figura (70')**: ≥3 cossos + 1 forat, mides raonables (cap a 50 mm)
    i **sense suports** (condició per entrar al *batch* de placa).
-2. **Exportar STL (20')**: Exporta → .STL; comprovar mides.
 
-> ⏸️ **Mínim d'avui**: 3 cossos + 1 forat, agrupats i exportats — el nom en relleu i els
-> detalls extres són ampliació. Amb el mínim exportat, la peça entra al batch de placa.
+2. **Exportar STL (20')**: Exporta → .STL; comprovar mides.
 3. **Batch de placa (20')**: el docent agrupa **diversos models del grup en una sola placa** a
    Bambu Studio (*batch* de placa, vegeu `Programació didàctica/Gestio_temps_maquina_fabricacio.md`
    §2B) i llança la impressió; observació del procés i de la previsualització (temps i grams).
    La resta de plaques s'imprimeixen fora d'horari perquè **tothom** tingui la seva peça.
 4. **Avaluació i diari (10')**.
+
+> ⏸️ **Mínim d'avui**: 3 cossos + 1 forat, agrupats i exportats — el nom en relleu i els
+> detalls extres són ampliació. Amb el mínim exportat, la peça entra al batch de placa.
 
 ## 5. Producte final
 Model 3D propi exportat en STL i imprès dins el **batch de placa** del grup (a classe o fora
@@ -94,6 +98,7 @@ d'horari) + diari amb captures.
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
 > `Programació didàctica/DUA_adaptacions_SA.md`.
+
 - Reptes guiats amb captures pas a pas; vídeos curts.
 - Repte base (clauer pla amb relleu) i ampliació ⭐ (figura amb diverses peces, detalls).
 - Treball per parelles d'ajuda mútua.
@@ -112,6 +117,7 @@ d'horari) + diari amb captures.
 modelaria amb cossos i forats.
 
 **Tiquet de sortida:**
+
 1. Pensar en 3D m'ha semblat… i per què: …
 2. Una operació de Tinkercad que vull practicar més: …
 3. Com em sento modelant en 3D? 🔴 🟡 🟢

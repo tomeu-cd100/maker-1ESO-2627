@@ -11,6 +11,7 @@
 1. **Obertura (10')** — recordem l'objectiu, els criteris d'èxit i la 🧭 Gran Idea del dia.
 2. **Dos torns de 50'** — la meitat del grup a l'**aula Maker** 🔧 (màquines) i l'altra meitat
    a l'**estudi de disseny** 💻 (Chromebooks); a mitja classe, canvi d'espai.
+
 3. **Tancament (5-10')** — la teva entrada al **diari de taller** 📔. Sempre. És la prova del
    que has après.
 
@@ -269,8 +270,10 @@ entrar al setembre. 🚀
 
 1. **Seguretat primer** — les normes i el teu carnet no són decoració: són el que et permet
    tocar màquines de veritat.
+
 2. **El diari de taller cada dia** — 5 minuts al final de cada sessió. És LA prova del que
    aprens (i el que es mira per avaluar-te el procés).
+
 3. **Els fitxers, amb nom** — `Nom_SAx_vN`. Sense nom, cap màquina no et coneix.
 
 > Vols saber com t'avaluaran, amb tot el detall? És a

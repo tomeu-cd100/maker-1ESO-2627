@@ -17,6 +17,7 @@
 ```
 
 **Per què és un bon producte (🌟):**
+
 - **4 escenes** enllaçades i navegables, amb **títols** clars.
 - Captures **estables** (trípode) i **ben il·luminades** (sense contrallum).
 - Respecta els **drets d'imatge**: no hi surt ningú sense permís.

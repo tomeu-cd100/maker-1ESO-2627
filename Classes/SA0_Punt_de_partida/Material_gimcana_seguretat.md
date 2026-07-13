@@ -14,6 +14,7 @@
 plantats** (o representeu-les en làmines). Escenes suggerides amb els errors a plantar:
 
 **Escena A — «La pressa»** (5 errors)
+
 1. Làser en marxa amb la **tapa oberta**.
 2. **Ningú** davant de la màquina.
 3. Una **motxilla** a terra al mig del pas.
@@ -23,6 +24,7 @@ plantats** (o representeu-les en làmines). Escenes suggerides amb els errors a 
 ![Escena A «La pressa»: fotografia de l'aula Maker amb els 5 perills plantats per trobar-los.](Recursos/imatges/A.jpg)
 
 **Escena B — «El look perillós»** (4 errors)
+
 1. Alumne/a amb els **cabells llargs solts** inclinat sobre la màquina.
 2. **Mànigues amples** penjant / cordó de la dessuadora sobre la zona de treball.
 3. Toca la peça acabada de tallar **amb els dits** (encara crema).
@@ -31,6 +33,7 @@ plantats** (o representeu-les en làmines). Escenes suggerides amb els errors a 
 ![Escena B «El look perillós»: fotografia de l'aula Maker amb els 4 perills plantats per trobar-los.](Recursos/imatges/B.jpg)
 
 **Escena C — «El material misteriós»** (4 errors)
+
 1. Una planxa de **PVC/vinil** a punt de posar a la làser.
 2. Material **sense etiquetar** («això que he trobat al garatge»).
 3. **Esprai inflamable** a la lleixa de sobre la làser.
@@ -80,18 +83,24 @@ Un cas per targeta; l'equip acorda la resposta en 1 minut. Resposta esperada en 
 1. **Veus una flama petita dins la làser.** → *Avisar el docent IMMEDIATAMENT (crit d'avís,
    sense córrer). No obrir la tapa d'entrada; el docent atura la màquina i actua segons el
    protocol del centre. Mai aigua sobre un aparell elèctric.*
+
 2. **La impressora fa una olor estranya i un soroll nou.** → *No tocar res; avisar el docent;
    apuntar-ho després al registre d'incidències.*
+
 3. **El teu company posa la mà dins la impressora en marxa per treure un fil.** → *Aturar-lo
    de paraula («para!»), no estirar-lo físicament; el broquet crema (~200 °C) i la màquina es
    pausa des de la pantalla, no amb les mans dins.*
+
 4. **Trobes la làser funcionant i no hi ha ningú a la vora.** → *Quedar-t'hi tu mirant-la i
    avisar (o fer avisar) el docent. Una làser MAI es queda sola: és la norma número u.*
+
 5. **Et talles lleugerament amb un cúter al postprocés.** → *Rentar amb aigua, avisar el
    docent → farmaciola. Encara que sembli poca cosa, sempre s'avisa.*
+
 6. **Un company vol gravar el logotip d'una marca famosa per vendre clauers.** → *Tema de
    llicències i ús comercial: parlar-ho amb el docent (connecta amb CA6.3 — al taller
    respectem drets i llicències).*
+
 7. **Sona l'alarma d'evacuació mentre la làser està tallant.** → *El docent atura la màquina
    (botó de pausa/stop); tothom segueix el pla d'evacuació del centre. Les coses es queden;
    les persones surten.*

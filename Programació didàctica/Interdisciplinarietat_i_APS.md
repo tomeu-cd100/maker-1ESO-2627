@@ -28,10 +28,12 @@ Un projecte té més sentit si **resol una necessitat real** d'una persona o de 
 - **SA6 (repte de disseny 3D):** ja és disseny centrat en l'usuari → converteix-lo en **APS
   real**: que l'usuari sigui algú concret (un company amb NESE, una persona gran, una entitat
   del barri, l'escola bressol o de primària propera). Inclou **entrevista inicial** i **lliurament**.
+
 - **SA7 (tour 360):** l'audiència (famílies, alumnat de 6è) és **compromís de calendari, no
   decorat**: el tour es **publica** (web del centre / QR a l'entrada) i s'ensenya a la jornada
   de portes obertes o a la visita de 6è — ja és un pas de la sessió 3 i un criteri d'èxit de
   la SA.
+
 - **SA9 (projecte final):** la **Fira Aula Maker** ja té audiència → amplia-la (famílies,
   alumnat de 6è de primària, una entitat del barri) i planteja que els estands **expliquin o
   resolguin** alguna cosa útil per a aquesta audiència.
@@ -52,6 +54,7 @@ Un projecte té més sentit si **resol una necessitat real** d'una persona o de 
 ## 3. Avaluació coherent
 - L'**impacte real** i l'orientació a l'usuari ja es valoren a `Classes/SA6_Repte_disseny_3D/Rubrica_SA6.md`
   i `Classes/SA9_Projecte_final/Rubrica_SA9.md`.
+
 - Afegeix evidència del **contacte amb l'usuari** (entrevista, prova, lliurament) al portafoli.
 
 > Relacionat amb: les SA6 i SA9, `Aprenentatge_cooperatiu.md` i la `Programació didàctica`

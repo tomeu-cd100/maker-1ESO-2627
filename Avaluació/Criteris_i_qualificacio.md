@@ -70,10 +70,12 @@ recuperació** que acredita les CE essencials sense refer tota la SA:
 1. **Producte reduït**: la versió mínima del producte (el «⏸️ Mínim d'avui» de la sessió de
    disseny) fet en temps de reptes/paral·lel de les sessions següents, entrant al primer
    batch/cua disponible.
+
 2. **Simulació** (`Simulacions/`) per a la part de màquina que no es pugui recuperar
    físicament, si la cua no dona per a més.
-3. **Entrada de diari retrospectiva**: què faré / com ho faré (planificació val com a CA1.3)
-   + la reflexió normal en acabar.
+
+3. **Entrada de diari retrospectiva**: què faré / com ho faré (planificació val com a CA1.3),
+   més la reflexió normal en acabar.
 4. **Carnet pendent**: el checkpoint es fa al primer ús real de la màquina (ja previst al
    carnet: «qui s'incorpora tard el fa al seu primer ús»).
 
@@ -135,9 +137,11 @@ l'alumnat, a la seva **fitxa** — secció «Com m'avaluaran?» — i a `Avaluac
 | SA9 ⭐ | Estand de la Fira (equip) | Portafoli final de curs, pla de projecte | **Rúbrica completa** + producte final + coavaluació + votació | Docents + públic + equip |
 
 **Constants de totes les SA** (no es repeteixen a la taula):
+
 - **Diari de taller**: una entrada per sessió + tancament amb 🎯 (pauta de `Diari_de_taller.md`).
 - **Observació contínua**: `Full_seguiment_grup.md` amb codis +/-/! (en codocència, un full per
   docent segons el repartiment de CA).
+
 - **En tancar cada SA**: el nivell de cada CE treballada s'anota al `Full_progres_competencial.md`.
 
 ### Calendari de fites avaluatives del curs
@@ -155,10 +159,12 @@ l'alumnat, a la seva **fitxa** — secció «Com m'avaluaran?» — i a `Avaluac
 ## 5. Avaluació formativa
 A més dels instruments de qualificació, useu els recursos d'**avaluació formativa** per fer
 visible i regular l'aprenentatge durant el procés:
+
 - `Instruments_formatius.md` — tiquets de sortida, semàfor, rutines de pensament, diana, galeria.
 - `Rubrica_alumnat_amigable.md` — la rúbrica competencial en llenguatge d'alumnat (autoavaluació).
 - `Avaluacio_explicada_alumnat.md` — **tot el sistema d'avaluació en una pàgina** per a
   l'alumnat i les famílies (repartiu-la la setmana 1, amb la carta a les famílies).
+
 - Cada SA porta **pregunta guia**, **objectius i criteris d'èxit** i una **rutina de
   metacognició** per compartir amb l'alumnat a l'inici i tancar al final.
 
@@ -169,5 +175,6 @@ visible i regular l'aprenentatge durant el procés:
   d'èxit** amb la rúbrica a la mà i li escriu **un «següent pas» concret**. L'alumne encara té
   temps de sessió per aplicar-lo. Sense aquest punt, l'alumne descobreix el seu nivell quan ja
   no pot millorar el producte: l'avaluació classificaria en lloc d'ensenyar.
+
 - Cada SA tanca amb una valoració compartida (docent + autoavaluació + coavaluació).
 - Es prioritza el llenguatge de millora ("què faries diferent la propera vegada").

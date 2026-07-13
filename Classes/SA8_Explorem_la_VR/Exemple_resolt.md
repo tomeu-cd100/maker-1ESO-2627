@@ -16,6 +16,7 @@
 ```
 
 **Per què és un bon producte (🌟):**
+
 - Escena **explorable** amb un tema clar i objectes ben col·locats.
 - Té **etiquetes informatives** (comunica, no només decora).
 - Inclou una **interacció** (clic → mostra dada) feta amb blocs de codi (ampliació ⭐).
@@ -24,6 +25,7 @@
 
 ## 📝 Exemple de fitxa (emplenada)
 **Anàlisi crítica de la VR:**
+
 - Experiència provada: un viatge pel cos humà.
 - Ús útil de la VR: **formar metges/infermeres** sense risc per a pacients.
 - Risc: **marejos** i abusar-ne (massa estona) → cal limitar el temps.

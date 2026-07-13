@@ -35,6 +35,7 @@ Esbós (📄 si treballes en paper, reserva **mig full**: dibuixa la peça i apu
 
 ### Revisió d'imprimibilitat (per parelles) — abans de laminar
 Intercanvia el disseny amb la teva parella i reviseu-vos mútuament:
+
 - [ ] Mides reals aplicades   - [ ] Gruix de paret ≥ 2-3 mm
 - [ ] Sense parts a l'aire impossibles (o amb suports mínims)
 - [ ] Mida raonable per complir el límit (< 1 h, < 40 g)

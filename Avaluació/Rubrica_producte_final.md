@@ -17,4 +17,5 @@ judici global de cada producte, **no** una fórmula de mitjana ponderada.
 ### Observacions
 - Per a productes en equip, valoreu el producte conjunt i ajusteu amb l'observació individual
   (`Full_seguiment_grup.md`) i la coavaluació.
+
 - Adjunteu sempre evidència fotogràfica del producte i del procés al portafoli.

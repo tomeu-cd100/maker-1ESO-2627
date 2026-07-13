@@ -58,8 +58,10 @@ imprimible), amb portades per a **docents**, **alumnat** i **famílies**:
   verifica els enllaços (`verifica_enllacos.py`), comprova la coherència competencial
   matriu ↔ SA (`verifica_competencies.py`), regenera la web des dels `.md`
   (`build_web.py`) i la publica a GitHub Pages. **No cal fer res més que editar els `.md`.**
+
 - Per a ús **offline**: `pip install markdown` + `python build_web.py` i obriu
   `web/index.html` (la carpeta `web/` no es versiona: és un producte generat).
+
 - L'estil viu a `web_assets/style.css`; les pàgines imprimibles (passaport, pòster,
   targetes), a `web_assets/impressos/`.
 

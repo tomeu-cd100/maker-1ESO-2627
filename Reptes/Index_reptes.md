@@ -1,6 +1,7 @@
 # Reptes maker — Índex
 
 Reptes **curts i autònoms** per fer servir com a:
+
 - **Escalfament** a l'inici de sessió.
 - Tasca per a qui **acaba abans** (*fast finishers*).
 - Activitat **mentre s'espera torn** de màquina (làser/3D) o de VR.

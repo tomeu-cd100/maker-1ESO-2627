@@ -32,12 +32,14 @@ encaix (*kerf* / joints) i el treball en equip.
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
+
 - Aplicar el procés tecnològic complet (necessitat → idea → disseny → fabricació → millora).
 - Dissenyar unions per encaix tenint en compte el gruix del material.
 - Treballar en equip assumint un rol.
 - Presentar el meu projecte.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
+
 - [ ] Hem definit la necessitat i els requisits.
 - [ ] Les peces encaixen i l'objecte fa la seva funció.
 - [ ] Hem millorat el prototip almenys una vegada (iteració).
@@ -94,10 +96,12 @@ encaix (*kerf* / joints) i el treball en equip.
 1. **Preparació i prova (20')**: tallar primer una **mostra d'encaix** per validar mides.
    Mesureu-hi el **kerf** real (dibuixeu una ranura de 3,0 mm, mesureu-la tallada amb el peu de
    rei: la diferència és el que "es menja" el làser) i ajusteu les unions si cal.
+
 2. **Fabricació de les peces (90')** per torns d'equip; agrupa les peces de cada equip en una
    passada (*batch*) per estalviar temps de làser (vegeu
    `Programació didàctica/Gestio_temps_maquina_fabricacio.md`). Ajustar el disseny si l'encaix
    no quadra (iteració).
+
 3. **Diari (10')**.
 
 > ⏸️ **Mínim d'avui**: **mostra d'encaix tallada** i el **kerf apuntat** al diari; les peces de
@@ -128,6 +132,7 @@ procés.
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
 > `Programació didàctica/DUA_adaptacions_SA.md`.
+
 - Catàleg d'objectes-tipus amb diferent dificultat (caixa simple → làmpada amb calats ⭐).
 - Plantilles d'unions per encaix per a qui ho necessiti.
 - Rols d'equip adaptats a fortaleses (disseny, fabricació, documentació, presentació).
@@ -147,6 +152,7 @@ procés.
 que heu trobat i com els heu superat.
 
 **Tiquet de sortida (equip):**
+
 1. La millor decisió de disseny que hem pres: …
 2. Què refaríem si comencéssim de nou: …
 3. Com ha funcionat el nostre equip? 🔴 🟡 🟢

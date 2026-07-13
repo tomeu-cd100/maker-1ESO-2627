@@ -17,6 +17,7 @@ solucions a problemes reals, desenvolupant pensament de disseny, creativitat, tr
 equip i responsabilitat digital.
 
 **Maquinari del centre:**
+
 - Impressora 3D **Bambu Lab P2S** (programari: Bambu Studio).
 - Talladora i gravadora **làser xTool S1** (programari: Inkscape + xTool Creative Space).
 - **Càmera 360**.
@@ -32,10 +33,13 @@ educatiu), Bambu Studio, xTool Creative Space, CoSpaces Edu, visor de fotos 360.
 - **LOMLOE** — Llei orgànica 3/2020.
 - **Reial decret 217/2022**, de 29 de març, pel qual s'estableix l'ordenació i els
   ensenyaments mínims de l'ESO.
+
 - **Decret 175/2022**, de 27 de setembre, d'ordenació dels ensenyaments de l'educació bàsica
   (Catalunya) — currículum de l'ESO.
+
 - **Ordre EDU** d'avaluació de l'ESO a Catalunya (avaluació competencial, qualitativa i
   contínua).
+
 - Referent competencial: matèria **Tecnologia i Digitalització**, **competència digital** i
   **competències STEM** del perfil de sortida.
 
@@ -52,11 +56,14 @@ educatiu), Bambu Studio, xTool Creative Space, CoSpaces Edu, visor de fotos 360.
 
 1. Conèixer i aplicar el **procés tecnològic / pensament de disseny** (identificar necessitat
    → idear → dissenyar → prototipar → provar → millorar → comunicar).
+
 2. Dominar a nivell introductori el **disseny vectorial 2D** (Inkscape) i la **fabricació amb
    talladora làser**.
+
 3. Dominar a nivell introductori el **modelatge 3D** (Tinkercad) i la **impressió 3D**.
 4. Crear i interpretar contingut de **realitat immersiva** (fotografia/vídeo 360 i VR) amb
    esperit crític.
+
 5. Treballar en **equip**, documentar el procés i comunicar els resultats.
 6. Fer un ús **segur, responsable, ètic i sostenible** de les màquines, els materials i la
    tecnologia digital.
@@ -82,6 +89,7 @@ educatiu), Bambu Studio, xTool Creative Space, CoSpaces Edu, visor de fotos 360.
 ### CE3. Fabricar i materialitzar objectes amb màquines de fabricació digital.
 - **CA3.1** Prepara correctament un treball per a la talladora làser (capes, mesures,
   paràmetres) seguint el protocol de seguretat.
+
 - **CA3.2** Prepara i imprimeix una peça 3D (laminat, paràmetres bàsics) amb la P2S.
 - **CA3.3** Resol incidències bàsiques de fabricació i en valora el resultat.
 
@@ -105,22 +113,27 @@ educatiu), Bambu Studio, xTool Creative Space, CoSpaces Edu, visor de fotos 360.
 ## 5. Sabers bàsics
 
 **Bloc A — Cultura i procés maker**
+
 - Cultura maker, *fab labs*, fabricació digital, codi obert i llicències (Creative Commons).
 - Procés tecnològic i pensament de disseny. Treball per reptes i projectes.
 
 **Bloc B — Disseny i fabricació 2D (làser)**
+
 - Disseny vectorial: nodes, traços, capes, vectorització. Inkscape.
 - Talladora làser: tall vs gravat, materials adequats, paràmetres, seguretat.
 
 **Bloc C — Disseny i fabricació 3D**
+
 - Modelatge 3D: cossos, operacions booleanes, mesures, escala. Tinkercad.
 - Impressió 3D: filament, laminat (Bambu Studio), adherència, suports, qualitat.
 
 **Bloc D — Realitat immersiva**
+
 - Imatge i vídeo 360: captura, projecció equirectangular, visualització.
 - Realitat virtual: dispositius, experiències educatives, salut visual i seguretat, ètica.
 
 **Bloc E — Comunicació, seguretat i sostenibilitat (transversal)**
+
 - Documentació tècnica i portafoli. Comunicació de projectes.
 - Normes de seguretat, manteniment, gestió de materials i residus, drets d'imatge.
 
@@ -130,27 +143,35 @@ educatiu), Bambu Studio, xTool Creative Space, CoSpaces Edu, visor de fotos 360.
 
 - **Aprenentatge basat en reptes i projectes (ABP/ABR):** cada SA planteja un repte amb un
   producte final tangible.
+
 - **Aprendre fent (*hands-on*)** i **cultura del prototip**: iterar i millorar.
 - **Treball cooperatiu estructurat** amb rols rotatius i responsabilitat individual (vegeu
   `Aprenentatge_cooperatiu.md`: principis, rols, tècniques 1-2-4/jigsaw i contracte d'equip).
+
 - **Aula-taller** organitzada per zones (disseny, fabricació, immersiva, muntatge).
 - **Codocència en desdoblament** quan l'organització ho requereix (aforament de l'aula Maker):
   dues estacions simultànies — fabricació/dispositius i disseny/pensament — amb rotació dins la
   mateixa sessió i repartiment de l'avaluació per competències (vegeu
   `Codocencia_desdoblament.md`).
+
 - **Avaluació formativa contínua** amb el *diari de taller* com a fil conductor, partint d'una
   **avaluació inicial** (`Avaluació/Avaluacio_inicial.md`).
+
 - **Equitat de gènere i referents diversos STEAM** com a eix conscient (vegeu
   `Equitat_genere_STEAM.md`).
+
 - **Interdisciplinarietat i aprenentatge-servei (APS)**: connexions explícites amb altres
   matèries i orientació a una audiència/necessitat real (vegeu `Interdisciplinarietat_i_APS.md`).
+
 - **Gamificació** amb reptes express i insígnies (carpeta `Reptes/`).
 
 ### Disseny Universal per a l'Aprenentatge (DUA)
 - **Representació:** demostracions, vídeos curts, fitxes visuals, exemples físics, instruccions
   pas a pas.
+
 - **Acció i expressió:** diferents vies per mostrar l'aprenentatge (objecte físic, vídeo,
   presentació, portafoli digital).
+
 - **Implicació:** reptes propers i personalitzables, elecció de producte, treball en equip,
   reconeixement amb insígnies.
 
@@ -182,6 +203,7 @@ de seguiment, diari de taller / portafoli de l'alumnat, autoavaluació i coavalu
 
 **Pes orientatiu de les evidències** (no és una fórmula de mitjana ponderada, sinó el pes de
 cada evidència dins el judici competencial global; detall a `Avaluació/Criteris_i_qualificacio.md`):
+
 - Producte final i procés de disseny (rúbrica de la SA): ~**50 %**
 - Diari de taller / portafoli i documentació: ~**20 %**
 - Treball en equip, actitud, seguretat i autonomia (observació): ~**20 %**
@@ -200,6 +222,7 @@ aritmètica), prioritzant l'evolució i les darreres evidències.
 
 - **Avaluació inicial** (`Avaluació/Avaluacio_inicial.md`) per conèixer el punt de partida i
   ajustar agrupaments, bastides i adaptacions.
+
 - Reptes amb **diferents nivells** (base, ampliació ⭐) i productes personalitzables.
 - **Parelles i equips heterogenis**; tutorització entre iguals.
 - **Bastides** (plantilles, fitxes pas a pas, vídeos) retirables progressivament.
@@ -224,6 +247,7 @@ aritmètica), prioritzant l'evolució i les darreres evidències.
 - **Maquinari:** Bambu Lab P2S, talladora làser xTool S1, càmera 360, 5 ulleres VR, ordinadors/tauletes.
 - **Fungibles:** filament PLA, planxes de fusta de DM/contraxapat i/o metacrilat per a làser,
   material de muntatge.
+
 - **Programari:** Inkscape, Tinkercad, Bambu Studio, xTool Creative Space, CoSpaces Edu.
 - **Documentació de suport:** carpeta `Recursos/` (plantilles de disseny i enllaços/tutorials
   validats a `Recursos/Enllacos_i_tutorials.md`) i `Simulacions/`.

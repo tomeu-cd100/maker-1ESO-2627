@@ -19,6 +19,7 @@
 ```
 
 **Per què és un bon producte (🌟):**
+
 - **Integra les 3 tecnologies** del curs (objecte 3D + peça làser + experiència 360/VR).
 - Té un **fil temàtic** clar i cartells que expliquen l'estand.
 - La presentació a la Fira és **assajada** i atractiva.

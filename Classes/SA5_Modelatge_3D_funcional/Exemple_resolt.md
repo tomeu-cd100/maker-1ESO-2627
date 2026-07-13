@@ -18,9 +18,11 @@
 ```
 
 **Per què és un bon producte (🌟):**
+
 - Resol una **necessitat real** (veure vídeos sense aguantar el mòbil).
 - Les **mides parteixen de la realitat**: va mesurar el gruix del seu mòbil (9 mm) i va fer la
   ranura de 12 mm (amb **tolerància**).
+
 - És **estable** (base ampla) i imprimible **sense suports** gràcies a l'orientació.
 - **Compleix els límits del repte**: la primera versió trigava 2 h → la va **buidar per dins i
   reduir d'alçada** fins a baixar de l'hora. Petit i acabat!

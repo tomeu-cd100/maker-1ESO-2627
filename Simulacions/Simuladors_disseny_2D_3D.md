@@ -20,6 +20,7 @@
 ## "Simular" la fabricació (sense màquina)
 - **Bambu Studio (mode previsualització):** lamina i mira capa a capa, temps i grams → simula
   la impressió sense imprimir.
+
 - **XCS (previsualització):** comprova recorregut de tall/gravat i temps estimat.
 - Activitat: *"Dissenya, lamina i estima"* — predir temps/material i comparar amb el real.
 

@@ -4,6 +4,7 @@
 
 ## El repte
 Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requisits:
+
 - [ ] Forma base (mida orientativa **150 × 50 mm**)
 - [ ] Un **missatge** o nom gravat (text convertit a camí)
 - [ ] Una **imatge vectoritzada** (gravada)
@@ -15,6 +16,7 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 - **Text per a làser:** escriu el text → selecciona'l → Camí → Objecte a camí.
 - **Vectoritzar imatge:** importa-la → Camí → Vectoritza mapa de bits → mou la barra de
   **llindar** (a partir de quant de fosc un píxel es torna negre) fins que la imatge es vegi neta.
+
 - Treballa sempre en **mil·límetres** i comprova la mida final.
 
 ## Planificació

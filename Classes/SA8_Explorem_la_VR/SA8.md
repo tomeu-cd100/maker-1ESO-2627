@@ -29,16 +29,19 @@ escena 3D que es pot explorar amb les ulleres VR.
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
+
 - Usar la VR seguint el protocol de seguretat i salut.
 - Analitzar usos, beneficis i riscos de la VR.
 - Crear una escena explorable a CoSpaces.
 - Explicar-la a altres.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
+
 - [ ] Compleixo el protocol d'ús de la VR (les 4 regles).
 - [ ] He fet l'anàlisi crítica: sé explicar **un benefici i un risc** de la VR.
 - [ ] La nostra escena és **explorable**: té com a mínim **3-4 objectes, un text i la càmera
   ben posada** (⭐ AE: hi afegim una interacció amb codi).
+
 - [ ] He col·laborat i documentat.
 
 ## 🔑 Vocabulari clau (word wall)
@@ -60,6 +63,7 @@ escena 3D que es pot explorar amb les ulleres VR.
 ## 3. Sabers
 - Realitat virtual: dispositius, graus de llibertat, salut visual i seguretat (temps d'ús,
   espai, marejos), higiene del material.
+
 - Usos educatius i socials de la VR (medicina, indústria, formació, oci) i límits/riscos.
 - Creació d'escenes 3D amb CoSpaces Edu: objectes, càmera, interaccions bàsiques (i blocs de
   codi tipus Blockly per a qui vulgui ampliar).
@@ -74,14 +78,17 @@ escena 3D que es pot explorar amb les ulleres VR.
 1. **Normes d'ús de la VR (20')**: repàs de `Normativa/Protocol_us_VR.md` (les 4 regles: temps,
    higiene, espai, guia). El **carnet 🔵 ja es va guanyar a SA7 (sessió 3)**; qui no hi era el
    completa aquí durant les rondes (`Normativa/Carnet_de_maquina.md`).
+
 2. **Exploració guiada per estacions (50' ≈ 5 rondes de ~10')**: ⏱️ amb **5 ulleres** per a tot
    el grup, rotació cronometrada (vegeu
    `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5): estació VR (5 alumnes + els
    seus guies, experiències de `Simulacions/Experiencies_VR_360.md`) · fitxa d'anàlisi crítica ·
    la mateixa experiència en pantalla · preparació d'arguments per al debat.
+
 3. **La VR al món real (30')**: debat sobre usos, beneficis, riscos i ètica (privadesa, addicció).
 4. **El nostre tema (15')**: cada equip tria el tema de l'escena (museu, recorregut,
    mini-història) i reparteix tasques.
+
 5. **Diari (5')**.
 
 > ⏸️ **Mínim d'avui**: la **Part B de la fitxa** (anàlisi crítica: 1 benefici + 1 risc) completa
@@ -90,9 +97,16 @@ escena 3D que es pot explorar amb les ulleres VR.
 ### Sessió 2 — Crear, provar i avaluar l'escena (2 h)
 1. **Demo CoSpaces (20')**: crear escena, afegir i moure objectes, càmera, "play" en VR
    (guió: `Recursos/Guions_de_demo.md` Demo 8).
+
 2. **Construcció en equip (55')**: cada membre construeix la seva part del tema acordat;
    qui va ràpid afegeix interaccions ⭐ amb blocs de codi.
+3. **Visualització VR per torns (30')**: cada equip prova la seva escena i la d'un altre equip
+   (rotació d'estacions, com a la sessió 1); ajustos ràpids.
+4. **Galeria i avaluació (15')**: coavaluació + diari.
 
+> ⏸️ **Mínim d'avui**: escena amb **3-4 objectes, un text i la càmera ben posada**, explorable
+> de principi a fi — les interaccions i el detall són ampliació (Gran Idea 2: petit i acabat).
+>
 > 🅱️ **Pla B si CoSpaces no va** (xarxa, comptes): fer l'**storyboard de l'escena en paper**
 > (quins objectes, on, quin recorregut i quin text) — és la mateixa planificació i és evidència
 > vàlida; es passa a CoSpaces quan el servei torni. Per a la visualització, **banc d'imatges
@@ -100,12 +114,6 @@ escena 3D que es pot explorar amb les ulleres VR.
 > ⚠️ *Requisit:* les interaccions ⭐ amb blocs (CoBlocks) i el treball simultani en grup
 > demanen la **llicència Pro** de CoSpaces (o la prova docent activada la setmana abans); amb el
 > pla Basic, cada alumne construeix la seva escena i el mínim es fa igual.
-
-> ⏸️ **Mínim d'avui**: escena amb **3-4 objectes, un text i la càmera ben posada**, explorable
-> de principi a fi — les interaccions i el detall són ampliació (Gran Idea 2: petit i acabat).
-3. **Visualització VR per torns (30')**: cada equip prova la seva escena i la d'un altre equip
-   (rotació d'estacions, com a la sessió 1); ajustos ràpids.
-4. **Galeria i avaluació (15')**: coavaluació + diari.
 
 ### Sessió ⭐ d'ampliació (opcional, si el calendari ho permet)
 Polir l'escena, afegir interaccions amb blocs de codi (Blockly), narració, i una segona ronda
@@ -119,6 +127,7 @@ Escena VR explorable + fitxa d'anàlisi crítica d'usos de la VR + documentació
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
 > `Programació didàctica/DUA_adaptacions_SA.md`.
+
 - Rols variats (disseny, construcció, narració, proves).
 - Plantilla d'escena buida i banc d'objectes per començar.
 - Base (escena estàtica) i ampliació ⭐ (interaccions amb codi).
@@ -137,6 +146,7 @@ Escena VR explorable + fitxa d'anàlisi crítica d'usos de la VR + documentació
 **Rutina de pensament:** *Abans pensava / Ara penso* sobre la realitat virtual i els seus usos.
 
 **Tiquet de sortida:**
+
 1. Un ús de la VR que m'ha fet pensar: …
 2. Un límit o risc que tindria en compte: …
 3. Com em sento creant en VR? 🔴 🟡 🟢

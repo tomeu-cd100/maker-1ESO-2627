@@ -11,6 +11,7 @@
 
 > 🎤 **Parla amb la persona (o observa-la) i pregunta-li** — els requisits reals surten d'aquí,
 > no de la nostra imaginació:
+>
 > 1. «Què et costa fer, d'això?» → ____________________
 > 2. «Ensenya-m'ho fent-ho» (mira-la i apunta què veus) → ____________________
 > 3. «De quina mida hauria de ser? On l'has de posar?» → ____________________
@@ -36,6 +37,7 @@
 - [ ] Cada peça compleix el límit: **< 1 h i < 40 g** (previsualització de Bambu Studio)
 - [ ] Cada peça ha passat el 🚦 **semàfor de fabricació** (`Recursos/Semafor_maker.md`),
   validat per l'⚙️ operador/a de l'equip
+
 - [ ] Hem revisat els dissenys entre nosaltres i cadascú ha fet la seva **versió 2**
   → Què ha canviat cada peça? ____________________________
 

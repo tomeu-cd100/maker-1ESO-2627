@@ -62,11 +62,14 @@
   `Gestio_temps_maquina_fabricacio.md` (***batch*/*nesting*** a làser, **cua/kanban** d'impressió
   i **treball paral·lel**) i feu la **matemàtica del temps** abans de cada SA de fabricació
   (SA1, SA3, SA5, SA6, SA9).
+
 - Les setmanes amb impressió 3D preveuen temps de màquina; planifiqueu impressions llargues
   fora de l'horari de classe sempre que sigui possible i agrupeu peces petites en **batch de
   placa** (`Gestio_temps_maquina_fabricacio.md` §2B).
+
 - ⏱️ **Temps-dispositiu al 3r trimestre:** amb 1 càmera 360 i 5 ulleres VR, les sessions de
   SA7/SA8 usen **rotació cronometrada per estacions** (`Gestio_temps_maquina_fabricacio.md` §5).
+
 - 📅 **Marge de final de curs (atenció):** la SA0 ocupa **2 setmanes** (la sessió de cohesió de
   grup n'és la causa), i això **consumeix el coixí** que abans quedava a la setmana 35. Per tant
   la **Gran Fira és ara la setmana 35** (l'última) i **no hi ha coixí propi de juny**. Si es perd
@@ -75,21 +78,25 @@
   SA8 **no ocupa cap setmana del calendari**: és destí del temps *sobrant*, mai una font de temps.
   Si el calendari del centre ho permet, val la pena **guanyar una setmana** (36 en total) per
   recuperar el coixí de juny.
+
 - 💻 **Les 3 primeres setmanes, l'alumnat no té ordinador** (repartiment de Chromebooks a
   partir de la setmana 4): el curs hi està dissenyat a sobre — la SA0 (setmanes 1-2) és 100 %
   analògica i la sessió 1 de la SA1 (setmana 3) és **paper + demo de màquina** (l'esbós a mida
   real abans del digital és Gran Idea 3, no un pegat). Si el repartiment s'endarrereix més, la
   sessió d'Inkscape es fa amb els ordinadors de l'aula Maker per torns (pla B de la codocència §3).
+
 - 🎪 **La Fira és trimestral** (setmanes 13, 25 i 35): no esperem al juny per obrir les
   portes — cada trimestre les famílies venen a veure els productes. Reserveu les **3 dates al
   setembre** (calendari del centre) i anuncieu-les a la carta d'inici de curs; les invitacions
   s'envien 2 setmanes abans de cada Fira (setmanes 11, 23 i 33). L'aforament de l'aula Maker
   (≤10 visitants, comptats a la porta) val per a les tres.
+
 - Els reptes express (`Reptes/`) cobreixen els temps morts i els *fast finishers*.
 - 🏛️ **Museu dels Errors al calendari:** **5' d'obertura del Museu** a la primera sessió de
   fabricació de cada SA amb màquina (setmanes 5, 11, 19, 23, 32) i **vot de 🏆 «L'error del
   trimestre» (10')** a les setmanes de Fira (13, 25, 35). Sense slot, la cultura de l'error es
   queda al paper (`Museu_dels_errors.md`).
+
 - Reserveu sempre 5-10 min de **neteja i manteniment** al final de cada sessió de fabricació.
 
 ### Contingències (tenir-ho decidit abans que passi)

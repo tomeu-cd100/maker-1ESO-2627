@@ -5,6 +5,7 @@
 ## El repte
 Dissenyeu i fabriqueu un **objecte útil que us representi**, fet amb **diverses peces que
 encaixin**. Trieu un tipus:
+
 - [ ] Organitzador d'escriptori   - [ ] Làmpada decorativa   - [ ] Joc de taula senzill
 - [ ] Caixa personalitzada        - [ ] Altre: ____________________
 
@@ -26,6 +27,7 @@ encaixin**. Trieu un tipus:
 ## Fase 3 — Dissenyar (Inkscape)
 
 > 🧩 **Com dibuixo una ranura que encaixi** (pas a pas):
+>
 > 1. Mesura el **gruix real** de la fusta amb el peu de rei (sovint 3 mm són 2,7!). Gruix = ____ mm.
 > 2. Dibuixa un **rectangle**: amplada = el gruix mesurat · alçada = fins on ha d'entrar la peça.
 > 3. **Duplica'l** (Ctrl+D) per fer la ranura de l'altra peça: així totes dues coincideixen.

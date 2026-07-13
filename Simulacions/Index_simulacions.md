@@ -9,6 +9,7 @@ recuperació** per absències (`Avaluació/Criteris_i_qualificacio.md` §3·bis)
 ## Catàlegs
 - [`Simuladors_disseny_2D_3D.md`](Simuladors_disseny_2D_3D.md) — disseny, modelatge i simulació
   de fabricació.
+
 - [`Laboratoris_virtuals.md`](Laboratoris_virtuals.md) — laboratoris i simulacions STEAM.
 - [`Experiencies_VR_360.md`](Experiencies_VR_360.md) — experiències immersives i tours.
 

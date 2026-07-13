@@ -38,6 +38,7 @@ alternativa per a qui la prefereixi.
 ### 4. `Carnets` (registre + usos)
 Files = alumnes; columnes: data de cada carnet (🔴🟠🟢🔵) + **una columna d'usos per màquina i
 trimestre** (s'hi suma 1 cada vegada que l'alumne opera). D'aquí mengen dues coses:
+
 - El **passaport maker** de l'alumne (`Reptes/Passaport_maker.md`) — el registre oficial és aquest.
 - La **revisió trimestral d'equitat** ↓
 
@@ -61,10 +62,13 @@ Enllaç als resultats del **tiquet trimestral de valoració de l'assignatura**
   repositori és **públic**. El quadern viu **només al Drive de centre** (o a la carpeta local
   `dades/`, que git ignora): **mai es comiteja** cap fitxer amb noms. Al repositori només hi
   ha aquesta especificació i la plantilla buida.
+
 - **Compartit entre els dos docents** amb edició; l'alumnat no hi té accés (RGPD: dades
   d'avaluació — compte de centre, no personal).
+
 - **Menys és més:** si una pestanya no s'omple en dues setmanes, elimineu-la — el quadern ha
   de treure feina, no afegir-ne.
+
 - Còpia de seguretat trimestral (Fitxer → Fes una còpia) abans de cada tancament.
 - En el **traspàs de co-docent** (vegeu `Programació didàctica/Codocencia_desdoblament.md`
   §7), el quadern és l'única cosa que cal traspassar: tot el seguiment hi és.

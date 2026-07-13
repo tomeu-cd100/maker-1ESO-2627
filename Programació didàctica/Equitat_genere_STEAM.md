@@ -10,8 +10,10 @@
 - **Rotació obligatòria de rols** (vegeu `Aprenentatge_cooperatiu.md`): tothom passa per
   operar màquines, dissenyar, documentar i coordinar. Evita que sempre operin les màquines els
   mateixos perfils.
+
 - Vigila el biaix "ell talla / ella documenta": observa-ho amb el `Avaluació/Full_seguiment_grup.md` i
   reequilibra.
+
 - En equips mixtos, evita deixar **una sola noia** (o un sol perfil minoritari) per equip quan
   sigui possible.
 
@@ -25,6 +27,7 @@
 ### Disseny dels reptes
 - Reptes amb **context divers** (cura, salut, art, esport, comunitat), no només "màquines i
   cotxes", perquè connectin amb interessos variats.
+
 - Productes **personalitzables** (cadascú hi posa la seva identitat) → més implicació de tothom.
 
 ## 2. Banc de referents diversos (per integrar a les SA)
@@ -47,6 +50,7 @@ Mostra **referents variats** (dones, perfils diversos, propers) en començar cad
 ## 3. Mesura senzilla (per saber si funciona)
 - A l'**avaluació inicial** i a la **final** (`Avaluació/Avaluacio_inicial.md`), compara per
   perfils l'ítem *"M'imagino fent coses de tecnologia / disseny en el futur"* (afegeix-lo).
+
 - Observa la **participació real** a les màquines durant el curs (no només qui ho diu).
 
 ### 3·bis. Revisió trimestral d'equitat amb dades (10 min, en tancar cada trimestre)
@@ -57,15 +61,19 @@ de dades ja existeix sense buscar-la: el **registre del carnet de màquina**
 operat cada màquina i *quantes vegades*.
 
 En tancar cada trimestre (els dos docents junts, a la coordinació):
+
 1. **Recompte**: qui ha operat el làser / la impressora / la càmera / les ulleres aquest
    trimestre, i quantes vegades (desagregat per gènere i per perfil). Amb el **quadern digital**
    (`Avaluació/Quadern_digital_docent.md`, pestanya `Equitat`) aquest recompte surt sol: només
    cal llegir la taula.
+
 2. **Pregunta**: hi ha alumnes que **mai** han operat res? El repartiment reflecteix el grup o
    reflecteix el biaix «ell talla / ella documenta»?
+
 3. **Correcció estructural** (no sermó): si els números surten esbiaixats, el trimestre
    següent el **criteri d'ordre del kanban** dona prioritat a qui menys ha operat, i la
    rotació de rols es fa nominal (amb llista, no "qui vulgui").
+
 4. Anoteu la conclusió a la `Memòria de treball/` — al juny, l'indicador **TE** té evidència
    de curs, no impressions.
 

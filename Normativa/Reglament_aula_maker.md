@@ -29,6 +29,7 @@
 ## Conseqüències
 - L'incompliment de les normes de **seguretat** comporta la retirada temporal de l'activitat
   de màquines.
+
 - Es prioritza la **reparació** i el compromís de millora (mesures educatives) abans que la
   sanció.
 

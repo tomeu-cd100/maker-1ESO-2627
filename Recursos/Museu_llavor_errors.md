@@ -112,10 +112,13 @@ Donada per: el/la docent (museu llavor)
 
 - Copieu cada targeta a mà (o imprimiu-la) en el format de targeta de museu de
   `Programació didàctica/Museu_dels_errors.md` i lligueu-la a la seva peça a la lleixa.
+
 - El **co-docent** pot fabricar les peces 1 i 5 com a pràctica de màquina: són exactament
   el seu paper al museu («les del seu aprenentatge maker», regla 3).
+
 - A la **SA0**, el recorregut pel taller passa per davant del museu: 5 peces que es poden
   tocar valen més que qualsevol discurs sobre «aquí equivocar-se és aprendre».
+
 - Aquestes 5 peces són **llavor, no plantilla**: quan arribin les primeres donacions de
   l'alumnat, les llavors poden cedir el lloc (regla d'aforament d'una lleixa, §5 del museu).
 

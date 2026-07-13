@@ -29,11 +29,13 @@ Règim per defecte de cada sessió de 2 h:
 > compensa. Quan aquest document diu «torn de 50'» de manera genèrica, val per als dos.
 
 **Per què intra-sessió i no alternança setmanal:**
+
 - Tothom toca màquines **cada setmana** (a 1r d'ESO, una setmana "sense Maker" desmotiva).
 - Els dos grups avancen **sincronitzats** dins la mateixa SA: una sola programació.
 - El co-docent sosté **50 minuts** de tasca pautada, no 2 hores.
 
 **Excepcions (grup sencer, els dos docents junts, a l'aula ordinària o espai gran):**
+
 - La **SA0 sencera** (setmanes 1-2: benvinguda, cohesió, gimcana de seguretat i avaluació 0).
 - Sessió 1 de cada SA (presentació del repte i activació).
 - Galeries, coavaluacions i tancaments de SA.
@@ -59,13 +61,17 @@ Règim per defecte de cada sessió de 2 h:
 L'alumnat es va apuntar a una optativa de màquines i hi passarà la meitat del temps a l'aula
 ordinària: si aquella hora es viu com «classe normal», es viu com el torn de càstig. Coses
 barates que ho eviten:
+
 - **Nom propi** («Estudi de disseny», que el grup el voti) i cartell a la porta: no és l'aula
   ordinària, és l'altra meitat del taller.
+
 - **Material maker físic** a l'estació: peus de rei i regles, mostres de materials (fusta
   tallada, peces impreses, un encaix per tocar), peces del **Museu dels Errors** per analitzar,
   esbossos grans a la paret i el pòster de les **Grans Idees**.
+
 - El co-docent **obre sempre amb el repte** («avui la vostra peça ha de…»), mai amb «continueu
   la feina».
+
 - Els productes acabats **passen per l'estació de disseny** abans d'anar a casa: qui dissenya
   veu i toca el resultat del que es cuina a l'altra sala.
 
@@ -101,6 +107,7 @@ dues:
 1. **Convenció de noms, sempre**: `Nom_SAx_vN` (p. ex. `Aina_SA5_v2.stl`,
    `Biel_SA2_v1.svg`). Cap fitxer sense nom propi entra a la cua de fabricació — és un
    requisit com les capes o els límits, i s'ensenya a SA1 amb el primer «Anomena i desa».
+
 2. **Una carpeta compartida de Drive per grup** (la crea el docent): dins,
    `SA1/ SA2/ … SA9/`, i dins de cada SA una subcarpeta per equip quan toqui. Els lliuraments
    es fan **sempre allà** (no per correu, no «el tinc al meu compte»). El batch de placa i el
@@ -129,8 +136,10 @@ dues:
 - Els **equips de 3-4 sencers dins del mateix grup**: mai un equip partit entre estacions.
 - Els **equips es re-formen a cada trimestre** (els grups A/B es mantenen): cap situació
   d'equip és per sempre — vegeu `Avaluació/Avaluacio_inicial.md` §D.
+
 - **Regla de sincronia:** cap grup comença una fase nova de la SA que l'altre no hagi tancat;
   els **reptes express** absorbeixen els desajustos de ritme.
+
 - Alterneu **quin grup comença** a l'aula Maker (setmanes senars A, parelles B): que la fatiga
   del final de sessió no toqui sempre al mateix grup.
 
@@ -138,15 +147,20 @@ dues:
 
 1. **Acollida (30 min de lectura):** només 3 documents — `00_Guia_inici_codocent.md`, les
    normes de seguretat i la fitxa + exemple resolt de la SA en curs. La resta s'aprèn fent.
+
 2. **El profe també es treu els carnets** 🔴🟠🟢🔵 (`Normativa/Carnet_de_maquina.md`), davant
    de l'alumnat si cal: un adult que aprèn, s'equivoca i itera és la **cultura del prototip
    encarnada**, i el missatge d'equitat més potent que pot donar l'assignatura.
+
 3. **Progressió de responsabilitat:**
+
    - **T1:** estació de disseny i pensament.
    - **T2:** a més, pot supervisar el **kanban** i els batches de placa (gestió visual, no
      tècnica) un cop tingui el carnet 🟠.
+
    - **T3:** pot dur l'**estació VR** (el protocol és de gestió: torns, temps, higiene, guies)
      amb el carnet 🔵.
+
 4. **Repartiment de l'avaluació** — cadascú avalua allò que veu a la seva estació:
 
 | Docent Maker | Co-docent |
@@ -164,14 +178,17 @@ dues:
 - **10 minuts setmanals** de traspàs entre docents (davant del kanban): qui va endarrerit,
   quin equip té prioritat de màquina, incidències, dubtes tècnics recollits (vegeu el
   mecanisme SOS de la guia del co-docent).
+
 - **El diari de taller viatja amb l'alumne**: és el fil que cus les dues estacions.
 - **Kanban compartit** visible (foto al final de cada sessió si cal).
 - Un cop per trimestre, **intercanvi de mirada**: el co-docent passa una sessió a l'estació
   Maker (i tu a la seva) per calibrar l'observació i l'avaluació.
+
 - Un cop per trimestre, **revisió d'equitat amb dades** (10'): recompte del registre de
   carnets i del kanban — qui ha operat màquines i quantes vegades
   (`Equitat_genere_STEAM.md` §3·bis). Amb el **quadern digital**
   (`Avaluació/Quadern_digital_docent.md`), el recompte ja està fet.
+
 - **Si el co-docent canvia a mig curs** (reassignació de desdoblaments): el traspàs és el
   **quadern digital** (tot el seu seguiment hi és) + la `00_Guia_inici_codocent.md` + una
   sessió d'encavalcament si és possible. El full de progrés no es ressent: les files que
@@ -182,6 +199,7 @@ dues:
 - L'aforament de 10 és **normatiu**: cap alumne de més a l'aula Maker, tampoc "un moment".
 - El docent Maker mai deixa la sala amb màquines en marxa (les normes ja ho recullen); si ha
   de sortir, s'atura la fabricació.
+
 - A les **Fires trimestrals** (SA3, SA6 i SA9), els visitants entren a l'aula Maker en
   **grups de ≤10 comptats a la porta** (rol d'alumne/a "controlador d'aforament":
   responsabilitat real i avaluable).

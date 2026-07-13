@@ -23,6 +23,7 @@
 ```
 
 **Per què és un bon producte (🌟):**
+
 - Conté **forma + missatge + imatge vectoritzada** (els 3 elements).
 - El text està **convertit a camí** (no es desmuntarà a la làser).
 - Aprofita bé la planxa: el disseny és compacte, deixa poc material malgastat.

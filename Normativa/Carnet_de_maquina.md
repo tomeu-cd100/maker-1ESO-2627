@@ -13,13 +13,17 @@
 
 - **Sense carnet no s'opera la màquina** (sí que es pot dissenyar, observar i participar en
   tota la resta de l'activitat).
+
 - El carnet es guanya en un **checkpoint de ~5 minuts** amb el docent (o amb un alumne/a
   mentor amb carnet ⭐, sota supervisió): **3 preguntes de protocol + 1 demostració pràctica**.
+
 - No superar-lo **no penalitza**: es repeteix quan l'alumne/a estigui a punt (l'objectiu és
   que tothom el tregui, no filtrar).
+
 - **Retirada temporal:** si algú incompleix una norma de seguretat, el carnet queda suspès i
   cal **repetir el checkpoint** per recuperar-lo. No és un càstig permanent: és el mateix
   circuit que a qualsevol taller real.
+
 - Anoteu el carnet aconseguit al **diari de taller** (com les insígnies) i al registre del
   docent (§4).
 
@@ -47,6 +51,7 @@
 - Per a barreres motrius, val el **rol de decisió/validació** (`DUA_adaptacions_SA.md`):
   l'alumne/a demostra que **sap què s'ha de fer i ho dirigeix**; un company executa el
   moviment fi. El carnet és seu igualment.
+
 - Alumnat que no usa les ulleres VR (edat, salut, elecció): el carnet 🔵 té la variant
   **"guia VR"** (vetlla per qui les porta i pel temps), que dona la mateixa insígnia.
 

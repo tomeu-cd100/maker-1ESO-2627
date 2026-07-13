@@ -30,15 +30,18 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
+
 - Mesurar la realitat amb precisió.
 - Dissenyar amb mides i gruixos adequats a la impressió.
 - Laminar amb Bambu Studio.
 - Detectar i resoldre incidències d'impressió.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
+
 - [ ] He pres mides reals de l'objecte/espai.
 - [ ] La peça és imprimible (gruixos i suports correctes) i he fet una **versió 2** després de
   la revisió amb la parella (i sé dir què hi he canviat).
+
 - [ ] He laminat triant els paràmetres, i Bambu Studio diu **menys d'1 h i menys de 40 g**.
 - [ ] La peça **funciona** per al que la vaig pensar.
 
@@ -62,6 +65,7 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 - **Revisió d'imprimibilitat i iteració digital** (v1 → retorn → v2) abans de fabricar.
 - Impressió 3D: filament (PLA), **laminat** amb Bambu Studio (alçada de capa, farciment,
   adherència, suports), temps i material; límits de temps/material com a requisit de disseny.
+
 - Postprocés i control de qualitat; incidències típiques (warping, no adherència, *stringing*).
 
 ## 4. Seqüència de sessions
@@ -74,12 +78,15 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 1. **Repte + mesurar el problema (30')**: identificar la necessitat i prendre **mides reals**
    (regle/peu de rei) de l'objecte/espai on anirà la peça. Recordar els **límits del repte**:
    la peça ha d'imprimir-se en **< 1 h i < 40 g** (ho comprovarem a Bambu Studio).
+
 2. **Disseny a Tinkercad — versió 1 (65')**: modelar la peça amb les mides correctes; gruix
    mínim 2-3 mm; evitar suports si és possible.
+
 3. **Revisió d'imprimibilitat per parelles (15')**: intercanvi de dissenys amb el **checklist
    d'imprimibilitat** de la fitxa (mides reals, gruixos, parts a l'aire, mida/temps). Cadascú fa
    la **versió 2** a partir del retorn rebut: aquesta iteració **en digital** és la cultura del
    prototip sense gastar filament, i és evidència de CA1.4.
+
 4. **Diari (10')**: incloure captura de la v1 i la v2 amb una frase: "què he canviat i per què".
 
 > ⏸️ **Mínim d'avui**: mides reals preses + v1 modelada (encara que sigui tosca). Si la revisió
@@ -89,11 +96,14 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 ### Sessió 2 — Del model a la impressora (2 h)
 1. **Exportar STL + Bambu Studio (40')**: importar, orientar la peça, paràmetres bàsics
    (alçada de capa, farciment 15-20 %, suports si cal, *brim* per a l'adherència).
+
 2. **Comprendre el laminat (30')**: previsualització de capes, temps i grams estimats —
    **comprovar el límit del repte (< 1 h, < 40 g)**; si se supera, redissenyar (una iteració més!).
+
 3. **Checkpoint del carnet 🟠 d'impressora 3D** (integrat en els torns): 3 preguntes de
    seguretat + enviar la impressió amb supervisió (`Normativa/Carnet_de_maquina.md`). Qui té el
    carnet pot operar la P2S la resta del curs.
+
 4. **Cua d'impressió (40')**: agrupar les peces petites compatibles en **batches de placa**
    (4-8 peces per placa) i gestionar-los amb un **kanban visible** (Per imprimir · Imprimint ·
    Fet, una targeta per placa) i un criteri d'ordre **just** perquè tothom imprimeixi; les
@@ -101,6 +111,7 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
    `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §2B i §2C). Si la peça té un
    **encaix**, l'equip imprimeix primer una petita **mostra de tolerància** compartida (com la
    mostra d'encaix de SA3). Comencen les primeres plaques; reptes express mentre s'imprimeix.
+
 5. **Diari (10')**.
 
 > ⏸️ **Mínim d'avui**: laminat **comprovat dins el límit** (< 1 h, < 40 g) i **targeta al
@@ -111,6 +122,7 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 2. **Treball paral·lel amb tasca definida (90')**: completar la **fitxa tècnica** de la peça
    (mides, paràmetres — CA2.3/5.2) i la rutina **«Què ha passat / Per què / Com ho evito»** sobre
    una peça del **Museu dels Errors** (CA3.3); qui acaba, reptes 3D o ajuda un altre equip.
+
 3. **Diari (15')**.
 
 > ⏸️ **Mínim d'avui**: fitxa tècnica de la peça completada + una rutina d'anàlisi d'un error
@@ -131,6 +143,7 @@ portafoli.
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
 > `Programació didàctica/DUA_adaptacions_SA.md`.
+
 - Banc de "problemes-tipus" amb diferent dificultat per a qui no trobi idea.
 - Plantilles de mides i de paràmetres de laminat.
 - Repte base (peça d'un sol cos) i ampliació ⭐ (peça amb encaix o moviment).
@@ -139,6 +152,7 @@ portafoli.
 - 🎬 Càpsula «Inspira't»: **Mans impreses per voluntaris (comunitat e-NABLE)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA5.
 - Tinkercad; Bambu Studio; impressora **Bambu Lab P2S**; filament PLA; regle/peu de rei;
   eines de postprocés (alicates de tall, llima).
+
 - `Normativa/Normes_seguretat_taller.md` (apartat 3D). `Fitxa_alumnat.md` · `Rubrica_SA5.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
@@ -150,6 +164,7 @@ instructives es **donen al Museu dels Errors** amb la seva targeta
 (`Programació didàctica/Museu_dels_errors.md`).
 
 **Tiquet de sortida:**
+
 1. La decisió de laminat de què estic més content/a: …
 2. Una incidència que he après a evitar: …
 3. Com em sento amb la impressió 3D? 🔴 🟡 🟢

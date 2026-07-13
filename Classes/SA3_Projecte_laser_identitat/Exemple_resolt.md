@@ -18,6 +18,7 @@
 ```
 
 **Per què és un bon producte (🌟):**
+
 - Resol una **necessitat real** (endreçar la taula d'estudi).
 - Les **5 peces encaixen** sense cola gràcies a les ranures a mida del gruix.
 - Té **identitat**: el nom de l'equip gravat i un patró d'estrelles.
@@ -29,6 +30,7 @@
 - **Requisits:** ha de tenir ≥3 compartiments, cabre en una cantonada, muntar-se sense cola.
 - **Idees:** (1) safata plana (2) torre vertical (3) organitzador amb calaix → **triem la 1**
   perquè és més estable i fàcil d'encaixar.
+
 - **Peces:** base, 2 laterals, 2 separadors. **Material:** DM 3 mm.
 - **Rols:** Aina (disseny), Pol (operador làser), Nora (documentació), Hug (coordinació).
 

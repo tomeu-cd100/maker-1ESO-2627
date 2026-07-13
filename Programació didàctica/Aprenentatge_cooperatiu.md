@@ -33,11 +33,14 @@ la revisió trimestral d'equitat (`Programació didàctica/Equitat_genere_STEAM.
 ## 3. Tècniques cooperatives ràpides (per a sessions de 2 h)
 - **1-2-4:** primer penso sol (1), ho comparteixo amb la parella (2), ho acordem en equip (4).
   Ideal per a la fase d'idear (SA2, SA3, SA6, SA9).
+
 - **Llapis al mig:** es parla i s'acorda amb els llapis al centre; només s'escriu quan tothom
   ho ha entès. Bo per planificar.
+
 - **Parada de 3 minuts:** l'equip atura i fa 3 preguntes sobre el que està fent (regulació).
 - **Jigsaw (trencaclosques):** cada membre es fa "expert" d'una part (p. ex. un tipus d'unió,
   un paràmetre de laminat) i ho ensenya a l'equip. Bo per repartir l'aprenentatge tècnic.
+
 - **El número:** en preguntar, dic un número a l'atzar i respon aquell membre → tothom ha
   d'estar a punt (responsabilitat individual).
 
@@ -47,6 +50,7 @@ la revisió trimestral d'equitat (`Programació didàctica/Equitat_genere_STEAM.
 **Equip:** __________  **SA:** ____  **Membres i rol:** ____________________
 
 Ens comprometem a:
+
 - [ ] Repartir-nos la feina de manera justa i complir la nostra part.
 - [ ] Escoltar-nos i decidir entre tots/es.
 - [ ] Ajudar qui ho necessiti abans de demanar ajuda al/a la docent.

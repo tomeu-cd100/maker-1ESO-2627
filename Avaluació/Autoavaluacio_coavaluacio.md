@@ -21,9 +21,11 @@ la **primera coavaluació de cada trimestre**:
 
 1. Projecteu l'**exemple resolt** de la SA (`Exemple_resolt.md`) i valoreu-lo **tots junts**
    amb la mateixa graella (secció B/C): quin nivell li posem i **per què**.
+
 2. Feu el mateix amb el **contraexemple** («què evitar»).
 3. Discutiu les discrepàncies: «tu li has posat 4 i tu 2 — què heu mirat cadascú?». L'objectiu
    és acordar **què compta com a evidència** (fets observables, no simpaties).
+
 4. Regla d'or per escrit a la pissarra: *«Valoro el que he **vist fer**, no com em cau».*
 
 > Després del calibratge, la coavaluació es passa amb normalitat. Si detecteu puntuacions
@@ -90,5 +92,6 @@ els paràmetres, el documentalista manté el diari al dia). En tancar el project
 ## C) Coavaluació de productes (galeria)
 
 En veure els productes d'altres equips, anota:
+
 - Un producte que t'ha agradat i **per què**: ____________________
 - Una idea que t'enduràs per al teu proper projecte: ____________

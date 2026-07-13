@@ -17,10 +17,12 @@
 es pot fer tot oralment.
 
 **Com funciona:**
+
 1. Cada alumne/a rep la graella (o es projecta i s'anota en un paper qualsevol).
 2. A la senyal, tothom s'aixeca i busca **companys/es diferents** que compleixin cada casella.
    Escriu-hi el **nom** (o inicial). **Regla d'or:** cada nom només es pot repetir **una vegada**
    → obliga a parlar amb molta gent.
+
 3. Qui omple una fila (o tota la graella) diu «**taller!**».
 4. **Posada en comú (3'):** el docent pregunta 2-3 caselles («qui ha trobat algú que ja ha imprès
    en 3D?») i aprofita per connectar amb el curs.
@@ -59,6 +61,7 @@ La gimcana de seguretat (`Material_gimcana_seguretat.md`) es fa en **equips de 4
 - 🎴 **Targetes de zona:** prepara targetes amb les 4 zones del taller (🔴 làser · 🟠 3D ·
   🟢 360 · 🔵 VR), tantes de cada com calgui. Cada alumne/a en roba una a l'atzar → els de la
   mateixa zona formen equip (i comencen la rotació per aquella prova).
+
 - 🔢 **Numeració 1-2-3-4-5:** compta en veu alta pel cercle; tots els «1» junts, etc.
 - 🎲 **A l'atzar digital:** qualsevol generador de grups a l'atzar (projecta la llista).
 

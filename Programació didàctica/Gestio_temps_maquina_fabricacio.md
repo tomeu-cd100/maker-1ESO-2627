@@ -38,8 +38,10 @@ Calcula sempre: **temps per peça × nre. d'alumnes del torn vs. minuts reals de
 ### A) Batch / *nesting* (làser) — la que més temps estalvia
 - **Col·loca molts dissenys en una sola planxa i fes una única passada.** 25 clauers junts =
   una passada de pocs minuts, en comptes de 25 passades.
+
 - A Inkscape/XCS: cada alumne/a lliura el seu disseny en una **mida i posició acordades**; el
   docent (o l'equip de "preparació de planxa") els munta en una sola làmina.
+
 - Avantatge afegit: **optimitza material** (menys retalls) → connecta amb CE6.2 (sostenibilitat).
 - A SA1 això converteix la fabricació de tot un torn en **15–20 min reals**, en lloc de 20–50.
 
@@ -47,36 +49,47 @@ Calcula sempre: **temps per peça × nre. d'alumnes del torn vs. minuts reals de
 - **Agrupa 4–8 peces petites de diversos alumnes en una sola placa** i llança-les com una única
   impressió. La placa de la P2S (256×256 mm) admet pràcticament tots els clauers de SA4 en
   **2–3 plaques**, i les peces petites de SA5 en 4–6 tandes.
+
 - Com fer-ho a Bambu Studio: importa els STL a un mateix projecte, **Organitza automàticament**
   (*Arrange*) i revisa que cap peça no necessiti suports que toquin una altra. Anota al kanban
   **una targeta per placa** amb els noms de qui hi va.
+
 - Condició de disseny: peces **petites i sense suports** (o amb suports mínims). Fes-ho part
   dels **criteris d'èxit** de la SA (vegeu §4): una peça que no cap al batch endarrereix tothom.
+
 - Compte amb el risc compartit: si una peça del batch falla i arrossega la impressió, s'atura i
   es rellança sense la peça problemàtica. Explica-ho a l'alumnat: és un motiu més per validar
   la **imprimibilitat** abans d'enviar (vegeu la revisió v1→v2 a SA5).
+
 - Converteix "25 impressions individuals impossibles" en **3–6 tandes viables** (algunes fora
   d'horari) i fa complible el compromís d'equitat de la cua (C).
 
 ### C) Cua d'impressió 3D visible (kanban)
 - Full o pissarra amb tres columnes: **Per imprimir · Imprimint · Fet**. Cada peça és una
   targeta amb nom, temps estimat i grams.
+
 - **Criteri d'ordre explícit i just** (decideix-lo i fes-lo públic): per ordre de validació del
   disseny, alternant equips, o per sorteig. Mai "qui crida més".
+
 - **Compromís d'equitat:** ningú tanca la SA sense haver imprès. Qui no imprimeix avui, té
   **prioritat** la propera sessió (marca-ho al kanban).
+
 - Programa les **impressions llargues fora d'horari** (pati, tarda, nit) i deixa per a classe
   només l'inici de la primera capa (el moment crític d'observar).
+
 - Combina-la amb el **batch de placa (B)**: la unitat de la cua pot ser una placa sencera, no
   una peça — la cua avança molt més de pressa.
 
 ### D) Treball paral·lel amb propòsit (mentre s'espera torn)
 Qui espera màquina **no perd el temps**; té tasques productives i avaluables:
+
 - Entrada al **diari de taller** (procés, decisions, incidència observada).
 - **Repte express** de `Reptes/` (fast finishers, nivells ⭐⭐⭐) o el seu **projecte personal
   longitudinal** (`Reptes/Projecte_personal.md`).
+
 - Analitzar una peça del **Museu dels Errors** i escriure'n la targeta
   (`Museu_dels_errors.md`).
+
 - **Millora del disseny** o preparació de la planxa de batch (rol d'equip).
 - **Seguiment d'impressió** com a observació tècnica (primera capa, *warping*…).
 - Practicar amb les **simulacions** (`Simulacions/`) sense ocupar màquina.
@@ -107,8 +120,10 @@ aquesta funció):
 - Posa **límits de mida i de temps** explícits a cada repte (p. ex. "cap a < 60×40 mm a làser",
   "< 1 h d'impressió, < 40 g") i fes-los part dels **criteris d'èxit** (així ho fan SA4, SA5 i
   SA6): l'alumne els comprova ell mateix a la previsualització de Bambu Studio.
+
 - En 3D, demana peces **sense suports o amb suports mínims**: és el que les fa aptes per al
   **batch de placa** (§2B) i el que més temps d'impressió estalvia.
+
 - Tingues sempre **plantilles de partida** (`Recursos/Plantilles_disseny/`) per evitar el
   "full en blanc" i accelerar.
 
@@ -136,9 +151,11 @@ Organitza la sessió en **estacions simultànies** per les quals roten els equip
   · *selecció i transferència de les captures fetes* · *repte immersiu*
   (`Reptes/Reptes_immersius_360_VR.md`). Full de **reserva de torns** públic (com el kanban):
   cap equip surt a capturar sense pla escrit.
+
 - **SA8, exploració VR (torn de 50' ≈ 2–3 rondes de ~12'):** 5 alumnes amb ulleres (un guia per
   parella, vegeu el protocol); la resta a les estacions: *fitxa d'anàlisi crítica* · *exploració
   de l'experiència en pantalla* · *preparació del debat* · *primeres proves amb CoSpaces*.
+
 - Encadena la rotació amb el **carnet de màquina** (`Normativa/Carnet_de_maquina.md`): el primer
   torn de cada equip inclou el checkpoint de càmera/VR.
 
@@ -162,6 +179,7 @@ Organitza la sessió en **estacions simultànies** per les quals roten els equip
 ## 7. Després: registra i millora
 - Anota el **temps real** de fabricació a `Memòria de treball/Diari_docent_sessions.md`
   (és la millor dada per ajustar la `Temporitzacio_anual.md` el curs vinent).
+
 - Registra incidències de màquina a `Memòria de treball/Registre_incidencies_i_manteniment.md`.
 
 > Relacionat amb: `Temporitzacio_anual.md`, `DUA_adaptacions_SA.md`, `Aprenentatge_cooperatiu.md`,

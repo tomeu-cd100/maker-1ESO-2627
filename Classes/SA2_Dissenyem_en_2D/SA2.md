@@ -28,12 +28,14 @@ converteix en línies que la màquina pot tallar i gravar.
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
+
 - Crear formes noves amb operacions de camí (unió, diferència).
 - Convertir text a camí i vectoritzar una imatge.
 - Preparar les capes de tall i de gravat.
 - Aprofitar bé el material.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
+
 - [ ] El meu marcapàgines té forma, missatge i imatge vectoritzada.
 - [ ] He creat almenys **una forma nova amb una operació de camí** (unió o diferència) i puc dir quina.
 - [ ] El text està **convertit a camí**.
@@ -81,6 +83,7 @@ converteix en línies que la màquina pot tallar i gravar.
 1. **Vectorització (30')**: importar una imatge senzilla i traçar-la (Camí → Vectoritza mapa de bits).
 2. **Disseny del marcapàgines (70')**: forma base (~150×50 mm), missatge gravat, imatge
    vectoritzada, forat per a la borla. Definir capes tall/gravat.
+
 3. **Optimització i revisió (20')**: comprovar mides, gruixos de línia, aprofitament de material.
 
 > ⏸️ **Mínim d'avui**: forma + missatge (text a camí) + forat, amb capes correctes — si la
@@ -92,6 +95,7 @@ converteix en línies que la màquina pot tallar i gravar.
 2. **Fabricació per *batch* (75')**: agrupa els dissenys en una sola planxa (*nesting*) per
    estalviar temps de làser i material; tall i gravat supervisat. Reptes express mentre s'espera
    (vegeu `Programació didàctica/Gestio_temps_maquina_fabricacio.md`).
+
 3. **Postprocés (10')**: netejar, posar la borla.
 4. **Galeria i coavaluació (15')**: `Avaluació/Autoavaluacio_coavaluacio.md`.
 
@@ -101,6 +105,7 @@ Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, docum
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
 > `Programació didàctica/DUA_adaptacions_SA.md`.
+
 - Banc de plantilles i d'imatges senzilles per vectoritzar.
 - Repte base (forma + text) i ampliació ⭐ (forma complexa, patró, calat).
 - Fitxa visual pas a pas i vídeos curts (tutorials validats a `Recursos/Enllacos_i_tutorials.md`).
@@ -118,6 +123,7 @@ Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, docum
 **Rutina de pensament:** *Abans pensava / Ara penso* sobre què vol dir dissenyar per a una màquina.
 
 **Tiquet de sortida:**
+
 1. El truc d'Inkscape que més m'ha servit: …
 2. Què faria diferent al meu disseny: …
 3. Com em sento amb el disseny vectorial? 🔴 🟡 🟢

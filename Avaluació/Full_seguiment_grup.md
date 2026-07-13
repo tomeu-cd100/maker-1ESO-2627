@@ -26,8 +26,10 @@
 ### Què vol dir cada columna (conductes observables, no impressions)
 - **Autonomia:** quanta ajuda ha necessitat (escala del termòmetre, `Instruments_formatius.md` §2):
   🪜1 ajuda contínua → 🪜4 s'ha desencallat sol/a i n'ha ajudat un altre.
+
 - **Persistència (davant l'error):** què fa quan una cosa no surt — torna a provar, consulta la
   guia/companys i ho documenta (no «s'esforça» a ull: es mira si **reintenta i registra**).
+
 - Les altres columnes tenen el seu CA associat i es llegeixen amb la rúbrica de la SA.
 
 ### Codis ràpids d'observació (per agilitzar)

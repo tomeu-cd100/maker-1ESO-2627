@@ -25,6 +25,7 @@ Respon amb sinceritat (1 = gens / 4 = molt). No hi ha respostes bones o dolentes
 | 9 | M'imagino fent coses de tecnologia o disseny en el futur | | | | |
 
 **Preguntes obertes:**
+
 - Una cosa que m'agradaria fabricar aquest curs: ____________________
 - Una cosa que em fa una mica de respecte o no he fet mai: ____________________
 - Què se'm dona bé i podria aportar a un equip? ____________________
@@ -42,8 +43,10 @@ Marca les paraules que **ja saps què volen dir** (de veritat — no passa res s
 
 ## B) Mini-repte diagnòstic (observació, ~20 min)
 Petit repte sense ensenyar res abans, per observar punts de partida (no es qualifica):
+
 - **Esbós:** "Dibuixa en paper una idea per a un clauer amb el teu nom" → observa creativitat i
   noció d'espai/mesura.
+
 - **Exploració:** obrir Inkscape i fer una forma + escriure el nom → observa familiaritat digital.
 
 ## C) Graella de buidatge per al docent
@@ -58,9 +61,11 @@ Petit repte sense ensenyar res abans, per observar punts de partida (no es quali
   cicle SA3/SA6/SA9): a 12 anys les dinàmiques socials canvien de mes en mes, i saber que cap
   situació d'equip és per sempre desactiva els equips tòxics i multiplica les relacions de
   treball. Manteniu l'heterogeneïtat a cada re-formació.
+
 - **Tutoria entre iguals:** identifica qui pot ajudar i qui necessitarà més bastida.
 - **DUA / NESE:** anticipa adaptacions (vegeu `Programació didàctica/DUA_adaptacions_SA.md` i el
   `Normativa/Protocol_us_VR.md` per a alternatives a les ulleres).
+
 - **Punt de partida personal:** guarda-ho per comparar-ho amb l'autoavaluació final (SA9) i
   evidenciar **l'evolució** de cada alumne/a (avaluació de l'aprenentatge, no de l'arrencada).
 

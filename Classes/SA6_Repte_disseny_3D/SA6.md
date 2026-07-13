@@ -32,16 +32,20 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
+
 - Empatitzar i definir requisits centrats en l'usuari.
 - Dissenyar un conjunt de peces coordinades.
 - Coordinar-me dins l'equip.
 - Provar amb l'usuari i millorar.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
+
 - [ ] Hem escrit **≥3 requisits i ≥1 restricció** que surten de parlar amb (o observar)
   l'usuari, no inventats.
+
 - [ ] Cada peça s'imprimeix en **menys d'1 h i amb menys de 40 g** (ho diu Bambu Studio) i
   hem repartit les peces al calendari d'impressió.
+
 - [ ] Les peces encaixen i la solució funciona.
 - [ ] Hem provat amb l'usuari i hem aplicat **almenys una millora** a partir del que ens ha dit.
 - [ ] Hem comunicat l'impacte de la solució.
@@ -81,6 +85,7 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 1. **Catàleg de reptes (20')**: presentació d'opcions; cada equip en tria un.
 2. **Empatia i requisits (50')**: qui ho farà servir? què necessita? requisits i restriccions
    (miniguió d'entrevista de la fitxa).
+
 3. **Idear i planificar (40')**: idees, elecció, repartiment de peces i rols, calendari d'impressió.
 4. **Diari (10')**.
 
@@ -91,6 +96,7 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 ### Sessió 2 — Disseny (2 h)
 1. **Modelatge en equip (100')**: cada membre modela una part; coordinació de mides comunes i
    dels **límits per peça** (< 1 h, < 40 g, sense suports si és possible).
+
 2. **Revisió conjunta (20')**: encaixos, mides, imprimibilitat amb el checklist (com a SA5);
    cada membre fa la **versió 2** de la seva peça i anota al diari què hi ha canviat (CA1.4).
    Validació del docent.
@@ -103,6 +109,7 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 1. **Laminat i cua (30')**: agrupar les peces de l'equip en **batches de placa** (una targeta
    de kanban per placa); prioritzar peces; plaques llargues fora d'hores si cal (vegeu
    `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §2B).
+
 2. **Impressió i treball paral·lel (90')**: seguiment + millora del disseny + reptes.
 
 ### Sessió 4 — Muntatge, proves i iteració (2 h)
@@ -118,6 +125,7 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 1. **Fira de solucions (60')**: cada equip presenta el repte, la solució i l'impacte —
    **oberta a les famílies** (segona Fira trimestral; si l'usuari real pot venir, presentar
    davant seu és l'evidència d'impacte més potent).
+
 2. **Coavaluació (30')**.
 3. **Tancament T2 (30')**: portafoli, autoavaluació, recollida.
 
@@ -127,6 +135,7 @@ Solució 3D funcional al repte triat + evidència de proves amb l'usuari + prese
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
 > `Programació didàctica/DUA_adaptacions_SA.md`.
+
 - Catàleg de reptes amb nivells de dificultat.
 - Rols diferenciats segons fortaleses; peces de complexitat variable dins el mateix projecte.
 - Bastides de disseny i de laminat reutilitzades de la SA5.
@@ -144,6 +153,7 @@ Solució 3D funcional al repte triat + evidència de proves amb l'usuari + prese
 la persona destinatària.
 
 **Tiquet de sortida (equip):**
+
 1. L'impacte real de la nostra solució: …
 2. Una millora que ens ha suggerit l'usuari: …
 3. Com ha funcionat el nostre equip? 🔴 🟡 🟢

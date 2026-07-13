@@ -4,6 +4,7 @@
 
 ## El repte
 Modela un **clauer o figura 3D** amb Tinkercad. Requisits:
+
 - [ ] Mínim **3 cossos** combinats
 - [ ] Mínim **1 forat** (cos "buit")
 - [ ] Mida raonable (cap a **50 mm**, gruix mínim 3 mm perquè no es trenqui)

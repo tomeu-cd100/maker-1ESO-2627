@@ -48,6 +48,7 @@ pot assolir igualment sense elles.
 - **Tot el material del curs és obert** a la web: **[URL de la web del curs]**. Hi trobareu les
   fitxes, els criteris d'avaluació i eines d'accessibilitat (lectura en veu alta i mida de
   lletra ajustable) per acompanyar el vostre fill/a des de casa.
+
 - Pregunteu al vostre fill/a pel seu **diari de taller** (hi documenta el que fa cada setmana).
 - Veniu a les **Fires Aula Maker**: n'hi ha **una cada trimestre** — la de final de curs és la
   **gran Fira**. Reserveu les dates:
@@ -59,6 +60,7 @@ pot assolir igualment sense elles.
   | 3r trimestre (gran Fira) | ____ / ____ / ______ |
 
   El vostre fill/a hi presentarà els seus projectes. Us hi esperem!
+
 - Per a qualsevol dubte, contacteu amb: **[nom del docent]** · **[correu / canal del centre]**.
 
 ## Què cal que feu ara

@@ -9,9 +9,11 @@
 - Optativa **anual** de 1r d'ESO, **2 h/setmana** (1 bloc), enfocament **STEAM i maker**.
 - L'alumnat aprèn **fent**: dissenya i fabrica objectes reals amb làser i 3D, i crea contingut
   immersiu (360/VR).
+
 - Una **SA0 de punt de partida** (benvinguda, cohesió, seguretat i avaluació 0, setmanes 1-2) + **9
   situacions d'aprenentatge (SA)**, 3 per trimestre, amb progressió **2D → 3D → immersiu →
   projecte integrador**.
+
 - Avaluació **competencial** (NA/AS/AN/AE) amb el **diari de taller** com a fil conductor.
 
 ## 2. Com està organitzada aquesta carpeta
@@ -40,6 +42,7 @@ maker-1ESO-2627/
    (i `00_Guio_del_curs_docent.md` per veure tot el curs sessió a sessió).
    Per al dia a dia, un cop arrencat el curs: `00_Diari_de_classe_docent.md` — la fitxa
    operativa de cada una de les 35 sessions (obre-la cada setmana abans de classe).
+
 5. `Normativa/Normes_seguretat_taller.md` — imprescindible abans de tocar màquines.
 6. **Si treballeu en desdoblament** (2 docents, aforament limitat a l'aula Maker):
    `Programació didàctica/Codocencia_desdoblament.md` — model de rotació i estacions — i dona
@@ -51,18 +54,23 @@ maker-1ESO-2627/
 - [ ] Comprovar que totes les màquines engeguen i tens els consumibles bàsics.
 - [ ] Imprimir el `Normativa/Normes_seguretat_taller.md`, el **contracte d'aula** i un
   **Passaport maker** per alumne/a (`Reptes/Passaport_maker.md` — unifica carnets i insígnies).
+
 - [ ] Crear el **quadern digital del docent** (`Avaluació/Quadern_digital_docent.md`): un sol
   full de càlcul compartit per a seguiment, progrés, carnets i equitat.
+
 - [ ] Recollir les **autoritzacions** de família (si en faràs servir VR/360 aquest curs).
 - [ ] Crear els comptes de classe (Tinkercad, CoSpaces Edu).
 - [ ] Tenir a punt el **diari de taller** (paper o digital).
 - [ ] Preparar l'**avaluació inicial** (`Avaluació/Avaluacio_inicial.md`) per a la setmana 2 (sessió 2 de la SA0).
 - [ ] Imprimir/compartir `Avaluació/Avaluacio_explicada_alumnat.md` (el sistema d'avaluació en
   una pàgina, per a alumnat i famílies) — es presenta la setmana 2 amb el contracte d'aula.
+
 - [ ] Si feu desdoblament: formar els **grups A/B estables** amb l'avaluació inicial i acordar
   amb el co-docent els 10' de coordinació setmanal (`Programació didàctica/Codocencia_desdoblament.md`).
+
 - [ ] Llegir la metodologia de **treball cooperatiu** (`Programació didàctica/Aprenentatge_cooperatiu.md`)
   i preparar el **referent de la setmana** (`Programació didàctica/Equitat_genere_STEAM.md`).
+
 - [ ] Començar amb la **SA0** (`Classes/SA0_Punt_de_partida/`).
 
 ## 5. Posada en marxa del maquinari i programari
@@ -97,6 +105,7 @@ El sistema té molts rituals; **no tots pesen igual**. Un dia dolent (substituci
 grup regirat), retalla amb criteri — aquesta és la jerarquia:
 
 **Irrenunciables (no es retallen mai):**
+
 1. **Seguretat**: normes actives, carnets vigents, màquines mai soles.
 2. **Diari de taller**: els últims 5-10 minuts són sagrats — és LA evidència del procés.
 3. **Kanban/torns**: sense criteri d'ordre públic, la màquina la guanya qui crida més.
@@ -117,12 +126,15 @@ referent de la setmana.
 - **Carnet de màquina:** ningú opera una màquina sense el seu carnet
   (`Normativa/Carnet_de_maquina.md`); el checkpoint es fa dins la SA corresponent (làser a SA1,
   3D a SA5, càmera a SA7, VR a SA8) i gamifica la seguretat.
+
 - **Museu dels Errors:** les peces fallides instructives no van a la paperera — es donen al
   museu amb la seva targeta (`Programació didàctica/Museu_dels_errors.md`); insígnia 🏆
   trimestral a l'error que més ha ensenyat.
+
 - **Final (5-10'):** neteja + entrada al diari de taller.
 - Una **demo curta** abans de cada tècnica nova; bastides retirables. Els guions de les 8
   demos crítiques (què fer, què dir, l'error típic) són a `Recursos/Guions_de_demo.md`.
+
 - **Exemples resolts:** cada SA inclou un `Exemple_resolt.md` (model de producte, fitxa i diari
   ben fets, amb anotacions i contraexemple). Mostra'l **després** del primer intent de l'alumnat
   i comenta'l amb el llenguatge dels criteris d'èxit (no per copiar, sinó com a referent).
@@ -132,17 +144,22 @@ referent de la setmana.
   seu 🎯 objectiu del diari) + projecta la *pregunta guia*, els *objectius* ("Seré capaç de…"),
   els *criteris d'èxit* i la **🧭 Gran Idea** de la SA
   (`Programació didàctica/Grans_idees_maker.md`, pòster a l'aula); torna-hi al final.
+
 - **Full de progrés per alumne** (`Avaluació/Full_progres_competencial.md`): 2-3 min en tancar
   cada SA i al juny tens la trajectòria de cada competència, no records.
+
 - **Calibra la coavaluació** una vegada per trimestre amb l'exemple resolt
   (`Avaluació/Autoavaluacio_coavaluacio.md` §0) — si no, mesura amistats.
+
 - Durant la sessió, usa instruments **formatius** ràpids (`Avaluació/Instruments_formatius.md`):
   tiquet de sortida, semàfor 🔴🟡🟢, rutines de pensament — però ♻️ **una sola reflexió per
   sessió**: tiquet o rutina s'integren al diari, no s'hi sumen.
+
 - Observa amb el `Avaluació/Full_seguiment_grup.md` (codis ràpids +/-/!).
 - El **diari de taller** és la principal evidència del procés.
 - Tanca cada SA amb la seva **rúbrica** + autoavaluació/coavaluació; l'alumnat pot usar la
   `Avaluació/Rubrica_alumnat_amigable.md`.
+
 - Productes finals de trimestre: **SA3, SA6, SA9**.
 - ⚖️ **No ho apliquis tot a totes les SA:** rúbrica completa només a SA3/SA6/SA9; a les SA
   curtes, checklist de criteris d'èxit i mostreig del diari (vegeu la **jerarquia
@@ -157,6 +174,7 @@ referent de la setmana.
 - Revisa `Programació didàctica/DUA_adaptacions_SA.md`: **menú base** d'opcions per a tothom,
   adaptacions **per barrera** (visual, auditiva, motriu, TDAH, TEA, dislèxia/discalcúlia,
   nouvinguts, altes capacitats) i **per màquina**, més una **taula per SA**.
+
 - Parteix de l'**avaluació inicial** per anticipar barreres i coordina't amb la CAD/orientació
   (PI). Recorda l'alternativa en pantalla per a la VR.
 

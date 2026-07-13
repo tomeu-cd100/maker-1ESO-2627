@@ -33,16 +33,19 @@ la culminació, oberta també a altres grups i a l'alumnat de 6è.
 
 ## 👁️ Aprenentatge visible (per a l'alumnat)
 **En acabar aquesta SA seré capaç de…**
+
 - Integrar fabricació (làser/3D) amb contingut immersiu (360/VR).
 - Planificar un projecte llarg en equip.
 - Comunicar a un públic real.
 - Reflexionar sobre el meu aprenentatge del curs.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
+
 - [ ] L'estand combina un objecte fabricat i una experiència immersiva.
 - [ ] Hem complert el pla de projecte (la taula de calendari de la fitxa).
 - [ ] Tenim un **guió de presentació d'1-2 min** (salutació · què és · com ho hem fet ·
   invitació) i l'hem assajat.
+
 - [ ] El **portafoli final** té: 1 evidència de cada trimestre amb reflexió + la fitxa i el
   diari de SA9 + «El meu viatge maker».
 
@@ -69,11 +72,13 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
 1. **Repte i exemples (20')**.
 2. **Tria de tema i abast (40')**: cada equip tria el tema i defineix què farà a làser/3D i
    què farà en 360/VR.
+
 3. **Pla de projecte (50')**: requisits, peces, tasques, calendari (incloent **temps de màquina**:
    planifiqueu *batch* de làser i cua d'impressió 3D segons
    `Programació didàctica/Gestio_temps_maquina_fabricacio.md`), rols amb **signatura de peça**
    (cada membre responsable identificable d'una part de l'estand; ho recull la rúbrica).
    Validació del docent (**document de pla de projecte**).
+
 4. **Diari (10')**.
 
 ### Sessió 2 — Disseny i fabricació (2 h)
@@ -87,6 +92,7 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
 1. **Crear el 360/VR (100')**: tour de l'espai del tema o escena VR explicativa. ♻️ **Partiu del
    tour de SA7 o de l'escena de SA8** i adapteu-los al tema — no es comença de zero (per això
    cap en 100').
+
 2. **Diari (20')**.
 
 > ⏸️ **Mínim d'avui**: component immersiu **explorable** (2 escenes 360 enllaçades, o una escena
@@ -111,6 +117,7 @@ final del curs.
 ## 6. Atenció a la diversitat (DUA)
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
 > `Programació didàctica/DUA_adaptacions_SA.md`.
+
 - Abast del projecte ajustable (mínims clars + ampliacions ⭐).
 - Rols especialitzats segons fortaleses adquirides durant el curs.
 - Múltiples formes de contribuir i de presentar (oral, visual, guia del tour…).
@@ -122,6 +129,7 @@ final del curs.
 - `Programació didàctica/Gestio_temps_maquina_fabricacio.md` (fabricació) i
   `Normativa/Protocol_us_VR.md` (ús de VR a la Fira: edat, torns i **alternativa en pantalla** a
   l'estand per a qui no en faci ús).
+
 - `Avaluació/Rubrica_producte_final.md`. `Fitxa_alumnat.md` · `Rubrica_SA9.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
@@ -131,6 +139,7 @@ final del curs.
 (reflexió de tancament de l'optativa).
 
 **Tiquet de sortida (final de curs):**
+
 1. El projecte de què estic més orgullós/a i per què: …
 2. Una cosa que m'enduc per al futur: …
 3. Com valoro la meva evolució a l'Aula Maker? 🔴 🟡 🟢

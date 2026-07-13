@@ -39,6 +39,7 @@
 - Ampliar la interfície (zoom del programa i del sistema), **alt contrast** i cursor gran.
 - Augmentar el **gruix de línia** i la mida del text als dissenys; evitar només el color per
   distingir capes (afegir etiquetes "TALL"/"GRAVAT").
+
 - Materials **tàctils**: explorar amb les mans els objectes 3D/làser ja fets.
 - VR: prioritzar **alternativa en pantalla gran**; la VR pot no ser accessible.
 
@@ -51,6 +52,7 @@
 - **Ratolí adaptat**, *trackpad*, pantalla tàctil o control per teclat segons el cas.
 - A les màquines: **rol de supervisió/decisió** amb un company que executa el moviment fi;
   l'alumne/a dirigeix (segueix sent responsable del disseny i les decisions).
+
 - Postprocés 3D (retirar suports) amb **eines adaptades** i sempre acompanyat.
 - Augmentar mides dels elements per facilitar la manipulació de peces petites.
 
@@ -83,6 +85,7 @@
 - **Projecte personal longitudinal** (`Reptes/Projecte_personal.md`): un objecte propi que creix
   tot el curs amb cada tecnologia — repte sostingut amb sostre alt, especialment potent també
   per a alumnat amb interessos forts (TEA).
+
 - Rol de **mentor/a** d'un company (sense convertir-lo en "professor substitut": que també avanci).
 - Reptes oberts: afegir funcionalitat, optimitzar material/temps, combinar tècniques.
 
@@ -99,11 +102,13 @@
 - L'enviament a la màquina el fa el docent o l'alumne/a **amb supervisió estreta** (seguretat).
 - Per a dificultats motrius/atenció: l'alumne/a **decideix i valida** (paràmetres, col·locació)
   i un altre executa; tots dos en són responsables.
+
 - Avisos i seguretat **visuals** (vegeu `Normativa/Normes_seguretat_taller.md`).
 
 ### Modelatge 3D (Tinkercad)
 - **Tinkercad Codeblocks** (modelar amb blocs) com a via alternativa per a qui prefereix lògica
   a manipulació visual.
+
 - Plantilles amb cossos inicials; reptes guiats amb captures.
 - Vista en 2 dimensions / vistes predefinides per a dificultats de visió espacial.
 
@@ -119,6 +124,7 @@
 ### Ulleres VR
 - ⚠️ **Participació voluntària** i **alternativa en pantalla** sempre disponible
   (`Normativa/Protocol_us_VR.md`): visualització de l'escena/tour a l'ordinador.
+
 - Temps curts i descansos; aturar davant qualsevol malestar; higiene.
 - Atenció a fotosensibilitat, vertígens i problemes de visió (consulta a la família).
 
@@ -146,8 +152,10 @@ Barrera més probable de cada SA i adaptació clau (a més del "menú base" del 
 - Revisa l'**avaluació inicial** (`Avaluació/Avaluacio_inicial.md`) per anticipar barreres.
 - Consulta els **plans individualitzats (PI)** i coordina't amb la **CAD/orientació** i el/la
   tutor/a; aplica les mesures acordades també a l'Aula Maker.
+
 - Documenta les adaptacions que funcionen a `Memòria de treball/Diari_docent_sessions.md` per
   reaprofitar-les.
+
 - Recorda: una adaptació ben pensada **per a un** sovint **millora l'experiència de tot el grup**.
 
 > Relacionat amb: cada `Classes/SAx/SAx.md` (apartat DUA), `Avaluació/Avaluacio_inicial.md`,

@@ -19,6 +19,7 @@
 ```
 
 **Per què és un bon producte (🌟):**
+
 - Combina **4 cossos** (base + 3 lletres) i **1 forat** (l'anella) → supera el mínim.
 - Té **gruix de 5 mm**: prou robust per no trencar-se.
 - Les mides són **realistes** i dins del límit: **45 mm** (el criteri d'èxit demana ≤50 mm),

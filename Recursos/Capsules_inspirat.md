@@ -58,6 +58,7 @@ peces, suports i iteracions que esteu aprenent a controlar aquesta SA.
 
 - 💬 *Per què una pròtesi impresa per a un infant té més sentit que una de fàbrica?*
   (pista: els infants creixen)
+
 - 🔎 Cerca: «e-NABLE enabling the future» · «pròtesi mà impressió 3D infants»
 
 ## SA6 — L'usuari real · Dissenyar és escoltar
@@ -78,6 +79,7 @@ per **preservar i obrir** el patrimoni: el vostre tour del centre és la mateixa
 
 - 💬 *D'aquí a 50 anys, què del nostre institut ja no existirà? El vostre tour en serà
   l'única memòria?*
+
 - 🔎 Cerca: «Ullastret 3D poblat ibèric realitat virtual» · «patrimoni reconstrucció VR»
 
 ## SA8 — L'escena VR · La realitat virtual que cura
