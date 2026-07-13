@@ -5,22 +5,19 @@
 
 ---
 
-## 🔑 Exemple de producte: el marcapàgines del Marc
+## 🔑 Exemple de producte: un marcapàgines resolt
 
-```
- +------------------------------+
- |   ( o )  <- forat per a la borla
- |   .----.                     |
- |   | ☼  |  <- imatge vectoritzada (un sol) gravada
- |   '----'                     |
- |                              |
- |   "Llegir és viatjar"  <-- missatge gravat (text → camí)
- |                              |
- |   [marc interior gravat]     |
- +------------------------------+
-   Mida: 50 x 150 mm · DM 3 mm
-   TALL: contorn + forat · GRAVAT: sol + missatge + marc
-```
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/Plantilles_disseny/marcapagines_SA2.svg" alt="Marcapàgines d'exemple de 50×150 mm amb el contorn i el forat de la borla en vermell (tall) i el missatge, la imatge i el marc en negre (gravat)." style="height:300px;max-width:100%;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem;text-align:left;max-width:520px;margin-inline:auto">
+    <strong>Mida:</strong> 50 × 150 mm · DM 3 mm. Què hi ha (i de quin color):<br>
+    🔴 <strong>tall (vermell):</strong> el contorn i el <strong>forat de la borla</strong> (a dalt).<br>
+    ⚫ <strong>gravat (negre):</strong> el <strong>missatge</strong> (text convertit a camí), la
+    <strong>imatge vectoritzada</strong> i el <strong>marc</strong>.
+  </figcaption>
+</figure>
+
+<p style="text-align:center;font-size:.9rem"><a href="Recursos/Plantilles_disseny/marcapagines_SA2.svg">⬇️ Obre el vectorial SVG a Inkscape</a> — mira com estan separades les capes de <strong>tall</strong> i <strong>gravat</strong>.</p>
 
 **Per què és un bon producte (🌟):**
 

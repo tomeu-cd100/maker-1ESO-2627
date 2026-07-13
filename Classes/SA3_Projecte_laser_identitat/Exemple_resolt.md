@@ -8,14 +8,19 @@
 
 ## 🔑 Exemple de producte: organitzador d'escriptori "Equip Galàctic"
 
-```
-   _____________________
-  |  []   []   []  []   |   <- compartiments per a bolígrafs
-  |  ___________________|
-  |_| porta-clips |_____|
-   ^ peces unides per encaix (ranures = gruix de la fusta, 3 mm)
-   Mida: 120 x 80 x 70 mm · DM 3 mm · 5 peces
-```
+Un organitzador de taula fet amb **peces planes que encaixen** sense cola. Vet aquí un exemple
+de les **peces amb encaixos** (una caixa senzilla), a punt de tallar:
+
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/Plantilles_disseny/caixa_exemple_80x80x50_g3.svg" alt="Peces planes d'una caixa amb encaixos (dents i ranures) a les vores, dibuixades en vermell per tallar amb la làser." style="width:100%;max-width:560px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem;text-align:left;max-width:560px;margin-inline:auto">
+    Cada panell porta <strong>dents i ranures a mida del gruix</strong> de la fusta (3 mm): així
+    les peces s'aguanten soles. 🔴 tot el que és <strong>vermell</strong> es talla. El vostre
+    organitzador (base + laterals + separadors) segueix la mateixa tècnica.
+  </figcaption>
+</figure>
+
+<p style="text-align:center;font-size:.9rem"><a href="Recursos/Plantilles_disseny/caixa_exemple_80x80x50_g3.svg">⬇️ Obre el vectorial SVG a Inkscape</a> i mira els encaixos de prop.</p>
 
 **Per què és un bon producte (🌟):**
 
@@ -45,6 +50,11 @@
 
 **Per què és bona:** documenta una **iteració real** (provar → fallar → ajustar → encertar),
 que és el cor del pensament de disseny.
+
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/Plantilles_disseny/mostra_encaix_kerf_SA3.svg" alt="Mostra d'encaix: cinc ranures de proves de 2,6 a 3,4 mm per trobar quina agafa just una peça de 3 mm; el kerf és la diferència." style="width:100%;max-width:480px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem">La <strong>mostra d'encaix</strong> que descriu el diari: talles ranures de 2,6 a 3,4 mm i mires <strong>quina t'agafa just</strong> la peça de 3 mm. La diferència amb 3,0 és el <strong>kerf</strong>.</figcaption>
+</figure>
 
 ---
 
