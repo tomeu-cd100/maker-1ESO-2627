@@ -7,16 +7,10 @@
 
 ## 🔑 Exemple de producte: estand "Viatge a la Lluna"
 
-```
-   ESTAND "VIATGE A LA LLUNA"
-   ┌───────────────────────────────┐
-   │  🌙 maqueta de la Lluna (3D)   │  <- impresa en 3D
-   │  🚀 cohet gravat (làser)       │  <- tallat/gravat a làser
-   │  🥽 tour 360 de "la superfície"│  <- experiència immersiva (ulleres VR)
-   │  🪧 cartells informatius        │
-   └───────────────────────────────┘
-   Integra: 3D + làser + 360/VR  ✓
-```
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/imatges/exemple_SA9_estand.svg" alt="Estand Viatge a la Lluna: una maqueta de la Lluna impresa en 3D, un cohet tallat a làser, una pantalla amb el tour 360/VR i cartells informatius, tots sobre una taula amb rètol." style="width:100%;max-width:540px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.4rem">L'estand final <strong>integra les 3 tecnologies</strong> del curs: una maqueta impresa en <strong>3D</strong>, un cohet tallat a <strong>làser</strong> i un <strong>tour 360/VR</strong> a la pantalla, amb cartells que ho expliquen.</figcaption>
+</figure>
 
 **Per què és un bon producte (🌟):**
 

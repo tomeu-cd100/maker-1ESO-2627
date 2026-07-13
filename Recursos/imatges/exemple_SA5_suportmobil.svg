@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" font-family="Segoe UI, system-ui, sans-serif">
+  <!-- Exemple SA5: suport de mòbil imprès en 3D — vista lateral -->
+  <defs>
+    <style>
+      .ink{stroke:#2b2318;stroke-width:2;stroke-linejoin:round;}
+      .body{fill:#8bbad1;} .bodydk{fill:#5f97b3;}
+      .phone{fill:#2b2318;} .screen{fill:#7fd0e6;}
+      .lbl{fill:#6b5d4b;font-size:13px;} .lblb{fill:#2b2318;font-size:13px;font-weight:700;}
+      .lead{stroke:#b9ad95;stroke-width:1.5;stroke-dasharray:3 3;fill:none;}
+      .dim{stroke:#e8641b;stroke-width:1.5;fill:none;}
+    </style>
+  </defs>
+
+  <!-- superfície de taula -->
+  <line x1="60" y1="238" x2="400" y2="238" stroke="#c9b89c" stroke-width="2"/>
+
+  <!-- cos del suport (falca amb ranura) -->
+  <!-- base ampla i estable -->
+  <path class="ink body" d="M110,238 L300,238 L250,150 L170,150 Z"/>
+  <!-- cara del davant (inclinada ~65°) on recolza el mòbil -->
+  <path class="ink bodydk" d="M170,150 L250,150 L235,238 L150,238 Z" opacity="0.55"/>
+  <!-- ranura al capdamunt -->
+  <rect class="ink" x="180" y="145" width="60" height="14" rx="3" fill="#eef6fa"/>
+
+  <!-- mòbil recolzat, inclinat -->
+  <g transform="rotate(-18 230 120)">
+    <rect class="ink phone" x="205" y="60" width="52" height="98" rx="7"/>
+    <rect class="screen" x="210" y="67" width="42" height="84" rx="3"/>
+  </g>
+
+  <!-- cota amplada ranura -->
+  <line class="dim" x1="180" y1="134" x2="240" y2="134"/>
+  <line class="dim" x1="180" y1="130" x2="180" y2="138"/>
+  <line class="dim" x1="240" y1="130" x2="240" y2="138"/>
+  <text x="186" y="128" fill="#e8641b" font-size="12" font-weight="700">ranura 12 mm</text>
+
+  <!-- anotacions -->
+  <line class="lead" x1="205" y1="152" x2="300" y2="120"/>
+  <text x="303" y="116" class="lblb">Ranura per al mòbil</text>
+  <text x="303" y="133" class="lbl">(12 mm; el mòbil en fa 9)</text>
+
+  <line class="lead" x1="205" y1="238" x2="120" y2="270"/>
+  <text x="40" y="286" class="lblb">Base ampla · inclinació ~65°</text>
+
+  <text x="290" y="215" class="lblb">Mida: 80 × 70 × 60 mm</text>
+  <text x="290" y="232" class="lbl">PLA · paret 3 mm · &lt;1 h/&lt;40 g ✓</text>
+</svg>

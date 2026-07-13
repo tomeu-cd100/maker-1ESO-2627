@@ -7,14 +7,10 @@
 
 ## 🔑 Exemple de producte: engruixidor de llapis "Bona Lletra"
 
-```
-   Secció:
-     ____
-    / () \   <- forat central a mida del llapis (Ø 8 mm)
-   |  ()  |  <- cos ergonòmic, fàcil d'agafar
-    \____/
-   Mida: Ø 25 x 40 mm · PLA · forat passant 8 mm
-```
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/imatges/exemple_SA6_agafador.svg" alt="Engruixidor de llapis ergonòmic imprès en 3D: cos bombat amb relleus antilliscants i un forat central a mida del llapis, amb un llapis travessant-lo." style="width:100%;max-width:520px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.4rem">Un engruixidor de llapis per a un <strong>usuari real</strong> (un nen de 6 anys): <strong>forat Ø 8,5 mm</strong> (8 mm + tolerància!) i <strong>cos ergonòmic</strong> amb relleus perquè no rellisqui. Provat i millorat amb l'usuari.</figcaption>
+</figure>
 
 **Per què és un bon producte (🌟):**
 

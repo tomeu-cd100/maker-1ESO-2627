@@ -7,16 +7,10 @@
 
 ## 🔑 Exemple de producte: el clauer 3D del Biel
 
-```
-  Vista en perspectiva (Tinkercad):
-        _______
-       / B I E /|     <- nom en relleu (cos sobre la base)
-      /_______/ |
-      |  ___  | /     <- forat passant per a l'anella
-      | ( o ) |/
-      '-------'
-   Mida: 45 x 20 x 5 mm · 4 cossos + 1 forat
-```
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/imatges/exemple_SA4_clauer3d.svg" alt="Clauer 3D d'exemple: base rectangular amb el nom BIEL en relleu i un forat per a l'anella; mida 45×20×5 mm." style="width:100%;max-width:520px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.4rem">Un clauer 3D resolt a Tinkercad: <strong>4 cossos</strong> (base + lletres del nom en relleu) i <strong>1 forat</strong> per a l'anella. S'imprimeix pla i sense suports.</figcaption>
+</figure>
 
 **Per què és un bon producte (🌟):**
 

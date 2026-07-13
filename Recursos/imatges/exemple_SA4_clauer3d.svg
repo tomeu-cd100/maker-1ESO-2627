@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" font-family="Segoe UI, system-ui, sans-serif">
+  <!-- Exemple SA4: clauer 3D (Tinkercad) — base + nom en relleu + forat per a l'anella -->
+  <defs>
+    <style>
+      .ink{stroke:#2b2318;stroke-width:2;stroke-linejoin:round;}
+      .top{fill:#f4b183;} .front{fill:#e8934f;} .side{fill:#d97e38;}
+      .lbl{fill:#6b5d4b;font-size:13px;} .lblb{fill:#2b2318;font-size:13px;font-weight:700;}
+      .lead{stroke:#b9ad95;stroke-width:1.5;stroke-dasharray:3 3;fill:none;}
+    </style>
+  </defs>
+
+  <!-- anella metàl·lica -->
+  <circle cx="86" cy="152" r="26" fill="none" stroke="#9a9a9a" stroke-width="6"/>
+
+  <!-- cos isomètric del clauer -->
+  <polygon class="ink top" points="150,152 300,122 380,152 230,182"/>
+  <polygon class="ink front" points="150,152 230,182 230,222 150,192"/>
+  <polygon class="ink side" points="230,182 380,152 380,192 230,222"/>
+
+  <!-- forat per a l'anella (a la cara superior, extrem esquerre) -->
+  <ellipse cx="178" cy="160" rx="13" ry="6.5" fill="#fff" stroke="#2b2318" stroke-width="2"/>
+
+  <!-- lletres "BIEL" en relleu, col·locades sobre la cara superior (matriu isomètrica) -->
+  <text x="0" y="0" font-size="30" font-weight="800" letter-spacing="3" fill="#2b2318"
+        transform="matrix(0.97,-0.2,0.5,0.26,214,150)">BIEL</text>
+
+  <!-- anotacions -->
+  <line class="lead" x1="300" y1="124" x2="335" y2="72"/>
+  <text x="338" y="68" class="lblb">Nom en relleu</text>
+  <text x="338" y="85" class="lbl">(cos elevat en l'eix Z)</text>
+
+  <line class="lead" x1="178" y1="160" x2="150" y2="252"/>
+  <text x="58" y="268" class="lblb">Forat per a l'anella</text>
+  <text x="58" y="285" class="lbl">(cilindre buit + Agrupar)</text>
+
+  <text x="300" y="250" class="lblb">Mida: 45 × 20 × 5 mm</text>
+  <text x="300" y="267" class="lbl">4 cossos + 1 forat</text>
+</svg>

@@ -7,14 +7,10 @@
 
 ## 🔑 Exemple de producte: tour "Coneix el nostre institut"
 
-```
-  Escena 1 (Entrada) --[fletxa]--> Escena 2 (Pati)
-        |                                |
-   [fletxa]                         [fletxa]
-        v                                v
-  Escena 4 (Biblioteca) <--------- Escena 3 (Aula Maker)
-  Cada escena: foto 360 + títol + 1 punt d'informació
-```
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/imatges/exemple_SA7_tour360.svg" alt="Diagrama d'un tour 360: quatre escenes (Entrada, Pati, Aula Maker, Biblioteca) connectades amb fletxes de navegació formant un recorregut." style="width:100%;max-width:540px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.4rem">Un tour navegable de <strong>4 escenes 360</strong> enllaçades amb punts de navegació. Cada escena té una foto 360, un títol i un punt d'informació. Captures amb l'espai buit (drets d'imatge).</figcaption>
+</figure>
 
 **Per què és un bon producte (🌟):**
 

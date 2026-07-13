@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 300" font-family="Segoe UI, system-ui, sans-serif">
+  <!-- Exemple SA6: agafador ergonòmic de llapis (per a un usuari real) — secció -->
+  <defs>
+    <style>
+      .ink{stroke:#2b2318;stroke-width:2;stroke-linejoin:round;}
+      .grip{fill:#a7d29a;} .gripdk{fill:#7cb56b;}
+      .pencil{fill:#f2c14e;} .tip{fill:#2b2318;}
+      .lbl{fill:#6b5d4b;font-size:13px;} .lblb{fill:#2b2318;font-size:13px;font-weight:700;}
+      .lead{stroke:#b9ad95;stroke-width:1.5;stroke-dasharray:3 3;fill:none;}
+    </style>
+  </defs>
+
+  <!-- llapis que travessa l'agafador -->
+  <g transform="rotate(-30 230 150)">
+    <rect class="ink pencil" x="120" y="140" width="230" height="20" rx="4"/>
+    <polygon class="ink tip" points="350,140 380,150 350,160"/>
+    <rect x="120" y="140" width="14" height="20" fill="#e06666" stroke="#2b2318" stroke-width="2"/>
+  </g>
+
+  <!-- cos ergonòmic de l'agafador (forma bombada amb relleus) -->
+  <g transform="rotate(-30 230 150)">
+    <ellipse class="ink grip" cx="230" cy="150" rx="46" ry="30"/>
+    <!-- relleus antilliscants -->
+    <path class="gripdk" d="M205,128 q6,22 0,44" fill="none" stroke="#5f9a4f" stroke-width="3"/>
+    <path class="gripdk" d="M230,124 q6,26 0,52" fill="none" stroke="#5f9a4f" stroke-width="3"/>
+    <path class="gripdk" d="M255,128 q6,22 0,44" fill="none" stroke="#5f9a4f" stroke-width="3"/>
+    <!-- forat central (Ø 8,5 mm amb tolerància) -->
+    <ellipse cx="230" cy="150" rx="12" ry="10" fill="#fff" stroke="#2b2318" stroke-width="2"/>
+  </g>
+
+  <!-- anotacions -->
+  <line class="lead" x1="238" y1="128" x2="312" y2="80"/>
+  <text x="300" y="76" class="lblb">Forat a mida del llapis</text>
+  <text x="300" y="93" class="lbl">Ø 8,5 mm (8 + tolerància!)</text>
+
+  <line class="lead" x1="196" y1="168" x2="120" y2="230"/>
+  <text x="44" y="246" class="lblb">Cos ergonòmic amb relleus</text>
+  <text x="44" y="263" class="lbl">còmode i antilliscant</text>
+
+  <text x="285" y="250" class="lblb">Per a: germà de 6 anys</text>
+  <text x="285" y="267" class="lbl">Ø 25 × 40 mm · provat amb l'usuari</text>
+</svg>

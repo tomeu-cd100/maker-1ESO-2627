@@ -7,13 +7,10 @@
 
 ## 🔑 Exemple de producte: escena "Museu del Sistema Solar" (CoSpaces)
 
-```
-   [ Sala VR ]
-    ☉ Sol (centre)    planetes en òrbita amb cartells
-    🪧 panell d'entrada: "Benvinguts al Sistema Solar"
-    👆 clic a un planeta -> apareix el seu nom i una dada
-   3 objectes informatius + 1 interacció amb codi (CoBlocks)
-```
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/imatges/exemple_SA8_escenaVR.svg" alt="Escena VR del Sistema Solar a CoSpaces: el Sol al centre amb planetes en òrbita, un panell de benvinguda i un cursor que en clicar un planeta mostra el seu nom." style="width:100%;max-width:540px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.4rem">Una escena VR explorable: <strong>Sol + 4 planetes</strong>, un panell de benvinguda i una <strong>interacció amb codi</strong> (CoBlocks) — clicant un planeta apareix el seu nom i una dada.</figcaption>
+</figure>
 
 **Per què és un bon producte (🌟):**
 

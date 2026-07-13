@@ -8,14 +8,10 @@
 
 ## 🔑 Exemple de producte: suport de mòbil de l'Ona
 
-```
-   Vista lateral:
-        ___
-       /   \  <- ranura per al mòbil (amplada 12 mm > gruix del mòbil)
-      /     \
-     /_______\  <- base ampla i estable, inclinació ~65°
-   Mida: 80 x 70 x 60 mm · PLA · gruix de paret 3 mm
-```
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/imatges/exemple_SA5_suportmobil.svg" alt="Suport de mòbil imprès en 3D, vista lateral: falca amb una ranura de 12 mm a dalt on recolza el mòbil, i base ampla amb inclinació ~65°." style="width:100%;max-width:520px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.4rem">Un suport de mòbil que resol un problema real: <strong>ranura de 12 mm</strong> (més que els 9 mm del mòbil), <strong>base ampla</strong> i inclinació còmoda. Paret de 3 mm; imprimible en &lt; 1 h i &lt; 40 g.</figcaption>
+</figure>
 
 **Per què és un bon producte (🌟):**
 
