@@ -17,4 +17,14 @@ Nivells: **NA / AS / AN / AE**. Combineu amb `Avaluació/Rubrica_producte_final.
 > d'una part concreta (una peça, el muntatge, la documentació, la presentació). Aquesta fila
 > permet diferenciar nivells **dins del mateix equip**, creuant-la amb el diari de taller.
 
+> 🔁 **Repartiment amb `Rubrica_producte_final.md`:** aquesta rúbrica avalua els **CA específics
+> del procés** (idea, unions, iteració, contribució); la de producte final avalua el **producte
+> acabat** (funcionalitat, qualitat, comunicació). No es puntua dues vegades el mateix: mireu el
+> procés aquí i el producte allà.
+>
+> 🌿 **CE6 en aquesta SA:** la **seguretat (CA6.1)** es valora per observació
+> (`Avaluació/Full_seguiment_grup.md`); la **sostenibilitat (CA6.2)** es valora per
+> l'**aprofitament de la planxa** (nesting: poc material malgastat). El **TA** (orientació a qui
+> rebrà l'objecte) es recull a la fila *Funcionalitat* i a la presentació.
+
 **Observacions:**

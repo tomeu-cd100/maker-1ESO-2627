@@ -58,8 +58,8 @@
    - Una peça comprada.
 7. L'avaluació 0 de la SA0…
    - Compta molt per a la nota.
-   - **No té nota: serveix per saber d'on partim.** ✔️
-   - Decideix els grups per nivell.
+   - **No té nota: serveix per saber d'on partim i formar equips equilibrats.** ✔️
+   - Separa la classe en grups de bons i dolents.
    - És un examen sorpresa.
 8. Els carnets de màquina (🔴🟠🟢🔵) es guanyen…
    - Pagant.

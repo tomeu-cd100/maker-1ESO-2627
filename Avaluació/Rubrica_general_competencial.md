@@ -15,6 +15,7 @@ Rúbrica transversal aplicable a qualsevol SA. Cada SA pot afegir indicadors esp
 |-----------|----|----|----|----|
 | Identificar el repte i requisits (CA1.1) | Encara no identifica el problema | Identifica el problema amb ajuda | Identifica problema i requisits bàsics | Defineix problema i requisits de manera precisa i autònoma |
 | Idear i triar solució (CA1.2) | Encara no proposa idees | Proposa una idea | Proposa diverses idees i en tria una | Genera diverses idees, les compara i justifica l'elecció |
+| Planificar (CA1.3) | Encara no preveu els passos | Segueix un pla donat | Planifica tasques, temps i materials | Planifica i ajusta el pla quan cal |
 | Avaluar i millorar (CA1.4) | Encara no revisa el resultat | Identifica un error amb ajuda | Detecta errors i proposa alguna millora | Itera el prototip i millora el resultat de manera reflexiva |
 
 ### CE2 — Disseny digital 2D/3D

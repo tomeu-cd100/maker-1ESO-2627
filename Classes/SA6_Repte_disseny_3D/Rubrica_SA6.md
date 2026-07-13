@@ -20,5 +20,9 @@ Nivells: **NA / AS / AN / AE**. Combineu amb `Avaluació/Rubrica_producte_final.
 > **Indicadors transversals:** les files *Empatia i requisits* i *Impacte* recullen el **TA**
 > (orientació a l'usuari/APS); el **TE** (participació equitativa) es valora per observació
 > (`Avaluació/Full_seguiment_grup.md`). Vegeu `Avaluació/Rubrica_general_competencial.md`.
+>
+> 🌿 **CE6 en aquesta SA:** la **seguretat (CA6.1)** es valora per observació; la
+> **sostenibilitat (CA6.2)** es valora pel material aprofitat (peces dins el límit d'1 h/40 g,
+> sense reimpressions per errors evitables).
 
 **Observacions:**

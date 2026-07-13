@@ -9,8 +9,8 @@ judici global de cada producte, **no** una fórmula de mitjana ponderada.
 |---------|----:|----|----|----|----|
 | **Funcionalitat / compliment dels requisits** | 25 % | Encara no compleix els requisits | Compleix els mínims | Compleix tots els requisits | Supera els requisits i afegeix valor |
 | **Qualitat del disseny i la fabricació** | 25 % | Acabat encara deficient | Acabat acceptable | Bon acabat i precisió | Acabat excel·lent i acurat |
-| **Creativitat i originalitat** | 15 % | Encara sense aportació pròpia | Aportació mínima | Solució creativa | Solució original i innovadora |
-| **Procés i iteració** | 15 % | Encara sense procés documentat | Procés bàsic | Procés clar amb una millora | Procés iteratiu amb millores justificades |
+| **Ideació: comparar i triar (CA1.2)** | 15 % | Encara sense aportació pròpia | Una sola idea, sense comparar | Prova diverses idees i tria amb motiu | Compara idees i justifica una solució pròpia |
+| **Procés i iteració (CA1.4)** | 15 % | Encara sense procés documentat | Procés bàsic | Procés clar amb una millora (la targeta del Museu dels Errors hi compta) | Procés iteratiu amb millores justificades |
 | **Documentació / portafoli** | 10 % | Encara inexistent | Incompleta | Completa | Completa, clara i reflexiva |
 | **Comunicació / presentació** | 10 % | Encara no presenta | Presentació confusa | Presentació clara | Presentació clara i convincent |
 

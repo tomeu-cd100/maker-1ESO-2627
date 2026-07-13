@@ -1,7 +1,16 @@
 # Autoavaluació i coavaluació — «Aula Maker»
 
-> Pondera un 10 % de la nota. Es passa al final de cada SA. Fomenta la metacognició i la
-> responsabilitat dins l'equip.
+> Pes orientatiu ~10 % **dins el judici competencial global** (no és una mitjana ponderada;
+> vegeu `Criteris_i_qualificacio.md` §2). Fomenta la metacognició i la responsabilitat dins
+> l'equip.
+>
+> ♻️ **La secció A (autoavaluació individual) NO es passa a totes les SA:** al tancament, la
+> teva autoavaluació és la **rúbrica amigable** (`Rubrica_alumnat_amigable.md`). La secció A
+> d'aquí és per a les SA de projecte (SA3/6/9) o quan el docent la demani expressament, per no
+> apilar tres autoavaluacions el mateix dia.
+>
+> **A les SA curtes** (versió ràpida): en lloc de tota la graella A+B, un **semàfor 🔴🟡🟢 +
+> una frase** («com he treballat avui i què milloraré»).
 
 ## 0. Calibratge previ (15 min, una vegada per trimestre — imprescindible)
 
@@ -39,14 +48,18 @@ Marca el teu nivell (1 = gens · 4 = molt) per a cada afirmació.
 
 ## B) Coavaluació de l'equip
 
-Valora cada company/a de l'equip (inclòs/a tu) de l'1 al 4 en aquests aspectes:
+Valora cada company/a de l'equip (inclòs/a tu) de l'1 al 4 en aquests aspectes. **Recorda la
+regla d'or:** poses la nota per **el que has vist fer**, no per com et cau.
 
-| Company/a | Aporta idees | Fa la seva feina | Col·labora i ajuda | Respecta el grup |
-|-----------|:------------:|:----------------:|:------------------:|:----------------:|
-| | | | | |
-| | | | | |
-| | | | | |
-| | | | | |
+> Escala: **1** = no ho he vist mai · **2** = ho ha fet alguna vegada · **3** = ho fa
+> habitualment · **4** = ho fa i n'he vist l'evidència (puc dir quan).
+
+| Company/a | Aporta idees | Fa la seva feina | Col·labora i ajuda | Respecta el grup | On ho he vist (una evidència) |
+|-----------|:------------:|:----------------:|:------------------:|:----------------:|-------------------------------|
+| | | | | | |
+| | | | | | |
+| | | | | | |
+| | | | | | |
 
 **Una cosa positiva del meu equip:** ____________________________
 **Una proposta per treballar millor junts:** ____________________
