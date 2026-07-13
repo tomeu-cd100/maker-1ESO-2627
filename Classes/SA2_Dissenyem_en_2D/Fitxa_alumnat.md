@@ -11,6 +11,11 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 - [ ] Un **forat** per a la borla
 - [ ] Capes correctes: **tall** (contorn) i **gravat** (text + imatge)
 
+<figure style="margin:1.2rem 0;text-align:center">
+  <img src="Recursos/Plantilles_disseny/marcapagines_SA2.svg" alt="Marcapàgines d'exemple, 50×150 mm: contorn i forat de la borla en vermell (tall); missatge, imatge i marc en negre (gravat)." style="height:260px;max-width:100%;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.4rem">👀 <strong>Un exemple fet</strong> (el teu serà diferent!): contorn i forat de la borla en <strong style="color:#d33">vermell</strong> (tall); missatge, imatge i marc en <strong>negre</strong> (gravat).</figcaption>
+</figure>
+
 ## Recorda d'Inkscape
 - **Operacions de camí:** Camí → Unió / Diferència / Intersecció.
 - **Text per a làser:** escriu el text → selecciona'l → Camí → Objecte a camí.
@@ -26,18 +31,15 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 - Imatge que vectoritzaré: ____________________
 - **Forma nova amb operació de camí** que faré servir: ☐ unió ☐ diferència — per fer ____________________
 
-## El meu esbós
-📄 *En paper, reserva **mig full**: dibuixa gran i marca què és tall i què és gravat.*
-```
-+--------------------------------------------------+
-|                                                  |
-|                                                  |
-|                                                  |
-|                                                  |
-|                                                  |
-|                                                  |
-+--------------------------------------------------+
-```
+## El meu esbós (dibuixa'l en paper abans de fer-lo digital)
+📄 Pensa el marcapàgines amb el llapis, a mida real, sobre el **full de disseny imprès**: dibuixa
+la forma, tria el missatge i la imatge, i **marca amb colors què és tall (vermell) i què és gravat
+(negre)**. Després el passaràs a Inkscape.
+
+<img src="Recursos/imatges/marcapagines_paper_SA2_full.png" alt="Full de disseny del marcapàgines en paper (SA2): codi de colors, ruta del dissenyador i zona de proves" style="width:100%;max-width:520px;border:1px solid var(--line);border-radius:8px">
+
+🖨️ **Full imprimible:** [`impressos/marcapagines_paper_SA2.html`](../../impressos/marcapagines_paper_SA2.html)
+(el docent te'l dona en paper; té la ruta de disseny i el tauler mil·limetrat a mida real).
 
 ## Checklist abans d'enviar a la làser
 - [ ] Mides correctes  - [ ] Capes tall/gravat assignades  - [ ] Text convertit a camí

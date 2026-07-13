@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El meu marcapàgines · full de disseny (SA2, imprimible) · Aula Maker</title>
+<style>
+  :root { --acc: #e8641b; --ink: #2b2318; --soft: #fdeadd; --line: #c9b89c;
+          --vermell: #d33; --gris: #4a4030; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+
+  .toolbar { max-width: 190mm; margin: 0 auto 1rem; display: flex; gap: .6rem; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc); background: #fff; color: var(--acc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc); color: #fff; }
+  .hint { max-width: 190mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+
+  .full { width: 190mm; margin: 0 auto; }
+  .pagina { background: #fff; border: 2px solid var(--ink); border-radius: 4mm;
+    padding: 10mm; margin-bottom: 1rem; }
+
+  .cap { display: flex; justify-content: space-between; align-items: flex-end;
+    border-bottom: 3px double var(--ink); padding-bottom: 3mm; gap: 6mm; }
+  .cap h1 { margin: 0; font-size: 19pt; letter-spacing: .3px; }
+  .cap .sub { font-size: 9.5pt; color: #6b5d4b; margin-top: 1mm; }
+  .cap .nonope { border: 2px solid var(--acc); color: var(--acc); font-weight: 700;
+    border-radius: 999px; padding: 1mm 3mm; font-size: 8.5pt; white-space: nowrap; text-align: center; }
+
+  .dades { display: flex; gap: 5mm; margin: 4mm 0 2mm; font-size: 11pt; }
+  .dades span { flex: 1; border-bottom: 1.5px solid var(--ink); padding-bottom: 1mm; }
+  .dades span.g { flex: .5; }
+
+  h2 { font-size: 12pt; text-transform: uppercase; letter-spacing: 1px;
+       margin: 5mm 0 2mm; color: var(--acc);
+       border-bottom: 1.5px solid var(--line); padding-bottom: 1mm; }
+
+  .aviso { background: var(--soft); border-left: 4px solid var(--acc); border-radius: 2mm;
+    padding: 3mm 4mm; font-size: 10.5pt; margin: 3mm 0; }
+
+  .colors { display: flex; gap: 6mm; margin: 3mm 0; font-size: 11pt; flex-wrap: wrap; }
+  .colors div { flex: 1; min-width: 70mm; border: 1.5px solid var(--line); border-radius: 2mm;
+    padding: 2.5mm 3mm; }
+  .swatch { display: inline-block; width: 8mm; height: 4mm; border-radius: 1mm;
+    vertical-align: -.5mm; margin-right: 2mm; }
+  .sw-tall { background: var(--vermell); }
+  .sw-grav { background: var(--gris); }
+
+  ol.ruta { list-style: none; counter-reset: pas; padding: 0; margin: 2mm 0; }
+  ol.ruta li { counter-increment: pas; position: relative; padding: 2mm 2mm 2mm 22mm;
+    border-bottom: 1px dotted var(--line); font-size: 10.5pt; min-height: 9mm; }
+  ol.ruta li::before { content: counter(pas); position: absolute; left: 3mm; top: 2mm;
+    width: 7mm; height: 7mm; background: var(--acc); color: #fff; border-radius: 50%;
+    text-align: center; line-height: 7mm; font-weight: 700; font-size: 10pt; }
+  ol.ruta li .chk { position: absolute; left: 12mm; top: 1.8mm; width: 6mm; height: 6mm;
+    border: 1.5px solid var(--ink); border-radius: 1.5mm; }
+  ol.ruta li b { color: var(--acc); }
+
+  .proves { display: flex; gap: 5mm; margin-top: 2mm; }
+  .proves .box { flex: 1; height: 34mm; border: 1.5px dashed var(--line); border-radius: 2mm;
+    position: relative; }
+  .proves .box span { position: absolute; bottom: 1mm; right: 2mm; font-size: 8pt; color: #b9ad95; }
+
+  /* tauler mil·limetrat (mida real) — marcapàgines vertical 50 × 150 mm */
+  .tauler-tit { font-size: 10.5pt; margin: 0 0 2mm; }
+  .tauler-wrap { display: flex; gap: 6mm; align-items: flex-start; }
+  .tauler { width: 50mm; height: 150mm; border: 2px solid var(--ink); border-radius: 1mm; background: #fff;
+    flex: 0 0 auto;
+    background-image:
+      repeating-linear-gradient(to right, #ece3d1 0, #ece3d1 .2mm, transparent .2mm, transparent 1mm),
+      repeating-linear-gradient(to bottom, #ece3d1 0, #ece3d1 .2mm, transparent .2mm, transparent 1mm),
+      repeating-linear-gradient(to right, #d8c8a8 0, #d8c8a8 .3mm, transparent .3mm, transparent 5mm),
+      repeating-linear-gradient(to bottom, #d8c8a8 0, #d8c8a8 .3mm, transparent .3mm, transparent 5mm);
+  }
+  .ajuda-mida { font-size: 9.5pt; color: #6b5d4b; margin: 0; }
+
+  .checklist { margin: 2mm 0; }
+  .checklist .item { padding: 1.8mm 0; border-bottom: 1px dotted var(--line); font-size: 10.5pt; }
+  .checklist .chk { display: inline-block; width: 5mm; height: 5mm; border: 1.5px solid var(--ink);
+    border-radius: 1mm; vertical-align: -1mm; margin-right: 2.5mm; }
+  .repte { background: #fff7ec; border: 1.5px solid var(--acc); border-radius: 2mm;
+    padding: 2.5mm 3.5mm; font-size: 10pt; margin-top: 3mm; }
+
+  .peu { margin-top: 4mm; text-align: center; font-style: italic; font-size: 9.5pt;
+    color: #6b5d4b; border-top: 1.5px solid var(--line); padding-top: 2mm; }
+
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    .full { width: auto; }
+    .pagina { border: none; border-radius: 0; padding: 0; margin: 0; }
+    .pagina.p2 { break-before: page; }
+    @page { size: A4 portrait; margin: 12mm; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint">Full de l'alumnat per a la <strong>SA2</strong> (marcapàgines): l'<strong>esbós en
+paper</strong> abans de dissenyar-lo a Inkscape. S'imprimeix a <strong>A4</strong>, 2 pàgines: la
+ruta de disseny i el tauler mil·limetrat per dibuixar-lo a mida real. Un per alumne/a; que cadascú
+vingui amb <strong>llapis vermell i negre</strong> i <strong>regle</strong>.</p>
+
+<div class="full">
+
+  <div class="pagina p1">
+    <div class="cap">
+      <div>
+        <h1>📑 El meu marcapàgines — full de disseny</h1>
+        <div class="sub">SA2 · Aula Maker · 1r d'ESO · <strong>esbós en paper</strong>, a mida real</div>
+      </div>
+      <div class="nonope">PRIMER<br>EN<br>PAPER</div>
+    </div>
+
+    <div class="dades">
+      <span><strong>Nom:</strong> </span>
+      <span class="g"><strong>Grup:</strong> </span>
+      <span class="g"><strong>Data:</strong> </span>
+    </div>
+
+    <div class="aviso">Dissenyes un <strong>marcapàgines</strong> (uns <strong>150 × 50 mm</strong>)
+      amb un <strong>missatge</strong>, una <strong>imatge</strong> i un <strong>forat per a la
+      borla</strong>. Avui el penses <strong>en paper</strong>; després el passaràs a
+      <strong>Inkscape</strong> (el text el convertiràs a camí i la imatge la
+      <strong>vectoritzaràs</strong>). La làser <em>no entén «més o menys»</em>: per això mesurem.</div>
+
+    <h2>El codi de colors (porta els dos llapis!)</h2>
+    <div class="colors">
+      <div><span class="swatch sw-tall"></span><strong>VERMELL = TALLAR</strong><br>
+        el contorn de fora i el forat de la borla (la làser talla per aquí).</div>
+      <div><span class="swatch sw-grav"></span><strong>NEGRE = GRAVAR</strong><br>
+        el missatge, la imatge i els marcs (la làser els «pinta» a sobre, sense tallar).</div>
+    </div>
+
+    <h2>La ruta del dissenyador <span style="font-size:9pt;color:#6b5d4b;text-transform:none;letter-spacing:0">— marca cada casella quan ho tinguis fet</span></h2>
+    <ol class="ruta">
+      <li><span class="chk"></span>Trio la <b>forma</b> del marcapàgines (rectangle allargat, ~150 × 50 mm; cantonades arrodonides si vull).</li>
+      <li><span class="chk"></span>Escric el <b>missatge o nom</b> que hi gravaré (a l'ordinador el convertiré a <b>camí</b>).</li>
+      <li><span class="chk"></span>Trio la <b>imatge que vectoritzaré</b>: una <b>silueta simple i d'alt contrast</b> (icona, animal, símbol) — les fotos amb ombres no van bé.</li>
+      <li><span class="chk"></span>Poso el <b>forat de la borla</b>: rodó, d'uns <b>4-5 mm</b>, a dalt i a <b>3 mm com a mínim de la vora</b>.</li>
+      <li><span class="chk"></span><b>Reparteixo els colors</b>: contorn i forat en <b>VERMELL</b> (tall); missatge, imatge i marcs en <b>NEGRE</b> (gravat).</li>
+      <li><span class="chk"></span><b>Acoto amb el regle</b>: escric el llarg i l'ample en mm al costat del dibuix.</li>
+      <li><span class="chk"></span>L'<b>ensenyo a un company/a</b>: s'entén el missatge? la imatge és prou simple per gravar?</li>
+    </ol>
+
+    <h2>Zona de proves ràpides <span style="font-size:9pt;color:#6b5d4b;text-transform:none;letter-spacing:0">— dibuixa 2-3 idees petites abans de decidir</span></h2>
+    <div class="proves">
+      <div class="box"><span>idea 1</span></div>
+      <div class="box"><span>idea 2</span></div>
+      <div class="box"><span>idea 3</span></div>
+    </div>
+  </div>
+
+  <div class="pagina p2">
+    <div class="cap">
+      <div>
+        <h1>📑 El disseny definitiu <span style="font-size:12pt;color:#6b5d4b">(a mida real)</span></h1>
+        <div class="sub">Dibuixa'l aquí amb el vermell i el negre · SA2 Aula Maker</div>
+      </div>
+      <div class="nonope">MIDA<br>REAL</div>
+    </div>
+    <div class="dades">
+      <span><strong>Nom:</strong> </span>
+      <span class="g"><strong>Grup:</strong> </span>
+    </div>
+
+    <p class="tauler-tit"><strong>El teu tauler mil·limetrat.</strong> Dibuixa el marcapàgines
+      <strong>a mida real</strong> dins del contorn, amb el codi de colors. Recorda acotar-lo.</p>
+    <div class="tauler-wrap">
+      <div class="tauler"></div>
+      <div>
+        <p class="ajuda-mida">📏 <strong>Ajuda per mesurar:</strong> cada quadre gran = <strong>5 mm</strong>.
+          Un marcapàgines típic fa uns <strong>150 mm de llarg × 50 mm d'ample</strong> = 30 × 10
+          quadres grans.</p>
+        <p class="ajuda-mida">🕳️ El <strong>forat de la borla</strong> va a dalt, d'uns 4-5 mm (un
+          quadre), i a <strong>≥ 3 mm de la vora</strong>.</p>
+        <p class="ajuda-mida">✍️ El <strong>missatge</strong> i la <strong>imatge</strong> van en
+          negre (gravat); el <strong>contorn</strong> i el forat, en vermell (tall).</p>
+      </div>
+    </div>
+
+    <h2>Abans d'aixecar la mà, comprovo</h2>
+    <div class="checklist">
+      <div class="item"><span class="chk"></span>Té <strong>forma</strong>, <strong>missatge</strong>, <strong>imatge</strong> i <strong>forat</strong> per a la borla.</div>
+      <div class="item"><span class="chk"></span>Està <strong>acotat</strong> — hi he escrit les mides amb el regle.</div>
+      <div class="item"><span class="chk"></span><strong>Vermell = tallar</strong> i <strong>negre = gravar</strong>, ben separats.</div>
+      <div class="item"><span class="chk"></span>La <strong>imatge</strong> triada és simple i d'alt contrast (es podrà vectoritzar bé).</div>
+      <div class="item"><span class="chk"></span>El <strong>forat</strong> és a <strong>≥ 3 mm de la vora</strong>.</div>
+      <div class="item"><span class="chk"></span>He pensat com <strong>aprofitar la planxa</strong> (poc material malgastat).</div>
+    </div>
+
+    <div class="repte">⭐ <strong>Repte extra (si acabes):</strong> fes una <strong>forma nova amb una
+      operació de camí</strong> (unió o diferència), o afegeix un <strong>marc calat</strong>, o un
+      segon marcapàgines per a un company/a.</div>
+
+    <p class="peu">Guarda aquest full: és el <strong>plànol</strong> que passaràs a Inkscape. «Mesura dues vegades, fabrica una.»</p>
+  </div>
+
+</div>
+</body>
+</html>

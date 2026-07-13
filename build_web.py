@@ -75,6 +75,9 @@ SA_PRINTABLES = {
     "SA1_Benvinguts_Aula_Maker": [
         ("clauer_paper_SA1.html", "🔑 El clauer en paper (full de disseny)"),
     ],
+    "SA2_Dissenyem_en_2D": [
+        ("marcapagines_paper_SA2.html", "📑 El marcapàgines en paper (full de disseny)"),
+    ],
 }
 
 ALUMNAT_LINKS = [
