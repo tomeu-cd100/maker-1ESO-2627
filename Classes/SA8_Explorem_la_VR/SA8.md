@@ -113,6 +113,7 @@ Escena VR explorable + fitxa d'anàlisi crítica d'usos de la VR + documentació
   pantalla); respectar avisos de marejos.
 
 ## 7. Recursos i materials
+- 🎬 Càpsula «Inspira't»: **La realitat virtual que cura (VR hospitalària)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA8.
 - 5 ulleres VR; ordinadors/tauletes; comptes CoSpaces Edu; tovalloletes de neteja.
 - `Normativa/Protocol_us_VR.md`; `Simulacions/Experiencies_VR_360.md`.
 - `Fitxa_alumnat.md` · `Rubrica_SA8.md`.

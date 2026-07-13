@@ -101,6 +101,7 @@ Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, docum
 - Fitxa visual pas a pas i vídeos curts (tutorials validats a `Recursos/Enllacos_i_tutorials.md`).
 
 ## 7. Recursos i materials
+- 🎬 Càpsula «Inspira't»: **Un dibuix que tothom entén (pictogrames universals)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA2.
 - Inkscape + xTool Creative Space; làser xTool S1; fusta fina / cartolina gruixuda; borles/cordó.
 - Tutorials d'Inkscape i vectorització validats a `Recursos/Enllacos_i_tutorials.md`.
 - Plantilla base: `Recursos/Plantilles_disseny/marcapagines_SA2.svg`.

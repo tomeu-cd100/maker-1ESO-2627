@@ -107,6 +107,7 @@ final del curs.
 - Múltiples formes de contribuir i de presentar (oral, visual, guia del tour…).
 
 ## 7. Recursos i materials
+- 🎬 Càpsula «Inspira't»: **La cultura maker és compartir (Maker Faire i ateneus)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA9.
 - Tot el maquinari: làser xTool S1, Bambu Lab P2S, càmera 360, ulleres VR.
 - Tot el programari del curs; material de muntatge i retolació per als estands.
 - `Programació didàctica/Gestio_temps_maquina_fabricacio.md` (fabricació) i

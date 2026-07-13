@@ -122,6 +122,7 @@ Solució 3D funcional al repte triat + evidència de proves amb l'usuari + prese
 - Bastides de disseny i de laminat reutilitzades de la SA5.
 
 ## 7. Recursos i materials
+- 🎬 Càpsula «Inspira't»: **Dissenyar és escoltar (dissenyadores industrials i usuari real)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA6.
 - Tinkercad; Bambu Studio; P2S; filament PLA; material de muntatge.
 - `Programació didàctica/Gestio_temps_maquina_fabricacio.md` (cua d'impressió en equip);
   `Reptes/Reptes_3D.md`. `Fitxa_alumnat.md` · `Rubrica_SA6.md`.

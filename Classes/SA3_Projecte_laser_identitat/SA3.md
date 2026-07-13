@@ -120,6 +120,7 @@ procés.
 - Rols d'equip adaptats a fortaleses (disseny, fabricació, documentació, presentació).
 
 ## 7. Recursos i materials
+- 🎬 Càpsula «Inspira't»: **Mobles amb plànols lliures (mobiliari open-source tallat a làser)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA3.
 - Inkscape + XCS; làser xTool S1; fusta DM/contraxapat 3-4 mm; cola, LED de pila (si làmpada).
 - `Recursos/` i `Reptes/`. `Fitxa_alumnat.md` · `Rubrica_SA3.md`.
 - Caixa amb encaix: `Recursos/Plantilles_disseny/generador_caixa_encaix.py` (+ exemple SVG).

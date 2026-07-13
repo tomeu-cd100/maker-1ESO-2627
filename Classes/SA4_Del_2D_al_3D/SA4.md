@@ -98,6 +98,7 @@ d'horari) + diari amb captures.
 - Treball per parelles d'ajuda mútua.
 
 ## 7. Recursos i materials
+- 🎬 Càpsula «Inspira't»: **El volum que ajuda (adaptadors 3D per a mobilitat reduïda)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA4.
 - Ordinadors/tauletes amb navegador; comptes de Tinkercad (classe).
 - Impressora Bambu Lab P2S + Bambu Studio (per a la mostra).
 - `Simulacions/Simuladors_disseny_2D_3D.md`. `Fitxa_alumnat.md` · `Rubrica_SA4.md`.

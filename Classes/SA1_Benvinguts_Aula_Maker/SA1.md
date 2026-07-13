@@ -145,6 +145,7 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
 - **Implicació:** producte personal i immediat; treball per parelles d'ajuda mútua.
 
 ## 7. Recursos i materials
+- 🎬 Càpsula «Inspira't»: **Qui no pot llegir el teu disseny? (senyalística accessible i braille a làser)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA1.
 - Ordinadors amb Inkscape + xTool Creative Space.
 - Talladora làser xTool S1; planxa de fusta fina (DM/contraxapat 3 mm) o metacrilat; anelles de clauer.
 - Tutorials d'Inkscape validats a `Recursos/Enllacos_i_tutorials.md`; `Normativa/Normes_seguretat_taller.md`.

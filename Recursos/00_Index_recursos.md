@@ -22,6 +22,9 @@ per respectar-ne l'autoria i mantenir el repositori net de material d'altri.
 - **[`Semafor_maker.md`](Semafor_maker.md)** — 🚦 les **3 comprovacions obligatòries**
   (mides reals · capes i colors · nom i destí) abans d'enviar cap fitxer a la làser o a
   la impressora. Control de qualitat en mans de l'alumnat.
+- **[`Capsules_inspirat.md`](Capsules_inspirat.md)** — 🎬 una càpsula de **5 minuts per SA**
+  amb un referent maker o social real (braille a làser, e-NABLE, Ullastret en VR…): el
+  docent l'explica a l'inici de la SA per donar sentit al que es fabrica.
 
 ## On trobar la formació (en comptes de copiar-la)
 Per preparar les tècniques, fes servir els **enllaços validats** de `Enllacos_i_tutorials.md` i,

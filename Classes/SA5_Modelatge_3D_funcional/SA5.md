@@ -125,6 +125,7 @@ portafoli.
 - Repte base (peça d'un sol cos) i ampliació ⭐ (peça amb encaix o moviment).
 
 ## 7. Recursos i materials
+- 🎬 Càpsula «Inspira't»: **Mans impreses per voluntaris (comunitat e-NABLE)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA5.
 - Tinkercad; Bambu Studio; impressora **Bambu Lab P2S**; filament PLA; regle/peu de rei;
   eines de postprocés (alicates de tall, llima).
 - `Normativa/Normes_seguretat_taller.md` (apartat 3D). `Fitxa_alumnat.md` · `Rubrica_SA5.md`.

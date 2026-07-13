@@ -117,6 +117,7 @@ portes obertes o visita de 6è) + visualització VR + documentació del procés.
 - Ampliació ⭐: afegir narració/àudio o punts d'informació al tour.
 
 ## 7. Recursos i materials
+- 🎬 Càpsula «Inspira't»: **Patrimoni que no es pot perdre (Ullastret en VR)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA7.
 - **Càmera 360** + trípode/perxa; ordinadors; ulleres VR; programari/visor de tours.
 - **Full de reserva de torns de càmera imprimible** (1 full per sessió, amb les 4 regles del
   rodatge): portal docent de la web, secció «Impressos». Rotació d'estacions:
