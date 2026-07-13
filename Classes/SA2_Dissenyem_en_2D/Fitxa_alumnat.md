@@ -39,6 +39,7 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 ## Checklist abans d'enviar a la làser
 - [ ] Mides correctes  - [ ] Capes tall/gravat assignades  - [ ] Text convertit a camí
 - [ ] Material col·locat i autoritzat  - [ ] Normes de seguretat repassades
+- [ ] Fitxer desat com `ElMeuNom_SA2_v1.svg` a la carpeta de Drive de la SA
 
 > 🚦 És el **semàfor de fabricació** de sempre (`Recursos/Semafor_maker.md`): si una llum és
 > vermella, el fitxer torna enrere. Val més 2 minuts de semàfor que una planxa llençada.

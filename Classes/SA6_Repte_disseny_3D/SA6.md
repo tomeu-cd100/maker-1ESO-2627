@@ -79,9 +79,14 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 
 ### Sessió 1 — Triar repte i empatitzar (2 h)
 1. **Catàleg de reptes (20')**: presentació d'opcions; cada equip en tria un.
-2. **Empatia i requisits (50')**: qui ho farà servir? què necessita? requisits i restriccions.
+2. **Empatia i requisits (50')**: qui ho farà servir? què necessita? requisits i restriccions
+   (miniguió d'entrevista de la fitxa).
 3. **Idear i planificar (40')**: idees, elecció, repartiment de peces i rols, calendari d'impressió.
 4. **Diari (10')**.
+
+> ⏸️ **Mínim d'avui**: **usuari triat + ≥3 requisits escrits** (sortits de parlar-hi o
+> observar-lo, no inventats) i les peces repartides. Sense usuari i requisits, el disseny de la
+> sessió 2 no té on ancorar-se.
 
 ### Sessió 2 — Disseny (2 h)
 1. **Modelatge en equip (100')**: cada membre modela una part; coordinació de mides comunes i

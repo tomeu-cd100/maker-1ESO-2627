@@ -2,6 +2,10 @@
 
 **Equip:** ______________  **Membres i rols:** ____________________________
 
+## El repte
+Viviu i analitzeu la **realitat virtual** (usos, beneficis i riscos) i creeu **una escena VR
+explorable** a CoSpaces sobre un tema del vostre equip, per explicar-la a altres.
+
 ## Part A — Normes d'ús de la VR (signa)
 - [ ] Faré servir les ulleres el **temps indicat** (descansos)
 - [ ] **Netejaré** les ulleres abans i després

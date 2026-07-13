@@ -103,15 +103,26 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
    mostra d'encaix de SA3). Comencen les primeres plaques; reptes express mentre s'imprimeix.
 5. **Diari (10')**.
 
+> ⏸️ **Mínim d'avui**: laminat **comprovat dins el límit** (< 1 h, < 40 g) i **targeta al
+> kanban** amb el teu nom. La peça ja és a la cua; qui no la tingui laminada té prioritat.
+
 ### Sessió 3 — Impressió i seguiment (2 h)
 1. **Seguiment d'impressions (continu)**: observar la primera capa (clau!), detectar problemes.
-2. **Treball paral·lel (90')**: millorar el disseny, ajudar altres equips, reptes 3D.
+2. **Treball paral·lel amb tasca definida (90')**: completar la **fitxa tècnica** de la peça
+   (mides, paràmetres — CA2.3/5.2) i la rutina **«Què ha passat / Per què / Com ho evito»** sobre
+   una peça del **Museu dels Errors** (CA3.3); qui acaba, reptes 3D o ajuda un altre equip.
 3. **Diari (15')**.
+
+> ⏸️ **Mínim d'avui**: fitxa tècnica de la peça completada + una rutina d'anàlisi d'un error
+> escrita. (La impressió va a la seva, sovint fora d'horari; el que s'avalua avui és això.)
 
 ### Sessió 4 — Postprocés i avaluació (2 h)
 1. **Postprocés (40')**: retirar suports/*brim*, llimar, provar la funcionalitat real.
 2. **Control de qualitat i iteració (40')**: funciona? què refaríem? (cultura del prototip).
 3. **Galeria i avaluació (40')**: coavaluació i tancament al diari.
+
+> ⏸️ **Mínim d'avui**: peça **postprocessada i provada** (funciona sí/no/a mitges) + **què
+> refaríem** anotat al diari.
 
 ## 5. Producte final
 Peça funcional impresa que resol una necessitat real + fitxa tècnica (mides, paràmetres) al

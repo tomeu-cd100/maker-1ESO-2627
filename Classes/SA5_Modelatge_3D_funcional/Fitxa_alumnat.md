@@ -66,7 +66,10 @@ ____________________________________________________________
 
 ## Fase 5 — Provar
 - La peça **funciona** per al que la vaig dissenyar? Sí / No / A mitges
-- Què canviaria en una segona versió? ____________________
+
+## Reflexió
+- Què canviaria en una **segona versió**? ____________________
+- Una **incidència** d'impressió que he vist (meva o d'un altre) i com s'evita: ____________________
 
 ## 🔍 Com m'avaluaran en aquesta SA?
 
@@ -77,5 +80,6 @@ ____________________________________________________________
 | El **laminat dins els límits** (< 1 h, < 40 g) + carnet 🟠 | La previsualització de Bambu Studio + checkpoint | El/la profe |
 | Aquesta **fitxa tècnica** completada (mides reals, paràmetres) | Les fases 1-4 omplertes | El/la profe |
 | Com gestiono els **problemes d'impressió** | Observació + rutina d'anàlisi d'errors | Els/les profes |
+| El meu **diari** (una entrada per sessió amb captura) | Pauta del diari de taller | El/la profe |
 
 **En acabar:** nivell (🌱🙂💪🌟) + 🎯 objectiu al diari + full de progrés.

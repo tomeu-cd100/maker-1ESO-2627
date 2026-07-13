@@ -71,9 +71,9 @@ escena 3D que es pot explorar amb les ulleres VR.
 > setmanes 29–30.
 
 ### Sessió 1 — Viure i entendre la VR (2 h)
-1. **Normes d'ús de la VR (20')**: `Normativa/Protocol_us_VR.md` (temps, higiene, espai,
-   seguretat) + **checkpoint del carnet 🔵** (`Normativa/Carnet_de_maquina.md`): ajustar les
-   ulleres i fer de guia (es completa durant les rondes d'exploració).
+1. **Normes d'ús de la VR (20')**: repàs de `Normativa/Protocol_us_VR.md` (les 4 regles: temps,
+   higiene, espai, guia). El **carnet 🔵 ja es va guanyar a SA7 (sessió 3)**; qui no hi era el
+   completa aquí durant les rondes (`Normativa/Carnet_de_maquina.md`).
 2. **Exploració guiada per estacions (50' ≈ 5 rondes de ~10')**: ⏱️ amb **5 ulleres** per a tot
    el grup, rotació cronometrada (vegeu
    `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5): estació VR (5 alumnes + els
@@ -83,6 +83,9 @@ escena 3D que es pot explorar amb les ulleres VR.
 4. **El nostre tema (15')**: cada equip tria el tema de l'escena (museu, recorregut,
    mini-història) i reparteix tasques.
 5. **Diari (5')**.
+
+> ⏸️ **Mínim d'avui**: la **Part B de la fitxa** (anàlisi crítica: 1 benefici + 1 risc) completa
+> i el **tema de l'escena triat** per l'equip. Amb això, la sessió 2 arrenca creant, no decidint.
 
 ### Sessió 2 — Crear, provar i avaluar l'escena (2 h)
 1. **Demo CoSpaces (20')**: crear escena, afegir i moure objectes, càmera, "play" en VR

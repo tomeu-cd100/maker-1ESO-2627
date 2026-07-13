@@ -73,6 +73,10 @@ converteix en línies que la màquina pot tallar i gravar.
 3. **Text i tipografia (25')**: text, convertir text a camí (per a la làser), text a camí corb.
 4. **Diari de taller (15')**.
 
+> ⏸️ **Mínim d'avui**: les **3 operacions de camí** (unió, diferència, intersecció) provades al
+> fitxer d'exercicis + un text convertit a camí. Amb això ja tens les eines per dissenyar el
+> marcapàgines la sessió vinent.
+
 ### Sessió 2 — De la imatge al vector + disseny del producte (2 h)
 1. **Vectorització (30')**: importar una imatge senzilla i traçar-la (Camí → Vectoritza mapa de bits).
 2. **Disseny del marcapàgines (70')**: forma base (~150×50 mm), missatge gravat, imatge

@@ -79,6 +79,9 @@ encaix (*kerf* / joints) i el treball en equip.
    amb **signatura de peça** (cada membre queda responsable identificable d'una part concreta;
    ho recull la rúbrica). Validació del docent (`CA1.1–1.3`).
 
+> ⏸️ **Mínim d'avui**: usuari + **≥3 requisits escrits** i **esbós de les peces validat** pel
+> docent (amb qui fa cada peça). Sense això, la sessió 2 de disseny va a cegues.
+
 ### Sessió 2 — Disseny digital (2 h)
 1. **Demo: unions per encaix (25')**: com fer ranures de l'amplada del gruix de la fusta.
 2. **Disseny a Inkscape (85')**: totes les peces, gravats i unions; capes tall/gravat.
@@ -97,10 +100,16 @@ encaix (*kerf* / joints) i el treball en equip.
    no quadra (iteració).
 3. **Diari (10')**.
 
+> ⏸️ **Mínim d'avui**: **mostra d'encaix tallada** i el **kerf apuntat** al diari; les peces de
+> l'objecte, enviades al batch. Amb la mostra feta, la iteració de la sessió 4 ja té dades.
+
 ### Sessió 4 — Muntatge i millora (2 h)
 1. **Muntatge (60')**: ajustar, encolar si cal, provar la funcionalitat.
 2. **Iteració (40')**: refabricar peces que no encaixin / millorar.
 3. **Preparació de la presentació (20')**.
+
+> ⏸️ **Mínim d'avui**: l'objecte **s'aguanta dret** (les peces estructurals encaixen) i tenim
+> **una millora anotada** per aplicar. La presentació es pols la sessió de la Fira.
 
 ### Sessió 5 — 🎪 Fira de mostres del T1 (2 h)
 1. **Fira de productes (60')**: cada equip presenta (problema, solució, procés, millores) —

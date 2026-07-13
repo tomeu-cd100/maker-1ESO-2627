@@ -146,6 +146,11 @@ i acotat en paper. Qui té el plànol clar, la setmana que ve el digitalitza en 
 4. **Reflexió i galeria (15')**: cadascú mostra el seu clauer; coavaluació ràpida i tancament
    de la SA al diari.
 
+> ⏸️ **Mínim d'avui**: el clauer surt del batch amb l'anella posada, i entrada de tancament al
+> diari amb foto. **El carnet 🔴 és per operar la màquina, no per fabricar:** qui avui no supera
+> el checkpoint (o ha faltat) **igualment té el seu clauer** (el disseny entra al batch) i el
+> repeteix als torns o a la SA2. Ningú es queda sense el primer producte del curs.
+
 ## 5. Producte final
 Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller amb foto.
 
