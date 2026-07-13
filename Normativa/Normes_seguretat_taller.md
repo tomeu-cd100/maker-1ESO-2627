@@ -19,11 +19,14 @@
 **Riscos:** crema, fum/gasos tòxics, incendi, dany ocular.
 - ⚠️ **MAI deixar la làser funcionant sense vigilància.**
 - Comprovar sempre la **ventilació/extracció** abans d'engegar.
-- Usar **només materials autoritzats** (fusta fina DM/contraxapat, cartró, metacrilat fos
-  amb cura). ❌ **PROHIBIT:** PVC, vinil, policarbonat, ABS, materials desconeguts (alliberen
-  gasos tòxics/corrosius).
+- Usar **només materials autoritzats** (fusta fina DM/contraxapat, cartró, metacrilat opac/de
+  colors — només amb el docent). ❌ **PROHIBIT:** PVC, vinil, policarbonat, ABS, metacrilat
+  transparent (el làser de díode el travessa) i materials desconeguts (alliberen gasos
+  tòxics/corrosius o no tallen).
 - Mantenir la **tapa tancada** durant el funcionament; no mirar fixament el punt de tall.
-- Tenir a prop com aturar la màquina i un **extintor / pot d'aigua** segons protocol del centre.
+- Saber on és el **botó d'aturada** de la màquina. Si apareix una flama al material,
+  l'alumnat **atura la màquina i avisa** immediatament: **no apaga mai res pel seu compte**
+  (el docent segueix el protocol d'extinció del centre).
 - No deixar materials inflamables a prop. Retirar les restes en acabar.
 
 ## 3. Impressora 3D (Bambu Lab P2S)

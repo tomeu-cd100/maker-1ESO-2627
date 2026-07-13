@@ -90,9 +90,10 @@ i acotat en paper. Qui té el plànol clar, la setmana que ve el digitalitza en 
    materials permesos i perillosos (🧭 Gran Idea 1). Per meitats si cal (aforament!).
 2. **El repte i el codi de colors (10')**: es reparteix el full de disseny. S'explica el **codi
    de colors del curs** —🔴 **vermell = tallar** (contorn + forat), ⚫ **negre = gravar** (nom +
-   detalls)— i el **truc maker** que fa que l'activitat tingui repte: *les lletres s'han de tocar
-   entre elles o tocar el contorn, o cauen quan es talla*. (És el mateix codi que faràs servir a
-   l'ordinador; aquí l'aprens en paper.)
+   detalls)— i el **truc maker** que fa que l'activitat tingui repte: *tot el que sigui VERMELL
+   (tall) i quedi solt, cau en tallar — com l'interior d'una O calada. El negre gravat no cau
+   mai.* Qui vulgui lletres **calades** (vermell), les ha de fer tocar entre elles o amb el
+   contorn (repte ⭐). (És el mateix codi que faràs servir a l'ordinador; aquí l'aprens en paper.)
 3. **Disseny autoguiat amb la ruta (55')**: cada alumne/a segueix **els 7 passos** del full pel
    seu compte: prova 2-3 idees a la **zona de proves** → tria → dibuixa el **definitiu al tauler
    mil·limetrat a mida real** → l'**acota** amb regle → el repassa amb el codi de colors. El
@@ -147,7 +148,9 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
 ## 7. Recursos i materials
 - 🎬 Càpsula «Inspira't»: **Qui no pot llegir el teu disseny? (senyalística accessible i braille a làser)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA1.
 - Ordinadors amb Inkscape + xTool Creative Space.
-- Talladora làser xTool S1; planxa de fusta fina (DM/contraxapat 3 mm) o metacrilat; anelles de clauer.
+- Talladora làser xTool S1; planxa de fusta fina (DM/contraxapat 3 mm) o metacrilat **només
+  opac/de colors** (el transparent NO es pot tallar amb làser de díode: el feix el travessa);
+  anelles de clauer.
 - Tutorials d'Inkscape validats a `Recursos/Enllacos_i_tutorials.md`; `Normativa/Normes_seguretat_taller.md`.
 - **Material complet de la gimcana** (escenes amb errors, targetes de materials, casos i
   parelles norma-raó, amb solucions): `Classes/SA0_Punt_de_partida/Material_gimcana_seguretat.md`.

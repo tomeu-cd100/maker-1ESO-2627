@@ -15,20 +15,21 @@
       |  ___  | /     <- forat passant per a l'anella
       | ( o ) |/
       '-------'
-   Mida: 55 x 25 x 5 mm · 4 cossos + 1 forat
+   Mida: 45 x 20 x 5 mm · 4 cossos + 1 forat
 ```
 
 **Per què és un bon producte (🌟):**
 - Combina **4 cossos** (base + 3 lletres) i **1 forat** (l'anella) → supera el mínim.
 - Té **gruix de 5 mm**: prou robust per no trencar-se.
-- Les mides són **realistes** (cap a 55 mm, com un clauer de veritat).
+- Les mides són **realistes** i dins del límit: **45 mm** (el criteri d'èxit demana ≤50 mm),
+  com un clauer de veritat.
 
 ---
 
 ## 📝 Exemple de fitxa (emplenada)
 - **Cossos:** base rectangular + lletres "BIEL" elevades (eix Z).
 - **Forat:** un cilindre "buit" agrupat amb la base.
-- **Mides comprovades:** 55 × 25 × 5 mm — s'imprimeix **pla i sense suports** (entra al batch!).
+- **Mides comprovades:** 45 × 20 × 5 mm — s'imprimeix **pla i sense suports** (entra al batch!).
 - **Exportat:** sí → `Biel_SA4_v1.stl`, pujat a la carpeta de Drive de la SA.
 - **Operació que vull practicar:** alinear bé les lletres (he hagut de fer servir *Alinea*).
 

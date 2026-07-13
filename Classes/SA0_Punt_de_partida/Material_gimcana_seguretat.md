@@ -56,7 +56,8 @@ PREGUNTAR** i explica per què.
 | Contraxapat 3-4 mm | ✅ | Talla i grava bé |
 | Cartró / cartolina gruixuda | ✅ | Vigilar potència: s'encén fàcil — mai sense vigilància |
 | Paper | ⚠️ | Només gravats/talls ràpids i vigilats: molt inflamable |
-| Metacrilat (acrílic) | ⚠️ | Es pot tallar amb cura (es fon); només amb el docent |
+| Metacrilat (acrílic) **opac/de colors** | ⚠️ | Es pot tallar amb cura (es fon); només amb el docent |
+| Metacrilat **transparent** | ❌ | El làser de díode el travessa: no talla i el feix es pot reflectir |
 | **PVC / vinil** | ❌ | Allibera **clor** (gas tòxic i corrosiu: fa malbé pulmons i màquina) |
 | **Policarbonat** | ❌ | Es crema i fa fum tòxic, no talla bé |
 | **ABS** | ❌ | Fum tòxic i es fon malament |

@@ -34,13 +34,15 @@
 ---
 
 ## 📔 Exemple d'entrada al diari (ben feta)
-> **Sessió 4:** vam portar la primera versió al germà de la Jana. El forat era de 7 mm i el
-> llapis no entrava → el vam mesurar bé (8 mm) i vam reimprimir. La segona li va anar bé i deia
-> que era "tou d'agafar". *Què ha dit l'usuari?* que rellisca una mica. *Què canviem?* afegir
-> uns **relleus** perquè no llisqui. **Evidència:** [foto de l'usuari provant-lo].
+> **Sessió 4:** vam portar la primera versió al germà de la Jana. El llapis fa 8 mm i havíem
+> fet el forat de 8 mm exactes → no entrava (imprès, el forat queda una mica més estret). El
+> vam refer a **8,5 mm** (la **tolerància** que vam aprendre a la SA5!) i la segona li va anar
+> bé; deia que era "tou d'agafar". *Què ha dit l'usuari?* que rellisca una mica. *Què canviem?*
+> afegir uns **relleus** perquè no llisqui. **Evidència:** [foto de l'usuari provant-lo].
 
 **Per què és bona:** mostra el cicle de **prova amb l'usuari → feedback → millora**, que és
-l'essència del disseny centrat en les persones.
+l'essència del disseny centrat en les persones, i aplica la **tolerància** (forat una mica més
+gran que la mida real perquè encaixi) sense haver-ho de refer dos cops.
 
 ---
 
