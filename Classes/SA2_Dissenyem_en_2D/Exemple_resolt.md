@@ -8,7 +8,7 @@
 ## 🔑 Exemple de producte: un marcapàgines resolt
 
 <figure style="margin:1.2rem 0;text-align:center">
-  <img src="Recursos/Plantilles_disseny/marcapagines_SA2.svg" alt="Marcapàgines d'exemple de 50×150 mm amb el contorn i el forat de la borla en vermell (tall) i el missatge, la imatge i el marc en negre (gravat)." style="height:300px;max-width:100%;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <img src="Recursos/Plantilles_disseny/marcapagines_SA2_horitzontal.svg" alt="Marcapàgines d'exemple (150×50 mm, horitzontal) amb el contorn i el forat de la borla en vermell (tall) i el missatge, la imatge i el marc en negre (gravat)." style="width:100%;max-width:640px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem">
   <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem;text-align:left;max-width:520px;margin-inline:auto">
     <strong>Mida:</strong> 50 × 150 mm · DM 3 mm. Què hi ha (i de quin color):<br>
     🔴 <strong>tall (vermell):</strong> el contorn i el <strong>forat de la borla</strong> (a dalt).<br>
