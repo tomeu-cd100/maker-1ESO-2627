@@ -9,18 +9,18 @@
 ## 🔑 Exemple de producte: organitzador d'escriptori "Equip Galàctic"
 
 Un organitzador de taula fet amb **peces planes que encaixen** sense cola. Vet aquí un exemple
-de les **peces amb encaixos** (una caixa senzilla), a punt de tallar:
+d'un organitzador maker de veritat, tallat a làser amb els mateixos encaixos que faràs servir:
 
 <figure style="margin:1.2rem 0;text-align:center">
-  <img src="Recursos/Plantilles_disseny/caixa_exemple_80x80x50_g3.svg" alt="Peces planes d'una caixa amb encaixos (dents i ranures) a les vores, dibuixades en vermell per tallar amb la làser." style="width:100%;max-width:560px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem">
+  <img src="Recursos/imatges/exemple_SA3_organitzador.jpg" alt="Organitzador de fusta tallat a làser, obert, amb molts compartiments separats per divisòries que encaixen; a dins hi ha components electrònics (placa, protoboard, LED)." style="width:100%;max-width:560px;border:1px solid var(--line);border-radius:10px">
   <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem;text-align:left;max-width:560px;margin-inline:auto">
-    Cada panell porta <strong>dents i ranures a mida del gruix</strong> de la fusta (3 mm): així
-    les peces s'aguanten soles. 🔴 tot el que és <strong>vermell</strong> es talla. El vostre
-    organitzador (base + laterals + separadors) segueix la mateixa tècnica.
+    Les <strong>divisòries s'aguanten soles</strong> gràcies a les <strong>ranures a mida del
+    gruix</strong> de la fusta (cap cola!). El vostre objecte (base + laterals + separadors)
+    segueix la mateixa tècnica d'<strong>unions per encaix</strong>.
   </figcaption>
 </figure>
 
-<p style="text-align:center;font-size:.9rem"><a href="Recursos/Plantilles_disseny/caixa_exemple_80x80x50_g3.svg">⬇️ Obre el vectorial SVG a Inkscape</a> i mira els encaixos de prop.</p>
+<p style="text-align:center;font-size:.9rem">🧩 Vols veure les <strong>peces en pla</strong>? <a href="Recursos/Plantilles_disseny/caixa_exemple_80x80x50_g3.svg">Obre el vectorial d'una caixa senzilla a Inkscape</a> i mira les dents i ranures de prop.</p>
 
 **Per què és un bon producte (🌟):**
 
