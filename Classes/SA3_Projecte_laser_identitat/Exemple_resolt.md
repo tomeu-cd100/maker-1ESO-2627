@@ -6,17 +6,18 @@
 
 ---
 
-## 🔑 Exemple de producte: organitzador d'escriptori "Equip Galàctic"
+## 🔑 Exemple de producte: una caixa personalitzada amb tapa gravada
 
-Un organitzador de taula fet amb **peces planes que encaixen** sense cola. Vet aquí un exemple
-d'un organitzador maker de veritat, tallat a làser amb els mateixos encaixos que faràs servir:
+Un objecte útil que us representa, fet amb **peces planes que encaixen** sense cola i
+**personalitzat** amb gravat. Vet aquí un exemple: una **caixa amb la tapa gravada** (un nom
+dins d'un cor) tallada a làser en fusta:
 
 <figure style="margin:1.2rem 0;text-align:center">
-  <img src="Recursos/imatges/exemple_SA3_organitzador.jpg" alt="Organitzador de fusta tallat a làser, obert, amb molts compartiments separats per divisòries que encaixen; a dins hi ha components electrònics (placa, protoboard, LED)." style="width:100%;max-width:560px;border:1px solid var(--line);border-radius:10px">
-  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem;text-align:left;max-width:560px;margin-inline:auto">
-    Les <strong>divisòries s'aguanten soles</strong> gràcies a les <strong>ranures a mida del
-    gruix</strong> de la fusta (cap cola!). El vostre objecte (base + laterals + separadors)
-    segueix la mateixa tècnica d'<strong>unions per encaix</strong>.
+  <img src="Recursos/imatges/exemple_SA3_caixa_tapa.jpg" alt="Caixa de fusta tallada a làser amb la tapa decorada amb un cor i el nom 'Mama' gravat; a les cantonades s'hi veuen les dents dels encaixos." style="width:100%;max-width:520px;border:1px solid var(--line);border-radius:10px">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem;text-align:left;max-width:520px;margin-inline:auto">
+    Dues tècniques de la SA en un sol objecte: la <strong>tapa gravada</strong> amb un nom
+    (la vostra <strong>identitat</strong>) i les <strong>unions per encaix</strong> —les dents de
+    les cantonades a mida del gruix de la fusta, que aguanten la caixa <strong>sense cola</strong>.
   </figcaption>
 </figure>
 
