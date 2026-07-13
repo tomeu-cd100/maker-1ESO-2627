@@ -25,6 +25,8 @@
 ## Fase 3 — Dissenyar i imprimir
 - [ ] Mides comunes acordades   - [ ] Peces imprimibles   - [ ] Cua d'impressió planificada
 - [ ] Cada peça compleix el límit: **< 1 h i < 40 g** (previsualització de Bambu Studio)
+- [ ] Cada peça ha passat el 🚦 **semàfor de fabricació** (`Recursos/Semafor_maker.md`),
+  validat per l'⚙️ operador/a de l'equip
 - [ ] Hem revisat els dissenys entre nosaltres i cadascú ha fet la seva **versió 2**
   → Què ha canviat cada peça? ____________________________
 

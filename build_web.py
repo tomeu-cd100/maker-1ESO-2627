@@ -81,6 +81,8 @@ ALUMNAT_LINKS = [
     ("📅", "El curs, dia a dia", "00_Diari_de_classe_alumnat.md", "Una targeta per setmana: què farem i què no pots oblidar"),
     ("📖", "Vocabulari bàsic del curs", "Classes/SA0_Punt_de_partida/Vocabulari_basic.md", "Totes les paraules maker, explicades curt i clar"),
     ("📔", "El diari de taller", "Avaluació/Diari_de_taller.md", "La teva llibreta maker: una entrada per sessió"),
+    ("🧯", "Primers auxilis maker", "Recursos/Primers_auxilis_maker.md", "Alguna cosa no funciona? Desencalla't sol/a amb aquesta guia"),
+    ("🚦", "Semàfor de fabricació", "Recursos/Semafor_maker.md", "Les 3 comprovacions abans d'enviar res a una màquina"),
     ("🔍", "Com m'avaluaran?", "Avaluació/Avaluacio_explicada_alumnat.md", "Tot el sistema d'avaluació explicat en una pàgina"),
     ("🌱", "Rúbrica amigable", "Avaluació/Rubrica_alumnat_amigable.md", "Els nivells 🌱🙂💪🌟 en primera persona"),
     ("🛠️", "Passaport maker", "Reptes/Passaport_maker.md", "Carnets, insígnies i segells: tot el joc en un paper"),

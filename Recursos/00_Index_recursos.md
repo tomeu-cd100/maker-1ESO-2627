@@ -16,6 +16,12 @@ per respectar-ne l'autoria i mantenir el repositori net de material d'altri.
 - **[`Museu_llavor_errors.md`](Museu_llavor_errors.md)** — com fabricar expressament les
   **5 peces fallides canòniques** (warping, kerf, gravat cremat, forat a la vora, suports)
   amb la targeta de museu ja resolta, perquè el Museu dels Errors no comenci buit.
+- **[`Primers_auxilis_maker.md`](Primers_auxilis_maker.md)** — 🧯 guia de l'alumnat per
+  **desencallar-se sol/a**: els errors més freqüents d'Inkscape/làser, Tinkercad/3D i
+  fitxers/Drive, amb símptoma, causa i solució. Primer pas abans de cridar el docent.
+- **[`Semafor_maker.md`](Semafor_maker.md)** — 🚦 les **3 comprovacions obligatòries**
+  (mides reals · capes i colors · nom i destí) abans d'enviar cap fitxer a la làser o a
+  la impressora. Control de qualitat en mans de l'alumnat.
 
 ## On trobar la formació (en comptes de copiar-la)
 Per preparar les tècniques, fes servir els **enllaços validats** de `Enllacos_i_tutorials.md` i,

@@ -38,6 +38,9 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 - [ ] Mides correctes  - [ ] Capes tall/gravat assignades  - [ ] Text convertit a camí
 - [ ] Material col·locat i autoritzat  - [ ] Normes de seguretat repassades
 
+> 🚦 És el **semàfor de fabricació** de sempre (`Recursos/Semafor_maker.md`): si una llum és
+> vermella, el fitxer torna enrere. Val més 2 minuts de semàfor que una planxa llençada.
+
 ## Reflexió
 - El que m'ha costat més d'Inkscape: ____________________
 - Com he aprofitat bé el material: ____________________

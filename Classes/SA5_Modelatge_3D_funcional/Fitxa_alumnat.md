@@ -58,6 +58,9 @@ ____________________________________________________________
 | Material estimat | ____ g (límit: < 40 g) |
 
 ## Fase 4 — Imprimir i comprovar
+> 🚦 Abans d'apuntar-te a la cua: **semàfor de fabricació** (`Recursos/Semafor_maker.md`) —
+> peça al pla (tecla D), forats agrupats, parets ≥ 2 mm, i nom `ElMeuNom_SA5_vN.stl` al Drive.
+
 - La primera capa s'ha enganxat bé? Sí / No
 - Ha sortit algun problema? ____________________ → Com el resoldria? ____________________
 

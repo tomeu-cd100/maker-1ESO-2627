@@ -26,6 +26,9 @@ Dissenya i fabrica el **teu clauer personalitzat** a la talladora làser. Ha de 
 - [ ] No posaré materials no autoritzats.
 - [ ] Avisaré immediatament si veig fum excessiu o foc.
 
+> 🚦 I el fitxer, a punt? Passa el **semàfor de fabricació** (`Recursos/Semafor_maker.md`):
+> mides reals · capes i colors · nom i destí. Cap fitxer va a la làser sense les 3 llums en verd.
+
 ## El meu esbós (dibuixa'l abans de fer-lo digital)
 📄 *Si la fitxa és en paper, reserva-hi **mig full**: dibuixa gran, apunta les mides i marca
 què és tall i què és gravat. L'esbós en paper és pensar amb el llapis, no un tràmit!*
