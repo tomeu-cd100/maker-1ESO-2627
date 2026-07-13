@@ -109,7 +109,7 @@ dues:
 
 | SA | 🔧 Estació Maker (50') | 💻 Estació de disseny (50') |
 |----|------------------------|------------------------------|
-| SA1 | Fabricació batch del clauer + checkpoint carnet 🔴 + repàs de fitxers a punt de tall | Esbós amb mides, **disseny Inkscape (Chromebook)**, contracte, vocabulari, diari |
+| SA1 | Fabricació batch del clauer + checkpoint carnet 🔴 + repàs de fitxers a punt de tall | Esbós amb mides, **disseny Inkscape (Chromebook)**, repàs del contracte (signat a SA0), vocabulari, diari |
 | SA2 | Fabricació batch, preparació a XCS, postprocés | Esbós, **Inkscape: operacions de camí i vectorització (Chromebook)**, fitxa, diari |
 | SA3 | Mostra d'encaix + mesura del kerf, fabricació, muntatge i ajust | Requisits, **disseny de peces i unions a Inkscape (Chromebook)**, rols (signatura de peça), guió de presentació |
 | SA4 | Demo P2S + batch de placa de mostres + observació d'impressió | **Tot el modelatge Tinkercad** (navegador), reptes 3D, diari |
@@ -147,9 +147,9 @@ dues:
 
 | Docent Maker | Co-docent |
 |--------------|-----------|
-| CA2 (qualitat tècnica del disseny) | CA1 (procés: requisits, idees, planificació, iteració v1→v2) |
-| CA3 (fabricació) i CA4 (immersiu) | CA5 (equip, documentació, comunicació) |
-| CA6.1 (seguretat) i CA6.2 (material) | CA6.3 (ètica digital) i **TE** (participació equitativa) |
+| CA2.3 (mides, escala, viabilitat) i validació tècnica **prèvia a fabricar** (🚦 semàfor) | CA2.1/CA2.2 (procés de disseny 2D/3D, que passa a l'estació de disseny) |
+| CA3 (fabricació) i CA4 (immersiu) | CA1 (procés: requisits, idees, planificació, iteració v1→v2) |
+| CA6.1 (seguretat) i CA6.2 (material) | CA5 (equip, documentació, comunicació) · CA6.3 (ètica digital) · **TE** (participació equitativa) |
 
 > Cada docent duu el seu `Avaluació/Full_seguiment_grup.md` (codis +/-/!) i es posen en comú
 > a la coordinació setmanal. El co-docent avalua justament les competències **transversals**,

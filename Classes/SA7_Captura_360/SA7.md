@@ -102,7 +102,8 @@ a alumnat nou de 6è de primària…).
    real. Revisió prèvia de **drets d'imatge** abans de publicar (CA6.3).
 3. **Visualització (30')**: explorar el tour. Amb ulleres VR **per torns** (segons l'edat del
    model, `Normativa/Protocol_us_VR.md`) i **sempre amb alternativa en pantalla** per a qui no en
-   faci ús.
+   faci ús. 🔵 **Abans del primer torn amb ulleres, mini-checkpoint del carnet VR** (les 4
+   regles: temps, mareig, higiene, guia) — és el primer ús real de VR del curs.
 4. **Avaluació i galeria (20')**: coavaluació + diari de taller.
 
 ## 5. Producte final

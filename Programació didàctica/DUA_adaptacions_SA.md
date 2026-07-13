@@ -129,6 +129,7 @@ Barrera més probable de cada SA i adaptació clau (a més del "menú base" del 
 
 | SA | Barrera anticipada | Adaptació clau | Ampliació ⭐ |
 |----|--------------------|----------------|-------------|
+| SA0 | Grup nou (ansietat); lectoescriptura a l'avaluació 0 i a la gimcana | Avaluació 0 **oral/gràfica**; agenda visual del recorregut pel taller; un membre llegeix en veu alta cada targeta; presentar la **barra DUA de la web** (lectura en veu alta, mida de lletra) | Fer de guia de la gimcana |
 | SA1 | Por a equivocar-se / vocabulari nou | Producte petit i d'èxit ràpid; word wall il·lustrat | Forma pròpia complexa |
 | SA2 | "Full en blanc" a Inkscape; motricitat fina | Plantilla + banc d'imatges; dissenyar en paper i digitalitzar | Patró/calat |
 | SA3 | Coordinació en equip; mesures (kerf) | Contracte d'equip + rols; plantilla d'unions amb mides | Làmpada amb calats |

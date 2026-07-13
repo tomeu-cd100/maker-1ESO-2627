@@ -163,9 +163,12 @@ Curs de ~35 setmanes lectives (1 sessió de 2 h/setmana). Vegeu el detall a
 
 | Trim. | Eix | SA | Setmanes aprox. |
 |-------|-----|----|-----------------|
-| 1r | Acollida i diagnòstic + cultura maker + fabricació 2D (làser) | **SA0**, SA1, SA2, SA3 | 1–12 |
-| 2n | Disseny i impressió 3D | SA4, SA5, SA6 | 13–24 |
-| 3r | Realitat immersiva + projecte integrador | SA7, SA8, SA9 | 25–35 |
+| 1r | Acollida i diagnòstic + cultura maker + fabricació 2D (làser) | **SA0**, SA1, SA2, SA3 | 1–13 |
+| 2n | Disseny i impressió 3D | SA4, SA5, SA6 | 14–25 |
+| 3r | Realitat immersiva + projecte integrador | SA7, SA8, SA9 | 26–35 |
+
+> Les Fires trimestrals tanquen cada trimestre: setmanes **13** (T1), **25** (T2) i **35** (gran
+> Fira). Detall setmana a setmana a `Temporitzacio_anual.md`.
 
 ---
 

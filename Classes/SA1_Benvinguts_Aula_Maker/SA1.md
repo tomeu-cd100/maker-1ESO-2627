@@ -85,24 +85,27 @@ desenvoluparan en SA2 i SA3.
 L'objectiu d'avui **no** és l'ordinador: és decidir **com serà** el clauer i deixar-ho dibuixat
 i acotat en paper. Qui té el plànol clar, la setmana que ve el digitalitza en 20 minuts.
 
-1. **Demo de la làser en directe (25')**: el docent talla i grava una mostra (el seu propi
+1. **Presentació dels equips (5')**: es diuen els **equips estables** formats amb l'avaluació 0
+   de la SA0 (heterogenis). El clauer d'avui és individual, però aquests són els equips amb qui
+   es treballarà a partir d'ara; cada alumne/a apunta el seu equip a la fitxa.
+2. **Demo de la làser en directe (25')**: el docent talla i grava una mostra (el seu propi
    clauer!) davant l'alumnat — què fa la màquina, què és **tallar** i què és **gravar**,
    materials permesos i perillosos (🧭 Gran Idea 1). Per meitats si cal (aforament!).
-2. **El repte i el codi de colors (10')**: es reparteix el full de disseny. S'explica el **codi
+3. **El repte i el codi de colors (10')**: es reparteix el full de disseny. S'explica el **codi
    de colors del curs** —🔴 **vermell = tallar** (contorn + forat), ⚫ **negre = gravar** (nom +
    detalls)— i el **truc maker** que fa que l'activitat tingui repte: *tot el que sigui VERMELL
    (tall) i quedi solt, cau en tallar — com l'interior d'una O calada. El negre gravat no cau
    mai.* Qui vulgui lletres **calades** (vermell), les ha de fer tocar entre elles o amb el
    contorn (repte ⭐). (És el mateix codi que faràs servir a l'ordinador; aquí l'aprens en paper.)
-3. **Disseny autoguiat amb la ruta (55')**: cada alumne/a segueix **els 7 passos** del full pel
+4. **Disseny autoguiat amb la ruta (50')**: cada alumne/a segueix **els 7 passos** del full pel
    seu compte: prova 2-3 idees a la **zona de proves** → tria → dibuixa el **definitiu al tauler
    mil·limetrat a mida real** → l'**acota** amb regle → el repassa amb el codi de colors. El
    docent circula i ajuda. **Micro-fites** (per no encallar-se): proves fetes cap als 15';
-   definitiu acotat cap als 45'.
-4. **Autocomprovació + galeria llampec (20')**: cadascú passa la **checklist** del full («abans
+   definitiu acotat cap als 40'.
+5. **Autocomprovació + galeria llampec (20')**: cadascú passa la **checklist** del full («abans
    d'aixecar la mà, comprovo…»), **ensenya el disseny a la seva parella** (entén el nom? el forat
    és prou lluny de la vora?) i 2-3 el mostren en veu alta. Qui acaba fa el **repte ⭐** del full.
-5. **Tancament (10')**: entrada al diari de taller.
+6. **Tancament (10')**: entrada al diari de taller.
 
 > ⏸️ **Mínim d'avui**: el tauler amb la forma + nom + forat, **acotat** i amb el vermell/negre
 > marcats — és el plànol que digitalitzaràs la setmana vinent.

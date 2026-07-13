@@ -1,29 +1,30 @@
 # Gestió del temps-màquina i de la fabricació — «Aula Maker» (1r ESO)
 
 > **Per què aquest document?** El factor que més condiciona una aula maker no és el disseny:
-> és el **temps-màquina**. Amb **1 làser i 1 impressora 3D per a ~25 alumnes**, la fabricació és
-> un **coll d'ampolla** que cal planificar conscientment perquè (a) la temporització sigui
-> realista i (b) **tothom fabriqui** (equitat), no només els ràpids. Aquest document és el
-> referent transversal de fabricació; les SA de fabricació (SA1, SA3, SA5, SA6, SA9) hi remeten.
-> Al 3r trimestre el coll d'ampolla canvia de màquina: **1 càmera 360 i 5 ulleres VR** per a tot
-> el grup — vegeu el **§5 (temps-dispositiu)**, al qual remeten SA7 i SA8.
+> és el **temps-màquina**. El grup és de **20 alumnes** i el **règim per defecte és el
+> desdoblament** (2 docents, **torns de 10 a l'aula Maker**, vegeu `Codocencia_desdoblament.md`):
+> amb **1 làser i 1 impressora 3D**, cada torn de 10 ja és un **coll d'ampolla** que cal
+> planificar perquè (a) la temporització sigui realista i (b) **tothom fabriqui** (equitat), no
+> només els ràpids. Aquest document és el referent transversal de fabricació; les SA de
+> fabricació (SA1, SA3, SA5, SA6, SA9) hi remeten. Al 3r trimestre el coll d'ampolla canvia de
+> màquina: **1 càmera 360 i 5 ulleres VR** per al grup — vegeu el **§5 (temps-dispositiu)**.
 >
-> 👥 **Si treballeu en desdoblament** (2 docents, torns de ~10 alumnes a l'aula Maker, vegeu
-> `Codocencia_desdoblament.md`): la demanda simultània de màquina es divideix per dos i les
-> xifres d'aquest document milloren en conseqüència — però la regla d'or i les quatre
-> estratègies s'apliquen igual (el batch continua sent la diferència entre minuts i hores).
+> 📌 Les xifres d'aquest document estan calculades per al **torn de 10** (el règim real). Si
+> algun dia treballeu amb el **grup sencer de 20** (sense desdoblament), dobleu la demanda
+> simultània: la regla d'or i les quatre estratègies s'apliquen igual (el batch continua sent
+> la diferència entre minuts i hores).
 
 ---
 
 ## 1. La matemàtica del temps (fes-la abans de cada SA)
 
-Calcula sempre: **temps per peça × nre. d'alumnes vs. minuts reals de la sessió.**
+Calcula sempre: **temps per peça × nre. d'alumnes del torn vs. minuts reals de la sessió.**
 
-| Màquina | Temps orientatiu per treball | 25 alumnes "en sèrie" | Conclusió |
+| Màquina | Temps orientatiu per treball | 10 alumnes (torn) "en sèrie" | Conclusió |
 |---------|------------------------------|------------------------|-----------|
-| Làser (gravat petit, p. ex. clauer) | 1–4 min + ~1 min de col·locació | 50–125 min | **No hi cap** en una sessió si es fa un a un |
-| Làser (projecte amb talls, SA3) | 5–15 min/equip | Per equips, sí (6–7 equips) | Viable **per equips**, no individual |
-| Impressió 3D (peça petita <40 g) | 30 min – 1.5 h | **Impossible** en sèrie a classe | Cal **cua** + impressió **fora d'horari** |
+| Làser (gravat petit, p. ex. clauer) | 1–4 min + ~1 min de col·locació | 20–50 min | **No hi cap** còmodament si es fa un a un |
+| Làser (projecte amb talls, SA3) | 5–15 min/equip | Per equips, sí (~3 equips/torn) | Viable **per equips**, no individual |
+| Impressió 3D (peça petita <40 g) | 30–60 min | **Impossible** en sèrie a classe | Cal **cua** + impressió **fora d'horari** |
 | Impressió 3D (peça mitjana) | 2–5 h | Dies | Disseny obligat a peça **petita i ràpida** |
 
 > 📌 **Regla d'or:** si la suma "en sèrie" supera els minuts de la sessió, necessites una de les
@@ -40,7 +41,7 @@ Calcula sempre: **temps per peça × nre. d'alumnes vs. minuts reals de la sessi
 - A Inkscape/XCS: cada alumne/a lliura el seu disseny en una **mida i posició acordades**; el
   docent (o l'equip de "preparació de planxa") els munta en una sola làmina.
 - Avantatge afegit: **optimitza material** (menys retalls) → connecta amb CE6.2 (sostenibilitat).
-- A SA1 això converteix la fabricació de tot el grup en **15–20 min reals**, no 75.
+- A SA1 això converteix la fabricació de tot un torn en **15–20 min reals**, en lloc de 20–50.
 
 ### B) Batch de placa (impressió 3D) — el "nesting" de la impressora
 - **Agrupa 4–8 peces petites de diversos alumnes en una sola placa** i llança-les com una única
@@ -83,14 +84,17 @@ Qui espera màquina **no perd el temps**; té tasques productives i avaluables:
 ---
 
 ## 3. Rols de fabricació dins l'equip (rotatius)
-Reparteix la pressió sobre la màquina i dona feina significativa a tothom:
+Reparteix la pressió sobre la màquina i dona feina significativa a tothom. **No són rols nous:**
+són el **barret de sessió de fabricació** dels mateixos rols d'equip de
+`Aprenentatge_cooperatiu.md` §2 (l'alumne manté el seu rol de SA, i a la sessió de fabricar fa
+aquesta funció):
 
-| Rol | Què fa | Connexió competencial |
-|-----|--------|-----------------------|
-| **Preparador/a de planxa** | Munta el batch de làser, comprova mides i capes | CA2.1, CA2.3, CA6.2 |
-| **Operador/a de màquina** | Envia el treball amb supervisió i segueix el protocol | CA3.1/3.2, CA6.1 |
-| **Documentalista** | Registra paràmetres, temps, incidències al diari | CA5.2, CA3.3 |
-| **Controlador/a de qualitat** | Revisa el resultat i proposa millores (iteració) | CA1.4, CA3.3 |
+| Barret de fabricació | = rol d'equip | Què fa | Connexió competencial |
+|-----|-----|--------|-----------------------|
+| **Preparador/a de planxa** | ✏️ Dissenyador/a | Munta el batch de làser, comprova mides i capes | CA2.1, CA2.3, CA6.2 |
+| **Operador/a de màquina** | ⚙️ Operador/a | Envia el treball amb supervisió i segueix el protocol (🚦 semàfor) | CA3.1/3.2, CA6.1 |
+| **Documentalista** | 📷 Documentalista | Registra paràmetres, temps, incidències al diari | CA5.2, CA3.3 |
+| **Controlador/a de qualitat** | 🧭 Coordinador/a | Revisa el resultat i proposa millores (iteració) | CA1.4, CA3.3 |
 
 > Per a alumnat amb dificultats motrius, el rol de **decisió/validació** (decideix paràmetres i
 > col·locació, un altre executa el moviment fi) manté la responsabilitat sense la barrera física
@@ -114,24 +118,25 @@ Reparteix la pressió sobre la màquina i dona feina significativa a tothom:
 
 Al 3r trimestre la mateixa matemàtica s'aplica a uns altres recursos escassos:
 
-| Recurs | Disponible | Demanda típica | Conclusió |
+| Recurs | Disponible | Demanda típica (torn de 10) | Conclusió |
 |--------|-----------|----------------|-----------|
-| Càmera 360 | **1** | 6–7 equips a SA7 (sessió de captura de 85') | ~**12 min de càmera per equip**: cal reserva de torns i treball paral·lel |
-| Ulleres VR | **5** | ~25 alumnes, torns de 10–15 min (`Normativa/Protocol_us_VR.md`) | 5 rondes justes en 50–60': cal **rotació cronometrada per estacions** |
+| Càmera 360 | **1** | ~3 equips per torn a SA7 (torn de 50') | ~**15 min de càmera per equip**: cal reserva de torns i treball paral·lel |
+| Ulleres VR | **5** | 10 alumnes per torn (`Normativa/Protocol_us_VR.md`) | **parelles usuari-guia perfectes** (5 parelles): 2–3 rondes de ~12' en un torn de 50' |
 
-> 👥 Amb **desdoblament** (torns de ~10 a l'aula Maker, `Codocencia_desdoblament.md`): 5 ulleres
-> per a 10 alumnes = **parelles usuari-guia perfectes** (el guia que demana el protocol surt
-> sol), i la càmera toca a ~2 equips per torn — la rotació segueix, però va folgada.
+> 👥 El desdoblament (torns de 10, `Codocencia_desdoblament.md`) fa que 5 ulleres per a 10
+> alumnes surtin a **parella usuari-guia** exacta — just el que demana el protocol. Amb el grup
+> sencer de 20, dobleu les rondes o feu servir més la pantalla.
 
 ### Rotació per estacions (la clau del 3r trimestre)
 Organitza la sessió en **estacions simultànies** per les quals roten els equips amb temps fixat
 (temporitzador visible). Qui no té el dispositiu **també treballa en tasca avaluable**:
 
-- **SA7, sessió de captura (85' ≈ 6 torns de ~12'):** un equip té la càmera (captura segons el
-  seu pla de rodatge); la resta, a les estacions: *guió i etiquetes del tour* · *selecció i
-  transferència de les captures fetes* · *repte immersiu* (`Reptes/Reptes_immersius_360_VR.md`).
-  Full de **reserva de torns** públic (com el kanban): cap equip surt a capturar sense pla escrit.
-- **SA8, exploració VR (50–60' ≈ 5 rondes de ~10-12'):** 5 alumnes amb ulleres (un guia per
+- **SA7, sessió de captura (torn de 50' ≈ 3 equips × ~15' de càmera):** un equip té la càmera
+  (captura segons el seu pla de rodatge); la resta, a les estacions: *guió i etiquetes del tour*
+  · *selecció i transferència de les captures fetes* · *repte immersiu*
+  (`Reptes/Reptes_immersius_360_VR.md`). Full de **reserva de torns** públic (com el kanban):
+  cap equip surt a capturar sense pla escrit.
+- **SA8, exploració VR (torn de 50' ≈ 2–3 rondes de ~12'):** 5 alumnes amb ulleres (un guia per
   parella, vegeu el protocol); la resta a les estacions: *fitxa d'anàlisi crítica* · *exploració
   de l'experiència en pantalla* · *preparació del debat* · *primeres proves amb CoSpaces*.
 - Encadena la rotació amb el **carnet de màquina** (`Normativa/Carnet_de_maquina.md`): el primer

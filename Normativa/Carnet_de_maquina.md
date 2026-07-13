@@ -30,8 +30,13 @@
 | 🔴 **Operador/a làser** (xTool S1) | SA1, sessió 3 | 3 preguntes: materials prohibits (i per què), ventilació, què fer si hi ha flama/fum. Demostració: col·locar el material i comprovar la tapa **amb supervisió**. |
 | 🟠 **Operador/a impressora 3D** (Bambu Lab P2S) | SA5, sessió 2 | 3 preguntes: parts calentes, per què no obrir la porta en marxa, què vigilar a la primera capa. Demostració: enviar una impressió des de Bambu Studio i comprovar la placa. |
 | 🟢 **Operador/a càmera 360** | SA7, sessió 1-2 | 3 preguntes: drets d'imatge (qui pot sortir al pla), espais a evitar, on s'amaga qui captura. Demostració: fer una captura estable i transferir-la. |
-| 🔵 **Usuari/ària responsable VR** | SA8, sessió 1 | 3 preguntes: temps màxim, què fer si hi ha mareig, higiene (lents amb microfibra!). Demostració: posar-se i ajustar les ulleres i fer de **guia** d'un company. |
+| 🔵 **Usuari/ària responsable VR** | **SA7, sessió 3** (primer ús real de VR) | 3 preguntes: temps màxim, què fer si hi ha mareig, higiene (lents amb microfibra!). Demostració: posar-se i ajustar les ulleres i fer de **guia** d'un company. |
 
+> ⚠️ **El carnet 🔵 s'avança a SA7 sessió 3:** és el primer cop que l'alumnat es posa les
+> ulleres (visualització del tour). Fer-ho abans respecta la regla «sense carnet no s'opera»;
+> a SA8, qui ja el tingui no el repeteix. Les 4 regles per a l'alumnat són a
+> `Normativa/Protocol_us_VR.md` («🥽 Les 4 regles VR»).
+>
 > El checkpoint de cada carnet es fa **dins la sessió indicada**, aprofitant els torns de
 > màquina/dispositiu (mentre el batch s'envia, mentre roda l'estació VR…): no necessita temps
 > extra. Qui s'incorpora tard al curs el fa al seu primer ús.
