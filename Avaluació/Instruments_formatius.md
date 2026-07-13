@@ -34,6 +34,10 @@ Recolliu-los (paper o formulari) per ajustar la sessió següent.
 És el pols de l'autonomia del grup: si mig grup és 🌱 dues sessions seguides, toca revisar
 la bastida (demo, guia, parelles), no córrer més.
 
+**Repàs espaiat fora de l'aula:** en tancar cada SA es publica al Classroom el seu
+**qüestionari de repàs autocorrectiu** (8 preguntes del nucli, no qualifica, es pot repetir)
+— el banc complet amb solucions és a `Avaluació/Questionaris_repas.md`.
+
 ## 3. Semàfor d'autoavaluació
 Senyal ràpid de l'estat de cadascú (mà, gomets o targeta):
 - 🔴 **Vermell:** estic encallat/da, necessito ajuda.
