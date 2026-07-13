@@ -3,7 +3,21 @@
 > S'aplica a les SA7, SA8 i SA9 i a qualsevol ús de les ulleres VR. La VR amb menors requereix
 > precaucions de salut, seguretat i privadesa.
 
-## 1. Edat mínima del fabricant (verificar abans de res)
+## 🥽 Les 4 regles VR (per a tu) — el que has de saber per al carnet 🔵
+
+> Resum per a l'alumnat. La resta del document (§1–§8) és per al docent.
+
+1. **⏱️ Temps curt:** màxim **10-15 minuts** amb les ulleres, i després descans.
+2. **🤢 Si em marejo, paro:** noto mareig, nàusees o mal de cap → em trec les ulleres, m'assec
+   i aviso. No aguanto «per acabar».
+3. **🧼 Higiene:** les lents **només** amb el drap de microfibra **sec** (mai tovalloletes ni
+   aigua); la part de la cara es neteja abans i després.
+4. **👀 Faig de guia:** quan un company/a porta les ulleres, jo vigilo que no topi amb res ni
+   ningú i que tingui espai lliure.
+
+---
+
+## 1. Edat mínima del fabricant (verificar abans de res) — *(docent)*
 - ⚠️ El centre disposa de **Meta Quest 3**. La política d'edat de Meta **ha canviat més d'un cop
   i pot tornar a canviar**: en el moment de redactar això, els **comptes personals** admeten
   menors de 10-12 anys només amb **compte preadolescent gestionat per la família**, i els

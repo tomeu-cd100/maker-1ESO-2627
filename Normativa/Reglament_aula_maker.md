@@ -12,6 +12,9 @@
 4. **Cura del material:** les eines i màquines són de tothom; les tractem bé.
 5. **Mòbils:** només quan el professorat ho autoritzi i amb finalitat de la tasca.
 6. **Soroll:** to de veu moderat; les màquines necessiten atenció i concentració.
+7. **Aforament:** a l'aula Maker som **màxim 10** alhora (és una norma de seguretat).
+8. **Cada màquina demana el seu carnet:** sense el carnet corresponent (🔴🟠🟢🔵) no s'opera
+   la màquina — sí que s'hi pot dissenyar, observar i participar.
 
 ## Zones de l'aula
 - **Disseny** (ordinadors/tauletes) · **Fabricació** (làser, 3D) · **Immersiva** (360/VR) ·

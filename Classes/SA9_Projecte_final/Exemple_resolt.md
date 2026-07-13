@@ -41,7 +41,8 @@ Calendari: S2 disseny i fabricació · S3 component immersiu · S4 muntatge i as
 > **El meu viatge maker:** *Abans del curs* no sabia dissenyar res digital. *Ara sé* fer peces
 > a làser i en 3D i muntar un tour 360. *Després* vull aprendre a programar les ulleres.
 > **El projecte de què estic més orgullós/a:** l'estand de la Lluna, perquè vam combinar-ho tot
-> i a la Fira la gent feia cua per provar les ulleres. **El més difícil:** quadrar els temps
+> i a la Fira la gent explorava el nostre tour a la **pantalla gran** de l'estand (les ulleres
+> les fem servir nosaltres, els visitants no). **El més difícil:** quadrar els temps
 > d'impressió amb la resta de tasques → ho vam resoldre imprimint la maqueta de nit.
 > **Evidència:** [fotos de l'estand, del procés i del públic].
 
