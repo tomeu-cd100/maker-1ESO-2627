@@ -9,9 +9,8 @@
 > SA. La font única de les preguntes (amb la resposta marcada) és el generador
 > `crear_questionaris_repas_maker.js` del pipeline de Classroom del docent.
 >
-> ⚠️ **Sincronització:** aquest document i el generador han de dir el mateix. Si edites una
-> pregunta aquí, edita-la també al generador (o a la inversa) i **regenera** el Form afectat
-> abans de publicar-lo.
+> ⚠️ **Sincronització:** aquest document el **genera** el script; no l'editis a mà. Per canviar
+> una pregunta, edita-la al generador i **regenera** el Form afectat abans de publicar-lo.
 
 | SA | Tema | Preguntes |
 |---|---|---|
