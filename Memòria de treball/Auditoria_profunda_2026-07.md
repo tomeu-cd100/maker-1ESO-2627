@@ -1,5 +1,10 @@
 # 🔍 Auditoria profunda del curs — juliol 2026
 
+> ✅ **ESTAT: IMPLEMENTADA (13-07-2026).** Les 7 fases (F1–F7) s'han aplicat i pujat a `main` en
+> commits separats per fase. Cada fase va passar `verifica_enllacos.py` i
+> `verifica_competencies.py`; el build final genera 104 pàgines sense errors. Aquest document
+> es conserva com a registre del que es va detectar i corregir.
+
 **Lent única:** què ajuda (o dificulta) que l'alumne aprengui.
 **Abast:** les 10 SA senceres (guió docent, fitxa, rúbrica, exemple resolt), tota l'avaluació,
 tota la programació didàctica, tota la normativa, el material transversal de l'alumne

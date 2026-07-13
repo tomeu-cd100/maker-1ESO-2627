@@ -2,6 +2,8 @@
 
 > Reptes curts de modelatge 3D — **es fan en digital**, no ocupen la impressora (el temps de
 > màquina és per a les SA). Marca'ls al diari de taller.
+> 🖨️ Els reptes que parlen d'**encaix o de suport real** (6, 8) es validen **sobre el plànol**
+> (mides amb el regle de Tinkercad); només s'imprimeixen si sobra espai en un batch de placa.
 > Si prefereixes construir una cosa teva de llarg recorregut: `Projecte_personal.md`.
 
 | # | Repte | Nivell | Què practiques |

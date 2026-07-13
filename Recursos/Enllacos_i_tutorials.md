@@ -11,7 +11,7 @@
 - **Guies per a principiants de l'S1** (col·lecció) — support.xtool.com/learning-center/collection/22
 - **Centre d'aprenentatge xTool** — support.xtool.com/learning-center
 
-## 🟢 Impressió 3D — Bambu Lab P2S + Bambu Studio
+## 🟠 Impressió 3D — Bambu Lab P2S + Bambu Studio
 - **Wiki P2S (índex)** — wiki.bambulab.com/en/p2s
 - **Introducció a la P2S** (components i funcions) — wiki.bambulab.com/en/p2s/manual/p2s-intro
 - **Primera impressió (First Print)** — wiki.bambulab.com/en/p2s/manual/first-print
@@ -80,6 +80,10 @@ repositori** (política de la carpeta `Recursos/`: material de tercers, només e
 
 ## ✅ Com mantenir aquesta llista
 - Revisa-la a inici de curs (els enllaços i versions canvien).
+- ⚠️ **Enllaços fràgils a vigilar** (pàgines personals/blogs i identificadors numèrics que
+  poden caure): els cursos amb `course?id=…`, les pàgines `xtec.cat/~usuari` i els blogs
+  personals. Si en trobes un de mort, substitueix-lo per documentació **oficial** o de
+  **Softcatalà**, que són més estables.
 - Afegeix els tutorials concrets que **et funcionin** a classe.
 - Per a les experiències VR/360 que facis servir amb l'alumnat, mantén una llista curta amb
   **enllaç + edat recomanada** a `Simulacions/Experiencies_VR_360.md`.

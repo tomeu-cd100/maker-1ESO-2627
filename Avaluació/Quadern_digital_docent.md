@@ -53,7 +53,7 @@ El kanban físic a la paret continua manant a l'aula; aquesta pestanya és el re
 
 ### 7. `Valoracions` (veu de l'alumnat)
 Enllaç als resultats del **tiquet trimestral de valoració de l'assignatura**
-(`Instruments_formatius.md` §9, per Google Forms) — al costat de les vostres dades, les seves.
+(`Instruments_formatius.md` §8, per Google Forms) — al costat de les vostres dades, les seves.
 
 ## Regles d'ús
 

@@ -28,6 +28,10 @@
 > El contracte es pot **canviar** (és un prototip com tot aquí), però es documenta el canvi al
 > diari: «he canviat X per Y perquè…» (això també és CA1.4).
 
+**Quan es revisa (checkpoints):** el contracte es **signa a la SA1** i, a cada **tancament de
+trimestre** (setmanes 13, 25 i 35), ensenyes l'estat al docent: si la part del trimestre està
+feta, **es marca la casella T1/T2/T3 del passaport**. Així el projecte no s'oblida pel camí.
+
 ## 3. Avaluació
 
 - **No té rúbrica pròpia ni nota separada**: alimenta el **portafoli** i el diari, i les

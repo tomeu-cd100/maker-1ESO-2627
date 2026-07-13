@@ -13,7 +13,8 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 ## Recorda d'Inkscape
 - **Operacions de camí:** Camí → Unió / Diferència / Intersecció.
 - **Text per a làser:** escriu el text → selecciona'l → Camí → Objecte a camí.
-- **Vectoritzar imatge:** importa-la → Camí → Vectoritza mapa de bits → ajusta llindar.
+- **Vectoritzar imatge:** importa-la → Camí → Vectoritza mapa de bits → mou la barra de
+  **llindar** (a partir de quant de fosc un píxel es torna negre) fins que la imatge es vegi neta.
 - Treballa sempre en **mil·límetres** i comprova la mida final.
 
 ## Planificació

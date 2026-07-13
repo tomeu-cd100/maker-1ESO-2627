@@ -3,7 +3,7 @@
 > Guia de l'alumnat per **desencallar-se sol/a** abans de cridar el/la docent. El 90 % dels
 > problemes de l'Aula Maker són aquí dins, amb la solució al costat. Busca la frase que
 > s'assembla al teu problema i prova la solució. **Ordre per demanar ajuda:** 1️⃣ aquesta
-> guia → 2️⃣ un company/a en verd (semàfor 🟢) → 3️⃣ el/la docent.
+> guia → 2️⃣ un company/a en verd (el **semàfor de com va cadascú**, no el del fitxer) → 3️⃣ el/la docent.
 >
 > 🧭 *Gran idea del curs:* qui es desencalla sol/a ha après **dues** coses: la solució i com
 > trobar-la. Això també s'avalua (autonomia — nivell 💪 de la rúbrica amigable).

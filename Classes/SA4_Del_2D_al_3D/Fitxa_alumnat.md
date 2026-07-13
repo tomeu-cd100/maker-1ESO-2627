@@ -17,6 +17,7 @@ Modela un **clauer o figura 3D** amb Tinkercad. Requisits:
 - **Forat:** tria un cos i posa'l com a "Buit" (transparent)
 - **Agrupar:** selecciona-ho tot → botó **Agrupa** (combina cossos i aplica els forats)
 - **Alinear:** selecciona → eina **Alinea**
+- **Tecla D:** la peça seleccionada **baixa al pla** de treball (no queda flotant)
 
 ## El meu esbós (3 vistes)
 📄 *En paper, reserva **mig full**: una vista gran per requadre, amb les mides apuntades.*

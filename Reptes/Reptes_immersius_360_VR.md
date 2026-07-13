@@ -5,8 +5,8 @@
 
 | # | Repte | Nivell | Què practiques |
 |--:|-------|:------:|----------------|
-| 1 | Fes una foto 360 d'un espai i **troba on és el fotògraf** | ⭐ | Captura, projecció |
-| 2 | Captura el mateix lloc amb **dues llums** diferents i compara | ⭐ | Llum, qualitat |
+| 1 | En una **foto 360 ja feta** (banc del grup), **troba on era el fotògraf** | ⭐ | Projecció 360 |
+| 2 | Compara **dues fotos 360 del mateix lloc** (banc del grup) i digues quina llum és millor | ⭐ | Llum, qualitat |
 | 3 | Descriu una experiència VR: **3 coses** que t'han sorprès | ⭐ | Anàlisi |
 | 4 | Crea una escena CoSpaces amb **3 objectes** i una càmera | ⭐⭐ | Construcció d'escena |
 | 5 | Enllaça **2 escenes/punts** en un tour navegable | ⭐⭐ | Navegació |

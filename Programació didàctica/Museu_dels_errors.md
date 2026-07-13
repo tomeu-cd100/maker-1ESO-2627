@@ -60,6 +60,10 @@ aprenentatge per a tothom.
 - Aforament del museu: **una lleixa** — quan és ple, les peces més antigues es retiren
   (foto + targeta al portafoli de grup) i el material es recicla (CA6.2).
 - Les targetes buides viuen al costat del museu; escriure'n una són 3 minuts.
+- 📦 **Capsa de préstec:** com que l'anàlisi de peces es fa a l'**estació de disseny** (aula
+  ordinària) i el museu és a l'aula Maker, una capsa amb **3-4 peces + les seves targetes**
+  viatja a l'estació de disseny cada setmana, i torna. Sense això, la tasca estrella de
+  l'estació es queda sense material a mà.
 
 > Relacionat amb: SA5 (rutina d'anàlisi d'errors), `Reptes/Index_reptes.md` (insígnies),
 > `DUA_adaptacions_SA.md` (materials tàctils), `Codocencia_desdoblament.md` (tasques de

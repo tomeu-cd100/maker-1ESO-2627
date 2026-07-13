@@ -66,9 +66,11 @@ fabricació de tots els clauers en una sola planxa. Mentre esperes torn: reptes 
 **No te n'oblidis:** entrada de tancament al diari **amb foto** del clauer.
 
 ### Setmana 6 — Inkscape a fons ✏️ 👥
-**Què farem:** crear formes noves ajuntant-ne i restant-ne d'altres (operacions de camí) i el
-truc més important del trimestre: **convertir el text a camí** perquè la làser l'entengui.
+**Què farem:** crear formes noves ajuntant-ne i restant-ne d'altres (operacions de camí) i
+entendre bé el **text a camí** que ja vas fer servir per fabricar el clauer (setmana 5) — ara
+sabràs **per què** cal.
 **En sortir sabràs:** fer formes que no existeixen a cap menú.
+**🎒 No te n'oblidis:** les 3 operacions de camí (unió, diferència, intersecció) i el text a camí.
 
 ### Setmana 7 — De la imatge al vector 🖼️ 🔁
 **Què farem:** **vectoritzar** una imatge (convertir-la en línies que la làser pot seguir) i
@@ -81,6 +83,7 @@ agafa una imatge del banc — fabricaràs igualment.
 coavaluació**: aprendràs a valorar la feina dels altres amb criteris, no per amistat (primer
 practicarem amb un exemple).
 **En sortir tindràs:** el teu segon producte — i l'ull més entrenat.
+**🎒 No te n'oblidis:** passar el 🚦 semàfor abans de tallar i desar el fitxer amb el teu nom.
 
 ### Setmana 9 — ⭐ Arrenca el projecte d'identitat 🪵 👥
 **Què farem:** en equip, triareu un **objecte útil que us representi** (organitzador, làmpada,
@@ -122,6 +125,7 @@ objectiu per al T2.
 **Què farem:** estrena de **Tinkercad**: moure't pel 3D, col·locar cossos, escalar, alinear,
 **agrupar** i el gran truc: el **forat que resta material**.
 **En sortir sabràs:** construir en volum, no en pla.
+**🎒 No te n'oblidis:** peça + forat + **agrupar**, i la **tecla D** perquè no quedi flotant.
 
 ### Setmana 15 — Cossos i forats a fons 🕳️ 🔁
 **Què farem:** reptes curts de combinació (un got, una anella, la teva inicial en relleu) i, a
@@ -152,6 +156,7 @@ Studio), amb dos límits que són llei: **menys d'1 hora i menys de 40 grams**. 
 **Què farem:** seguiment de les impressions (vigila la primera capa!) mentre avances: millores
 del disseny, reptes 3D, el teu projecte personal. Si una impressió falla, no és drama: targeta
 per al **Museu dels Errors** i a analitzar què ha passat.
+**🎒 No te n'oblidis:** omplir la **fitxa tècnica** de la teva peça i una targeta del Museu.
 
 ### Setmana 20 — Funciona de veritat? ✅ 🔁
 **Què farem:** retirar suports, llimar i fer **la prova de veritat**: la peça al seu lloc real
@@ -181,6 +186,7 @@ millores, guió de la presentació d'impacte i reptes.
 davant vostre. Escolteu, apunteu què diu i decidiu què canvieu — el seu feedback és or i és
 evidència del projecte.
 **En sortir sabràs:** si la solució ajuda de veritat (ho decideix l'usuari, no vosaltres!).
+**🎒 No te n'oblidis:** apuntar **què diu l'usuari** i **una millora** que hi aplicareu.
 
 ### Setmana 25 — 🎪 Fira de mostres del T2 + tancament 👥
 **Què farem:** la **segona Fira del curs**: repte, solució i **impacte** (què va dir l'usuari
@@ -210,6 +216,8 @@ guió, etiquetes i selecció de captures.
 d'imatge i **publicar el tour de veritat** (web del centre / codi QR): el veuran famílies i
 l'alumnat de 6è. I el provareu amb les **ulleres VR**.
 **En sortir tindràs:** una cosa teva publicada al món real. 😎
+**🎒 No te n'oblidis:** el tour necessita **punts de navegació** (si no, no es pot passejar) i
+revisar els **drets d'imatge** abans de publicar.
 
 ### Setmana 29 — Primera immersió a la VR 🥽 🔁
 **Què farem:** el **protocol VR** (temps, higiene, espai — i si et mareges, para i avisa: és

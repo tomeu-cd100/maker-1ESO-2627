@@ -25,6 +25,9 @@ competencial:
 - Competència **emprenedora**.
 - Competència en **comunicació lingüística**.
 - Competència **ciutadana** (ús ètic de la tecnologia, sostenibilitat).
+- Competència **plurilingüe (CP)** i competència en **consciència i expressió culturals (CCEC)**
+  — de manera secundària (vegeu la contribució ○ a
+  `Programació didàctica/Mapatge_competencial_oficial.md` §4).
 
 ## Concreció al centre
 - Les **competències específiques (CE1–CE6)** i els seus criteris d'avaluació estan definits a

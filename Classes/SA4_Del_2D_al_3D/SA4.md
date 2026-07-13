@@ -102,7 +102,8 @@ d'horari) + diari amb captures.
 - 🎬 Càpsula «Inspira't»: **El volum que ajuda (adaptadors 3D per a mobilitat reduïda)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA4.
 - Ordinadors/tauletes amb navegador; comptes de Tinkercad (classe).
 - Impressora Bambu Lab P2S + Bambu Studio (per a la mostra).
-- `Simulacions/Simuladors_disseny_2D_3D.md`. `Fitxa_alumnat.md` · `Rubrica_SA4.md`.
+- `Simulacions/Simuladors_disseny_2D_3D.md` i `Simulacions/Laboratoris_virtuals.md` (GeoGebra 3D
+  per practicar vistes i volum abans de Tinkercad). `Fitxa_alumnat.md` · `Rubrica_SA4.md`.
 
 ## 🧠 Metacognició i tiquet de sortida
 > ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen

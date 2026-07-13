@@ -16,7 +16,12 @@ Reptes **curts i autònoms** per fer servir com a:
 - [`Projecte_personal.md`](Projecte_personal.md) — **«El meu objecte del curs»**: l'alternativa
   longitudinal als reptes solts (un objecte personal que creix amb cada tecnologia, T1→T3).
 
-## Sistema d'insígnies (suggeriment)
+## Sistema d'insígnies
+
+> **Què compta com a repte completat?** Un repte compta quan és **al diari amb una foto/captura**
+> i **un company/a o el docent l'ha vist funcionar**. El segell es posa al **passaport** en aquell
+> moment — no cal esperar.
+
 | Insígnia | Com s'aconsegueix |
 |----------|-------------------|
 | 🥇 Mestre/a del vector | Completar 3 reptes 2D |

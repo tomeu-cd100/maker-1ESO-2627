@@ -67,8 +67,10 @@ seguiment):
 - **Amb l'alumne/a:** ensenyeu-li el seu full **una vegada per trimestre** (o quan demani "quina
   nota tinc"): veure la pròpia fila de CE2 passar de NA a AN és el retorn més motivador que
   existeix, i fa comprensible la qualificació competencial a les famílies.
-- **Al juny:** la columna «Global curs» s'omple fila a fila mirant la trajectòria, i la nota
-  final és el judici global d'aquestes 8 files.
+- **Al juny:** la columna «Global curs» s'omple fila a fila mirant la trajectòria. La nota final
+  és el judici global de les **6 competències específiques (CE1–CE6)**; les files **TE** i **TA**
+  són **informatives** i **maticen** CE5/CE6 i CE1 (no són competències noves ni se sumen a part,
+  per no comptar dues vegades el mateix).
 
 > Relacionat amb: `Criteris_i_qualificacio.md` (§2·bis i §4), les `Rubrica_SAx.md`,
 > `Diari_de_taller.md` (objectius personals) i `Avaluacio_inicial.md` (punt de partida).

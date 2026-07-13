@@ -7,6 +7,12 @@
 >
 > 🔎 Cada càpsula porta una **cerca suggerida** en comptes d'un enllaç fix: els vídeos van i
 > venen, la cerca sempre funciona. Valideu el resultat abans de projectar-lo.
+>
+> 👥 **Diversifiqueu els referents** (equitat, `Programació didàctica/Equitat_genere_STEAM.md`):
+> busqueu-hi **noms de dones, gent jove i persones properes** (una makerse d'e-NABLE, una
+> dissenyadora d'un ateneu de fabricació de Barcelona, i **alumnat de cursos anteriors** quan
+> en tingueu). Si tots els exemples que projectem són homes adults, ja estem ensenyant una
+> altra cosa.
 
 ## SA1 — El clauer · Qui no pot llegir el teu disseny?
 
@@ -42,7 +48,7 @@ persones amb mobilitat reduïda: obrir una ampolla, subjectar un llapis, girar u
 Peces de 20 grams que resolen problemes de cada dia.
 
 - 💬 *Penseu en algú que conegueu: quina petita peça 3D li faria la vida més fàcil?*
-- 🔎 Cerca: «assistive devices 3D printing Tinkercad» · «ajudes tècniques impressió 3D»
+- 🔎 Cerca: «ajudes tècniques impressió 3D e-NABLE» · «adaptadors impresos mobilitat reduïda»
 
 ## SA5 — La peça útil · Mans impreses per voluntaris
 
@@ -62,7 +68,7 @@ exactament la seva feina: detectar una necessitat real i iterar fins que la solu
 per a aquella persona — no per a vosaltres.
 
 - 💬 *Què li heu preguntat al vostre usuari que NO li hauríeu preguntat fa un mes?*
-- 🔎 Cerca: «Patricia Urquiola disseny industrial» · «design thinking observar usuari»
+- 🔎 Cerca: «Patricia Urquiola entrevista procés de disseny» · «dissenyadora industrial catalana»
 
 ## SA7 — El tour 360 · Patrimoni que no es pot perdre
 

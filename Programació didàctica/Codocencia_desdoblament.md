@@ -24,6 +24,10 @@ Règim per defecte de cada sessió de 2 h:
 | 70'–115' | 💻 Aula ordinària | 🔧 Aula Maker |
 | 115'–120' | Tancament a l'espai on són: entrada al **diari de taller** | |
 
+> ⏱️ Els torns són de **50'** (1r) i **45'** (2n): dimensioneu les activitats d'estació al més
+> curt (45') i deixeu marge; qui comença per un espai o l'altre s'alterna cada setmana i ho
+> compensa. Quan aquest document diu «torn de 50'» de manera genèrica, val per als dos.
+
 **Per què intra-sessió i no alternança setmanal:**
 - Tothom toca màquines **cada setmana** (a 1r d'ESO, una setmana "sense Maker" desmotiva).
 - Els dos grups avancen **sincronitzats** dins la mateixa SA: una sola programació.

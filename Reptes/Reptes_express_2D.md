@@ -12,9 +12,12 @@
 | 5 | Fes un **patró** repetint una forma 9 vegades alineades | ⭐⭐ | Duplicar, alinear, distribuir |
 | 6 | Crea una forma nova usant **diferència** entre dues figures | ⭐⭐ | Operacions de camí |
 | 7 | **Vectoritza** una imatge senzilla (logo, icona) | ⭐⭐ | Traçat de mapa de bits |
-| 8 | Dissenya una **peça amb encaix** (ranura del gruix de la fusta) | ⭐⭐⭐ | Unions, kerf |
-| 9 | Crea un **calat** decoratiu (patró buidat) per a una làmpada | ⭐⭐⭐ | Camins compostos |
-| 10 | Dissenya un **engranatge** senzill | ⭐⭐⭐ | Geometria, precisió |
+| 8 | Dissenya una **peça amb encaix** (ranura del gruix de la fusta) | ⭐⭐⭐ (des de SA3) | Unions, kerf |
+| 9 | Crea un **calat** decoratiu (patró buidat) per a una làmpada | ⭐⭐⭐ (des de SA3) | Camins compostos |
+| 10 | Dissenya un **engranatge** senzill | ⭐⭐⭐ (des de SA3) | Geometria, precisió |
+
+> 💡 Els reptes ⭐⭐⭐ marcats **«des de SA3»** fan servir coses (encaixos, kerf) que s'aprenen a
+> la SA3: tria'ls quan ja hi hagis arribat; abans, ves als ⭐/⭐⭐.
 
 ## Reptes "llampec" (mentre s'espera torn de màquina)
 - Redueix el teu disseny per **gastar menys material** sense perdre la idea. ♻️
