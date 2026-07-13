@@ -16,13 +16,25 @@ encaixin**. Trieu un tipus:
 - Idea triada i **per què**: ____________________
 
 ## Fase 2 — Planificar
-- Llista de peces i mides:
-  | Peça | Quantitat | Mida (mm) | Tall/Gravat |
-  |------|:--------:|-----------|-------------|
-  | | | | |
-  | | | | |
-- Material: __________   Gruix: ____ mm   (important per a les unions!)
-- Repartiment de tasques: ____________________
+
+**El material** (important per a les unions!):
+
+- Material: ______________
+- Gruix real (mesurat amb el peu de rei): ______ mm
+
+**Les peces** — apunteu cada peça de l'objecte, amb la quantitat i la mida:
+
+| Peça | Quantitat | Mida (mm) | Què hi va: tall / gravat |
+|------|:--------:|-----------|--------------------------|
+| *Ex.: base* | *1* | *120 × 80* | *contorn (tall) + nom (gravat)* |
+| | | | |
+| | | | |
+| | | | |
+
+**Qui fa què** (repartiment de tasques i signatura de peça):
+
+- ______________________ → ______________________
+- ______________________ → ______________________
 
 ## Fase 3 — Dissenyar (Inkscape)
 
