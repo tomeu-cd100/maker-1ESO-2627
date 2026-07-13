@@ -35,9 +35,10 @@ converteix en línies que la màquina pot tallar i gravar.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
 - [ ] El meu marcapàgines té forma, missatge i imatge vectoritzada.
+- [ ] He creat almenys **una forma nova amb una operació de camí** (unió o diferència) i puc dir quina.
 - [ ] El text està **convertit a camí**.
 - [ ] Les capes tall/gravat són correctes.
-- [ ] He aprofitat bé la planxa (poc malbaratament).
+- [ ] He **aprofitat bé la planxa**: entre el meu disseny i el del costat hi ha ≤10 mm.
 
 ## 🔑 Vocabulari clau (word wall)
 `node` · `camí` · `operació booleana` · `vectoritzar` · `capa` · `ompliment` · `nesting (aprofitar la planxa)`

@@ -34,11 +34,11 @@ a alumnat nou de 6è de primària…).
 - Respectar els drets d'imatge.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
-- [ ] Les meves captures són estables i ben il·luminades.
+- [ ] Les meves captures compleixen els **3 checks**: horitzó recte · cap zona borrosa ·
+  es distingeixen els detalls de les zones fosques (i ningú no hi surt sense voler-ho).
 - [ ] El tour es pot navegar i té títols/etiquetes.
 - [ ] He demanat permisos i respectat la privadesa.
-- [ ] El tour s'ha **publicat i lliurat a l'audiència real** (web del centre / QR / jornada de
-  portes obertes).
+- [ ] El tour queda **a punt de publicar**: revisat de drets d'imatge i amb el QR generat.
 - [ ] He documentat el procés.
 
 ## 🔑 Vocabulari clau (word wall)

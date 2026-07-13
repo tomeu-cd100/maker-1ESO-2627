@@ -42,9 +42,10 @@ encaix (*kerf* / joints) i el treball en equip.
 - [ ] Les peces encaixen i l'objecte fa la seva funció.
 - [ ] Hem millorat el prototip almenys una vegada (iteració).
 - [ ] Hem presentat el projecte amb claredat.
+- [ ] **Puc ensenyar LA MEVA peça o tasca** i explicar com la vaig fer (la meva «signatura»).
 
 ## 🔑 Vocabulari clau (word wall)
-`procés tecnològic` · `requisit` · `prototip` · `iteració` · `unió per encaix` · `kerf (amplada de tall)` · `rol d'equip`
+`procés tecnològic` · `requisit` · `prototip` · `iteració` · `unió per encaix` · `kerf (amplada de tall)` · `rol d'equip` · `portafoli`
 
 ## 2. Competències específiques i criteris avaluats
 

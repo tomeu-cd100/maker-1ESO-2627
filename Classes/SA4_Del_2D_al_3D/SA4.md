@@ -34,13 +34,14 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
 - [ ] El meu model combina ≥3 cossos i ≥1 forat.
-- [ ] Té gruix suficient per no trencar-se.
-- [ ] He comprovat les mides: fa **com a màxim ~50 mm** i s'imprimiria pla, **sense suports**
-  (així cap al *batch* de placa amb els dels companys).
+- [ ] Té **gruix ≥3 mm** perquè no es trenqui.
+- [ ] He comprovat les mides: fa **com a màxim ~50 mm** i s'imprimiria **pla i sense suports**
+  (mirant-lo de costat, res no sobresurt en l'aire per sota) — així cap al *batch* de placa.
 - [ ] L'he exportat en **STL**.
+- [ ] ⭐ *Ampliació:* el meu nom o inicial **en relleu**.
 
 ## 🔑 Vocabulari clau (word wall)
-`volum` · `eix X/Y/Z` · `cos` · `buit (forat)` · `agrupar` · `escala` · `STL`
+`volum` · `eix X/Y/Z` · `cos` · `buit (forat)` · `agrupar` · `escala` · `STL` · `batch de placa (molts models, una impressió)`
 
 ## 2. Competències específiques i criteris avaluats
 

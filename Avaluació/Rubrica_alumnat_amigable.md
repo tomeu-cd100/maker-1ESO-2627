@@ -41,6 +41,7 @@
 |--|----------|-----------|--------------|-------------|
 | **Seguretat** | Encara no respecto les normes | Les respecto si m'ho recorden | Respecto les normes | Vetllo també per la seguretat dels altres |
 | **Material** | Encara malgasto material | El cuido amb ajuda | Aprofito el material | Aprofito i proposo no malgastar |
+| **Drets d'imatge i llicències** | Encara no hi penso | Ho tinc en compte si m'ho recorden | Demano permís i faig servir imatges/material que puc fer servir | Demano permís, cito d'on ho trec i sé explicar per què |
 
 ## Equip just i penso en qui ho farà servir (transversals)
 | | 🌱 Començo | 🙂 Ho faig | 💪 Ho faig bé | 🌟 Ho domino |
@@ -48,6 +49,9 @@
 | **Tothom hi participa (TE)** | Sempre fan servir les màquines els mateixos | Hi participo si m'ho diuen | Passo per tots els rols, també les màquines | M'asseguro que tothom de l'equip hi participi |
 | **Penso en qui ho farà servir (TA)** | Encara no hi penso | Hi penso una mica | Penso en una persona concreta i què necessita | Ho provo amb ella i ho milloro |
 
-> **Com l'uso:** al final de cada SA, marca on et trobes en cada fila i posa't **un objectiu**
-> per a la propera ("la propera vegada vull passar de 🙂 a 💪 en…"). **Escriu-lo al tancament
-> del diari de taller** (🎯): el recuperaràs a l'inici de la propera SA.
+> **Com l'uso:** al final de cada SA, marca on et trobes **només a les files que hem
+> treballat en aquesta SA** (les trobaràs a la teva fitxa, a «Com m'avaluaran?») i posa't
+> **un objectiu** per a la propera ("la propera vegada vull passar de 🙂 a 💪 en…").
+> **Escriu-lo al tancament del diari de taller** (🎯): el recuperaràs a l'inici de la propera SA.
+>
+> ✅ Aquesta és la **teva única autoavaluació de tancament**: no cal repetir-la en un altre full.

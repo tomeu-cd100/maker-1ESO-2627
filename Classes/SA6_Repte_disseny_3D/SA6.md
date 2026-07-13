@@ -38,11 +38,12 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 - Provar amb l'usuari i millorar.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
-- [ ] Hem entès la necessitat de l'usuari.
+- [ ] Hem escrit **≥3 requisits i ≥1 restricció** que surten de parlar amb (o observar)
+  l'usuari, no inventats.
 - [ ] Cada peça s'imprimeix en **menys d'1 h i amb menys de 40 g** (ho diu Bambu Studio) i
   hem repartit les peces al calendari d'impressió.
 - [ ] Les peces encaixen i la solució funciona.
-- [ ] Hem provat amb l'usuari i hem iterat.
+- [ ] Hem provat amb l'usuari i hem aplicat **almenys una millora** a partir del que ens ha dit.
 - [ ] Hem comunicat l'impacte de la solució.
 
 ## 🔑 Vocabulari clau (word wall)

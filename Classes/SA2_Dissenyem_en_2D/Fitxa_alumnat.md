@@ -18,8 +18,10 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 
 ## Planificació
 - Per a qui és el meu marcapàgines? ____________________
+- **Provo 2 idees** (esbós ràpid) i marco la que trio: ☐ idea 1 ☐ idea 2 — la trio perquè ____________________
 - Missatge/nom: ____________________
 - Imatge que vectoritzaré: ____________________
+- **Forma nova amb operació de camí** que faré servir: ☐ unió ☐ diferència — per fer ____________________
 
 ## El meu esbós
 📄 *En paper, reserva **mig full**: dibuixa gran i marca què és tall i què és gravat.*

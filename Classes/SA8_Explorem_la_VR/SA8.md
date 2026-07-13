@@ -35,9 +35,10 @@ escena 3D que es pot explorar amb les ulleres VR.
 - Explicar-la a altres.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
-- [ ] Compleixo el protocol d'ús de la VR.
-- [ ] He fet l'anàlisi crítica d'usos i riscos.
-- [ ] La nostra escena és explorable.
+- [ ] Compleixo el protocol d'ús de la VR (les 4 regles).
+- [ ] He fet l'anàlisi crítica: sé explicar **un benefici i un risc** de la VR.
+- [ ] La nostra escena és **explorable**: té com a mínim **3-4 objectes, un text i la càmera
+  ben posada** (⭐ AE: hi afegim una interacció amb codi).
 - [ ] He col·laborat i documentat.
 
 ## 🔑 Vocabulari clau (word wall)

@@ -3,10 +3,10 @@
 > Eines ràpides per fer visible l'aprenentatge i regular-lo **durant** el procés (no només al
 > final). Pensades per a sessions de 2 h. **Trieu-ne 1-2 per sessió; no cal usar-les totes.**
 >
-> ♻️ **Regla de la reflexió única:** el diari de taller ja és la reflexió de cada sessió. El
-> tiquet de sortida i la rutina de pensament **s'integren al diari** (ocupen una de les seves
-> preguntes), no s'hi sumen. Un alumne de 12 anys que fa tres reflexions el mateix dia acaba
-> no fent-ne cap de debò.
+> ♻️ **Regla de la reflexió única:** el diari de taller **compta com un dels 1-2 instruments**
+> de la sessió i ja és la reflexió del dia. El tiquet de sortida i la rutina de pensament
+> **s'integren al diari** (ocupen una de les seves preguntes), no s'hi sumen. Un alumne de 12
+> anys que fa tres reflexions el mateix dia acaba no fent-ne cap de debò.
 
 ## 1. Objectius i criteris d'èxit visibles (+ recuperació de l'objectiu personal)
 A l'inici de cada SA, projecteu/escriviu la **pregunta guia**, els **objectius** ("Seré capaç
@@ -20,18 +20,20 @@ tràmit; un que es recupera és un pla. El docent n'anota el seguiment al
 `Full_progres_competencial.md`.
 
 ## 2. Tiquet de sortida (exit ticket)
-Cada SA porta el seu tiquet de sortida. Format genèric ràpid (3-2-1):
-- **3** coses que he après · **2** coses que vull millorar · **1** dubte o pregunta.
+Cada SA porta el seu tiquet de sortida. Format ràpid **1-1-1** (per no convertir-lo en un
+tràmit d'escriure molt):
+- **1** cosa que he après · **1** cosa que vull millorar · **1** dubte o pregunta.
 Recolliu-los (paper o formulari) per ajustar la sessió següent.
 
-**Variant: termòmetre d'autonomia** (30 segons, dits o gomets, amb els nivells amigables
-🌱🙂💪🌟 que l'alumnat ja coneix de la rúbrica). Mesura *quanta ajuda he necessitat avui*:
-- 🌱 He necessitat ajuda contínua del docent per avançar.
-- 🙂 He seguit la fitxa, però m'he encallat en un punt i m'han hagut de desencallar.
-- 💪 M'he desencallat sol/a (amb `Recursos/Primers_auxilis_maker.md` o un company/a).
-- 🌟 He acabat el repte i, a més, he ajudat algú altre a desencallar-se.
+**Variant: termòmetre d'autonomia** (30 segons, dits 1-4 o gomets). Mesura *quanta ajuda he
+necessitat avui* amb una escala de graons 🪜 (⚠️ **això NO és el teu nivell d'assoliment**:
+mesura l'ajuda d'avui, no com de bé ho fas):
+- 🪜1 He necessitat ajuda contínua del docent per avançar.
+- 🪜2 He seguit la fitxa, però m'he encallat en un punt i m'han hagut de desencallar.
+- 🪜3 M'he desencallat sol/a (amb `Recursos/Primers_auxilis_maker.md` o un company/a).
+- 🪜4 He acabat el repte i, a més, he ajudat algú altre a desencallar-se.
 
-És el pols de l'autonomia del grup: si mig grup és 🌱 dues sessions seguides, toca revisar
+És el pols de l'autonomia del grup: si mig grup és 🪜1 dues sessions seguides, toca revisar
 la bastida (demo, guia, parelles), no córrer més.
 
 **Repàs espaiat fora de l'aula:** en tancar cada SA es publica al Classroom el seu

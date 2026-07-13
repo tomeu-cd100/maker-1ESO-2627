@@ -51,7 +51,7 @@
 **6. Què faré la propera sessió? / Què milloraria?**
 > *Per començar:* «La propera vegada provaré… / Milloraria…»
 
-**El meu nivell d'avui (autoavaluació ràpida):**  😟 NA  ·  🙂 AS  ·  😀 AN  ·  🤩 AE
+**Com he avançat avui (autoavaluació ràpida):**  🌱 Començo  ·  🙂 Ho faig  ·  💪 Ho faig bé  ·  🌟 Ho domino
 
 > 💡 *No cal escriure molt.* Una frase sincera per pregunta ja és una bona entrada. Si t'és més
 > fàcil, **grava-ho** en veu i enllaça l'àudio aquí.
@@ -85,7 +85,7 @@ Si «què he après?» et deixa en blanc, tria la frase del tipus de sessió d'a
 - **El que més m'ha agradat:**
 - **El que m'ha costat més:**
 - **Una cosa que faria diferent:**
-- **Nota que crec que mereixo i per què:**
+- **Quin nivell (🌱🙂💪🌟) crec que he demostrat i quina evidència ho prova:**
 - 🎯 **El meu objectiu per a la propera SA** (mira la teva rúbrica: què vols millorar?):
 
 > 🎯 *Aquest objectiu no es perd: el recuperaràs a l'inici de la propera SA («què faràs
