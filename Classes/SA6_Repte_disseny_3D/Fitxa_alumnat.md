@@ -8,9 +8,18 @@
 
 ## Fase 1 — Empatia (per a qui ho fem)
 - Qui ho farà servir? ____________________
-- Quina necessitat té? ____________________
-- Quins **requisits** ha de complir la solució? ____________________
-- Restriccions (mida màxima, material, temps): ____________________
+
+> 🎤 **Parla amb la persona (o observa-la) i pregunta-li** — els requisits reals surten d'aquí,
+> no de la nostra imaginació:
+> 1. «Què et costa fer, d'això?» → ____________________
+> 2. «Ensenya-m'ho fent-ho» (mira-la i apunta què veus) → ____________________
+> 3. «De quina mida hauria de ser? On l'has de posar?» → ____________________
+> 4. «Què NO ha de passar mai?» (la restricció) → ____________________
+
+- Quins **requisits** (≥3) surten del que ens ha dit/hem vist? 1) ______ 2) ______ 3) ______
+- Restricció (≥1): mida màxima / material / temps: ____________________
+- 🔒 **Restricció fixa del curs** (tingueu-la present ja ara, en idear i repartir peces):
+  **cada peça < 1 h i < 40 g** a la impressora.
 
 ## Fase 2 — Idear i repartir
 - Idees considerades: 1) __________  2) __________  3) __________

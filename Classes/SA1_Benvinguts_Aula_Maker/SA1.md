@@ -113,12 +113,21 @@ i acotat en paper. Qui té el plànol clar, la setmana que ve el digitalitza en 
 > que expliqui alguna cosa de tu.
 
 ### Sessió 2 — Digitalitzar el disseny amb Inkscape (2 h)
-1. **Demo Inkscape (30')**: obrir, llenç, formes bàsiques, afegir text, mida en mm.
-2. **Digitalització guiada (60')**: cada alumne/a **passa el seu esbós de paper a Inkscape**
+
+> 💻 **És el primer dia amb Chromebook.** Massa novetats de cop (dispositiu + Inkscape + capes
+> + noms de fitxer + Drive) encallen la sessió: per això comencem per l'arrencada, a poc a poc.
+
+1. **Arrenca i troba la teva carpeta (15')**: encendre el Chromebook, iniciar sessió, **obrir
+   el Drive de l'equip** i localitzar la carpeta `SA1/`. Tothom hi deixa un fitxer de prova
+   perquè sàpiga tornar-hi. (Aquest és l'únic objectiu d'aquests 15 min: que ningú es perdi
+   buscant la carpeta la resta del curs.)
+2. **Demo Inkscape (25')**: obrir, llenç, formes bàsiques, afegir text, mida en mm.
+3. **Digitalització guiada (55')**: cada alumne/a **passa el seu esbós de paper a Inkscape**
    — les decisions ja estan preses, ara toca l'eina. Mides reals de l'esbós acotat.
-3. **Preparació per a làser (20')**: concepte de **capes** — línia fina de tall (vermell) i
+4. **Preparació per a làser (15')**: concepte de **capes** — línia fina de tall (vermell) i
    gravat (negre/ompliment), com al paper. El docent revisa cada fitxer.
-4. **Tancament (10')**: diari de taller.
+5. **Desar bé i tancament (10')**: **Anomena i desa** `ElMeuNom_SA1_v1.svg` a la carpeta de la
+   SA (demo curta del docent) + diari de taller.
 
 > ⏸️ **Mínim d'avui** (per a qui va lent): forma base + nom + forat, amb capes revisades — el
 > detall decoratiu és ampliació. Qui té el mínim, fabrica a la sessió 3 com tothom.

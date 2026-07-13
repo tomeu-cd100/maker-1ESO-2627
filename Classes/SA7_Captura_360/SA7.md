@@ -80,21 +80,32 @@ a alumnat nou de 6è de primària…).
 
 ### Sessió 2 — Captura al centre (2 h)
 1. **Preparació (15')**: rutes i responsabilitats per equips; **full de reserva de torns** de
-   càmera públic (cap equip surt sense pla de captura escrit).
-2. **Captura per torns rotatius (85')**: ⏱️ amb **1 sola càmera** per a 6-7 equips, cada equip
-   té un torn de **~12 min** (temporitzador visible). Mentrestant, la resta treballa a les
-   **estacions**: guió i redacció d'etiquetes del tour · transferència i selecció de les
-   captures ja fetes · repte immersiu (`Reptes/Reptes_immersius_360_VR.md`). Vegeu la rotació
+   càmera públic (cap equip surt sense pla de captura escrit). **Assigneu espais propers**
+   (ruta de <2' des de l'aula) perquè el torn sigui de captura, no de passadís.
+2. **Captura per torns rotatius (85')**: ⏱️ amb **1 sola càmera** i el règim de desdoblament,
+   **~3 equips per torn** amb **~15 min** cadascun (temporitzador visible). **Un dels dos
+   docents acompanya sempre l'equip de captura** (menors fora de l'aula amb material car i
+   captant imatges): per això les estacions de l'aula han de ser **autònomes**. Mentrestant, la
+   resta treballa a les **estacions**: guió i etiquetes del tour · transferència i selecció de
+   les captures ja fetes · repte immersiu (`Reptes/Reptes_immersius_360_VR.md`). Rotació
    completa a `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5. Estabilitat, llum,
-   sense gent no autoritzada al pla; repeticions si cal.
+   màxim **2 espais per torn**; sense gent no autoritzada al pla.
 3. **Posada en comú i selecció final (20')**: cada equip tria les seves millors captures.
 
 > ⏸️ **Mínim d'avui**: cada equip té **2 espais capturats i utilitzables** (estables, sense
 > persones no autoritzades) — més espais és ampliació; amb 2 escenes ja es munta un tour
 > navegable a la sessió 3.
+>
+> 🅱️ **Pla B si la càmera 360 falla** (bateria, targeta): mode **«photo sphere»** de la tauleta
+> o el mòbil del centre (l'app de Street View fa fotos 360 prou bones per al tour), o un **banc
+> d'imatges 360 lliures** ja descarregades. El tour es pot muntar igual: cap equip es queda
+> sense evidència.
 
 ### Sessió 3 — Muntatge, publicació i visualització (2 h)
-1. **Muntar el tour (60')**: enllaçar les escenes amb punts de navegació; títols/etiquetes.
+0. **Demo del muntatge (15')**: el docent mostra els **5 passos** per fer el tour a CoSpaces
+   (crear escena → posar la foto 360 de fons → afegir un punt de navegació a la següent →
+   títol/etiqueta → provar-lo). Xuleta de 5 passos a `Recursos/Guions_de_demo.md` (Demo 10).
+1. **Muntar el tour (45')**: enllaçar les escenes amb punts de navegació; títols/etiquetes.
 2. **Publicació (10')**: el tour es **lliura de veritat a l'audiència** — es penja a la web
    del centre i/o es genera un **codi QR** per a l'entrada i la jornada de portes obertes
    (coordinació TIC). ⚠️ Si l'audiència anunciada («famílies, alumnat de 6è») no rep mai el
@@ -119,7 +130,12 @@ portes obertes o visita de 6è) + visualització VR + documentació del procés.
 
 ## 7. Recursos i materials
 - 🎬 Càpsula «Inspira't»: **Patrimoni que no es pot perdre (Ullastret en VR)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA7.
-- **Càmera 360** + trípode/perxa; ordinadors; ulleres VR; programari/visor de tours.
+- **Càmera 360** + trípode/perxa; ordinadors; ulleres VR.
+- **Eina de muntatge del tour: CoSpaces Edu** (la mateixa que s'aprofundeix a SA8): cada foto
+  360 es posa com a **fons d'escena** i s'enllacen les escenes amb punts de navegació. Així
+  l'alumnat estrena CoSpaces aquí (tour senzill) i a SA8 hi afegeix interacció. *Alternativa
+  sense CoSpaces:* Marzipano (web, sense compte) o H5P «Virtual Tour (360)» si el centre té
+  Moodle. **La demo de l'eina és a `Recursos/Guions_de_demo.md` (Demo 10).**
 - **Full de reserva de torns de càmera imprimible** (1 full per sessió, amb les 4 regles del
   rodatge): portal docent de la web, secció «Impressos». Rotació d'estacions:
   `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §5. Carnet 🟢:

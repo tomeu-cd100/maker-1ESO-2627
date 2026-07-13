@@ -24,9 +24,21 @@ encaixin**. Trieu un tipus:
 - Repartiment de tasques: ____________________
 
 ## Fase 3 — Dissenyar (Inkscape)
+
+> 🧩 **Com dibuixo una ranura que encaixi** (pas a pas):
+> 1. Mesura el **gruix real** de la fusta amb el peu de rei (sovint 3 mm són 2,7!). Gruix = ____ mm.
+> 2. Dibuixa un **rectangle**: amplada = el gruix mesurat · alçada = fins on ha d'entrar la peça.
+> 3. **Duplica'l** (Ctrl+D) per fer la ranura de l'altra peça: així totes dues coincideixen.
+> 4. **Alinea** la ranura amb la vora de la peça (eina d'alineació, no a ull).
+> 5. Fes la **mostra d'encaix** (2 peces petites) i talla-la **abans** de tallar tot el projecte:
+>    si la ranura de 3,0 mm queda fluixa, és el **kerf** — ajusta el disseny.
+
 - [ ] Totes les peces dibuixades   - [ ] Unions a l'amplada del gruix
 - [ ] Capes tall/gravat   - [ ] **Mostra d'encaix** provada abans de tallar-ho tot
 - Kerf mesurat a la mostra: hem dibuixat ____ mm i ha quedat ____ mm → el làser es menja ____ mm
+
+> 🚦 Abans de tallar el projecte sencer: passeu el **semàfor de fabricació**
+> (`Recursos/Semafor_maker.md`) — mides reals, capes vermell/negre, i nom `Equip_SA3_vN.svg`.
 
 ## Fase 4 — Muntar i millorar
 - L'encaix ha funcionat a la primera? Sí / No → Què hem canviat? ____________________

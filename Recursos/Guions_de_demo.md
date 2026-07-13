@@ -8,6 +8,10 @@
 > Regles d'or de tota demo: **projectada i curta** (el temps indicat és un màxim), l'alumnat
 > **mira sense teclat** (les mans venen després), i acabes sempre amb la frase clau escrita
 > a la pissarra. Els tutorials per ampliar són a `Enllacos_i_tutorials.md`.
+>
+> Són **10 demos**: les 8 de tècnica de disseny/captura + la **9** (SVG→XCS→làser, el moment
+> del carnet 🔴) i la **10** (muntar el tour), els dos passos amb màquina/publicació que abans
+> quedaven sense guió.
 
 ---
 
@@ -130,6 +134,38 @@ captures caminant.
 **L'error que veuràs segur:** equips que passen 40 minuts triant objectes sense col·locar la
 càmera — l'escena «gran» que no s'acaba.
 **La frase que ha de quedar:** «Petit i acabat guanya gran i a mitges.»
+
+## Demo 9 — De l'SVG a la làser amb XCS (setmana 5 · SA1 · màx. 15')
+
+**Prepara:** el fitxer `ElTeuNom_SA1_v1.svg` d'un alumne; la xTool S1 i XCS oberts i projectats.
+**El guió:**
+1. **Importa l'SVG** a XCS. Comprova que la **mida** és la de veritat (mm), no s'ha escalat.
+2. Assigna els **modes** per color: el **vermell** = *Tallar*; el **negre** = *Gravar*. «El
+   color que vam triar a Inkscape aquí es converteix en l'ordre a la màquina.»
+3. **Enquadra** sobre el material (marc de posició/*framing*): la peça ha de caure damunt la
+   planxa, no fora. Comprova la posició amb la llum de referència.
+4. Materials i seguretat: material de la llista verda, tapa tancada, ventilació. **Botó
+   d'aturada localitzat.** (És el contingut del carnet 🔴.)
+5. **Enviar**: primer una peça de prova o el batch del torn. Ningú es queda sol amb la màquina.
+**L'error que veuràs segur:** l'SVG importat a una mida diferent (s'ha escalat) i colors mal
+assignats (tot a gravar, o el gravat a tallar). Ensenya a comprovar mida i modes **abans** d'enviar.
+**La frase que ha de quedar:** «El vermell talla i el negre grava — també dins la màquina.»
+
+## Demo 10 — Muntar i publicar el tour (setmana 28 · SA7 · màx. 15')
+
+**Prepara:** CoSpaces obert amb **2 fotos 360** ja transferides; una escena d'exemple mig feta.
+**El guió (els 5 passos del tour):**
+1. **Escena nova** → posa la **foto 360 com a fons** (entorn 360 / *360 image*). «Ara ets dins
+   la foto: gira i mira al voltant.»
+2. Crea una **segona escena** amb l'altra foto.
+3. Afegeix un **punt de navegació** (un objecte/fletxa) que porti de l'escena 1 a la 2. «Això
+   és el que fa que el visitant pugui passejar.»
+4. Posa un **títol/etiqueta** a cada escena (on som).
+5. **Prova-ho** en pantalla i digues on es revisen els **drets d'imatge** abans de publicar, i
+   com es genera el **QR** (coordinació TIC).
+**L'error que veuràs segur:** equips que fan una escena preciosa però **sense punt de
+navegació** (no es pot passejar) i títols oblidats.
+**La frase que ha de quedar:** «Un tour és escenes connectades: la fletxa és el que el fa tour.»
 
 ---
 

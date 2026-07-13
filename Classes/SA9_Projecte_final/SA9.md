@@ -40,9 +40,11 @@ la culminació, oberta també a altres grups i a l'alumnat de 6è.
 
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
 - [ ] L'estand combina un objecte fabricat i una experiència immersiva.
-- [ ] Hem complert el pla de projecte.
-- [ ] La presentació a la Fira és clara i atractiva.
-- [ ] El portafoli final està complet.
+- [ ] Hem complert el pla de projecte (la taula de calendari de la fitxa).
+- [ ] Tenim un **guió de presentació d'1-2 min** (salutació · què és · com ho hem fet ·
+  invitació) i l'hem assajat.
+- [ ] El **portafoli final** té: 1 evidència de cada trimestre amb reflexió + la fitxa i el
+  diari de SA9 + «El meu viatge maker».
 
 ## 🔑 Vocabulari clau (word wall)
 `projecte integrador` · `planificació` · `fita` · `portafoli` · `audiència` · `transferència`
@@ -82,13 +84,20 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
 > els objectes secundaris poden esperar; el que no s'envia avui potser ja no arriba a la Fira.
 
 ### Sessió 3 — Component immersiu (2 h)
-1. **Crear el 360/VR (100')**: tour de l'espai del tema o escena VR explicativa.
+1. **Crear el 360/VR (100')**: tour de l'espai del tema o escena VR explicativa. ♻️ **Partiu del
+   tour de SA7 o de l'escena de SA8** i adapteu-los al tema — no es comença de zero (per això
+   cap en 100').
 2. **Diari (20')**.
+
+> ⏸️ **Mínim d'avui**: component immersiu **explorable** (2 escenes 360 enllaçades, o una escena
+> VR amb 3 objectes + text). Amb això, l'estand ja té la seva part immersiva.
 
 ### Sessió 4 — Muntatge final i assaig (2 h)
 1. **Integració (70')**: muntar l'estand (objectes + dispositiu per veure el component immersiu).
 2. **Assaig de presentació (40')**: guió, repartiment, prova amb les ulleres.
 3. **Diari (10')**.
+
+> ⏸️ **Mínim d'avui**: estand **muntat i retolat** + **guió repartit per veus** i assajat un cop.
 
 ### Sessió 5 — FIRA AULA MAKER + tancament de curs (2 h)
 1. **Fira (70')**: els equips exposen; visitants (altres grups/famílies) recorren els estands.

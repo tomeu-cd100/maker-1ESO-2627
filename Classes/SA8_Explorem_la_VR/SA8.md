@@ -85,9 +85,18 @@ escena 3D que es pot explorar amb les ulleres VR.
 5. **Diari (5')**.
 
 ### Sessió 2 — Crear, provar i avaluar l'escena (2 h)
-1. **Demo CoSpaces (20')**: crear escena, afegir i moure objectes, càmera, "play" en VR.
+1. **Demo CoSpaces (20')**: crear escena, afegir i moure objectes, càmera, "play" en VR
+   (guió: `Recursos/Guions_de_demo.md` Demo 8).
 2. **Construcció en equip (55')**: cada membre construeix la seva part del tema acordat;
    qui va ràpid afegeix interaccions ⭐ amb blocs de codi.
+
+> 🅱️ **Pla B si CoSpaces no va** (xarxa, comptes): fer l'**storyboard de l'escena en paper**
+> (quins objectes, on, quin recorregut i quin text) — és la mateixa planificació i és evidència
+> vàlida; es passa a CoSpaces quan el servei torni. Per a la visualització, **banc d'imatges
+> 360 lliures** ja descarregades.
+> ⚠️ *Requisit:* les interaccions ⭐ amb blocs (CoBlocks) i el treball simultani en grup
+> demanen la **llicència Pro** de CoSpaces (o la prova docent activada la setmana abans); amb el
+> pla Basic, cada alumne construeix la seva escena i el mínim es fa igual.
 
 > ⏸️ **Mínim d'avui**: escena amb **3-4 objectes, un text i la càmera ben posada**, explorable
 > de principi a fi — les interaccions i el detall són ampliació (Gran Idea 2: petit i acabat).

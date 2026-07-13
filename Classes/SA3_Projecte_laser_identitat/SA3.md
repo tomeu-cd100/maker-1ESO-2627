@@ -106,6 +106,9 @@ encaix (*kerf* / joints) i el treball en equip.
 1. **Fira de productes (60')**: cada equip presenta (problema, solució, procés, millores) —
    **oberta a les famílies**: és la **primera Fira trimestral** del curs (invitacions enviades
    2 setmanes abans; els visitants entren a l'aula Maker en grups de ≤10, com a la Fira final).
+   > 🅱️ **Pla B per a un equip amb l'objecte inacabat:** presenta el **prototip + la mostra
+   > d'encaix + què falta i per què**. El procés també és producte: ningú «suspèn en públic»
+   > per una peça que encara no ha sortit de la cua.
 2. **Coavaluació (30')**: `Avaluació/Autoavaluacio_coavaluacio.md`.
 3. **Tancament de trimestre (30')**: portafoli, autoavaluació, recollida del diari.
 

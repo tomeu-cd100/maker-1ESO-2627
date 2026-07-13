@@ -73,7 +73,10 @@ repositori** (política de la carpeta `Recursos/`: material de tercers, només e
 - Programari i guies **segons el model concret** de la càmera del centre (consulteu el web del
   fabricant). Anoteu aquí el model i l'enllaç:
   - Model de la càmera 360 del centre: ____________________
-  - App/programari: ____________________
+  - App/programari de la càmera: ____________________
+- **Muntatge del tour: CoSpaces Edu** (foto 360 com a fons d'escena + punts de navegació) — la
+  mateixa eina de SA8. Demo pas a pas: `Recursos/Guions_de_demo.md` (Demo 10). *Alternatives
+  sense compte CoSpaces:* Marzipano (web) o H5P «Virtual Tour (360)» (si el centre té Moodle).
 
 ## ✅ Com mantenir aquesta llista
 - Revisa-la a inici de curs (els enllaços i versions canvien).

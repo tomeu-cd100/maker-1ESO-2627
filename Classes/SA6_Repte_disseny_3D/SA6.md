@@ -103,6 +103,10 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 ### Sessió 4 — Muntatge, proves i iteració (2 h)
 1. **Postprocés i muntatge (60')**.
 2. **Proves amb l'usuari (40')**: provar la solució; recollir *feedback*; iterar.
+   > 🅱️ **Pla B si l'usuari no pot venir a classe:** feu la prova **delegada** entre la S3 i la
+   > S4 (algú de l'equip li ensenya i grava un **àudio/vídeo/foto** del que diu — és evidència
+   > vàlida), o proveu-ho amb un **usuari-proxy** amb les mateixes mides/necessitat. La
+   > reimpressió de la millora va a la **cua fora d'horari**, no cal fer-la a classe.
 3. **Preparar presentació (20')**.
 
 ### Sessió 5 — 🎪 Fira de mostres del T2 (2 h)
