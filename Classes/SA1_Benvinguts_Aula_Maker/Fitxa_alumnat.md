@@ -11,26 +11,19 @@ Dissenya i fabrica el **teu clauer personalitzat** a la talladora làser. Ha de 
 - Mida orientativa: **60 × 25 mm** (no més gran que la palma de la mà)
 
 ## Dia 1 — El meu esbós EN PAPER (abans de tocar l'ordinador)
-📄 Aquest dia **encara no fem servir l'ordinador**: dissenyem el clauer amb el llapis. Fes servir
-el **full de disseny imprès** [`impressos/clauer_paper_SA1.html`](../../impressos/clauer_paper_SA1.html)
-(o dibuixa gran en mig full): dibuixa la forma **a mida real**, apunta les mides i **marca amb
+📄 Aquest dia **encara no fem servir l'ordinador**: dissenyem el clauer amb el llapis, a mida
+real, sobre el **full de disseny imprès**. Dibuixa la forma, apunta les mides i **marca amb
 colors què és tall (vermell) i què és gravat (negre)**. L'esbós en paper és pensar amb el llapis,
 no un tràmit!
-```
-+------------------------------------------+
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-+------------------------------------------+
-```
+
+<img src="Recursos/imatges/clauer_paper_SA1_full.png" alt="Full de disseny del clauer en paper (SA1): codi de colors, ruta del dissenyador i zona de proves" style="width:100%;max-width:520px;border:1px solid var(--line);border-radius:8px">
+
+🖨️ **Full imprimible:** [`impressos/clauer_paper_SA1.html`](../../impressos/clauer_paper_SA1.html)
+(el docent te'l dona en paper; té la ruta de disseny i el tauler mil·limetrat a mida real).
 
 ## Dia 2 — Del paper a la pantalla (Inkscape)
 Ara que ja tens l'esbós decidit, el passes a l'ordinador. Les decisions ja estan preses!
+
 1. Obre Inkscape i fixa el document en **mm**.
 2. Dibuixa la forma base amb l'eina rectangle/el·lipse.
 3. Afegeix el teu **nom** amb l'eina text.
