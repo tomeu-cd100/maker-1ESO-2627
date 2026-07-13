@@ -12,7 +12,7 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 - [ ] Capes correctes: **tall** (contorn) i **gravat** (text + imatge)
 
 <figure style="margin:1.2rem 0;text-align:center">
-  <img src="Recursos/Plantilles_disseny/marcapagines_SA2.svg" alt="Marcapàgines d'exemple, 50×150 mm: contorn i forat de la borla en vermell (tall); missatge, imatge i marc en negre (gravat)." style="height:260px;max-width:100%;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.6rem">
+  <img src="Recursos/Plantilles_disseny/marcapagines_SA2_horitzontal.svg" alt="Marcapàgines d'exemple (150×50 mm, horitzontal): contorn i forat de la borla en vermell (tall); missatge, imatge i marc en negre (gravat)." style="width:100%;max-width:640px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem">
   <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.4rem">👀 <strong>Un exemple fet</strong> (el teu serà diferent!): contorn i forat de la borla en <strong style="color:#d33">vermell</strong> (tall); missatge, imatge i marc en <strong>negre</strong> (gravat).</figcaption>
 </figure>
 
