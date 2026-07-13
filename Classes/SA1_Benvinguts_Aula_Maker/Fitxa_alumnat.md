@@ -10,7 +10,27 @@ Dissenya i fabrica el **teu clauer personalitzat** a la talladora làser. Ha de 
 - [ ] Un forat per a l'anella (mín. 4 mm de diàmetre)
 - Mida orientativa: **60 × 25 mm** (no més gran que la palma de la mà)
 
-## Pas a pas amb Inkscape
+## Dia 1 — El meu esbós EN PAPER (abans de tocar l'ordinador)
+📄 Aquest dia **encara no fem servir l'ordinador**: dissenyem el clauer amb el llapis. Fes servir
+el **full de disseny imprès** [`impressos/clauer_paper_SA1.html`](../../impressos/clauer_paper_SA1.html)
+(o dibuixa gran en mig full): dibuixa la forma **a mida real**, apunta les mides i **marca amb
+colors què és tall (vermell) i què és gravat (negre)**. L'esbós en paper és pensar amb el llapis,
+no un tràmit!
+```
++------------------------------------------+
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
+|                                          |
++------------------------------------------+
+```
+
+## Dia 2 — Del paper a la pantalla (Inkscape)
+Ara que ja tens l'esbós decidit, el passes a l'ordinador. Les decisions ja estan preses!
 1. Obre Inkscape i fixa el document en **mm**.
 2. Dibuixa la forma base amb l'eina rectangle/el·lipse.
 3. Afegeix el teu **nom** amb l'eina text.
@@ -28,22 +48,6 @@ Dissenya i fabrica el **teu clauer personalitzat** a la talladora làser. Ha de 
 
 > 🚦 I el fitxer, a punt? Passa el **semàfor de fabricació** (`Recursos/Semafor_maker.md`):
 > mides reals · capes i colors · nom i destí. Cap fitxer va a la làser sense les 3 llums en verd.
-
-## El meu esbós (dibuixa'l abans de fer-lo digital)
-📄 *Si la fitxa és en paper, reserva-hi **mig full**: dibuixa gran, apunta les mides i marca
-què és tall i què és gravat. L'esbós en paper és pensar amb el llapis, no un tràmit!*
-```
-+------------------------------------------+
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-|                                          |
-+------------------------------------------+
-```
 
 ## Reflexió final
 - El meu clauer ha quedat: ⭐⭐⭐⭐⭐ (encercla)
