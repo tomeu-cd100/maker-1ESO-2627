@@ -11,6 +11,9 @@
   --code-bg: #f0eefc;
   --shadow: 0 3px 14px rgba(108, 76, 255, .12);
   --radius: 14px;
+  --tri1: #d93829;
+  --tri2: #c97a12;
+  --tri3: #1f8a4c;
 }
 :root[data-theme="dark"] {
   --bg: #14152a;
@@ -23,12 +26,16 @@
   --line: #33345a;
   --code-bg: #23244a;
   --shadow: 0 3px 14px rgba(0, 0, 0, .45);
+  --tri1: #ff6b5b;
+  --tri2: #f0a63e;
+  --tri3: #3fc47b;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
     --bg: #14152a; --bg-card: #1e2040; --ink: #f0f0ff; --ink-soft: #a2a3c8;
     --accent: #8a6dff; --accent-soft: #2a2550; --amber: #ff70b0; --line: #33345a; --code-bg: #23244a;
     --shadow: 0 3px 14px rgba(0, 0, 0, .45);
+    --tri1: #ff6b5b; --tri2: #f0a63e; --tri3: #3fc47b;
   }
 }
 
@@ -148,8 +155,37 @@ th, td { border: 1px solid var(--line); padding: .5rem .7rem; text-align: left; 
 th { background: var(--accent-soft); }
 tr:nth-child(even) td { background: color-mix(in srgb, var(--bg-card) 60%, var(--bg)); }
 
-li.task { list-style: none; margin-left: -1.2rem; }
-li.task.done { color: var(--ink-soft); }
+li.task-item { list-style: none; margin-left: -1.2rem; }
+li.task-item.done { color: var(--ink-soft); }
+.task-label {
+  display: flex; align-items: flex-start; gap: .55rem; cursor: pointer;
+}
+.task-check { margin-top: .2rem; width: 1.15rem; height: 1.15rem; flex-shrink: 0; accent-color: var(--accent); }
+.task-item.completed .task-text { color: var(--ink-soft); text-decoration: line-through; }
+
+/* codificació visual per trimestre (T1 làser/2D, T2 3D, T3 immersiu/VR) */
+.card.sa[data-trim="1"] { border-left: 4px solid var(--tri1); }
+.card.sa[data-trim="2"] { border-left: 4px solid var(--tri2); }
+.card.sa[data-trim="3"] { border-left: 4px solid var(--tri3); }
+.badge-t1 { background: color-mix(in srgb, var(--tri1) 18%, var(--bg-card)); color: var(--tri1); }
+.badge-t2 { background: color-mix(in srgb, var(--tri2) 18%, var(--bg-card)); color: var(--tri2); }
+.badge-t3 { background: color-mix(in srgb, var(--tri3) 18%, var(--bg-card)); color: var(--tri3); }
+
+/* Rellotge Maker: temporitzador de sessió */
+.clock-panel {
+  display: none; position: fixed; top: 4.4rem; right: 1rem; z-index: 40;
+  background: var(--bg-card); border: 1px solid var(--line); border-radius: var(--radius);
+  box-shadow: var(--shadow); padding: 1rem 1.2rem; width: 15rem; text-align: center;
+}
+.clock-panel.open { display: block; }
+.clock-time { font-size: 2.2rem; font-variant-numeric: tabular-nums; font-weight: 700; }
+.clock-panel.warn .clock-time { color: var(--amber); }
+.clock-actions { display: flex; gap: .5rem; justify-content: center; margin-top: .6rem; }
+.clock-actions button {
+  border: 1px solid var(--line); background: var(--accent-soft); color: var(--ink);
+  border-radius: 8px; padding: .35rem .7rem; cursor: pointer; font: inherit;
+}
+.clock-label { font-size: .85rem; color: var(--ink-soft); margin-bottom: .2rem; }
 
 img { max-width: 100%; }
 .doc img {

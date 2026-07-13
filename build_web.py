@@ -55,6 +55,17 @@ SA_CARDS = [
     ("SA9", "Projecte final Aula Maker", "3r trim. ⭐", "🎪 Estand a la Fira Aula Maker", "SA9_Projecte_final"),
 ]
 
+def trim_num(trim: str) -> int:
+    """1/2/3 segons el trimestre de la SA; 0 si no n'és cap (SA0)."""
+    if trim.startswith("1r"):
+        return 1
+    if trim.startswith("2n"):
+        return 2
+    if trim.startswith("3r"):
+        return 3
+    return 0
+
+
 # imprimibles (a web_assets/impressos/) que toca mostrar a la pàgina de cada SA
 SA_PRINTABLES = {
     "SA0_Punt_de_partida": [
@@ -229,10 +240,19 @@ def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str) -> str:
     return html_text
 
 
-def checkboxify(html_text: str) -> str:
-    html_text = re.sub(r"<li>\[ \]", '<li class="task">☐', html_text)
-    html_text = re.sub(r"<li>\[x\]", '<li class="task done">☑', html_text, flags=re.I)
-    html_text = re.sub(r"<p>\[ \]", '<p class="task">☐', html_text)
+def checkboxify(html_text: str, page_key: str) -> str:
+    counter = [0]
+
+    def task_li(m: re.Match) -> str:
+        tid = f"{page_key}_task_{counter[0]}"
+        counter[0] += 1
+        return (f'<li class="task-item"><label class="task-label">'
+                f'<input type="checkbox" class="task-check" data-task-id="{tid}">'
+                f'<span class="task-text">{m.group(1).strip()}</span></label></li>')
+
+    html_text = re.sub(r"<li>\[ \](.*?)</li>", task_li, html_text)
+    html_text = re.sub(r"<li>\[x\](.*?)</li>", r'<li class="task-item done">☑\1</li>',
+                        html_text, flags=re.I)
     return html_text
 
 
@@ -269,10 +289,20 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
               aria-label="Lectura fàcil (més espaiat)" aria-pressed="false">Aa↔</button>
       <button id="llegir" title="Escolta aquesta pàgina en veu alta"
               aria-label="Escolta aquesta pàgina en veu alta">🔊</button>
+      <button id="rellotge" title="Rellotge Maker (temporitzador de 50′)"
+              aria-label="Obre el Rellotge Maker">⏱️ Rellotge</button>
       <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
     </span>
   </nav>
 </header>
+<div class="clock-panel" id="clock-panel" role="dialog" aria-label="Rellotge Maker">
+  <div class="clock-label">Torn d'estació (50′)</div>
+  <div class="clock-time" id="clock-time">50:00</div>
+  <div class="clock-actions">
+    <button id="clock-start">▶️ Inicia</button>
+    <button id="clock-reset">↺ 50′</button>
+  </div>
+</div>
 <div class="crumb">{crumb_html}</div>
 <main class="content" id="contingut" tabindex="-1">
 {body}
@@ -308,6 +338,39 @@ const u=new SpeechSynthesisUtterance(document.querySelector('main').innerText);
 u.lang='ca-ES';const v=s.getVoices().find(v=>v.lang&&v.lang.toLowerCase().startsWith('ca'));
 if(v)u.voice=v;u.rate=.95;u.onend=()=>veu.textContent='🔊';
 veu.textContent='⏹';s.speak(u);}};
+// checklists persistents (localStorage)
+document.querySelectorAll('.task-check').forEach(chk=>{{
+const key='maker_chk_'+chk.dataset.taskId;
+chk.checked=LS.getItem(key)==='true';
+chk.closest('.task-item').classList.toggle('completed',chk.checked);
+chk.addEventListener('change',()=>{{LS.setItem(key,chk.checked);
+chk.closest('.task-item').classList.toggle('completed',chk.checked);}});
+}});
+// Rellotge Maker (temporitzador de torn, 50')
+const cp=el('clock-panel'),ctime=el('clock-time'),cstart=el('clock-start'),
+creset=el('clock-reset'),crell=el('rellotge'),DUR=50*60;
+let clockTimer=null;
+const fmt=s=>{{s=Math.max(0,s);return String(Math.floor(s/60)).padStart(2,'0')+':'+String(s%60).padStart(2,'0');}};
+const clockRender=()=>{{
+const end=+LS.getItem('clock_end');
+let remain=end?Math.round((end-Date.now())/1000):DUR;
+if(remain<=0){{remain=0;clearInterval(clockTimer);clockTimer=null;LS.removeItem('clock_end');cstart.textContent='▶️ Inicia';}}
+ctime.textContent=fmt(remain);
+cp.classList.toggle('warn',remain>0&&remain<=600);
+}};
+crell.onclick=()=>cp.classList.toggle('open');
+cstart.onclick=()=>{{
+if(LS.getItem('clock_end')){{LS.removeItem('clock_end');clearInterval(clockTimer);clockTimer=null;
+cstart.textContent='▶️ Inicia';return;}}
+const m=/^(\d+):(\d+)$/.exec(ctime.textContent);
+const remain=m?(+m[1])*60+(+m[2]):DUR;
+LS.setItem('clock_end',Date.now()+remain*1000);
+cstart.textContent='⏸ Pausa';
+clockTimer=setInterval(clockRender,1000);
+}};
+creset.onclick=()=>{{clearInterval(clockTimer);clockTimer=null;LS.removeItem('clock_end');
+cstart.textContent='▶️ Inicia';ctime.textContent='50:00';cp.classList.remove('warn');}};
+if(LS.getItem('clock_end')){{cstart.textContent='⏸ Pausa';clockTimer=setInterval(clockRender,1000);clockRender();}}
 </script>
 </body>
 </html>
@@ -427,9 +490,10 @@ def sa_context_bar(folder: str, current_base: str) -> str:
 def sa_cards(prefix: str) -> str:
     """Graella de targetes de SA que porten al hub (compartida per portada i índex de Classes)."""
     return "\n".join(
-        f'<a class="card sa" href="{prefix}classes/{slugify(folder)}/index.html">'
+        f'<a class="card sa" data-trim="{trim_num(trim)}" '
+        f'href="{prefix}classes/{slugify(folder)}/index.html">'
         f'<div class="card-icon">{product.split()[0]}</div>'
-        f'<div><h3>{code} · {html.escape(name)} <span class="badge">{trim}</span></h3>'
+        f'<div><h3>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h3>'
         f'<p>{html.escape(product.split(" ", 1)[1])}</p></div></a>'
         for code, name, trim, product, folder in SA_CARDS)
 
@@ -452,7 +516,7 @@ def build_sa_hubs():
             f'<div><h3>{html.escape(lbl.split(" ", 1)[1])}</h3></div></a>'
             for lbl, b, k in others)
         body = f"""
-<h1>{code} · {html.escape(name)} <span class="badge">{trim}</span></h1>
+<h1>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h1>
 <p class="product">{html.escape(product)}</p>
 {primary}
 {sa_printables_html(folder)}
@@ -478,7 +542,8 @@ def build_doc_pages():
         body = MD.convert(text)
         current_dir = rel.rsplit("/", 1)[0] if "/" in rel else ""
         body = rewrite_links(body, out_rel, current_dir)
-        body = checkboxify(body)
+        page_key = re.sub(r"[^a-z0-9]+", "_", out_rel[:-5].lower()).strip("_")
+        body = checkboxify(body, page_key)
         plain_src = body  # sense la barra de navegació (per a l'índex de cerca)
         parts = rel.split("/")
         if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
