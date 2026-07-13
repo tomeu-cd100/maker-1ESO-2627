@@ -24,6 +24,16 @@ Cada SA porta el seu tiquet de sortida. Format genèric ràpid (3-2-1):
 - **3** coses que he après · **2** coses que vull millorar · **1** dubte o pregunta.
 Recolliu-los (paper o formulari) per ajustar la sessió següent.
 
+**Variant: termòmetre d'autonomia** (30 segons, dits o gomets, amb els nivells amigables
+🌱🙂💪🌟 que l'alumnat ja coneix de la rúbrica). Mesura *quanta ajuda he necessitat avui*:
+- 🌱 He necessitat ajuda contínua del docent per avançar.
+- 🙂 He seguit la fitxa, però m'he encallat en un punt i m'han hagut de desencallar.
+- 💪 M'he desencallat sol/a (amb `Recursos/Primers_auxilis_maker.md` o un company/a).
+- 🌟 He acabat el repte i, a més, he ajudat algú altre a desencallar-se.
+
+És el pols de l'autonomia del grup: si mig grup és 🌱 dues sessions seguides, toca revisar
+la bastida (demo, guia, parelles), no córrer més.
+
 ## 3. Semàfor d'autoavaluació
 Senyal ràpid de l'estat de cadascú (mà, gomets o targeta):
 - 🔴 **Vermell:** estic encallat/da, necessito ajuda.

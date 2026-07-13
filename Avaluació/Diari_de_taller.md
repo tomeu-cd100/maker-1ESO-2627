@@ -58,6 +58,27 @@
 
 ---
 
+## Més frases per començar, segons el dia
+
+Si «què he après?» et deixa en blanc, tria la frase del tipus de sessió d'avui i completa-la
+(serveixen per a les preguntes 3 i 4):
+
+**🎨 Dies de disseny i ideació:**
+- «Avui he triat aquesta forma/solució perquè resol el problema de…»
+- «El requisit que més m'ha costat complir és ______ i ho he aconseguit fent…»
+- «Abans pensava que dissenyar en 2D/3D era ______, però avui m'he adonat que…»
+
+**🔧 Dies de fabricació i iteració:**
+- «Quan he vist la peça física, he descobert que l'encaix / la mida / el gravat…»
+- «El meu error d'avui ha estat ______. La causa era ______ i l'he corregit…»
+- «Una decisió que he pres per treballar amb més seguretat o precisió ha estat…»
+
+**🤝 Dies de treball en equip:**
+- «El meu rol m'ha obligat a ______ i el més difícil ha estat…»
+- «Avui he ajudat / m'ha ajudat ______ amb ______ i ha funcionat perquè…»
+
+---
+
 ## Tancament de la SA (una vegada per SA)
 
 - **El meu producte final ha quedat...** (descripció + foto):

@@ -14,14 +14,21 @@
 ## 2. Rols d'equip (rotatius) amb tasques clares
 Equips de **3-4**. Els rols **roten** cada SA perquè tothom passi per tots.
 
-| Rol | De què s'encarrega | Responsabilitat individual (avaluable) |
-|-----|--------------------|----------------------------------------|
-| 🧭 **Coordinador/a** | Temps, pla, que tothom tingui feina | Presenta el pla i el control de temps |
-| ✏️ **Dissenyador/a** | Lidera el disseny digital | Explica les decisions de disseny |
-| ⚙️ **Operador/a** | Prepara la fabricació (amb supervisió) | Documenta els paràmetres de màquina |
-| 📷 **Documentalista** | Fotos, diari/portafoli de l'equip | Manté el diari al dia amb evidències |
+| Rol | De què s'encarrega | Responsabilitat individual (avaluable) | Criteri d'èxit de la sessió |
+|-----|--------------------|----------------------------------------|------------------------------|
+| 🧭 **Coordinador/a** | Temps, pla, que tothom tingui feina | Presenta el pla i el control de temps | El pla s'ha complert (o s'ha replanificat en veu alta) i ningú no ha estat aturat |
+| ✏️ **Dissenyador/a** | Lidera el disseny digital | Explica les decisions de disseny | Fitxer net (sense duplicats) i desat amb el nom `Nom_SAx_vN` correcte |
+| ⚙️ **Operador/a** | Prepara la fabricació (amb supervisió) | Documenta els paràmetres de màquina | 🚦 Semàfor de fabricació (`Recursos/Semafor_maker.md`) validat abans de cada enviament |
+| 📷 **Documentalista** | Fotos, diari/portafoli de l'equip | Manté el diari al dia amb evidències | ≥1 foto de procés feta i entrada del diari d'equip començada abans d'acabar |
 
 > Amb equips de 3, el documentalista i el coordinador es poden combinar.
+
+**🖱️ Norma de rotació del teclat (equitat):** els rols roten cada SA, però **qui controla el
+teclat/ratolí del Chromebook canvia cada sessió** — cap membre no el pot tenir dues sessions
+seguides. Sense aquesta norma, els perfils amb més seguretat digital (o més impulsius)
+monopolitzen l'eina i la resta mira: és la primera font de bretxa de participació i de gènere
+a l'aula maker. El docent ho marca al `Avaluació/Full_seguiment_grup.md` i les dades alimenten
+la revisió trimestral d'equitat (`Programació didàctica/Equitat_genere_STEAM.md`).
 
 ## 3. Tècniques cooperatives ràpides (per a sessions de 2 h)
 - **1-2-4:** primer penso sol (1), ho comparteixo amb la parella (2), ho acordem en equip (4).
