@@ -54,10 +54,22 @@
 - [ ] ____________________
 
 ## Pressupost orientatiu del curs
-> (anotar despeses reals i previsió per trimestre)
+> Preus IVA inclòs, franja per a **1 grup de 20**. Orientatius: varien segons proveïdor,
+> descomptes de centre educatiu i estoc reutilitzat. Actualitzeu la "Despesa real" amb factures.
 
-| Trimestre | Partida principal | Previsió | Despesa real |
-|-----------|-------------------|:--------:|:------------:|
-| T1 | Fusta làser + anelles + cola/LED | | |
-| T2 | Filament PLA + eines postprocés | | |
-| T3 | Neteja VR + retolació estands | | |
+| Trimestre | Partida principal | Previsió (€) | Despesa real |
+|-----------|-------------------|:-----------:|:------------:|
+| T1 | Fusta/metacrilat làser + anelles + cordó + cola + LED + paper | **130–160 €** | |
+| T2 | Filament PLA (4–5 bobines) + eines postprocés + calibres + kit P2S | **120–190 €** | |
+| T3 | Neteja/fundes VR + retolació estands + piles | **40–70 €** | |
+| **Total curs** | | **≈ 290–420 €** | |
+
+**Desglossament orientatiu (unitari):**
+- Contraxapat/DM 3 mm ~A3: **2–3 €/full** · DM 4 mm: **~3 €/full** · Metacrilat opac 3 mm ~A3: **8–12 €/full**.
+- Filament PLA 1 kg: **18–22 €/bobina**.
+- Anelles de clauer: **~0,20 €/u** · Cordó/borles: **~0,25 €/u** · LED + pila: **~1,50 €/u**.
+- Tovalloletes neteja: **~5 €/paquet** · Peu de rei escolar: **~8 €/u** (compra única, no fungible).
+
+> ⚠️ **No inclou maquinari** (làser xTool S1, impressora Bambu Lab P2S, càmera 360, 5 ulleres VR):
+> és inversió de capital ja feta, no fungible de curs. Les eines de mesura/postprocés són compra
+> única reutilitzable — es compren un cop, no cada curs.
