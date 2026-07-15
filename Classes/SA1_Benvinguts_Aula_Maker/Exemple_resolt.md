@@ -43,6 +43,22 @@ estan fetes les capes de **tall** (vermell) i **gravat** (negre).
 
 ---
 
+## 📄 I abans de la pantalla? L'esbós en paper (sessió 1)
+
+Els dos clauers van començar **al full de disseny imprès**, no a Inkscape. Un esbós ben fet
+(nivell 💪) té:
+
+- **2-3 idees provades** a la zona de proves, amb la triada marcada amb un cercle.
+- La forma **a mida real** sobre el tauler mil·limetrat, **acotada**: `60 mm` d'amplada i
+  `25 mm` d'alçada escrits amb fletxes, i `Ø 5 mm` al costat del forat.
+- El **codi de colors** ja aplicat amb llapis de colors: contorn i forat resseguits en
+  **vermell** (tall), nom i estrella pintats en **negre** (gravat).
+
+*(No cal que sigui bonic: cal que qualsevol company el pugui llegir i saber què es talla,
+què es grava i quant fa cada cosa.)*
+
+---
+
 ## 📝 Exemple de fitxa de l'alumnat (emplenada)
 
 - **El meu clauer:** rectangle arrodonit amb el meu nom i una estrella.

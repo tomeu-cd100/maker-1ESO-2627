@@ -20,7 +20,8 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 - **Operacions de camí:** Camí → Unió / Diferència / Intersecció.
 - **Text per a làser:** escriu el text → selecciona'l → Camí → Objecte a camí.
 - **Vectoritzar imatge:** importa-la → Camí → Vectoritza mapa de bits → mou la barra de
-  **llindar** (a partir de quant de fosc un píxel es torna negre) fins que la imatge es vegi neta.
+  **llindar** fins que la imatge es vegi neta (la barra decideix quines parts es tornen
+  negres i quines desapareixen).
 
 - Treballa sempre en **mil·límetres** i comprova la mida final.
 

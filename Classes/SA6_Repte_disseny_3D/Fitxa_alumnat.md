@@ -31,6 +31,8 @@
   | | | |
   | | | |
   | | | |
+- 📐 La nostra **mida comuna** (la que fa que les peces encaixin entre elles — acordeu-la
+  ABANS de repartir-vos la feina, amb tolerància inclosa): ____ mm
 
 ## Fase 3 — Dissenyar i imprimir
 - [ ] Mides comunes acordades   - [ ] Peces imprimibles   - [ ] Cua d'impressió planificada

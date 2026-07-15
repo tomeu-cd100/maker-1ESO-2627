@@ -35,7 +35,7 @@
 | «La meva peça **flota** sobre el pla de treball» | La peça té alçada Z > 0: la impressora faria «espagueti» a l'aire | Selecciona la peça i prem la tecla **D** (*drop*: cau al pla de treball) |
 | «He posat un **forat** (cos transparent) però **no forada**» | Falta agrupar: el forat només actua en unir-se amb la peça | Selecciona **peça + forat** (majúscula i clic) → **Agrupa (Ctrl+G)** |
 | «He agrupat i ara **no puc editar** una part» | L'agrupació ho converteix en un sol cos | **Desagrupa (Ctrl+Maj+G)**, edita, i torna a agrupar |
-| «M'han dit que la meva **paret és massa prima** per imprimir» | Per sota de ~1,2 mm les parets surten fràgils o no surten | Fes les parets d'un mínim de **2 mm** (comprova-ho amb el regle de Tinkercad) |
+| «M'han dit que la meva **paret és massa prima** per imprimir» | Per sota de ~1,2 mm les parets surten fràgils o no surten | Fes les parets d'un mínim de **3 mm**, el llindar de sempre del curs (comprova-ho amb el regle de Tinkercad) |
 | «La peça impresa té les **vores aixecades** (warping)» | La primera capa s'ha refredat massa de pressa | No és culpa teva: mira la peça del **Museu dels Errors** i comenta-ho al torn de màquina (adhesió, base neta) |
 | «La meva peça surt amb **fils** entre les parts» | *Stringing*: el filament degota en els desplaçaments | Es treu en el postprocés (amb compte!); si n'hi ha molt, apunta-ho al diari perquè es revisi la retracció |
 

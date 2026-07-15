@@ -16,9 +16,14 @@ Creeu un **estand interactiu** que combini un **objecte fabricat** (làser o 3D)
 - **Component immersiu** (360 o VR): ____________________  Responsable: ________
   > ♻️ **No comenceu de zero:** podeu **partir del vostre tour de SA7 o de l'escena de SA8** i
   > adaptar-los al tema de l'estand. Reaprofitar el que ja funciona és bon disseny, no trampa.
+  > I si el tema no lliga amb res del que teniu? **Via curta pactada amb el docent**: una escena
+  > VR nova i senzilla (1 escena, 3 objectes + text) — no un tour sencer nou.
 - 🔒 **Límits de sempre:** cada peça 3D **< 1 h i < 40 g**; el fitxer làser passa el 🚦 semàfor
   (`Recursos/Semafor_maker.md`). Si fa temps que no toques Inkscape, obre la teva fitxa de SA2
   («Recorda d'Inkscape»): el codi de colors i les capes són els de sempre.
+  > 🔦 **Recorda del làser (SA3 — en fa molt!):** 1) disseny amb capes **vermell = tall / negre
+  > = gravat**, 2) semàfor 🚦 i revisió del docent, 3) la peça entra al **batch** de planxa (el
+  > docent envia el tall; tu no toques la màquina sense el carnet 🔴 al dia).
 
 - Calendari (qui fa què i quan, comptant el temps de màquina):
   | Sessió | Objectiu | Qui |

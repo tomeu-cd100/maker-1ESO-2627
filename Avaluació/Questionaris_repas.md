@@ -256,7 +256,7 @@
    - S'ha de posar sempre al 100 %.
 3. El gruix mínim de paret perquè la peça no surti fràgil és…
    - 0,1 mm
-   - **~2 mm** ✔️
+   - **3 mm (el llindar de sempre del curs)** ✔️
    - 10 mm
    - Tant és.
 4. El warping és…

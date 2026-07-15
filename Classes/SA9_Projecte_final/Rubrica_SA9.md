@@ -1,6 +1,7 @@
 # Rúbrica SA9 — «Projecte final Aula Maker» (Producte final de curs)
 
-Nivells: **NA / AS / AN / AE**. Combineu amb `Avaluació/Rubrica_producte_final.md`. Aquesta SA
+Nivells: **NA / AS / AN / AE** (a la fitxa i al diari: **🌱 = NA · 🙂 = AS · 💪 = AN · 🌟 = AE**).
+Combineu amb `Avaluació/Rubrica_producte_final.md`. Aquesta SA
 integra totes les competències; pes destacat en la valoració global de curs.
 
 | Criteri | NA | AS | AN | AE |

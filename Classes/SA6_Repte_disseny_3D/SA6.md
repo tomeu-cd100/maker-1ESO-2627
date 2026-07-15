@@ -96,7 +96,10 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 
 ### Sessió 2 — Disseny (2 h)
 1. **Modelatge en equip (100')**: cada membre modela una part; coordinació de mides comunes i
-   dels **límits per peça** (< 1 h, < 40 g, sense suports si és possible).
+   dels **límits per peça** (< 1 h, < 40 g, sense suports si és possible). **Abans de repartir
+   les peces**, l'equip acorda i escriu a la fitxa la **mida comuna** que fa que tot encaixi
+   (p. ex. «tots els encaixos Ø 8,5 mm») — sense aquest número acordat, quatre peces perfectes
+   no fan un conjunt.
 
 2. **Revisió conjunta (20')**: encaixos, mides, imprimibilitat amb el checklist (com a SA5);
    cada membre fa la **versió 2** de la seva peça i anota al diari què hi ha canviat (CA1.4).

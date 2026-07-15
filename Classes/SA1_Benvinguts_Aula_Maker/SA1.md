@@ -133,6 +133,8 @@ i acotat en paper. Qui té el plànol clar, la setmana que ve el digitalitza en 
 2. **Demo Inkscape (25')**: obrir, llenç, formes bàsiques, afegir text, mida en mm.
 3. **Digitalització guiada (55')**: cada alumne/a **passa el seu esbós de paper a Inkscape**
    — les decisions ja estan preses, ara toca l'eina. Mides reals de l'esbós acotat.
+   (**Qui no va tancar l'esbós** a la sessió 1 dedica els primers 10' a acabar-lo en paper —
+   digitalitzar sense decisions preses és fer la feina dos cops.)
 
 4. **Preparació per a làser (15')**: concepte de **capes** — línia fina de tall (vermell) i
    gravat (negre/ompliment), com al paper. El docent revisa cada fitxer.

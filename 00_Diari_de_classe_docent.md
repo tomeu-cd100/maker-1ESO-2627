@@ -408,7 +408,7 @@ parelles, versió 2 — la iteració **en digital**, abans de gastar filament.
 **Desenvolupament:**
 
 1. **Repte + mesurar (30')** — identificar la necessitat i prendre **mides reals** de l'objecte/espai.
-2. **Modelar v1 (65')** — mides correctes, gruix mínim 2-3 mm, evitar suports.
+2. **Modelar v1 (65')** — mides correctes, gruix de paret **≥3 mm** (el llindar de sempre), evitar suports.
 3. **Revisió per parelles (15')** — checklist d'imprimibilitat de la fitxa → cadascú fa la **v2** (evidència de CA1.4!).
 **⏸️ Mínim:** mides preses + v1 modelada; si la revisió no hi cap, obre-hi la setmana 18.
 **⏹️ Tancament (10'):** diari amb captura v1 i v2 + «què he canviat i per què».
@@ -445,7 +445,7 @@ trimestre — el treball paral·lel és el pla, no el pegat.
 **🎒 Abans:** impressions en marxa des d'abans de classe; kanban actualitzat; reptes i museu a mà.
 **▶️ Obertura (10'):** llegir el kanban en veu alta: què ha sortit, què entra avui, què va fora d'horari.
 
-- 🔧 **Estació Maker:** seguiment d'impressions (la **primera capa** és el moment crític: qui té placa a la cua, la mira començar), canvis de placa, postprocés de les primeres peces.
+- 🔧 **Estació Maker:** seguiment d'impressions (la **primera capa** és el moment crític: qui té placa a la cua, la mira començar), canvis de placa, postprocés de les primeres peces. **10' del material** (mou-los de la S2, que ja anava plena): d'on surt el PLA, residus d'impressió, estrena del **🫙 pot de PLA fallit** — amb la impressora treballant davant, el tema és tangible (CA6.2).
 - 💻 **Estudi de disseny:** **treball paral·lel**: millorar el disseny, ajudar altres, reptes 3D, targetes del Museu per a impressions fallides (*Què ha passat / Per què / Com ho evito*), avançar el projecte personal.
 **⏹️ Tancament (10'):** diari.
 

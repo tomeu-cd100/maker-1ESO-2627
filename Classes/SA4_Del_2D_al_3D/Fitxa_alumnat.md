@@ -40,6 +40,8 @@ Modela un **clauer o figura 3D** amb Tinkercad. Requisits:
 ## Reflexió
 - Pensar en 3D m'ha semblat: fàcil / normal / difícil
 - El truc de Tinkercad que més m'ha servit: ____________________
+- Què t'ha **sorprès** de pensar en volum que no passava dibuixant en pla (2D)?
+  (pensa en les vistes, el forat, la peça flotant…) ____________________
 
 ## 🔍 Com m'avaluaran en aquesta SA?
 

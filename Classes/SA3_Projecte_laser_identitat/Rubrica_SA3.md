@@ -1,6 +1,7 @@
 # Rúbrica SA3 — «Projecte làser: la meva identitat» (Producte final T1)
 
 Nivells: **NA / AS / AN / AE**. Combineu amb `Avaluació/Rubrica_producte_final.md`.
+A la fitxa i al diari són els emojis de sempre: **🌱 = NA · 🙂 = AS · 💪 = AN · 🌟 = AE**.
 
 | Criteri | NA | AS | AN | AE |
 |---------|----|----|----|----|

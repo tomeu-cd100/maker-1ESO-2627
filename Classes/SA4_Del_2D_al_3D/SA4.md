@@ -67,15 +67,27 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 > setmanes 14–16.
 
 ### Sessió 1 — Benvinguda al 3D + Tinkercad bàsic (2 h)
-1. **Del 2D al 3D (20')**: del pla al volum; exemples d'objectes 3D quotidians; vistes.
+1. **Del 2D al 3D (20')**: del pla al volum; exemples d'objectes 3D quotidians; **vistes amb
+   GeoGebra 3D** (girar una figura i endevinar les vistes davant/costat/dalt —
+   `Simulacions/Simuladors_disseny_2D_3D.md`): 10' de gimnàstica d'ull abans de tocar Tinkercad.
+
 2. **Comptes i interfície (20')**: accés a Tinkercad (compte de classe), navegació 3D, pla de treball.
-3. **Reptes guiats (70')**: col·locar cossos, moure/escalar/girar, alinear, **agrupar** i **foradar**.
+3. **Reptes guiats (70')**: col·locar cossos, **moure/escalar/girar** i **alinear** — fins a
+   dominar-los. **Agrupar** i **foradar** només com a tastet final de 10': són el plat fort de
+   la sessió 2, no cal patir-hi avui.
+
 4. **Diari (10')**.
+
+> ⏸️ **Mínim d'avui**: em moc pel pla de treball sense perdre'm i he col·locat, escalat i
+> alineat **2-3 cossos**. (Agrupar i foradar es dominen la sessió vinent.)
 
 ### Sessió 2 — Combinar cossos (2 h)
 1. **Demo: forats i agrupacions (25')**: fer un got, una anella, lletres en relleu.
 2. **Pràctica guiada (75')**: reptes curts de combinació (vegeu `Reptes/Reptes_3D.md`).
 3. **Diari (20')**: captura del progrés.
+
+> ⏸️ **Mínim d'avui**: un **got o una anella** acabats — un cos + un forat, **agrupats** (el
+> truc que ho és tot a Tinkercad). Amb això, el disseny lliure de la sessió 3 ja és teu.
 
 ### Sessió 3 — El meu objecte 3D + exportar (2 h)
 1. **Disseny lliure del clauer/figura (70')**: ≥3 cossos + 1 forat, mides raonables (cap a 50 mm)

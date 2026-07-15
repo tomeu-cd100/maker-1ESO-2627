@@ -34,7 +34,7 @@ Després mira les mides del fitxer digital.
 
 - [ ] La peça **toca el pla de treball** (tecla **D**).
 - [ ] Forats **agrupats** amb la peça (Ctrl+G) — comprova que foraden de veritat.
-- [ ] Parets d'un mínim de **2 mm**.
+- [ ] Parets d'un mínim de **3 mm** (el llindar de sempre del curs).
 - [ ] Cap peça flotant ni buit invisible per dins.
 
 ## 🔴 Llum 3 — Nom normatiu i destí

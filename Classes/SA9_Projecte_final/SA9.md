@@ -72,7 +72,10 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
 ### Sessió 1 — Planificació del projecte (2 h)
 1. **Repte i exemples (20')**.
 2. **Tria de tema i abast (40')**: cada equip tria el tema i defineix què farà a làser/3D i
-   què farà en 360/VR.
+   què farà en 360/VR. **Prova del cotó del tema**: el vostre tour de SA7 o l'escena de SA8
+   s'hi poden **adaptar** (canviar textos, objectes i tema sí; refer-ho tot no)? Si el tema no
+   lliga amb res del que ja teniu, o el canvieu, o pacteu amb el docent la **via curta**: una
+   escena VR nova i senzilla (1 escena, 3 objectes + text) — el que cap en 100' a la sessió 3.
 
 3. **Pla de projecte (50')**: requisits, peces, tasques, calendari (incloent **temps de màquina**:
    planifiqueu *batch* de làser i cua d'impressió 3D segons
@@ -81,6 +84,10 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
    Validació del docent (**document de pla de projecte**).
 
 4. **Diari (10')**.
+
+> ⏸️ **Mínim d'avui**: **tema triat** (amb la prova del cotó del reús superada) + **pla de
+> projecte validat pel docent**, amb la signatura de peça de cada membre i el temps de màquina
+> al calendari. Un projecte de 5 sessions que surt de la S1 sense pla validat ja va tard.
 
 ### Sessió 2 — Disseny i fabricació (2 h)
 1. **Disseny dels objectes (làser i/o 3D) (100')** repartit per l'equip; enviar a fabricar.

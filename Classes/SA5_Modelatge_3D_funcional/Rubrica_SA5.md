@@ -1,6 +1,7 @@
 # Rúbrica SA5 — «Modelatge 3D funcional»
 
 Nivells: **NA / AS / AN / AE**. Vegeu `Avaluació/Rubrica_general_competencial.md`.
+A la fitxa i al diari són els emojis de sempre: **🌱 = NA · 🙂 = AS · 💪 = AN · 🌟 = AE**.
 
 | Criteri | NA | AS | AN | AE |
 |---------|----|----|----|----|

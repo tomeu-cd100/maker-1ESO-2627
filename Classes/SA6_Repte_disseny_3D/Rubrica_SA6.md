@@ -1,6 +1,7 @@
 # Rúbrica SA6 — «Repte de disseny 3D» (Producte final T2)
 
 Nivells: **NA / AS / AN / AE**. Combineu amb `Avaluació/Rubrica_producte_final.md`.
+A la fitxa i al diari són els emojis de sempre: **🌱 = NA · 🙂 = AS · 💪 = AN · 🌟 = AE**.
 
 | Criteri | NA | AS | AN | AE |
 |---------|----|----|----|----|

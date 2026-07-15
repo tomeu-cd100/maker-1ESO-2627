@@ -122,6 +122,10 @@ objectiu per al T2.
 
 # 2n TRIMESTRE — Penses en 3D i imprimeixes 🟠
 
+> 🪜 **Nou aquest trimestre:** els guions i plantilles ja **no es reparteixen d'ofici** — si en
+> necessites un, **demana'l** (hi és, i demanar ajuda no resta). Al 3r trimestre sereu vosaltres
+> qui triareu les eines. És el senyal que ja camineu sols.
+
 ### Setmana 14 — Benvingut/da a la tercera dimensió 🧊 👥
 **Què farem:** estrena de **Tinkercad**: moure't pel 3D, col·locar cossos, escalar, alinear,
 **agrupar** i el gran truc: el **forat que resta material**.

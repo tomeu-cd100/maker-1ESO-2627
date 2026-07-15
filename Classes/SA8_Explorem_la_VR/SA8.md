@@ -107,10 +107,12 @@ escena 3D que es pot explorar amb les ulleres VR.
 > demo-construint). Amb això, la sessió 2 arrenca construint, no decidint.
 >
 > 🅱️ **Contingència de calendari — si SA8 queda en 1 sola sessió** (vàlvula de
-> `Temporitzacio_anual.md`): el ⏸️ mínim de la sessió única és l'**escena de 3 objectes +
-> càmera feta durant la demo-construint mateixa** (s'allarga la demo a 30' i se salta el debat
-> llarg: 1 benefici + 1 risc queden recollits a la fitxa durant les estacions). Sense això,
-> el ♻️ «partiu de l'escena de SA8» de SA9 es queda sense base.
+> `Temporitzacio_anual.md`): el ⏸️ mínim de la sessió única es **rebaixa de debò**: escena amb
+> **2 objectes + càmera**, feta durant la demo-construint mateixa (s'allarga la demo a 30' i se
+> salta el debat llarg: 1 benefici + 1 risc queden recollits a la fitxa durant les estacions).
+> El tercer objecte i el text ja s'afegiran a SA9 en adaptar l'escena — comprimir la sessió
+> sense comprimir el producte només trasllada l'ofec a l'alumne. Sense aquesta base, el ♻️
+> «partiu de l'escena de SA8» de SA9 es queda sense res d'on partir.
 
 ### Sessió 2 — Crear, provar i avaluar l'escena (2 h)
 1. **Reprendre l'escena (10')**: repàs exprés de la demo (objectes, càmera, "play") i

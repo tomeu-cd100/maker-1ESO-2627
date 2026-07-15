@@ -17,6 +17,10 @@ real, sobre el **full de disseny imprès**. Dibuixa la forma, apunta les mides i
 colors què és tall (vermell) i què és gravat (negre)**. L'esbós en paper és pensar amb el llapis,
 no un tràmit!
 
+- [ ] He provat **2-3 idees** a la zona de proves del full i he marcat **la que trio**.
+- [ ] El meu esbós està **acotat** = les mides escrites al costat del dibuix amb fletxes
+  (l'amplada, l'alçada i el Ø del forat), com al plànol d'un objecte de veritat.
+
 <img src="Recursos/imatges/clauer_paper_SA1_full.png" alt="Full de disseny del clauer en paper (SA1): codi de colors, ruta del dissenyador i zona de proves" style="width:100%;max-width:520px;border:1px solid var(--line);border-radius:8px">
 
 🖨️ **Full imprimible:** [`impressos/clauer_paper_SA1.html`](../../impressos/clauer_paper_SA1.html)
@@ -29,7 +33,8 @@ Ara que ja tens l'esbós decidit, el passes a l'ordinador. Les decisions ja esta
 2. Dibuixa la forma base amb l'eina rectangle/el·lipse.
 3. Afegeix el teu **nom** amb l'eina text.
 4. Afegeix un **detall** (forma, dibuix simple).
-5. Fes el **forat** de l'anella (un cercle petit, prop d'una vora).
+5. Fes el **forat** de l'anella (un cercle petit, prop d'una vora — però que la vora del forat
+   quedi a **≥3 mm** del contorn, o es trenca).
 6. Marca què és **tall** (contorn) i què és **gravat** (nom i detall) — el/la profe t'explica
    com fer-ho amb els colors/capes.
 

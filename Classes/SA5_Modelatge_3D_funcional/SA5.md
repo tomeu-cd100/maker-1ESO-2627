@@ -82,7 +82,9 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
    la peça ha d'imprimir-se en **< 1 h i < 40 g** (ho comprovarem a Bambu Studio).
 
 2. **Disseny a Tinkercad — versió 1 (65')**: modelar la peça amb les mides correctes; gruix
-   mínim 2-3 mm; evitar suports si és possible.
+   de paret **≥3 mm** (el llindar de sempre, com a SA4); evitar suports si és possible.
+   Si la peça ha d'**encaixar** amb un objecte real: deixa **marge (tolerància)** — el forat una
+   mica més gran que l'objecte, com el kerf de SA3 però al revés.
 
 3. **Revisió d'imprimibilitat per parelles (15')**: intercanvi de dissenys amb el **checklist
    d'imprimibilitat** de la fitxa (mides reals, gruixos, parts a l'aire, mida/temps). Cadascú fa
@@ -100,13 +102,9 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
    (alçada de capa, farciment 15-20 %, suports si cal, *brim* per a l'adherència).
 
 2. **Comprendre el laminat (30')**: previsualització de capes, temps i grams estimats —
-   **comprovar el límit del repte (< 1 h, < 40 g)**; si se supera, redissenyar (una iteració més!).
-   Dins d'aquest bloc, 10' sobre **el material**: d'on surt el PLA (midó de blat de moro — i
-   «biodegradable» només en planta industrial, no al contenidor de casa), i què són els
-   **residus d'impressió** (suports, brim, peces fallides): cada gram que Bambu Studio pinta
-   com a suport és material pagat que no es converteix en peça — orientar bé la peça és
-   disseny sostenible (CA6.2). S'estrena el **🫙 pot de PLA fallit** i la rutina de residus
-   (`Programació didàctica/Gestio_temps_maquina_fabricacio.md` §6).
+   **comprovar el límit del repte (< 1 h, < 40 g)**; si se supera, redissenyar (una iteració
+   més!). ⚖️ Avui el cap és tot per al laminat: el perquè del **material** (PLA, residus) es
+   treballa a la sessió 3, mentre les peces s'imprimeixen.
 
 3. **Checkpoint del carnet 🟠 d'impressora 3D** (integrat en els torns): 3 preguntes de
    seguretat + enviar la impressió amb supervisió (`Normativa/Carnet_de_maquina.md`). Qui té el
@@ -127,11 +125,19 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 
 ### Sessió 3 — Impressió i seguiment (2 h)
 1. **Seguiment d'impressions (continu)**: observar la primera capa (clau!), detectar problemes.
-2. **Treball paral·lel amb tasca definida (90')**: completar la **fitxa tècnica** de la peça
+2. **El material que gastem (10')**: d'on surt el PLA (midó de blat de moro — i «biodegradable»
+   només en planta industrial, no al contenidor de casa), i què són els **residus d'impressió**
+   (suports, brim, peces fallides): cada gram que Bambu Studio pinta com a suport és material
+   pagat que no es converteix en peça — orientar bé la peça és disseny sostenible (CA6.2).
+   S'estrena el **🫙 pot de PLA fallit** i la rutina de residus
+   (`Programació didàctica/Gestio_temps_maquina_fabricacio.md` §6) — ara que la impressora
+   treballa davant nostre, el tema és tangible.
+
+3. **Treball paral·lel amb tasca definida (80')**: completar la **fitxa tècnica** de la peça
    (mides, paràmetres — CA2.3/5.2) i la rutina **«Què ha passat / Per què / Com ho evito»** sobre
    una peça del **Museu dels Errors** (CA3.3); qui acaba, reptes 3D o ajuda un altre equip.
 
-3. **Diari (15')**.
+4. **Diari (15')**.
 
 > ⏸️ **Mínim d'avui**: fitxa tècnica de la peça completada + una rutina d'anàlisi d'un error
 > escrita. (La impressió va a la seva, sovint fora d'horari; el que s'avalua avui és això.)

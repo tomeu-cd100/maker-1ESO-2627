@@ -22,6 +22,10 @@ Dissenya i imprimeix una **peça útil** que resolgui una molèstia del teu dia 
   | | |
   | | |
 
+- Si la peça ha d'**encaixar** amb alguna cosa (el mòbil, un llapis, un ganxo…): quin **marge
+  (tolerància)** hi deixo i per què? ____ mm — recorda el **kerf** de SA3: en 3D el forat es fa
+  una mica **més gran** que l'objecte real, o no hi entrarà.
+
 ## Fase 2 — Dissenyar (Tinkercad)
 
 Esbós (📄 si treballes en paper, reserva **mig full**: dibuixa la peça i apunta-hi les mides):
@@ -39,7 +43,7 @@ Esbós (📄 si treballes en paper, reserva **mig full**: dibuixa la peça i apu
 ### Revisió d'imprimibilitat (per parelles) — abans de laminar
 Intercanvia el disseny amb la teva parella i reviseu-vos mútuament:
 
-- [ ] Mides reals aplicades   - [ ] Gruix de paret ≥ 2-3 mm
+- [ ] Mides reals aplicades   - [ ] Gruix de paret **≥ 3 mm** (el llindar de sempre)
 - [ ] Sense parts a l'aire impossibles (o amb suports mínims)
 - [ ] Mida raonable per complir el límit (< 1 h, < 40 g)
 - [ ] La peça farà la seva funció (pregunta-li: "com la faràs servir?")
@@ -63,7 +67,10 @@ ____________________________________________________________
 
 ## Fase 4 — Imprimir i comprovar
 > 🚦 Abans d'apuntar-te a la cua: **semàfor de fabricació** (`Recursos/Semafor_maker.md`) —
-> peça al pla (tecla D), forats agrupats, parets ≥ 2 mm, i nom `ElMeuNom_SA5_vN.stl` al Drive.
+> peça al pla (tecla D), forats agrupats, parets ≥ 3 mm, i nom `ElMeuNom_SA5_vN.stl` al Drive.
+
+- La meva **targeta al kanban** (Per imprimir · Imprimint · Fet) porta el meu nom: així sé
+  sempre on és la meva peça a la cua sense preguntar-ho.
 
 - La primera capa s'ha enganxat bé? Sí / No
 - Ha sortit algun problema? ____________________ → Com el resoldria? ____________________

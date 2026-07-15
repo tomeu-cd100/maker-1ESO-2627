@@ -73,8 +73,10 @@ a alumnat nou de 6è de primària…).
 
 ### Sessió 1 — Què és el 360? (2 h)
 1. **Immersió (20')**: visualització d'exemples 360/tours; què el fa diferent del vídeo normal.
-2. **La càmera 360 (40')**: parts, com es captura, projecció equirectangular, on amagar-se el
-   fotògraf, transferència d'arxius. Inclou el **checkpoint del carnet 🟢 de càmera 360**
+2. **La càmera 360 (40')**: parts, com es captura — la foto ho capta **TOT al voltant**, no hi
+   ha «fora de pla» (per això el fotògraf s'ha d'amagar!); com es veu això en un rectangle és la
+   **projecció equirectangular** (l'esfera desplegada — mireu-ne una i ho entendreu de cop);
+   transferència d'arxius. Inclou el **checkpoint del carnet 🟢 de càmera 360**
    (`Normativa/Carnet_de_maquina.md`): drets d'imatge + captura estable (es pot completar a la
    sessió 2, al primer torn de cada equip).
 

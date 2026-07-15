@@ -77,9 +77,9 @@ converteix en línies que la màquina pot tallar i gravar.
 3. **Text i tipografia (25')**: text, convertir text a camí (per a la làser), text a camí corb.
 4. **Diari de taller (15')**.
 
-> ⏸️ **Mínim d'avui**: les **3 operacions de camí** (unió, diferència, intersecció) provades al
-> fitxer d'exercicis + un text convertit a camí. Amb això ja tens les eines per dissenyar el
-> marcapàgines la sessió vinent.
+> ⏸️ **Mínim d'avui**: **unió i diferència** provades al fitxer d'exercicis + un text convertit
+> a camí — són les dues eines que el marcapàgines necessita de veritat. La **intersecció** és
+> ampliació ⭐ (la tornarem a veure quan calgui). Amb això ja pots dissenyar la sessió vinent.
 
 ### Sessió 2 — De la imatge al vector + disseny del producte (2 h)
 1. **Abans de vectoritzar: de qui és la imatge? (5')**: d'on surt i què em permet fer-ne la
