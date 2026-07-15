@@ -11,7 +11,8 @@ Material docent en **català** (optativa maker 1r ESO, LOMLOE). El markdown és 
   `build_web.py`, `verifica_*.py` i `genera_quadern.py`.
 
 - **Abans de committar**: `verifica_enllacos.py` i `verifica_competencies.py` han de passar
-  (el CI els executa i bloqueja la publicació si fallen).
+  (el CI els executa i bloqueja la publicació si fallen). El CI també executa
+  `verifica_web.py` després de la build (enllaços de la web generada).
 
 - **RGPD**: repo públic. Cap dada d'alumnat real; les dades van a `dades/` (gitignored,
   patró `*_DADES.*`).

@@ -33,6 +33,8 @@ jobs:
         run: python verifica_competencies.py
       - name: Genera la web des dels .md
         run: python build_web.py
+      - name: Verifica els enllaços de la web generada
+        run: python verifica_web.py
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
