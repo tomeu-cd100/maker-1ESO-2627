@@ -13,7 +13,7 @@ per respectar-ne l'autoria i mantenir el repositori net de material d'altri.
   **validats** (oficials i en català) per a xTool S1, Bambu P2S, Inkscape, Tinkercad i CoSpaces.
   És el punt de partida per preparar les SA (Inkscape per a SA1–SA3, Tinkercad per a SA4–SA6, etc.).
 
-- **[`Plantilles_disseny/`](Plantilles_disseny/)** — plantilles SVG llestes per tallar (clauer
+- **[`Plantilles_disseny/`](Plantilles_disseny/README.md)** — plantilles SVG llestes per tallar (clauer
   SA1, marcapàgines SA2) i un **generador de caixes amb encaix** en Python (SA3).
 
 - **[`Museu_llavor_errors.md`](Museu_llavor_errors.md)** — com fabricar expressament les
