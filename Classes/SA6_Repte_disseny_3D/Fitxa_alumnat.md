@@ -46,7 +46,13 @@
 - Quina millora hem aplicat? ____________________
 
 ## Fase 5 — Presentar
+
 Guió (2-3 min): el repte → per a qui → la solució → l'impacte → què milloraríem.
+Aquest cop **només us donem el pas central** (a SA3 ja vau fer el guió sencer); la resta,
+escriviu-la vosaltres al diari:
+
+- **L'impacte** («Des que ho té, l'usuari pot…»): ____________________
+- [ ] Guió complet al diari — [ ] Cada membre diu una part — [ ] Assajat un cop
 
 ## Reflexió d'equip
 - El nostre impacte: ____________________

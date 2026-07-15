@@ -59,7 +59,16 @@ encaixin**. Trieu un tipus:
 - Millora que hem aplicat: ____________________
 
 ## Fase 5 — Presentar
-Preparem una mini presentació (2-3 min): problema → solució → procés → què milloraríem.
+
+És la **primera presentació pública** del curs (2-3 min, davant famílies) — per això aquí teniu
+el guió sencer. Ompliu **una frase per pas** i repartiu **qui diu cada part**:
+
+1. **El problema/encàrrec** («Volíem un objecte que expliqués qui som…»): ____________________
+2. **La nostra solució** (què és i com s'usa): ____________________
+3. **El procés** (esbós → mostra d'encaix → kerf → tall → muntatge): ____________________
+4. **Què milloraríem** si el tornéssim a fer: ____________________
+
+- [ ] Cada membre diu **almenys un pas** — [ ] L'hem **assajat un cop** abans de la Fira
 
 ## Reflexió d'equip
 - El millor del nostre projecte: ____________________

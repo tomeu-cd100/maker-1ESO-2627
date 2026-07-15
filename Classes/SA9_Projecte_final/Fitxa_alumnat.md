@@ -35,12 +35,12 @@ Creeu un **estand interactiu** que combini un **objecte fabricat** (làser o 3D)
 - [ ] Portafoli del procés complet (vegeu sota)
 
 ## 🎤 El nostre guió de presentació (1-2 min, l'assagem)
-Ompliu una frase per pas i repartiu **qui diu cada part**:
 
-1. **Salutació** («Hola, som l'equip ___ i us presentem…»): ____________________
-2. **Què és** l'estand: ____________________
-3. **Com ho hem fet** (l'objecte + el component immersiu): ____________________
-4. **Invitació** a provar-ho («veniu a explorar el tour a la pantalla…»): ____________________
+Ja n'heu fet dues (SA3 amb guió sencer, SA6 a mitges): **aquesta l'escriviu sols**, al diari
+o en un full de l'estand. Recordeu l'estructura de sempre —
+*salutació → què és → com ho hem fet → invitació a provar-ho* — i repartiu qui diu cada part.
+
+- [ ] Guió escrit (sense plantilla!) — [ ] Cada membre hi té veu — [ ] Assajat davant un altre equip
 
 ## 🗂️ El nostre portafoli final (què hi ha d'haver)
 - [ ] **1 evidència de cada trimestre** (foto del producte de T1, T2 i T3) amb **una frase de
