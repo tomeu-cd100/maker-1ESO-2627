@@ -33,7 +33,9 @@ la **primera coavaluació de cada trimestre**:
 
 ## A) Autoavaluació individual
 
-Marca el teu nivell (1 = gens · 4 = molt) per a cada afirmació.
+Marca el teu nivell per a cada afirmació — la mateixa escala que la coavaluació:
+**1** = no ho he fet · **2** = alguna vegada · **3** = habitualment · **4** = sempre, i puc
+dir quan (tinc l'evidència).
 
 | Afirmació | 1 | 2 | 3 | 4 |
 |-----------|:-:|:-:|:-:|:-:|
@@ -47,6 +49,8 @@ Marca el teu nivell (1 = gens · 4 = molt) per a cada afirmació.
 
 **El que millor he fet:** ________________________________________
 **El que vull millorar:** ________________________________________
+🔎 Tria **una** afirmació on t'hagis posat un 4 i escriu **on es veu** (la regla d'or també
+val per a tu mateix/a): ________________________________________
 
 ## B) Coavaluació de l'equip
 

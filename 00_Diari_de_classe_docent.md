@@ -320,7 +320,9 @@ trimestre en una sola sessió — el mateix format que farà el T2 a la setmana 
 **🎒 Abans:** invitacions enviades la setmana 11; espai a punt (si els visitants passen per
 l'aula Maker: grups de ≤10 comptats a la porta, rol de controlador); ordre de presentacions;
 `Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md` impreses/al quadern; pauta de
-coavaluació; tiquets anònims; fulls de progrés al dia; targetes del Museu candidates a 🏆.
+coavaluació; tiquets anònims; fulls de progrés al dia; targetes del Museu candidates a 🏆;
+**publica la tasca «T1 · Repàs acumulatiu»** (és en DRAFT a Classroom): la mini-lliga
+voluntària de la setmana de Fira.
 **▶️ Obertura (10'):** benvinguda a les famílies i regles de visita + com s'escolta una
 presentació (el públic també s'avalua: CA5.3 en viu).
 **Desenvolupament:**
@@ -558,7 +560,8 @@ tancament de trimestre en una sola sessió — cronometra.
 
 **🎒 Abans:** invitacions enviades la setmana 24; espai a punt (aforament ≤10 a l'aula Maker);
 `Rubrica_SA6.md` completa + rúbrica de producte final; tiquets anònims; fulls de progrés al
-dia; candidates a 🏆 del Museu.
+dia; candidates a 🏆 del Museu; **publica la tasca «T2 · Repàs acumulatiu»** (DRAFT a
+Classroom): la mini-lliga de la setmana de Fira.
 **▶️ Obertura (5'):** benvinguda a les famílies; ordre de presentacions i temps per equip (5').
 **Desenvolupament:**
 
@@ -768,7 +771,7 @@ absorbir aquesta setmana; el dia de la Fira, no.
 coneixen el camí (T1 i T2) i ara s'hi sumen 6è i altres grups. Els equips exposen; el curs es
 tanca.
 
-**🎒 Abans:** estands muntats (o muntatge exprés a primera hora); ulleres carregades; **aforament organitzat** (grups de ≤10 amb el controlador comptant a la porta); rúbriques SA9 + producte final a mà; full de votació de la galeria.
+**🎒 Abans:** estands muntats (o muntatge exprés a primera hora); ulleres carregades; **aforament organitzat** (grups de ≤10 amb el controlador comptant a la porta); rúbriques SA9 + producte final a mà; full de votació de la galeria; **publica la tasca «T3 · Repàs acumulatiu»** (DRAFT a Classroom): l'última mini-lliga, amb perles de tot el curs.
 **Desenvolupament:**
 
 1. **Fira (70')** — els visitants recorren els estands; cada equip presenta en bucle. Els dos docents passen rúbrica observant presentacions reals (tu CE2-CE4 i seguretat; el co-docent CE1, CA5.3 i TE).
