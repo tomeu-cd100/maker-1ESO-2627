@@ -99,6 +99,12 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 
 2. **Comprendre el laminat (30')**: previsualització de capes, temps i grams estimats —
    **comprovar el límit del repte (< 1 h, < 40 g)**; si se supera, redissenyar (una iteració més!).
+   Dins d'aquest bloc, 10' sobre **el material**: d'on surt el PLA (midó de blat de moro — i
+   «biodegradable» només en planta industrial, no al contenidor de casa), i què són els
+   **residus d'impressió** (suports, brim, peces fallides): cada gram que Bambu Studio pinta
+   com a suport és material pagat que no es converteix en peça — orientar bé la peça és
+   disseny sostenible (CA6.2). S'estrena el **🫙 pot de PLA fallit** i la rutina de residus
+   (`Programació didàctica/Gestio_temps_maquina_fabricacio.md` §6).
 
 3. **Checkpoint del carnet 🟠 d'impressora 3D** (integrat en els torns): 3 preguntes de
    seguretat + enviar la impressió amb supervisió (`Normativa/Carnet_de_maquina.md`). Qui té el

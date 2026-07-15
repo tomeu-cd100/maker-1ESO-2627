@@ -174,6 +174,21 @@ Organitza la sessió en **estacions simultànies** per les quals roten els equip
 - [ ] Consumibles i màquina comprovats; impressions llargues planificades **fora d'horari**.
 - [ ] 5–10 min reservats per a **neteja i manteniment** al final.
 
+### Rutina de residus (3', dins la neteja del final — és CA6.2, no escombraries)
+
+Dues destinacions **visibles i retolades** a la zona de fabricació:
+
+- **📦 Caixa de retalls** (DM/contraxapat aprofitables): d'aquí surten les **mostres d'encaix**
+  de SA3 i les proves de gravat — abans de tallar una planxa nova, mira la caixa.
+- **🫙 Pot de PLA fallit** (suports, brims, peces fallides que no van al Museu dels Errors):
+  quan és ple, es pesa i s'apunta — són grams que hem pagat i no s'han convertit en res.
+
+> La pregunta que ho converteix en aprenentatge (1 cop per SA, al tancament): *«què hi ha al
+> pot/caixa aquesta setmana, i quin canvi de **disseny** ho hauria evitat?»* (orientar la peça
+> per estalviar suports, nesting més atapeït, mostra abans de tallar-ho tot…). La rúbrica
+> general demana «optimitza material **i gestiona residus**» per a l'AN — aquesta rutina és
+> on l'alumnat ho pot demostrar.
+
 ---
 
 ## 7. Després: registra i millora
