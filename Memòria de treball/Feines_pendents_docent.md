@@ -8,17 +8,19 @@
 - [ ] **Activar Linux + Inkscape als Chromebooks** del grup (decisió ja presa; és el que fa
   possible l'escenari B de la codocència — `Programació didàctica/Codocencia_desdoblament.md` §3).
 
-- [ ] **Crear la carpeta compartida de Drive** del grup amb subcarpetes `SA1/ … SA9/` i
-  `Portafoli/` (hi van les fotos d'evidència de cada trimestre — vegeu SA3 S5; convenció de
-  noms `Nom_SAx_vN` — codocència §3, «Gestió de fitxers»).
+- [x] ~~Crear la carpeta compartida de Drive del grup amb subcarpetes~~ — feta el 15-07-2026
+  («Aula Maker 1r ESO 26-27 — Grup», amb `SA1/…SA9/` i `Portafoli/`). **Queda per fer a mà:**
+  compartir-la amb el grup quan tinguis la llista d'alumnes (convenció de noms `Nom_SAx_vN` —
+  codocència §3, «Gestió de fitxers»).
 
-- [ ] **Pujar el quadern digital al Drive de centre**: la plantilla és a
-  [`Avaluació/Quadern_digital_docent_plantilla.xlsx`](../Avaluació/Quadern_digital_docent_plantilla.xlsx)
-  (o descarregable del portal docent de la web). Compartir-la **només** amb el co-docent.
-  ⚠️ Els noms d'alumnes s'hi posen **allà**, mai al repositori (és públic).
+- [x] ~~Pujar el quadern digital al Drive~~ — pujat el 15-07-2026 a la carpeta privada
+  «Aula Maker 1r ESO 26-27 — Quadern docent (privat)». **Queda per fer a mà:** compartir-lo
+  **només** amb el co-docent. ⚠️ Els noms d'alumnes s'hi posen **allà**, mai al repositori
+  (és públic).
 
-- [ ] (Opcional) Crear el **Google Form** del tiquet trimestral de valoració de l'assignatura
-  (les 3 preguntes són a `Avaluació/Instruments_formatius.md` §8).
+- [x] ~~Crear el Google Form del tiquet trimestral~~ — creat el 15-07-2026 (anònim, amb
+  selector de trimestre; és a la carpeta privada del quadern). L'enllaç per projectar és al
+  Form mateix (botó «Envia»); les 3 preguntes són les de `Avaluació/Instruments_formatius.md` §8.
 
 ## 🖨️ Impressions (des del portal docent de la web, secció «Impressos»)
 
@@ -106,10 +108,9 @@
 - [x] ~~Abans de publicar el qüestionari de SA5: actualitzar la pregunta del gruix (3 mm)~~ —
   fet el 15-07-2026 (`actualitzar_form_gruix_sa5_maker.mjs`): el Form en esborrany ja diu 3 mm.
 
-- [ ] **Crear els Forms del repàs acumulatiu T1-T3** (mini-lliga de Fira): el banc és a
-  `Avaluació/Questionaris_repas.md` §🎪 — revisa les 30 preguntes i executa
-  `node crear_questionaris_repas_maker.js` al pipeline (crea només els 3 nous, en DRAFT,
-  als temes SA3/SA6/SA9). Publica'ls les setmanes de Fira (13, 25 i 35).
+- [x] ~~Crear els Forms del repàs acumulatiu T1-T3~~ — creats el 15-07-2026 (3 tasques en
+  **DRAFT** als temes SA3/SA6/SA9; banc revisable a `Avaluació/Questionaris_repas.md` §🎪).
+  **Queda al calendari:** publicar-los les setmanes de Fira (13, 25 i 35) com a mini-lliga.
 
 - [ ] **En tancar cada SA: publicar el seu qüestionari de repàs** — són al Classroom en
   **esborrany** (SA0–SA9, tema de cada SA) perquè l'alumnat no vegi qüestionaris de SA
