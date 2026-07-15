@@ -24,6 +24,9 @@
 | **SA7** | Captura 360 i tour virtual | 8 |
 | **SA8** | Realitat virtual responsable | 8 |
 | **SA9** | El projecte final i la Fira | 8 |
+| **T1** 🎪 | Repàs acumulatiu del trimestre — làser, disseny 2D i seguretat (SA0-SA3) | 10 |
+| **T2** 🎪 | Repàs acumulatiu del trimestre — 3D, impressió i usuari (SA4-SA6 + una mica de T1) | 10 |
+| **T3** 🎪 | Repàs acumulatiu del curs — immersiu i projecte (SA7-SA9 + perles de tot el curs) | 10 |
 
 ## Banc de preguntes (solució en negreta)
 
@@ -456,6 +459,171 @@
    - **Usar el que has après aquest curs en situacions noves.** ✔️
    - Canviar d'equip.
    - Enviar la nota a casa.
+
+## 🎪 Repàs acumulatiu de trimestre (mini-lliga de la setmana de Fira)
+
+> Preguntes **noves** (amb escenari) que barregen les SA del trimestre i recuperen «perles»
+> de trimestres anteriors: l'esforç de recordar el que semblava oblidat és el que consolida.
+> El docent els publica la setmana de cada Fira (13, 25 i 35).
+
+### T1 — Repàs acumulatiu del trimestre — làser, disseny 2D i seguretat (SA0-SA3)
+
+1. La Núria vol que el seu nom es GRAVI i que el contorn del clauer es TALLI. Com ho marca a Inkscape?
+   - Tot en vermell, més ràpid.
+   - **Nom en negre (ompliment) i contorn en vermell pur de línia fina.** ✔️
+   - Nom en vermell i contorn en negre.
+   - Tant és, la làser ho endevina.
+2. Un marcapàgines surt de la làser i les lletres del nom han CAIGUT (hi ha forats amb forma de lletra). Què ha passat?
+   - La làser s'ha espatllat.
+   - **El nom estava marcat com a TALL (vermell) en lloc de gravat: el que és vermell i queda solt, cau. El gravat negre no cau mai.** ✔️
+   - La fusta era massa fina.
+   - Les lletres eren massa petites.
+3. En Pau dissenya una ranura de 3 mm exactes per a fusta de 3 mm, i l'encaix queda fluix. Per què?
+   - Ha mesurat malament la fusta.
+   - **La làser es "menja" material en tallar (kerf): la ranura es dissenya una mica més estreta.** ✔️
+   - La fusta s'ha encongit.
+   - Els encaixos sempre queden fluixos.
+4. Obres el teu fitxer i la peça és diminuta a la previsualització de la làser. El sospitós número 1 és…
+   - El fitxer és massa vell.
+   - **El document estava en píxels en lloc de mil·límetres.** ✔️
+   - La làser llegeix malament.
+   - El Drive l'ha encongit.
+5. Abans d'enviar un text a la làser cal fer «Camí → Objecte a camí» perquè…
+   - Quedi més bonic.
+   - **El text es converteixi en línies que qualsevol màquina entén, tingui o no la teva font.** ✔️
+   - Ocupi menys espai.
+   - Es pugui editar millor després.
+6. Veus una mica de flama dins la làser. Què fas PRIMER?
+   - Obro la tapa i bufo.
+   - **Prémer aturada i avisar el/la docent immediatament.** ✔️
+   - Tiro aigua.
+   - Espero que s'apagui sola.
+7. Ordena bé el procés tecnològic:
+   - Fabricar → pensar → dibuixar.
+   - **Necessitat → idea → disseny → fabricació → millora.** ✔️
+   - Dissenyar → entregar.
+   - Comprar → muntar → llençar.
+8. El teu prototip v1 falla davant de tothom. Què en fa un maker?
+   - L'amaga perquè no compti.
+   - **Targeta per al Museu dels Errors (què ha passat i què n'aprenc) i versió 2.** ✔️
+   - Canvia de projecte.
+   - Culpa la màquina.
+9. Per vectoritzar bé, tria…
+   - Una foto amb ombres i molts detalls.
+   - **Una imatge simple i d'alt contrast (silueta, icona, escut).** ✔️
+   - Una imatge borrosa gran.
+   - Qualsevol, és igual.
+10. Per què posem tots els dissenys del grup junts i ben col·locats en UNA planxa (nesting)?
+   - Perquè queda ordenat a la foto.
+   - **S'estalvia material i temps de làser: menys passades i menys retalls.** ✔️
+   - Perquè la làser només accepta una planxa al dia.
+   - Per obligació del fabricant.
+
+### T2 — Repàs acumulatiu del trimestre — 3D, impressió i usuari (SA4-SA6 + una mica de T1)
+
+1. Poses un cilindre "forat" sobre el teu cos a Tinkercad, exportes… i el forat no hi és. Què faltava?
+   - Esperar que es guardi.
+   - **Seleccionar peça + forat i AGRUPAR: el forat només buida en agrupar.** ✔️
+   - Pintar el forat de negre.
+   - Fer el cilindre més alt.
+2. La peça queda flotant sobre el pla de treball. La manera ràpida de baixar-la és…
+   - Arrossegar-la a ull.
+   - **Seleccionar-la i prémer la tecla D (drop).** ✔️
+   - Reiniciar Tinkercad.
+   - Girar-la 180°.
+3. Per passar el model a la impressora, l'exportes en…
+   - .SVG
+   - **.STL** ✔️
+   - .JPG
+   - .DOCX
+4. Bambu Studio et marca 1 h 20 min i 55 g. Què toca?
+   - Imprimir igualment, què vols fer-hi.
+   - **Iterar: reduir mida/farciment fins a complir el límit del curs (< 1 h i < 40 g).** ✔️
+   - Demanar més hores de màquina.
+   - Treure el brim.
+5. Una paret d'1 mm a la teva capsa impresa probablement…
+   - Serà més lleugera i millor.
+   - **Sortirà fràgil o trencada: el llindar del curs és ≥3 mm.** ✔️
+   - Estalviarà temps sense cap risc.
+   - Farà la peça més forta.
+6. Vols que un llapis de Ø8 mm entri en un forat de la teva peça. El forat es dissenya de…
+   - 8 mm exactes.
+   - **~8,5 mm: tolerància perquè encaixi de veritat.** ✔️
+   - 7,5 mm ben ajustat.
+   - 12 mm, com més gran millor.
+7. Les vores de la peça s'aixequen de la placa (warping). El moment crític que calia vigilar era…
+   - L'última capa.
+   - **La primera capa (adherència: placa neta, brim si cal).** ✔️
+   - El canvi de color.
+   - El moment d'exportar.
+8. A SA6, els requisits del disseny surten de…
+   - El que l'equip troba més fàcil de modelar.
+   - **Parlar amb l'usuari i observar-lo: la necessitat real, no la imaginada.** ✔️
+   - La primera idea votada.
+   - Internet.
+9. 🧠 Perla del T1 — Al codi de colors de la làser, vermell pur i negre volen dir…
+   - Vermell = gravat · negre = tall.
+   - **Vermell = tall · negre = gravat.** ✔️
+   - Tots dos tallen.
+   - Tots dos graven.
+10. 🧠 Perla del T1 — El kerf (làser) i la tolerància (3D) s'assemblen perquè tots dos…
+   - Són tipus de material.
+   - **Són marges de mida que cal preveure perquè les peces encaixin de veritat.** ✔️
+   - Fan la peça més bonica.
+   - Només afecten el color.
+
+### T3 — Repàs acumulatiu del curs — immersiu i projecte (SA7-SA9 + perles de tot el curs)
+
+1. Quan la càmera 360 dispara, qui fa la captura és…
+   - Al costat, saludant.
+   - **Amagat/da o fora de l'escena: la càmera ho veu TOT al voltant.** ✔️
+   - Aguantant la càmera amb el braç.
+   - On vulgui.
+2. Al tour hi surt una persona que passava per allà. Es pot publicar?
+   - Sí, si surt de lluny.
+   - **No sense el seu permís: drets d'imatge — es repeteix la captura o es descarta.** ✔️
+   - Sí, si el tour queda bé.
+   - Sí, esborrant-li la cara amb retolador.
+3. Amb les ulleres VR notes mareig. Protocol:
+   - Aguantar, que passa.
+   - **Aturar-se, treure-se-les, seure i avisar.** ✔️
+   - Tancar els ulls i seguir.
+   - Sacsejar el cap.
+4. Mentre un company explora amb les ulleres, el teu paper de guia és…
+   - Mirar el mòbil.
+   - **Vigilar el seu espai perquè no topi amb res ni ningú.** ✔️
+   - Cridar-li instruccions.
+   - Prendre-li les ulleres si trigues.
+5. Una FITA del pla de projecte de SA9 és…
+   - Una idea que agrada.
+   - **Un punt de control amb data: què ha d'estar acabat i quan.** ✔️
+   - El logotip de l'equip.
+   - La nota que voleu.
+6. El portafoli final del curs conté…
+   - Totes les fotos del mòbil.
+   - **1 evidència de cada trimestre amb reflexió + fitxa i diari de SA9 + «El meu viatge maker».** ✔️
+   - Només la peça més bonica.
+   - Un examen final.
+7. El dia de la Fira, dins l'aula Maker hi pot haver com a màxim…
+   - Tothom qui vulgui entrar.
+   - **10 persones (aforament de seguretat).** ✔️
+   - 25 persones.
+   - 2 persones.
+8. La demo falla en directe davant del públic. Un maker…
+   - Tanca l'estand.
+   - **Explica què esperava, què passa i la seva hipòtesi: diagnosticar en veu alta també és saber-ne.** ✔️
+   - Diu que és culpa del wifi.
+   - Fa veure que funcionava.
+9. 🧠 Perla del T2 — Cada peça 3D del vostre estand ha de complir…
+   - Cap límit, és el projecte final.
+   - **Menys d'1 h i menys de 40 g (ho diu Bambu Studio).** ✔️
+   - Només el límit de color.
+   - Mida mínima de 100 mm.
+10. 🧠 Perla del T1 — Es pot operar una màquina sense el carnet corresponent?
+   - Sí, si vas amb compte.
+   - **Mai: sense carnet (i sense permís) no s'opera cap màquina — també a la Fira.** ✔️
+   - Sí, si el docent és a prop.
+   - Només la làser.
 
 > Connecta amb: `Avaluació/Instruments_formatius.md` §2 i §6 (tiquets i mini-checks)
 > i `Classes/SA0_Punt_de_partida/Vocabulari_basic.md` (el glossari del curs).
