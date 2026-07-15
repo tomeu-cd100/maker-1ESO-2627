@@ -46,7 +46,8 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 - [ ] Cada peça s'imprimeix en **menys d'1 h i amb menys de 40 g** (ho diu Bambu Studio) i
   hem repartit les peces al calendari d'impressió.
 
-- [ ] Les peces encaixen i la solució funciona.
+- [ ] La solució funciona: **cada peça fa la seva funció** i, si n'hi ha més d'una, encaixen
+  entre elles (una solució bona d'una sola peça també compleix — no afegiu peces per afegir-ne).
 - [ ] Hem provat amb l'usuari i hem aplicat **almenys una millora** a partir del que ens ha dit.
 - [ ] Hem comunicat l'impacte de la solució.
 

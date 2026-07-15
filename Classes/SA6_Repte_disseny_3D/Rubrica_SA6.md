@@ -6,7 +6,7 @@ Nivells: **NA / AS / AN / AE**. Combineu amb `Avaluació/Rubrica_producte_final.
 |---------|----|----|----|----|
 | **Empatia i requisits (CA1.1)** | Encara no considera l'usuari | Requisits vagues o inventats | ≥3 requisits i ≥1 restricció que surten de l'usuari | Anàlisi acurada de necessitats i restriccions |
 | **Idear i planificar (CA1.2/1.3)** | Encara sense pla | Pla incomplet | Idees, elecció i repartiment | Pla rigorós i ben justificat |
-| **Disseny 3D de conjunt (CA2.2/2.3)** | Peces encara no vàlides | Peces simples | Peces que encaixen i funcionen | Conjunt optimitzat i coherent |
+| **Disseny 3D de conjunt (CA2.2/2.3)** | Peces encara no vàlides | Peces simples | Cada peça fa la seva funció (i si n'hi ha més d'una, encaixen) | Conjunt optimitzat i coherent |
 | **Impressió i iteració (CA3.2/3.3)** | Encara no imprimeix | Imprimeix amb ajuda | Imprimeix, prova amb l'usuari i aplica una millora | Itera més d'un cop i justifica cada canvi amb el feedback |
 | **Impacte / funcionalitat (CA3.3)** | Encara no resol el repte | Solució parcial | Resol el repte | Solució excel·lent amb valor afegit |
 | **Treball en equip (CA5.1)** | Encara no col·labora | Col·labora puntualment | Assumeix el rol | Coordina i fa avançar l'equip |

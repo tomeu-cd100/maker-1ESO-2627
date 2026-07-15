@@ -42,6 +42,7 @@ la culminació, oberta també a altres grups i a l'alumnat de 6è.
 **Sabré que ho he aconseguit si… (criteris d'èxit)**
 
 - [ ] L'estand combina un objecte fabricat i una experiència immersiva.
+- [ ] El producte és **acabat i acurat**: res a mig fer a l'estand el dia de la Fira.
 - [ ] Hem complert el pla de projecte (la taula de calendari de la fitxa).
 - [ ] Tenim un **guió de presentació d'1-2 min** (salutació · què és · com ho hem fet ·
   invitació) i l'hem assajat.

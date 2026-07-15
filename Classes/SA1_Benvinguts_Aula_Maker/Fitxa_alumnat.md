@@ -45,7 +45,7 @@ Ara que ja tens l'esbós decidit, el passes a l'ordinador. Les decisions ja esta
 > mides reals · capes i colors · nom i destí. Cap fitxer va a la làser sense les 3 llums en verd.
 
 ## Reflexió final
-- El meu clauer ha quedat: ⭐⭐⭐⭐⭐ (encercla)
+- El meu clauer ha quedat: 🌱 🙂 💪 🌟 (encercla — la mateixa escala de sempre)
 - El que més m'ha agradat: ____________________
 - El que milloraria: ____________________
 

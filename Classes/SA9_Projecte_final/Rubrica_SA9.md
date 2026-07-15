@@ -7,7 +7,7 @@ integra totes les competències; pes destacat en la valoració global de curs.
 |---------|----|----|----|----|
 | **Integració de tecnologies (CE2/CE3/CE4)** | Encara no integra | Una sola tecnologia | Objecte fabricat + immersiu | Integració rica i coherent de làser/3D i 360/VR |
 | **Procés tecnològic complet (CE1)** | Encara sense procés | Procés bàsic | Planifica, fabrica i millora | Procés rigorós i iteratiu |
-| **Qualitat i funcionalitat del producte** | Encara inacabat | Mínims justos | Producte complet i acurat | Producte excel·lent amb valor afegit |
+| **Qualitat i funcionalitat del producte (CA2.3/CA3.3)** | Encara inacabat | Mínims justos | Producte complet i acurat | Producte excel·lent amb valor afegit |
 | **Treball en equip (CA5.1)** | Encara no col·labora | Col·labora puntualment | Assumeix el rol | Coordina i fa avançar l'equip |
 | **Comunicació a la Fira (CA5.3)** | Encara no presenta | Presentació confusa | Presentació clara | Presentació clara, atractiva i convincent |
 | **Seguretat, sostenibilitat i ètica (CE6)** | Encara incompleix normes | Amb recordatoris | Compleix | Exemplar i ho argumenta |
