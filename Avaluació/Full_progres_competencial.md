@@ -56,6 +56,11 @@ seguiment):
 - **La valoració global de cada CE és el nivell que l'alumne demostra al final** (les darreres
   evidències), matisat per la trajectòria — mai la mitjana aritmètica de la fila.
 
+- ⚠️ **La columna SA9 pot quedar buida en CE2/CE3/CE4 sense que sigui cap alerta**: el projecte
+  final és de tecnologia triada (làser **o** 3D, 360 **o** VR). Si l'equip no ha triat aquella
+  tecnologia, la global del criteri es tanca amb la darrera evidència de SA1–SA8 (vegeu la nota
+  de la matriu, `Criteris_i_qualificacio.md` §4).
+
 - Les SA amb ⭐ (SA3, SA6, SA9) porten rúbrica completa i pesen més com a evidència; a la
   resta, el nivell surt del **checklist de criteris d'èxit** (vegeu la jerarquia d'instruments,
   `Criteris_i_qualificacio.md` §2·bis). Aquest full no és feina nova: és **on conflueix** el

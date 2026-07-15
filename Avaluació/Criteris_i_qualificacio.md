@@ -118,6 +118,12 @@ La **SA0** (setmanes 1-2) és **diagnòstica** i no hi apareix: no es qualifica 
 > `Rubrica_general_competencial.md` (secció *Eixos transversals — Equitat i APS*),
 > `Programació didàctica/Equitat_genere_STEAM.md` i `Programació didàctica/Interdisciplinarietat_i_APS.md`.
 
+> ⚠️ **SA9 és de tecnologia triada** («làser **o** 3D» i «360 **o** VR»): CA2.1, CA3.1
+> (làser), CA2.2, CA3.2 (3D) i CA4.1 (360) **només generen evidència a SA9 si l'equip tria
+> aquella tecnologia**. Per a la resta d'equips, el judici global d'aquests criteris es tanca
+> amb la darrera evidència de SA1–SA8 — no els penalitzeu per una «darrera evidència» que el
+> repte no els demanava. (La mateixa nota és al full de progrés.)
+
 ## 4·bis. Mapa operatiu: què s'avalua a cada SA, amb què i qui
 
 Vista de curs per al docent (el detall per sessió és al **§8 de cada SA**, i la versió per a
