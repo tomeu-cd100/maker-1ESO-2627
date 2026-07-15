@@ -50,6 +50,8 @@ encaixin**. Trieu un tipus:
 - [ ] Totes les peces dibuixades   - [ ] Unions a l'amplada del gruix
 - [ ] Capes tall/gravat   - [ ] **Mostra d'encaix** provada abans de tallar-ho tot
 - Kerf mesurat a la mostra: hem dibuixat ____ mm i ha quedat ____ mm → el làser es menja ____ mm
+  > 📏 Parlem de **dècimes de mil·límetre**: abans de mesurar, mireu la micro-fitxa
+  > `Recursos/Peu_de_rei.md` (com llegir el nonius — 2 minuts que estalvien mesures inventades).
 
 > 🚦 Abans de tallar el projecte sencer: passeu el **semàfor de fabricació**
 > (`Recursos/Semafor_maker.md`) — mides reals, capes vermell/negre, i nom `Equip_SA3_vN.svg`.

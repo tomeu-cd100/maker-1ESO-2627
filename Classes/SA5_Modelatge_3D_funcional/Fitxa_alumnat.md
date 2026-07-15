@@ -10,9 +10,12 @@ Dissenya i imprimeix una **peça útil** que resolgui una molèstia del teu dia 
 > guanya a gran i a mitges!
 
 ## Fase 1 — Detectar i mesurar
+> 📖 **Mira què vas escriure a la SA0** («què t'agradaria fabricar aquest curs?»):
+> encara t'hi acostes? La peça d'avui pot ser el primer pas cap a allò.
+
 - Quin problema vull resoldre? ____________________
 - On anirà col·locada la peça? ____________________
-- **Mides reals** que he pres (amb regle/peu de rei):
+- **Mides reals** que he pres (amb regle/peu de rei — 📏 com es llegeix: `Recursos/Peu_de_rei.md`):
   | Què mesuro | Mida (mm) |
   |------------|:--------:|
   | | |

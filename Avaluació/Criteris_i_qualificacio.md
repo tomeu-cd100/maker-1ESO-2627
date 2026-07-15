@@ -110,7 +110,7 @@ La **SA0** (setmanes 1-2) és **diagnòstica** i no hi apareix: no es qualifica 
 | CA5.3 Comunicar | | | ● | | | ● | ● | ● | ● |
 | CA6.1 Seguretat i ús | ● | ● | ● | ● | ● | ● | ● | ● | ● |
 | CA6.2 Sostenibilitat | | ● | ● | | ● | ● | | | ● |
-| CA6.3 Ètica digital | ● | | | | | | ● | ● | ● |
+| CA6.3 Ètica digital | | ● | | | | | ● | ● | ● |
 | **TE Participació equitativa** | ● | ● | ● | ● | ● | ● | ● | ● | ● |
 | **TA Orientació a l'usuari (APS)** | | | ● | | ● | ● | ● | | ● |
 

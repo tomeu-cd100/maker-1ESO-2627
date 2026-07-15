@@ -58,11 +58,11 @@ desenvoluparan en SA2 i SA3.
 - **CE1** → CA1.1
 - **CE2** → CA2.1
 - **CE3** → CA3.1
-- **CE6** → CA6.3
 - **Constants (totes les SA)** → CA1.4 · CA5.1 · CA5.2 · CA6.1
 
 ## 3. Sabers
-- Cultura maker, fabricació digital, *fab lab*, codi obert i llicències.
+- Cultura maker, fabricació digital, *fab lab*, codi obert i llicències (les llicències
+  s'apliquen de debò a la SA2, quan vectoritzem imatges d'altri — aquí només se'n sembra la idea).
 - Normes de seguretat i organització de l'aula-taller.
 - Talladora làser: què és, tall vs gravat, materials adequats (i perillosos).
 - Iniciació a Inkscape: llenç, formes, text, exportar.
@@ -157,7 +157,9 @@ i acotat en paper. Qui té el plànol clar, la setmana que ve el digitalitza en 
 
 3. **Acabat i muntatge (15')**: posar l'anella, revisar.
 4. **Reflexió i galeria (15')**: cadascú mostra el seu clauer; coavaluació ràpida i tancament
-   de la SA al diari.
+   de la SA al diari. Dins d'aquest bloc, **5' per presentar el 🚀 projecte personal**
+   (`Reptes/Projecte_personal.md`): «si vols un objecte TEU que creixi tot el curs, aquest és
+   el contracte — el signem aquesta setmana». És opcional, però tothom ha de saber que existeix.
 
 > ⏸️ **Mínim d'avui**: el clauer surt del batch amb l'anella posada, i entrada de tancament al
 > diari amb foto. **El carnet 🔴 és per operar la màquina, no per fabricar:** qui avui no supera
@@ -216,7 +218,7 @@ veritat (de la idea al clauer a la mà: què t'ha sorprès del procés?).
 | Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
 |------------------------------|-----------|------------|----------|
 | **Esbós en paper acotat** (2-3 idees provades + tria, tall/gravat marcats) **+ clauer fabricat** amb capes correctes (S1-S3) | Checklist de criteris d'èxit + files CA1.1/CA2.1/CA3.1 de `Rubrica_SA1.md` | Docent + autoaval. | CA1.1, CA2.1, CA3.1 |
-| **Carnet 🔴 d'operador/a làser** (S3) | Checkpoint del carnet (el contracte ve signat de la SA0) | Docent | CA6.1, CA6.3 |
+| **Carnet 🔴 d'operador/a làser** (S3) | Checkpoint del carnet (el contracte ve signat de la SA0) | Docent | CA6.1 |
 | **Diari de taller** (1 entrada/sessió + tancament amb 🎯) | Pauta de `Avaluació/Diari_de_taller.md` | Docent | CA5.2, CA1.4 |
 | **Seguretat i actitud al taller** (S1-S3, contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
 | **Coavaluació de la galeria** (S3) | `Avaluació/Autoavaluacio_coavaluacio.md` (C) | Companys | contrast |

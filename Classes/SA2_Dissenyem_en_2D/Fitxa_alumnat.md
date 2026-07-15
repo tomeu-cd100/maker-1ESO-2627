@@ -29,6 +29,8 @@ Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requ
 - **Provo 2 idees** (esbós ràpid) i marco la que trio: ☐ idea 1 ☐ idea 2 — la trio perquè ____________________
 - Missatge/nom: ____________________
 - Imatge que vectoritzaré: ____________________
+- 🕵️ **D'on surt la imatge i què em permet fer-ne la llicència?** (banc de la SA = verificat;
+  «trobada a Google» no vol dir lliure): ____________________
 - **Forma nova amb operació de camí** que faré servir: ☐ unió ☐ diferència — per fer ____________________
 
 ## El meu esbós (dibuixa'l en paper abans de fer-lo digital)
@@ -59,6 +61,7 @@ la forma, tria el missatge i la imatge, i **marca amb colors què és tall (verm
 |-------------|-----|-----|
 | El meu **marcapàgines**: text a camí + imatge vectoritzada + capes correctes | Els criteris d'èxit (la llista de requisits de dalt) | El/la profe, amb mi |
 | Com **aprofito el material** de la planxa | Mirant el nesting: poc malbaratament | El/la profe |
+| Que sàpiga **d'on surt la meva imatge** i què em permet fer-ne la llicència | La casella 🕵️ de la planificació | El/la profe |
 | El meu **diari** (una entrada per sessió) | Decisions, problemes i com els he resolt | El/la profe |
 | Treball i **seguretat** cada dia | Observació (+/-/!) | Els/les profes |
 | La **galeria** de productes | Dono i rebo feedback concret (★★ i un desig) | Els companys |

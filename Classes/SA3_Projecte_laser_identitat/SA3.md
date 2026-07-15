@@ -124,6 +124,11 @@ encaix (*kerf* / joints) i el treball en equip.
    > per una peça que encara no ha sortit de la cua.
 2. **Coavaluació (30')**: `Avaluació/Autoavaluacio_coavaluacio.md`.
 3. **Tancament de trimestre (30')**: portafoli, autoavaluació, recollida del diari.
+   **Dins d'aquest bloc, 5' que salven el portafoli final de curs:** abans de lliurar el
+   quadern, cada alumne fa **foto del seu producte i de la millor pàgina del diari** i la puja
+   a la carpeta `Portafoli/` del Drive — el quadern del T1 es queda amb el docent i el producte
+   marxa a casa; sense aquest pas, al juny no queda cap evidència del T1 per al portafoli
+   de SA9.
 
 ## 5. Producte final
 Objecte d'identitat funcional muntat a partir de diverses peces + presentació + portafoli del

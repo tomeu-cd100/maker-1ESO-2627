@@ -8,8 +8,9 @@
 - [ ] **Activar Linux + Inkscape als Chromebooks** del grup (decisió ja presa; és el que fa
   possible l'escenari B de la codocència — `Programació didàctica/Codocencia_desdoblament.md` §3).
 
-- [ ] **Crear la carpeta compartida de Drive** del grup amb subcarpetes `SA1/ … SA9/`
-  (convenció de noms `Nom_SAx_vN` — codocència §3, «Gestió de fitxers»).
+- [ ] **Crear la carpeta compartida de Drive** del grup amb subcarpetes `SA1/ … SA9/` i
+  `Portafoli/` (hi van les fotos d'evidència de cada trimestre — vegeu SA3 S5; convenció de
+  noms `Nom_SAx_vN` — codocència §3, «Gestió de fitxers»).
 
 - [ ] **Pujar el quadern digital al Drive de centre**: la plantilla és a
   [`Avaluació/Quadern_digital_docent_plantilla.xlsx`](../Avaluació/Quadern_digital_docent_plantilla.xlsx)

@@ -54,12 +54,14 @@ converteix en línies que la màquina pot tallar i gravar.
 - **CE1** → CA1.1, CA1.2
 - **CE2** → CA2.1, CA2.3
 - **CE3** → CA3.1, CA3.3
-- **CE6** → CA6.2
+- **CE6** → CA6.2, CA6.3
 - **Constants (totes les SA)** → CA1.4 · CA5.1 · CA5.2 · CA6.1
 
 ## 3. Sabers
 - Disseny vectorial: nodes, camins, unió/diferència de formes, alineació, text a camí.
 - **Vectorització** d'una imatge (traçat de mapa de bits).
+- **Drets d'ús i llicències de les imatges**: d'on surt la imatge que vectoritzo i què em
+  permet fer-ne (CC, domini públic, «trobada a Google» ≠ lliure).
 - Diferència tall/gravat; gravat de línia vs gravat d'ompliment.
 - Optimització de material (aprofitar la planxa, *nesting* bàsic).
 
@@ -80,11 +82,14 @@ converteix en línies que la màquina pot tallar i gravar.
 > marcapàgines la sessió vinent.
 
 ### Sessió 2 — De la imatge al vector + disseny del producte (2 h)
-1. **Vectorització (30')**: importar una imatge senzilla i traçar-la (Camí → Vectoritza mapa de bits).
-2. **Disseny del marcapàgines (70')**: forma base (~150×50 mm), missatge gravat, imatge
+1. **Abans de vectoritzar: de qui és la imatge? (5')**: d'on surt i què em permet fer-ne la
+   seva llicència («trobada a Google» no vol dir lliure; el banc d'imatges de la SA ja ve
+   verificat; la casella de la fitxa ho recull). És l'evidència de CA6.3 d'aquesta SA.
+2. **Vectorització (25')**: importar una imatge senzilla i traçar-la (Camí → Vectoritza mapa de bits).
+3. **Disseny del marcapàgines (70')**: forma base (~150×50 mm), missatge gravat, imatge
    vectoritzada, forat per a la borla. Definir capes tall/gravat.
 
-3. **Optimització i revisió (20')**: comprovar mides, gruixos de línia, aprofitament de material.
+4. **Optimització i revisió (20')**: comprovar mides, gruixos de línia, aprofitament de material.
 
 > ⏸️ **Mínim d'avui**: forma + missatge (text a camí) + forat, amb capes correctes — si la
 > vectorització pròpia no surt, es pot agafar una imatge del banc de plantilles i tothom
@@ -137,6 +142,7 @@ Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, docum
 |------------------------------|-----------|------------|----------|
 | **Marcapàgines** amb text a camí i imatge vectoritzada (S2-S3) | Checklist de criteris d'èxit + fila CA2.1 de `Rubrica_SA2.md` | Docent + autoaval. | CA2.1, CA2.3, CA3.1 |
 | **Aprofitament del material** a la planxa (S2-S3) | Fila CA6.2 de la rúbrica (observant el nesting) | Docent | CA6.2 |
+| **Drets de la imatge vectoritzada** (S2) | Casella de la fitxa («d'on surt i què em permet fer») | Docent | CA6.3 |
 | **Diari de taller** (1 entrada/sessió + tancament amb 🎯) | Pauta del diari | Docent | CA5.2, CA1.4 |
 | **Treball i seguretat** (contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
 | **Autoavaluació i galeria** (S3) | `Avaluació/Autoavaluacio_coavaluacio.md` | Alumne + companys | contrast |

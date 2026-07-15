@@ -24,6 +24,10 @@ per respectar-ne l'autoria i mantenir el repositori net de material d'altri.
   **desencallar-se sol/a**: els errors més freqüents d'Inkscape/làser, Tinkercad/3D i
   fitxers/Drive, amb símptoma, causa i solució. Primer pas abans de cridar el docent.
 
+- **[`Peu_de_rei.md`](Peu_de_rei.md)** — 📏 micro-fitxa per **llegir el peu de rei** (nonius
+  pas a pas, versió digital, errors típics): imprescindible abans de mesurar el kerf (SA3) i
+  les mides reals (SA5).
+
 - **[`Semafor_maker.md`](Semafor_maker.md)** — 🚦 les **3 comprovacions obligatòries**
   (mides reals · capes i colors · nom i destí) abans d'enviar cap fitxer a la làser o a
   la impressora. Control de qualitat en mans de l'alumnat.

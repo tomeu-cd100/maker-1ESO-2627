@@ -25,6 +25,14 @@
 - **Repte base + ampliació ⭐** sempre.
 - **Parelles d'ajuda mútua** i tutorització entre iguals.
 - **Temps flexible** i possibilitat d'acabar amb suport.
+
+> 🪜 **Regla de retirada de bastides** (les plantilles, checklists i el semàfor són bastides —
+> han de poder desaparèixer): **T1, es donen** a tothom d'entrada · **T2, es donen si es
+> demanen** (són al hub de la SA, però no es reparteixen) · **T3, l'equip decideix quines
+> necessita** i ho anota al pla de projecte — la tria mateixa és evidència de CA1.3 i
+> d'autonomia (el nivell AE de les rúbriques). El menú DUA **no caduca**: qui necessita una
+> bastida per barrera (NESE, nouvinguts) la té sempre, a qualsevol trimestre — la regla és per
+> al grup, no per a qui en depèn.
 - **La web del curs porta el DUA incorporat** (barra d'ajustos a totes les pàgines, es recorda
   entre sessions): **A−/A+** mida de lletra (baixa visió) · **Aa↔ lectura fàcil** (més espaiat
   entre lletres i línies i columna estreta — dislèxia) · **🔊 lectura en veu alta** en català

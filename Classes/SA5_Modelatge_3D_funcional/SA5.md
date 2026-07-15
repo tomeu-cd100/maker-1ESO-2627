@@ -75,7 +75,9 @@ necessitat concreta i la fabrica amb la impressora 3D, aprenent tot el flux: dis
 > setmanes 17–20.
 
 ### Sessió 1 — Detectar i dissenyar (2 h)
-1. **Repte + mesurar el problema (30')**: identificar la necessitat i prendre **mides reals**
+1. **Repte + mesurar el problema (30')**: obrir recuperant la **promesa de la SA0** («què
+   t'agradaria fabricar aquest curs?» — recupereu les respostes de l'avaluació 0): avui és el
+   dia que cadascú tria la SEVA peça. Identificar la necessitat i prendre **mides reals**
    (regle/peu de rei) de l'objecte/espai on anirà la peça. Recordar els **límits del repte**:
    la peça ha d'imprimir-se en **< 1 h i < 40 g** (ho comprovarem a Bambu Studio).
 

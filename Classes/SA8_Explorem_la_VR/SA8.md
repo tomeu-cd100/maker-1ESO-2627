@@ -21,6 +21,11 @@ escena 3D que es pot explorar amb les ulleres VR.
 > mini-història interactiva) que es pugui explorar amb les ulleres, i analitzeu usos reals de
 > la VR.»
 
+> 🎪 **L'escena té públic real**: és la **llavor del component immersiu de l'estand de SA9**
+> (la Gran Fira, amb famílies) — no es fa «per practicar», es fa per estrenar-la allà. Si el
+> calendari ho permet, oferiu-la també a un grup de 6è o d'una altra optativa en una visita
+> de 10'. Digueu-ho a l'alumnat el primer dia: dissenyar per a algú canvia el que es dissenya.
+
 ## 🎯 Pregunta guia
 > «Com creo una experiència de realitat virtual i en faig un ús segur i crític?»
 
@@ -85,20 +90,33 @@ escena 3D que es pot explorar amb les ulleres VR.
    seus guies, experiències de `Simulacions/Experiencies_VR_360.md`) · fitxa d'anàlisi crítica ·
    la mateixa experiència en pantalla · preparació d'arguments per al debat.
 
-3. **La VR al món real (30')**: debat sobre usos, beneficis, riscos i ètica (privadesa, addicció).
-4. **El nostre tema (15')**: cada equip tria el tema de l'escena (museu, recorregut,
+3. **La VR al món real (20')**: debat sobre usos, beneficis, riscos i ètica (privadesa, addicció).
+4. **El nostre tema (10')**: cada equip tria el tema de l'escena (museu, recorregut,
    mini-història) i reparteix tasques.
 
-5. **Diari (5')**.
+5. **Demo CoSpaces — demo-construint (15')**: crear escena, afegir i moure objectes, càmera,
+   "play" (guió: `Recursos/Guions_de_demo.md` Demo 8) — però **cada equip la segueix creant
+   el SEU espai en directe**: en acabar la demo, l'escena de l'equip ja existeix amb 1 objecte
+   posat. Així la S2 arrenca construint (i si el calendari obliga a fusionar les 2 sessions,
+   el mínim ja és fet).
 
-> ⏸️ **Mínim d'avui**: la **Part B de la fitxa** (anàlisi crítica: 1 benefici + 1 risc) completa
-> i el **tema de l'escena triat** per l'equip. Amb això, la sessió 2 arrenca creant, no decidint.
+6. **Diari (5')**.
+
+> ⏸️ **Mínim d'avui**: la **Part B de la fitxa** (anàlisi crítica: 1 benefici + 1 risc) completa,
+> el **tema de l'escena triat** i l'**escena de l'equip creada amb 1 objecte** (de la
+> demo-construint). Amb això, la sessió 2 arrenca construint, no decidint.
+>
+> 🅱️ **Contingència de calendari — si SA8 queda en 1 sola sessió** (vàlvula de
+> `Temporitzacio_anual.md`): el ⏸️ mínim de la sessió única és l'**escena de 3 objectes +
+> càmera feta durant la demo-construint mateixa** (s'allarga la demo a 30' i se salta el debat
+> llarg: 1 benefici + 1 risc queden recollits a la fitxa durant les estacions). Sense això,
+> el ♻️ «partiu de l'escena de SA8» de SA9 es queda sense base.
 
 ### Sessió 2 — Crear, provar i avaluar l'escena (2 h)
-1. **Demo CoSpaces (20')**: crear escena, afegir i moure objectes, càmera, "play" en VR
-   (guió: `Recursos/Guions_de_demo.md` Demo 8).
+1. **Reprendre l'escena (10')**: repàs exprés de la demo (objectes, càmera, "play") i
+   objectius del dia per equips.
 
-2. **Construcció en equip (55')**: cada membre construeix la seva part del tema acordat;
+2. **Construcció en equip (65')**: cada membre construeix la seva part del tema acordat;
    qui va ràpid afegeix interaccions ⭐ amb blocs de codi.
 3. **Visualització VR per torns (30')**: cada equip prova la seva escena i la d'un altre equip
    (rotació d'estacions, com a la sessió 1); ajustos ràpids.
@@ -112,8 +130,11 @@ escena 3D que es pot explorar amb les ulleres VR.
 > vàlida; es passa a CoSpaces quan el servei torni. Per a la visualització, **banc d'imatges
 > 360 lliures** ja descarregades.
 > ⚠️ *Requisit:* les interaccions ⭐ amb blocs (CoBlocks) i el treball simultani en grup
-> demanen la **llicència Pro** de CoSpaces (o la prova docent activada la setmana abans); amb el
-> pla Basic, cada alumne construeix la seva escena i el mínim es fa igual.
+> demanen la **llicència Pro** de CoSpaces (o la prova docent activada la setmana abans).
+> **Amb el pla Basic**, l'equip esdevé un **estudi**: escenes individuals sobre el **tema comú**
+> acordat, amb **revisió creuada interna** (cada membre prova i comenta l'escena d'un altre —
+> això és l'evidència de CA5.1), i el criteri d'èxit es llegeix «la MEVA escena és explorable».
+> El mínim es fa igual; a la fila «Treball d'equip» del §8, observeu la revisió creuada.
 
 ### Sessió ⭐ d'ampliació (opcional, si el calendari ho permet)
 Polir l'escena, afegir interaccions amb blocs de codi (Blockly), narració, i una segona ronda

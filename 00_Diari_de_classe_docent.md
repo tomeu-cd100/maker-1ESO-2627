@@ -166,7 +166,7 @@ porta. Tothom se'n va a casa amb un objecte fet per ell/a.
 
 - 🔧 **Estació Maker:** **checkpoint carnet 🔴** (3 preguntes + demostració supervisada, va caient durant els torns) → fabricació per **batch** (~15-20' de màquina) → muntatge de l'anella. Qui espera torn, mira i aprèn: la primera fornada és una demo en directe.
 - 💻 **Estudi de disseny:** reptes express 2D (`Reptes/Reptes_express_2D.md`), millora del disseny propi, vocabulari del word wall, diari avançat.
-**⏹️ Tancament (10', conjunt):** mini-galeria de clauers + entrada de tancament de SA al diari (amb foto) + tiquet de sortida (com de segur/a em sento? 🔴🟡🟢).
+**⏹️ Tancament (10', conjunt):** mini-galeria de clauers + entrada de tancament de SA al diari (amb foto) + tiquet de sortida (com de segur/a em sento? 🔴🟡🟢) + **5' de presentar el 🚀 projecte personal** (`Reptes/Projecte_personal.md`): opcional, però que tothom sàpiga que existeix i com se signa el contracte.
 
 **📋 En acabar:** checklist de criteris d'èxit → **1a columna qualificada del full de progrés**
 (2-3 min/alumne) + segells del passaport + ratlletes de carnet al quadern digital.
@@ -201,7 +201,10 @@ que més es descuida i que més fitxers espatlla a la làser — repeteix-lo fin
 **Fil del dia:** de la imatge al vector, i el disseny del producte sencer.
 
 **🎒 Abans:** banc d'imatges per vectoritzar a Drive; plantilla `marcapagines_SA2.svg`.
-**▶️ Obertura (10'):** criteris d'èxit del producte (forma + missatge + imatge vectoritzada).
+**▶️ Obertura (10'):** criteris d'èxit del producte (forma + missatge + imatge vectoritzada)
++ **5' d'ètica digital (CA6.3)**: d'on surt la imatge que vectoritzaràs i què et permet fer-ne
+la llicència («trobada a Google» ≠ lliure; el banc de la SA ja ve verificat) — es recull a la
+casella 🕵️ de la fitxa.
 
 - 💻 **Estudi de disseny:** **vectorització** (Camí → Vectoritza mapa de bits) + disseny del marcapàgines (~150×50 mm, missatge gravat, forat per a la borla) + capes.
 - 🔧 **Estació Maker:** preparació a XCS amb els dissenys ja acabats, **proves de paràmetres de gravat sobre retalls** (que vegin què fa cada potència), repàs de fitxers a punt de tall. Si el gruix del dia no ho demana, aquesta sessió admet fer-se **sencera a l'estudi de disseny** (tot és Chromebook): decideix-ho segons com vagi el grup.
@@ -650,9 +653,10 @@ mareges, para» + com funciona el **checkpoint carnet 🔵** (ajustar les ullere
 
 - 🔧 **Estació Maker:** **exploració VR en parelles usuari-guia** (5 ulleres per a 10 = perfecte), rondes de ~10'; el carnet 🔵 va caient a mesura que cadascú fa de guia.
 - 💻 **Estudi de disseny (estacions):** **fitxa d'anàlisi crítica** · la mateixa experiència **en pantalla** (l'alternativa existeix sempre) · preparació d'arguments per al debat.
-**⏹️ Tancament (30', conjunt):** **debat** — usos, beneficis, riscos, ètica (privadesa, addicció) + cada equip **tria el tema** de la seva escena + diari (5').
+**⏹️ Tancament (30', conjunt):** **debat** (20') — usos, beneficis, riscos, ètica (privadesa, addicció) + cada equip **tria el tema** i fa la **demo-construint de CoSpaces** (15': en acabar, l'escena de l'equip ja existeix amb 1 objecte — vegeu SA8 §4) + diari (5').
 
 **📋 En acabar:** fitxes d'anàlisi recollides (CA4.3); neteja de les ulleres registrada.
+Recordeu a l'alumnat el **públic real de l'escena**: s'estrena a l'estand de SA9, a la Gran Fira.
 **⚠️ Vigila:** el primer mareig del curs passarà avui. Resposta tranquil·la i pública:
 «seure, aigua, pantalla» — normalitzar-ho és el protocol funcionant, no fallant.
 
@@ -663,7 +667,8 @@ mareges, para» + com funciona el **checkpoint carnet 🔵** (ajustar les ullere
 **Fil del dia:** de consumidors a creadors: una escena CoSpaces **petita i acabada** (Gran Idea 2).
 
 **🎒 Abans:** comptes CoSpaces Edu provats; plantilla d'escena buida per a qui la necessiti.
-**▶️ Obertura (10'):** demo CoSpaces projectada (15-20'): escena, objectes, càmera, «play» en VR.
+**▶️ Obertura (10'):** reprendre l'escena de la demo-construint de la setmana passada (repàs
+exprés: objectes, càmera, «play») + objectius del dia per equips.
 
 - 💻 **Estudi de disseny:** **construcció en equip** (cada membre, la seva part del tema); qui va ràpid, interaccions ⭐ amb blocs de codi (Blockly).
 - 🔧 **Estació Maker:** **visualització creuada per torns**: cada equip prova la seva escena i la d'un altre amb les ulleres; ajustos ràpids.
