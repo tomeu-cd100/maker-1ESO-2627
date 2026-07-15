@@ -46,6 +46,8 @@
   targetes** de materials i casos (`Classes/SA0_Punt_de_partida/Material_gimcana_seguretat.md`).
 
 - [ ] **Buidar una lleixa** per al Museu dels Errors (+ posar-hi la pila de targetes).
+- [ ] **📦 Caixa de retalls + 🫙 pot de PLA fallit**, retolats, a la zona de fabricació
+  (rutina de residus — `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §6).
 - [ ] **Fabricar el museu llavor**: les 5 peces fallides canòniques amb la targeta resolta
   (`Recursos/Museu_llavor_errors.md`, una tarda) — així els adults obren el museu el dia 1.
 
@@ -97,6 +99,16 @@
   plantilles de paper mil·limetrat 60×25 mm, llapis vermell/negre, mostra per a la demo de
   làser en directe. Confirmar amb qui toqui que els **Chromebooks es reparteixen abans de la
   setmana 4**.
+
+## 📲 Classroom (a cada SA)
+
+- [ ] **En tancar cada SA: publicar el seu qüestionari de repàs** — són al Classroom en
+  **esborrany** (SA0–SA9, tema de cada SA) perquè l'alumnat no vegi qüestionaris de SA
+  futures. No qualifica i es pot repetir (`Avaluació/Instruments_formatius.md` §«qüestionari»).
+
+- [ ] **Repàs espaiat: en obrir cada SA, reobrir el qüestionari de 2 SA enrere** (SA3 obre el
+  de SA1, SA4 el de SA2…) — 5' del feed-forward. A les setmanes de Fira, mini-lliga
+  voluntària amb els 3 del trimestre.
 
 ## 🔁 Cada trimestre (recordatoris de tancament — SA3, SA6, SA9)
 
