@@ -103,6 +103,10 @@
 
 ## 📲 Classroom (a cada SA)
 
+- [ ] **Abans de publicar el qüestionari de SA5**: la pregunta del gruix de paret ha canviat
+  (ara la resposta bona és **3 mm**, el llindar unificat del curs) — regenera el Form de SA5
+  amb `crear_questionaris_repas_maker.js` (o edita la pregunta 3 al Form en esborrany a mà).
+
 - [ ] **En tancar cada SA: publicar el seu qüestionari de repàs** — són al Classroom en
   **esborrany** (SA0–SA9, tema de cada SA) perquè l'alumnat no vegi qüestionaris de SA
   futures. No qualifica i es pot repetir (`Avaluació/Instruments_formatius.md` §«qüestionari»).
