@@ -37,41 +37,49 @@
    - **Aviso immediatament el/la docent.** ✔️
    - Obro la finestra i no dic res.
    - Faig una foto per al diari.
+   💡 *Primer les persones: avisar de seguida permet actuar abans que el problema creixi.*
 2. Es pot tocar una màquina sense autorització?
    - Sí, si vas amb compte.
    - **Mai: sense permís (i sense carnet) no s'opera cap màquina.** ✔️
    - Només la làser.
    - Sí, si és rapidet.
+   💡 *Les màquines només s'operen amb carnet i permís: és la regla que fa possible tot el taller.*
 3. Si tens els cabells llargs, al taller…
    - No cal fer res.
    - **Els portes recollits (i res penjant: mànigues, cordons…).** ✔️
    - Et poses una gorra i llestos.
    - No pots entrar.
+   💡 *Res que pengi a prop d'una màquina: cabells recollits, mànigues i cordons controlats.*
 4. Al Museu dels Errors hi posem…
    - Les peces perfectes.
    - **Peces fallides amb la seva targeta: què ha passat i què n'hem après.** ✔️
    - Les coses per llençar.
    - Els deures oblidats.
+   💡 *L'error documentat ensenya; el que s'amaga es repeteix.*
 5. El passaport maker serveix per…
    - Sortir del centre.
    - **Registrar els teus carnets, insígnies i progrés del curs.** ✔️
    - Apuntar les faltes.
    - Res, és decoratiu.
+   💡 *El passaport registra carnets, insígnies i progrés: la teva trajectòria maker.*
 6. Un prototip és…
    - La versió final i perfecta.
    - **Una primera versió que serveix per provar i millorar.** ✔️
    - Un dibuix a la pissarra.
    - Una peça comprada.
+   💡 *Un prototip existeix per provar-lo i millorar-lo: fallar-hi és part del pla.*
 7. L'avaluació 0 de la SA0…
    - Compta molt per a la nota.
    - **No té nota: serveix per saber d'on partim i formar equips equilibrats.** ✔️
    - Separa la classe en grups de bons i dolents.
    - És un examen sorpresa.
+   💡 *L'avaluació 0 serveix per saber d'on partim i formar equips equilibrats — sense nota.*
 8. Els carnets de màquina (🔴🟠🟢🔵) es guanyen…
    - Pagant.
    - **Amb un checkpoint: 3 preguntes de protocol + 1 demostració pràctica.** ✔️
    - Automàticament amb el temps.
    - Només els que treuen bones notes.
+   💡 *Cada carnet es guanya amb un checkpoint: 3 preguntes de protocol + 1 demostració.*
 
 ### SA1 — El clauer: Inkscape i làser
 
@@ -80,41 +88,49 @@
    - **Vermell pur = tall, negre = gravat.** ✔️
    - Tant és, la làser ho endevina.
    - Blau = tall, verd = gravat.
+   💡 *Vermell pur = tall · negre = gravat: la làser només entén aquest codi.*
 2. Has escrit el teu nom però la làser no el detecta. Què falta?
    - Fer la lletra més gran.
    - **Seleccionar el text i fer Camí → Objecte a camí.** ✔️
    - Canviar de font.
    - Imprimir-ho primer.
+   💡 *Les fonts són text; la làser vol camins: Camí → Objecte a camí.*
 3. La peça et surt gegant (o diminuta). El més probable és que…
    - La làser està espatllada.
    - **El document està en píxels: cal posar-lo en mm i comprovar les mides.** ✔️
    - El fitxer és massa nou.
    - Falta tinta.
+   💡 *Si el document és en píxels, les mides no són reals: sempre en mm.*
 4. El forat per a l'anella del clauer ha de fer com a mínim…
    - 1 mm
    - **4 mm de diàmetre** ✔️
    - 20 mm
    - No cal forat.
+   💡 *Mínim Ø 4 mm perquè hi passi l'anella del clauer.*
 5. Mentre la làser treballa…
    - Puc anar a esmorzar.
    - **MAI es deixa sola: sempre hi ha algú vigilant.** ✔️
    - Puc obrir la tapa per mirar de prop.
    - Puc posar-hi més material.
+   💡 *La làser mai es queda sola: sempre hi ha algú vigilant fins que acaba.*
 6. Quin d'aquests materials està PROHIBIT a la làser?
    - Fusta DM de 3 mm.
    - Cartró.
    - **PVC o vinil (allibera gasos tòxics).** ✔️
    - Contraxapat.
+   💡 *El PVC allibera gasos tòxics en cremar-se: prohibit sempre, sense excepcions.*
 7. Com s'ha de dir el teu fitxer del clauer al Drive?
    - clauer.svg
    - **ElMeuNom_SA1_v1.svg, a la carpeta de la SA.** ✔️
    - final_definitiu_ara_si.svg
    - Qualsevol nom serveix.
+   💡 *Sense nom i carpeta correctes, la peça no entra al batch i es perd.*
 8. El carnet 🔴 d'operador/a làser…
    - Es dona a tothom el primer dia.
    - **Es guanya amb un checkpoint (preguntes + demostració) i sense ell no s'opera la làser.** ✔️
    - Només el pot tenir el docent.
    - Serveix per a totes les màquines.
+   💡 *El carnet 🔴 es guanya al checkpoint i és el que et permet operar la làser.*
 
 ### SA2 — Disseny vectorial: el marcapàgines
 
@@ -123,41 +139,49 @@
    - **Convertir una imatge de píxels en camins (línies) que la làser entén.** ✔️
    - Posar-hi color.
    - Comprimir-la perquè ocupi menys.
+   💡 *Vectoritzar = convertir píxels en camins (línies) que la làser pot seguir.*
 2. Quina diferència hi ha entre una imatge de píxels i una de vectorial?
    - Cap.
    - **La vectorial es pot escalar sense perdre qualitat; la de píxels es pixela.** ✔️
    - La de píxels és sempre millor.
    - La vectorial només pot ser en blanc i negre.
+   💡 *El vector s'escala sense perdre qualitat; els píxels es pixelen.*
 3. Les operacions booleanes (unió, diferència) serveixen per…
    - Pintar més de pressa.
    - **Crear formes noves combinant-ne o restant-ne dues.** ✔️
    - Comptar nodes.
    - Canviar el color del traç.
+   💡 *Unió i diferència combinen o resten formes: així neixen formes noves.*
 4. Un node és…
    - Un error del programa.
    - **Un punt que defineix la forma d'un camí.** ✔️
    - Un tipus de làser.
    - Una capa.
+   💡 *Un node és un punt que defineix el camí: movent nodes, canvies la forma.*
 5. Quina imatge és més fàcil de vectoritzar bé?
    - Una foto amb molts detalls i ombres.
    - **Una imatge simple i d'alt contrast (silueta, icona, escut).** ✔️
    - Una imatge borrosa.
    - Un vídeo.
+   💡 *Silueta simple i d'alt contrast = vectorització neta al primer intent.*
 6. El nesting (aprofitar la planxa) consisteix a…
    - Tallar al mig de la planxa, que és més bonic.
    - **Col·locar les peces juntes i ben distribuïdes per malbaratar poc material.** ✔️
    - Fer les peces més petites del compte.
    - Usar una planxa nova per peça.
+   💡 *Peces juntes i ben distribuïdes = menys material malbaratat i menys temps de làser.*
 7. Abans d'enviar el marcapàgines a la làser, el text ha d'estar…
    - En negreta.
    - **Convertit a camí.** ✔️
    - En majúscules.
    - Subratllat.
+   💡 *Com al clauer de SA1: el text sempre convertit a camí abans d'anar a la làser.*
 8. Per què separem tall i gravat en capes/colors diferents?
    - Per estètica.
    - **Perquè la màquina faci cada operació amb la potència que toca.** ✔️
    - Perquè el fitxer pesi menys.
    - No cal separar-los.
+   💡 *Tall i gravat necessiten potències diferents: per això van en capes separades.*
 
 ### SA3 — Encaixos i procés tecnològic
 
@@ -166,41 +190,49 @@
    - **L'amplada de material que la làser es "menja" en tallar.** ✔️
    - Una eina d'Inkscape.
    - El soroll de la màquina.
+   💡 *El kerf és el material que el feix es "menja": ~0,1-0,2 mm per costat del tall.*
 2. Si no tens en compte el kerf, l'encaix…
    - Queda perfecte igualment.
    - **Queda fluix: el tall surt més ample del dibuixat.** ✔️
    - Queda massa fort.
    - No es pot tallar.
+   💡 *El tall surt més ample del dibuixat: sense preveure el kerf, l'encaix balla.*
 3. Per què la ranura es dissenya una mica més estreta que el gruix del material?
    - Per error.
    - **Perquè la làser es menja material (kerf) i així l'encaix queda ferm.** ✔️
    - Per gastar menys fusta.
    - Perquè és més ràpid de tallar.
+   💡 *Ranura una mica més estreta + kerf que eixampla = encaix ferm.*
 4. L'ordre del procés tecnològic és…
    - Fabricar → pensar → dibuixar.
    - **Necessitat → idea → disseny → fabricació → millora.** ✔️
    - Comprar → muntar → llençar.
    - Dissenyar → entregar, i ja està.
+   💡 *Necessitat → idea → disseny → fabricació → millora: sempre en aquest ordre.*
 5. Un requisit és…
    - Una decoració opcional.
    - **Una condició que el producte ha de complir sí o sí.** ✔️
    - El nom del projecte.
    - Un material.
+   💡 *Un requisit és obligatori: si no es compleix, el producte no serveix.*
 6. Iterar vol dir…
    - Repetir-ho tot des de zero.
    - **Provar el prototip, detectar què falla i fer-ne una versió millorada.** ✔️
    - Copiar el disseny d'un altre equip.
    - Esborrar el fitxer.
+   💡 *Iterar = provar, detectar què falla i fer la versió millorada: el cor del disseny.*
 7. Una unió per encaix…
    - Necessita cola sempre.
    - **Uneix peces amb pestanyes i ranures ajustades al gruix del material, sense cola.** ✔️
    - Només funciona amb metall.
    - És un tipus de gravat.
+   💡 *Pestanyes i ranures a mida del gruix del material: unió ferma sense cola.*
 8. Els rols d'equip (i la seva rotació) serveixen per…
    - Que mani sempre el mateix.
    - **Que tothom tingui una responsabilitat clara i tothom passi per tot.** ✔️
    - Acabar abans.
    - Res, són simbòlics.
+   💡 *Rols amb rotació: responsabilitat clara avui, i tothom passa per tot durant el curs.*
 
 ### SA4 — Del 2D al 3D amb Tinkercad
 
@@ -209,41 +241,49 @@
    - **Amplada, fondària i alçada: les 3 dimensions del volum.** ✔️
    - Velocitats.
    - Tres capes de pintura.
+   💡 *X amplada, Y fondària, Z alçada: el volum té tres dimensions.*
 2. A Tinkercad, un "forat" és…
    - Un error del model.
    - **Un cos transparent que, en agrupar-lo amb una peça, la buida.** ✔️
    - Un fitxer corrupte.
    - Una eina de pintar.
+   💡 *Un "forat" és un cos transparent que buida la peça quan s'hi agrupa.*
 3. Per fer que el forat foradi de veritat cal…
    - Esperar una estona.
    - **Seleccionar peça + forat i Agrupar (Ctrl+G).** ✔️
    - Fer doble clic.
    - Exportar el fitxer.
+   💡 *Sense Agrupar, el forat només és un cos transparent posat a sobre.*
 4. La teva peça "flota" sobre el pla de treball. Com la fas baixar?
    - Arrossegant-la a ull.
    - **Seleccionant-la i prement la tecla D (drop).** ✔️
    - Reiniciant Tinkercad.
    - No passa res si flota.
+   💡 *La tecla D baixa la peça al pla: res pot quedar flotant o la impressió falla.*
 5. Per imprimir en 3D, el model s'exporta en format…
    - .SVG
    - **.STL** ✔️
    - .JPG
    - .PDF
+   💡 *.STL és el format que el laminador entén.*
 6. El model d'aquesta SA ha de tenir…
    - Un sol cub gegant.
    - **≥3 cossos i ≥1 forat, màxim ~50 mm.** ✔️
    - Com a mínim 20 peces.
    - Colors ben triats.
+   💡 *≥3 cossos + ≥1 forat i màxim ~50 mm: els límits que fan possible el batch.*
 7. Per què el model s'ha d'imprimir pla i sense suports?
    - Perquè quedi més bonic.
    - **Perquè entri al batch de placa amb els dels companys: menys temps i material.** ✔️
    - Perquè Tinkercad no en sap més.
    - És una superstició.
+   💡 *Pla i sense suports = entra a la placa compartida: menys temps i menys material.*
 8. Escalar "amb sentit" vol dir…
    - Fer-ho tot el més gran possible.
    - **Comprovar les mides reals (amb regle) i mantenir les proporcions.** ✔️
    - Duplicar la peça.
    - Girar-la 90 graus.
+   💡 *Escalar amb sentit = mides reals comprovades amb regle i proporcions mantingudes.*
 
 ### SA5 — Impressió 3D funcional
 
@@ -252,41 +292,49 @@
    - **Convertir l'STL en capes i instruccions que la impressora entén.** ✔️
    - Aplanar la peça.
    - Fer-ne una còpia.
+   💡 *Laminar converteix l'STL en capes i instruccions que la impressora entén.*
 2. El farciment (infill)…
    - És la caixa de la impressora.
    - **És la densitat interior: més farciment = més resistent, però més temps i material.** ✔️
    - Només serveix per al color.
    - S'ha de posar sempre al 100 %.
+   💡 *Més farciment = més resistència però més temps i material: es tria segons l'ús.*
 3. El gruix mínim de paret perquè la peça no surti fràgil és…
    - 0,1 mm
    - **3 mm (el llindar de sempre del curs)** ✔️
    - 10 mm
    - Tant és.
+   💡 *Per sota de 3 mm la paret surt fràgil: és el llindar de sempre del curs.*
 4. El warping és…
    - Un filament especial.
    - **Les vores de la peça s'aixequen perquè la primera capa es refreda massa de pressa.** ✔️
    - Un mode ràpid d'impressió.
    - Una peça de recanvi.
+   💡 *La primera capa es refreda massa de pressa i les vores s'aixequen: adherència!*
 5. El brim serveix per…
    - Decorar la peça.
    - **Millorar l'adherència: una vorera al voltant de la primera capa.** ✔️
    - Estalviar filament.
    - Refredar el broquet.
+   💡 *El brim és una vorera que augmenta la superfície enganxada de la primera capa.*
 6. El límit del curs per a cada peça és…
    - **Menys d'1 h i menys de 40 g (ho diu Bambu Studio).** ✔️
    - 10 hores i mig quilo.
    - No hi ha límits.
    - 5 minuts exactes.
+   💡 *< 1 h i < 40 g per peça: el límit que fa que tothom pugui imprimir.*
 7. En arrencar la impressió, què cal vigilar especialment?
    - El color del filament.
    - **Que la primera capa s'enganxi bé a la placa.** ✔️
    - El volum de l'altaveu.
    - Res: ja s'apanya sola.
+   💡 *Si la primera capa s'enganxa bé, la resta va sola; si no, espagueti.*
 8. La tolerància és…
    - Un error de disseny.
    - **El petit marge de mida que cal perquè dues peces encaixin de veritat.** ✔️
    - La paciència del docent.
    - Un paràmetre del color.
+   💡 *La impressió mai és exacta: sense marge, dues peces "perfectes" no encaixen.*
 
 ### SA6 — Disseny centrat en l'usuari
 
@@ -295,41 +343,49 @@
    - **Observar i escoltar l'usuari per entendre la seva necessitat real.** ✔️
    - Copiar solucions d'internet.
    - Acabar el primer.
+   💡 *Empatitzar = observar i escoltar l'usuari: la necessitat real, no la imaginada.*
 2. Els requisits del vostre disseny surten de…
    - El que l'equip troba més fàcil.
    - **El que l'usuari necessita (entrevista i observació).** ✔️
    - La primera idea que surt.
    - El color favorit de l'equip.
+   💡 *Els requisits surten de l'entrevista i l'observació, no del que és fàcil de fer.*
 3. Per què repartim les peces en un calendari d'impressió?
    - Per fer bonic.
    - **Perquè la impressora és el coll d'ampolla: cal planificar la cua.** ✔️
    - Perquè ho diu el conserge.
    - Per imprimir-ho tot l'últim dia.
+   💡 *La impressora és el coll d'ampolla: la cua es planifica o algú es queda sense peça.*
 4. Cada peça de l'equip ha de complir…
    - **Menys d'1 h i menys de 40 g.** ✔️
    - Més de 2 hores.
    - Un color diferent.
    - Cap límit.
+   💡 *El límit < 1 h / < 40 g també val en equip: cada peça compta.*
 5. Abans d'imprimir, cada peça passa…
    - Directa a la impressora.
    - **El 🚦 semàfor de fabricació, validat per l'operador/a de l'equip.** ✔️
    - Una votació a mà alçada.
    - Un dia de repòs.
+   💡 *Cap peça va a la màquina sense el 🚦 semàfor validat per l'operador/a de l'equip.*
 6. Provar la solució amb l'usuari serveix per…
    - Quedar bé.
    - **Descobrir què no funciona i iterar (versió 2).** ✔️
    - Acabar la SA abans.
    - Res, si ja ens agrada a nosaltres.
+   💡 *El feedback de l'usuari descobreix el que l'equip no veu: d'aquí surt la versió 2.*
 7. Un assemblatge és…
    - Una peça molt gran.
    - **Un conjunt de peces coordinades que encaixen entre elles.** ✔️
    - Un tipus de filament.
    - Una reunió d'equip.
+   💡 *Assemblatge = peces coordinades que encaixen: cal la mida comuna acordada abans.*
 8. Comunicar l'impacte de la solució vol dir explicar…
    - Quant hem trigat.
    - **Què millora en la vida de l'usuari real.** ✔️
    - Qui és el més llest de l'equip.
    - El preu del filament.
+   💡 *Comunicar l'impacte = explicar què millora en la vida de l'usuari real.*
 
 ### SA7 — Captura 360 i tour virtual
 
@@ -338,41 +394,49 @@
    - **Captura tot l'entorn al voltant de la càmera i es pot explorar girant.** ✔️
    - Només es pot veure amb ulleres.
    - És un vídeo accelerat.
+   💡 *La càmera 360 captura tot l'entorn: la imatge s'explora girant.*
 2. Un punt de captura és…
    - On es carrega la càmera.
    - **El lloc triat on es fa cada foto 360 del tour.** ✔️
    - Un botó de l'app.
    - El centre exacte de l'aula.
+   💡 *El punt de captura és el lloc triat per a cada foto 360 del tour.*
 3. On és qui fa la captura quan la càmera dispara?
    - Al costat de la càmera, somrient.
    - **Amagat/da o fora de l'escena (la càmera ho veu TOT).** ✔️
    - Aguantant la càmera amb la mà.
    - Tant és.
+   💡 *No hi ha "fora de pla": si no t'amagues, surts a la foto.*
 4. Per una captura estable i clara cal…
    - Fer la foto caminant.
    - **Trípode (o superfície estable) i bona llum, evitant contrallums.** ✔️
    - Zoom digital al màxim.
    - Fer moltes fotos mogudes i triar.
+   💡 *Trípode (o superfície estable) + bona llum sense contrallums = captura utilitzable.*
 5. Qui pot sortir a les imatges del tour?
    - Tothom qui passi per allà.
    - **Només qui ha donat permís (drets d'imatge i autoritzacions).** ✔️
    - Només els docents.
    - Ningú mai.
+   💡 *Només surt qui ha donat permís: drets d'imatge, sempre.*
 6. Un tour navegable és…
    - Una carpeta amb fotos.
    - **Escenes 360 connectades entre elles, amb títols i etiquetes.** ✔️
    - Un vídeo de YouTube.
    - Un plànol en paper.
+   💡 *Un tour navegable = escenes 360 connectades amb títols i etiquetes.*
 7. El carnet 🟢 d'operador/a de càmera 360 inclou saber…
    - Editar vídeo professionalment.
    - **Drets d'imatge, espais a evitar i on s'amaga qui captura.** ✔️
    - Programar en Python.
    - Muntar un trípode en 5 segons.
+   💡 *El carnet 🟢 inclou drets d'imatge, espais a evitar i on s'amaga qui captura.*
 8. El tour s'acaba de debò quan…
    - Es desa a la carpeta.
    - **Es publica i arriba a una audiència real (web del centre, QR…).** ✔️
    - El docent hi posa nota.
    - S'esborren les fotos dolentes.
+   💡 *Un tour s'acaba de debò quan arriba a una audiència real (web, QR…).*
 
 ### SA8 — Realitat virtual responsable
 
@@ -381,41 +445,49 @@
    - **La sensació de ser DINS de l'escena virtual.** ✔️
    - Un joc concret.
    - El pes de les ulleres.
+   💡 *Immersió = la sensació de ser DINS de l'escena virtual.*
 2. Si notes mareig amb les ulleres VR…
    - Aguantes fins que passi.
    - **T'atures, et treus les ulleres, seus i avises.** ✔️
    - Tanques els ulls i continues.
    - Corres una mica.
+   💡 *Amb mareig: aturar-se, treure's les ulleres, seure i avisar. Sempre.*
 3. Les sessions de VR han de ser…
    - Tan llargues com vulguis.
    - **Curtes i amb pauses (protocol d'ús de la VR).** ✔️
    - De 3 hores mínim.
    - Només al pati.
+   💡 *Sessions curtes i amb pauses: ho marca el protocol d'ús de la VR.*
 4. La higiene de les ulleres VR es fa…
    - Amb aigua i sabó directament.
    - **Lents amb microfibra i interfície facial neta entre usuaris.** ✔️
    - Bufant fort.
    - No cal netejar-les.
+   💡 *Lents amb microfibra i interfície facial neta entre usuaris.*
 5. Mentre un company porta les ulleres, tu com a guia…
    - Li fas pessigolles.
    - **Vigiles el seu espai perquè no topi amb res ni ningú.** ✔️
    - Li amagues la funda.
    - Marxes a una altra estació.
+   💡 *El guia vigila l'espai del company: la seguretat en VR és cosa de dos.*
 6. El carnet 🔵 d'usuari/ària responsable de VR inclou…
    - Guanyar una partida.
    - **Temps màxim, què fer si hi ha mareig i higiene — i fer de guia d'un company.** ✔️
    - Portar les ulleres a casa.
    - Instal·lar jocs.
+   💡 *El carnet 🔵: temps màxim, protocol de mareig, higiene — i fer de guia.*
 7. Una escena explorable a CoSpaces té…
    - Només un fons de color.
    - **Objectes col·locats amb sentit i alguna interacció per descobrir.** ✔️
    - Un text molt llarg.
    - Música alta.
+   💡 *Explorable = objectes col·locats amb sentit + alguna interacció per descobrir.*
 8. Un ús positiu real de la VR (i un risc) són…
    - **Benefici: formació/patrimoni/medicina · Risc: salut visual i abús de pantalla.** ✔️
    - Benefici: substitueix dormir · Risc: cap.
    - Benefici: cap · Risc: tot.
    - Benefici: fa la nota més alta · Risc: el wifi.
+   💡 *La VR té beneficis reals (formació, patrimoni, medicina) i riscos reals (vista, abús de pantalla).*
 
 ### SA9 — El projecte final i la Fira
 
@@ -424,41 +496,49 @@
    - **Combina un objecte fabricat (làser/3D) amb una experiència immersiva (360/VR).** ✔️
    - El fa tota la classe junta.
    - No té rúbrica.
+   💡 *Integrador = fabricació (làser/3D) + immersiu (360/VR): tot el curs en un projecte.*
 2. Una fita del pla de projecte és…
    - Una idea bonica.
    - **Un punt de control amb data: què ha d'estar acabat i quan.** ✔️
    - El nom de l'equip.
    - La nota final.
+   💡 *Una fita té data: què ha d'estar acabat i quan. Sense data, no és fita.*
 3. Per què planifiquem ABANS de fabricar?
    - Per omplir paper.
    - **Perquè el temps de màquina és limitat i l'equip ha de repartir tasques i sessions.** ✔️
    - Perquè ho diu el calendari.
    - No cal planificar.
+   💡 *El temps de màquina és limitat: planificar és repartir-lo entre tots.*
 4. El portafoli final és…
    - Una carpeta amb tot barrejat.
    - **El recull de les teves evidències i reflexions de tot el curs.** ✔️
    - Un examen escrit.
    - Una foto de la peça final.
+   💡 *El portafoli recull les teves evidències i reflexions de tot el curs.*
 5. Un bon estand de Fira…
    - Té molts colors i prou.
    - **Mostra el producte i l'explica de manera clara i atractiva a un públic real.** ✔️
    - És el més gran.
    - Amaga els errors comesos.
+   💡 *Un bon estand mostra el producte i l'explica de manera clara a un públic real.*
 6. Quantes persones poden ser alhora dins l'aula Maker durant la Fira?
    - Les que hi càpiguen.
    - **10 (aforament de seguretat).** ✔️
    - 50
    - 2
+   💡 *10 persones dins l'aula Maker: la seguretat també mana el dia gran.*
 7. Si la demo falla en directe davant del públic…
    - S'acaba la presentació.
    - **Expliques què esperaves, què passa i la teva hipòtesi: diagnosticar en veu alta també és saber-ne.** ✔️
    - És culpa del company.
    - Es tanca l'estand.
+   💡 *Diagnosticar en veu alta (què esperava, què passa, hipòtesi) és demostrar coneixement.*
 8. La transferència vol dir…
    - Passar els fitxers al Drive.
    - **Usar el que has après aquest curs en situacions noves.** ✔️
    - Canviar d'equip.
    - Enviar la nota a casa.
+   💡 *Transferir = usar el que has après en situacions noves: l'objectiu final del curs.*
 
 ## 🎪 Repàs acumulatiu de trimestre (mini-lliga de la setmana de Fira)
 
@@ -473,51 +553,61 @@
    - **Nom en negre (ompliment) i contorn en vermell pur de línia fina.** ✔️
    - Nom en vermell i contorn en negre.
    - Tant és, la làser ho endevina.
+   💡 *Nom = negre (gravat) · contorn = vermell fi (tall).*
 2. Un marcapàgines surt de la làser i les lletres del nom han CAIGUT (hi ha forats amb forma de lletra). Què ha passat?
    - La làser s'ha espatllat.
    - **El nom estava marcat com a TALL (vermell) en lloc de gravat: el que és vermell i queda solt, cau. El gravat negre no cau mai.** ✔️
    - La fusta era massa fina.
    - Les lletres eren massa petites.
+   💡 *El vermell (tall) que queda solt cau; el gravat negre no cau mai.*
 3. En Pau dissenya una ranura de 3 mm exactes per a fusta de 3 mm, i l'encaix queda fluix. Per què?
    - Ha mesurat malament la fusta.
    - **La làser es "menja" material en tallar (kerf): la ranura es dissenya una mica més estreta.** ✔️
    - La fusta s'ha encongit.
    - Els encaixos sempre queden fluixos.
+   💡 *El kerf fa el tall més ample: la ranura es dissenya més estreta que el material.*
 4. Obres el teu fitxer i la peça és diminuta a la previsualització de la làser. El sospitós número 1 és…
    - El fitxer és massa vell.
    - **El document estava en píxels en lloc de mil·límetres.** ✔️
    - La làser llegeix malament.
    - El Drive l'ha encongit.
+   💡 *Document sempre en mm: els píxels enganyen les mides.*
 5. Abans d'enviar un text a la làser cal fer «Camí → Objecte a camí» perquè…
    - Quedi més bonic.
    - **El text es converteixi en línies que qualsevol màquina entén, tingui o no la teva font.** ✔️
    - Ocupi menys espai.
    - Es pugui editar millor després.
+   💡 *Convertit a camí, el text es grava igual a qualsevol ordinador, tingui la font o no.*
 6. Veus una mica de flama dins la làser. Què fas PRIMER?
    - Obro la tapa i bufo.
    - **Prémer aturada i avisar el/la docent immediatament.** ✔️
    - Tiro aigua.
    - Espero que s'apagui sola.
+   💡 *Aturar la màquina i avisar: mai aigua ni bufar.*
 7. Ordena bé el procés tecnològic:
    - Fabricar → pensar → dibuixar.
    - **Necessitat → idea → disseny → fabricació → millora.** ✔️
    - Dissenyar → entregar.
    - Comprar → muntar → llençar.
+   💡 *Necessitat → idea → disseny → fabricació → millora.*
 8. El teu prototip v1 falla davant de tothom. Què en fa un maker?
    - L'amaga perquè no compti.
    - **Targeta per al Museu dels Errors (què ha passat i què n'aprenc) i versió 2.** ✔️
    - Canvia de projecte.
    - Culpa la màquina.
+   💡 *Targeta del Museu + versió 2: l'error documentat és aprenentatge, no fracàs.*
 9. Per vectoritzar bé, tria…
    - Una foto amb ombres i molts detalls.
    - **Una imatge simple i d'alt contrast (silueta, icona, escut).** ✔️
    - Una imatge borrosa gran.
    - Qualsevol, és igual.
+   💡 *Alt contrast i simplicitat = vector net.*
 10. Per què posem tots els dissenys del grup junts i ben col·locats en UNA planxa (nesting)?
    - Perquè queda ordenat a la foto.
    - **S'estalvia material i temps de làser: menys passades i menys retalls.** ✔️
    - Perquè la làser només accepta una planxa al dia.
    - Per obligació del fabricant.
+   💡 *Una planxa ben aprofitada estalvia material i minuts de làser per a tothom.*
 
 ### T2 — Repàs acumulatiu del trimestre — 3D, impressió i usuari (SA4-SA6 + una mica de T1)
 
@@ -526,51 +616,61 @@
    - **Seleccionar peça + forat i AGRUPAR: el forat només buida en agrupar.** ✔️
    - Pintar el forat de negre.
    - Fer el cilindre més alt.
+   💡 *El forat només buida quan AGRUPES peça + forat.*
 2. La peça queda flotant sobre el pla de treball. La manera ràpida de baixar-la és…
    - Arrossegar-la a ull.
    - **Seleccionar-la i prémer la tecla D (drop).** ✔️
    - Reiniciar Tinkercad.
    - Girar-la 180°.
+   💡 *D de "drop": la peça baixa al pla de treball.*
 3. Per passar el model a la impressora, l'exportes en…
    - .SVG
    - **.STL** ✔️
    - .JPG
    - .DOCX
+   💡 *.STL per imprimir (com .SVG per a la làser).*
 4. Bambu Studio et marca 1 h 20 min i 55 g. Què toca?
    - Imprimir igualment, què vols fer-hi.
    - **Iterar: reduir mida/farciment fins a complir el límit del curs (< 1 h i < 40 g).** ✔️
    - Demanar més hores de màquina.
    - Treure el brim.
+   💡 *Si supera el límit: reduir mida o farciment i tornar a laminar — una iteració més.*
 5. Una paret d'1 mm a la teva capsa impresa probablement…
    - Serà més lleugera i millor.
    - **Sortirà fràgil o trencada: el llindar del curs és ≥3 mm.** ✔️
    - Estalviarà temps sense cap risc.
    - Farà la peça més forta.
+   💡 *≥3 mm de paret: el llindar del curs perquè la peça no es trenqui.*
 6. Vols que un llapis de Ø8 mm entri en un forat de la teva peça. El forat es dissenya de…
    - 8 mm exactes.
    - **~8,5 mm: tolerància perquè encaixi de veritat.** ✔️
    - 7,5 mm ben ajustat.
    - 12 mm, com més gran millor.
+   💡 *El forat una mica més gran que l'objecte (~0,5 mm de marge) o no hi entrarà.*
 7. Les vores de la peça s'aixequen de la placa (warping). El moment crític que calia vigilar era…
    - L'última capa.
    - **La primera capa (adherència: placa neta, brim si cal).** ✔️
    - El canvi de color.
    - El moment d'exportar.
+   💡 *La primera capa és el moment crític: placa neta i brim si cal.*
 8. A SA6, els requisits del disseny surten de…
    - El que l'equip troba més fàcil de modelar.
    - **Parlar amb l'usuari i observar-lo: la necessitat real, no la imaginada.** ✔️
    - La primera idea votada.
    - Internet.
+   💡 *Els requisits surten de l'usuari real: entrevista i observació.*
 9. 🧠 Perla del T1 — Al codi de colors de la làser, vermell pur i negre volen dir…
    - Vermell = gravat · negre = tall.
    - **Vermell = tall · negre = gravat.** ✔️
    - Tots dos tallen.
    - Tots dos graven.
+   💡 *Vermell = tall · negre = gravat: el codi de colors no caduca mai.*
 10. 🧠 Perla del T1 — El kerf (làser) i la tolerància (3D) s'assemblen perquè tots dos…
    - Són tipus de material.
    - **Són marges de mida que cal preveure perquè les peces encaixin de veritat.** ✔️
    - Fan la peça més bonica.
    - Només afecten el color.
+   💡 *Kerf i tolerància són marges de mida: preveure'ls és dissenyar bé.*
 
 ### T3 — Repàs acumulatiu del curs — immersiu i projecte (SA7-SA9 + perles de tot el curs)
 
@@ -579,51 +679,61 @@
    - **Amagat/da o fora de l'escena: la càmera ho veu TOT al voltant.** ✔️
    - Aguantant la càmera amb el braç.
    - On vulgui.
+   💡 *La càmera 360 ho veu tot: qui captura queda fora d'escena.*
 2. Al tour hi surt una persona que passava per allà. Es pot publicar?
    - Sí, si surt de lluny.
    - **No sense el seu permís: drets d'imatge — es repeteix la captura o es descarta.** ✔️
    - Sí, si el tour queda bé.
    - Sí, esborrant-li la cara amb retolador.
+   💡 *Sense permís no es publica: es repeteix la captura o es descarta.*
 3. Amb les ulleres VR notes mareig. Protocol:
    - Aguantar, que passa.
    - **Aturar-se, treure-se-les, seure i avisar.** ✔️
    - Tancar els ulls i seguir.
    - Sacsejar el cap.
+   💡 *Parar, treure's les ulleres, seure i avisar.*
 4. Mentre un company explora amb les ulleres, el teu paper de guia és…
    - Mirar el mòbil.
    - **Vigilar el seu espai perquè no topi amb res ni ningú.** ✔️
    - Cridar-li instruccions.
    - Prendre-li les ulleres si trigues.
+   💡 *Vigilar l'espai del company mentre porta les ulleres: seguretat de dos.*
 5. Una FITA del pla de projecte de SA9 és…
    - Una idea que agrada.
    - **Un punt de control amb data: què ha d'estar acabat i quan.** ✔️
    - El logotip de l'equip.
    - La nota que voleu.
+   💡 *Una fita és un punt de control amb data: què i quan.*
 6. El portafoli final del curs conté…
    - Totes les fotos del mòbil.
    - **1 evidència de cada trimestre amb reflexió + fitxa i diari de SA9 + «El meu viatge maker».** ✔️
    - Només la peça més bonica.
    - Un examen final.
+   💡 *1 evidència per trimestre amb reflexió + fitxa i diari de SA9 + «El meu viatge maker».*
 7. El dia de la Fira, dins l'aula Maker hi pot haver com a màxim…
    - Tothom qui vulgui entrar.
    - **10 persones (aforament de seguretat).** ✔️
    - 25 persones.
    - 2 persones.
+   💡 *10 persones dins l'aula Maker, comptades a la porta.*
 8. La demo falla en directe davant del públic. Un maker…
    - Tanca l'estand.
    - **Explica què esperava, què passa i la seva hipòtesi: diagnosticar en veu alta també és saber-ne.** ✔️
    - Diu que és culpa del wifi.
    - Fa veure que funcionava.
+   💡 *Explicar què esperava / què passa / la hipòtesi: diagnosticar és saber-ne.*
 9. 🧠 Perla del T2 — Cada peça 3D del vostre estand ha de complir…
    - Cap límit, és el projecte final.
    - **Menys d'1 h i menys de 40 g (ho diu Bambu Studio).** ✔️
    - Només el límit de color.
    - Mida mínima de 100 mm.
+   💡 *< 1 h i < 40 g per peça, fins a l'últim dia de curs.*
 10. 🧠 Perla del T1 — Es pot operar una màquina sense el carnet corresponent?
    - Sí, si vas amb compte.
    - **Mai: sense carnet (i sense permís) no s'opera cap màquina — també a la Fira.** ✔️
    - Sí, si el docent és a prop.
    - Només la làser.
+   💡 *Sense carnet no s'opera cap màquina — tampoc a la Fira.*
 
 > Connecta amb: `Avaluació/Instruments_formatius.md` §2 i §6 (tiquets i mini-checks)
 > i `Classes/SA0_Punt_de_partida/Vocabulari_basic.md` (el glossari del curs).
