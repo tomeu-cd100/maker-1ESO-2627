@@ -103,9 +103,13 @@
 
 ## 📲 Classroom (a cada SA)
 
-- [ ] **Abans de publicar el qüestionari de SA5**: la pregunta del gruix de paret ha canviat
-  (ara la resposta bona és **3 mm**, el llindar unificat del curs) — regenera el Form de SA5
-  amb `crear_questionaris_repas_maker.js` (o edita la pregunta 3 al Form en esborrany a mà).
+- [x] ~~Abans de publicar el qüestionari de SA5: actualitzar la pregunta del gruix (3 mm)~~ —
+  fet el 15-07-2026 (`actualitzar_form_gruix_sa5_maker.mjs`): el Form en esborrany ja diu 3 mm.
+
+- [ ] **Crear els Forms del repàs acumulatiu T1-T3** (mini-lliga de Fira): el banc és a
+  `Avaluació/Questionaris_repas.md` §🎪 — revisa les 30 preguntes i executa
+  `node crear_questionaris_repas_maker.js` al pipeline (crea només els 3 nous, en DRAFT,
+  als temes SA3/SA6/SA9). Publica'ls les setmanes de Fira (13, 25 i 35).
 
 - [ ] **En tancar cada SA: publicar el seu qüestionari de repàs** — són al Classroom en
   **esborrany** (SA0–SA9, tema de cada SA) perquè l'alumnat no vegi qüestionaris de SA
