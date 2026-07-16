@@ -222,7 +222,7 @@ veritat (de la idea al clauer a la mà: què t'ha sorprès del procés?).
 | **Esbós en paper acotat** (2-3 idees provades + tria, tall/gravat marcats) **+ clauer fabricat** amb capes correctes (S1-S3) | Checklist de criteris d'èxit + files CA1.1/CA2.1/CA3.1 de `Rubrica_SA1.md` | Docent + autoaval. | CA1.1, CA2.1, CA3.1 |
 | **Carnet 🔴 d'operador/a làser** (S3) | Checkpoint del carnet (el contracte ve signat de la SA0) | Docent | CA6.1 |
 | **Diari de taller** (1 entrada/sessió + tancament amb 🎯) | Pauta de `Avaluació/Diari_de_taller.md` | Docent | CA5.2, CA1.4 |
-| **Seguretat i actitud al taller** (S1-S3, contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
+| **Seguretat i actitud al taller** (S1-S3, contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1, CA5.1 |
 | **Coavaluació de la galeria** (S3) | `Avaluació/Autoavaluacio_coavaluacio.md` (C) | Companys | contrast |
 
 **En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.

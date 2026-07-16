@@ -140,11 +140,12 @@ Marcapàgines/etiqueta amb tall + gravat + imatge vectoritzada + missatge, docum
 
 | Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
 |------------------------------|-----------|------------|----------|
-| **Marcapàgines** amb text a camí i imatge vectoritzada (S2-S3) | Checklist de criteris d'èxit + fila CA2.1 de `Rubrica_SA2.md` | Docent + autoaval. | CA2.1, CA2.3, CA3.1 |
+| **Marcapàgines** amb text a camí i imatge vectoritzada, pensat per a un destinatari (S2-S3) | Checklist de criteris d'èxit + files CA1.1/1.2 i CA2.1 de `Rubrica_SA2.md` | Docent + autoaval. | CA1.1, CA1.2, CA2.1, CA2.3, CA3.1 |
+| **Proves de paràmetres sobre retalls** i correcció d'errors de fitxer (S2-S3) | Fila CA3.3 de la rúbrica | Docent | CA3.3 |
 | **Aprofitament del material** a la planxa (S2-S3) | Fila CA6.2 de la rúbrica (observant el nesting) | Docent | CA6.2 |
 | **Drets de la imatge vectoritzada** (S2) | Casella de la fitxa («d'on surt i què em permet fer») | Docent | CA6.3 |
 | **Diari de taller** (1 entrada/sessió + tancament amb 🎯) | Pauta del diari | Docent | CA5.2, CA1.4 |
-| **Treball i seguretat** (contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
+| **Treball i seguretat** (contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1, CA5.1 |
 | **Autoavaluació i galeria** (S3) | `Avaluació/Autoavaluacio_coavaluacio.md` | Alumne + companys | contrast |
 
 **En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.

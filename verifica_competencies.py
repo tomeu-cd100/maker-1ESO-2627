@@ -11,6 +11,9 @@ Comprova tres invariants (pensat per a CI, com `verifica_enllacos.py`):
      (totes les SA)» de cada SA.
   3. **§8 ⊆ §2.** Cap criteri qualificat a la taula d'avaluació (§8) d'una SA pot
      quedar fora de la seva §2.
+  4. **§2 ⊆ §8 ∪ rúbrica.** Cap criteri declarat a la §2 pot quedar sense instrument:
+     ha d'aparèixer al §8 o a la `Rubrica_SAx.md` de la SA (evita criteris «orfes»
+     que es declaren però no s'avaluen enlloc).
 
 La **SA9** és integradora i té la §2 en prosa («integra totes les competències»): se'n
 verifica només que ho digui explícitament (queda exempta de la comparació cel·la a cel·la).
@@ -90,6 +93,18 @@ for n in range(1, 10):
     fora = ca8 - ca2
     if fora:
         problems.append(f"SA{n} §8: qualifica criteris que no són a la §2: {', '.join(sorted(fora))}")
+
+    # §2 ⊆ §8 ∪ rúbrica (cap criteri declarat sense instrument)
+    rub_hits = list(ROOT.glob(f"Classes/SA{n}_*/Rubrica_SA{n}.md"))
+    ca_rub = (
+        set(CA_RE.findall(rub_hits[0].read_text(encoding="utf-8"))) if rub_hits else set()
+    )
+    orfes = ca2 - ca8 - ca_rub
+    if orfes:
+        problems.append(
+            f"SA{n}: criteris de la §2 sense instrument (ni al §8 ni a la rúbrica): "
+            f"{', '.join(sorted(orfes))}"
+        )
 
 if problems:
     print(f"[INCOHERENT] {len(problems)} problema(es) de coherència competencial:")

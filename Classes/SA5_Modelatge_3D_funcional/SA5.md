@@ -191,9 +191,9 @@ instructives es **donen al Museu dels Errors** amb la seva targeta
 | Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
 |------------------------------|-----------|------------|----------|
 | **Peça impresa que funciona** per a la seva necessitat (S4) | Checklist de criteris d'èxit + fila «Funcionalitat» de `Rubrica_SA5.md` | Docent + autoaval. | CA1.1, CA2.2, CA3.2 |
-| **Iteració digital v1→v2** amb el retorn de la parella (S1) | Fila «Iteració digital» de la rúbrica + captures al diari | Docent + parella | CA1.4 |
-| **Laminat dins els límits** (< 1 h, < 40 g) + carnet 🟠 (S2) | Previsualització de Bambu Studio + checkpoint | Docent | CA3.2, CA6.1 |
-| **Fitxa tècnica** (mides, paràmetres) (S1-S4) | Fitxa de l'alumnat completada | Docent | CA2.3, CA5.2 |
+| **Iteració digital v1→v2** amb el retorn de la parella (S1) | Fila «Iteració digital» de la rúbrica + captures al diari | Docent + parella | CA1.2, CA1.4, CA5.1 |
+| **Laminat dins els límits** (< 1 h, < 40 g) + carnet 🟠 (S2) | Previsualització de Bambu Studio + checkpoint | Docent | CA3.2, CA6.1, CA6.2 |
+| **Fitxa tècnica** (mides, paràmetres, pla de la peça) (S1-S4) | Fitxa de l'alumnat completada | Docent | CA1.3, CA2.3, CA5.2 |
 | **Gestió d'incidències** (primera capa, postprocés) (S3-S4) | Observació + rutina d'anàlisi d'errors (Museu) | Docents | CA3.3 |
 | **Diari** (1 entrada/sessió + tancament amb 🎯) | Pauta del diari | Docent | CA5.2 |
 

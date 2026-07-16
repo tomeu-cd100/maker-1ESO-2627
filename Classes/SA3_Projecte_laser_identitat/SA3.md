@@ -175,7 +175,7 @@ que heu trobat i com els heu superat.
 | Evidència (sessió d'on surt) | Instrument | Qui avalua | Criteris |
 |------------------------------|-----------|------------|----------|
 | **Objecte d'identitat** muntat i funcional (S3-S4) | `Rubrica_SA3.md` **completa** + `Avaluació/Rubrica_producte_final.md` | Docents | CA2.1, CA2.3, CA3.1, CA3.3 |
-| **Procés complet**: requisits, esbós, pla, mostra d'encaix/kerf, iteració (S1-S4) | Files CA1.x de la rúbrica + fitxa d'equip | Docents | CA1.1-1.4 |
+| **Procés complet**: requisits, esbós, pla, mostra d'encaix/kerf, iteració (S1-S4) | Files CA1.x de la rúbrica + fitxa d'equip | Docents | CA1.1, CA1.2, CA1.3, CA1.4 |
 | **Contribució individual** («signatura de peça») (S1-S5) | Fila específica de la rúbrica + diari | Docents | CA5.1, CA5.2 |
 | **Presentació a la fira de productes** (S5, amb famílies presents) | Fila CA5.3 de la rúbrica | Docents + companys + públic | CA5.3 |
 | **Coavaluació d'equip** (S5, amb **calibratge previ** §0) | `Avaluació/Autoavaluacio_coavaluacio.md` | Equip | CA5.1 (contrast) |

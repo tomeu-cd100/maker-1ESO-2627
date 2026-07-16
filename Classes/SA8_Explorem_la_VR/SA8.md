@@ -187,7 +187,7 @@ Escena VR explorable + fitxa d'anàlisi crítica d'usos de la VR + documentació
 | **Fitxa d'anàlisi crítica** d'usos i riscos de la VR (S1) | Fila CA4.3 de la rúbrica | Docent | CA4.3 |
 | **Protocol VR complert** (torns, temps, higiene, guia) + carnet 🔵 (S1-S2) | Observació a l'estació VR + checkpoint | Docent | CA6.1, CA4.3 |
 | **Treball d'equip a l'escena** (repartiment del tema) (S1-S2) | Observació + diari | Els dos docents | CA5.1 |
-| **Diari** (1 entrada/sessió + tancament amb 🎯) | Pauta del diari | Docent | CA5.2 |
+| **Diari** (1 entrada/sessió + tancament amb 🎯) | Pauta del diari | Docent | CA5.2, CA1.4 |
 | **Galeria d'escenes creuada** (S2) | `Avaluació/Autoavaluacio_coavaluacio.md` (C) | Companys | CA5.3 (contrast) |
 
 **En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.

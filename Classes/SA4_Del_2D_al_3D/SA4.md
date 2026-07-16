@@ -149,7 +149,7 @@ modelaria amb cossos i forats.
 |------------------------------|-----------|------------|----------|
 | **Model 3D exportat en STL** (≥3 cossos + 1 forat, dins els límits) (S3) | Checklist de criteris d'èxit + fila CA2.2 de `Rubrica_SA4.md` | Docent + autoaval. | CA2.2, CA2.3 |
 | **Diari amb captures** del progrés (S1-S3) + tancament amb 🎯 | Pauta del diari | Docent | CA5.2, CA1.4 |
-| **Treball i actitud** (contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1 |
+| **Treball i actitud** (contínua) | `Avaluació/Full_seguiment_grup.md` (+/-/!) | Els dos docents | CA6.1, CA5.1 |
 | **Autoavaluació** (S3) | Rúbrica amigable 🌱🙂💪🌟 | Alumne | contrast |
 
 **En tancar la SA:** nivell de les CE treballades → `Avaluació/Full_progres_competencial.md`.
