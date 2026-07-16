@@ -32,6 +32,9 @@
   per a qui segueixi en paper** (opció DUA / pla B).
 
 - [ ] **2 pòsters de les 5 Grans Idees** (un per a l'aula Maker, un per a l'estudi de disseny).
+- [ ] **Calendari visual del curs** (3 pòsters A4 apaïsats, un per trimestre): imprimir T1 al
+  setembre (T2/T3 quan toquin) i penjar-lo a l'aula amb un retolador a prop — es marca la
+  casella ☐ de cada setmana en acabar-la. També és al Classroom («Sempre a mà»).
 - [ ] **Pila de targetes del Museu dels Errors** (4 per full).
 - [ ] **Targetes de kanban d'impressió** (8 per full; es necessiten a partir de la SA5,
   setmana 18 — es poden imprimir al desembre).
