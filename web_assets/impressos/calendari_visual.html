@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calendari visual del curs (T1·T2·T3) · Aula Maker</title>
+<style>
+  :root { --acc: #e8641b; --ink: #2b2318; --soft: #fdeadd; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem;
+         print-color-adjust: exact; -webkit-print-color-adjust: exact; }
+  .toolbar { max-width: 297mm; margin: 0 auto 1rem; display: flex; gap: .6rem; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc); background: #fff; color: var(--acc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc); color: #fff; }
+  .hint { max-width: 297mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+
+  .poster { width: 297mm; min-height: 200mm; margin: 0 auto 1.2rem; background: #fff;
+    border: 4mm solid var(--ink); padding: 8mm 10mm; display: flex; flex-direction: column; }
+  .poster h1 { font-size: 20pt; margin: 0 0 1mm; }
+  .poster .sub { font-size: 11pt; color: #6b5d4b; margin: 0 0 5mm; }
+
+  .graella { display: grid; grid-template-columns: repeat(5, 1fr); gap: 3.5mm; }
+  .setmana { border: 1.2mm solid var(--sa, #999); border-radius: 3mm; padding: 2.5mm 3mm;
+             background: #fff; display: flex; flex-direction: column; gap: 1mm;
+             min-height: 30mm; position: relative; }
+  .setmana .cap { display: flex; align-items: center; gap: 2mm; }
+  .setmana .num { font-weight: 800; font-size: 12pt; }
+  .setmana .sa-badge { font-size: 8.5pt; font-weight: 800; color: #fff; background: var(--sa, #999);
+             padding: .5mm 2mm; border-radius: 2mm; letter-spacing: .3px; }
+  .setmana .sessio { font-size: 8pt; color: #6b5d4b; margin-left: auto; }
+  .setmana .titol { font-size: 9.5pt; line-height: 1.25; font-weight: 600; }
+  .setmana .marques { font-size: 8.5pt; color: #444; margin-top: auto; line-height: 1.3; }
+  .setmana .fet { position: absolute; top: 2mm; right: 2mm; width: 5mm; height: 5mm;
+             border: .6mm solid #999; border-radius: 1mm; background: #fff; }
+  .setmana.fira { background: var(--soft); border-style: double; border-width: 2mm; }
+
+  /* Colors per SA — sempre acompanyats de l'etiqueta de text (mai només color) */
+  .sa0 { --sa: #7a7a7a; } .sa1 { --sa: #e8641b; } .sa2 { --sa: #c99a06; }
+  .sa3 { --sa: #c0392b; } .sa4 { --sa: #0e8074; } .sa5 { --sa: #1f6bb0; }
+  .sa6 { --sa: #5b4bb0; } .sa7 { --sa: #2e8b3a; } .sa8 { --sa: #8e44ad; }
+  .sa9 { --sa: #2b2318; }
+
+  .llegenda { display: flex; flex-wrap: wrap; gap: 3mm 6mm; font-size: 8.5pt;
+              margin-top: 4mm; border-top: 1.5px solid var(--ink); padding-top: 2.5mm;
+              color: #444; }
+  .peu { margin-top: 2mm; font-size: 8.5pt; color: #6b5d4b; }
+
+  @media (max-width: 900px) {
+    .poster { width: auto; min-height: 0; }
+    .graella { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+  }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    @page { size: A4 landscape; margin: 0; }
+    .poster { margin: 0 auto; page-break-after: always; border-color: #000; }
+    .poster:last-of-type { page-break-after: auto; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint">Tres pòsters <strong>A4 apaïsats</strong> (un per trimestre) per penjar a
+l'aula: cada setmana té la seva casella ☐ per <strong>marcar-la quan es fa</strong> — així
+tothom veu on som i què ve. Si una setmana salta (festiu, sortida), ratlleu-la i correu la
+resta: els números són de <em>setmana lectiva</em>, no de data.</p>
+
+<!-- ══════════════ T1 ══════════════ -->
+<div class="poster">
+  <h1>🗓️ 1r TRIMESTRE — Cultura maker i fabricació 2D (làser)</h1>
+  <p class="sub">Setmanes 1–13 · productes: clauer 🔑 · marcapàgines 📐 · objecte d'identitat amb encaixos ⭐ · 🎪 Fira T1 (setmana 13)</p>
+  <div class="graella">
+    <div class="setmana sa0"><span class="fet"></span><div class="cap"><span class="num">1</span><span class="sa-badge">SA0</span><span class="sessio">S1/2</span></div><div class="titol">Acollida, cultura maker i cohesió</div><div class="marques">👥 grup sencer · 📴 sense ordinadors</div></div>
+    <div class="setmana sa0"><span class="fet"></span><div class="cap"><span class="num">2</span><span class="sa-badge">SA0</span><span class="sessio">S2/2</span></div><div class="titol">Gimcana de seguretat + avaluació 0</div><div class="marques">✍️ contracte d'aula · 📲 qüestionari SA0</div></div>
+    <div class="setmana sa1"><span class="fet"></span><div class="cap"><span class="num">3</span><span class="sa-badge">SA1</span><span class="sessio">S1/3</span></div><div class="titol">El clauer en paper + làser en directe</div><div class="marques">📴 sense ordinadors · esbós acotat</div></div>
+    <div class="setmana sa1"><span class="fet"></span><div class="cap"><span class="num">4</span><span class="sa-badge">SA1</span><span class="sessio">S2/3</span></div><div class="titol">Del paper a Inkscape</div><div class="marques">💻 arriben els Chromebooks</div></div>
+    <div class="setmana sa1"><span class="fet"></span><div class="cap"><span class="num">5</span><span class="sa-badge">SA1</span><span class="sessio">S3/3</span></div><div class="titol">Fabricació del clauer</div><div class="marques">🔴 carnet de làser · 📲 qüestionari SA1</div></div>
+    <div class="setmana sa2"><span class="fet"></span><div class="cap"><span class="num">6</span><span class="sa-badge">SA2</span><span class="sessio">S1/3</span></div><div class="titol">Inkscape a fons (camins i text)</div><div class="marques">💻 estudi de disseny</div></div>
+    <div class="setmana sa2"><span class="fet"></span><div class="cap"><span class="num">7</span><span class="sa-badge">SA2</span><span class="sessio">S2/3</span></div><div class="titol">Vectoritzar + dissenyar el marcapàgines</div><div class="marques">🕵️ drets de la imatge</div></div>
+    <div class="setmana sa2"><span class="fet"></span><div class="cap"><span class="num">8</span><span class="sa-badge">SA2</span><span class="sessio">S3/3</span></div><div class="titol">Fabricació + 1a coavaluació</div><div class="marques">📲 qüestionari SA2</div></div>
+    <div class="setmana sa3"><span class="fet"></span><div class="cap"><span class="num">9</span><span class="sa-badge">SA3 ⭐</span><span class="sessio">S1/5</span></div><div class="titol">El repte d'identitat: idear i planificar</div><div class="marques">👥 equips · signatura de peça</div></div>
+    <div class="setmana sa3"><span class="fet"></span><div class="cap"><span class="num">10</span><span class="sa-badge">SA3 ⭐</span><span class="sessio">S2/5</span></div><div class="titol">Unions per encaix (disseny digital)</div><div class="marques">gruix 3 mm · capes tall/gravat</div></div>
+    <div class="setmana sa3"><span class="fet"></span><div class="cap"><span class="num">11</span><span class="sa-badge">SA3 ⭐</span><span class="sessio">S3/5</span></div><div class="titol">Mostra d'encaix, kerf i fabricació</div><div class="marques">✉️ invitacions famílies (Fira −2)</div></div>
+    <div class="setmana sa3"><span class="fet"></span><div class="cap"><span class="num">12</span><span class="sa-badge">SA3 ⭐</span><span class="sessio">S4/5</span></div><div class="titol">Muntatge i iteració</div><div class="marques">l'objecte s'aguanta dret</div></div>
+    <div class="setmana sa3 fira"><span class="fet"></span><div class="cap"><span class="num">13</span><span class="sa-badge">SA3 ⭐</span><span class="sessio">S5/5</span></div><div class="titol">🎪 FIRA DE MOSTRES T1 + tancament</div><div class="marques">👨‍👩‍👧 famílies · 📲 qüestionari SA3 + acumulatiu T1 · 📸 foto al Portafoli</div></div>
+  </div>
+  <div class="llegenda">
+    <span>☐ marca la setmana feta</span><span>🎪 Fira trimestral (famílies)</span>
+    <span>📲 publica el qüestionari al Classroom</span><span>🔴🟠🟢🔵 carnet de màquina</span>
+    <span>✉️ invitacions (2 setmanes abans de la Fira)</span><span>⭐ producte de trimestre</span>
+  </div>
+  <p class="peu">Guió dia a dia: <strong>00_Diari_de_classe_docent.md</strong> (web del curs) · Temporització completa: <strong>Programació didàctica → Temporització anual</strong></p>
+</div>
+
+<!-- ══════════════ T2 ══════════════ -->
+<div class="poster">
+  <h1>🗓️ 2n TRIMESTRE — 3D i impressió</h1>
+  <p class="sub">Setmanes 14–25 · productes: objecte 3D 🧊 · peça útil impresa 🔧 · solució per a un usuari real ⭐ · 🎪 Fira T2 (setmana 25)</p>
+  <div class="graella">
+    <div class="setmana sa4"><span class="fet"></span><div class="cap"><span class="num">14</span><span class="sa-badge">SA4</span><span class="sessio">S1/3</span></div><div class="titol">Benvinguts al 3D (Tinkercad)</div><div class="marques">retorn del tiquet T1 al grup</div></div>
+    <div class="setmana sa4"><span class="fet"></span><div class="cap"><span class="num">15</span><span class="sa-badge">SA4</span><span class="sessio">S2/3</span></div><div class="titol">Combinar cossos i forats</div><div class="marques">el got i l'anella</div></div>
+    <div class="setmana sa4"><span class="fet"></span><div class="cap"><span class="num">16</span><span class="sa-badge">SA4</span><span class="sessio">S3/3</span></div><div class="titol">El meu objecte 3D + batch de placa</div><div class="marques">📲 qüestionari SA4 · 🔗 pont al laminador</div></div>
+    <div class="setmana sa5"><span class="fet"></span><div class="cap"><span class="num">17</span><span class="sa-badge">SA5</span><span class="sessio">S1/4</span></div><div class="titol">Mesurar la realitat, v1 → v2</div><div class="marques">peu de rei · necessitat pròpia</div></div>
+    <div class="setmana sa5"><span class="fet"></span><div class="cap"><span class="num">18</span><span class="sa-badge">SA5</span><span class="sessio">S2/4</span></div><div class="titol">Laminar + kanban d'impressió</div><div class="marques">🟠 carnet d'impressora · &lt;1 h · &lt;40 g</div></div>
+    <div class="setmana sa5"><span class="fet"></span><div class="cap"><span class="num">19</span><span class="sa-badge">SA5</span><span class="sessio">S3/4</span></div><div class="titol">Impressió i treball paral·lel</div><div class="marques">reptes express als temps morts</div></div>
+    <div class="setmana sa5"><span class="fet"></span><div class="cap"><span class="num">20</span><span class="sa-badge">SA5</span><span class="sessio">S4/4</span></div><div class="titol">Postprocés, prova real i galeria</div><div class="marques">📲 qüestionari SA5</div></div>
+    <div class="setmana sa6"><span class="fet"></span><div class="cap"><span class="num">21</span><span class="sa-badge">SA6 ⭐</span><span class="sessio">S1/5</span></div><div class="titol">Repte amb usuari real: empatia</div><div class="marques">≥3 requisits de l'usuari, no inventats</div></div>
+    <div class="setmana sa6"><span class="fet"></span><div class="cap"><span class="num">22</span><span class="sa-badge">SA6 ⭐</span><span class="sessio">S2/5</span></div><div class="titol">Modelatge per membre + v2</div><div class="marques">mida comuna acordada</div></div>
+    <div class="setmana sa6"><span class="fet"></span><div class="cap"><span class="num">23</span><span class="sa-badge">SA6 ⭐</span><span class="sessio">S3/5</span></div><div class="titol">Impressió per equips</div><div class="marques">✉️ invitacions famílies i usuaris (Fira −2)</div></div>
+    <div class="setmana sa6"><span class="fet"></span><div class="cap"><span class="num">24</span><span class="sa-badge">SA6 ⭐</span><span class="sessio">S4/5</span></div><div class="titol">Muntatge + prova amb l'usuari</div><div class="marques">què ha dit · què canviem</div></div>
+    <div class="setmana sa6 fira"><span class="fet"></span><div class="cap"><span class="num">25</span><span class="sa-badge">SA6 ⭐</span><span class="sessio">S5/5</span></div><div class="titol">🎪 FIRA DE MOSTRES T2 + tancament</div><div class="marques">👨‍👩‍👧 famílies + usuaris · 📲 qüestionari SA6 + acumulatiu T2 · 📸 foto al Portafoli</div></div>
+  </div>
+  <div class="llegenda">
+    <span>☐ marca la setmana feta</span><span>🎪 Fira trimestral (famílies)</span>
+    <span>📲 publica el qüestionari al Classroom</span><span>🔴🟠🟢🔵 carnet de màquina</span>
+    <span>✉️ invitacions (2 setmanes abans de la Fira)</span><span>⭐ producte de trimestre</span>
+  </div>
+  <p class="peu">Coll d'ampolla del trimestre: el temps d'impressora — batch de placa, kanban i plaques llargues fora d'horari (<strong>Gestió del temps de màquina</strong>, a la web).</p>
+</div>
+
+<!-- ══════════════ T3 ══════════════ -->
+<div class="poster">
+  <h1>🗓️ 3r TRIMESTRE — Immersiu + projecte final</h1>
+  <p class="sub">Setmanes 26–35 · productes: tour virtual 🌐 · escena VR 🥽 · estand integrador ⭐ · 🎪 GRAN FIRA (setmana 35 — l'última: sense coixí de juny!)</p>
+  <div class="graella">
+    <div class="setmana sa7"><span class="fet"></span><div class="cap"><span class="num">26</span><span class="sa-badge">SA7</span><span class="sessio">S1/3</span></div><div class="titol">Què és el 360 + pla de rodatge</div><div class="marques">🟢 carnet de càmera · 1 benefici + 1 risc al diari</div></div>
+    <div class="setmana sa7"><span class="fet"></span><div class="cap"><span class="num">27</span><span class="sa-badge">SA7</span><span class="sessio">S2/3</span></div><div class="titol">Captura al centre per torns</div><div class="marques">full de torns · docent acompanya</div></div>
+    <div class="setmana sa7"><span class="fet"></span><div class="cap"><span class="num">28</span><span class="sa-badge">SA7</span><span class="sessio">S3/3</span></div><div class="titol">Muntar i PUBLICAR el tour</div><div class="marques">🔵 carnet VR · 📲 qüestionari SA7 · 📍 PUNT DE DECISIÓ: retard ≥1 setmana? activa vàlvula ARA</div></div>
+    <div class="setmana sa8"><span class="fet"></span><div class="cap"><span class="num">29</span><span class="sa-badge">SA8</span><span class="sessio">S1/2</span></div><div class="titol">Viure i entendre la VR</div><div class="marques">estacions amb 5 ulleres · anàlisi crítica</div></div>
+    <div class="setmana sa8"><span class="fet"></span><div class="cap"><span class="num">30</span><span class="sa-badge">SA8</span><span class="sessio">S2/2</span></div><div class="titol">Crear l'escena VR (CoSpaces)</div><div class="marques">📲 qüestionari SA8 · llavor de l'estand de SA9</div></div>
+    <div class="setmana sa9"><span class="fet"></span><div class="cap"><span class="num">31</span><span class="sa-badge">SA9 ⭐</span><span class="sessio">S1/5</span></div><div class="titol">El projecte final: pla de projecte</div><div class="marques">graella via × equip · prova del cotó del reús</div></div>
+    <div class="setmana sa9"><span class="fet"></span><div class="cap"><span class="num">32</span><span class="sa-badge">SA9 ⭐</span><span class="sessio">S2/5</span></div><div class="titol">Disseny i fabricació</div><div class="marques">tot a la cua avui o no arriba</div></div>
+    <div class="setmana sa9"><span class="fet"></span><div class="cap"><span class="num">33</span><span class="sa-badge">SA9 ⭐</span><span class="sessio">S3/5</span></div><div class="titol">El component immersiu</div><div class="marques">♻️ reusa SA7/SA8 · ✉️ invitacions Gran Fira</div></div>
+    <div class="setmana sa9"><span class="fet"></span><div class="cap"><span class="num">34</span><span class="sa-badge">SA9 ⭐</span><span class="sessio">S4/5</span></div><div class="titol">Muntatge de l'estand + assaig</div><div class="marques">guió per veus · rol de controlador</div></div>
+    <div class="setmana sa9 fira"><span class="fet"></span><div class="cap"><span class="num">35</span><span class="sa-badge">SA9 ⭐</span><span class="sessio">S5/5</span></div><div class="titol">🎪 GRAN FIRA AULA MAKER + tancament de curs</div><div class="marques">👨‍👩‍👧 famílies + 6è · 📲 qüestionari SA9 + acumulatiu T3 · retorn de l'avaluació 0</div></div>
+  </div>
+  <div class="llegenda">
+    <span>☐ marca la setmana feta</span><span>🎪 Fira</span>
+    <span>📲 publica el qüestionari al Classroom</span><span>🔴🟠🟢🔵 carnet de màquina</span>
+    <span>📍 punt de decisió de calendari (setmana 28)</span><span>⭐ producte de trimestre/curs</span>
+  </div>
+  <p class="peu">Vàlvules si falta temps: fusionar les 2 sessions de SA8 o comprimir SA9 (mai la sessió ⭐ opcional de SA8, que no ocupa calendari). Decidiu-ho a la setmana 28, no al maig.</p>
+</div>
+</body>
+</html>

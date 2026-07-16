@@ -701,6 +701,9 @@ pel mode fosc. La web ho recorda per al pròxim dia.</p></blockquote>
              "imprimible"),
         card("impressos/poster_grans_idees.html", "🧭", "Pòster de les 5 Grans Idees",
              "A4/A3 per penjar a les dues aules", "imprimible"),
+        card("impressos/calendari_visual.html", "🗓️", "Calendari visual del curs (T1·T2·T3)",
+             "3 pòsters A4 apaïsats: les 35 setmanes d'un cop d'ull, amb casella per marcar "
+             "on som — per penjar a l'aula i no perdre's cap SA", "imprimible"),
         card("impressos/targetes_museu.html", "🏛️", "Targetes del Museu dels Errors",
              "4 per full, per deixar al costat del museu", "imprimible"),
         card("impressos/targetes_kanban.html", "🖨️", "Targetes de kanban d'impressió",
