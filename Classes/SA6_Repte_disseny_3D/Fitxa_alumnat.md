@@ -70,5 +70,8 @@ escriviu-la vosaltres al diari:
 | **La meva peça** (taula de responsables) i la seva v2 | La meva part identificable + el diari | Els/les profes |
 | La **presentació de l'impacte** | Repte → per a qui → solució → impacte | Profes + companys |
 | Com hem **treballat en equip** | Coavaluació calibrada | Nosaltres mateixos |
+| El **portafoli del trimestre** | Diari complet + evidències + fotos | El/la profe |
 
 **En acabar:** nivell (🌱🙂💪🌟) + 🎯 objectiu al diari + full de progrés + **valoració del trimestre**.
+📸 **Abans de lliurar el quadern a la Fira:** fes **foto del producte i de la teva millor pàgina
+del diari** i puja-la a `Portafoli/` del Drive — al juny la necessitaràs per al projecte final.

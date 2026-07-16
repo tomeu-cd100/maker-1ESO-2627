@@ -208,7 +208,7 @@ que més es descuida i que més fitxers espatlla a la làser — repeteix-lo fin
 la llicència («trobada a Google» ≠ lliure; el banc de la SA ja ve verificat) — es recull a la
 casella 🕵️ de la fitxa.
 
-- 💻 **Estudi de disseny:** **vectorització** (Camí → Vectoritza mapa de bits) + disseny del marcapàgines (~150×50 mm, missatge gravat, forat per a la borla) + capes.
+- 💻 **Estudi de disseny:** **vectorització** (Camí → Vectoritza mapa de bits) + disseny del marcapàgines (~150×50 mm, missatge gravat, forat per a la borla) + capes. Qui hagi pactat l'**objecte alternatiu** (⭐ obertura del repte, SA2 §1) dissenya el seu amb els mateixos requisits.
 - 🔧 **Estació Maker:** preparació a XCS amb els dissenys ja acabats, **proves de paràmetres de gravat sobre retalls** (que vegin què fa cada potència), repàs de fitxers a punt de tall. Si el gruix del dia no ho demana, aquesta sessió admet fer-se **sencera a l'estudi de disseny** (tot és Chromebook): decideix-ho segons com vagi el grup.
 **⏸️ Mínim:** forma + missatge (text a camí) + forat amb capes correctes — si la vectorització
 pròpia no surt, imatge del banc i tothom fabrica igualment.

@@ -3,7 +3,10 @@
 **Nom:** ______________________  **Equip/parella:** ________
 
 ## El repte
-Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat. Requisits:
+Dissenya un **marcapàgines (o etiqueta)** personalitzat amb tall i gravat.
+⭐ Tens clar **per a qui** i **per a què**? Pots proposar al/la profe **un altre objecte pla i
+útil** de mida semblant (placa de porta, penja-auriculars, cavallet de nom…) — mateixos
+requisits. Requisits:
 
 - [ ] Forma base (mida orientativa **150 × 50 mm**)
 - [ ] Un **missatge** o nom gravat (text convertit a camí)
