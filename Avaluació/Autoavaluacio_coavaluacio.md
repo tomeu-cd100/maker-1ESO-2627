@@ -73,8 +73,8 @@ regla d'or:** poses la nota per **el que has vist fer**, no per com et cau.
 ## B·bis) Checklist de rol (només a les SA de projecte: SA3, SA6 i SA9)
 
 Cada rol té una **responsabilitat observable** (taula de rols d'`Aprenentatge_cooperatiu.md`
-§2: el coordinador presenta el pla, el dissenyador explica les decisions, l'operador documenta
-els paràmetres, el documentalista manté el diari al dia). En tancar el projecte, valoreu-la
+§2: el coordinador/a presenta el pla, el dissenyador/a explica les decisions, l'operador/a
+documenta els paràmetres, el/la documentalista manté el diari al dia). En tancar el projecte, valoreu-la
 **en equip** (un full per equip, 2-3 minuts parlant-ne junts), rol per rol, amb el semàfor i
 **una evidència vista**:
 

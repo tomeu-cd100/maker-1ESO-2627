@@ -21,7 +21,7 @@ Equips de **3-4**. Els rols **roten** cada SA perquè tothom passi per tots.
 | ⚙️ **Operador/a** | Prepara la fabricació (amb supervisió) | Documenta els paràmetres de màquina | 🚦 Semàfor de fabricació (`Recursos/Semafor_maker.md`) validat abans de cada enviament |
 | 📷 **Documentalista** | Fotos, diari/portafoli de l'equip | Manté el diari al dia amb evidències | ≥1 foto de procés feta i entrada del diari d'equip començada abans d'acabar |
 
-> Amb equips de 3, el documentalista i el coordinador es poden combinar.
+> Amb equips de 3, els rols de documentalista i coordinador/a es poden combinar.
 
 **🖱️ Norma de rotació del teclat (equitat):** els rols roten cada SA, però **qui controla el
 teclat/ratolí del Chromebook canvia cada sessió** — cap membre no el pot tenir dues sessions

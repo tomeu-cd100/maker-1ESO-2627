@@ -5,7 +5,7 @@
 > coses a mig recordar per a l'alumne i quatre llistes per al docent. El passaport ho unifica:
 > **un sol document per alumne/a**, que es guarda a l'aula (funda o arxivador) i que al juny
 > se l'enduen com a record del curs. El registre oficial del docent continua sent el quadern
-> digital (`Avaluació/Quadern_digital_docent.md`); el passaport és **de l'alumne**.
+> digital (`Avaluació/Quadern_digital_docent.md`); el passaport és **de l'alumne/a**.
 
 ## Model imprimible (mitja A4 doblegada, o A5)
 
@@ -51,7 +51,7 @@
    votació) — el moment de segellar davant de l'alumne és part del premi; no ho acumuleu.
 
 4. El docent replica la dada al **quadern digital** (pestanya `Carnets`): el passaport és de
-   l'alumne, el registre és del docent — si un passaport es perd, es reimprimeix des del
+   l'alumne/a, el registre és del docent — si un passaport es perd, es reimprimeix des del
    quadern.
 
 5. **Al juny se l'enduen**: és l'objecte-memòria del curs (i per a les famílies, el resum més

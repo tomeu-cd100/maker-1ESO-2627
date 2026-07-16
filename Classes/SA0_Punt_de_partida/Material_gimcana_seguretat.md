@@ -87,8 +87,8 @@ Un cas per targeta; l'equip acorda la resposta en 1 minut. Resposta esperada en 
 2. **La impressora fa una olor estranya i un soroll nou.** → *No tocar res; avisar el docent;
    apuntar-ho després al registre d'incidències.*
 
-3. **El teu company posa la mà dins la impressora en marxa per treure un fil.** → *Aturar-lo
-   de paraula («para!»), no estirar-lo físicament; el broquet crema (~200 °C) i la màquina es
+3. **Algú de l'equip posa la mà dins la impressora en marxa per treure un fil.** → *Aturar
+   amb la veu («para!»), mai estirant físicament; el broquet crema (~200 °C) i la màquina es
    pausa des de la pantalla, no amb les mans dins.*
 
 4. **Trobes la làser funcionant i no hi ha ningú a la vora.** → *Quedar-t'hi tu mirant-la i
@@ -97,7 +97,7 @@ Un cas per targeta; l'equip acorda la resposta en 1 minut. Resposta esperada en 
 5. **Et talles lleugerament amb un cúter al postprocés.** → *Rentar amb aigua, avisar el
    docent → farmaciola. Encara que sembli poca cosa, sempre s'avisa.*
 
-6. **Un company vol gravar el logotip d'una marca famosa per vendre clauers.** → *Tema de
+6. **Algú de l'equip vol gravar el logotip d'una marca famosa per vendre clauers.** → *Tema de
    llicències i ús comercial: parlar-ho amb el docent (connecta amb CA6.3 — al taller
    respectem drets i llicències).*
 

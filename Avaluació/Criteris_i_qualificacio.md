@@ -177,9 +177,9 @@ visible i regular l'aprenentatge durant el procés:
 ## 6. Feedback
 - Feedback formatiu continu durant les sessions (oral i al diari de taller).
 - **Revisió intermèdia obligatòria (feedback abans de la nota):** a la **sessió central** de
-  les SA de producte (SA3, SA6, SA9), el docent repassa amb cada equip/alumne els **criteris
-  d'èxit** amb la rúbrica a la mà i li escriu **un «següent pas» concret**. L'alumne encara té
-  temps de sessió per aplicar-lo. Sense aquest punt, l'alumne descobreix el seu nivell quan ja
+  les SA de producte (SA3, SA6, SA9), el docent repassa amb cada equip o alumne/a els **criteris
+  d'èxit** amb la rúbrica a la mà i li escriu **un «següent pas» concret**. L'alumne/a encara té
+  temps de sessió per aplicar-lo. Sense aquest punt, cadascú descobreix el seu nivell quan ja
   no pot millorar el producte: l'avaluació classificaria en lloc d'ensenyar.
 
 - Cada SA tanca amb una valoració compartida (docent + autoavaluació + coavaluació).

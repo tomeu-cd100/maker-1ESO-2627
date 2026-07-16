@@ -21,7 +21,9 @@ relleu i **braille** que es llegeixen amb els dits, a museus, ascensors i carrer
 procés que tu fas servir per gravar el teu nom serveix perquè una persona cega sàpiga on és.
 
 - 💬 *Si el teu clauer l'hagués de llegir algú que no hi veu, què hi canviaries?*
-- 🔎 Cerca: «senyalització braille tall làser» · «placa braille làser»
+- 👥 Referent: **Limor «Ladyada» Fried**, enginyera i fundadora d'Adafruit — una de les cares
+  més conegudes del moviment maker i del maquinari obert.
+- 🔎 Cerca: «senyalització braille tall làser» · «Limor Fried Adafruit»
 
 ## SA2 — El marcapàgines · Un dibuix que tothom entén
 
@@ -30,7 +32,9 @@ qualsevol persona els entengui, vingui d'on vingui i llegeixi el que llegeixi. V
 és aprendre l'idioma visual més universal que existeix.
 
 - 💬 *Quin pictograma milloraríeu del nostre institut? Per què no s'entén prou?*
-- 🔎 Cerca: «pictogrames Otl Aicher olimpíades» · «disseny pictogrames accessibles»
+- 👥 Referents: **Marie Neurath**, pionera dels pictogrames informatius (sistema Isotype, anys
+  1930 — explicar dades amb dibuixos que tothom entén), i **Otl Aicher** (pictogrames olímpics).
+- 🔎 Cerca: «Marie Neurath Isotype» · «pictogrames Otl Aicher olimpíades»
 
 ## SA3 — Encaixos · Mobles amb plànols lliures
 
@@ -39,7 +43,10 @@ taula i cadira perquè qualsevol taller del món els talli a làser o CNC: el mo
 viatja el fitxer. Els vostres encaixos són la mateixa tècnica a escala de butxaca.
 
 - 💬 *Si publiquéssiu els plànols del vostre objecte, què hi guanyaríeu? Què hi perdríeu?*
-- 🔎 Cerca: «Opendesk open source furniture» · «moble tallat làser encaix»
+- 👥 Referent: **Lilly Reich**, dissenyadora de mobiliari modern — durant dècades el mèrit se'l
+  va endur el seu col·laborador Mies van der Rohe: bon moment per parlar de qui surt a la foto
+  i qui no.
+- 🔎 Cerca: «Opendesk open source furniture» · «Lilly Reich dissenyadora mobiliari»
 
 ## SA4 — Del 2D al 3D · El volum que ajuda
 
@@ -89,7 +96,9 @@ un món de neu mentre els curen) i per a **rehabilitació** i tractament de pors
 ben dissenyada — com la que fareu — pot canviar el que sent una persona.
 
 - 💬 *Quina escena VR dissenyaríeu per a algú que ha de passar una tarda a l'hospital?*
-- 🔎 Cerca: «SnowWorld VR dolor cremats» · «realitat virtual rehabilitació hospital»
+- 👥 Referent: **Nonny de la Peña**, pionera del periodisme immersiu (l'anomenen «la padrina
+  de la realitat virtual»): escenes VR que fan **sentir** una notícia, no només llegir-la.
+- 🔎 Cerca: «SnowWorld VR dolor cremats» · «Nonny de la Peña periodisme immersiu»
 
 ## SA9 — L'estand · La cultura maker és compartir
 
@@ -98,6 +107,8 @@ existeixen per una sola raó: els makers **ensenyen el que fan i com ho fan**. L
 Fira és això — no un examen, sinó la vostra primera fira maker de veritat.
 
 - 💬 *Què voleu que la gent DIGUI en sortir del vostre estand?*
+- 👥 Referent: **Sherry Huss**, cocreadora de la Maker Faire — la fira que veureu a la cerca
+  la va aixecar, en bona part, ella.
 - 🔎 Cerca: «Maker Faire què és» · «ateneus de fabricació Barcelona»
 
 ---
