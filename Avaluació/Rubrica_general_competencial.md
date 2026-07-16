@@ -7,6 +7,19 @@ Rúbrica transversal aplicable a qualsevol SA. Cada SA pot afegir indicadors esp
 > coherent amb la cultura del prototip i amb la definició de NA a `Criteris_i_qualificacio.md`
 > («encara no demostra l'assoliment»), que prioritza l'evolució i les darreres evidències.
 
+> 📈 **Com puja el llistó al llarg del curs (regla de lectura per trimestre).** Els descriptors
+> són els mateixos tot l'any, però es llegeixen amb la **retirada de bastides** que declara
+> `Programació didàctica/DUA_adaptacions_SA.md`: un mateix nivell exigeix més a mesura que
+> avança el curs.
+>
+> | | T1 | T2 | T3 |
+> |---|---|---|---|
+> | **AN es dona si…** | ho fa **amb la bastida** disponible (plantilla, guia, demo recent) | ho fa **sense bastida** (la demana només puntualment) | ho fa sense bastida **en un context nou** (el projecte final ho integra tot) |
+> | **AE es dona si…** | a més, **explica** com ho ha fet | a més, ho fa **amb criteri propi** (justifica decisions) | a més, **ho transfereix**: ho ensenya a algú o ho aplica a la seva via de SA9 |
+>
+> Per això un AN del T1 i un AN del T3 al full de progrés **no són el mateix** — i la valoració
+> global de curs es fa per **trajectòria** (`Full_progres_competencial.md`), no per mitjana.
+
 ---
 
 ### CE1 — Procés tecnològic i pensament de disseny

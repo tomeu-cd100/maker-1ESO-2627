@@ -77,6 +77,14 @@ Calcula sempre: **temps per peça × nre. d'alumnes del torn vs. minuts reals de
 - Programa les **impressions llargues fora d'horari** (pati, tarda, nit) i deixa per a classe
   només l'inici de la primera capa (el moment crític d'observar).
 
+- 🎬 **Ritual de la primera capa (garantia per equip):** imprimir fora d'horari té un cost
+  pedagògic — la peça «apareix» feta i l'alumne es perd el fabricar-observar-ajustar que és el
+  cor del taller. Compensació mínima innegociable: **cada alumne/equip presencia en directe la
+  primera capa d'almenys una de les seves plaques** (els 10 primers minuts, on falla gairebé
+  tot: adhesió, primera línia, suports). Es llança la placa a l'inici del torn, es mira, es
+  comenta què es veu — i la resta ja pot córrer de nit. És l'equivalent 3D de la mostra
+  d'encaix del làser (SA3): la màquina ensenyant en directe.
+
 - Combina-la amb el **batch de placa (B)**: la unitat de la cua pot ser una placa sencera, no
   una peça — la cua avança molt més de pressa.
 

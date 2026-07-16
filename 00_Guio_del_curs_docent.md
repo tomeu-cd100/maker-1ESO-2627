@@ -126,6 +126,31 @@ l'alumnat escriu el seu 🎯 al diari. **En tancar cada trimestre:** vegeu «fit
 - [ ] Confirmar la **data de la Fira del trimestre següent** (reservades al setembre: setm.
   13, 25 i 35) i programar l'enviament de les invitacions (2 setmanes abans: setm. 11, 23 i 33).
 
+## ⚖️ Decisions de disseny del curs (i el seu cost — per llegir abans de retocar res)
+
+Dues decisions són **opcions conscients**, no descuits. Si un dia el curs es revisa, que sigui
+sabent què es va triar i per què:
+
+1. **Panoràmic abans que profund.** Quatre tecnologies en 35 sessions vol dir que cap eina
+   arriba a la fluïdesa: el curs **tria** ser el primer contacte ampli (1r ESO, optativa) i
+   ajorna la profunditat. Conseqüència assumida: el nivell **AE** («amb autonomia», «funcions
+   avançades») no s'espera de l'exposició curta de cada bloc, sinó de la **via que cada equip
+   tria a la SA9** — és allà on qui vol aprofundir pot demostrar-ho (i el full de progrés
+   valora trajectòria, no mitjana). Si mai cal retallar, el bloc immersiu és el més prescindible
+   curricularment (per això SA8 és la vàlvula de calendari, i no SA5).
+
+2. **Columna vertebral de sistemes.** El curs té molts artefactes; **quatre són irrenunciables**
+   i la resta són accessoris que es poden deixar caure si el grup no els sosté, sense mala
+   consciència:
+   - **Columna vertebral:** el **diari de taller** (evidència CA5.2), els **carnets de màquina**
+     (seguretat), els **mínims ⏸️ del dia** (xarxa de seguretat) i el **kanban d'impressió**
+     (equitat de màquina).
+   - **Accessoris (útils, prescindibles):** insígnies i segells del passaport més enllà dels
+     carnets, mini-lliga, word wall actiu, museu com a activitat (la lleixa queda), projecte
+     personal. **Regla:** si un accessori porta dues setmanes mantenint-se només perquè el
+     docent l'arrossega, es retira i es diu en veu alta — un sistema que no viu sol és feina,
+     no aprenentatge.
+
 ## 🧰 On és cada cosa (xuleta)
 
 Seguretat i carnets → `Normativa/` · Temps-màquina i estacions →

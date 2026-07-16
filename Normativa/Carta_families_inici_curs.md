@@ -50,6 +50,13 @@ pot assolir igualment sense elles.
   lletra ajustable) per acompanyar el vostre fill/a des de casa.
 
 - Pregunteu al vostre fill/a pel seu **diari de taller** (hi documenta el que fa cada setmana).
+- **Com llegim les valoracions (i per què no veureu un 7,5):** en aquesta matèria no posem
+  notes numèriques sinó **nivells d'assoliment** — NA (encara no), AS (satisfactori),
+  AN (notable), AE (excel·lent) — per a cada competència, tal com estableix el currículum.
+  Un «NA» no és un suspens per sempre: vol dir «**encara** no», i es revisa amb les evidències
+  següents; el que compta és **l'evolució** durant el curs, no la mitjana. Si voleu saber com
+  va el vostre fill/a, la bona pregunta no és «quina nota tens?» sinó «**què has fet i què
+  milloraràs?**» — el diari de taller té la resposta.
 - Veniu a les **Fires Aula Maker**: n'hi ha **una cada trimestre** — la de final de curs és la
   **gran Fira**. Reserveu les dates:
 

@@ -93,6 +93,11 @@ escena 3D que es pot explorar amb les ulleres VR.
 3. **La VR al món real (20')**: debat sobre usos, beneficis, riscos i ètica (privadesa,
    addicció). El debat **arrenca amb les notes benefici/risc que cadascú va apuntar a SA7-S1**:
    no es comença de zero, es contrasta — i el temps que s'hi guanya va a la demo-construint.
+   **Amb evidència, no d'opinions:** cada equip rep una **targeta de cas real** (VR en
+   rehabilitació hospitalària, formació de cirurgians, simuladors de conducció, videojocs
+   immersius, xarxes socials en VR) i ha de defensar **un benefici i un límit ancorats en el
+   cas** — «pot marejar» o «és divertit» no puntuen sols. El nivell AE de CA4.3 («argumenta
+   límits d'ús amb criteri propi») es guanya aquí, no a la fitxa.
 4. **El nostre tema (10')**: cada equip tria el tema de l'escena (museu, recorregut,
    mini-història) i reparteix tasques.
 

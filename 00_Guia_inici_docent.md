@@ -170,6 +170,25 @@ referent de la setmana.
 - Fes una línia per sessió a `Memòria de treball/Diari_docent_sessions.md`.
 - Revisa l'inventari cada trimestre i omple la **memòria final** al juny.
 
+### 8·ter. Pla de continuïtat — si el docent titular falta setmanes (no una sessió)
+
+El curs el manté una sola persona (docent + coordinació TIC): això és un risc conegut. Què
+n'ha de saber qui el reculli:
+
+- **Sobreviu sol, sense tocar res:** la web del curs (estàtica, ja publicada), els materials
+  del Classroom ja publicats, el `00_Diari_de_classe_docent.md` (el guió setmana a setmana és
+  el substitut del titular: seguir-lo val per un trimestre, no només per una sessió) i el
+  calendari visual de l'aula.
+- **Pot esperar sense trencar res:** publicar qüestionaris i tasques al Classroom (queden en
+  esborrany), regenerar rúbriques o Forms (pipeline), actualitzar la web. Res d'això no
+  bloqueja les classes: tot el que l'alumnat necessita ja és publicat o imprès.
+- **No ho toquis sense el titular:** el pipeline de `Material Classroom` (repo de Robòtica),
+  el quadern digital privat i les carpetes de Drive — funcionen, però només el titular en
+  coneix l'estat.
+- **Regla d'or del substitut:** amb el diari de classe + la fitxa de la SA + `Simulacions/` es
+  fa classe digna qualsevol setmana; **cap màquina s'engega** sense docent format
+  (`00_Guia_inici_codocent.md`).
+
 ## 8·bis. Atenció a la diversitat (DUA)
 - Revisa `Programació didàctica/DUA_adaptacions_SA.md`: **menú base** d'opcions per a tothom,
   adaptacions **per barrera** (visual, auditiva, motriu, TDAH, TEA, dislèxia/discalcúlia,

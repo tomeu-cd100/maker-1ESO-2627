@@ -114,7 +114,10 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
    de kanban per placa); prioritzar peces; plaques llargues fora d'hores si cal (vegeu
    `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §2B).
 
-2. **Impressió i treball paral·lel (90')**: seguiment + millora del disseny + reptes.
+2. **Impressió i treball paral·lel (90')**: seguiment + millora del disseny + reptes. Cada
+   equip presencia la **primera capa** d'una de les seves plaques (🎬 ritual de
+   `Programació didàctica/Gestio_temps_maquina_fabricacio.md` §2C): és on falla gairebé tot i
+   on més s'aprèn — la resta de la placa ja pot córrer fora d'horari.
 
 > ⏸️ **Mínim d'avui**: les peces de l'equip **laminades i a la cua** (targeta de kanban feta) i
 > el **temps/grams de cada placa anotats al diari** — l'equip que no entra a la cua avui es

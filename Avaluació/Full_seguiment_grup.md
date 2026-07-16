@@ -36,5 +36,19 @@
 - `+` destaca positivament · `-` cal millorar · `!` incidència de seguretat
 - `A` ajuda companys · `B` bloquejat/da, necessita suport · `★` aportació excel·lent
 
+### 🎯 Radar dels invisibles (contra el biaix de visibilitat)
+
+Aquest instrument té un biaix conegut: **qui més crida l'atenció acumula més codis** (en positiu
+i en negatiu), i l'alumne mitjà i callat queda sense observar — que no és el mateix que anar bé.
+Antídot barat, **2 minuts per sessió**:
+
+1. Abans de començar, mireu la taula i marqueu els **3 alumnes amb menys codis acumulats** de la SA.
+2. Durant la sessió, **observeu-los deliberadament** un moment cadascun (què fa quan s'encalla,
+   com participa a l'equip) i poseu-los **almenys un codi cadascun**, el que sigui.
+3. En codocència, repartiu-vos els tres.
+
+**Regla de tancament:** no es posa nivell de SA a ningú amb **menys de 3 codis** — si algú hi
+arriba, és senyal que el radar ha fallat, no que l'alumne no hagi fet res.
+
 ### Notes generals de la sessió
 > (dinàmica del grup, incidències de màquines, qui necessita reforç la propera sessió...)

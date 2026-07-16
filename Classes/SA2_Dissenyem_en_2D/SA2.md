@@ -19,6 +19,12 @@ converteix en línies que la màquina pot tallar i gravar.
 
 > **Repte:** «Dissenya un **marcapàgines (o etiqueta)** personalitzat per a tu, un familiar o
 > per regalar, combinant tall i gravat, amb un missatge i una imatge vectoritzada.»
+>
+> ⭐ **Obertura del repte** (mateixa tècnica, més decisió pròpia): qui tingui clar **per a qui**
+> i **per a què**, pot proposar **un altre objecte pla i útil** de mida semblant (placa de
+> porta, penja-auriculars, cavallet de nom per a la taula…). El docent valida que es pugui
+> tallar, i **els criteris d'èxit són els mateixos**: la primera decisió de disseny real no cal
+> esperar-la fins a la SA3.
 
 ## 🎯 Pregunta guia
 > «Com converteixo una idea en un disseny vectorial que la làser pugui tallar i gravar?»
