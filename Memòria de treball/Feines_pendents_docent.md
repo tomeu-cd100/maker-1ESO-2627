@@ -122,6 +122,12 @@
   El recordatori setmana a setmana ja és al bloc «📋 En acabar» de cada setmana de tancament
   del `00_Diari_de_classe_docent.md` (setmanes 2, 5, 8, 13, 16, 20, 25, 28, 30 i 35).
 
+- [ ] **En obrir cada SA: importar la rúbrica i publicar la tasca «SAx · Lliurament»** — les
+  9 tasques (SA1-SA9) són en esborrany amb el Sheet adjunt i el pas d'importació a la
+  descripció; SA3/SA6/SA9 usen la **rúbrica combinada** (Classroom només n'admet una per
+  tasca). Mapa complet: `Avaluació/Informe_tasques_rubriques.md` i el material «📊 Rúbriques
+  del curs» del Classroom.
+
 - [ ] **En començar la SA3 (setmana 9): publicar el material «SA3 · Exemples visuals: objectes
   amb encaixos del banc de vectors»** — és en DRAFT al tema SA3 (6 imatges a la carpeta de
   Drive «Maker 1r ESO — Exemples làser SA3»; serveixen per a la presentació d'exemples de la
