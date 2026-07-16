@@ -149,6 +149,11 @@ procés.
 - Caixa amb encaix: `Recursos/Plantilles_disseny/generador_caixa_encaix.py` (+ exemple SVG).
 - Mostra d'encaix llesta per tallar: `Recursos/Plantilles_disseny/mostra_encaix_kerf_SA3.svg`
   (5 ranures de 2,6–3,4 mm: gruix real + mesura del kerf en 2 minuts de làser).
+- 🗂️ **Exemples visuals per a la sessió 1** (material de tercers, només al Classroom — no es
+  publica aquí): material «SA3 · Exemples visuals: objectes amb encaixos del banc de vectors»
+  al tema SA3 del Classroom (caixa gravada 3 mm, organitzadors, escacs encaixables, làmpada
+  amb calats ⭐ i demo de *box joint* per a la sessió 2). Originals al banc local del docent
+  («Vectores de Corte Laser»).
 
 ## 🧠 Metacognició i tiquet de sortida
 > ♻️ **Una sola reflexió per sessió:** la rutina o el tiquet **s'integren al diari** (ocupen
