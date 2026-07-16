@@ -90,7 +90,9 @@ escena 3D que es pot explorar amb les ulleres VR.
    seus guies, experiències de `Simulacions/Experiencies_VR_360.md`) · fitxa d'anàlisi crítica ·
    la mateixa experiència en pantalla · preparació d'arguments per al debat.
 
-3. **La VR al món real (20')**: debat sobre usos, beneficis, riscos i ètica (privadesa, addicció).
+3. **La VR al món real (20')**: debat sobre usos, beneficis, riscos i ètica (privadesa,
+   addicció). El debat **arrenca amb les notes benefici/risc que cadascú va apuntar a SA7-S1**:
+   no es comença de zero, es contrasta — i el temps que s'hi guanya va a la demo-construint.
 4. **El nostre tema (10')**: cada equip tria el tema de l'escena (museu, recorregut,
    mini-història) i reparteix tasques.
 

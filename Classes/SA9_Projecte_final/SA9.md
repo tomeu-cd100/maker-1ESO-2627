@@ -88,6 +88,12 @@ fabricació 2D/3D, contingut immersiu, comunicació, seguretat, sostenibilitat i
 > ⏸️ **Mínim d'avui**: **tema triat** (amb la prova del cotó del reús superada) + **pla de
 > projecte validat pel docent**, amb la signatura de peça de cada membre i el temps de màquina
 > al calendari. Un projecte de 5 sessions que surt de la S1 sense pla validat ja va tard.
+>
+> 📌 **Checkpoint del docent (avui mateix): graella via × equip.** Apunta quina via tria cada
+> equip — els criteris de tecnologia **només generen evidència a la via triada** (CA2.1/CA3.1
+> làser · CA2.2/CA3.2 3D · CA4.1 360; `Avaluació/Criteris_i_qualificacio.md` §4). Si a algú li
+> queda un criteri sense evidència de curs, cobreix-lo ara amb el **repàs acumulatiu T3** o un
+> repte express de la via — decidit avui, no a la setmana 34.
 
 ### Sessió 2 — Disseny i fabricació (2 h)
 1. **Disseny dels objectes (làser i/o 3D) (100')** repartit per l'equip; enviar a fabricar.

@@ -88,6 +88,7 @@ formar els grups**. **Res no es qualifica.**
 **📋 En acabar:** buidar l'avaluació 0 a la **graella C** → formar **grups A/B estables** i
 **equips heterogenis del T1** (equips sencers dins del mateix grup!) que s'estrenen a la SA1.
 Arxivar contractes.
+📲 **Publica el qüestionari de repàs SA0** al Classroom (és en DRAFT al tema SA0).
 **⚠️ Vigila:** la gimcana sense les escenes preparades es converteix en xerrada — és la feina
 prèvia més important de la setmana. I no cedeixis a «tocar una màquina, va»: genera precedent.
 
@@ -170,6 +171,7 @@ porta. Tothom se'n va a casa amb un objecte fet per ell/a.
 
 **📋 En acabar:** checklist de criteris d'èxit → **1a columna qualificada del full de progrés**
 (2-3 min/alumne) + segells del passaport + ratlletes de carnet al quadern digital.
+📲 **Publica el qüestionari de repàs SA1** al Classroom (DRAFT al tema SA1).
 **⚠️ Vigila:** el temps de màquina és la teva variable — si el batch s'allarga, retalla la
 galeria, mai el diari. Un alumne sense carnet **no opera**: ho recupera al torn següent.
 
@@ -233,6 +235,7 @@ imatges simples i d'alt contrast, o banc de plantilles.
 **⏹️ Tancament (15', conjunt):** galeria + **coavaluació** (ja calibrada) + diari.
 
 **📋 En acabar:** checklist → full de progrés; anota l'aprofitament de planxa observat (CA6.2).
+📲 **Publica el qüestionari de repàs SA2** al Classroom (DRAFT al tema SA2).
 **⚠️ Vigila:** si saltes el calibratge, la coavaluació mesura amistats — està escrit i passa.
 
 ---
@@ -335,7 +338,8 @@ presentació (el públic també s'avalua: CA5.3 en viu).
 **📋 En acabar (fites T1, la llista sencera és al final del guió):** **rúbrica completa +
 producte final + valoració T1** al full de progrés · **revisió d'equitat amb dades** (10' amb
 el co-docent) · retorn del tiquet al grup a la setmana 14 («ens heu dit X, farem Y») ·
-re-formar equips · línia per sessió a la bitàcola + temps reals de màquina.
+re-formar equips · línia per sessió a la bitàcola + temps reals de màquina · 📲 **publica el
+qüestionari de repàs SA3** al Classroom (l'acumulatiu T1 ja l'has publicat abans de la Fira).
 **⚠️ Vigila:** és la sessió més densa del trimestre: sense temporitzador, el tancament
 desapareix. I amb famílies dins, l'aforament de l'aula Maker és tan normatiu com sempre.
 
@@ -395,6 +399,7 @@ d'alineació, evita el «a ull».
 
 **📋 En acabar:** STL amb noms a Drive → checklist → full de progrés. **Programa les plaques
 restants fora d'horari**: tothom ha de tenir la seva peça abans de la setmana 17.
+📲 **Publica el qüestionari de repàs SA4** al Classroom (DRAFT al tema SA4).
 **⚠️ Vigila:** el que exporta sense agrupar (STL buit o a trossos) i el que fa un drac de 12 cm.
 El límit és el filtre, no tu.
 
@@ -469,6 +474,7 @@ d'anàlisi d'errors feta. Tingues-ne el reflex.
 **⏹️ Tancament (15', conjunt):** **galeria** de peces útils + coavaluació + tiquet de sortida.
 
 **📋 En acabar:** checklist + fitxa tècnica → full de progrés.
+📲 **Publica el qüestionari de repàs SA5** al Classroom (DRAFT al tema SA5).
 **⚠️ Vigila:** «funciona» ho decideix la necessitat, no l'estètica — una peça bonica que no
 aguanta el mòbil és una iteració pendent, i dir-ho així és Gran Idea 4.
 
@@ -572,7 +578,8 @@ Classroom): la mini-lliga de la setmana de Fira.
 
 **📋 En acabar (fites T2):** rúbrica completa + valoració T2 al progrés · revisió d'equitat amb
 dades (10' amb el co-docent) · re-formar equips T3 · retorn del tiquet a la setmana 26 ·
-intercanvi d'estacions amb el co-docent pendent? (si no s'ha fet al T2, planifica'l al T3).
+intercanvi d'estacions amb el co-docent pendent? (si no s'ha fet al T2, planifica'l al T3) ·
+📲 **publica el qüestionari de repàs SA6** al Classroom.
 **⚠️ Vigila:** és la sessió més densa del curs. El que no hi capiga té lloc natural a
 l'obertura de la setmana 26 — però la rúbrica i el portafoli surten d'avui.
 
@@ -637,6 +644,11 @@ té una repetició al següent forat de torn — per això el full de reserva t�
 **📋 En acabar:** checklist → progrés. **El tour ha arribat a l'audiència real?** Si l'audiència
 anunciada no el rep mai, la lliçó apresa és que era ficció retòrica (SA7 §S3) — programa
 l'enviament/QR avui mateix.
+📲 **Publica el qüestionari de repàs SA7** al Classroom.
+📍 **Punt de decisió de calendari:** amb SA7 tancada queden 7 setmanes justes (SA8 + SA9 + Fira).
+Si portes **≥1 setmana de retard acumulat**, activa la vàlvula **avui** — fusionar les 2 sessions
+de SA8 o comprimir SA9 (`Programació didàctica/Temporitzacio_anual.md`); decidir-ho a la
+setmana 33 ja no salva la Fira.
 **⚠️ Vigila:** la publicació no és decorativa: és criteri d'èxit de la SA. I només tu la pots
 fer real.
 
@@ -680,6 +692,7 @@ exprés: objectes, càmera, «play») + objectius del dia per equips.
 
 **📋 En acabar:** checklist → progrés. Si el calendari va folgat, apunta la **sessió ⭐
 d'ampliació** de SA8 com a candidata (és el marge del 3r trimestre; ja no hi ha coixí de juny).
+📲 **Publica el qüestionari de repàs SA8** al Classroom.
 **⚠️ Vigila:** l'equip que vol «un món sencer» i no acaba res: el mínim del dia és la Gran
 Idea 2 aplicada — retalla ambició, no acabat.
 
@@ -783,7 +796,8 @@ tanca.
 full de progrés (per trajectòria, fila a fila) · revisió d'equitat final · 🏆 error del
 trimestre · tiquet anònim · **memòria final de curs**
 (`Memòria de treball/Plantilla_memoria_final_curs.md`): temps reals vs previstos, què canvio del
-material, inventari. Arxivar la llista de feines i regenerar-la per al 27-28.
+material, inventari. Arxivar la llista de feines i regenerar-la per al 27-28 · 📲 **publica el
+qüestionari de repàs SA9** (tanca la col·lecció; l'acumulatiu T3 ja és fora des d'abans de la Fira).
 **⚠️ Vigila:** l'aforament de l'aula Maker és **normatiu** també amb famílies dins. El rol de
 controlador és una responsabilitat real i avaluable — tria bé qui el fa i digues-li per què.
 **📅 Sense coixí de juny:** la SA0 de 2 setmanes n'ha consumit el marge. Si s'ha perdut alguna

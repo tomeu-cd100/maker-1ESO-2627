@@ -102,6 +102,12 @@ una eina senzilla i potent. Descobrirem com combinar cossos i com els "forats" r
 
 > ⏸️ **Mínim d'avui**: 3 cossos + 1 forat, agrupats i exportats — el nom en relleu i els
 > detalls extres són ampliació. Amb el mínim exportat, la peça entra al batch de placa.
+>
+> 🔗 **Pont a SA5** (per a qui acaba abans, o com a deure voluntari): repte express «llegeix el
+> laminador» — obre un STL a Bambu Studio, lamina'l amb **2 perfils diferents** i apunta al
+> diari **temps i grams** de cadascun. El salt de SA4 a SA5 és el més gran del curs (de modelar
+> a tot el flux disseny→laminat→impressió): qui ha fet el pont arriba a SA5 amb el laminador
+> ja vist.
 
 ## 5. Producte final
 Model 3D propi exportat en STL i imprès dins el **batch de placa** del grup (a classe o fora

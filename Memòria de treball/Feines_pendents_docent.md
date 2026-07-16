@@ -70,6 +70,10 @@
 
 - [ ] Comptes de classe: **Tinkercad** i **CoSpaces Edu**; XCS i Bambu Studio actualitzats.
 
+- [ ] **Completar els enllaços del centre** a `Recursos/00_Index_recursos.md` (model de càmera
+  360, comptes Tinkercad/CoSpaces, canals de tutorials del centre) — la web els mostra com a
+  camps buits fins que hi siguin.
+
 ## 📋 Paperassa i coordinació (abans de setembre)
 
 - [ ] **Verificar la política d'edat vigent de Meta Quest 3** i omplir la **fitxa de
@@ -115,6 +119,13 @@
 - [ ] **En tancar cada SA: publicar el seu qüestionari de repàs** — són al Classroom en
   **esborrany** (SA0–SA9, tema de cada SA) perquè l'alumnat no vegi qüestionaris de SA
   futures. No qualifica i es pot repetir (`Avaluació/Instruments_formatius.md` §«qüestionari»).
+  El recordatori setmana a setmana ja és al bloc «📋 En acabar» de cada setmana de tancament
+  del `00_Diari_de_classe_docent.md` (setmanes 2, 5, 8, 13, 16, 20, 25, 28, 30 i 35).
+
+- [ ] **En començar la SA3 (setmana 9): publicar el material «SA3 · Exemples visuals: objectes
+  amb encaixos del banc de vectors»** — és en DRAFT al tema SA3 (6 imatges a la carpeta de
+  Drive «Maker 1r ESO — Exemples làser SA3»; serveixen per a la presentació d'exemples de la
+  sessió 1).
 
 - [ ] **Repàs espaiat: en obrir cada SA, reobrir el qüestionari de 2 SA enrere** (SA3 obre el
   de SA1, SA4 el de SA2…) — 5' del feed-forward. A les setmanes de Fira, mini-lliga

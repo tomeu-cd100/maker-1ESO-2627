@@ -73,6 +73,9 @@ a alumnat nou de 6è de primària…).
 
 ### Sessió 1 — Què és el 360? (2 h)
 1. **Immersió (20')**: visualització d'exemples 360/tours; què el fa diferent del vídeo normal.
+   Mentre es mira, cada alumne/a apunta al diari **1 benefici i 1 risc** del contingut immersiu
+   (rutina *Veig – Penso – Em pregunto*): aquestes notes **escalfen el debat crític de SA8** —
+   no es llencen.
 2. **La càmera 360 (40')**: parts, com es captura — la foto ho capta **TOT al voltant**, no hi
    ha «fora de pla» (per això el fotògraf s'ha d'amagar!); com es veu això en un rectangle és la
    **projecció equirectangular** (l'esfera desplegada — mireu-ne una i ho entendreu de cop);
@@ -83,6 +86,10 @@ a alumnat nou de 6è de primària…).
 3. **Ètica i privadesa (20')**: drets d'imatge; demanar permís; espais a evitar.
 4. **Planificació del tour (30')**: triar espais, ordre, punts de captura. Repartiment de rols.
 5. **Diari (10')**.
+
+> ⏸️ **Mínim d'avui**: **pla del tour validat** pel docent (espais triats + ordre + rols
+> repartits) i el parell **benefici/risc apuntat al diari** — sense pla escrit, cap equip surt
+> a capturar a la sessió 2.
 
 ### Sessió 2 — Captura al centre (2 h)
 1. **Preparació (15')**: rutes i responsabilitats per equips; **full de reserva de torns** de
@@ -127,6 +134,10 @@ a alumnat nou de 6è de primària…).
    regles: temps, mareig, higiene, guia) — és el primer ús real de VR del curs.
 
 4. **Avaluació i galeria (20')**: coavaluació + diari de taller.
+
+> ⏸️ **Mínim d'avui**: tour amb **2 escenes enllaçades i amb títol**, **revisat de drets
+> d'imatge** — la publicació real (web del centre/QR) pot esperar la coordinació TIC; la
+> revisió de drets, no.
 
 ## 5. Producte final
 Tour virtual del centre (navegable) **publicat per a l'audiència real** (web/QR, jornada de

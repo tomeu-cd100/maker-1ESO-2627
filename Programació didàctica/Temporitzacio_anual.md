@@ -79,6 +79,12 @@
   Si el calendari del centre ho permet, val la pena **guanyar una setmana** (36 en total) per
   recuperar el coixí de juny.
 
+- 📍 **Punt de decisió — setmana 28** (en tancar SA7): mireu el retard acumulat. Amb **≥1
+  setmana perduda**, activeu la vàlvula **llavors mateix** (fusionar les 2 sessions de SA8 o
+  comprimir SA9) i reprogrameu la resta del trimestre; esperar al maig converteix la vàlvula en
+  retallada d'aprenentatge feta amb presses. El recordatori operatiu és al guió de la setmana
+  28 del `00_Diari_de_classe_docent.md`.
+
 - 💻 **Les 3 primeres setmanes, l'alumnat no té ordinador** (repartiment de Chromebooks a
   partir de la setmana 4): el curs hi està dissenyat a sobre — la SA0 (setmanes 1-2) és 100 %
   analògica i la sessió 1 de la SA1 (setmana 3) és **paper + demo de màquina** (l'esbós a mida

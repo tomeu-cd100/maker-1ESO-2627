@@ -76,6 +76,9 @@ temps de fer-se bé (sense córrer).
 
 6. **Tancament (5')**: acabar la primera entrada del diari.
 
+> ⏸️ **Mínim d'avui**: **primera entrada del diari feta** i **passaport amb el nom posat** —
+> són les dues rutines que duren tot el curs, i avui només cal estrenar-les.
+
 ### Sessió 2 (2 h) — Seguretat i diagnòstic
 
 1. **Represa i grups aleatoris (10')**: repàs llampec del taller i les zones; es fan **grups
@@ -90,6 +93,10 @@ temps de fer-se bé (sense córrer).
    (`Avaluació/Avaluacio_inicial.md`). **Sense nota**: serveix per formar equips i personalitzar.
 
 4. **Tancament (15')**: entrada del diari de la sessió i tancament de la SA0.
+
+> ⏸️ **Mínim d'avui**: **contracte d'aula signat** i **avaluació 0 lliurada** (oralment amb el
+> docent si cal) — sense contracte no es comença la SA1, i sense avaluació 0 el docent no pot
+> formar els equips.
 
 ## 3. Atenció a la diversitat (DUA)
 - La sessió és **oral, visual i en moviment** (gimcana): cap barrera de lectoescriptura.

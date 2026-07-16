@@ -116,6 +116,10 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
 
 2. **Impressió i treball paral·lel (90')**: seguiment + millora del disseny + reptes.
 
+> ⏸️ **Mínim d'avui**: les peces de l'equip **laminades i a la cua** (targeta de kanban feta) i
+> el **temps/grams de cada placa anotats al diari** — l'equip que no entra a la cua avui es
+> queda sense peça per a la prova amb l'usuari de la sessió 4.
+
 ### Sessió 4 — Muntatge, proves i iteració (2 h)
 1. **Postprocés i muntatge (60')**.
 2. **Proves amb l'usuari (40')**: provar la solució; recollir *feedback*; iterar.
@@ -125,13 +129,23 @@ un joc. És un projecte complet que combina empatia, disseny, fabricació i comu
    > reimpressió de la millora va a la **cua fora d'horari**, no cal fer-la a classe.
 3. **Preparar presentació (20')**.
 
+> ⏸️ **Mínim d'avui**: solució **muntada** i ***feedback* de l'usuari recollit** (presencial o
+> delegat) amb **una millora anotada** — és la fila CA1.4/TA de la rúbrica; la presentació es
+> pols a la Fira.
+
 ### Sessió 5 — 🎪 Fira de mostres del T2 (2 h)
 1. **Fira de solucions (60')**: cada equip presenta el repte, la solució i l'impacte —
    **oberta a les famílies** (segona Fira trimestral; si l'usuari real pot venir, presentar
    davant seu és l'evidència d'impacte més potent).
 
 2. **Coavaluació (30')**.
-3. **Tancament T2 (30')**: portafoli, autoavaluació, recollida.
+3. **Tancament T2 (30')**: portafoli, autoavaluació, recollida. **Dins d'aquest bloc, els 5'
+   que salven el portafoli final** (com a la Fira T1): cada alumne fa **foto del seu producte i
+   de la millor pàgina del diari** i la puja a `Portafoli/` del Drive abans de lliurar el quadern.
+
+> ⏸️ **Mínim d'avui**: presentació feta (🅱️ amb la solució inacabada: prototip + *feedback* de
+> l'usuari + què falta i per què — el procés també és producte) i **foto del producte i del
+> diari pujada a `Portafoli/`**: sense això, al juny no queda evidència del T2 per a la SA9.
 
 ## 5. Producte final
 Solució 3D funcional al repte triat + evidència de proves amb l'usuari + presentació i portafoli.
