@@ -104,15 +104,15 @@ ALUMNAT_SPACE: set[str] = set()
 
 
 def build_alumnat_space() -> None:
-	"""Omple ALUMNAT_SPACE: totes les Fitxa_alumnat.md + tots els ALUMNAT_LINKS."""
-	ALUMNAT_SPACE.clear()
-	for rel in PATH_MAP:
-		if "%20" in rel:
-			continue
-		if rel.rsplit("/", 1)[-1] == "Fitxa_alumnat.md":
-			ALUMNAT_SPACE.add(rel)
-	for _icon, _title, rel, _desc in ALUMNAT_LINKS:
-		ALUMNAT_SPACE.add(rel)
+    """Omple ALUMNAT_SPACE: totes les Fitxa_alumnat.md + tots els ALUMNAT_LINKS."""
+    ALUMNAT_SPACE.clear()
+    for rel in PATH_MAP:
+        if "%20" in rel:
+            continue
+        if rel.rsplit("/", 1)[-1] == "Fitxa_alumnat.md":
+            ALUMNAT_SPACE.add(rel)
+    for _icon, _title, rel, _desc in ALUMNAT_LINKS:
+        ALUMNAT_SPACE.add(rel)
 
 
 DOCENT_DESTACATS = [
