@@ -534,11 +534,11 @@ def sa_context_bar(folder: str, current_base: str) -> str:
             f'{step_nav(folder, current_base)}')
 
 
-def sa_cards(prefix: str) -> str:
+def sa_cards(prefix: str, base: str = "classes/") -> str:
     """Graella de targetes de SA que porten al hub (compartida per portada i índex de Classes)."""
     return "\n".join(
         f'<a class="card sa" data-trim="{trim_num(trim)}" '
-        f'href="{prefix}classes/{slugify(folder)}/index.html">'
+        f'href="{prefix}{base}{slugify(folder)}/index.html">'
         f'<div class="card-icon">{product.split()[0]}</div>'
         f'<div><h3>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h3>'
         f'<p>{html.escape(product.split(" ", 1)[1])}</p></div></a>'
@@ -851,6 +851,31 @@ q.addEventListener('input',()=>{clearTimeout(q._d);q._d=setTimeout(cerca,250);})
                     [("Inici", "index.html"), ("Cerca", None)]), encoding="utf-8")
 
 
+def build_alumnat_home() -> None:
+    """Selector de SA de l'alumnat + documents transversals del curs."""
+    out_rel = "alumnat/index.html"
+    sa_grid = sa_cards("", base="alumnat/classes/")
+    # els documents transversals viuen sota alumnat/ (Task 6 els hi genera); aquí ja
+    # apuntem a la seva ruta final dins alumnat/
+    docs = "\n".join(
+        card(f"alumnat/{PATH_MAP[rel]}", icon, t, d)
+        for icon, t, rel, d in ALUMNAT_LINKS
+    )
+    body = f"""
+<h1>🧑‍🎓 Quina SA esteu fent ara?</h1>
+<p class="lead">Tria la teva SA per obrir-ne la fitxa. Si un altre dia vols
+tornar-hi, aquesta pàgina et recordarà quina és — sempre pots canviar-la amb
+el botó «🔁 Canviar de SA» de dalt.</p>
+<div class="grid">{sa_grid}</div>
+<h2>Documents del curs</h2>
+<div class="grid">{docs}</div>
+"""
+    (OUT / "alumnat").mkdir(parents=True, exist_ok=True)
+    (OUT / out_rel).write_text(
+        render_page("Alumnat", body, out_rel, [("Alumnat", None)], space="alumnat"),
+        encoding="utf-8")
+
+
 def copy_assets():
     plant = ROOT / "Recursos" / "Plantilles_disseny"
     if plant.is_dir():
@@ -892,6 +917,7 @@ def main():
     build_sa_hubs()
     build_section_indexes(pages)
     build_home(pages)
+    build_alumnat_home()
     copy_assets()
     print(f"Web generada a {OUT} — {len(pages)} pàgines de contingut.")
 
