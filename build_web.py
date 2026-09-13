@@ -118,6 +118,9 @@ def build_alumnat_space() -> None:
             ALUMNAT_SPACE.add(rel)
     for _icon, _title, rel, _desc in ALUMNAT_LINKS:
         ALUMNAT_SPACE.add(rel)
+    for extra in ("Reptes/Reptes_3D.md", "Reptes/Reptes_express_2D.md",
+                  "Reptes/Reptes_immersius_360_VR.md", "Normativa/Carnet_de_maquina.md"):
+        ALUMNAT_SPACE.add(extra)
 
 
 DOCENT_DESTACATS = [
@@ -308,15 +311,15 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
         nav_links = (
             f'<a href="{prefix}alumnat/index.html">Inici</a>'
             f'<a href="{prefix}alumnat/cerca.html" title="Cerca">🔍</a>'
-            f'<span class="sa-actual-chip"><a id="sa-actual-link" href="#">📍 <span id="sa-actual-label">…</span></a>'
+            f'<span class="sa-actual-chip"><a id="sa-actual-link" href="#" aria-label="SA actual">📍 <span id="sa-actual-label">…</span></a>'
             f'<a class="sa-canvia" href="{prefix}alumnat/index.html">🔁 Canviar de SA</a></span>'
         )
         space_script = f"""// xip "SA actual" (només a l'espai alumnat)
 const saLbl=el('sa-actual-label'), saLink=el('sa-actual-link');
 if(saLbl){{
   const cur=LS.getItem('sa_actual');
-  if(cur){{saLbl.textContent=cur;saLink.href='{prefix}alumnat/classes/'+cur+'/index.html';}}
-  else{{saLink.parentElement.style.display='none';}}
+  if(cur){{const codi=LS.getItem('sa_actual_codi')||cur;saLbl.textContent=codi;saLink.href='{prefix}alumnat/classes/'+cur+'/index.html';}}
+  else{{saLink.style.display='none';}}
 }}
 """
     else:
@@ -640,7 +643,7 @@ def build_sa_hub_alumnat(code, name, trim, product, folder):
 {primary}
 {sa_printables_html(folder, depth=3)}
 <footer class="sa-foot">{step_nav(folder, "index.html", sequence=ALUMNAT_SEQUENCE, seq_index=ALUMNAT_SEQ_INDEX)}</footer>
-<script>try{{localStorage.setItem('sa_actual','{slug}')}}catch(e){{}}</script>
+<script>try{{localStorage.setItem('sa_actual','{slug}');localStorage.setItem('sa_actual_codi','{code}')}}catch(e){{}}</script>
 """
     crumb = [("Alumnat", "alumnat/index.html"), (f"{code} · {name}" if len(f"{code} · {name}") < 60 else code, None)]
     (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
@@ -742,7 +745,7 @@ def card(href: str, icon: str, title: str, desc: str, badge: str = "") -> str:
 
 
 def build_search_page(out_rel: str, crumb: list[tuple[str, str | None]], space: str) -> None:
-    filter_js = "" if space == "full" else ".filter(p=>p.sp==='alumnat')"
+    filter_js = f".filter(p=>p.sp==='{space}')"
     body = f"""
 <h1>🔍 Cerca al material</h1>
 <p class="lead">Cerca per paraula: «kerf», «tolerància», «carnet», «rúbrica SA5»…</p>
@@ -943,7 +946,7 @@ esperem!</p></blockquote>
     (OUT / "assets" / "cerca-index.json").write_text(
         json.dumps(SEARCH_INDEX, ensure_ascii=False), encoding="utf-8")
     build_search_page("cerca.html", [("Inici", "index.html"), ("Cerca", None)], space="full")
-    build_search_page("alumnat/cerca.html", [("Alumnat", "index.html"), ("Cerca", None)], space="alumnat")
+    build_search_page("alumnat/cerca.html", [("Alumnat", "alumnat/index.html"), ("Cerca", None)], space="alumnat")
 
 
 def build_alumnat_home() -> None:
