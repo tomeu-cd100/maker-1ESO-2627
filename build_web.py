@@ -279,12 +279,40 @@ def checkboxify(html_text: str, page_key: str) -> str:
     return html_text
 
 
-def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str | None]]) -> str:
+def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str | None]],
+                 space: str = "full") -> str:
     prefix = rel_prefix(out_rel)
     crumb_html = " <span class=\"sep\">›</span> ".join(
         f'<a href="{prefix}{href}">{html.escape(text)}</a>' if href else f"<span>{html.escape(text)}</span>"
         for text, href in crumb
     )
+    if space == "alumnat":
+        brand_href = f"{prefix}alumnat/index.html"
+        nav_links = (
+            f'<a href="{prefix}alumnat/index.html">Inici</a>'
+            f'<a href="{prefix}alumnat/cerca.html" title="Cerca">🔍</a>'
+            f'<span class="sa-actual-chip"><a id="sa-actual-link" href="#">📍 <span id="sa-actual-label">…</span></a>'
+            f'<a class="sa-canvia" href="{prefix}alumnat/index.html">🔁 Canviar de SA</a></span>'
+        )
+        space_script = f"""// xip "SA actual" (només a l'espai alumnat)
+const saLbl=el('sa-actual-label'), saLink=el('sa-actual-link');
+if(saLbl){{
+  const cur=LS.getItem('sa_actual');
+  if(cur){{saLbl.textContent=cur;saLink.href='{prefix}alumnat/classes/'+cur+'/index.html';}}
+  else{{saLink.parentElement.style.display='none';}}
+}}
+"""
+    else:
+        brand_href = f"{prefix}index.html"
+        nav_links = (
+            f'<a href="{prefix}index.html">Inici</a>'
+            f'<a href="{prefix}sa.html">Les 9 SA</a>'
+            f'<a href="{prefix}docent.html">Docent</a>'
+            f'<a href="{prefix}alumnat.html">Alumnat</a>'
+            f'<a href="{prefix}families.html">Famílies</a>'
+            f'<a href="{prefix}cerca.html" title="Cerca">🔍</a>'
+        )
+        space_script = ""
     return f"""<!DOCTYPE html>
 <html lang="ca">
 <head>
@@ -297,14 +325,9 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
 <body>
 <a class="skip" href="#contingut">Salta al contingut ↓</a>
 <header class="site-header">
-  <a class="brand" href="{prefix}index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <a class="brand" href="{brand_href}">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
   <nav>
-    <a href="{prefix}index.html">Inici</a>
-    <a href="{prefix}sa.html">Les 9 SA</a>
-    <a href="{prefix}docent.html">Docent</a>
-    <a href="{prefix}alumnat.html">Alumnat</a>
-    <a href="{prefix}families.html">Famílies</a>
-    <a href="{prefix}cerca.html" title="Cerca">🔍</a>
+    {nav_links}
     <span class="a11y" role="group" aria-label="Ajustos de lectura">
       <button id="fmenys" title="Lletra més petita" aria-label="Lletra més petita">A−</button>
       <button id="fmes" title="Lletra més gran" aria-label="Lletra més gran">A+</button>
@@ -385,7 +408,7 @@ crell.onclick=()=>cp.classList.toggle('open');
 cstart.onclick=()=>{{
 if(LS.getItem('clock_end')){{LS.removeItem('clock_end');clearInterval(clockTimer);clockTimer=null;
 cstart.textContent='▶️ Inicia';return;}}
-const m=/^(\d+):(\d+)$/.exec(ctime.textContent);
+const m=/^(\\d+):(\\d+)$/.exec(ctime.textContent);
 const remain=m?(+m[1])*60+(+m[2]):DUR;
 LS.setItem('clock_end',Date.now()+remain*1000);
 cstart.textContent='⏸ Pausa';
@@ -394,6 +417,7 @@ clockTimer=setInterval(clockRender,1000);
 creset.onclick=()=>{{clearInterval(clockTimer);clockTimer=null;LS.removeItem('clock_end');
 cstart.textContent='▶️ Inicia';ctime.textContent='50:00';cp.classList.remove('warn');}};
 if(LS.getItem('clock_end')){{cstart.textContent='⏸ Pausa';clockTimer=setInterval(clockRender,1000);clockRender();}}
+{space_script}
 </script>
 </body>
 </html>
