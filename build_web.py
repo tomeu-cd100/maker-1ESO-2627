@@ -307,7 +307,7 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
         brand_href = f"{prefix}alumnat/index.html"
         nav_links = (
             f'<a href="{prefix}alumnat/index.html">Inici</a>'
-            f'<a href="{prefix}cerca.html" title="Cerca">🔍</a>'
+            f'<a href="{prefix}alumnat/cerca.html" title="Cerca">🔍</a>'
             f'<span class="sa-actual-chip"><a id="sa-actual-link" href="#">📍 <span id="sa-actual-label">…</span></a>'
             f'<a class="sa-canvia" href="{prefix}alumnat/index.html">🔁 Canviar de SA</a></span>'
         )
@@ -741,6 +741,49 @@ def card(href: str, icon: str, title: str, desc: str, badge: str = "") -> str:
             f'<div><h3>{html.escape(title)} {b}</h3><p>{html.escape(desc)}</p></div></a>')
 
 
+def build_search_page(out_rel: str, crumb: list[tuple[str, str | None]], space: str) -> None:
+    filter_js = "" if space == "full" else ".filter(p=>p.sp==='alumnat')"
+    body = f"""
+<h1>🔍 Cerca al material</h1>
+<p class="lead">Cerca per paraula: «kerf», «tolerància», «carnet», «rúbrica SA5»…</p>
+<p><input id="q" type="search" placeholder="Escriu i prem Enter…" autofocus
+   style="width:100%;padding:.8rem 1.2rem;font-size:1.1rem;border-radius:999px;
+          border:2px solid var(--line);background:var(--bg-card);color:var(--ink)"></p>
+<div id="res"></div>
+<script>
+let IDX=null;
+const q=document.getElementById('q'), res=document.getElementById('res');
+async function cerca(){{
+  if(!IDX) IDX=(await (await fetch('{rel_prefix(out_rel)}assets/cerca-index.json')).json()){filter_js};
+  const terms=q.value.toLowerCase().split(/\\s+/).filter(t=>t.length>1);
+  if(!terms.length){{res.innerHTML='';return;}}
+  const out=[];
+  for(const p of IDX){{
+    const hay=(p.t+' '+p.x).toLowerCase();
+    let score=0, ok=true;
+    for(const t of terms){{
+      const n=hay.split(t).length-1;
+      if(!n){{ok=false;break;}}
+      score+=n+(p.t.toLowerCase().includes(t)?8:0);
+    }}
+    if(ok) out.push([score,p,terms[0]]);
+  }}
+  out.sort((a,b)=>b[0]-a[0]);
+  res.innerHTML=out.slice(0,25).map(([s,p,t])=>{{
+    const i=p.x.toLowerCase().indexOf(t);
+    const frag=i<0?p.x.slice(0,160):p.x.slice(Math.max(0,i-70),i+110);
+    return `<a class="card" href="{rel_prefix(out_rel)}${{p.u}}"><div class="card-icon">📄</div>
+      <div><h3>${{p.t}} <span class="badge">${{p.s}}</span></h3><p>…${{frag}}…</p></div></a>`;
+  }}).join('')||'<p>Cap resultat. Prova una paraula més curta o sense accents.</p>';
+}}
+q.addEventListener('input',()=>{{clearTimeout(q._d);q._d=setTimeout(cerca,250);}});
+</script>
+"""
+    (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
+    (OUT / out_rel).write_text(render_page("Cerca", body, out_rel, crumb, space=space),
+                                encoding="utf-8")
+
+
 def build_section_indexes(pages):
     for section in SECTIONS:
         entries = [(rel, t) for rel, (t, _o) in pages.items()
@@ -926,45 +969,8 @@ esperem!</p></blockquote>
     import json
     (OUT / "assets" / "cerca-index.json").write_text(
         json.dumps(SEARCH_INDEX, ensure_ascii=False), encoding="utf-8")
-    body = """
-<h1>🔍 Cerca al material</h1>
-<p class="lead">Cerca per paraula: «kerf», «tolerància», «carnet», «rúbrica SA5»…</p>
-<p><input id="q" type="search" placeholder="Escriu i prem Enter…" autofocus
-   style="width:100%;padding:.8rem 1.2rem;font-size:1.1rem;border-radius:999px;
-          border:2px solid var(--line);background:var(--bg-card);color:var(--ink)"></p>
-<div id="res"></div>
-<script>
-let IDX=null;
-const q=document.getElementById('q'), res=document.getElementById('res');
-async function cerca(){
-  if(!IDX) IDX=await (await fetch('assets/cerca-index.json')).json();
-  const terms=q.value.toLowerCase().split(/\\s+/).filter(t=>t.length>1);
-  if(!terms.length){res.innerHTML='';return;}
-  const out=[];
-  for(const p of IDX){
-    const hay=(p.t+' '+p.x).toLowerCase();
-    let score=0, ok=true;
-    for(const t of terms){
-      const n=hay.split(t).length-1;
-      if(!n){ok=false;break;}
-      score+=n+(p.t.toLowerCase().includes(t)?8:0);
-    }
-    if(ok) out.push([score,p,terms[0]]);
-  }
-  out.sort((a,b)=>b[0]-a[0]);
-  res.innerHTML=out.slice(0,25).map(([s,p,t])=>{
-    const i=p.x.toLowerCase().indexOf(t);
-    const frag=i<0?p.x.slice(0,160):p.x.slice(Math.max(0,i-70),i+110);
-    return `<a class="card" href="${p.u}"><div class="card-icon">📄</div>
-      <div><h3>${p.t} <span class="badge">${p.s}</span></h3><p>…${frag}…</p></div></a>`;
-  }).join('')||'<p>Cap resultat. Prova una paraula més curta o sense accents.</p>';
-}
-q.addEventListener('input',()=>{clearTimeout(q._d);q._d=setTimeout(cerca,250);});
-</script>
-"""
-    (OUT / "cerca.html").write_text(
-        render_page("Cerca", body, "cerca.html",
-                    [("Inici", "index.html"), ("Cerca", None)]), encoding="utf-8")
+    build_search_page("cerca.html", [("Inici", "index.html"), ("Cerca", None)], space="full")
+    build_search_page("alumnat/cerca.html", [("Alumnat", "index.html"), ("Cerca", None)], space="alumnat")
 
 
 def build_alumnat_home() -> None:
