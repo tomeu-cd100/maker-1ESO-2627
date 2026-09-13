@@ -854,11 +854,11 @@ q.addEventListener('input',()=>{clearTimeout(q._d);q._d=setTimeout(cerca,250);})
 def build_alumnat_home() -> None:
     """Selector de SA de l'alumnat + documents transversals del curs."""
     out_rel = "alumnat/index.html"
-    sa_grid = sa_cards("", base="alumnat/classes/")
+    sa_grid = sa_cards("", base="classes/")
     # els documents transversals viuen sota alumnat/ (Task 6 els hi genera); aquí ja
     # apuntem a la seva ruta final dins alumnat/
     docs = "\n".join(
-        card(f"alumnat/{PATH_MAP[rel]}", icon, t, d)
+        card(f"{PATH_MAP[rel]}", icon, t, d)
         for icon, t, rel, d in ALUMNAT_LINKS
     )
     body = f"""
