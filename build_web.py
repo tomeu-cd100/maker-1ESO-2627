@@ -325,7 +325,7 @@ if(saLbl){{
             f'<a href="{prefix}index.html">Inici</a>'
             f'<a href="{prefix}sa.html">Les 9 SA</a>'
             f'<a href="{prefix}docent.html">Docent</a>'
-            f'<a href="{prefix}alumnat.html">Alumnat</a>'
+            f'<a href="{prefix}alumnat/index.html">Alumnat</a>'
             f'<a href="{prefix}families.html">Famílies</a>'
             f'<a href="{prefix}cerca.html" title="Cerca">🔍</a>'
         )
@@ -821,7 +821,7 @@ def build_home(pages):
   <div class="hero-actions">
     <a class="btn btn-primary" href="sa.html">🧩 Les 9 SA</a>
     <a class="btn" href="docent.html">👩‍🏫 Soc docent</a>
-    <a class="btn" href="alumnat.html">🧑‍🎓 Soc alumne/a</a>
+    <a class="btn" href="alumnat/index.html">🧑‍🎓 Soc alumne/a</a>
     <a class="btn" href="families.html">👨‍👩‍👧 Soc família</a>
   </div>
 </section>
@@ -841,33 +841,6 @@ def build_home(pages):
 """
     (OUT / "index.html").write_text(
         render_page("Inici", body, "index.html", [("Inici", None)]), encoding="utf-8")
-
-    # Alumnat
-    cards = "\n".join(card(PATH_MAP[rel], icon, t, d) for icon, t, rel, d in ALUMNAT_LINKS)
-    fitxes = "\n".join(
-        f'<a class="chip" href="classes/{slugify(folder)}/index.html">{code}</a>'
-        for code, _n, _t, _p, folder in SA_CARDS)
-    body = f"""
-<h1>🧑‍🎓 Per a l'alumnat</h1>
-<p class="lead">Tot el que fas servir tu: les fitxes de cada repte, com t'avaluaran
-(sense sorpreses!) i el joc de carnets i insígnies.</p>
-<blockquote><p><strong>Com fer servir aquesta web (3 passos):</strong>
-1️⃣ Mira <a href="00_diari_de_classe_alumnat.html">què toca aquesta setmana</a> ·
-2️⃣ Obre la <strong>fitxa de la SA</strong> que estem fent (aquí sota) ·
-3️⃣ Si no entens una paraula, busca-la al
-<a href="classes/sa0_punt_de_partida/vocabulari_basic.html">vocabulari</a>.</p>
-<p>💡 <strong>Fes-te la web teva</strong> amb els botons de dalt: <strong>A−/A+</strong> per la
-mida de la lletra, <strong>Aa↔</strong> per llegir amb més espai (va molt bé si les lletres
-«es mouen»), <strong>🔊</strong> perquè la pàgina es llegeixi sola en veu alta i <strong>🌗</strong>
-pel mode fosc. La web ho recorda per al pròxim dia.</p></blockquote>
-<h2>✏️ Les fitxes de cada SA</h2>
-<div class="chips">{fitxes}</div>
-<h2>Els teus documents</h2>
-<div class="grid">{cards}</div>
-"""
-    (OUT / "alumnat.html").write_text(
-        render_page("Alumnat", body, "alumnat.html",
-                    [("Inici", "index.html"), ("Alumnat", None)]), encoding="utf-8")
 
     # Docent
     dest = "\n".join(card(PATH_MAP[rel], icon, t, d) for icon, t, rel, d in DOCENT_DESTACATS)
