@@ -97,6 +97,24 @@ ALUMNAT_LINKS = [
     ("🏛️", "El Museu dels Errors", "Programació didàctica/Museu_dels_errors.md", "Aquí els errors valen punts si n'aprenem"),
 ]
 
+# ALUMNAT_SPACE es calcula més avall, un cop existeix PATH_MAP (necessita conèixer
+# totes les fitxes reals). Es declara aquí com a marcador de disseny; el valor
+# real s'assigna a build_alumnat_space(), cridada després de construir PATH_MAP.
+ALUMNAT_SPACE: set[str] = set()
+
+
+def build_alumnat_space() -> None:
+	"""Omple ALUMNAT_SPACE: totes les Fitxa_alumnat.md + tots els ALUMNAT_LINKS."""
+	ALUMNAT_SPACE.clear()
+	for rel in PATH_MAP:
+		if "%20" in rel:
+			continue
+		if rel.rsplit("/", 1)[-1] == "Fitxa_alumnat.md":
+			ALUMNAT_SPACE.add(rel)
+	for _icon, _title, rel, _desc in ALUMNAT_LINKS:
+		ALUMNAT_SPACE.add(rel)
+
+
 DOCENT_DESTACATS = [
     ("🚀", "Guia d'inici docent", "00_Guia_inici_docent.md", "Per on començar: la posada en marxa completa"),
     ("🗺️", "Guió del curs, sessió a sessió", "00_Guio_del_curs_docent.md", "Les 35 setmanes: què preparar, què fer i què registrar"),
@@ -845,6 +863,7 @@ def main():
     (OUT / "assets").mkdir(parents=True)
     shutil.copyfile(ROOT / "web_assets" / "style.css", OUT / "assets" / "style.css")
     build_sequence()
+    build_alumnat_space()
     pages = build_doc_pages()
     build_sa_hubs()
     build_section_indexes(pages)
