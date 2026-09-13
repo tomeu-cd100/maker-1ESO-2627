@@ -570,24 +570,22 @@ def sa_cards(prefix: str, base: str = "classes/") -> str:
         for code, name, trim, product, folder in SA_CARDS)
 
 
-def build_sa_hubs():
-    """Una pàgina hub per SA: entrada única igual des de tot arreu."""
-    for code, name, trim, product, folder in SA_CARDS:
-        slug = slugify(folder)
-        out_rel = f"classes/{slug}/index.html"
-        sibs = sa_siblings(folder)
-        fitxa = next((b for lbl, b, k in sibs if k == "fitxa"), None)
-        primary = ""
-        if fitxa:
-            primary = (f'<a class="sa-primary" href="{fitxa}"><span class="sa-primary-ic">✏️</span>'
-                       f'<span><strong>Fitxa de l\'alumnat</strong>'
-                       f'<small>el full amb què treballes aquesta SA</small></span></a>')
-        others = [(lbl, b, k) for lbl, b, k in sibs if k != "fitxa"]
-        cards = "\n".join(
-            f'<a class="card" href="{b}"><div class="card-icon">{lbl.split(" ", 1)[0]}</div>'
-            f'<div><h3>{html.escape(lbl.split(" ", 1)[1])}</h3></div></a>'
-            for lbl, b, k in others)
-        body = f"""
+def build_sa_hub_full(code, name, trim, product, folder):
+    slug = slugify(folder)
+    out_rel = f"classes/{slug}/index.html"
+    sibs = sa_siblings(folder)
+    fitxa = next((b for lbl, b, k in sibs if k == "fitxa"), None)
+    primary = ""
+    if fitxa:
+        primary = (f'<a class="sa-primary" href="{fitxa}"><span class="sa-primary-ic">✏️</span>'
+                   f'<span><strong>Fitxa de l\'alumnat</strong>'
+                   f'<small>el full amb què treballes aquesta SA</small></span></a>')
+    others = [(lbl, b, k) for lbl, b, k in sibs if k != "fitxa"]
+    cards = "\n".join(
+        f'<a class="card" href="{b}"><div class="card-icon">{lbl.split(" ", 1)[0]}</div>'
+        f'<div><h3>{html.escape(lbl.split(" ", 1)[1])}</h3></div></a>'
+        for lbl, b, k in others)
+    body = f"""
 <h1>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h1>
 <p class="product">{html.escape(product)}</p>
 {primary}
@@ -596,11 +594,42 @@ def build_sa_hubs():
 <div class="grid">{cards}</div>
 <footer class="sa-foot">{step_nav(folder, "index.html")}</footer>
 """
-        crumb = [("Inici", "index.html"), ("Classes", "classes/index.html"),
-                 (f"{code} · {name}" if len(f"{code} · {name}") < 60 else f"{code}", None)]
-        (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
-        (OUT / out_rel).write_text(
-            render_page(f"{code} · {name}", body, out_rel, crumb), encoding="utf-8")
+    crumb = [("Inici", "index.html"), ("Classes", "classes/index.html"),
+             (f"{code} · {name}" if len(f"{code} · {name}") < 60 else f"{code}", None)]
+    (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
+    (OUT / out_rel).write_text(
+        render_page(f"{code} · {name}", body, out_rel, crumb), encoding="utf-8")
+
+
+def build_sa_hub_alumnat(code, name, trim, product, folder):
+    slug = slugify(folder)
+    out_rel = f"alumnat/classes/{slug}/index.html"
+    sibs = sa_siblings(folder)
+    fitxa = next((b for lbl, b, k in sibs if k == "fitxa"), None)
+    primary = ""
+    if fitxa:
+        primary = (f'<a class="sa-primary" href="{fitxa}"><span class="sa-primary-ic">✏️</span>'
+                   f'<span><strong>Fitxa de l\'alumnat</strong>'
+                   f'<small>el full amb què treballes aquesta SA</small></span></a>')
+    body = f"""
+<h1>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h1>
+<p class="product">{html.escape(product)}</p>
+{primary}
+{sa_printables_html(folder)}
+<footer class="sa-foot">{step_nav(folder, "index.html", sequence=ALUMNAT_SEQUENCE, seq_index=ALUMNAT_SEQ_INDEX)}</footer>
+<script>try{{localStorage.setItem('sa_actual','{slug}')}}catch(e){{}}</script>
+"""
+    crumb = [("Alumnat", "index.html"), (f"{code} · {name}" if len(f"{code} · {name}") < 60 else code, None)]
+    (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
+    (OUT / out_rel).write_text(
+        render_page(f"{code} · {name}", body, out_rel, crumb, space="alumnat"), encoding="utf-8")
+
+
+def build_sa_hubs():
+    """Una pàgina hub per SA a cada espai: entrada única igual des de tot arreu."""
+    for code, name, trim, product, folder in SA_CARDS:
+        build_sa_hub_full(code, name, trim, product, folder)
+        build_sa_hub_alumnat(code, name, trim, product, folder)
 
 
 def build_doc_pages():
