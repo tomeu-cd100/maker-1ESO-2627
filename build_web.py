@@ -470,35 +470,60 @@ def sa_siblings(folder: str):
 # (hub → fitxa → exemple → activitats) i només al final se salta a la SA següent. Les pàgines
 # de referència del docent (la SA completa i la rúbrica) NO són passos de l'alumne.
 _WALK_PRIO = {"hub": -1, "fitxa": 0, "exemple": 1, "extra": 2}
-SA_SEQUENCE = []            # [{folder, base, label, kind}] en ordre de recorregut
+SA_SEQUENCE = []            # [{folder, base, label, kind}] en ordre de recorregut (vista completa)
 SEQ_INDEX = {}              # (folder, base) → posició a SA_SEQUENCE
+
+# Recorregut mínim de l'alumnat: només hub i fitxa, sense exemple/rúbrica/doc.
+_WALK_PRIO_ALUMNAT = {"hub": -1, "fitxa": 0}
+ALUMNAT_SEQUENCE = []
+ALUMNAT_SEQ_INDEX = {}
+
+
+def _build_sequence_generic(walk_prio: dict) -> list[dict]:
+    seq = []
+    for code, name, _trim, _product, folder in SA_CARDS:
+        seq.append({"folder": folder, "base": "index.html", "kind": "hub",
+                    "label": f"{code} · {html.escape(name)}"})
+        sibs = [s for s in sa_siblings(folder) if s[2] in walk_prio]
+        for lbl, base, kind in sorted(sibs, key=lambda s: walk_prio[s[2]]):
+            seq.append({"folder": folder, "base": base, "kind": kind,
+                        "label": f"{code} · {lbl}"})
+    return seq
 
 
 def build_sequence():
     SA_SEQUENCE.clear()
     SEQ_INDEX.clear()
-    for code, name, _trim, _product, folder in SA_CARDS:
-        SA_SEQUENCE.append({"folder": folder, "base": "index.html", "kind": "hub",
-                            "label": f"{code} · {html.escape(name)}"})
-        sibs = [s for s in sa_siblings(folder) if s[2] in _WALK_PRIO]
-        for lbl, base, kind in sorted(sibs, key=lambda s: _WALK_PRIO[s[2]]):
-            SA_SEQUENCE.append({"folder": folder, "base": base, "kind": kind,
-                                "label": f"{code} · {lbl}"})
+    SA_SEQUENCE.extend(_build_sequence_generic(_WALK_PRIO))
     for i, e in enumerate(SA_SEQUENCE):
         SEQ_INDEX[(e["folder"], e["base"])] = i
 
 
-def step_nav(folder: str, base: str) -> str:
-    """Pas anterior / següent del recorregut de l'alumne per a la pàgina (folder, base)."""
-    i = SEQ_INDEX.get((folder, base))
+def build_alumnat_sequence():
+    ALUMNAT_SEQUENCE.clear()
+    ALUMNAT_SEQ_INDEX.clear()
+    ALUMNAT_SEQUENCE.extend(_build_sequence_generic(_WALK_PRIO_ALUMNAT))
+    for i, e in enumerate(ALUMNAT_SEQUENCE):
+        ALUMNAT_SEQ_INDEX[(e["folder"], e["base"])] = i
+
+
+def step_nav(folder: str, base: str, sequence: list[dict] = None,
+             seq_index: dict = None) -> str:
+    """Pas anterior / següent del recorregut (SA_SEQUENCE per defecte; passa
+    ALUMNAT_SEQUENCE/ALUMNAT_SEQ_INDEX per generar-lo dins l'espai alumnat."""
+    if sequence is None:
+        sequence = SA_SEQUENCE
+    if seq_index is None:
+        seq_index = SEQ_INDEX
+    i = seq_index.get((folder, base))
     if i is None:
         return ""
 
     def rel_href(e):
         return e["base"] if e["folder"] == folder else f'../{slugify(e["folder"])}/{e["base"]}'
 
-    prev = SA_SEQUENCE[i - 1] if i > 0 else None
-    nxt = SA_SEQUENCE[i + 1] if i < len(SA_SEQUENCE) - 1 else None
+    prev = sequence[i - 1] if i > 0 else None
+    nxt = sequence[i + 1] if i < len(sequence) - 1 else None
     if prev:
         left = (f'<a class="sa-prev" href="{rel_href(prev)}">'
                 f'<small>← pas anterior</small><strong>{prev["label"]}</strong></a>')
@@ -913,6 +938,7 @@ def main():
     shutil.copyfile(ROOT / "web_assets" / "style.css", OUT / "assets" / "style.css")
     build_sequence()
     build_alumnat_space()
+    build_alumnat_sequence()
     pages = build_doc_pages()
     build_sa_hubs()
     build_section_indexes(pages)
