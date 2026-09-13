@@ -102,6 +102,11 @@ ALUMNAT_LINKS = [
 # real s'assigna a build_alumnat_space(), cridada després de construir PATH_MAP.
 ALUMNAT_SPACE: set[str] = set()
 
+# ALUMNAT_TARGETS es calcula dins build_doc_pages() (necessita PATH_MAP complet
+# i els slugs dels hubs de SA): out-paths (relatius a web/) que tenen còpia física
+# dins alumnat/, per redirigir-hi els enllaços quan space="alumnat".
+ALUMNAT_TARGETS: set[str] = set()
+
 
 def build_alumnat_space() -> None:
     """Omple ALUMNAT_SPACE: totes les Fitxa_alumnat.md + tots els ALUMNAT_LINKS."""
@@ -205,8 +210,15 @@ def rel_prefix(out_rel: str) -> str:
     return "../" * depth
 
 
-def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str) -> str:
+def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str, space: str = "full") -> str:
     prefix = rel_prefix(out_rel)
+
+    def maybe_alumnat(target: str) -> str:
+        """Dins l'espai alumnat, redirigeix el target cap a la seva còpia alumnat/
+        si hi pertany; si no hi pertany, cau a la vista completa (comportament acceptat)."""
+        if space == "alumnat" and target in ALUMNAT_TARGETS and not target.startswith("alumnat/"):
+            return f"alumnat/{target}"
+        return target
 
     # 1) enllaços markdown reals cap a .md o carpetes
     def fix_href(m):
@@ -226,8 +238,13 @@ def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str) -> str:
         elif href.endswith(".xlsx"):
             # les plantilles xlsx es copien a web/impressos/ amb el nom original
             target = "impressos/" + href.rsplit("/", 1)[-1]
+        elif re.match(r"^(\.\./)+impressos/", href):
+            # enllaços ja escrits com a relatius (`../../impressos/x.html`, pensats per a
+            # classes/<SA>/…, depth 2): es normalitzen a arrel perquè el prefix
+            # es calculi bé també des de la còpia alumnat/ (depth 3)
+            target = "impressos/" + href.rsplit("/", 1)[-1]
         if target:
-            return f'href="{prefix}{target}"'
+            return f'href="{prefix}{maybe_alumnat(target)}"'
         return m.group(0)
 
     html_text = re.sub(r'href="([^"]+)"', fix_href, html_text)
@@ -243,7 +260,7 @@ def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str) -> str:
         elif base in FOLDER_MAP:
             target = FOLDER_MAP[base]
         if target:
-            return f'<a class="doclink" href="{prefix}{target}"><code>{inner}</code></a>'
+            return f'<a class="doclink" href="{prefix}{maybe_alumnat(target)}"><code>{inner}</code></a>'
         return m.group(0)
 
     html_text = re.sub(r"<code>([^<]+)</code>", fix_code, html_text)
@@ -290,7 +307,7 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
         brand_href = f"{prefix}alumnat/index.html"
         nav_links = (
             f'<a href="{prefix}alumnat/index.html">Inici</a>'
-            f'<a href="{prefix}alumnat/cerca.html" title="Cerca">🔍</a>'
+            f'<a href="{prefix}cerca.html" title="Cerca">🔍</a>'
             f'<span class="sa-actual-chip"><a id="sa-actual-link" href="#">📍 <span id="sa-actual-label">…</span></a>'
             f'<a class="sa-canvia" href="{prefix}alumnat/index.html">🔁 Canviar de SA</a></span>'
         )
@@ -537,17 +554,23 @@ def step_nav(folder: str, base: str, sequence: list[dict] = None,
     return f'<nav class="sa-nav" aria-label="Pas anterior i següent">{left}{right}</nav>'
 
 
-def sa_printables_html(folder: str) -> str:
+def sa_printables_html(folder: str, depth: int = 2) -> str:
+    """`depth` és el nombre de nivells entre l'HTML de sortida i l'arrel de web/
+    (2 a la vista completa: classes/<slug>/…; 3 a l'espai alumnat: alumnat/classes/<slug>/…)."""
     items = SA_PRINTABLES.get(folder, [])
     if not items:
         return ""
-    links = " · ".join(f'<a href="../../impressos/{f}">{lbl}</a>' for f, lbl in items)
+    up = "../" * depth
+    links = " · ".join(f'<a href="{up}impressos/{f}">{lbl}</a>' for f, lbl in items)
     return (f'<div class="sa-print">🖨️ <strong>Per imprimir i repartir a l\'alumnat:</strong> '
             f'{links}</div>')
 
 
-def sa_context_bar(folder: str, current_base: str) -> str:
+def sa_context_bar(folder: str, current_base: str, space: str = "full") -> str:
     """Peu discret de cada pàgina d'una SA: germanes + imprimibles + prev/next (a sota de tot)."""
+    if space == "alumnat":
+        return (f'{sa_printables_html(folder, depth=3)}'
+                f'{step_nav(folder, current_base, sequence=ALUMNAT_SEQUENCE, seq_index=ALUMNAT_SEQ_INDEX)}')
     chips = [f'<a class="sa-hublink" href="index.html">⌂ Aquesta SA</a>']
     for lbl, base, _kind in sa_siblings(folder):
         if base == current_base:
@@ -615,7 +638,7 @@ def build_sa_hub_alumnat(code, name, trim, product, folder):
 <h1>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h1>
 <p class="product">{html.escape(product)}</p>
 {primary}
-{sa_printables_html(folder)}
+{sa_printables_html(folder, depth=3)}
 <footer class="sa-foot">{step_nav(folder, "index.html", sequence=ALUMNAT_SEQUENCE, seq_index=ALUMNAT_SEQ_INDEX)}</footer>
 <script>try{{localStorage.setItem('sa_actual','{slug}')}}catch(e){{}}</script>
 """
@@ -633,6 +656,10 @@ def build_sa_hubs():
 
 
 def build_doc_pages():
+    ALUMNAT_TARGETS.clear()
+    ALUMNAT_TARGETS.update(PATH_MAP[rel] for rel in ALUMNAT_SPACE)
+    ALUMNAT_TARGETS.update(f"classes/{slugify(folder)}/index.html" for *_r, folder in SA_CARDS)
+
     pages = {}  # rel md → (title, out_rel)
     for p in MD_FILES:
         rel = str(p.relative_to(ROOT)).replace("\\", "/")
@@ -640,18 +667,20 @@ def build_doc_pages():
         text = p.read_text(encoding="utf-8")
         title = page_title(text, p.stem.replace("_", " "))
         MD.reset()
-        body = MD.convert(text)
+        body_md = MD.convert(text)
         current_dir = rel.rsplit("/", 1)[0] if "/" in rel else ""
-        body = rewrite_links(body, out_rel, current_dir)
         page_key = re.sub(r"[^a-z0-9]+", "_", out_rel[:-5].lower()).strip("_")
+
+        # ── còpia completa (vista docent/general) ──
+        body = rewrite_links(body_md, out_rel, current_dir, space="full")
         body = checkboxify(body, page_key)
-        plain_src = body  # sense la barra de navegació (per a l'índex de cerca)
+        plain_src = body
         parts = rel.split("/")
         if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
             foot = sa_context_bar(parts[1], out_rel.rsplit("/", 1)[-1])
-            body = f'<article class="doc">{body}<footer class="sa-foot">{foot}</footer></article>'
+            body_full = f'<article class="doc">{body}<footer class="sa-foot">{foot}</footer></article>'
         else:
-            body = f'<article class="doc">{body}</article>'
+            body_full = f'<article class="doc">{body}</article>'
         crumb = [("Inici", "index.html")]
         if "/" in rel:
             section = rel.split("/")[0]
@@ -661,15 +690,42 @@ def build_doc_pages():
         crumb.append((title if len(title) < 60 else title[:57] + "…", None))
         out = OUT / out_rel
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(render_page(title, body, out_rel, crumb), encoding="utf-8")
+        out.write_text(render_page(title, body_full, out_rel, crumb), encoding="utf-8")
         pages[rel] = (title, out_rel)
         plain = re.sub(r"<[^>]+>", " ", plain_src)
         plain = re.sub(r"\s+", " ", html.unescape(plain)).strip()
-        SEARCH_INDEX.append({
-            "t": title, "u": out_rel,
-            "s": rel.split("/")[0] if "/" in rel else "Inici",
-            "x": plain[:4000],
-        })
+        SEARCH_INDEX.append({"t": title, "u": out_rel,
+                              "s": rel.split("/")[0] if "/" in rel else "Inici",
+                              "x": plain[:4000], "sp": "full"})
+
+        # ── còpia dins l'espai alumnat, només si el .md hi pertany ──
+        if rel not in ALUMNAT_SPACE:
+            continue
+        MD.reset()
+        body_alu = MD.convert(text)
+        alu_out_rel = f"alumnat/{out_rel}"
+        body_alu = rewrite_links(body_alu, alu_out_rel, current_dir, space="alumnat")
+        body_alu = checkboxify(body_alu, "alu_" + page_key)
+        plain_alu_src = body_alu
+        if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
+            foot = sa_context_bar(parts[1], out_rel.rsplit("/", 1)[-1], space="alumnat")
+            body_alu = f'<article class="doc">{body_alu}<footer class="sa-foot">{foot}</footer></article>'
+        else:
+            body_alu = f'<article class="doc">{body_alu}</article>'
+        alu_crumb = [("Alumnat", "index.html")]
+        if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
+            code, name, *_r = SA_CARDS[sa_idx(parts[1])]
+            alu_crumb.append((f"{code} · {name}" if len(f"{code} · {name}") < 60 else code,
+                              f"../index.html"))
+        alu_crumb.append((title if len(title) < 60 else title[:57] + "…", None))
+        alu_out = OUT / alu_out_rel
+        alu_out.parent.mkdir(parents=True, exist_ok=True)
+        alu_out.write_text(render_page(title, body_alu, alu_out_rel, alu_crumb, space="alumnat"),
+                            encoding="utf-8")
+        plain_alu = re.sub(r"<[^>]+>", " ", plain_alu_src)
+        plain_alu = re.sub(r"\s+", " ", html.unescape(plain_alu)).strip()
+        SEARCH_INDEX.append({"t": title, "u": alu_out_rel, "s": rel.split("/")[0] if "/" in rel else "Inici",
+                              "x": plain_alu[:4000], "sp": "alumnat"})
     return pages
 
 
