@@ -642,7 +642,7 @@ def build_sa_hub_alumnat(code, name, trim, product, folder):
 <footer class="sa-foot">{step_nav(folder, "index.html", sequence=ALUMNAT_SEQUENCE, seq_index=ALUMNAT_SEQ_INDEX)}</footer>
 <script>try{{localStorage.setItem('sa_actual','{slug}')}}catch(e){{}}</script>
 """
-    crumb = [("Alumnat", "index.html"), (f"{code} · {name}" if len(f"{code} · {name}") < 60 else code, None)]
+    crumb = [("Alumnat", "alumnat/index.html"), (f"{code} · {name}" if len(f"{code} · {name}") < 60 else code, None)]
     (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
     (OUT / out_rel).write_text(
         render_page(f"{code} · {name}", body, out_rel, crumb, space="alumnat"), encoding="utf-8")
@@ -712,11 +712,11 @@ def build_doc_pages():
             body_alu = f'<article class="doc">{body_alu}<footer class="sa-foot">{foot}</footer></article>'
         else:
             body_alu = f'<article class="doc">{body_alu}</article>'
-        alu_crumb = [("Alumnat", "index.html")]
+        alu_crumb = [("Alumnat", "alumnat/index.html")]
         if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
             code, name, *_r = SA_CARDS[sa_idx(parts[1])]
             alu_crumb.append((f"{code} · {name}" if len(f"{code} · {name}") < 60 else code,
-                              f"../index.html"))
+                              f"alumnat/classes/{slugify(parts[1])}/index.html"))
         alu_crumb.append((title if len(title) < 60 else title[:57] + "…", None))
         alu_out = OUT / alu_out_rel
         alu_out.parent.mkdir(parents=True, exist_ok=True)
