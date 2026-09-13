@@ -678,7 +678,13 @@ def build_doc_pages():
         parts = rel.split("/")
         if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
             foot = sa_context_bar(parts[1], out_rel.rsplit("/", 1)[-1])
-            body_full = f'<article class="doc">{body}<footer class="sa-foot">{foot}</footer></article>'
+            notice = ""
+            if not rel.endswith("Fitxa_alumnat.md"):
+                slug = slugify(parts[1])
+                prefix_here = rel_prefix(out_rel)
+                notice = (f'<p class="teacher-notice">📖 Això és material del professorat — '
+                          f'<a href="{prefix_here}alumnat/classes/{slug}/index.html">torna a la teva SA</a></p>')
+            body_full = f'<article class="doc">{notice}{body}<footer class="sa-foot">{foot}</footer></article>'
         else:
             body_full = f'<article class="doc">{body}</article>'
         crumb = [("Inici", "index.html")]
