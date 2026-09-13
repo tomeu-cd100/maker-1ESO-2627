@@ -361,3 +361,11 @@ img { max-width: 100%; }
   blockquote { background: #f3f3f3; border-left-color: #888; }
   .doc table { display: table; }
 }
+
+/* ── avís «material del professorat» ───────── */
+.teacher-notice {
+  background: var(--bg-card); border: 2px solid var(--accent);
+  border-radius: var(--radius); padding: .7rem 1rem;
+  margin-bottom: 1.2rem; font-weight: 600;
+}
+.teacher-notice a { margin-left: .4rem; }

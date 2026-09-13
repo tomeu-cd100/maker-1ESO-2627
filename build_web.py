@@ -97,6 +97,32 @@ ALUMNAT_LINKS = [
     ("🏛️", "El Museu dels Errors", "Programació didàctica/Museu_dels_errors.md", "Aquí els errors valen punts si n'aprenem"),
 ]
 
+# ALUMNAT_SPACE es calcula més avall, un cop existeix PATH_MAP (necessita conèixer
+# totes les fitxes reals). Es declara aquí com a marcador de disseny; el valor
+# real s'assigna a build_alumnat_space(), cridada després de construir PATH_MAP.
+ALUMNAT_SPACE: set[str] = set()
+
+# ALUMNAT_TARGETS es calcula dins build_doc_pages() (necessita PATH_MAP complet
+# i els slugs dels hubs de SA): out-paths (relatius a web/) que tenen còpia física
+# dins alumnat/, per redirigir-hi els enllaços quan space="alumnat".
+ALUMNAT_TARGETS: set[str] = set()
+
+
+def build_alumnat_space() -> None:
+    """Omple ALUMNAT_SPACE: totes les Fitxa_alumnat.md + tots els ALUMNAT_LINKS."""
+    ALUMNAT_SPACE.clear()
+    for rel in PATH_MAP:
+        if "%20" in rel:
+            continue
+        if rel.rsplit("/", 1)[-1] == "Fitxa_alumnat.md":
+            ALUMNAT_SPACE.add(rel)
+    for _icon, _title, rel, _desc in ALUMNAT_LINKS:
+        ALUMNAT_SPACE.add(rel)
+    for extra in ("Reptes/Reptes_3D.md", "Reptes/Reptes_express_2D.md",
+                  "Reptes/Reptes_immersius_360_VR.md", "Normativa/Carnet_de_maquina.md"):
+        ALUMNAT_SPACE.add(extra)
+
+
 DOCENT_DESTACATS = [
     ("🚀", "Guia d'inici docent", "00_Guia_inici_docent.md", "Per on començar: la posada en marxa completa"),
     ("🗺️", "Guió del curs, sessió a sessió", "00_Guio_del_curs_docent.md", "Les 35 setmanes: què preparar, què fer i què registrar"),
@@ -187,8 +213,15 @@ def rel_prefix(out_rel: str) -> str:
     return "../" * depth
 
 
-def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str) -> str:
+def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str, space: str = "full") -> str:
     prefix = rel_prefix(out_rel)
+
+    def maybe_alumnat(target: str) -> str:
+        """Dins l'espai alumnat, redirigeix el target cap a la seva còpia alumnat/
+        si hi pertany; si no hi pertany, cau a la vista completa (comportament acceptat)."""
+        if space == "alumnat" and target in ALUMNAT_TARGETS and not target.startswith("alumnat/"):
+            return f"alumnat/{target}"
+        return target
 
     # 1) enllaços markdown reals cap a .md o carpetes
     def fix_href(m):
@@ -208,8 +241,13 @@ def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str) -> str:
         elif href.endswith(".xlsx"):
             # les plantilles xlsx es copien a web/impressos/ amb el nom original
             target = "impressos/" + href.rsplit("/", 1)[-1]
+        elif re.match(r"^(\.\./)+impressos/", href):
+            # enllaços ja escrits com a relatius (`../../impressos/x.html`, pensats per a
+            # classes/<SA>/…, depth 2): es normalitzen a arrel perquè el prefix
+            # es calculi bé també des de la còpia alumnat/ (depth 3)
+            target = "impressos/" + href.rsplit("/", 1)[-1]
         if target:
-            return f'href="{prefix}{target}"'
+            return f'href="{prefix}{maybe_alumnat(target)}"'
         return m.group(0)
 
     html_text = re.sub(r'href="([^"]+)"', fix_href, html_text)
@@ -225,7 +263,7 @@ def rewrite_links(html_text: str, out_rel: str, current_rel_dir: str) -> str:
         elif base in FOLDER_MAP:
             target = FOLDER_MAP[base]
         if target:
-            return f'<a class="doclink" href="{prefix}{target}"><code>{inner}</code></a>'
+            return f'<a class="doclink" href="{prefix}{maybe_alumnat(target)}"><code>{inner}</code></a>'
         return m.group(0)
 
     html_text = re.sub(r"<code>([^<]+)</code>", fix_code, html_text)
@@ -261,12 +299,40 @@ def checkboxify(html_text: str, page_key: str) -> str:
     return html_text
 
 
-def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str | None]]) -> str:
+def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str | None]],
+                 space: str = "full") -> str:
     prefix = rel_prefix(out_rel)
     crumb_html = " <span class=\"sep\">›</span> ".join(
         f'<a href="{prefix}{href}">{html.escape(text)}</a>' if href else f"<span>{html.escape(text)}</span>"
         for text, href in crumb
     )
+    if space == "alumnat":
+        brand_href = f"{prefix}alumnat/index.html"
+        nav_links = (
+            f'<a href="{prefix}alumnat/index.html">Inici</a>'
+            f'<a href="{prefix}alumnat/cerca.html" title="Cerca">🔍</a>'
+            f'<span class="sa-actual-chip"><a id="sa-actual-link" href="#" aria-label="SA actual">📍 <span id="sa-actual-label">…</span></a>'
+            f'<a class="sa-canvia" href="{prefix}alumnat/index.html">🔁 Canviar de SA</a></span>'
+        )
+        space_script = f"""// xip "SA actual" (només a l'espai alumnat)
+const saLbl=el('sa-actual-label'), saLink=el('sa-actual-link');
+if(saLbl){{
+  const cur=LS.getItem('sa_actual');
+  if(cur){{const codi=LS.getItem('sa_actual_codi')||cur;saLbl.textContent=codi;saLink.href='{prefix}alumnat/classes/'+cur+'/index.html';}}
+  else{{saLink.style.display='none';}}
+}}
+"""
+    else:
+        brand_href = f"{prefix}index.html"
+        nav_links = (
+            f'<a href="{prefix}index.html">Inici</a>'
+            f'<a href="{prefix}sa.html">Les 9 SA</a>'
+            f'<a href="{prefix}docent.html">Docent</a>'
+            f'<a href="{prefix}alumnat/index.html">Alumnat</a>'
+            f'<a href="{prefix}families.html">Famílies</a>'
+            f'<a href="{prefix}cerca.html" title="Cerca">🔍</a>'
+        )
+        space_script = ""
     return f"""<!DOCTYPE html>
 <html lang="ca">
 <head>
@@ -279,14 +345,9 @@ def render_page(title: str, body: str, out_rel: str, crumb: list[tuple[str, str 
 <body>
 <a class="skip" href="#contingut">Salta al contingut ↓</a>
 <header class="site-header">
-  <a class="brand" href="{prefix}index.html">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
+  <a class="brand" href="{brand_href}">🛠️ <strong>Aula Maker</strong> <span>1r ESO</span></a>
   <nav>
-    <a href="{prefix}index.html">Inici</a>
-    <a href="{prefix}sa.html">Les 9 SA</a>
-    <a href="{prefix}docent.html">Docent</a>
-    <a href="{prefix}alumnat.html">Alumnat</a>
-    <a href="{prefix}families.html">Famílies</a>
-    <a href="{prefix}cerca.html" title="Cerca">🔍</a>
+    {nav_links}
     <span class="a11y" role="group" aria-label="Ajustos de lectura">
       <button id="fmenys" title="Lletra més petita" aria-label="Lletra més petita">A−</button>
       <button id="fmes" title="Lletra més gran" aria-label="Lletra més gran">A+</button>
@@ -367,7 +428,7 @@ crell.onclick=()=>cp.classList.toggle('open');
 cstart.onclick=()=>{{
 if(LS.getItem('clock_end')){{LS.removeItem('clock_end');clearInterval(clockTimer);clockTimer=null;
 cstart.textContent='▶️ Inicia';return;}}
-const m=/^(\d+):(\d+)$/.exec(ctime.textContent);
+const m=/^(\\d+):(\\d+)$/.exec(ctime.textContent);
 const remain=m?(+m[1])*60+(+m[2]):DUR;
 LS.setItem('clock_end',Date.now()+remain*1000);
 cstart.textContent='⏸ Pausa';
@@ -376,6 +437,7 @@ clockTimer=setInterval(clockRender,1000);
 creset.onclick=()=>{{clearInterval(clockTimer);clockTimer=null;LS.removeItem('clock_end');
 cstart.textContent='▶️ Inicia';ctime.textContent='50:00';cp.classList.remove('warn');}};
 if(LS.getItem('clock_end')){{cstart.textContent='⏸ Pausa';clockTimer=setInterval(clockRender,1000);clockRender();}}
+{space_script}
 </script>
 </body>
 </html>
@@ -428,35 +490,60 @@ def sa_siblings(folder: str):
 # (hub → fitxa → exemple → activitats) i només al final se salta a la SA següent. Les pàgines
 # de referència del docent (la SA completa i la rúbrica) NO són passos de l'alumne.
 _WALK_PRIO = {"hub": -1, "fitxa": 0, "exemple": 1, "extra": 2}
-SA_SEQUENCE = []            # [{folder, base, label, kind}] en ordre de recorregut
+SA_SEQUENCE = []            # [{folder, base, label, kind}] en ordre de recorregut (vista completa)
 SEQ_INDEX = {}              # (folder, base) → posició a SA_SEQUENCE
+
+# Recorregut mínim de l'alumnat: només hub i fitxa, sense exemple/rúbrica/doc.
+_WALK_PRIO_ALUMNAT = {"hub": -1, "fitxa": 0}
+ALUMNAT_SEQUENCE = []
+ALUMNAT_SEQ_INDEX = {}
+
+
+def _build_sequence_generic(walk_prio: dict) -> list[dict]:
+    seq = []
+    for code, name, _trim, _product, folder in SA_CARDS:
+        seq.append({"folder": folder, "base": "index.html", "kind": "hub",
+                    "label": f"{code} · {html.escape(name)}"})
+        sibs = [s for s in sa_siblings(folder) if s[2] in walk_prio]
+        for lbl, base, kind in sorted(sibs, key=lambda s: walk_prio[s[2]]):
+            seq.append({"folder": folder, "base": base, "kind": kind,
+                        "label": f"{code} · {lbl}"})
+    return seq
 
 
 def build_sequence():
     SA_SEQUENCE.clear()
     SEQ_INDEX.clear()
-    for code, name, _trim, _product, folder in SA_CARDS:
-        SA_SEQUENCE.append({"folder": folder, "base": "index.html", "kind": "hub",
-                            "label": f"{code} · {html.escape(name)}"})
-        sibs = [s for s in sa_siblings(folder) if s[2] in _WALK_PRIO]
-        for lbl, base, kind in sorted(sibs, key=lambda s: _WALK_PRIO[s[2]]):
-            SA_SEQUENCE.append({"folder": folder, "base": base, "kind": kind,
-                                "label": f"{code} · {lbl}"})
+    SA_SEQUENCE.extend(_build_sequence_generic(_WALK_PRIO))
     for i, e in enumerate(SA_SEQUENCE):
         SEQ_INDEX[(e["folder"], e["base"])] = i
 
 
-def step_nav(folder: str, base: str) -> str:
-    """Pas anterior / següent del recorregut de l'alumne per a la pàgina (folder, base)."""
-    i = SEQ_INDEX.get((folder, base))
+def build_alumnat_sequence():
+    ALUMNAT_SEQUENCE.clear()
+    ALUMNAT_SEQ_INDEX.clear()
+    ALUMNAT_SEQUENCE.extend(_build_sequence_generic(_WALK_PRIO_ALUMNAT))
+    for i, e in enumerate(ALUMNAT_SEQUENCE):
+        ALUMNAT_SEQ_INDEX[(e["folder"], e["base"])] = i
+
+
+def step_nav(folder: str, base: str, sequence: list[dict] = None,
+             seq_index: dict = None) -> str:
+    """Pas anterior / següent del recorregut (SA_SEQUENCE per defecte; passa
+    ALUMNAT_SEQUENCE/ALUMNAT_SEQ_INDEX per generar-lo dins l'espai alumnat."""
+    if sequence is None:
+        sequence = SA_SEQUENCE
+    if seq_index is None:
+        seq_index = SEQ_INDEX
+    i = seq_index.get((folder, base))
     if i is None:
         return ""
 
     def rel_href(e):
         return e["base"] if e["folder"] == folder else f'../{slugify(e["folder"])}/{e["base"]}'
 
-    prev = SA_SEQUENCE[i - 1] if i > 0 else None
-    nxt = SA_SEQUENCE[i + 1] if i < len(SA_SEQUENCE) - 1 else None
+    prev = sequence[i - 1] if i > 0 else None
+    nxt = sequence[i + 1] if i < len(sequence) - 1 else None
     if prev:
         left = (f'<a class="sa-prev" href="{rel_href(prev)}">'
                 f'<small>← pas anterior</small><strong>{prev["label"]}</strong></a>')
@@ -470,17 +557,23 @@ def step_nav(folder: str, base: str) -> str:
     return f'<nav class="sa-nav" aria-label="Pas anterior i següent">{left}{right}</nav>'
 
 
-def sa_printables_html(folder: str) -> str:
+def sa_printables_html(folder: str, depth: int = 2) -> str:
+    """`depth` és el nombre de nivells entre l'HTML de sortida i l'arrel de web/
+    (2 a la vista completa: classes/<slug>/…; 3 a l'espai alumnat: alumnat/classes/<slug>/…)."""
     items = SA_PRINTABLES.get(folder, [])
     if not items:
         return ""
-    links = " · ".join(f'<a href="../../impressos/{f}">{lbl}</a>' for f, lbl in items)
+    up = "../" * depth
+    links = " · ".join(f'<a href="{up}impressos/{f}">{lbl}</a>' for f, lbl in items)
     return (f'<div class="sa-print">🖨️ <strong>Per imprimir i repartir a l\'alumnat:</strong> '
             f'{links}</div>')
 
 
-def sa_context_bar(folder: str, current_base: str) -> str:
+def sa_context_bar(folder: str, current_base: str, space: str = "full") -> str:
     """Peu discret de cada pàgina d'una SA: germanes + imprimibles + prev/next (a sota de tot)."""
+    if space == "alumnat":
+        return (f'{sa_printables_html(folder, depth=3)}'
+                f'{step_nav(folder, current_base, sequence=ALUMNAT_SEQUENCE, seq_index=ALUMNAT_SEQ_INDEX)}')
     chips = [f'<a class="sa-hublink" href="index.html">⌂ Aquesta SA</a>']
     for lbl, base, _kind in sa_siblings(folder):
         if base == current_base:
@@ -492,35 +585,33 @@ def sa_context_bar(folder: str, current_base: str) -> str:
             f'{step_nav(folder, current_base)}')
 
 
-def sa_cards(prefix: str) -> str:
+def sa_cards(prefix: str, base: str = "classes/") -> str:
     """Graella de targetes de SA que porten al hub (compartida per portada i índex de Classes)."""
     return "\n".join(
         f'<a class="card sa" data-trim="{trim_num(trim)}" '
-        f'href="{prefix}classes/{slugify(folder)}/index.html">'
+        f'href="{prefix}{base}{slugify(folder)}/index.html">'
         f'<div class="card-icon">{product.split()[0]}</div>'
         f'<div><h3>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h3>'
         f'<p>{html.escape(product.split(" ", 1)[1])}</p></div></a>'
         for code, name, trim, product, folder in SA_CARDS)
 
 
-def build_sa_hubs():
-    """Una pàgina hub per SA: entrada única igual des de tot arreu."""
-    for code, name, trim, product, folder in SA_CARDS:
-        slug = slugify(folder)
-        out_rel = f"classes/{slug}/index.html"
-        sibs = sa_siblings(folder)
-        fitxa = next((b for lbl, b, k in sibs if k == "fitxa"), None)
-        primary = ""
-        if fitxa:
-            primary = (f'<a class="sa-primary" href="{fitxa}"><span class="sa-primary-ic">✏️</span>'
-                       f'<span><strong>Fitxa de l\'alumnat</strong>'
-                       f'<small>el full amb què treballes aquesta SA</small></span></a>')
-        others = [(lbl, b, k) for lbl, b, k in sibs if k != "fitxa"]
-        cards = "\n".join(
-            f'<a class="card" href="{b}"><div class="card-icon">{lbl.split(" ", 1)[0]}</div>'
-            f'<div><h3>{html.escape(lbl.split(" ", 1)[1])}</h3></div></a>'
-            for lbl, b, k in others)
-        body = f"""
+def build_sa_hub_full(code, name, trim, product, folder):
+    slug = slugify(folder)
+    out_rel = f"classes/{slug}/index.html"
+    sibs = sa_siblings(folder)
+    fitxa = next((b for lbl, b, k in sibs if k == "fitxa"), None)
+    primary = ""
+    if fitxa:
+        primary = (f'<a class="sa-primary" href="{fitxa}"><span class="sa-primary-ic">✏️</span>'
+                   f'<span><strong>Fitxa de l\'alumnat</strong>'
+                   f'<small>el full amb què treballes aquesta SA</small></span></a>')
+    others = [(lbl, b, k) for lbl, b, k in sibs if k != "fitxa"]
+    cards = "\n".join(
+        f'<a class="card" href="{b}"><div class="card-icon">{lbl.split(" ", 1)[0]}</div>'
+        f'<div><h3>{html.escape(lbl.split(" ", 1)[1])}</h3></div></a>'
+        for lbl, b, k in others)
+    body = f"""
 <h1>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h1>
 <p class="product">{html.escape(product)}</p>
 {primary}
@@ -529,14 +620,49 @@ def build_sa_hubs():
 <div class="grid">{cards}</div>
 <footer class="sa-foot">{step_nav(folder, "index.html")}</footer>
 """
-        crumb = [("Inici", "index.html"), ("Classes", "classes/index.html"),
-                 (f"{code} · {name}" if len(f"{code} · {name}") < 60 else f"{code}", None)]
-        (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
-        (OUT / out_rel).write_text(
-            render_page(f"{code} · {name}", body, out_rel, crumb), encoding="utf-8")
+    crumb = [("Inici", "index.html"), ("Classes", "classes/index.html"),
+             (f"{code} · {name}" if len(f"{code} · {name}") < 60 else f"{code}", None)]
+    (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
+    (OUT / out_rel).write_text(
+        render_page(f"{code} · {name}", body, out_rel, crumb), encoding="utf-8")
+
+
+def build_sa_hub_alumnat(code, name, trim, product, folder):
+    slug = slugify(folder)
+    out_rel = f"alumnat/classes/{slug}/index.html"
+    sibs = sa_siblings(folder)
+    fitxa = next((b for lbl, b, k in sibs if k == "fitxa"), None)
+    primary = ""
+    if fitxa:
+        primary = (f'<a class="sa-primary" href="{fitxa}"><span class="sa-primary-ic">✏️</span>'
+                   f'<span><strong>Fitxa de l\'alumnat</strong>'
+                   f'<small>el full amb què treballes aquesta SA</small></span></a>')
+    body = f"""
+<h1>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h1>
+<p class="product">{html.escape(product)}</p>
+{primary}
+{sa_printables_html(folder, depth=3)}
+<footer class="sa-foot">{step_nav(folder, "index.html", sequence=ALUMNAT_SEQUENCE, seq_index=ALUMNAT_SEQ_INDEX)}</footer>
+<script>try{{localStorage.setItem('sa_actual','{slug}');localStorage.setItem('sa_actual_codi','{code}')}}catch(e){{}}</script>
+"""
+    crumb = [("Alumnat", "alumnat/index.html"), (f"{code} · {name}" if len(f"{code} · {name}") < 60 else code, None)]
+    (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
+    (OUT / out_rel).write_text(
+        render_page(f"{code} · {name}", body, out_rel, crumb, space="alumnat"), encoding="utf-8")
+
+
+def build_sa_hubs():
+    """Una pàgina hub per SA a cada espai: entrada única igual des de tot arreu."""
+    for code, name, trim, product, folder in SA_CARDS:
+        build_sa_hub_full(code, name, trim, product, folder)
+        build_sa_hub_alumnat(code, name, trim, product, folder)
 
 
 def build_doc_pages():
+    ALUMNAT_TARGETS.clear()
+    ALUMNAT_TARGETS.update(PATH_MAP[rel] for rel in ALUMNAT_SPACE)
+    ALUMNAT_TARGETS.update(f"classes/{slugify(folder)}/index.html" for *_r, folder in SA_CARDS)
+
     pages = {}  # rel md → (title, out_rel)
     for p in MD_FILES:
         rel = str(p.relative_to(ROOT)).replace("\\", "/")
@@ -544,18 +670,26 @@ def build_doc_pages():
         text = p.read_text(encoding="utf-8")
         title = page_title(text, p.stem.replace("_", " "))
         MD.reset()
-        body = MD.convert(text)
+        body_md = MD.convert(text)
         current_dir = rel.rsplit("/", 1)[0] if "/" in rel else ""
-        body = rewrite_links(body, out_rel, current_dir)
         page_key = re.sub(r"[^a-z0-9]+", "_", out_rel[:-5].lower()).strip("_")
+
+        # ── còpia completa (vista docent/general) ──
+        body = rewrite_links(body_md, out_rel, current_dir, space="full")
         body = checkboxify(body, page_key)
-        plain_src = body  # sense la barra de navegació (per a l'índex de cerca)
+        plain_src = body
         parts = rel.split("/")
         if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
             foot = sa_context_bar(parts[1], out_rel.rsplit("/", 1)[-1])
-            body = f'<article class="doc">{body}<footer class="sa-foot">{foot}</footer></article>'
+            notice = ""
+            if not rel.endswith("Fitxa_alumnat.md"):
+                slug = slugify(parts[1])
+                prefix_here = rel_prefix(out_rel)
+                notice = (f'<p class="teacher-notice">📖 Això és material del professorat — '
+                          f'<a href="{prefix_here}alumnat/classes/{slug}/index.html">torna a la teva SA</a></p>')
+            body_full = f'<article class="doc">{notice}{body}<footer class="sa-foot">{foot}</footer></article>'
         else:
-            body = f'<article class="doc">{body}</article>'
+            body_full = f'<article class="doc">{body}</article>'
         crumb = [("Inici", "index.html")]
         if "/" in rel:
             section = rel.split("/")[0]
@@ -565,15 +699,42 @@ def build_doc_pages():
         crumb.append((title if len(title) < 60 else title[:57] + "…", None))
         out = OUT / out_rel
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(render_page(title, body, out_rel, crumb), encoding="utf-8")
+        out.write_text(render_page(title, body_full, out_rel, crumb), encoding="utf-8")
         pages[rel] = (title, out_rel)
         plain = re.sub(r"<[^>]+>", " ", plain_src)
         plain = re.sub(r"\s+", " ", html.unescape(plain)).strip()
-        SEARCH_INDEX.append({
-            "t": title, "u": out_rel,
-            "s": rel.split("/")[0] if "/" in rel else "Inici",
-            "x": plain[:4000],
-        })
+        SEARCH_INDEX.append({"t": title, "u": out_rel,
+                              "s": rel.split("/")[0] if "/" in rel else "Inici",
+                              "x": plain[:4000], "sp": "full"})
+
+        # ── còpia dins l'espai alumnat, només si el .md hi pertany ──
+        if rel not in ALUMNAT_SPACE:
+            continue
+        MD.reset()
+        body_alu = MD.convert(text)
+        alu_out_rel = f"alumnat/{out_rel}"
+        body_alu = rewrite_links(body_alu, alu_out_rel, current_dir, space="alumnat")
+        body_alu = checkboxify(body_alu, "alu_" + page_key)
+        plain_alu_src = body_alu
+        if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
+            foot = sa_context_bar(parts[1], out_rel.rsplit("/", 1)[-1], space="alumnat")
+            body_alu = f'<article class="doc">{body_alu}<footer class="sa-foot">{foot}</footer></article>'
+        else:
+            body_alu = f'<article class="doc">{body_alu}</article>'
+        alu_crumb = [("Alumnat", "alumnat/index.html")]
+        if len(parts) >= 3 and parts[0] == "Classes" and sa_idx(parts[1]) is not None:
+            code, name, *_r = SA_CARDS[sa_idx(parts[1])]
+            alu_crumb.append((f"{code} · {name}" if len(f"{code} · {name}") < 60 else code,
+                              f"alumnat/classes/{slugify(parts[1])}/index.html"))
+        alu_crumb.append((title if len(title) < 60 else title[:57] + "…", None))
+        alu_out = OUT / alu_out_rel
+        alu_out.parent.mkdir(parents=True, exist_ok=True)
+        alu_out.write_text(render_page(title, body_alu, alu_out_rel, alu_crumb, space="alumnat"),
+                            encoding="utf-8")
+        plain_alu = re.sub(r"<[^>]+>", " ", plain_alu_src)
+        plain_alu = re.sub(r"\s+", " ", html.unescape(plain_alu)).strip()
+        SEARCH_INDEX.append({"t": title, "u": alu_out_rel, "s": rel.split("/")[0] if "/" in rel else "Inici",
+                              "x": plain_alu[:4000], "sp": "alumnat"})
     return pages
 
 
@@ -581,6 +742,49 @@ def card(href: str, icon: str, title: str, desc: str, badge: str = "") -> str:
     b = f'<span class="badge">{badge}</span>' if badge else ""
     return (f'<a class="card" href="{href}"><div class="card-icon">{icon}</div>'
             f'<div><h3>{html.escape(title)} {b}</h3><p>{html.escape(desc)}</p></div></a>')
+
+
+def build_search_page(out_rel: str, crumb: list[tuple[str, str | None]], space: str) -> None:
+    filter_js = f".filter(p=>p.sp==='{space}')"
+    body = f"""
+<h1>🔍 Cerca al material</h1>
+<p class="lead">Cerca per paraula: «kerf», «tolerància», «carnet», «rúbrica SA5»…</p>
+<p><input id="q" type="search" placeholder="Escriu i prem Enter…" autofocus
+   style="width:100%;padding:.8rem 1.2rem;font-size:1.1rem;border-radius:999px;
+          border:2px solid var(--line);background:var(--bg-card);color:var(--ink)"></p>
+<div id="res"></div>
+<script>
+let IDX=null;
+const q=document.getElementById('q'), res=document.getElementById('res');
+async function cerca(){{
+  if(!IDX) IDX=(await (await fetch('{rel_prefix(out_rel)}assets/cerca-index.json')).json()){filter_js};
+  const terms=q.value.toLowerCase().split(/\\s+/).filter(t=>t.length>1);
+  if(!terms.length){{res.innerHTML='';return;}}
+  const out=[];
+  for(const p of IDX){{
+    const hay=(p.t+' '+p.x).toLowerCase();
+    let score=0, ok=true;
+    for(const t of terms){{
+      const n=hay.split(t).length-1;
+      if(!n){{ok=false;break;}}
+      score+=n+(p.t.toLowerCase().includes(t)?8:0);
+    }}
+    if(ok) out.push([score,p,terms[0]]);
+  }}
+  out.sort((a,b)=>b[0]-a[0]);
+  res.innerHTML=out.slice(0,25).map(([s,p,t])=>{{
+    const i=p.x.toLowerCase().indexOf(t);
+    const frag=i<0?p.x.slice(0,160):p.x.slice(Math.max(0,i-70),i+110);
+    return `<a class="card" href="{rel_prefix(out_rel)}${{p.u}}"><div class="card-icon">📄</div>
+      <div><h3>${{p.t}} <span class="badge">${{p.s}}</span></h3><p>…${{frag}}…</p></div></a>`;
+  }}).join('')||'<p>Cap resultat. Prova una paraula més curta o sense accents.</p>';
+}}
+q.addEventListener('input',()=>{{clearTimeout(q._d);q._d=setTimeout(cerca,250);}});
+</script>
+"""
+    (OUT / out_rel).parent.mkdir(parents=True, exist_ok=True)
+    (OUT / out_rel).write_text(render_page("Cerca", body, out_rel, crumb, space=space),
+                                encoding="utf-8")
 
 
 def build_section_indexes(pages):
@@ -620,7 +824,7 @@ def build_home(pages):
   <div class="hero-actions">
     <a class="btn btn-primary" href="sa.html">🧩 Les 9 SA</a>
     <a class="btn" href="docent.html">👩‍🏫 Soc docent</a>
-    <a class="btn" href="alumnat.html">🧑‍🎓 Soc alumne/a</a>
+    <a class="btn" href="alumnat/index.html">🧑‍🎓 Soc alumne/a</a>
     <a class="btn" href="families.html">👨‍👩‍👧 Soc família</a>
   </div>
 </section>
@@ -640,33 +844,6 @@ def build_home(pages):
 """
     (OUT / "index.html").write_text(
         render_page("Inici", body, "index.html", [("Inici", None)]), encoding="utf-8")
-
-    # Alumnat
-    cards = "\n".join(card(PATH_MAP[rel], icon, t, d) for icon, t, rel, d in ALUMNAT_LINKS)
-    fitxes = "\n".join(
-        f'<a class="chip" href="classes/{slugify(folder)}/index.html">{code}</a>'
-        for code, _n, _t, _p, folder in SA_CARDS)
-    body = f"""
-<h1>🧑‍🎓 Per a l'alumnat</h1>
-<p class="lead">Tot el que fas servir tu: les fitxes de cada repte, com t'avaluaran
-(sense sorpreses!) i el joc de carnets i insígnies.</p>
-<blockquote><p><strong>Com fer servir aquesta web (3 passos):</strong>
-1️⃣ Mira <a href="00_diari_de_classe_alumnat.html">què toca aquesta setmana</a> ·
-2️⃣ Obre la <strong>fitxa de la SA</strong> que estem fent (aquí sota) ·
-3️⃣ Si no entens una paraula, busca-la al
-<a href="classes/sa0_punt_de_partida/vocabulari_basic.html">vocabulari</a>.</p>
-<p>💡 <strong>Fes-te la web teva</strong> amb els botons de dalt: <strong>A−/A+</strong> per la
-mida de la lletra, <strong>Aa↔</strong> per llegir amb més espai (va molt bé si les lletres
-«es mouen»), <strong>🔊</strong> perquè la pàgina es llegeixi sola en veu alta i <strong>🌗</strong>
-pel mode fosc. La web ho recorda per al pròxim dia.</p></blockquote>
-<h2>✏️ Les fitxes de cada SA</h2>
-<div class="chips">{fitxes}</div>
-<h2>Els teus documents</h2>
-<div class="grid">{cards}</div>
-"""
-    (OUT / "alumnat.html").write_text(
-        render_page("Alumnat", body, "alumnat.html",
-                    [("Inici", "index.html"), ("Alumnat", None)]), encoding="utf-8")
 
     # Docent
     dest = "\n".join(card(PATH_MAP[rel], icon, t, d) for icon, t, rel, d in DOCENT_DESTACATS)
@@ -768,45 +945,33 @@ esperem!</p></blockquote>
     import json
     (OUT / "assets" / "cerca-index.json").write_text(
         json.dumps(SEARCH_INDEX, ensure_ascii=False), encoding="utf-8")
-    body = """
-<h1>🔍 Cerca al material</h1>
-<p class="lead">Cerca per paraula: «kerf», «tolerància», «carnet», «rúbrica SA5»…</p>
-<p><input id="q" type="search" placeholder="Escriu i prem Enter…" autofocus
-   style="width:100%;padding:.8rem 1.2rem;font-size:1.1rem;border-radius:999px;
-          border:2px solid var(--line);background:var(--bg-card);color:var(--ink)"></p>
-<div id="res"></div>
-<script>
-let IDX=null;
-const q=document.getElementById('q'), res=document.getElementById('res');
-async function cerca(){
-  if(!IDX) IDX=await (await fetch('assets/cerca-index.json')).json();
-  const terms=q.value.toLowerCase().split(/\\s+/).filter(t=>t.length>1);
-  if(!terms.length){res.innerHTML='';return;}
-  const out=[];
-  for(const p of IDX){
-    const hay=(p.t+' '+p.x).toLowerCase();
-    let score=0, ok=true;
-    for(const t of terms){
-      const n=hay.split(t).length-1;
-      if(!n){ok=false;break;}
-      score+=n+(p.t.toLowerCase().includes(t)?8:0);
-    }
-    if(ok) out.push([score,p,terms[0]]);
-  }
-  out.sort((a,b)=>b[0]-a[0]);
-  res.innerHTML=out.slice(0,25).map(([s,p,t])=>{
-    const i=p.x.toLowerCase().indexOf(t);
-    const frag=i<0?p.x.slice(0,160):p.x.slice(Math.max(0,i-70),i+110);
-    return `<a class="card" href="${p.u}"><div class="card-icon">📄</div>
-      <div><h3>${p.t} <span class="badge">${p.s}</span></h3><p>…${frag}…</p></div></a>`;
-  }).join('')||'<p>Cap resultat. Prova una paraula més curta o sense accents.</p>';
-}
-q.addEventListener('input',()=>{clearTimeout(q._d);q._d=setTimeout(cerca,250);});
-</script>
+    build_search_page("cerca.html", [("Inici", "index.html"), ("Cerca", None)], space="full")
+    build_search_page("alumnat/cerca.html", [("Alumnat", "alumnat/index.html"), ("Cerca", None)], space="alumnat")
+
+
+def build_alumnat_home() -> None:
+    """Selector de SA de l'alumnat + documents transversals del curs."""
+    out_rel = "alumnat/index.html"
+    sa_grid = sa_cards("", base="classes/")
+    # els documents transversals viuen sota alumnat/ (Task 6 els hi genera); aquí ja
+    # apuntem a la seva ruta final dins alumnat/
+    docs = "\n".join(
+        card(f"{PATH_MAP[rel]}", icon, t, d)
+        for icon, t, rel, d in ALUMNAT_LINKS
+    )
+    body = f"""
+<h1>🧑‍🎓 Quina SA esteu fent ara?</h1>
+<p class="lead">Tria la teva SA per obrir-ne la fitxa. Si un altre dia vols
+tornar-hi, aquesta pàgina et recordarà quina és — sempre pots canviar-la amb
+el botó «🔁 Canviar de SA» de dalt.</p>
+<div class="grid">{sa_grid}</div>
+<h2>Documents del curs</h2>
+<div class="grid">{docs}</div>
 """
-    (OUT / "cerca.html").write_text(
-        render_page("Cerca", body, "cerca.html",
-                    [("Inici", "index.html"), ("Cerca", None)]), encoding="utf-8")
+    (OUT / "alumnat").mkdir(parents=True, exist_ok=True)
+    (OUT / out_rel).write_text(
+        render_page("Alumnat", body, out_rel, [("Alumnat", None)], space="alumnat"),
+        encoding="utf-8")
 
 
 def copy_assets():
@@ -845,10 +1010,13 @@ def main():
     (OUT / "assets").mkdir(parents=True)
     shutil.copyfile(ROOT / "web_assets" / "style.css", OUT / "assets" / "style.css")
     build_sequence()
+    build_alumnat_space()
+    build_alumnat_sequence()
     pages = build_doc_pages()
     build_sa_hubs()
     build_section_indexes(pages)
     build_home(pages)
+    build_alumnat_home()
     copy_assets()
     print(f"Web generada a {OUT} — {len(pages)} pàgines de contingut.")
 
