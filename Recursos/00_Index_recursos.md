@@ -9,6 +9,11 @@ per respectar-ne l'autoria i mantenir el repositori net de material d'altri.
 - **[`Guions_de_demo.md`](Guions_de_demo.md)** — les 8 demostracions crítiques del curs, pas a
   pas: què prepares, què fas i dius, l'error típic i la frase que ha de quedar.
 
+- **[`Guia_Inkscape_clauer_SA1.md`](Guia_Inkscape_clauer_SA1.md)** — 🖥️ guia pas a pas per a
+  l'alumnat (13 anys): primer disseny amb Inkscape (mm, formes, text, forat, codi de colors
+  tall/gravat) per digitalitzar el clauer de la SA1. Amb esquemes il·lustratius i punts marcats
+  on enganxar captures de pantalla reals de la vostra versió d'Inkscape.
+
 - **[`Enllacos_i_tutorials.md`](Enllacos_i_tutorials.md)** — llista d'enllaços i tutorials
   **validats** (oficials i en català) per a xTool S1, Bambu P2S, Inkscape, Tinkercad i CoSpaces.
   És el punt de partida per preparar les SA (Inkscape per a SA1–SA3, Tinkercad per a SA4–SA6, etc.).

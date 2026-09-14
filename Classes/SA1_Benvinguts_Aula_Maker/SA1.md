@@ -175,7 +175,8 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
 > 📌 Adaptacions completes (per barrera i per màquina) i la fila d'aquesta SA:
 > `Programació didàctica/DUA_adaptacions_SA.md`.
 
-- **Representació:** demo projectada + fitxa visual pas a pas d'Inkscape.
+- **Representació:** demo projectada + fitxa visual pas a pas d'Inkscape
+  (`Recursos/Guia_Inkscape_clauer_SA1.md`).
 - **Acció/expressió:** plantilla de clauer base per a qui ho necessiti; ampliació ⭐ per a qui
   vulgui dissenyar una forma pròpia complexa.
 
@@ -188,6 +189,7 @@ Clauer personalitzat fabricat a làser + entrada de tancament al diari de taller
   opac/de colors** (el transparent NO es pot tallar amb làser de díode: el feix el travessa);
   anelles de clauer.
 
+- **Guia pas a pas d'Inkscape per a l'alumnat (sessió 2):** `Recursos/Guia_Inkscape_clauer_SA1.md`.
 - Tutorials d'Inkscape validats a `Recursos/Enllacos_i_tutorials.md`; `Normativa/Normes_seguretat_taller.md`.
 - **Material complet de la gimcana** (escenes amb errors, targetes de materials, casos i
   parelles norma-raó, amb solucions): `Classes/SA0_Punt_de_partida/Material_gimcana_seguretat.md`.

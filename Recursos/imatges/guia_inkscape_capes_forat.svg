@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 260" font-family="Segoe UI, system-ui, sans-serif">
+  <!-- Esquema didàctic: codi de colors tall/gravat i regla del forat ≥3 mm de la vora -->
+  <defs>
+    <style>
+      .lbl{fill:#2b2318;font-size:14px;font-weight:700;}
+      .sub{fill:#6b5d4b;font-size:12px;}
+      .lead{stroke:#b9ad95;stroke-width:1.5;stroke-dasharray:3 3;fill:none;}
+      .measure{stroke:#2b2318;stroke-width:1.2;}
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 z" fill="#2b2318"/>
+    </marker>
+  </defs>
+
+  <!-- clauer -->
+  <rect x="60" y="70" width="220" height="100" rx="18" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <circle cx="95" cy="100" r="10" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <text x="180" y="132" text-anchor="middle" font-size="26" font-weight="800" fill="#000">NOM</text>
+
+  <!-- llegenda colors -->
+  <rect x="330" y="70" width="18" height="18" fill="none" stroke="#c0392b" stroke-width="3"/>
+  <text x="356" y="84" class="lbl" fill="#c0392b">TALL (vermell, sense ompliment)</text>
+  <rect x="330" y="98" width="18" height="18" fill="#000"/>
+  <text x="356" y="112" class="lbl" fill="#000">GRAVAT (negre, ple)</text>
+
+  <!-- mesura forat-vora -->
+  <line class="measure" x1="95" y1="100" x2="95" y2="70" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <line class="lead" x1="105" y1="85" x2="170" y2="40"/>
+  <text x="172" y="30" class="lbl">≥ 3 mm del forat a la vora</text>
+  <text x="172" y="46" class="sub">si és menys, el material es trenca en tallar</text>
+
+  <!-- diàmetre forat -->
+  <line class="lead" x1="95" y1="110" x2="60" y2="210"/>
+  <text x="20" y="226" class="lbl">Ø mín. 5 mm</text>
+  <text x="20" y="242" class="sub">perquè hi passi l'anella</text>
+</svg>

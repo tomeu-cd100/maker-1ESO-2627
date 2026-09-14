@@ -24,6 +24,10 @@
 - **Inkscape en català (Softcatalà)** — softcatala.org/programes/inkscape (descàrrega + info).
 - **Tutorial bàsic d'Inkscape en català** (Softcatalà) — guia d'iniciació al dibuix vectorial.
 - **Viquipèdia — "Començant amb l'Inkscape"** — ca.wikipedia.org (Taller gràfic / Tutorials).
+- **"Com fer amb Inkscape un puzle... per tall i gravat làser"** (Instructables, en català) —
+  instructables.com — mateix codi de colors tall/gravat que fem servir al curs.
+- **"10 Primeros Pasos en Inkscape" — tutorial per a principiants** (YouTube, castellà) —
+  youtube.com/watch?v=7tUFhtIeOUQ — formes, text i exportar; bo per repassar a casa.
 - **Vectoritzar un mapa de bits** (activitat XTEC) — xtec.cat/~storres1 (informàtica 4t ESO, act. 25).
 - **"Fabricar peces d'un joc amb tall làser"** (Servei Educatiu Bages, XTEC) — proposta
   Inkscape + làser molt alineada amb la **SA3**: serveiseducatius.xtec.cat/bages.
@@ -97,6 +101,6 @@ repositori** (política de la carpeta `Recursos/`: material de tercers, només e
 ### Fonts (verificades juny 2026)
 - [xTool S1 User Guide](https://support.xtool.com/article/1106) · [XCS Guide](https://support.xtool.com/article/1170) · [Getting Started S1](https://support.xtool.com/academy/course?id=287) · [Beginner guides](https://support.xtool.com/learning-center/collection/22)
 - [Bambu Lab Wiki P2S](https://wiki.bambulab.com/en/p2s) · [P2S Intro](https://wiki.bambulab.com/en/p2s/manual/p2s-intro) · [P2S First Print](https://wiki.bambulab.com/en/p2s/manual/first-print) · [P2S Screen](https://wiki.bambulab.com/en/p2s/manual/screen-operation)
-- [Inkscape (Softcatalà)](https://www.softcatala.org/programes/inkscape/) · [Començant amb l'Inkscape (Viquipèdia)](https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Taller_gr%C3%A0fic/Tutorials/Comen%C3%A7ant_amb_l'Inkscape) · [Vectoritzar (XTEC)](http://www.xtec.cat/~storres1/catala/autoaval/informatica4eso/recursos/activitat25/activitat25.html) · [Tall làser BAGES (XTEC)](https://serveiseducatius.xtec.cat/bages/pot-inici/tecnologia/fabricar-peces-dun-joc-amb-tall-laser/)
+- [Inkscape (Softcatalà)](https://www.softcatala.org/programes/inkscape/) · [Començant amb l'Inkscape (Viquipèdia)](https://ca.wikipedia.org/wiki/Viquip%C3%A8dia:Taller_gr%C3%A0fic/Tutorials/Comen%C3%A7ant_amb_l'Inkscape) · [Puzle tall/gravat làser (Instructables)](https://www.instructables.com/Com-Fer-Amb-Inkscape-Un-Puzle-Amb-Una-Forma-Irregu/) · [10 primers passos (YouTube)](https://www.youtube.com/watch?v=7tUFhtIeOUQ) · [Vectoritzar (XTEC)](http://www.xtec.cat/~storres1/catala/autoaval/informatica4eso/recursos/activitat25/activitat25.html) · [Tall làser BAGES (XTEC)](https://serveiseducatius.xtec.cat/bages/pot-inici/tecnologia/fabricar-peces-dun-joc-amb-tall-laser/)
 - [Tinkercad](https://www.tinkercad.com/) · [Codelearn](https://codelearn.cat/introduccio-al-3d-amb-tinkercad/) · [make+learn](https://makeandlearn.cat/recursos-gratuits/modelatge-3d-tinkercad/) · [Tinkercad Segarra (XTEC)](https://serveiseducatius.xtec.cat/segarra/general/tinkercad/) · [Tecnogallecs (XTEC)](https://blocs.xtec.cat/tecnogallecs/disseny-amb-tinkercad/)
 - [CoSpaces – Getting started](https://www.cospaces.io/getting-started) · [Common Sense review](https://www.commonsense.org/education/reviews/cospaces-edu)

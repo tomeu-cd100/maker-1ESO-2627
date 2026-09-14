@@ -29,6 +29,9 @@ no un tràmit!
 ## Dia 2 — Del paper a la pantalla (Inkscape)
 Ara que ja tens l'esbós decidit, el passes a l'ordinador. Les decisions ja estan preses!
 
+📘 **Guia pas a pas amb tots els detalls:** `Recursos/Guia_Inkscape_clauer_SA1.md` (segueix-la
+en paral·lel si et perds en algun pas).
+
 1. Obre Inkscape i fixa el document en **mm**.
 2. Dibuixa la forma base amb l'eina rectangle/el·lipse.
 3. Afegeix el teu **nom** amb l'eina text.

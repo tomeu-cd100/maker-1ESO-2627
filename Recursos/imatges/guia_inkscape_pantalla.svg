@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Segoe UI, system-ui, sans-serif">
+  <!-- Esquema didàctic (no és una captura real): les 4 zones bàsiques de la finestra d'Inkscape -->
+  <defs>
+    <style>
+      .win{fill:#f7f5f0;stroke:#2b2318;stroke-width:2;}
+      .zone{stroke:#b9ad95;stroke-width:1.5;stroke-dasharray:4 3;fill:none;}
+      .toolbar{fill:#e8934f;opacity:.18;}
+      .top{fill:#7fb3d5;opacity:.22;}
+      .layers{fill:#8fbf7f;opacity:.22;}
+      .canvas{fill:#ffffff;}
+      .lbl{fill:#2b2318;font-size:14px;font-weight:700;}
+      .sub{fill:#6b5d4b;font-size:12px;}
+      .num{fill:#fff;font-size:13px;font-weight:800;}
+      .bubble{fill:#c0392b;}
+    </style>
+  </defs>
+
+  <rect class="win" x="10" y="10" width="620" height="360" rx="10"/>
+
+  <!-- barra superior: mm i mides -->
+  <rect class="top" x="10" y="10" width="620" height="34" rx="10"/>
+  <circle class="bubble" cx="34" cy="27" r="11"/>
+  <text x="34" y="32" text-anchor="middle" class="num">1</text>
+  <text x="54" y="32" class="lbl">Barra superior — unitats (mm) i mida del document</text>
+
+  <!-- barra eines esquerra -->
+  <rect class="toolbar" x="10" y="44" width="48" height="326"/>
+  <circle class="bubble" cx="34" cy="70" r="11"/>
+  <text x="34" y="75" text-anchor="middle" class="num">2</text>
+  <text x="70" y="66" class="lbl">Eines</text>
+  <text x="70" y="83" class="sub">rectangle, el·lipse, text</text>
+
+  <!-- llenç central -->
+  <rect class="canvas" x="58" y="44" width="470" height="326" stroke="#b9ad95" stroke-width="1"/>
+  <circle class="bubble" cx="293" cy="70" r="11"/>
+  <text x="293" y="75" text-anchor="middle" class="num">3</text>
+  <text x="220" y="66" class="lbl">Llenç — aquí dibuixes el clauer, a mida real (mm)</text>
+
+  <!-- exemple de forma dins el llenç -->
+  <rect x="150" y="150" width="180" height="90" rx="16" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <circle cx="180" cy="180" r="9" fill="none" stroke="#c0392b" stroke-width="2"/>
+  <text x="240" y="205" text-anchor="middle" font-size="20" font-weight="800" fill="#2b2318">NOM</text>
+
+  <!-- panell capes dreta -->
+  <rect class="layers" x="528" y="44" width="102" height="326"/>
+  <circle class="bubble" cx="579" cy="70" r="11"/>
+  <text x="579" y="75" text-anchor="middle" class="num">4</text>
+  <text x="538" y="94" class="lbl" font-size="13">Capes /</text>
+  <text x="538" y="110" class="lbl" font-size="13">Ompliment</text>
+  <text x="538" y="126" class="sub">i vora</text>
+  <text x="538" y="150" class="sub">(colors</text>
+  <text x="538" y="164" class="sub">tall/gravat)</text>
+</svg>
