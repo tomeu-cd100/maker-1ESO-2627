@@ -88,9 +88,10 @@ barates que ho eviten:
 | **Bambu Studio** | ❌ | Ordinador de la impressora (aula Maker) |
 
 **Configuració del centre (decisió presa):** el coordinador TIC activa **Linux + Inkscape**
-als Chromebooks. Per tant, **tot el disseny 2D es fa a l'estació ordinària** i el torn de
-l'aula Maker queda net per a **fabricació** → més peces per sessió i cap alumne "esperant
-màquina" davant d'un ordinador que podria ser a l'altra aula.
+als Chromebooks (pas a pas: `Instalacio_Inkscape_Chromebooks.md`). Per tant, **tot el
+disseny 2D es fa a l'estació ordinària** i el torn de l'aula Maker queda net per a
+**fabricació** → més peces per sessió i cap alumne "esperant màquina" davant d'un ordinador
+que podria ser a l'altra aula.
 
 > Pla B (si algun Chromebook falla o Linux dona problemes): els ordinadors de la zona de
 > disseny de l'aula Maker tenen Inkscape i fan de reserva dins el torn de 50'.

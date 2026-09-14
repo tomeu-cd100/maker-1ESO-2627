@@ -7,6 +7,7 @@
 
 - [ ] **Activar Linux + Inkscape als Chromebooks** del grup (decisió ja presa; és el que fa
   possible l'escenari B de la codocència — `Programació didàctica/Codocencia_desdoblament.md` §3).
+  Pas a pas: `Programació didàctica/Instalacio_Inkscape_Chromebooks.md`.
 
 - [x] ~~Crear la carpeta compartida de Drive del grup amb subcarpetes~~ — feta el 15-07-2026
   («Aula Maker 1r ESO 26-27 — Grup», amb `SA1/…SA9/` i `Portafoli/`). **Queda per fer a mà:**
