@@ -13,12 +13,23 @@ import html
 import re
 import shutil
 import unicodedata
+from datetime import date
 from pathlib import Path
 
 import markdown
 
 ROOT = Path(__file__).parent
 OUT = ROOT / "web"
+
+REPO_URL = "https://github.com/tomeu-cd100/maker-1ESO-2627"
+
+MESOS_CA = ["gener", "febrer", "març", "abril", "maig", "juny", "juliol",
+            "agost", "setembre", "octubre", "novembre", "desembre"]
+
+
+def data_generacio() -> str:
+    avui = date.today()
+    return f"{avui.day} de {MESOS_CA[avui.month - 1]} de {avui.year}"
 
 SECTIONS = [
     "Programació didàctica",
@@ -377,8 +388,9 @@ if(saLbl){{
 {body}
 </main>
 <footer class="site-footer">
-  <p>«Aula Maker» · optativa de 1r d'ESO · curs 2026-2027 · material sota
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a></p>
+  <p>Aula Maker — Tomeu Riera, amb l'assistència de Claude Code · material sota
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.ca">CC BY-SA 4.0</a>.</p>
+  <p><a href="{REPO_URL}">Repositori a GitHub</a> · web generada el {data_generacio()}.</p>
 </footer>
 <script>
 const R=document.documentElement, LS=localStorage;
