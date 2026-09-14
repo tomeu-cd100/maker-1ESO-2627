@@ -357,6 +357,9 @@ if(saLbl){{
               aria-label="Escolta aquesta pàgina en veu alta">🔊</button>
       <button id="rellotge" title="Rellotge Maker (temporitzador de 50′)"
               aria-label="Obre el Rellotge Maker">⏱️ Rellotge</button>
+      <a href="{prefix}impressos/Calendari_dia_a_dia.html" target="_blank" rel="noopener"
+         title="Calendari dia a dia del curs (setmana, SA i tasques)"
+         aria-label="Obre el Calendari dia a dia">🗓️ Calendari</a>
       <button id="theme" title="Canvia el tema" aria-label="Canvia el tema">🌗</button>
     </span>
   </nav>

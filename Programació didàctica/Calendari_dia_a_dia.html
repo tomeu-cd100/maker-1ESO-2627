@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Calendari Aula Maker</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+  :root{
+    --bg:#f3f1e9;
+    --surface:#ffffff;
+    --surface-2:#ebe8dd;
+    --ink:#21241d;
+    --ink-soft:#5c6155;
+    --border:#dad5c6;
+    --maker:#b7541c;
+    --maker-soft:#f4ddc9;
+    --maker-ink:#7a3a13;
+    --disseny:#1c6e66;
+    --disseny-soft:#d9ece8;
+    --disseny-ink:#134f49;
+    --sencer:#3d4a7a;
+    --sencer-soft:#e0e2ef;
+    --today:#c0392b;
+    --shadow: 0 1px 2px rgba(33,36,29,.06), 0 6px 16px -8px rgba(33,36,29,.18);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#181a15;
+      --surface:#20231c;
+      --surface-2:#282b22;
+      --ink:#ece8dc;
+      --ink-soft:#a9ac9e;
+      --border:#3a3d31;
+      --maker:#e08a45;
+      --maker-soft:#3a2a1a;
+      --maker-ink:#f4c79a;
+      --disseny:#5fc2b7;
+      --disseny-soft:#153431;
+      --disseny-ink:#a4e5db;
+      --sencer:#96a0dd;
+      --sencer-soft:#242849;
+      --today:#ef8a7d;
+      --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px -8px rgba(0,0,0,.5);
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#181a15;
+    --surface:#20231c;
+    --surface-2:#282b22;
+    --ink:#ece8dc;
+    --ink-soft:#a9ac9e;
+    --border:#3a3d31;
+    --maker:#e08a45;
+    --maker-soft:#3a2a1a;
+    --maker-ink:#f4c79a;
+    --disseny:#5fc2b7;
+    --disseny-soft:#153431;
+    --disseny-ink:#a4e5db;
+    --sencer:#96a0dd;
+    --sencer-soft:#242849;
+    --today:#ef8a7d;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 6px 20px -8px rgba(0,0,0,.5);
+  }
+
+  *{box-sizing:border-box;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:"Work Sans", ui-sans-serif, system-ui, sans-serif;
+    padding:0 20px 64px;
+    line-height:1.45;
+  }
+  h1,h2,h3{ font-family:"Archivo", ui-sans-serif, system-ui, sans-serif; text-wrap:balance; margin:0; }
+  .mono{ font-family:"IBM Plex Mono", ui-monospace, monospace; }
+
+  a{ color:inherit; }
+
+  /* ---------- header ---------- */
+  .hero{
+    max-width:960px; margin:0 auto; padding:40px 0 20px;
+    border-bottom:1px solid var(--border);
+  }
+  .eyebrow{
+    font-family:"IBM Plex Mono"; font-size:12px; letter-spacing:.09em; text-transform:uppercase;
+    color:var(--ink-soft); margin-bottom:10px;
+  }
+  .hero h1{ font-size:clamp(28px,4vw,40px); font-weight:800; letter-spacing:-.01em; }
+  .hero p{ max-width:62ch; color:var(--ink-soft); margin-top:10px; font-size:15px; }
+
+  .legend{
+    display:flex; flex-wrap:wrap; gap:8px 18px; margin-top:20px; font-size:13px;
+  }
+  .legend span{ display:inline-flex; align-items:center; gap:6px; color:var(--ink-soft); }
+  .swatch{ width:11px; height:11px; border-radius:3px; flex:none; }
+  .sw-maker{ background:var(--maker); }
+  .sw-disseny{ background:var(--disseny); }
+  .sw-sencer{ background:var(--sencer); }
+
+  .notaprov{
+    margin-top:16px; padding:10px 14px; border:1px dashed var(--border); border-radius:8px;
+    font-size:13px; color:var(--ink-soft); background:var(--surface);
+  }
+
+  /* ---------- controls ---------- */
+  .controls{
+    position:sticky; top:0; z-index:5; background:var(--bg);
+    max-width:960px; margin:0 auto; padding:14px 0;
+    display:flex; flex-wrap:wrap; gap:10px; align-items:center;
+    border-bottom:1px solid var(--border);
+  }
+  .search{
+    flex:1 1 220px; min-width:0;
+    background:var(--surface); border:1px solid var(--border); border-radius:8px;
+    padding:9px 12px; font:14px "Work Sans"; color:var(--ink);
+  }
+  .search::placeholder{ color:var(--ink-soft); }
+  .trimbtn{
+    font-family:"IBM Plex Mono"; font-size:12.5px; letter-spacing:.03em;
+    border:1px solid var(--border); background:var(--surface); color:var(--ink);
+    border-radius:8px; padding:8px 12px; cursor:pointer;
+  }
+  .trimbtn:hover{ background:var(--surface-2); }
+  .trimbtn:focus-visible, .search:focus-visible{ outline:2px solid var(--disseny); outline-offset:1px; }
+
+  /* ---------- trimestre ---------- */
+  .curs{ max-width:960px; margin:0 auto; }
+  .trimestre-title{
+    display:flex; align-items:baseline; gap:12px; margin:44px 0 18px;
+    scroll-margin-top:64px;
+  }
+  .trimestre-title h2{ font-size:20px; font-weight:800; }
+  .trimestre-title .rang{ font-family:"IBM Plex Mono"; font-size:12.5px; color:var(--ink-soft); }
+  .trimestre-title::after{ content:""; flex:1; height:1px; background:var(--border); }
+
+  /* ---------- week card ---------- */
+  .setmana{
+    background:var(--surface); border:1px solid var(--border); border-radius:12px;
+    box-shadow:var(--shadow); margin-bottom:14px; overflow:hidden;
+  }
+  .setmana.avui{ border-color:var(--today); }
+  .setmana.oculta{ display:none; }
+
+  .cap{
+    display:flex; align-items:center; gap:14px; padding:14px 18px;
+    border-bottom:1px solid var(--border); background:var(--surface-2);
+    flex-wrap:wrap;
+  }
+  .num{ font-family:"IBM Plex Mono"; font-size:12.5px; color:var(--ink-soft); white-space:nowrap; }
+  .sa-badge{
+    font-family:"IBM Plex Mono"; font-weight:600; font-size:12.5px;
+    background:var(--surface); border:1px solid var(--border); border-radius:6px;
+    padding:2px 8px; white-space:nowrap;
+  }
+  .cap h3{ font-size:16px; font-weight:700; flex:1 1 auto; min-width:120px; }
+  .fita{
+    font-size:12px; color:var(--ink-soft); font-style:italic; flex:1 1 100%;
+  }
+  .enllacos{
+    display:flex; flex-wrap:wrap; gap:6px 8px; flex:1 1 100%;
+  }
+  .enllacos a{
+    font-family:"IBM Plex Mono"; font-size:11.5px; text-decoration:none;
+    color:var(--disseny-ink); background:var(--disseny-soft); border-radius:6px;
+    padding:2px 8px; white-space:nowrap;
+  }
+  .enllacos a:hover{ text-decoration:underline; }
+  .enllacos a:focus-visible{ outline:2px solid var(--disseny); outline-offset:1px; }
+  .avuipill{
+    font-family:"IBM Plex Mono"; font-size:11px; letter-spacing:.05em; text-transform:uppercase;
+    background:var(--today); color:#fff; border-radius:6px; padding:2px 8px;
+  }
+  .fetacheck{
+    display:flex; align-items:center; gap:6px; font-size:12.5px; color:var(--ink-soft);
+    margin-left:auto; cursor:pointer; user-select:none;
+  }
+  .fetacheck input{ width:15px; height:15px; accent-color:var(--disseny); }
+
+  .abans{
+    padding:10px 18px; font-size:13px; color:var(--ink-soft); border-bottom:1px solid var(--border);
+  }
+  .abans b{ color:var(--ink); font-weight:600; }
+
+  .dies{ display:grid; grid-template-columns:1fr 1fr; }
+  @media (max-width:560px){ .dies{ grid-template-columns:1fr; } }
+  .dia{ padding:14px 18px; }
+  .dia + .dia{ border-left:1px solid var(--border); }
+  @media (max-width:560px){ .dia + .dia{ border-left:none; border-top:1px solid var(--border); } }
+
+  .diacap{ display:flex; align-items:baseline; justify-content:space-between; gap:8px; margin-bottom:9px; }
+  .diadata{ font-family:"IBM Plex Mono"; font-size:12.5px; color:var(--ink-soft); }
+  .grupmaker{ color:var(--maker-ink); background:var(--maker-soft); }
+  .grupdisseny{ color:var(--disseny-ink); background:var(--disseny-soft); }
+  .grupsencer{ color:var(--sencer); background:var(--sencer-soft); }
+  .grup{
+    font-family:"IBM Plex Mono"; font-size:11px; font-weight:600; letter-spacing:.03em;
+    text-transform:uppercase; border-radius:6px; padding:2px 8px; white-space:nowrap;
+  }
+
+  ul.tasques{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:5px; }
+  ul.tasques li{ font-size:13.5px; padding-left:16px; position:relative; }
+  ul.tasques li::before{
+    content:"–"; position:absolute; left:0; color:var(--ink-soft);
+  }
+
+  .sencerbloc{ padding:14px 18px; }
+  .sencerbloc .grup{ margin-bottom:9px; display:inline-block; }
+
+  .enacabar{
+    padding:10px 18px; font-size:13px; border-top:1px solid var(--border); background:var(--surface-2);
+    color:var(--ink-soft);
+  }
+  .enacabar b{ color:var(--ink); font-weight:600; }
+
+  .nota{ padding:0 18px 12px; font-size:12px; color:var(--ink-soft); font-style:italic; }
+
+  .buit{ text-align:center; padding:40px 0; color:var(--ink-soft); font-size:14px; }
+
+  footer{ max-width:960px; margin:40px auto 0; font-size:12px; color:var(--ink-soft); border-top:1px solid var(--border); padding-top:16px; }
+
+  @media print{
+    .controls{ position:static; }
+    .fetacheck{ display:none; }
+    body{ background:#fff; }
+    .setmana{ box-shadow:none; break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="eyebrow">Aula Maker · 1r ESO · Curs 2026–2027</div>
+  <h1>Calendari dia a dia</h1>
+  <p>
+    Una sessió setmanal de 2h repartida en <b>1h dimarts + 1h dijous</b>. Cada setmana, la meitat
+    del grup (10 alumnes) va a l'<b>aula Maker</b> un dels dos dies i l'altra meitat es queda a
+    l'<b>aula ordinària / estudi de disseny</b>; l'endemà de sessió s'intercanvien. A les
+    setmanes de repte, tancament o Fira, el grup va sencer.
+  </p>
+  <div class="legend">
+    <span><span class="swatch sw-maker"></span>🔧 Estació Maker</span>
+    <span><span class="swatch sw-disseny"></span>💻 Estació de disseny</span>
+    <span><span class="swatch sw-sencer"></span>👥 Grup sencer</span>
+  </div>
+  <div class="notaprov">
+    📅 Dates calculades a partir del dimarts 15 de setembre de 2026, <b>35 setmanes seguides
+    sense descomptar festius ni vacances</b> (Nadal, Setmana Santa, festes locals…): ajusta-les
+    quan tinguis el calendari oficial del centre — la seqüència de setmanes i SA es manté igual.
+    El repartiment Grup A/Grup B entre dimarts i dijous és una proposta que alterna cada setmana:
+    canvia-la si la vostra rotació real és una altra.
+  </div>
+</div>
+
+<div class="controls">
+  <input class="search" id="cerca" type="search" placeholder="Cerca per SA, tasca o setmana…" aria-label="Cerca al calendari">
+  <button class="trimbtn" data-jump="t1">T1</button>
+  <button class="trimbtn" data-jump="t2">T2</button>
+  <button class="trimbtn" data-jump="t3">T3</button>
+  <button class="trimbtn" id="jumpavui">Setmana actual</button>
+</div>
+
+<div class="curs" id="curs"></div>
+
+<footer>
+  Font: <span class="mono">00_Guio_del_curs_docent.md</span>, <span class="mono">Programació didàctica/Temporitzacio_anual.md</span>
+  i <span class="mono">Programació didàctica/Codocencia_desdoblament.md</span>. La marca ✓ es guarda només en aquest navegador.
+</footer>
+
+<script>
+const WEB = "https://tomeu-cd100.github.io/maker-1ESO-2627";
+const ENLLACOS_SA = {
+  SA0: [
+    ["📄 SA0", `${WEB}/classes/sa0_punt_de_partida/sa0.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa0_punt_de_partida/fitxa_alumnat.html`],
+    ["🤝 Dinàmica de cohesió", `${WEB}/classes/sa0_punt_de_partida/dinamica_cohesio_grup.html`],
+    ["🧯 Gimcana de seguretat", `${WEB}/classes/sa0_punt_de_partida/material_gimcana_seguretat.html`],
+    ["🔤 Vocabulari bàsic", `${WEB}/classes/sa0_punt_de_partida/vocabulari_basic.html`],
+  ],
+  SA1: [
+    ["📄 SA1", `${WEB}/classes/sa1_benvinguts_aula_maker/sa1.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa1_benvinguts_aula_maker/fitxa_alumnat.html`],
+    ["🧮 Rúbrica", `${WEB}/classes/sa1_benvinguts_aula_maker/rubrica_sa1.html`],
+    ["✅ Exemple resolt", `${WEB}/classes/sa1_benvinguts_aula_maker/exemple_resolt.html`],
+  ],
+  SA2: [
+    ["📄 SA2", `${WEB}/classes/sa2_dissenyem_en_2d/sa2.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa2_dissenyem_en_2d/fitxa_alumnat.html`],
+    ["🧮 Rúbrica", `${WEB}/classes/sa2_dissenyem_en_2d/rubrica_sa2.html`],
+    ["✅ Exemple resolt", `${WEB}/classes/sa2_dissenyem_en_2d/exemple_resolt.html`],
+  ],
+  SA3: [
+    ["📄 SA3", `${WEB}/classes/sa3_projecte_laser_identitat/sa3.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa3_projecte_laser_identitat/fitxa_alumnat.html`],
+    ["🧮 Rúbrica", `${WEB}/classes/sa3_projecte_laser_identitat/rubrica_sa3.html`],
+    ["✅ Exemple resolt", `${WEB}/classes/sa3_projecte_laser_identitat/exemple_resolt.html`],
+  ],
+  SA4: [
+    ["📄 SA4", `${WEB}/classes/sa4_del_2d_al_3d/sa4.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa4_del_2d_al_3d/fitxa_alumnat.html`],
+    ["🧮 Rúbrica", `${WEB}/classes/sa4_del_2d_al_3d/rubrica_sa4.html`],
+    ["✅ Exemple resolt", `${WEB}/classes/sa4_del_2d_al_3d/exemple_resolt.html`],
+  ],
+  SA5: [
+    ["📄 SA5", `${WEB}/classes/sa5_modelatge_3d_funcional/sa5.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa5_modelatge_3d_funcional/fitxa_alumnat.html`],
+    ["🧮 Rúbrica", `${WEB}/classes/sa5_modelatge_3d_funcional/rubrica_sa5.html`],
+    ["✅ Exemple resolt", `${WEB}/classes/sa5_modelatge_3d_funcional/exemple_resolt.html`],
+  ],
+  SA6: [
+    ["📄 SA6", `${WEB}/classes/sa6_repte_disseny_3d/sa6.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa6_repte_disseny_3d/fitxa_alumnat.html`],
+    ["🧮 Rúbrica", `${WEB}/classes/sa6_repte_disseny_3d/rubrica_sa6.html`],
+    ["✅ Exemple resolt", `${WEB}/classes/sa6_repte_disseny_3d/exemple_resolt.html`],
+  ],
+  SA7: [
+    ["📄 SA7", `${WEB}/classes/sa7_captura_360/sa7.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa7_captura_360/fitxa_alumnat.html`],
+    ["🧮 Rúbrica", `${WEB}/classes/sa7_captura_360/rubrica_sa7.html`],
+    ["✅ Exemple resolt", `${WEB}/classes/sa7_captura_360/exemple_resolt.html`],
+  ],
+  SA8: [
+    ["📄 SA8", `${WEB}/classes/sa8_explorem_la_vr/sa8.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa8_explorem_la_vr/fitxa_alumnat.html`],
+    ["🧮 Rúbrica", `${WEB}/classes/sa8_explorem_la_vr/rubrica_sa8.html`],
+    ["✅ Exemple resolt", `${WEB}/classes/sa8_explorem_la_vr/exemple_resolt.html`],
+  ],
+  SA9: [
+    ["📄 SA9", `${WEB}/classes/sa9_projecte_final/sa9.html`],
+    ["📋 Fitxa alumnat", `${WEB}/classes/sa9_projecte_final/fitxa_alumnat.html`],
+    ["🧮 Rúbrica", `${WEB}/classes/sa9_projecte_final/rubrica_sa9.html`],
+    ["✅ Exemple resolt", `${WEB}/classes/sa9_projecte_final/exemple_resolt.html`],
+  ],
+};
+
+const TRIMESTRES = [
+  { id:"t1", label:"1r trimestre — Cultura maker i làser", desde:1, fins:13 },
+  { id:"t2", label:"2n trimestre — Disseny i impressió 3D", desde:14, fins:25 },
+  { id:"t3", label:"3r trimestre — Immersiu i projecte final", desde:26, fins:35 },
+];
+
+const DOW = ["dg","dl","dt","dc","dj","dv","ds"];
+function fmtData(iso){
+  const d = new Date(iso + "T00:00:00");
+  const dies = ["diu","dil","dmt","dmc","dij","div","dis"];
+  const mesos = ["gen","feb","mar","abr","mai","jun","jul","ago","set","oct","nov","des"];
+  return `${dies[d.getDay()]} ${d.getDate()} ${mesos[d.getMonth()]}`;
+}
+
+function grupPer(n, dia){
+  // dia: 'dt' o 'dj'. Alternem quin grup va a Maker segons la paritat de la setmana.
+  const parell = n % 2 === 0;
+  const dtMaker = parell ? "B" : "A";
+  const djMaker = parell ? "A" : "B";
+  const makerAvui = dia === "dt" ? dtMaker : djMaker;
+  const dissenyAvui = makerAvui === "A" ? "B" : "A";
+  return { makerAvui, dissenyAvui };
+}
+
+function carregat(dades){
+  const cont = document.getElementById("curs");
+  const avui = new Date(); avui.setHours(0,0,0,0);
+  let setmanaAvui = null;
+
+  TRIMESTRES.forEach(tr=>{
+    const h = document.createElement("div");
+    h.className = "trimestre-title";
+    h.id = tr.id;
+    h.innerHTML = `<h2>${tr.label}</h2><span class="rang mono">setm. ${tr.desde}–${tr.fins}</span>`;
+    cont.appendChild(h);
+
+    dades.filter(w=>w.n>=tr.desde && w.n<=tr.fins).forEach(w=>{
+      const card = document.createElement("article");
+      card.className = "setmana";
+      card.dataset.n = w.n;
+      card.dataset.cerca = `${w.sa} ${w.saname} ${w.abans||""} ${w.fita||""} ${(w.sessio||[]).join(" ")} ${(w.maker||[]).join(" ")} ${(w.disseny||[]).join(" ")}`.toLowerCase();
+
+      const dTue = new Date(w.dt + "T00:00:00");
+      const dThu = new Date(w.dj + "T00:00:00");
+      const esAvui = avui>=dTue && avui<=dThu;
+      if (esAvui){ card.classList.add("avui"); setmanaAvui = card; }
+
+      let cos = "";
+      if (w.mode === "sencer"){
+        const tasques = (w.sessio||[]).map(t=>`<li>${t}</li>`).join("");
+        cos = `
+          <div class="sencerbloc">
+            <span class="grup grupsencer">👥 Grup sencer — dt ${fmtData(w.dt)} i dj ${fmtData(w.dj)}</span>
+            <ul class="tasques">${tasques}</ul>
+          </div>`;
+      } else {
+        const gDt = grupPer(w.n, "dt");
+        const gDj = grupPer(w.n, "dj");
+        const makerLi = (w.maker||[]).map(t=>`<li>${t}</li>`).join("");
+        const dissenyLi = (w.disseny||[]).map(t=>`<li>${t}</li>`).join("");
+        cos = `
+          <div class="dies">
+            <div class="dia">
+              <div class="diacap">
+                <span class="diadata">dt ${fmtData(w.dt)}</span>
+              </div>
+              <span class="grup grupmaker">🔧 Grup ${gDt.makerAvui} · Maker</span>
+              <ul class="tasques" style="margin-top:8px">${makerLi}</ul>
+              <span class="grup grupdisseny" style="margin-top:12px">💻 Grup ${gDt.dissenyAvui} · Disseny</span>
+              <ul class="tasques" style="margin-top:8px">${dissenyLi}</ul>
+            </div>
+            <div class="dia">
+              <div class="diacap">
+                <span class="diadata">dj ${fmtData(w.dj)}</span>
+              </div>
+              <span class="grup grupmaker">🔧 Grup ${gDj.makerAvui} · Maker</span>
+              <ul class="tasques" style="margin-top:8px">${makerLi}</ul>
+              <span class="grup grupdisseny" style="margin-top:12px">💻 Grup ${gDj.dissenyAvui} · Disseny</span>
+              <ul class="tasques" style="margin-top:8px">${dissenyLi}</ul>
+            </div>
+          </div>`;
+      }
+
+      const enllacos = (ENLLACOS_SA[w.sa]||[]).map(([label,href])=>
+        `<a href="${href}" target="_blank" rel="noopener">${label}</a>`).join("");
+
+      card.innerHTML = `
+        <div class="cap">
+          <span class="num">SETM. ${String(w.n).padStart(2,"0")}</span>
+          <span class="sa-badge">${w.sa}</span>
+          <h3>${w.saname}</h3>
+          ${esAvui ? '<span class="avuipill">Aquesta setmana</span>' : ""}
+          <label class="fetacheck"><input type="checkbox" data-setmana="${w.n}"> feta</label>
+          ${enllacos ? `<div class="enllacos">${enllacos}</div>` : ""}
+          ${w.fita && w.fita!=="—" ? `<div class="fita">🏁 ${w.fita}</div>` : ""}
+        </div>
+        ${w.abans && w.abans!=="—" ? `<div class="abans"><b>Abans:</b> ${w.abans}</div>` : ""}
+        ${cos}
+        ${w.nota ? `<div class="nota">${w.nota}</div>` : ""}
+        <div class="enacabar"><b>En acabar:</b> ${w.enacabar}</div>
+      `;
+      cont.appendChild(card);
+    });
+  });
+
+  // checkboxes persistents (només en aquest navegador)
+  let fetes = {};
+  try{ fetes = JSON.parse(localStorage.getItem("maker-setmanes-fetes")||"{}"); }catch(e){}
+  cont.querySelectorAll('input[data-setmana]').forEach(cb=>{
+    cb.checked = !!fetes[cb.dataset.setmana];
+    cb.addEventListener("change", ()=>{
+      fetes[cb.dataset.setmana] = cb.checked;
+      try{ localStorage.setItem("maker-setmanes-fetes", JSON.stringify(fetes)); }catch(e){}
+    });
+  });
+
+  document.getElementById("jumpavui").addEventListener("click", ()=>{
+    if (setmanaAvui) setmanaAvui.scrollIntoView({behavior:"smooth", block:"center"});
+  });
+  document.querySelectorAll(".trimbtn[data-jump]").forEach(b=>{
+    b.addEventListener("click", ()=>{
+      document.getElementById(b.dataset.jump).scrollIntoView({behavior:"smooth", block:"start"});
+    });
+  });
+
+  const cerca = document.getElementById("cerca");
+  cerca.addEventListener("input", ()=>{
+    const q = cerca.value.trim().toLowerCase();
+    let cap_trobat = 0;
+    cont.querySelectorAll(".setmana").forEach(c=>{
+      const visible = !q || c.dataset.cerca.includes(q);
+      c.classList.toggle("oculta", !visible);
+      if (visible) cap_trobat++;
+    });
+  });
+}
+
+const DADES = [{"n": 1, "sa": "SA0", "saname": "Punt de partida", "dt": "2026-09-15", "dj": "2026-09-17", "fita": "Grup cohesionat + 1r diari", "abans": "Imprimir fitxes SA0 i material de la dinàmica de cohesió (bingo maker). Vídeo activador i pòster de les Grans Idees.", "mode": "sencer", "sessio": ["Benvinguda i mapa del curs", "Recorregut pel taller (Veig-Penso-Em pregunto)", "Dinàmica de cohesió de grup (bingo maker)", "Com funciona tot: passaport, diari, avaluació, web", "1r diari de taller"], "maker": null, "disseny": null, "enacabar": "Avui NO es formen equips: només cohesió de grup-classe.", "nota": null}, {"n": 2, "sa": "SA0", "saname": "Punt de partida", "dt": "2026-09-22", "dj": "2026-09-24", "fita": "Contracte signat + diagnòstic fet", "abans": "Imprimir contracte, passaports i material de la gimcana (escenes fotografiades!) i avaluació 0. Quadern digital creat.", "mode": "sencer", "sessio": ["Grups aleatoris ràpids", "Gimcana de seguretat", "Signatura del contracte", "Avaluació 0 (diagnòstic inicial)", "Diari"], "maker": null, "disseny": null, "enacabar": "Buidar l'avaluació 0 a la graella C i formar grups A/B i equips T1 (s'usen a la SA1). Res no es qualifica.", "nota": null}, {"n": 3, "sa": "SA1", "saname": "El clauer", "dt": "2026-09-29", "dj": "2026-10-01", "fita": "Esbós acotat", "abans": "Plantilles de paper mil·limetrat 60×25; llapis vermell/negre per parella; mostra per a la demo de làser.", "mode": "sencer", "sessio": ["Demo de làser en directe (tot el grup)", "Esbós del clauer EN PAPER a mida real", "Tall/gravat amb colors vermell (tall) i negre (gravat)", "⏸️ Mínim del dia: esbós acotat"], "maker": null, "disseny": null, "enacabar": "Recollir/fotografiar els esbossos. Deixar l'Inkscape llest per a la setmana 4 (Chromebooks/Linux!).", "nota": "💻 Encara no hi ha Chromebooks repartits: sessió 100% analògica."}, {"n": 4, "sa": "SA1", "saname": "El clauer", "dt": "2026-10-06", "dj": "2026-10-08", "fita": "Clauer dissenyat", "abans": "Chromebooks repartits i provats; plantilla clauer_SA1.svg a punt.", "mode": "sencer", "sessio": ["Demo d'Inkscape", "Digitalitzar l'esbós de paper", "Separar capes: tall / gravat", "⏸️ Mínim del dia: forma + nom + forat"], "maker": null, "disseny": null, "enacabar": "Revisar fitxers (noms correctes: Nom_SA1_vN!) i muntar la planxa de batch per a la setmana 5.", "nota": null}, {"n": 5, "sa": "SA1", "saname": "El clauer", "dt": "2026-10-13", "dj": "2026-10-15", "fita": "Producte SA1", "abans": "Planxa DM 3 mm i anelles; làser comprovada.", "mode": "split", "sessio": null, "maker": ["Checkpoint carnet 🔴 (normes de seguretat)", "Fabricació per batch (~15-20')", "Repàs de fitxers a punt de tall"], "disseny": ["Últims retocs al disseny Inkscape", "Muntatge del clauer un cop fabricat", "Diari de taller", "🏛️ 5' d'obertura del Museu dels Errors"], "enacabar": "Checklist de criteris d'èxit → full de progrés (1a columna qualificada!).", "nota": null}, {"n": 6, "sa": "SA2", "saname": "Marcapàgines", "dt": "2026-10-20", "dj": "2026-10-22", "fita": "—", "abans": "Banc d'imatges per vectoritzar.", "mode": "sencer", "sessio": ["Operacions de camí a Inkscape (unir, restar, intersecar)", "Text → camí"], "maker": null, "disseny": null, "enacabar": "Seguiment al full de seguiment (+/-/!).", "nota": null}, {"n": 7, "sa": "SA2", "saname": "Marcapàgines", "dt": "2026-10-27", "dj": "2026-10-29", "fita": "Disseny a punt", "abans": "—", "mode": "sencer", "sessio": ["Vectorització d'imatges del banc", "Disseny del marcapàgines/etiqueta", "⏸️ Mínim del dia: forma + missatge (imatge del banc si cal)"], "maker": null, "disseny": null, "enacabar": "Revisió de fitxers i nesting abans de la fabricació.", "nota": null}, {"n": 8, "sa": "SA2", "saname": "Marcapàgines", "dt": "2026-11-03", "dj": "2026-11-05", "fita": "Producte SA2", "abans": "Material a punt.", "mode": "split", "sessio": null, "maker": ["Fabricació per batch", "Postprocés"], "disseny": ["Galeria de resultats", "1a coavaluació del curs — calibratge previ amb l'exemple resolt", "Diari"], "enacabar": "Checklist → full de progrés.", "nota": null}, {"n": 9, "sa": "SA3", "saname": "Objecte d'identitat ⭐", "dt": "2026-11-10", "dj": "2026-11-12", "fita": "Esbós validat", "abans": "Catàleg d'objectes-tipus.", "mode": "sencer", "sessio": ["Presentació del repte ⭐ (objecte d'identitat)", "Requisits del producte", "Signatura de peça per membre de l'equip"], "maker": null, "disseny": null, "enacabar": "Validar els plans d'equip abans de la setmana 10.", "nota": null}, {"n": 10, "sa": "SA3", "saname": "Objecte d'identitat ⭐", "dt": "2026-11-17", "dj": "2026-11-19", "fita": "—", "abans": "—", "mode": "sencer", "sessio": ["Disseny d'unions a Inkscape", "⏸️ Mínim del dia: peces estructurals"], "maker": null, "disseny": null, "enacabar": "Revisió conjunta dels dissenys.", "nota": null}, {"n": 11, "sa": "SA3", "saname": "Objecte d'identitat ⭐", "dt": "2026-11-24", "dj": "2026-11-26", "fita": "—", "abans": "Retalls per a mostres; invitacions de la Fira T1 enviades a les famílies.", "mode": "split", "sessio": null, "maker": ["Mostra d'encaix + mesurar el kerf", "Fabricació per equips", "🏛️ 5' d'obertura del Museu dels Errors"], "disseny": ["Ajustos de disseny a partir de la mostra", "Preparació del guió de presentació per a la Fira"], "enacabar": "Seguiment al full de seguiment.", "nota": null}, {"n": 12, "sa": "SA3", "saname": "Objecte d'identitat ⭐", "dt": "2026-12-01", "dj": "2026-12-03", "fita": "—", "abans": "Cola, LED si hi ha làmpades.", "mode": "split", "sessio": null, "maker": ["Muntatge de les peces", "Iteració: refabricar el que no encaixi"], "disseny": ["Documentar el procés al diari", "Preparar l'estand / retolació per a la Fira"], "enacabar": "Seguiment al full de seguiment.", "nota": null}, {"n": 13, "sa": "SA3", "saname": "Objecte d'identitat ⭐", "dt": "2026-12-08", "dj": "2026-12-10", "fita": "Producte final T1", "abans": "Espai de la Fira a punt (aforament ≤10 a l'aula Maker); fulls de progrés al dia.", "mode": "sencer", "sessio": ["🎪 Fira de mostres T1 amb famílies (grups d'≤10 visitants)", "Coavaluació", "Votació de 🏆 L'error del trimestre", "Tancament T1: revisió d'equitat, tiquet anònim, re-formar equips per T2"], "maker": null, "disseny": null, "enacabar": "Rúbrica completa + producte final → full de progrés + valoració de trimestre. Fites de tancament de trimestre (vegeu ⏹️ al Guió).", "nota": null}, {"n": 14, "sa": "SA4", "saname": "Del 2D al 3D", "dt": "2026-12-15", "dj": "2026-12-17", "fita": "Compte Tinkercad", "abans": "Comptes Tinkercad de classe.", "mode": "sencer", "sessio": ["Pensament tridimensional", "Interfície de Tinkercad", "Reptes guiats bàsics"], "maker": null, "disseny": null, "enacabar": "Seguiment.", "nota": "Només Chromebooks: no cal partir el grup entre aula Maker i ordinària."}, {"n": 15, "sa": "SA4", "saname": "Del 2D al 3D", "dt": "2026-12-22", "dj": "2026-12-24", "fita": "Primer cos 3D", "abans": "—", "mode": "sencer", "sessio": ["Moure, escalar i agrupar cossos", "Fer forats", "Reptes de Reptes/Reptes_3D.md"], "maker": null, "disseny": null, "enacabar": "Seguiment.", "nota": "Només Chromebooks: no cal partir el grup."}, {"n": 16, "sa": "SA4", "saname": "Del 2D al 3D", "dt": "2026-12-29", "dj": "2026-12-31", "fita": "Producte SA4", "abans": "PLA carregat, placa neta.", "mode": "sencer", "sessio": ["Disseny lliure", "⏸️ Mínim del dia: 3 cossos + 1 forat exportat", "Batch de placa de mostres (s'imprimeix fora d'horari)"], "maker": null, "disseny": null, "enacabar": "STL amb noms correctes (Nom_SA4_vN) pujat a Drive → checklist → progrés.", "nota": "Es pot portar per torns a veure una demo curta d'impressió (P2S) a l'aula Maker si hi ha temps."}, {"n": 17, "sa": "SA5", "saname": "Peça útil", "dt": "2027-01-05", "dj": "2027-01-07", "fita": "Requisits + STL", "abans": "Regles i peus de rei; banc de problemes-tipus.", "mode": "sencer", "sessio": ["Mesurar la realitat (peça a resoldre)", "Modelar v1 a Tinkercad", "Revisió per parelles → v2", "⏸️ Mínim del dia: mides + v1"], "maker": null, "disseny": null, "enacabar": "Seguiment.", "nota": null}, {"n": 18, "sa": "SA5", "saname": "Peça útil", "dt": "2027-01-12", "dj": "2027-01-14", "fita": "Carnet 🟠", "abans": "Kanban a la paret.", "mode": "split", "sessio": null, "maker": ["Laminat amb Bambu Studio (límits: < 1h / < 40g!)", "Checkpoint carnet 🟠", "Cua per batches de placa"], "disseny": ["Kanban: apuntar la peça a la cua", "Fitxa tècnica de la peça", "Diari"], "enacabar": "Kanban al dia; plaques que s'imprimeixen fora d'horari.", "nota": null}, {"n": 19, "sa": "SA5", "saname": "Peça útil", "dt": "2027-01-19", "dj": "2027-01-21", "fita": "—", "abans": "Impressions en marxa.", "mode": "split", "sessio": null, "maker": ["Seguiment de la primera capa", "Recollida de peces acabades"], "disseny": ["Treball paral·lel: reptes / museu / projecte personal", "Diari"], "enacabar": "Kanban actualitzat.", "nota": null}, {"n": 20, "sa": "SA5", "saname": "Peça útil", "dt": "2027-01-26", "dj": "2027-01-28", "fita": "Producte SA5", "abans": "Alicates, llimes.", "mode": "split", "sessio": null, "maker": ["Postprocés (llimar suports, acabats)", "Prova de funcionalitat de la peça"], "disseny": ["Galeria", "Fitxa tècnica final", "Diari"], "enacabar": "Checklist + fitxa tècnica → progrés.", "nota": null}, {"n": 21, "sa": "SA6", "saname": "Repte amb usuari real ⭐", "dt": "2027-02-02", "dj": "2027-02-04", "fita": "Repte triat", "abans": "Catàleg de reptes; contactar usuaris reals si hi ha APS.", "mode": "sencer", "sessio": ["Presentació del repte ⭐ (usuari real)", "Tria del repte", "Empatia i requisits", "Pla d'equip amb signatura de peça"], "maker": null, "disseny": null, "enacabar": "Validar els plans d'equip.", "nota": null}, {"n": 22, "sa": "SA6", "saname": "Repte amb usuari real ⭐", "dt": "2027-02-09", "dj": "2027-02-11", "fita": "—", "abans": "—", "mode": "sencer", "sessio": ["Modelatge per membre de l'equip a Tinkercad", "Revisió conjunta → v2", "⏸️ Mínim del dia: cada peça imprimible", "1a tanda de laminat/impressió fora d'horari"], "maker": null, "disseny": null, "enacabar": "Validació docent dels dissenys.", "nota": null}, {"n": 23, "sa": "SA6", "saname": "Repte amb usuari real ⭐", "dt": "2027-02-16", "dj": "2027-02-18", "fita": "—", "abans": "Kanban; invitacions de la Fira T2 enviades.", "mode": "split", "sessio": null, "maker": ["Laminat i batches de placa", "Impressió (seguiment)", "🏛️ 5' d'obertura del Museu dels Errors"], "disseny": ["Kanban al dia", "Reimpressió de la iteració (la 1a tanda ja és feta)"], "enacabar": "Plaques que s'imprimeixen fora d'horari.", "nota": null}, {"n": 24, "sa": "SA6", "saname": "Repte amb usuari real ⭐", "dt": "2027-02-23", "dj": "2027-02-25", "fita": "Evidència del feedback", "abans": "Usuari disponible!", "mode": "split", "sessio": null, "maker": ["Muntatge de les peces", "Prova amb l'usuari real", "Iteració segons el feedback"], "disseny": ["Documentar el feedback al diari", "Guió de presentació per a la Fira"], "enacabar": "Recollir evidència del feedback de l'usuari.", "nota": null}, {"n": 25, "sa": "SA6", "saname": "Repte amb usuari real ⭐", "dt": "2027-03-02", "dj": "2027-03-04", "fita": "Producte final T2", "abans": "Espai de la Fira a punt.", "mode": "sencer", "sessio": ["🎪 Fira de mostres T2 amb famílies", "Coavaluació", "Votació de 🏆 L'error del trimestre", "Tancament T2: revisió d'equitat, tiquet anònim, re-formar equips per T3"], "maker": null, "disseny": null, "enacabar": "Rúbrica completa → progrés + valoració T2. Fites de tancament de trimestre.", "nota": null}, {"n": 26, "sa": "SA7", "saname": "Tour 360", "dt": "2027-03-09", "dj": "2027-03-11", "fita": "—", "abans": "Càmera carregada, targeta buida; permisos d'espais.", "mode": "sencer", "sessio": ["Concepte de 360°", "Checkpoint carnet 🟢", "Pla de rodatge per equips"], "maker": null, "disseny": null, "enacabar": "Validar els plans de rodatge.", "nota": null}, {"n": 27, "sa": "SA7", "saname": "Tour 360", "dt": "2027-03-16", "dj": "2027-03-18", "fita": "Captures fetes", "abans": "Full de reserva de torns.", "mode": "split", "sessio": null, "maker": ["Captura 360 per torns (~12'/equip)", "Checkpoint de seguretat de la càmera"], "disseny": ["Estacions: guió del tour, selecció d'imatges, reptes", "⏸️ Mínim del dia: 2 espais/equip"], "enacabar": "Imatges transferides i triades.", "nota": "Torns de captura d'~12' per equip (rotació cronometrada, veure Gestio_temps_maquina §5)."}, {"n": 28, "sa": "SA7", "saname": "Tour 360", "dt": "2027-03-23", "dj": "2027-03-25", "fita": "Producte SA7", "abans": "Espai web/QR preparat (ets el TIC!).", "mode": "split", "sessio": null, "maker": ["Visualització VR del tour per torns"], "disseny": ["Muntatge del tour (navegador)", "PUBLICACIÓ del tour"], "enacabar": "Checklist → progrés.", "nota": null}, {"n": 29, "sa": "SA8", "saname": "Escena VR", "dt": "2027-03-30", "dj": "2027-04-01", "fita": "Fitxa d'anàlisi recollida", "abans": "Ulleres carregades i netes (microfibra!); fitxa §8 de protocol VR omplerta.", "mode": "split", "sessio": null, "maker": ["Protocol d'ús segur de les ulleres", "Checkpoint carnet 🔵", "Exploració per estacions (5 rondes ~10')"], "disseny": ["Fitxa d'anàlisi crítica", "Debat", "Tria del tema per a l'escena"], "enacabar": "Recollir les fitxes d'anàlisi.", "nota": "5 ulleres per a 10 alumnes: rotació en parelles usuari-guia (5 rondes ~10')."}, {"n": 30, "sa": "SA8", "saname": "Escena VR", "dt": "2027-04-06", "dj": "2027-04-08", "fita": "Producte SA8", "abans": "Comptes CoSpaces.", "mode": "split", "sessio": null, "maker": ["Visualització creuada de les escenes (ulleres)", "Galeria"], "disseny": ["Demo de CoSpaces Edu", "Construcció de l'escena", "⏸️ Mínim del dia: 3-4 objectes explorables"], "enacabar": "Checklist → progrés.", "nota": null}, {"n": 31, "sa": "SA9", "saname": "Projecte final ⭐ · FIRA", "dt": "2027-04-13", "dj": "2027-04-15", "fita": "Pla de projecte", "abans": "Data de la Fira reservada i convidats avisats.", "mode": "sencer", "sessio": ["Presentació del projecte final ⭐ integrador", "Pla de projecte per equips (fabricació + immersiu + rols)"], "maker": null, "disseny": null, "enacabar": "Validar el pla de projecte (document) de cada equip.", "nota": null}, {"n": 32, "sa": "SA9", "saname": "Projecte final ⭐ · FIRA", "dt": "2027-04-20", "dj": "2027-04-22", "fita": "—", "abans": "Màquines a punt.", "mode": "split", "sessio": null, "maker": ["Fabricació làser/3D de l'objecte principal"], "disseny": ["Disseny de l'objecte principal", "⏸️ Mínim del dia: objecte principal enviat a fabricar"], "enacabar": "Batches/cua en marxa.", "nota": null}, {"n": 33, "sa": "SA9", "saname": "Projecte final ⭐ · FIRA", "dt": "2027-04-27", "dj": "2027-04-29", "fita": "—", "abans": "—", "mode": "split", "sessio": null, "maker": ["Suport tècnic al component immersiu (si cal dispositiu)"], "disseny": ["Component immersiu: tour 360 o escena CoSpaces"], "enacabar": "Seguiment.", "nota": null}, {"n": 34, "sa": "SA9", "saname": "Projecte final ⭐ · FIRA", "dt": "2027-05-04", "dj": "2027-05-06", "fita": "—", "abans": "Material de retolació.", "mode": "split", "sessio": null, "maker": ["Muntatge de l'estand (làser/3D)"], "disseny": ["Guions de presentació", "Assaig de la presentació"], "enacabar": "Seguiment.", "nota": null}, {"n": 35, "sa": "SA9", "saname": "Projecte final ⭐ · FIRA", "dt": "2027-05-11", "dj": "2027-05-13", "fita": "Producte final de curs", "abans": "Aforament de l'aula Maker organitzat (grups ≤10).", "mode": "sencer", "sessio": ["🎪 GRAN FIRA AULA MAKER (famílies, 6è, altres grups)", "Coavaluació", "Tancament de curs: portafoli, retorn de l'avaluació 0 («mira les teves respostes de setembre»)", "Votació de 🏆 L'error del trimestre"], "maker": null, "disseny": null, "enacabar": "Rúbrica completa + portafoli + valoració T3 + columna «Global curs» + memòria final.", "nota": null}];
+carregat(DADES);
+</script>
+</body>
+</html>
