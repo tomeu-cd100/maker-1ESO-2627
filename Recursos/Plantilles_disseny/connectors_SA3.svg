@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 24 connectors corbatí per a la rajola hexagonal SA3, kerf compensat 0.15 mm.
+     TALL = vermell 0.1 mm · GRAVAT = negre. Generat per generador_rajola_hexagonal.py (Aula Maker). -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="115.0mm" height="73.0mm" viewBox="0 0 115.0 73.0">
+  <g id="TALL" fill="none" stroke="#FF0000" stroke-width="0.1">
+    <path transform="translate(10.00,9.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(29.00,9.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(48.00,9.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(67.00,9.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(86.00,9.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(105.00,9.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(10.00,27.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(29.00,27.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(48.00,27.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(67.00,27.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(86.00,27.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(105.00,27.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(10.00,45.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(29.00,45.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(48.00,45.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(67.00,45.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(86.00,45.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(105.00,45.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(10.00,63.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(29.00,63.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(48.00,63.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(67.00,63.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(86.00,63.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+    <path transform="translate(105.00,63.50)" d="M -7.650,-7.548 L 0.000,-5.157 L 7.650,-7.548 L 7.650,7.548 L 0.000,5.157 L -7.650,7.548 Z"/>
+  </g>
+</svg>

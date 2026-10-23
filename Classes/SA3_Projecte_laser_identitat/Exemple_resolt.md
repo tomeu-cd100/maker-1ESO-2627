@@ -1,65 +1,64 @@
 # Exemple resolt (model per a l'alumnat) — SA3
 
-> **Nota docent:** projecte d'equip. Useu aquest model per mostrar **com es documenta un
-> projecte** i com és una **unió per encaix** ben resolta. Ideal per comentar la *cultura del
-> prototip* (la primera versió no va encaixar... i això és normal).
+> **Nota docent:** useu aquest model a la sessió 1 per ensenyar **com és una rajola acabada** i
+> **com s'omple la fitxa de decisions**. Comenteu la *cultura del prototip* amb el diari: el
+> primer connector no aguantava… i això és normal.
 
 ---
 
-## 🔑 Exemple de producte: una caixa personalitzada amb tapa gravada
-
-Un objecte útil que us representa, fet amb **peces planes que encaixen** sense cola i
-**personalitzat** amb gravat. Vet aquí un exemple: una **caixa amb la tapa gravada** (un nom
-dins d'un cor) tallada a làser en fusta:
+## 🔑 Exemple de producte: la rajola de l'Aina
 
 <figure style="margin:1.2rem 0;text-align:center">
-  <img src="Recursos/imatges/exemple_SA3_caixa_tapa.jpg" alt="Caixa de fusta tallada a làser amb la tapa decorada amb un cor i el nom 'Mama' gravat; a les cantonades s'hi veuen les dents dels encaixos." style="width:100%;max-width:520px;border:1px solid var(--line);border-radius:10px">
-  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem;text-align:left;max-width:520px;margin-inline:auto">
-    Dues tècniques de la SA en un sol objecte: la <strong>tapa gravada</strong> amb un nom
-    (la vostra <strong>identitat</strong>) i les <strong>unions per encaix</strong> —les dents de
-    les cantonades a mida del gruix de la fusta, que aguanten la caixa <strong>sense cola</strong>.
+  <img src="Recursos/Plantilles_disseny/rajola_exemple_SA3.svg" alt="Rajola hexagonal d'exemple: contorn vermell amb una osca en cua d'oronella a cada costat, una estrella gran gravada al centre i el nom AINA gravat a baix." style="width:100%;max-width:360px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem;text-align:left;max-width:360px;margin-inline:auto">
+    La rajola de l'Aina: <strong>contorn i osques</strong> de la plantilla sense tocar (tall),
+    una <strong>estrella</strong> gran dins del cercle i el <strong>nom</strong> a baix (gravat).
   </figcaption>
 </figure>
 
-<p style="text-align:center;font-size:.9rem">🧩 Vols veure les <strong>peces en pla</strong>? <a href="Recursos/Plantilles_disseny/caixa_exemple_80x80x50_g3.svg">Obre el vectorial d'una caixa senzilla a Inkscape</a> i mira les dents i ranures de prop.</p>
+<p style="text-align:center;font-size:.9rem">🧩 Vols veure-la de prop? <a href="Recursos/Plantilles_disseny/rajola_exemple_SA3.svg">Obre el vectorial a Inkscape</a> i compara'l amb la <a href="Recursos/Plantilles_disseny/rajola_hexagonal_SA3.svg">plantilla buida</a>.</p>
 
-**Per què és un bon producte (🌟):**
+**Per què és una bona rajola (💪):**
 
-- Resol una **necessitat real** (endreçar la taula d'estudi).
-- Les **5 peces encaixen** sense cola gràcies a les ranures a mida del gruix.
-- Té **identitat**: el nom de l'equip gravat i un patró d'estrelles.
+- Les **osques** són les de la plantilla: encaixa amb qualsevol rajola del rusc.
+- El símbol és **gran i senzill**: es llegeix a 2 metres.
+- El símbol **cap dins del cercle** i el nom té 4 lletres a la franja de baix.
 
 ---
 
-## 📝 Exemple de fitxa d'equip (emplenada)
-- **Necessitat:** a casa tenim els bolis i clips escampats.
-- **Requisits:** ha de tenir ≥3 compartiments, cabre en una cantonada, muntar-se sense cola.
-- **Idees:** (1) safata plana (2) torre vertical (3) organitzador amb calaix → **triem la 1**
-  perquè és més estable i fàcil d'encaixar.
-
-- **Peces:** base, 2 laterals, 2 separadors. **Material:** DM 3 mm.
-- **Rols:** Aina (disseny), Pol (operador làser), Nora (documentació), Hug (coordinació).
+## 📝 Exemple de fitxa de decisions (emplenada)
+- **A. Què vull que digui de mi:** ☑ *Vull ser…* **astronauta**.
+- **B. D'on surt el símbol:** ☑ dibuix meu senzill.
+- **C. Lletra:** ☑ lletra gruixuda.
+- **2 esbossos:** (1) un coet amb finestres i flames (2) una estrella de 5 puntes →
+  **trio la 2 perquè** el coet tenia detalls massa petits i a 2 metres no es veurien.
+- **Equip:** Aina (📏 mesures), Pol (🔗 connectors), Nora (📔 documentació), Hug (🎤 presentació).
+  Ordre de la bresca: Aina 1 · Pol 2 · Nora 3 · Hug 4.
 
 ---
 
 ## 📔 Exemple d'entrada al diari (ben feta)
-> **Sessió 3:** abans de tallar-ho tot vam fer una **mostra d'encaix** (dos trossets). Vam
-> dibuixar una ranura de 3,0 mm i, tallada, feia 3,15 mm: el làser "es menja" **0,15 mm** — el
-> **kerf**! La primera ranura quedava fluixa → la vam ajustar restant el kerf i va encaixar
-> perfecte. Després vam tallar totes les peces. **Aprenentatge:** sempre val la pena provar una
-> mostra abans! **Evidència:** [foto de la mostra i de l'organitzador muntat].
+> **Sessió 2:** vam tallar la **mostra de connectors**. El 0,0 entrava sol i queia; el 0,3 no
+> entrava ni empenyent. El **0,2** entrava fent força amb el polze i no queia en sacsejar:
+> **el nostre kerf és 0,2 mm**. Amb el peu de rei, la cintura del connector 0,0 feia 9,8 mm en
+> lloc de 10,0: el làser es menja dècimes!
+>
+> **Sessió 4:** la bresca es desmuntava en aixecar-la per la rajola del Hug. Un connector era
+> del full vell (0,15). El vam canviar per un de 0,2 i va aguantar. **Aprenentatge:** tots els
+> connectors han de ser del mateix kerf. **Evidència:** [foto de la mostra i de la bresca muntada].
 
-**Per què és bona:** documenta una **iteració real** (provar → fallar → ajustar → encertar),
+**Per què és bona:** documenta una **iteració real** (provar → fallar → canviar → encertar),
 que és el cor del pensament de disseny.
 
 <figure style="margin:1.2rem 0;text-align:center">
-  <img src="Recursos/Plantilles_disseny/mostra_encaix_kerf_SA3.svg" alt="Mostra d'encaix: cinc ranures de proves de 2,6 a 3,4 mm per trobar quina agafa just una peça de 3 mm; el kerf és la diferència." style="width:100%;max-width:480px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem">
-  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem">La <strong>mostra d'encaix</strong> que descriu el diari: talles ranures de 2,6 a 3,4 mm i mires <strong>quina t'agafa just</strong> la peça de 3 mm. La diferència amb 3,0 és el <strong>kerf</strong>.</figcaption>
+  <img src="Recursos/Plantilles_disseny/mostra_connectors_SA3.svg" alt="Mostra de connectors: dos cupons rectangulars amb una osca en cua d'oronella i quatre connectors en forma de corbatí numerats 0,0, 0,1, 0,2 i 0,3." style="width:100%;max-width:420px;background:#fff;border:1px solid var(--line);border-radius:10px;padding:.8rem">
+  <figcaption style="font-size:.9rem;color:var(--ink-soft);margin-top:.5rem">La <strong>mostra de connectors</strong> que descriu el diari: el número del connector que entra amb el polze i no cau és el <strong>kerf</strong> de l'equip.</figcaption>
 </figure>
 
 ---
 
 ## ⚠️ Contraexemple
-- Tallar les 50 peces sense provar una mostra → si el gruix no quadra, es malgasta tot.
-- "Projecte" d'una sola peça plana sense unions → no compleix el repte.
-- Repartir-se la feina sense coordinar les **mides comunes** → les peces no encaixen entre si.
+- Escalar la rajola «perquè hi càpiga més dibuix» → les osques canvien de mida i el connector no hi entra.
+- Un símbol ple de detalls petits (lletres dins del dibuix, línies fines) → a 2 metres és una taca.
+- Oblidar d'amagar la capa GUIA → el làser grava (o talla) el cercle blau.
+- Tallar els 24 connectors sense provar la mostra → si el kerf no quadra, es llença tot el full.

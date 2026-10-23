@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Motiu «Programació» (Què vull ser) per a la rajola del rusc SA3. GRAVAT = negre. Diàmetre 56 mm: cap al cercle guia sense escalar. Aula Maker, CC BY-SA 4.0. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="56mm" height="56mm" viewBox="0 0 56 56">
+  <path id="codi" fill="#000000" fill-rule="nonzero" d="M 20.49,17.00 L 9.29,29.32 L 6.39,26.68 L 17.59,14.36 Z M 9.29,26.68 L 20.49,39.00 L 17.59,41.64 L 6.39,29.32 Z M 38.41,14.36 L 49.61,26.68 L 46.71,29.32 L 35.51,17.00 Z M 49.61,29.32 L 38.41,41.64 L 35.51,39.00 L 46.71,26.68 Z M 34.36,12.86 L 25.40,44.22 L 21.64,43.14 L 30.60,11.78 Z"/>
+</svg>

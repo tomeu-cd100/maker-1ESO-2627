@@ -86,32 +86,33 @@ practicarem amb un exemple).
 **En sortir tindràs:** el teu segon producte — i l'ull més entrenat.
 **🎒 No te n'oblidis:** passar el 🚦 semàfor abans de tallar i desar el fitxer amb el teu nom.
 
-### Setmana 9 — ⭐ Arrenca el projecte d'identitat 🪵 👥
-**Què farem:** en equip, triareu un **objecte útil que us representi** (organitzador, làmpada,
-joc, caixa…), definireu requisits i fareu el pla. Cadascú **signa una peça**: una part de
-l'objecte que és responsabilitat teva.
-**🎒 Vine amb:** idees. Quin objecte diu alguna cosa de vosaltres?
-**⏸️ Mínim d'avui:** pla d'equip validat pel professor.
+### Setmana 9 — ⭐ Arrenca el rusc de la classe 🐝 👥
+**Què farem:** cadascú farà **una rajola hexagonal** amb el seu nom i un símbol que expliqui
+alguna cosa d'ell/a. Totes juntes formaran **el rusc de la classe**, que es penjarà a l'aula.
+Avui marcaràs **3 decisions** a la fitxa i dibuixaràs la rajola a mida real.
+**🎒 Vine amb:** una idea: què t'agrada, què ets o què vols ser?
+**⏸️ Mínim d'avui:** les 3 decisions marcades i l'esbós validat pel professor.
 
-### Setmana 10 — Unions que encaixen 🧩 🔁
-**Què farem:** el salt tècnic del trimestre: dissenyar **ranures a mida del gruix de la fusta**
-perquè les peces encaixin sense cola. A l'aula Maker en tocaràs de reals.
-**⏸️ Mínim d'avui:** les peces estructurals amb les unions dibuixades (la decoració pot esperar).
+### Setmana 10 — La rajola a l'ordinador + el connector 🧩 🔁
+**Què farem:** passar la rajola a Inkscape amb la **plantilla** (pas a pas a la fitxa) i, a
+l'aula Maker, provar la **mostra de connectors**: el corbatí que uneix dues rajoles.
+**⏸️ Mínim d'avui:** la rajola desada amb el teu nom i el símbol dins del cercle.
 
-### Setmana 11 — El kerf: la làser es menja mil·límetres 📏 🔁
-**Què farem:** abans de fabricar-ho tot, tallarem una **mostra d'encaix** i mesurarem el
-**kerf** (el que «es menja» el làser). Ajustarem el disseny i fabricarem les peces per equips.
+### Setmana 11 — Fabriquem! 📏 🔁
+**Què farem:** passar el 🚦 semàfor i tallar les rajoles i els connectors de l'equip. Sabràs
+quin és el **kerf** (el que «es menja» el làser) i per què el connector ha de ser *just*.
 **En sortir sabràs:** per què els makers proven abans de fabricar — l'error barat evita el car.
 
-### Setmana 12 — Muntatge i iteració 🔧 🔁
-**Què farem:** muntar l'objecte, provar que s'aguanta i funciona, i **refabricar el que no
-encaixi**. Refer una peça no és fracassar: és iterar, i és exactament el que fan els professionals.
-**No te n'oblidis:** foto del muntatge al diari, encara que no estigui acabat. I recorda a
-casa que la setmana que ve és la **Fira**!
+### Setmana 12 — Muntem la bresca i el rusc 🔧 🔁
+**Què farem:** unir les 4 rajoles de l'equip (la **bresca**) i fer la **prova**: aixecar-la
+per una rajola. Si es desmunta, canviem el connector. Al final, juntarem totes les bresques:
+**el rusc sencer!** Canviar una peça no és fracassar: és iterar.
+**No te n'oblidis:** foto de la bresca al diari. I recorda a casa que la setmana que ve és la
+**Fira**!
 
 ### Setmana 13 — 🎪 Fira de mostres del T1 (amb famílies!) + tancament 📦 👥
-**Què farem:** la **primera Fira del curs**: cada equip presenta el seu projecte (problema →
-solució → procés → millores) **davant les famílies**. Després: coavaluació, portafoli del
+**Què farem:** la **primera Fira del curs**, davant del rusc: cada equip presenta la seva
+bresca i cadascú diu **la seva frase** sobre la seva rajola, **davant les famílies**. Després: coavaluació, portafoli del
 trimestre, veure amb el professor **el teu full de progrés**, votar 🏆 **l'error del
 trimestre** al Museu, dir la teva sobre l'assignatura (tiquet anònim) i escriure el teu 🎯
 objectiu per al T2.

@@ -34,7 +34,7 @@
 | SA0 | Avaluació 0 + contracte + 1a entrada del diari | **Cap — intencionat**: SA diagnòstica, no es qualifica (`Avaluacio_inicial.md`, graella C) | — | — |
 | SA1 | **Clauer** fabricat + esbós + diari | `Classes/SA1_…/Rubrica_SA1.md` | Rúbrica SA1 (el clauer) | 6 |
 | SA2 | **Marcapàgines** + aprofitament material + casella 🕵️ llicències | `Classes/SA2_…/Rubrica_SA2.md` | Rúbrica SA2 (el marcapàgines) | 7 |
-| SA3 ⭐ | **Objecte d'identitat** (equip) + mostra d'encaix + presentació + portafoli T1 | `Classes/SA3_…/Rubrica_SA3.md` + fila de qualitat de `Rubrica_producte_final.md` | **Rúbrica SA3 combinada ⭐** | 9 |
+| SA3 ⭐ | **Rajola hexagonal** + bresca d'equip (rusc) + mostra de connectors + presentació + portafoli T1 | `Classes/SA3_…/Rubrica_SA3.md` + fila de qualitat de `Rubrica_producte_final.md` | **Rúbrica SA3 combinada ⭐** | 9 |
 | SA4 | **STL propi** imprès en batch + diari amb captures | `Classes/SA4_…/Rubrica_SA4.md` | Rúbrica SA4 (primer objecte 3D) | 5 |
 | SA5 | **Peça funcional** impresa + v1→v2 + fitxa tècnica | `Classes/SA5_…/Rubrica_SA5.md` | Rúbrica SA5 (peça útil) | 7 |
 | SA6 ⭐ | **Solució per a usuari real** (equip) + prova amb l'usuari + presentació + portafoli T2 | `Classes/SA6_…/Rubrica_SA6.md` + fila de qualitat | **Rúbrica SA6 combinada ⭐** | 10 |

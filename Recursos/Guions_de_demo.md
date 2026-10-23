@@ -65,25 +65,25 @@ surt) i línies de tall gruixudes «perquè es vegin» — el gruix no importa, 
 (la làser la grava com un borrissol gris).
 **La frase que ha de quedar:** «Imatge simple i amb contrast, i la foto original s'esborra.»
 
-## Demo 4 — Unions per encaix i el kerf (setmanes 9-10 · SA3 · màx. 25')
+## Demo 4 — La cua d'oronella, el connector i el kerf (setmana 10 · SA3 · màx. 25')
 
-**Prepara:** dues peces reals que encaixin (d'una caixa tallada) i el peu de rei.
+**Prepara:** dues rajoles hexagonals tallades, connectors de kerf 0,0 i 0,2, la
+`mostra_connectors_SA3.svg` tallada i el peu de rei.
 **El guió:**
 
-1. Fes encaixar les peces a mà i desmunta-les: «cap cola. El truc: la ranura fa exactament
-   el gruix de la fusta».
+1. Uneix dues rajoles amb un connector i aixeca-les per una: «cap cola. El truc: l'osca és
+   **més ampla per dins** que a la vora, i el connector no pot sortir estirant».
 
-2. Mesura el gruix de la planxa amb el peu de rei davant de tothom (3 mm? comprova-ho: sovint
-   és 2,7!). «Mesura dues vegades, fabrica una.»
+2. Prova el connector 0,0: entra sol i cau. «Per què, si l'hem dibuixat exacte?» Mesura'n la
+   cintura amb el peu de rei davant de tothom (10,0 dibuixat → 9,8 tallat?).
 
-3. A Inkscape: dibuixa una ranura de l'amplada mesurada en una peça, i la pestanya
-   corresponent a l'altra. Alinea-les per ensenyar que coincideixen.
+3. «El làser es menja material a cada tall: és el **kerf**. El connector s'aprima i l'osca
+   s'eixampla.» Prova el 0,2: entra amb el polze i aguanta.
 
-4. Presenta la **mostra d'encaix** (setmana 10): «abans de fabricar l'objecte, tallem això de
-   2 minuts. La ranura dibuixada de 3,0 sortirà més ampla: la diferència és el **kerf**, el
-   que es menja el làser. El mesurarem i ajustarem el disseny».
-**L'error que veuràs segur:** ranures «de 3 mm» sobre fusta que en fa 2,7, i equips que volen
-saltar-se la mostra per anar de pressa.
+4. Presenta la **mostra de connectors**: «abans de tallar 24 connectors, tallem això de 2
+   minuts. El número del que aguanta és el vostre kerf».
+**L'error que veuràs segur:** alumnes que escalen la rajola (les osques canvien i el connector
+no hi entra), i equips que volen saltar-se la mostra per anar de pressa.
 **La frase que ha de quedar:** «L'error barat de 2 minuts evita l'error car de 20.»
 
 ## Demo 5 — Tinkercad: cossos, forats i agrupar (setmanes 14-15 · SA4 · màx. 20')

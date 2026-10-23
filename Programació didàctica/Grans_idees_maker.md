@@ -43,7 +43,7 @@
 | 2️⃣ Petit i acabat | Clauer acabat > mural a mitges | Límits < 1 h / < 40 g als criteris d'èxit | Escena senzilla explorable > món ambiciós buit |
 | 3️⃣ Mesura dues vegades | Mostra d'encaix abans de tallar-ho tot | Mides reals + revisió v1→v2 abans de laminar | Pla de rodatge abans de sortir amb la càmera |
 | 4️⃣ L'error és informació | L'encaix que balla → ajustar el kerf | La primera capa fallida → Museu dels Errors | La captura moguda → repetir amb trípode |
-| 5️⃣ Dissenyem per a algú | Objecte d'identitat (SA3): útil per a tu | Ajuda tècnica (SA6): útil per a un usuari real | Tour (SA7): útil per a famílies i alumnat de 6è |
+| 5️⃣ Dissenyem per a algú | Rajola del rusc (SA3): la teva peça per a l'aula de tots | Ajuda tècnica (SA6): útil per a un usuari real | Tour (SA7): útil per a famílies i alumnat de 6è |
 
 ## Com s'usen (ritual, no decoració)
 
@@ -65,7 +65,7 @@
 |----|--------------------:|-----------|
 | SA1 | 1️⃣ | Materials permesos/prohibits; tall vs gravat |
 | SA2 | 3️⃣ | Mides, aprofitament de la planxa |
-| SA3 | 1️⃣ (+4️⃣) | Kerf i mostra d'encaix; iteració del prototip |
+| SA3 | 1️⃣ (+4️⃣) | Kerf i mostra de connectors; iteració de la bresca |
 | SA4 | 2️⃣ | Límits de mida; primer objecte 3D acabat |
 | SA5 | 3️⃣ (+4️⃣) | Mides reals, v1→v2; anàlisi d'incidències |
 | SA6 | 5️⃣ | Disseny centrat en l'usuari, prova real |

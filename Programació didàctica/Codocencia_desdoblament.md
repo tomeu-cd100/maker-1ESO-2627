@@ -123,7 +123,7 @@ dues:
 |----|------------------------|------------------------------|
 | SA1 | Fabricació batch del clauer + checkpoint carnet 🔴 + repàs de fitxers a punt de tall | Esbós amb mides, **disseny Inkscape (Chromebook)**, repàs del contracte (signat a SA0), vocabulari, diari |
 | SA2 | Fabricació batch, preparació a XCS, postprocés | Esbós, **Inkscape: operacions de camí i vectorització (Chromebook)**, fitxa, diari |
-| SA3 | Mostra d'encaix + mesura del kerf, fabricació, muntatge i ajust | Requisits, **disseny de peces i unions a Inkscape (Chromebook)**, rols (signatura de peça), guió de presentació |
+| SA3 | Mostra de connectors + kerf, fabricació de rajoles i connectors, muntatge de la bresca | Fitxa de decisions, **rajola a Inkscape sobre plantilla (Chromebook)**, rols d'equip, guió de presentació |
 | SA4 | Demo P2S + batch de placa de mostres + observació d'impressió | **Tot el modelatge Tinkercad** (navegador), reptes 3D, diari |
 | SA5 | Laminat (Bambu Studio per torns), checkpoint carnet 🟠, kanban, primera capa, postprocés | Mesures reals, modelatge Tinkercad, revisió v1→v2 per parelles, fitxa tècnica |
 | SA6 | Laminat i batches de placa, impressió, muntatge, proves amb l'usuari | Empatia i requisits, modelatge de cada peça, coordinació de mides, presentació |

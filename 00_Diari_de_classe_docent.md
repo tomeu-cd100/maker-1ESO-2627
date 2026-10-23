@@ -240,99 +240,107 @@ imatges simples i d'alt contrast, o banc de plantilles.
 
 ---
 
-## Setmana 9 · SA3 · S1/5 — «⭐ El repte d'identitat: idear i planificar» 👥 grup sencer
+## Setmana 9 · SA3 · S1/5 — «⭐ El rusc de la classe: la meva decisió» 👥 grup sencer
 
-**Fil del dia:** arrenca el primer projecte d'equip amb muntatge de peces. Avui es decideix
-tot: objecte, requisits, rols i **signatura de peça**.
+**Fil del dia:** arrenca el projecte del trimestre: cada alumne fa una rajola hexagonal i
+totes juntes faran el rusc. Avui no s'inventa l'objecte: es **trien 3 coses** i es fa l'esbós.
 
-**🎒 Abans:** catàleg d'objectes-tipus (caixa → organitzador → làmpada ⭐); equips T1 a la vista.
+**🎒 Abans:** una **rajola tallada + 2 connectors** per passar de mà en mà; `rusc_esquema_SA3.svg`
+projectat; **plantilla 1:1 impresa** (una per alumne, `rajola_hexagonal_SA3.svg` a escala 100 %);
+**galeria del banc de motius impresa** (`Recursos/Banc_motius_SA3.md`) a cada taula; equips T1 a la vista.
 **▶️ Obertura (10'):** 🎯 *feed-forward* + pregunta guia + 🧭 Gran Idea 1 + 4 (*l'error és informació*).
 **Desenvolupament:**
 
-1. **Repte i exemples (20')** — ensenya objectes reals amb encaixos per tocar.
-2. **Necessitat + idear (40')** — objecte, usuari, requisits per equip.
-3. **Esbós i planificació (50')** — peces, mides, materials, rols amb **signatura de peça** (cada membre respon d'una part identificable). **Tu valides cada pla** abans que marxin.
+1. **El rusc, en mà (20')** — munta i desmunta dues rajoles davant de tothom; els 4 requisits comuns.
+2. **Fitxa de decisions (40')** — 3 decisions tancades + 2 esbossos del símbol + 1 motiu.
+3. **Esbós 1:1 i pla d'equip (40')** — sobre la plantilla impresa; ordre de la bresca + rols (mesures, connectors, documentació, presentació). **Tu valides cada esbós** abans que marxin.
 **⏹️ Tancament (10'):** diari (rutina d'equip: *El més difícil / Com ho hem resolt* comença avui).
 
-**📋 En acabar:** plans d'equip validats i arxivats (són evidència CA1.1-1.3).
-**⚠️ Vigila:** equips que trien objectes impossibles (mides gegants, 30 peces). El filtre és el
-pla validat: retorna'l amb preguntes, no amb un «no».
+**📋 En acabar:** esbossos i plans d'equip validats i arxivats (són evidència CA1.1-1.3).
+**⚠️ Vigila:** símbols amb detalls minúsculs (lletres dins del dibuix, línies fines). La prova
+és sempre la mateixa: «allunya't 2 metres: es veu?». I l'alumne bloquejat davant la casella A:
+ofereix-li 3 exemples de frase, no la resposta.
 
 ---
 
-## Setmana 10 · SA3 · S2/5 — «Unions per encaix» 🔁 rotació (obre Maker: **grup A**)
+## Setmana 10 · SA3 · S2/5 — «La rajola a Inkscape + mostra de connectors» 🔁 rotació (obre Maker: **grup A**)
 
-**Fil del dia:** el salt tècnic del trimestre: dissenyar ranures a mida del gruix del material.
+**Fil del dia:** passar l'esbós a la plantilla digital i trobar el kerf de cada equip.
 
-**🎒 Abans:** peces amb encaixos reals per passar de mà en mà; `generador_caixa_encaix.py` provat si algun equip fa caixa.
-**▶️ Obertura (10'):** «per què 3 mm no són 3 mm» (presenta el kerf sense dir-ne el nom encara).
+**🎒 Abans:** `rajola_hexagonal_SA3.svg` a la carpeta de Drive de la SA; `mostra_connectors_SA3.svg`
+a punt per tallar (retalls de 70 × 70 mm, un per equip); peu de rei a l'estació Maker.
+**▶️ Obertura (10'):** «per què el connector no cau» (la cua d'oronella, en mà).
 
-- 🔧 **Estació Maker:** **demo d'unions per encaix (25')** amb material físic + acompanyament del disseny de les unions de cada equip (la part tècnica del disseny es fa aquí, amb tu).
-- 💻 **Estudi de disseny:** la resta de peces i gravats decoratius a Inkscape; repartiment segons la signatura de peça; diari.
-**⏸️ Mínim:** les peces **estructurals** amb les unions dibuixades — els gravats poden esperar a la S3.
+- 🔧 **Estació Maker:** **demo de la cua d'oronella i el connector (25')** + cada equip talla la **mostra de connectors**, prova els 4 i apunta el **kerf** (el que entra amb el polze i no cau); mesura de la cintura amb el peu de rei.
+- 💻 **Estudi de disseny:** el **pas a pas de la fitxa** (8 caselles): nom, símbol dins del cercle, text a camí, capa GUIA amagada, `ElMeuNom_SA3_v1.svg`; diari.
+**⏸️ Mínim:** rajola v1 desada + kerf de l'equip apuntat — el símbol es pot polir a la S3.
 **⏹️ Tancament (5'):** diari.
 
-**📋 En acabar:** revisió conjunta dels fitxers d'equip (unions completes? noms correctes?).
-**⚠️ Vigila:** l'equip que «ja ho té» i no ha dibuixat cap unió. Sense unions no hi ha objecte,
-només siluetes.
+**📋 En acabar:** revisió dels fitxers (osques intactes? GUIA amagada? noms correctes?) i
+**genera el full de connectors** de cada equip amb el seu kerf (`generador_rajola_hexagonal.py
+--tipus connectors --kerf 0.2`, vegeu `Recursos/Plantilles_disseny/README.md`).
+**⚠️ Vigila:** l'alumne que **escala la rajola** per fer-hi cabre més dibuix: les osques canvien
+de mida i el connector ja no hi entra. Si passa, torna a obrir la plantilla.
 
 ---
 
-## Setmana 11 · SA3 · S3/5 — «Mostra d'encaix, kerf i fabricació» 🔁 rotació (obre Maker: **grup B**)
+## Setmana 11 · SA3 · S3/5 — «Fabricació de rajoles i connectors» 🔁 rotació (obre Maker: **grup B**)
 
-**Fil del dia:** el moment més maker del trimestre: mesurar el kerf real i fabricar per equips.
+**Fil del dia:** el moment més maker del trimestre: fabricar per equips.
 
-**🎒 Abans:** retalls per a mostres (i la `mostra_encaix_kerf_SA3.svg` a punt); peu de rei a
-l'estació Maker; planxes per equip preparades. **Envia les invitacions de la 🎪 Fira T1 a les
-famílies** (la data es va reservar al setembre; una nota curta amb dia, hora i què veuran).
-**▶️ Obertura (10'):** què és la mostra d'encaix i per què fabrica abans que ningú.
+**🎒 Abans:** planxes per equip (4 rajoles ≈ 250 × 210 mm col·locades costat amb costat); fulls
+de connectors generats amb el kerf de cada equip. **Envia les invitacions de la 🎪 Fira T1 a
+les famílies** (la data es va reservar al setembre; una nota curta amb dia, hora i què veuran).
+**▶️ Obertura (10'):** semàfor de fabricació + per què els hexàgons **tessel·len** (planxa sense retalls).
 
-- 🔧 **Estació Maker:** tallar la **mostra d'encaix** de cada equip → **mesurar el kerf** (ranura dibuixada 3,0 mm vs mesurada: la diferència és el que es menja el làser) → ajustar unions → **fabricació per batch d'equip**.
-- 💻 **Estudi de disseny:** acabar gravats, començar el guió de presentació, diari; reptes per a qui ja té la seva peça enviada.
+- 🔧 **Estació Maker:** **batch d'equip**: les 4 rajoles en una passada + el full de connectors (el talla el responsable de connectors).
+- 💻 **Estudi de disseny:** targeta *«la meva rajola diu…»*, guió de presentació pautat, diari; reptes per a qui ja té la rajola enviada.
 **⏹️ Tancament (5'):** diari.
 
-**📋 En acabar:** seguiment; deixa apuntat quins equips necessiten refabricar peces (setmana 12).
-**⚠️ Vigila:** la temptació de saltar la mostra «per anar de pressa». La mostra és Gran Idea 4
-encarnada: l'error barat de 2 minuts evita l'error car de 20.
+**📋 En acabar:** seguiment; deixa apuntat quines rajoles cal refer (símbol que no es llegeix) per a la setmana 12.
+**⚠️ Vigila:** la capa GUIA oblidada (el làser grava el cercle). El semàfor ho atura: mira la
+vista prèvia de l'XCS abans de prémer el botó.
 
 ---
 
-## Setmana 12 · SA3 · S4/5 — «Muntatge i iteració» 🔁 rotació (obre Maker: **grup A**)
+## Setmana 12 · SA3 · S4/5 — «Muntatge de la bresca i millora» 🔁 rotació (obre Maker: **grup A**)
 
-**Fil del dia:** encaixar de veritat. El que no quadra es refabrica: això és la iteració, no un fracàs.
+**Fil del dia:** encaixar de veritat. El connector que balla es canvia: això és la iteració, no un fracàs.
 
-**🎒 Abans:** cola blanca, serjants petits si en tens, LED de pila per a làmpades; retalls per
-refabricar. Confirma l'assistència aproximada de famílies a la 🎪 Fira de la setmana vinent.
-**▶️ Obertura (10'):** «avui l'objectiu és que s'aguanti» + recordar criteris d'èxit.
+**🎒 Abans:** connectors de recanvi de kerf +0,1 per a cada equip; retalls per refer rajoles; una
+taula gran lliure per al rusc. Confirma l'assistència aproximada de famílies a la 🎪 Fira de la
+setmana vinent.
+**▶️ Obertura (10'):** «avui l'objectiu és que la bresca s'aguanti» + la **prova de la bresca**.
 
-- 🔧 **Estació Maker:** **muntatge** (ajustar, encolar, provar funció) + **refabricació** de peces que no encaixen (batch curt d'iteració).
-- 💻 **Estudi de disseny:** preparació de la presentació (problema → solució → procés → millores) + portafoli del procés + diari.
-**⏹️ Tancament (5'):** diari (foto del muntatge, encara que no estigui acabat).
+- 🔧 **Estació Maker:** **muntatge de la bresca** + prova (aixecar-la per una rajola) + **iteració** (connector del kerf següent o rajola v2, batch curt).
+- 💻 **Estudi de disseny:** assaig de la presentació (la frase de cadascú) + portafoli + diari.
+**⏹️ Tancament (15', conjunt):** **unió de totes les bresques** sobre la taula: el rusc sencer per primer cop. Foto.
 
-**📋 En acabar:** seguiment; confirma que tots els equips tindran objecte presentable la setmana 13.
-**⚠️ Vigila:** la cola no és una eina de disseny — si tot es fixa amb cola, l'encaix no s'ha
-après. Val la pena dir-ho a la galeria.
+**📋 En acabar:** fixa el rusc al tauler o a la paret abans de la Fira (cinta de muntatge de
+doble cara o tauler de DM de fons); comprova que hi ha una cel·la per a cada alumne (pla B: esbós 1:1).
+**⚠️ Vigila:** la cola no és una eina de disseny: si la bresca només s'aguanta encolada, el
+connector no s'ha ajustat. Val la pena dir-ho a la galeria.
 
 ---
 
 ## Setmana 13 · SA3 · S5/5 — «🎪 Fira de mostres T1 + tancament del T1» 👥 grup sencer + visitants
 
-**Fil del dia:** la primera Fira trimestral del curs (famílies presents!) i el tancament de
-trimestre en una sola sessió — el mateix format que farà el T2 a la setmana 25. Cronometra.
+**Fil del dia:** la primera Fira trimestral del curs (famílies presents!) davant del rusc, i el
+tancament de trimestre en una sola sessió — el mateix format que farà el T2 a la setmana 25. Cronometra.
 
-**🎒 Abans:** invitacions enviades la setmana 11; espai a punt (si els visitants passen per
-l'aula Maker: grups de ≤10 comptats a la porta, rol de controlador); ordre de presentacions;
-`Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md` impreses/al quadern; pauta de
-coavaluació; tiquets anònims; fulls de progrés al dia; targetes del Museu candidates a 🏆;
-**publica la tasca «T1 · Repàs acumulatiu»** (és en DRAFT a Classroom): la mini-lliga
+**🎒 Abans:** invitacions enviades la setmana 11; rusc penjat; espai a punt (si els visitants
+passen per l'aula Maker: grups de ≤10 comptats a la porta, rol de controlador); ordre de
+presentacions; `Rubrica_SA3.md` + `Avaluació/Rubrica_producte_final.md` impreses/al quadern;
+pauta de coavaluació; tiquets anònims; fulls de progrés al dia; targetes del Museu candidates a
+🏆; **publica la tasca «T1 · Repàs acumulatiu»** (és en DRAFT a Classroom): la mini-lliga
 voluntària de la setmana de Fira.
 **▶️ Obertura (10'):** benvinguda a les famílies i regles de visita + com s'escolta una
 presentació (el públic també s'avalua: CA5.3 en viu).
 **Desenvolupament:**
 
-1. **Fira de productes amb famílies (60')** — cada equip: problema, solució, procés, millores (5-6' per equip, temporitzador visible). Els dos docents passen rúbrica en paral·lel (tu CA2/CA3, el co-docent CA1/CA5). Les famílies s'acomiaden en acabar aquest bloc.
+1. **Fira davant del rusc amb famílies (60')** — cada equip, davant de la seva bresca: la frase de cada membre + el procés (mostra → kerf → millora) (5-6' per equip, temporitzador visible). Els dos docents passen rúbrica en paral·lel (tu CA2/CA3, el co-docent CA1/CA5). Les famílies s'acomiaden en acabar aquest bloc.
 2. **Coavaluació (20')** — amb la pauta ja calibrada.
-3. **Tancament del T1 (25')** — portafoli del trimestre, autoavaluació, 🏆 votació de *L'error del trimestre* (Museu), tiquet anònim de valoració, anunci que els **equips es re-formen al T2**. El full de progrés individual: el que no hi capiga avui, primera sessió del T2.
+3. **Tancament del T1 (25')** — portafoli del trimestre (foto de la rajola al rusc), autoavaluació, 🏆 votació de *L'error del trimestre* (Museu), tiquet anònim de valoració, anunci que els **equips es re-formen al T2**. El full de progrés individual: el que no hi capiga avui, primera sessió del T2.
 **⏹️ Tancament (5'):** diari + 🎯 objectiu personal per al T2.
 
 **📋 En acabar (fites T1, la llista sencera és al final del guió):** **rúbrica completa +

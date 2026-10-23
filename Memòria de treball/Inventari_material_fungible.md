@@ -24,8 +24,8 @@
 | Cartró / cartolina gruixuda | — | Paquet | | 1 paquet | |
 
 > ⚠️ Metacrilat **transparent NO** talla amb làser de díode (el feix el travessa). Només opac/colors.
-> Ús: clauer SA1 (3 mm), marcapàgines/etiqueta SA2 (3 mm o cartolina), producte d'identitat SA3
-> (3–4 mm + encaixos), component fabricat SA9.
+> Ús: clauer SA1 (3 mm), marcapàgines/etiqueta SA2 (3 mm o cartolina), rajoles del rusc SA3
+> (3 mm, ≈ 12 × 10 cm per alumne + connectors), component fabricat SA9.
 
 ## Material de muntatge i complements
 | Article | Trimestre | Estoc actual | Comprar (curs) | Cal reposar? |
@@ -33,7 +33,8 @@
 | Anelles de clauer | T1 (SA1) | | 30 u | |
 | Cordó / borles | T1 (SA2) | | 30 u | |
 | Cola / adhesius per a fusta | T1 (SA3) | | 3–4 tubs | |
-| LED de pila + piles de botó | T1 (SA3, si làmpada) | | 10 LED + 20 piles | |
+| Cinta de muntatge de doble cara (penjar el rusc) | T1 (SA3) | | 1 rotlle | |
+| LED de pila + piles de botó | T3 (SA9, si làmpada) | | 10 LED + 20 piles | |
 | Material de muntatge (visos, gomes, adhesiu) | T2 (SA6) | | 1 lot bàsic | |
 | Eines de postprocés: alicates de tall | T2 (SA5/SA6) | | 3–4 u | |
 | Llimes / paper de vidre | T2 (SA5) | | 1 joc + paquet | |

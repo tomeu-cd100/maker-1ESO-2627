@@ -134,7 +134,7 @@ l'alumnat, a la seva **fitxa** — secció «Com m'avaluaran?» — i a `Avaluac
 | SA0 | — **diagnòstica, sense qualificació** | Avaluació 0, contracte, 1a entrada del diari | `Avaluacio_inicial.md` (graella C) | Docents (per formar grups) |
 | SA1 | Clauer fabricat | Diari, carnet 🔴 | Checklist criteris d'èxit + 2 files clau de la rúbrica | Docents + autoaval. |
 | SA2 | Marcapàgines | Diari, aprofitament de material | Checklist criteris d'èxit + files CA2.1/CA6.2 | Docents + autoaval. |
-| SA3 ⭐ | Objecte d'identitat (equip) | Mostra d'encaix/kerf, presentació, portafoli T1 | **Rúbrica completa** + `Rubrica_producte_final.md` + calibratge i coavaluació | Docents + equip + alumne |
+| SA3 ⭐ | Rajola hexagonal + bresca d'equip (rusc de la classe) | Mostra de connectors/kerf, presentació, portafoli T1 | **Rúbrica completa** + `Rubrica_producte_final.md` + calibratge i coavaluació | Docents + equip + alumne |
 | SA4 | STL propi (imprès en batch) | Diari amb captures | Checklist criteris d'èxit + fila CA2.2 | Docents + autoaval. |
 | SA5 | Peça funcional impresa | v1→v2 documentada, fitxa tècnica, carnet 🟠 | Checklist + files CA1.4 (iteració) i CA3.2 | Docents + parella (revisió) |
 | SA6 ⭐ | Solució 3D per a usuari real (equip) | Prova amb l'usuari, presentació, portafoli T2 | **Rúbrica completa** + producte final + coavaluació calibrada | Docents + usuari + equip |

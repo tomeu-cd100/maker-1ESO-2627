@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- EXEMPLE resolt de rajola SA3 (Aina, l'estrella): 100 mm entre costats, 6 osques de cua d'oronella.
+     TALL = vermell 0.1 mm · GRAVAT = negre. Generat per generador_rajola_hexagonal.py (Aula Maker). -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" width="119.5mm" height="104.0mm" viewBox="0 0 119.5 104.0">
+  <g id="TALL" inkscape:groupmode="layer" inkscape:label="TALL" transform="translate(59.735,52.000)" fill="none" stroke="#FF0000" stroke-width="0.1">
+    <path d="M 57.735,0.000 L 45.801,20.670 L 40.123,14.505 L 32.623,27.495 L 40.801,29.330 L 28.868,50.000 L 5.000,50.000 L 7.500,42.000 L -7.500,42.000 L -5.000,50.000 L -28.868,50.000 L -40.801,29.330 L -32.623,27.495 L -40.123,14.505 L -45.801,20.670 L -57.735,0.000 L -45.801,-20.670 L -40.123,-14.505 L -32.623,-27.495 L -40.801,-29.330 L -28.868,-50.000 L -5.000,-50.000 L -7.500,-42.000 L 7.500,-42.000 L 5.000,-50.000 L 28.868,-50.000 L 40.801,-29.330 L 32.623,-27.495 L 40.123,-14.505 L 45.801,-20.670 Z"/>
+  </g>
+  <g id="GRAVAT" inkscape:groupmode="layer" inkscape:label="GRAVAT" fill="#000000" font-family="sans-serif" text-anchor="middle">
+    <text x="59.74" y="88.00" font-size="7" font-weight="bold">AINA</text>
+    <path d="M 59.73,24.00 L 65.03,38.72 L 80.66,39.20 L 68.29,48.78 L 72.67,63.80 L 59.73,55.00 L 46.80,63.80 L 51.18,48.78 L 38.81,39.20 L 54.44,38.72 Z"/>
+  </g>
+</svg>

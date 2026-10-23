@@ -19,7 +19,9 @@ per respectar-ne l'autoria i mantenir el repositori net de material d'altri.
   És el punt de partida per preparar les SA (Inkscape per a SA1–SA3, Tinkercad per a SA4–SA6, etc.).
 
 - **[`Plantilles_disseny/`](Plantilles_disseny/README.md)** — plantilles SVG llestes per tallar (clauer
-  SA1, marcapàgines SA2) i un **generador de caixes amb encaix** en Python (SA3).
+  SA1, marcapàgines SA2), un **generador de rajoles hexagonals i connectors** (SA3), el
+  **banc de 26 motius** per a la rajola ([`Banc_motius_SA3.md`](Banc_motius_SA3.md)) i un
+  **generador de caixes amb encaix** en Python.
 
 - **[`Museu_llavor_errors.md`](Museu_llavor_errors.md)** — com fabricar expressament les
   **5 peces fallides canòniques** (warping, kerf, gravat cremat, forat a la vora, suports)

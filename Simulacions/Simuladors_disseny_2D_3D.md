@@ -7,7 +7,7 @@
 |------|-----------|-------|
 | **Inkscape** | Disseny vectorial (eina principal del curs) | Gratuït, d'escriptori |
 | **xTool Creative Space (XCS)** | Preparar i previsualitzar el treball de la làser | Mostra capes tall/gravat |
-| **MakerCase / boxes.py** | Generen plànols de **caixes amb encaix** automàticament | Web; molt útil per a la SA3 |
+| **MakerCase / boxes.py** | Generen plànols de **caixes amb encaix** automàticament | Web; útil a la SA9 si l'equip fa una caixa |
 | **Festi / generadors d'engranatges** | Plantilles de peces tècniques | Web |
 
 ## Modelatge 3D

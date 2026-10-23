@@ -53,13 +53,13 @@ l'alumnat escriu el seu 🎯 al diari. **En tancar cada trimestre:** vegeu «fit
 | 7 | — | Vectorització + disseny (⏸️ mínim: forma+missatge; imatge del banc si cal) | Revisió de fitxers i nesting |
 | 8 | Material a punt | Fabricació batch → postprocés → galeria i **coavaluació** (1a del curs: **calibratge previ** amb l'exemple resolt!) | Checklist → progrés |
 
-### SA3 · setmanes 9-13 — ⭐ Objecte d'identitat (`Classes/SA3_Projecte_laser_identitat/SA3.md`)
+### SA3 · setmanes 9-13 — ⭐ El rusc de la classe: rajola hexagonal d'identitat (`Classes/SA3_Projecte_laser_identitat/SA3.md`)
 | Setm. | Abans | Sessió | En acabar |
 |:--:|-------|--------|-----------|
-| 9 | Catàleg d'objectes-tipus | Repte + requisits + **signatura de peça** per membre | Validar plans d'equip |
-| 10 | — | Disseny d'unions a Inkscape (⏸️ mínim: peces estructurals) | Revisió conjunta |
-| 11 | Retalls per a mostres; **invitacions de la Fira T1 enviades a les famílies** | **Mostra d'encaix + mesurar el kerf** → fabricació per equips | Seguiment |
-| 12 | Cola, LED si làmpades | Muntatge + **iteració** (refabricar el que no encaixi) | Seguiment |
+| 9 | Rajola tallada + 2 connectors; plantilla 1:1 i galeria de motius impreses | Repte + **fitxa de decisions** (3 tries tancades) + esbós 1:1 + ordre de la bresca i rols | Validar esbossos i plans d'equip |
+| 10 | Mostra de connectors a punt; peu de rei | Rajola a Inkscape (pas a pas) + **mostra de connectors → kerf** (⏸️ mínim: rajola v1 + kerf) | Revisió de fitxers + generar connectors amb el kerf de cada equip |
+| 11 | Planxes per equip; **invitacions de la Fira T1 enviades a les famílies** | Semàfor → **batch de rajoles + connectors** per equips | Seguiment |
+| 12 | Connectors de recanvi (kerf +0,1); taula lliure | Muntatge de la bresca + **prova** + **iteració** + unió del rusc | Penjar el rusc abans de la Fira |
 | 13 | Espai de la Fira a punt (aforament ≤10 a l'aula Maker); fulls de progrés al dia | 🎪 **Fira de mostres T1 amb famílies** + coavaluació + **Tancament T1** (⏹️ fites de trimestre, final del guió) | **Rúbrica completa** + producte final → progrés + valoració T1 |
 
 ## 2n TRIMESTRE — 3D i impressió

@@ -57,7 +57,7 @@ SA_CARDS = [
     ("SA0", "Punt de partida", "setm. 1", "📍 Benvinguda, seguretat i avaluació 0", "SA0_Punt_de_partida"),
     ("SA1", "Benvinguts a l'Aula Maker", "1r trim.", "🔑 Clauer gravat a làser", "SA1_Benvinguts_Aula_Maker"),
     ("SA2", "Dissenyem en 2D", "1r trim.", "📐 Marcapàgines o etiqueta", "SA2_Dissenyem_en_2D"),
-    ("SA3", "Projecte làser: la meva identitat", "1r trim. ⭐", "🪵 Objecte d'identitat amb encaixos", "SA3_Projecte_laser_identitat"),
+    ("SA3", "Projecte làser: la meva identitat", "1r trim. ⭐", "🐝 La meva rajola al rusc de la classe", "SA3_Projecte_laser_identitat"),
     ("SA4", "Del 2D al 3D", "2n trim.", "🧊 Figura o clauer 3D", "SA4_Del_2D_al_3D"),
     ("SA5", "Modelatge 3D funcional", "2n trim.", "🔧 Peça útil impresa", "SA5_Modelatge_3D_funcional"),
     ("SA6", "Repte de disseny 3D", "2n trim. ⭐", "🤝 Solució per a un usuari real", "SA6_Repte_disseny_3D"),

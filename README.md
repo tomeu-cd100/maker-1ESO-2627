@@ -32,7 +32,7 @@ STEAM i maker, currículum de Catalunya (Decret 175/2022, LOMLOE).
 | SA0 | Punt de partida | 1 | Acollida · seguretat · **avaluació 0** | El punt de partida de cadascú (sense nota) |
 | SA1 | Benvinguts a l'Aula Maker | 1 | Primer disseny + làser | Clauer gravat |
 | SA2 | Dissenyem en 2D | 1 | Inkscape + làser | Marcapàgines/etiqueta |
-| SA3 | Projecte làser: la meva identitat | 1 | Projecte làser | Objecte d'identitat ⭐T1 |
+| SA3 | Projecte làser: la meva identitat | 1 | Projecte làser | Rusc de rajoles hexagonals ⭐T1 |
 | SA4 | Del 2D al 3D | 2 | Tinkercad | Figura/clauer 3D |
 | SA5 | Modelatge 3D funcional | 2 | 3D + impressió | Peça útil impresa |
 | SA6 | Repte de disseny 3D | 2 | Repte 3D | Solució a un problema ⭐T2 |

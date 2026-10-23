@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Motiu «Estrella» (Com sóc) per a la rajola del rusc SA3. GRAVAT = negre. Diàmetre 56 mm: cap al cercle guia sense escalar. Aula Maker, CC BY-SA 4.0. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="56mm" height="56mm" viewBox="0 0 56 56">
+  <path id="estrella" fill="#000000" fill-rule="nonzero" d="M 28.00,5.04 L 33.92,21.53 L 51.43,22.07 L 37.59,32.79 L 42.48,49.61 L 28.00,39.76 L 13.52,49.61 L 18.41,32.79 L 4.57,22.07 L 22.08,21.53 Z"/>
+</svg>
