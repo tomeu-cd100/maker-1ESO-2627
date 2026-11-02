@@ -606,15 +606,31 @@ def sa_context_bar(folder: str, current_base: str, space: str = "full") -> str:
             f'{step_nav(folder, current_base)}')
 
 
-def sa_cards(prefix: str, base: str = "classes/") -> str:
+# mini-reptes que no són SA completes (no tenen carpeta a Classes/), però han de tenir
+# targeta a la graella just després de la SA on s'encaixen.
+# (després_de, codi, nom, trim, producte, ruta docent, ruta alumnat — relatives a l'arrel web)
+MINI_CARDS = [
+    ("SA3", "SA3b", "Mini-repte de Nadal", "1r trim.", "🎄 Adorn de Nadal tallat a làser",
+     "reptes/repte_nadal_adorns_sa3b.html", "impressos/adorns_nadal_paper_SA3b.html"),
+]
+
+
+def sa_cards(prefix: str, base: str = "classes/", alumnat: bool = False) -> str:
     """Graella de targetes de SA que porten al hub (compartida per portada i índex de Classes)."""
-    return "\n".join(
-        f'<a class="card sa" data-trim="{trim_num(trim)}" '
-        f'href="{prefix}{base}{slugify(folder)}/index.html">'
-        f'<div class="card-icon">{product.split()[0]}</div>'
-        f'<div><h3>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h3>'
-        f'<p>{html.escape(product.split(" ", 1)[1])}</p></div></a>'
-        for code, name, trim, product, folder in SA_CARDS)
+    def card_html(code, name, trim, product, href):
+        return (f'<a class="card sa" data-trim="{trim_num(trim)}" href="{href}">'
+                f'<div class="card-icon">{product.split()[0]}</div>'
+                f'<div><h3>{code} · {html.escape(name)} <span class="badge badge-t{trim_num(trim)}">{trim}</span></h3>'
+                f'<p>{html.escape(product.split(" ", 1)[1])}</p></div></a>')
+    # des de l'espai alumnat (alumnat/index.html) l'arrel web és un nivell amunt
+    root = prefix + ("../" if alumnat else "")
+    out = []
+    for code, name, trim, product, folder in SA_CARDS:
+        out.append(card_html(code, name, trim, product, f"{prefix}{base}{slugify(folder)}/index.html"))
+        for after, m_code, m_name, m_trim, m_product, docent, alum in MINI_CARDS:
+            if after == code:
+                out.append(card_html(m_code, m_name, m_trim, m_product, root + (alum if alumnat else docent)))
+    return "\n".join(out)
 
 
 def build_sa_hub_full(code, name, trim, product, folder):
@@ -973,7 +989,7 @@ esperem!</p></blockquote>
 def build_alumnat_home() -> None:
     """Selector de SA de l'alumnat + documents transversals del curs."""
     out_rel = "alumnat/index.html"
-    sa_grid = sa_cards("", base="classes/")
+    sa_grid = sa_cards("", base="classes/", alumnat=True)
     # els documents transversals viuen sota alumnat/ (Task 6 els hi genera); aquí ja
     # apuntem a la seva ruta final dins alumnat/
     docs = "\n".join(
