@@ -23,6 +23,7 @@ PDFS = {
         ("rajola_paper_SA3.html", "SA3_1_Quadern_rajola_rusc.pdf"),
         ("banc_motius_paper_SA3.html", "SA3_2_Banc_de_motius.pdf"),
         ("targetes_rusc_SA3.html", "SA3_3_Targetes_Fira.pdf"),
+        ("adorns_nadal_paper_SA3b.html", "SA3b_Adorn_de_Nadal.pdf"),
     ],
 }
 
@@ -54,7 +55,7 @@ def main():
             subprocess.run([nav, "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
                             f"--user-data-dir={perfil}", f"--print-to-pdf={out}", src],
                            check=True, capture_output=True, timeout=120)
-            print(f"✓ {out.relative_to(ROOT)}")
+            print(f"OK {out.relative_to(ROOT)}")
 
 
 if __name__ == "__main__":

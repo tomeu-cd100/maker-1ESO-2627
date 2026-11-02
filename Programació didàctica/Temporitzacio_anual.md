@@ -16,10 +16,10 @@
 | 6 | SA2 | Disseny vectorial amb Inkscape (nodes, formes, text) | — |
 | 7 | SA2 | Vectorització i preparació per a làser (capes tall/gravat) | Disseny a punt |
 | 8 | SA2 | Fabricació marcapàgines/etiqueta + avaluació | Producte SA2 |
-| 9 | SA3 | Repte del rusc: fitxa de decisions + esbós 1:1 de la rajola hexagonal | Esbós validat |
-| 10 | SA3 | Rajola a Inkscape (plantilla) + mostra de connectors (kerf) | — |
-| 11 | SA3 | Fabricació (rajoles + connectors, batch d'equip) | — |
-| 12 | SA3 | Muntatge de la bresca, iteració i unió del rusc | — |
+| 9 | SA3 | Repte del rusc: decisions + esbós 1:1 (aula) · mostra de connectors → kerf (Maker) | Esbós validat + kerf |
+| 10 | SA3 | Rajola a Inkscape (plantilla), grup sencer | Rajola v1 |
+| 11 | SA3 + SA3b | Fabricació i muntatge de la bresca (Maker) · 🎄 disseny de l'adorn de Nadal (aula) — setmana coixí del rusc | Bresca muntada |
+| 12 | SA3b | 🎄 Tall dels adorns + rajoles pendents · assaig de la Fira · unió del rusc (`Reptes/Repte_Nadal_adorns_SA3b.md`) | Adorn penjat |
 | 13 | SA3 | 🎪 **Fira de mostres T1** (famílies convidades) + coavaluació + tancament de trimestre i portafoli | **Producte final T1** |
 
 ## 2n TRIMESTRE — Disseny i impressió 3D

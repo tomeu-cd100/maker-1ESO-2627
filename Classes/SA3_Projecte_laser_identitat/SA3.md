@@ -5,7 +5,7 @@
 | **Matèria** | Aula Maker (optativa) |
 | **Nivell** | 1r ESO |
 | **Trimestre** | 1r — **Producte final de trimestre** |
-| **Temporització** | 5 sessions de 2 h (setmanes 9–13) — la sessió 5 és la 🎪 **Fira de mostres T1** i inclou el tancament del trimestre |
+| **Temporització** | Setmanes 9–13: el rusc ocupa **≈ 3-4 h per alumne** (setmanes 9-11) + la 🎪 **Fira de mostres T1** (setmana 13, amb el tancament del trimestre). Les setmanes 11-12 hi entra el 🎄 mini-repte de Nadal (`Reptes/Repte_Nadal_adorns_SA3b.md`) |
 | **Eix** | Projecte de fabricació làser (procés tecnològic complet, amb decisions guiades) |
 | **Producte final** | Un **mural «rusc» de paret** fet amb les **rajoles hexagonals** de tot el grup (una per alumne), unides amb **connectors per encaix** |
 
@@ -93,6 +93,12 @@ el connector, i es resol amb la **mostra de connectors** (gran idea 4).
 
 ## 4. Seqüència de sessions
 
+> 📅 **Ritme real 2026-27 (≈ 3-4 h per alumne):** les sessions 1-4 de sota són **blocs de
+> contingut**, no setmanes. Setmana 9 🔁: Maker = rusc en mà + demo + **mostra de connectors**
+> (bloc 2, punt 3) · aula = **decisions + esbós 1:1 + pla d'equip** (bloc 1). Setmana 10 👥:
+> **Inkscape** (bloc 2, punt 2). Setmana 11 🔁: **fabricació + bresca** (blocs 3-4) a Maker i
+> 🎄 SA3b a l'aula. Setmana 12: rajoles pendents + unió del rusc. Setmana 13: Fira (bloc 5).
+>
 > 🔁 **En desdoblament:** la seqüència està escrita en lineal (2 h); el repartiment real per
 > estacions (qui fa què a cada torn de 50', dia a dia) és al `00_Diari_de_classe_docent.md`,
 > setmanes 9–13 (la setmana 13 fusiona Fira i tancament del T1, com fa el T2 a la setmana 25).

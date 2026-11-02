@@ -16,6 +16,8 @@ Reptes **curts i autònoms** per fer servir com a:
 - [`Reptes_immersius_360_VR.md`](Reptes_immersius_360_VR.md) — 360 i realitat virtual.
 - [`Projecte_personal.md`](Projecte_personal.md) — **«El meu objecte del curs»**: l'alternativa
   longitudinal als reptes solts (un objecte personal que creix amb cada tecnologia, T1→T3).
+- [`Repte_Nadal_adorns_SA3b.md`](Repte_Nadal_adorns_SA3b.md) — 🎄 **SA3b**: mini-repte de Nadal
+  (setmanes 11-12): un adorn tallat a làser amb el símbol de la rajola del rusc.
 
 ## Sistema d'insígnies
 

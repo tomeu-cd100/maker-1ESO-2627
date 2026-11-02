@@ -86,29 +86,30 @@ practicarem amb un exemple).
 **En sortir tindràs:** el teu segon producte — i l'ull més entrenat.
 **🎒 No te n'oblidis:** passar el 🚦 semàfor abans de tallar i desar el fitxer amb el teu nom.
 
-### Setmana 9 — ⭐ Arrenca el rusc de la classe 🐝 👥
+### Setmana 9 — ⭐ Arrenca el rusc de la classe 🐝 🔁
 **Què farem:** cadascú farà **una rajola hexagonal** amb el seu nom i un símbol que expliqui
 alguna cosa d'ell/a. Totes juntes formaran **el rusc de la classe**, que es penjarà a l'aula.
-Avui marcaràs **3 decisions** a la fitxa i dibuixaràs la rajola a mida real.
+A l'**aula** marcaràs **3 decisions** al quadern i dibuixaràs la rajola a mida real; a l'**aula
+Maker** provarem el **connector** que uneix les rajoles i trobarem el **kerf** de l'equip.
 **🎒 Vine amb:** una idea: què t'agrada, què ets o què vols ser?
-**⏸️ Mínim d'avui:** les 3 decisions marcades i l'esbós validat pel professor.
+**⏸️ Mínim d'avui:** les 3 decisions, l'esbós validat i el kerf de l'equip apuntat.
 
-### Setmana 10 — La rajola a l'ordinador + el connector 🧩 🔁
-**Què farem:** passar la rajola a Inkscape amb la **plantilla** (pas a pas a la fitxa) i, a
-l'aula Maker, provar la **mostra de connectors**: el corbatí que uneix dues rajoles.
+### Setmana 10 — La rajola a l'ordinador 🧩 👥
+**Què farem:** tots junts, passar la rajola a Inkscape amb la **plantilla** (pas a pas a la
+pàgina 3 del quadern). Recorda: el símbol ha de ser **teu** — si surt del banc, hi fas un canvi.
 **⏸️ Mínim d'avui:** la rajola desada amb el teu nom i el símbol dins del cercle.
 
-### Setmana 11 — Fabriquem! 📏 🔁
-**Què farem:** passar el 🚦 semàfor i tallar les rajoles i els connectors de l'equip. Sabràs
-quin és el **kerf** (el que «es menja» el làser) i per què el connector ha de ser *just*.
+### Setmana 11 — Fabriquem el rusc · 🎄 dissenyem l'adorn 📏 🔁
+**Què farem:** a l'**aula Maker**, passar el 🚦 semàfor, tallar les rajoles i muntar la
+**bresca** (prova: s'aguanta aixecada per una rajola?). A l'**aula**, comença el **mini-repte de
+Nadal**: un adorn per penjar a l'arbre amb el teu nom i el teu símbol.
 **En sortir sabràs:** per què els makers proven abans de fabricar — l'error barat evita el car.
 
-### Setmana 12 — Muntem la bresca i el rusc 🔧 🔁
-**Què farem:** unir les 4 rajoles de l'equip (la **bresca**) i fer la **prova**: aixecar-la
-per una rajola. Si es desmunta, canviem el connector. Al final, juntarem totes les bresques:
-**el rusc sencer!** Canviar una peça no és fracassar: és iterar.
-**No te n'oblidis:** foto de la bresca al diari. I recorda a casa que la setmana que ve és la
-**Fira**!
+### Setmana 12 — 🎄 Adorns a l'arbre i el rusc sencer 🔧 🔁
+**Què farem:** tallar l'**adorn** (amb cordill!), acabar el que falti del rusc i **assajar la
+teva frase** de la Fira. Al final, juntarem totes les bresques: **el rusc sencer!**
+**No te n'oblidis:** foto de la bresca i de l'adorn al diari. I recorda a casa que la setmana
+que ve és la **Fira**!
 
 ### Setmana 13 — 🎪 Fira de mostres del T1 (amb famílies!) + tancament 📦 👥
 **Què farem:** la **primera Fira del curs**, davant del rusc: cada equip presenta la seva

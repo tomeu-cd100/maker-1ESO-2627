@@ -56,10 +56,10 @@ l'alumnat escriu el seu 🎯 al diari. **En tancar cada trimestre:** vegeu «fit
 ### SA3 · setmanes 9-13 — ⭐ El rusc de la classe: rajola hexagonal d'identitat (`Classes/SA3_Projecte_laser_identitat/SA3.md`)
 | Setm. | Abans | Sessió | En acabar |
 |:--:|-------|--------|-----------|
-| 9 | Rajola tallada + 2 connectors; plantilla 1:1 i galeria de motius impreses | Repte + **fitxa de decisions** (3 tries tancades) + esbós 1:1 + ordre de la bresca i rols | Validar esbossos i plans d'equip |
-| 10 | Mostra de connectors a punt; peu de rei | Rajola a Inkscape (pas a pas) + **mostra de connectors → kerf** (⏸️ mínim: rajola v1 + kerf) | Revisió de fitxers + generar connectors amb el kerf de cada equip |
-| 11 | Planxes per equip; **invitacions de la Fira T1 enviades a les famílies** | Semàfor → **batch de rajoles + connectors** per equips | Seguiment |
-| 12 | Connectors de recanvi (kerf +0,1); taula lliure | Muntatge de la bresca + **prova** + **iteració** + unió del rusc | Penjar el rusc abans de la Fira |
+| 9 | Rajola tallada + 2 connectors; quadern i banc de motius impresos; retalls 70×70 | 🔁 Maker: rusc en mà + **mostra de connectors → kerf** · Aula: **3 decisions** + esbós 1:1 + pla d'equip | Validar esbossos; generar connectors amb el kerf de cada equip |
+| 10 | Plantilla i motius al Drive | 👥 Rajola a Inkscape (pas a pas, ⏸️ mínim: rajola v1) | Revisió de fitxers + batches d'equip |
+| 11 | Batches; plantilla d'adorns + mostra; **invitacions de la Fira T1 enviades** | 🔁 Maker: **batch + bresca + prova** · Aula: 🎄 **SA3b**, disseny de l'adorn | Rajoles a refer → prioritat setm. 12 |
+| 12 | Retalls, cordill, connectors de recanvi | 🔁 Maker: 🎄 tall dels adorns + rajoles pendents · Aula: acabat, ⭐ avet 3D, assaig de la Fira | Unir i penjar el rusc abans de la Fira |
 | 13 | Espai de la Fira a punt (aforament ≤10 a l'aula Maker); fulls de progrés al dia | 🎪 **Fira de mostres T1 amb famílies** + coavaluació + **Tancament T1** (⏹️ fites de trimestre, final del guió) | **Rúbrica completa** + producte final → progrés + valoració T1 |
 
 ## 2n TRIMESTRE — 3D i impressió

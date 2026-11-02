@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El meu adorn de Nadal · SA3b (imprimible) · Aula Maker</title>
+<style>
+  :root { --acc: #1f7a4d; --acc-fosc: #145c39; --ink: #2b2318; --soft: #e6f4ec; --line: #c9b89c;
+          --vermell: #d33; --blau: #36f; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+  .toolbar { max-width: 190mm; margin: 0 auto 1rem; display: flex; gap: .6rem; flex-wrap: wrap; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc-fosc); background: #fff; color: var(--acc-fosc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc-fosc); color: #fff; }
+  .hint { max-width: 190mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+  .full { width: 190mm; max-width: 100%; margin: 0 auto; }
+  .pagina { background: #fff; border: 2px solid var(--ink); border-radius: 4mm; padding: 9mm 10mm; }
+  .cap { display: flex; justify-content: space-between; align-items: flex-end;
+    border-bottom: 3px double var(--ink); padding-bottom: 2.5mm; gap: 6mm; }
+  .cap h1 { margin: 0; font-size: 17pt; }
+  .cap .sub { font-size: 9.5pt; color: #6b5d4b; margin-top: 1mm; }
+  .cap .seg { border: 2px solid var(--acc-fosc); color: var(--acc-fosc); font-weight: 700;
+    border-radius: 999px; padding: 1mm 3mm; font-size: 8.5pt; white-space: nowrap; text-align: center; }
+  .dades { display: flex; gap: 5mm; margin: 3.5mm 0 1mm; font-size: 10.5pt; }
+  .dades span { flex: 1; border-bottom: 1.5px solid var(--ink); padding-bottom: 1mm; }
+  .dades span.g { flex: .6; }
+  h2 { font-size: 11pt; text-transform: uppercase; letter-spacing: 1px; margin: 3.5mm 0 1.5mm;
+       color: var(--acc-fosc); border-bottom: 1.5px solid var(--line); padding-bottom: 1mm; }
+  h2 small { font-size: 8.5pt; color: #6b5d4b; text-transform: none; letter-spacing: 0; font-weight: 400; }
+  p { margin: 1.5mm 0; font-size: 10pt; line-height: 1.35; }
+  .aviso { background: var(--soft); border-left: 4px solid var(--acc); border-radius: 2mm;
+    padding: 2.5mm 4mm; font-size: 10pt; margin: 2.5mm 0; line-height: 1.35; }
+  .chk { display: inline-block; width: 4.6mm; height: 4.6mm; border: 1.5px solid var(--ink);
+    border-radius: 1mm; vertical-align: -1mm; margin-right: 2mm; }
+  .formes { width: 100%; height: auto; display: block; }
+  .tria { display: flex; justify-content: space-around; font-size: 10pt; margin: 0 0 1mm; }
+  ol.ruta { list-style: none; counter-reset: pas; padding: 0; margin: 1mm 0; }
+  ol.ruta li { counter-increment: pas; position: relative; padding: 1.3mm 2mm 1.3mm 19mm;
+    border-bottom: 1px dotted var(--line); font-size: 9.6pt; line-height: 1.3; }
+  ol.ruta li::before { content: counter(pas); position: absolute; left: 2mm; top: 1.3mm;
+    width: 6mm; height: 6mm; background: var(--acc-fosc); color: #fff; border-radius: 50%;
+    text-align: center; line-height: 6mm; font-weight: 700; font-size: 9pt; }
+  ol.ruta li .chk { position: absolute; left: 10.5mm; top: 1.3mm; }
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .caixa { border: 1.5px solid var(--line); border-radius: 2mm; padding: 2mm 3mm; font-size: 9.6pt; line-height: 1.4; }
+  .caixa ul { margin: 1mm 0 0; padding-left: 4.5mm; }
+  .linia { display: inline-block; border-bottom: 1.2px solid var(--ink); min-width: 60mm; height: 4mm; }
+  @media (max-width: 720px) { .duo { grid-template-columns: 1fr; } }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    .full { width: auto; }
+    .pagina { border: none; border-radius: 0; padding: 0; }
+    @page { size: A4 portrait; margin: 11mm 12mm; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint">Full de l'alumnat del <strong>mini-repte de Nadal (SA3b)</strong>: 1 pàgina A4, una per
+alumne/a. Les formes de dalt són a <strong>escala 70 %</strong>, per fer-hi l'esbós (a la làser surten més grans: bola Ø70, estrella Ø80, avet 80 mm).</p>
+
+<div class="full"><section class="pagina">
+  <div class="cap">
+    <div>
+      <h1>🎄 El meu adorn de Nadal</h1>
+      <div class="sub">SA3b · mini-repte · Aula Maker · 1r d'ESO</div>
+    </div>
+    <div class="seg">SETMANES<br>11 i 12</div>
+  </div>
+  <div class="dades">
+    <span><strong>Nom:</strong> </span>
+    <span class="g"><strong>Equip:</strong> </span>
+  </div>
+
+  <div class="aviso">🎯 <strong>El repte:</strong> dissenya i talla <strong>un adorn</strong> per penjar a
+    l'arbre, amb el <strong>teu nom o inicial</strong> i un <strong>símbol teu</strong> (pots fer servir el de
+    la teva rajola del rusc!). Fes-lo prou bé perquè valgui per <strong>regalar</strong>.</div>
+
+  <h2>1 · Tria la forma i fes-ne l'esbós <small>— a escala 70 %; el símbol, dins del cercle blau</small></h2>
+  <svg class="formes" viewBox="0 0 260 100" style="width:186mm;max-width:100%" role="img"
+       aria-label="Tres adorns a mida real per dibuixar-hi: una bola, una estrella i un avet, cadascun amb el forat per al cordill a dalt i un cercle blau discontinu per al símbol.">
+    <g fill="none" stroke="#d33" stroke-width="0.45">
+    <path d="M 52.000,20.707 A 35.0,35.0 0 1 1 38.000,20.707 L 38.000,15.000 Q 38.000,12.000 41.000,12.000 L 49.000,12.000 Q 52.000,12.000 52.000,15.000 Z"/>
+    <circle cx="45.000" cy="16.500" r="2.0"/>
+    <path d="M 132.478,17.464 L 141.168,36.629 L 168.042,39.639 L 148.070,57.871 L 153.511,84.361 L 130.000,71.000 L 106.489,84.361 L 111.930,57.871 L 91.958,39.639 L 118.832,36.629 L 127.522,17.464 A 6.0,6.0 0 1 1 132.478,17.464 Z"/>
+    <circle cx="130.000" cy="12.000" r="2.0"/>
+    <path d="M 217.569,17.422 L 229.400,42.400 L 223.928,42.400 L 238.040,66.400 L 229.285,66.400 L 247.000,82.400 L 221.000,82.400 L 221.000,92.000 L 209.000,92.000 L 209.000,82.400 L 183.000,82.400 L 200.715,66.400 L 191.960,66.400 L 206.072,42.400 L 200.600,42.400 L 212.431,17.422 A 6.0,6.0 0 1 1 217.569,17.422 Z"/>
+    <circle cx="215.000" cy="12.000" r="2.0"/>
+  </g>
+    <g fill="none" stroke="#36f" stroke-width="0.4" stroke-dasharray="2,1.5">
+    <circle cx="45.000" cy="52.000" r="21.0"/>
+    <circle cx="130.000" cy="47.000" r="12.0"/>
+    <circle cx="215.000" cy="56.000" r="13.0"/>
+  </g>
+    <text x="45.000" y="80.000" font-size="4" fill="#aaa" text-anchor="middle" font-family="sans-serif">el meu nom</text><text x="130.000" y="65.000" font-size="4" fill="#aaa" text-anchor="middle" font-family="sans-serif">el meu nom</text><text x="215.000" y="88.800" font-size="4" fill="#aaa" text-anchor="middle" font-family="sans-serif">el meu nom</text>
+  </svg>
+  <div class="tria">
+    <span><span class="chk"></span>Bola</span><span><span class="chk"></span>Estrella</span><span><span class="chk"></span>Avet</span>
+  </div>
+
+  <h2>2 · A Inkscape <small>— marca cada pas</small></h2>
+  <ol class="ruta">
+    <li><span class="chk"></span>Obre <strong>adorns_nadal_SA3b.svg</strong> (Drive de la SA3) i <strong>esborra les 2 formes</strong> que no faràs.</li>
+    <li><span class="chk"></span>Doble clic a <strong>NOM</strong>: el teu nom o la inicial. Després, <strong>Camí → Objecte a camí</strong>.</li>
+    <li><span class="chk"></span>Posa el <strong>símbol</strong> (el de la rajola, un del banc de motius o un dibuix teu) <strong>dins del cercle blau</strong>, en <strong>negre</strong>.</li>
+    <li><span class="chk"></span><strong>No toquis</strong> el contorn vermell, la pestanya ni el forat. <strong>No escalis l'adorn</strong>: fes petit el símbol.</li>
+    <li><span class="chk"></span><strong>Amaga la capa GUIA</strong> i desa com <strong>ElMeuNom_SA3b_v1.svg</strong>.</li>
+  </ol>
+
+  <div class="duo">
+    <div>
+      <h2>3 · 🚦 Semàfor i tall</h2>
+      <div class="caixa">
+        <p><span class="chk"></span>Contorn i forat <strong>vermells</strong>; nom i símbol <strong>negres</strong>.</p>
+        <p><span class="chk"></span>Text a camí · <strong>GUIA amagada</strong>.</p>
+        <p><span class="chk"></span>L'he tallat jo, amb el <strong>carnet 🔴</strong>.</p>
+        <p><span class="chk"></span>Hi he passat el <strong>cordill</strong>: penja recte?</p>
+      </div>
+    </div>
+    <div>
+      <h2>⭐ Si acabes abans</h2>
+      <div class="caixa"><ul>
+        <li><strong>Calat:</strong> el símbol, tallat en lloc de gravat.</li>
+        <li><strong>Avet 3D:</strong> 2 peces que s'encaixen en creu. La ranura fa <strong>gruix − kerf</strong>
+          = 3 − <span class="linia" style="min-width:10mm"></span> = <span class="linia" style="min-width:10mm"></span> mm (el kerf del rusc!).</li>
+        <li><strong>Un segon adorn</strong> per regalar.</li>
+      </ul></div>
+    </div>
+  </div>
+
+  <h2>Diari</h2>
+  <p>Per a qui és el meu adorn: <span class="linia"></span> &nbsp; Què he fet millor que a la rajola: <span class="linia" style="min-width:45mm"></span></p>
+</section></div>
+</body>
+</html>

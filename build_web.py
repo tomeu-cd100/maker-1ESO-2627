@@ -93,6 +93,7 @@ SA_PRINTABLES = {
         ("rajola_paper_SA3.html", "🐝 Quadern de la rajola (4 pàgines, rajola a mida real)"),
         ("banc_motius_paper_SA3.html", "💡 Banc de motius (un per taula)"),
         ("targetes_rusc_SA3.html", "🏷️ Targetes del rusc per a la Fira"),
+        ("adorns_nadal_paper_SA3b.html", "🎄 SA3b · El meu adorn de Nadal (mini-repte)"),
     ],
 }
 

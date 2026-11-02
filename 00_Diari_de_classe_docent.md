@@ -240,87 +240,102 @@ imatges simples i d'alt contrast, o banc de plantilles.
 
 ---
 
-## Setmana 9 · SA3 · S1/5 — «⭐ El rusc de la classe: la meva decisió» 👥 grup sencer
+## Setmana 9 · SA3 · 1/3 — «⭐ El rusc: decisions + kerf» 🔁 rotació (obre Maker: **grup A**)
 
 **Fil del dia:** arrenca el projecte del trimestre: cada alumne fa una rajola hexagonal i
-totes juntes faran el rusc. Avui no s'inventa l'objecte: es **trien 3 coses** i es fa l'esbós.
+totes juntes faran el rusc. Ritme real del grup: **≈ 3-4 h per alumne** per al rusc (setmanes
+9-10, coixí a la 11); la setmana 11-12 hi entra el 🎄 mini-repte de Nadal (SA3b).
 
-**🎒 Abans:** una **rajola tallada + 2 connectors** per passar de mà en mà; `rusc_esquema_SA3.svg`
-projectat; 🖨️ **quadern de la rajola** imprès (un per alumne, 4 pàgines a doble cara, al 100 %: la
-pàgina 2 és la plantilla 1:1) i **banc de motius** imprès (un per taula) — tots dos a la web, «Per
-imprimir» de la SA3, o en PDF amb `genera_pdf_impressos.py SA3`; equips T1 a la vista.
-**▶️ Obertura (10'):** 🎯 *feed-forward* + pregunta guia + 🧭 Gran Idea 1 + 4 (*l'error és informació*).
-**Desenvolupament:**
+**🎒 Abans:** una **rajola tallada + 2 connectors**; retalls de 70 × 70 mm per a la **mostra de
+connectors** (un per equip) i peu de rei a l'estació Maker; per al co-docent, el **quadern de la
+rajola** (1 per alumne, al 100 %) i el **banc de motius** (1 per taula), tots dos a «Per imprimir»
+de la SA3 o en PDF (`genera_pdf_impressos.py SA3`).
+**▶️ Obertura (5', a cada estació):** pregunta guia + el rusc en una imatge (`rusc_esquema_SA3.svg`).
 
-1. **El rusc, en mà (20')** — munta i desmunta dues rajoles davant de tothom; els 4 requisits comuns.
-2. **Fitxa de decisions (40')** — 3 decisions tancades + 2 esbossos del símbol + 1 motiu.
-3. **Esbós 1:1 i pla d'equip (40')** — sobre la plantilla impresa; ordre de la bresca + rols (mesures, connectors, documentació, presentació). **Tu valides cada esbós** abans que marxin.
-**⏹️ Tancament (10'):** diari (rutina d'equip: *El més difícil / Com ho hem resolt* comença avui).
+- 🔧 **Estació Maker (amb tu):** **el rusc, en mà** (munta i desmunta 2 rajoles) + **demo de la cua
+  d'oronella** (per què no es desmunta) + cada equip talla la **mostra de connectors**, prova els 4 i
+  apunta el **kerf** (el que entra amb el polze i no cau); cintura amb el peu de rei.
+- 💻 **Aula ordinària (amb el co-docent):** **quadern pàg. 1-2**: les 3 decisions + 2 esbossos +
+  1 motiu → esbós a mida real → pla d'equip (ordre de la bresca, rols). El co-docent valida els
+  esbossos; els dubtosos te'ls guarda.
+**⏸️ Mínim:** decisions marcades + esbós 1:1 validat + kerf de l'equip apuntat.
+**⏹️ Tancament (5'):** diari.
 
-**📋 En acabar:** esbossos i plans d'equip validats i arxivats (són evidència CA1.1-1.3).
-**⚠️ Vigila:** símbols amb detalls minúsculs (lletres dins del dibuix, línies fines). La prova
-és sempre la mateixa: «allunya't 2 metres: es veu?». I l'alumne bloquejat davant la casella A:
-ofereix-li 3 exemples de frase, no la resposta.
+**📋 En acabar:** esbossos i plans arxivats (CA1.1-1.3); puja `motius_SA3` al Drive; **genera
+el full de connectors** de cada equip amb el seu kerf (`generador_rajola_hexagonal.py --tipus
+connectors --kerf 0.2`).
+**⚠️ Vigila:** el símbol triat del banc «tal qual». Demana **un canvi propi** (inicial, segon
+motiu, detall): és el que fa que la rajola parli de l'alumne. Les dues estacions **no depenen
+l'una de l'altra**: funciona igual qui va primer a Maker o a l'aula.
 
 ---
 
-## Setmana 10 · SA3 · S2/5 — «La rajola a Inkscape + mostra de connectors» 🔁 rotació (obre Maker: **grup A**)
+## Setmana 10 · SA3 · 2/3 — «La rajola a Inkscape» 👥 grup sencer (dimarts)
 
-**Fil del dia:** passar l'esbós a la plantilla digital i trobar el kerf de cada equip.
+**Fil del dia:** passar l'esbós a la plantilla digital, tots junts.
 
-**🎒 Abans:** `rajola_hexagonal_SA3.svg` a la carpeta de Drive de la SA; `mostra_connectors_SA3.svg`
-a punt per tallar (retalls de 70 × 70 mm, un per equip); peu de rei a l'estació Maker.
-**▶️ Obertura (10'):** «per què el connector no cau» (la cua d'oronella, en mà).
+**🎒 Abans:** `rajola_hexagonal_SA3.svg` i `motius_SA3` a la carpeta de Drive; Chromebooks carregats.
+**▶️ Obertura (10'):** demo de 5 minuts a la pantalla: importar un motiu, fer-lo cabre al cercle
+amb **Ctrl**, text a camí, amagar la GUIA.
 
-- 🔧 **Estació Maker:** **demo de la cua d'oronella i el connector (25')** + cada equip talla la **mostra de connectors**, prova els 4 i apunta el **kerf** (el que entra amb el polze i no cau); mesura de la cintura amb el peu de rei.
-- 💻 **Estudi de disseny:** el **pas a pas de la fitxa** (8 caselles): nom, símbol dins del cercle, text a camí, capa GUIA amagada, `ElMeuNom_SA3_v1.svg`; diari.
-**⏸️ Mínim:** rajola v1 desada + kerf de l'equip apuntat — el símbol es pot polir a la S3.
+1. **Pas a pas d'Inkscape (quadern pàg. 3)** — 8 caselles; tu valides cada fitxer.
+2. Qui acaba: **targeta del rusc** («la meva rajola diu…») i la seva frase de la Fira.
+**⏸️ Mínim:** rajola v1 desada (`ElMeuNom_SA3_v1.svg`).
 **⏹️ Tancament (5'):** diari.
 
-**📋 En acabar:** revisió dels fitxers (osques intactes? GUIA amagada? noms correctes?) i
-**genera el full de connectors** de cada equip amb el seu kerf (`generador_rajola_hexagonal.py
---tipus connectors --kerf 0.2`, vegeu `Recursos/Plantilles_disseny/README.md`).
+> Dijous 12: si torna a ser partit, a Maker es tallen les primeres rajoles i a l'aula s'acaba
+> Inkscape i la targeta del rusc.
+
+**📋 En acabar:** revisió de fitxers (osques intactes? GUIA amagada? noms correctes?) i
+**batches d'equip** muntats a l'XCS (4 rajoles costat amb costat + full de connectors).
 **⚠️ Vigila:** l'alumne que **escala la rajola** per fer-hi cabre més dibuix: les osques canvien
-de mida i el connector ja no hi entra. Si passa, torna a obrir la plantilla.
+de mida i el connector ja no hi entra. Es fa petit el símbol, no la rajola.
 
 ---
 
-## Setmana 11 · SA3 · S3/5 — «Fabricació de rajoles i connectors» 🔁 rotació (obre Maker: **grup B**)
+## Setmana 11 · SA3 · 3/3 + 🎄 SA3b — «Fabriquem el rusc · dissenyem l'adorn» 🔁 rotació (obre Maker: **grup A**)
 
-**Fil del dia:** el moment més maker del trimestre: fabricar per equips.
+**Fil del dia:** a Maker, el rusc es fa real; a l'aula, el mini-repte de Nadal reaprofita el
+símbol de la rajola (`Reptes/Repte_Nadal_adorns_SA3b.md`).
 
-**🎒 Abans:** planxes per equip (4 rajoles ≈ 250 × 210 mm col·locades costat amb costat); fulls
-de connectors generats amb el kerf de cada equip. **Envia les invitacions de la 🎪 Fira T1 a
-les famílies** (la data es va reservar al setembre; una nota curta amb dia, hora i què veuran).
-**▶️ Obertura (10'):** semàfor de fabricació + per què els hexàgons **tessel·len** (planxa sense retalls).
+**🎒 Abans:** batches d'equip a punt; connectors de recanvi de kerf +0,1; `adorns_nadal_SA3b.svg`
+al Drive i **un adorn de mostra** de cada forma; **full de l'adorn** imprès per al co-docent.
+**Envia les invitacions de la 🎪 Fira T1 a les famílies** (dia, hora i què veuran).
 
-- 🔧 **Estació Maker:** **batch d'equip**: les 4 rajoles en una passada + el full de connectors (el talla el responsable de connectors).
-- 💻 **Estudi de disseny:** targeta *«la meva rajola diu…»*, guió de presentació pautat, diari; reptes per a qui ja té la rajola enviada.
+- 🔧 **Estació Maker (amb tu):** semàfor de fabricació → **batch d'equip** (4 rajoles + connectors) →
+  **muntar la bresca** + **prova** (aixecar-la per una rajola) → iteració (connector del kerf següent).
+- 💻 **Aula ordinària (amb el co-docent):** 🎄 **SA3b**: tria de forma + esbós al full → Inkscape
+  (nom + símbol dins del cercle, GUIA amagada) → `ElMeuNom_SA3b_v1.svg`.
+**⏸️ Mínim:** rajola tallada i bresca muntada · adorn dissenyat.
 **⏹️ Tancament (5'):** diari.
 
-**📋 En acabar:** seguiment; deixa apuntat quines rajoles cal refer (símbol que no es llegeix) per a la setmana 12.
-**⚠️ Vigila:** la capa GUIA oblidada (el làser grava el cercle). El semàfor ho atura: mira la
-vista prèvia de l'XCS abans de prémer el botó.
+**📋 En acabar:** apunta quines rajoles cal refer (tenen **prioritat de làser** la setmana 12) i
+munta el batch d'adorns sobre els **retalls** de les planxes del rusc.
+**⚠️ Vigila:** la capa GUIA oblidada (el làser grava el cercle): mira la vista prèvia de l'XCS.
+És la **setmana coixí** del rusc: si ja està tot tallat, a Maker es comencen els adorns.
 
 ---
 
-## Setmana 12 · SA3 · S4/5 — «Muntatge de la bresca i millora» 🔁 rotació (obre Maker: **grup A**)
+## Setmana 12 · 🎄 SA3b — «Adorns a l'arbre i rusc a la paret» 🔁 rotació (obre Maker: **grup B**)
 
-**Fil del dia:** encaixar de veritat. El connector que balla es canvia: això és la iteració, no un fracàs.
+**Fil del dia:** tancar les peces del trimestre i deixar-ho tot a punt per a la Fira.
 
-**🎒 Abans:** connectors de recanvi de kerf +0,1 per a cada equip; retalls per refer rajoles; una
-taula gran lliure per al rusc. Confirma l'assistència aproximada de famílies a la 🎪 Fira de la
-setmana vinent.
-**▶️ Obertura (10'):** «avui l'objectiu és que la bresca s'aguanti» + la **prova de la bresca**.
+**🎒 Abans:** batch d'adorns muntat; cordill; retalls per a rajoles v2. Confirma l'assistència
+aproximada de famílies a la 🎪 Fira de la setmana vinent.
 
-- 🔧 **Estació Maker:** **muntatge de la bresca** + prova (aixecar-la per una rajola) + **iteració** (connector del kerf següent o rajola v2, batch curt).
-- 💻 **Estudi de disseny:** assaig de la presentació (la frase de cadascú) + portafoli + diari.
-**⏹️ Tancament (15', conjunt):** **unió de totes les bresques** sobre la taula: el rusc sencer per primer cop. Foto.
+- 🔧 **Estació Maker (amb tu):** primer les **rajoles pendents** del rusc; després **tall dels
+  adorns** (batches de 8-10, ≈ 6-8 min) amb semàfor; 🏛️ 5' d'obertura del Museu dels Errors.
+- 💻 **Aula ordinària (amb el co-docent):** cordill i acabat · ⭐ **avet 3D encaixat** (ranura =
+  gruix − kerf) · **assaig de la frase de la Fira** (quadern pàg. 4) · portafoli + diari.
+**⏸️ Mínim:** adorn tallat i penjat; cada alumne sap dir la seva frase.
+**⏹️ Tancament (10', conjunt si pot ser):** **unió de totes les bresques** sobre la taula: el rusc
+sencer per primer cop. Foto.
 
-**📋 En acabar:** fixa el rusc al tauler o a la paret abans de la Fira (cinta de muntatge de
-doble cara o tauler de DM de fons); comprova que hi ha una cel·la per a cada alumne (pla B: esbós 1:1).
+**📋 En acabar:** fixa el rusc a la paret o tauler abans de la Fira (cinta de doble cara o tauler
+de DM); una cel·la per alumne (pla B: esbós 1:1 «en construcció»). Penja els adorns a l'arbre
+del centre (foto sense cares per al portafoli).
 **⚠️ Vigila:** la cola no és una eina de disseny: si la bresca només s'aguanta encolada, el
-connector no s'ha ajustat. Val la pena dir-ho a la galeria.
+connector no s'ha ajustat.
 
 ---
 
