@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Banc de motius del rusc · SA3 (imprimible) · Aula Maker</title>
+<style>
+  :root { --acc: #d98e04; --acc-fosc: #9a6400; --ink: #2b2318; --soft: #fdf1d6; --line: #c9b89c; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+  .toolbar { max-width: 190mm; margin: 0 auto 1rem; display: flex; gap: .6rem; flex-wrap: wrap; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc-fosc); background: #fff; color: var(--acc-fosc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc-fosc); color: #fff; }
+  .hint { max-width: 190mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+  .full { width: 190mm; max-width: 100%; margin: 0 auto; }
+  .pagina { background: #fff; border: 2px solid var(--ink); border-radius: 4mm;
+    padding: 9mm 10mm; margin-bottom: 1rem; }
+  .cap { border-bottom: 3px double var(--ink); padding-bottom: 2.5mm; }
+  .cap h1 { margin: 0; font-size: 17pt; }
+  .cap .sub { font-size: 9.5pt; color: #6b5d4b; margin-top: 1mm; }
+  h2 { font-size: 11pt; text-transform: uppercase; letter-spacing: 1px; margin: 4mm 0 1.5mm;
+       color: var(--acc-fosc); border-bottom: 1.5px solid var(--line); padding-bottom: 1mm; }
+  p, li { font-size: 10pt; line-height: 1.4; }
+  ul { margin: 1mm 0; padding-left: 5mm; }
+  li { margin: .6mm 0; }
+  .galeria { display: block; width: 100%; max-width: 172mm; margin: 3mm auto 0; }
+  table { border-collapse: collapse; width: 100%; font-size: 9.5pt; }
+  th, td { border: 1.2px solid var(--line); padding: 1.6mm 2mm; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  code { font-family: Consolas, monospace; font-size: 9pt; }
+  .aviso { background: var(--soft); border-left: 4px solid var(--acc); border-radius: 2mm;
+    padding: 2.5mm 4mm; font-size: 10pt; margin: 2.5mm 0; }
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  @media (max-width: 720px) { .duo { grid-template-columns: 1fr; } }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    .full { width: auto; }
+    .pagina { border: none; border-radius: 0; padding: 0; margin: 0; }
+    .pagina + .pagina { break-before: page; }
+    @page { size: A4 portrait; margin: 11mm 12mm; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint">Banc de motius de la <strong>SA3</strong>: 2 pàgines A4 (millor a doble cara i, si pot ser,
+plastificat). <strong>Un per taula</strong> a la sessió 1, perquè cadascú triï amb el dit i en vegi les idees.</p>
+
+<div class="full">
+  <section class="pagina">
+    <div class="cap">
+      <h1>🐝 Banc de motius del rusc</h1>
+      <div class="sub">SA3 · Aula Maker · 26 motius llestos per gravar (elaboració pròpia, CC BY-SA 4.0)</div>
+    </div>
+    <div class="aviso">👉 <strong>Tria'n un i fes-lo teu:</strong> combina'l amb la teva inicial o amb un
+      altre motiu, afegeix-hi un detall o retalla'n una part. El nom de sota és el <strong>fitxer</strong>
+      que importaràs a Inkscape (carpeta <code>motius_SA3</code>).</div>
+    <img class="galeria" src="../recursos/plantilles_disseny/motius_sa3_galeria.svg"
+         alt="Galeria de 26 motius negres dins de cercles blaus discontinus, amb el nom i el fitxer a sota: pilota, bicicleta, videojocs, música, pintura, fotografia, llibres, gat, mascotes, peix, sol, lluna, muntanya, bosc, flor, mar, cor, estrella, llamp, somriure, espai, cuina, salut, enginyeria, ciència i programació.">
+  </section>
+
+  <section class="pagina">
+    <div class="cap">
+      <h1>💡 Què vull que digui de mi?</h1>
+      <div class="sub">Motius per a cada decisió A, idees per fer-ne un de propi i què fa que funcioni</div>
+    </div>
+
+    <h2>Motius segons la decisió A</h2>
+    <table>
+      <tr><th>Decisió A</th><th>Motius del banc</th><th>Exemple de frase per a la Fira</th></tr>
+      <tr><td><strong>M'agrada…</strong> esport i joc</td><td><code>futbol</code> · <code>bicicleta</code> · <code>comandament</code></td><td>«M'agrada el futbol: jugo de porter.»</td></tr>
+      <tr><td><strong>M'agrada…</strong> art i cultura</td><td><code>nota_musical</code> · <code>paleta</code> · <code>camera</code> · <code>llibre</code></td><td>«M'agrada la música: toco la bateria.»</td></tr>
+      <tr><td><strong>M'agrada…</strong> animals</td><td><code>gat</code> · <code>pota</code> · <code>peix</code></td><td>«Tinc un gos que es diu Lluc.»</td></tr>
+      <tr><td><strong>M'agrada…</strong> natura</td><td><code>sol</code> · <code>lluna</code> · <code>muntanya</code> · <code>pi</code> · <code>flor</code> · <code>onades</code></td><td>«Els estius els passo a la platja.»</td></tr>
+      <tr><td><strong>Sóc…</strong></td><td><code>cor</code> · <code>estrella</code> · <code>llamp</code> · <code>somriure</code></td><td>«Sóc energia: no paro mai quiet.»</td></tr>
+      <tr><td><strong>Vull ser…</strong></td><td><code>coet</code> · <code>xef</code> · <code>metge</code> · <code>engranatge</code> · <code>matras</code> · <code>codi</code></td><td>«Vull ser cuinera, com la meva àvia.»</td></tr>
+    </table>
+    <p>💡 El mateix motiu pot dir coses diferents: la <strong>lluna</strong> pot ser «m'agrada mirar el cel»,
+      «sóc de nit» o «vull ser astrònoma». <strong>La frase és teva</strong>; el motiu només l'acompanya.</p>
+
+    <h2>Com el faig meu (el canvi meu)</h2>
+    <div class="duo">
+      <ul>
+        <li><strong>Motiu + inicial:</strong> la teva inicial grossa al costat o a dins (p. ex. <code>estrella</code> + «L»).</li>
+        <li><strong>Dos motius petits:</strong> <code>nota_musical</code> + <code>cor</code> = «estimo la música».</li>
+        <li><strong>Afegeix-hi un detall:</strong> un número de samarreta a la pilota, un barret al gat.</li>
+      </ul>
+      <ul>
+        <li><strong>Retalla'n una part</strong> amb una operació de camí (com a la SA2): mitja lluna, mig sol.</li>
+        <li><strong>Posa-hi un marc:</strong> escut, cercle o estrella al voltant.</li>
+        <li><strong>⭐ Calat:</strong> només <code>cor</code>, <code>estrella</code>, <code>llamp</code>, <code>lluna</code> o <code>pota</code> (no tenen trossos que caiguin).</li>
+      </ul>
+    </div>
+
+    <h2>Idees per a un dibuix meu (amb formes simples)</h2>
+    <ul>
+      <li><strong>Esports:</strong> raqueta (cercle + rectangle), pilota de bàsquet, patí, porteria, medalla.</li>
+      <li><strong>Música:</strong> guitarra (2 cercles + rectangle), auriculars (arc + 2 rectangles), micròfon.</li>
+      <li><strong>Animals:</strong> ocell, papallona (4 cercles + 1 rectangle), tortuga, cavall, os.</li>
+      <li><strong>Lloc:</strong> la silueta del teu poble o d'un monument, una casa, una muntanya, una illa.</li>
+      <li><strong>Família i amics:</strong> 2 o 3 cercles entrellaçats, una mà, una casa amb un cor.</li>
+      <li><strong>Menjar:</strong> pizza (triangle + cercles), gelat (triangle + cercle), maduixa.</li>
+    </ul>
+
+    <h2>Què fa que un motiu funcioni</h2>
+    <div class="duo">
+      <ul>
+        <li>✅ <strong>Silueta clara</strong>: es reconeix per la forma, com un senyal de trànsit.</li>
+        <li>✅ <strong>Traços gruixuts</strong>: res més prim de <strong>2 mm</strong>.</li>
+        <li>✅ <strong>Poques peces</strong>: 1 forma principal + 2 o 3 detalls.</li>
+      </ul>
+      <ul>
+        <li>❌ Fotos, ombres, textos llargs o detalls minúsculs: a la fusta són una taca.</li>
+        <li>❌ <strong>Logos de marques, clubs o sèries</strong>: no són teus. Fes-ne la teva versió
+          (els colors d'un club → una pilota amb ratlles).</li>
+      </ul>
+    </div>
+  </section>
+</div>
+</body>
+</html>

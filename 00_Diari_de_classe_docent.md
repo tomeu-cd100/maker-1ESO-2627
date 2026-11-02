@@ -246,8 +246,9 @@ imatges simples i d'alt contrast, o banc de plantilles.
 totes juntes faran el rusc. Avui no s'inventa l'objecte: es **trien 3 coses** i es fa l'esbós.
 
 **🎒 Abans:** una **rajola tallada + 2 connectors** per passar de mà en mà; `rusc_esquema_SA3.svg`
-projectat; **plantilla 1:1 impresa** (una per alumne, `rajola_hexagonal_SA3.svg` a escala 100 %);
-**galeria del banc de motius impresa** (`Recursos/Banc_motius_SA3.md`) a cada taula; equips T1 a la vista.
+projectat; 🖨️ **quadern de la rajola** imprès (un per alumne, 4 pàgines a doble cara, al 100 %: la
+pàgina 2 és la plantilla 1:1) i **banc de motius** imprès (un per taula) — tots dos a la web, «Per
+imprimir» de la SA3, o en PDF amb `genera_pdf_impressos.py SA3`; equips T1 a la vista.
 **▶️ Obertura (10'):** 🎯 *feed-forward* + pregunta guia + 🧭 Gran Idea 1 + 4 (*l'error és informació*).
 **Desenvolupament:**
 

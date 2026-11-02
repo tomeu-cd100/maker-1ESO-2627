@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>La meva rajola del rusc · quadern de la SA3 (imprimible) · Aula Maker</title>
+<style>
+  :root { --acc: #d98e04; --acc-fosc: #9a6400; --ink: #2b2318; --soft: #fdf1d6; --line: #c9b89c;
+          --vermell: #d33; --blau: #36f; --gris: #4a4030; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+
+  .toolbar { max-width: 190mm; margin: 0 auto 1rem; display: flex; gap: .6rem; flex-wrap: wrap; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc-fosc); background: #fff; color: var(--acc-fosc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc-fosc); color: #fff; }
+  .hint { max-width: 190mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+
+  .full { width: 190mm; max-width: 100%; margin: 0 auto; }
+  .pagina { background: #fff; border: 2px solid var(--ink); border-radius: 4mm;
+    padding: 9mm 10mm; margin-bottom: 1rem; }
+
+  .cap { display: flex; justify-content: space-between; align-items: flex-end;
+    border-bottom: 3px double var(--ink); padding-bottom: 2.5mm; gap: 6mm; }
+  .cap h1 { margin: 0; font-size: 17pt; letter-spacing: .3px; }
+  .cap .sub { font-size: 9.5pt; color: #6b5d4b; margin-top: 1mm; }
+  .cap .seg { border: 2px solid var(--acc-fosc); color: var(--acc-fosc); font-weight: 700;
+    border-radius: 999px; padding: 1mm 3mm; font-size: 8.5pt; white-space: nowrap; text-align: center; }
+
+  .dades { display: flex; gap: 5mm; margin: 3.5mm 0 1mm; font-size: 10.5pt; }
+  .dades span { flex: 1; border-bottom: 1.5px solid var(--ink); padding-bottom: 1mm; }
+  .dades span.g { flex: .6; }
+
+  h2 { font-size: 11pt; text-transform: uppercase; letter-spacing: 1px;
+       margin: 4mm 0 1.5mm; color: var(--acc-fosc);
+       border-bottom: 1.5px solid var(--line); padding-bottom: 1mm; }
+  h2 small { font-size: 8.5pt; color: #6b5d4b; text-transform: none; letter-spacing: 0; font-weight: 400; }
+  p { margin: 1.5mm 0; font-size: 10pt; line-height: 1.35; }
+
+  .aviso { background: var(--soft); border-left: 4px solid var(--acc); border-radius: 2mm;
+    padding: 2.5mm 4mm; font-size: 10pt; margin: 2.5mm 0; line-height: 1.35; }
+  .compte { background: #fdecec; border-left: 4px solid var(--vermell); border-radius: 2mm;
+    padding: 2mm 4mm; font-size: 9.5pt; margin: 2mm 0; }
+
+  .chk { display: inline-block; width: 4.6mm; height: 4.6mm; border: 1.5px solid var(--ink);
+    border-radius: 1mm; vertical-align: -1mm; margin-right: 2mm; flex: 0 0 auto; }
+  .llista .item { padding: 1.4mm 0; border-bottom: 1px dotted var(--line); font-size: 10pt;
+    display: flex; align-items: baseline; gap: 1mm; }
+  .linia { display: inline-block; border-bottom: 1.2px solid var(--ink); min-width: 55mm; height: 4mm; }
+  .linia.ll { min-width: 95mm; }
+  .linia.c { min-width: 22mm; }
+
+  .opcions { display: grid; gap: 1.6mm; margin: 1.5mm 0 1mm; font-size: 10pt; }
+  .opcions.tres { grid-template-columns: 1fr 1fr 1fr; }
+  .opcio { border: 1.5px solid var(--line); border-radius: 2mm; padding: 2mm 2.5mm; }
+  .opcio .nv { font-size: 8.5pt; color: #6b5d4b; display: block; margin-top: .8mm; }
+  .opcio.rec { border-color: var(--acc); background: #fffaf0; }
+
+  .lletra { font-size: 15pt; display: block; margin-top: 1mm; }
+  .l1 { font-family: "Arial Black", "Segoe UI Black", sans-serif; font-weight: 900; }
+  .l2 { font-family: "Arial Rounded MT Bold", "Nunito", "Varela Round", "Comic Sans MS", sans-serif; font-weight: 700; }
+  .l3 { font-family: "Courier New", Courier, monospace; font-weight: 700; }
+
+  .esbossos { display: flex; justify-content: space-between; align-items: flex-start; gap: 4mm; margin: 2mm 0 0; }
+  .esbossos .tria { flex: 1; font-size: 10pt; padding-top: 2mm; }
+  .esbossos .tria p { margin: 0 0 2.5mm; }
+  .ratlla { border-bottom: 1.2px solid var(--ink); height: 6mm; }
+  .esbossos figure { margin: 0; text-align: center; font-size: 9pt; color: #6b5d4b; }
+  .cercle { width: 56mm; height: 56mm; border: 1.6px dashed var(--blau); border-radius: 50%; }
+
+  /* rajola a mida real */
+  .rajola-wrap { display: flex; gap: 6mm; align-items: center; margin: 2mm 0; }
+  .rajola-wrap svg.rajola { width: 119.5mm; height: 104mm; flex: 0 0 auto; }
+  .ajuda { font-size: 9pt; color: #4f4433; line-height: 1.35; }
+  .ajuda p { font-size: 9pt; margin: 0 0 2mm; }
+  .regle { display: flex; align-items: center; gap: 2mm; font-size: 8.5pt; color: #6b5d4b; margin-top: 1mm; }
+  .regle i { display: block; width: 50mm; height: 2.5mm; border: 1.2px solid var(--ink); border-top: none; }
+
+  .equip { display: flex; gap: 6mm; align-items: flex-start; }
+  .equip svg { width: 62mm; flex: 0 0 auto; }
+  table { border-collapse: collapse; width: 100%; font-size: 9.5pt; }
+  th, td { border: 1.2px solid var(--line); padding: 1.6mm 2mm; text-align: left; vertical-align: top; }
+  th { background: var(--soft); }
+  td.qui { width: 30mm; }
+
+  ol.ruta { list-style: none; counter-reset: pas; padding: 0; margin: 1.5mm 0; }
+  ol.ruta li { counter-increment: pas; position: relative; padding: 1.6mm 2mm 1.6mm 19mm;
+    border-bottom: 1px dotted var(--line); font-size: 9.8pt; min-height: 8.5mm; line-height: 1.3; }
+  ol.ruta li::before { content: counter(pas); position: absolute; left: 2mm; top: 1.6mm;
+    width: 6.5mm; height: 6.5mm; background: var(--acc-fosc); color: #fff; border-radius: 50%;
+    text-align: center; line-height: 6.5mm; font-weight: 700; font-size: 9.5pt; }
+  ol.ruta li .chk { position: absolute; left: 10.5mm; top: 1.6mm; }
+
+  .kerf { display: flex; gap: 3mm; margin: 1.5mm 0; flex-wrap: wrap; font-size: 10pt; }
+  .kerf span { border: 1.5px solid var(--line); border-radius: 2mm; padding: 1.5mm 3mm; }
+
+  .duo { display: grid; grid-template-columns: 1fr 1fr; gap: 5mm; }
+  .caixa { border: 1.5px solid var(--line); border-radius: 2mm; padding: 2.5mm 3mm; font-size: 9.8pt; }
+  .frase { border: 2px solid var(--acc); border-radius: 3mm; padding: 3mm 4mm; font-size: 11pt;
+    line-height: 2.1; margin: 2mm 0; }
+  .repte { background: #fff7ec; border: 1.5px solid var(--acc); border-radius: 2mm;
+    padding: 2.5mm 3.5mm; font-size: 9.5pt; margin-top: 3mm; line-height: 1.4; }
+  .repte ul { margin: 1mm 0 0; padding-left: 5mm; }
+  .peu { margin-top: 3mm; text-align: center; font-style: italic; font-size: 9pt;
+    color: #6b5d4b; border-top: 1.5px solid var(--line); padding-top: 2mm; }
+
+  @media (max-width: 720px) {
+    .opcions.tres, .duo { grid-template-columns: 1fr; }
+    .rajola-wrap, .equip { flex-direction: column; }
+  }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    .full { width: auto; }
+    .pagina { border: none; border-radius: 0; padding: 0; margin: 0; }
+    .pagina + .pagina { break-before: page; }
+    @page { size: A4 portrait; margin: 11mm 12mm; }
+    .rajola-wrap, .equip, .opcions, .esbossos, table, .frase { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint">Quadern de l'alumnat de la <strong>SA3 · 🐝 El rusc de la classe</strong>: 4 pàgines A4
+(2 fulls a doble cara, grapats). Un per alumne/a; el porten totes 5 sessions. ⚠️ Imprimeix-lo al
+<strong>100 %</strong> (sense «ajusta a la pàgina»): la rajola de la pàgina 2 és a <strong>mida real</strong>
+i la línia de control ha de fer <strong>5 cm</strong>.</p>
+
+<div class="full">
+
+  <!-- ============ PÀGINA 1 ============ -->
+  <section class="pagina">
+    <div class="cap">
+      <div>
+        <h1>🐝 La meva rajola del rusc</h1>
+        <div class="sub">SA3 · Aula Maker · 1r d'ESO · quadern del projecte del 1r trimestre</div>
+      </div>
+      <div class="seg">SESSIÓ 1<br>EL REPTE</div>
+    </div>
+    <div class="dades">
+      <span><strong>Nom:</strong> </span>
+      <span class="g"><strong>Equip:</strong> </span>
+      <span class="g"><strong>El meu rol:</strong> </span>
+    </div>
+
+    <div class="aviso">🎯 <strong>El repte:</strong> dissenya i fabrica <strong>la teva rajola</strong>: un
+      hexàgon de fusta amb el <strong>teu nom</strong> i un <strong>símbol que expliqui alguna cosa de
+      tu</strong>. Les 4 rajoles del teu equip formen una <strong>bresca</strong>; totes les bresques
+      juntes formen <strong>el rusc de la classe</strong>, que es penjarà a l'aula Maker tot el curs.
+      Les rajoles s'uneixen amb <strong>connectors en forma de corbatí</strong>.</div>
+
+    <h2>Decisió A · Què vull que digui de mi la rajola? <small>— marca'n una i acaba la frase</small></h2>
+    <div class="llista">
+      <div class="item"><span class="chk"></span><strong>M'agrada…</strong>&nbsp;<span class="linia ll"></span></div>
+      <div class="item"><span class="chk"></span><strong>Sóc…</strong>&nbsp;<span class="linia ll"></span></div>
+      <div class="item"><span class="chk"></span><strong>Vull ser…</strong>&nbsp;<span class="linia ll"></span></div>
+    </div>
+
+    <h2>Decisió B · D'on surt el símbol? <small>— marca'n una (idees al full del banc de motius)</small></h2>
+    <div class="opcions tres">
+      <div class="opcio rec"><span class="chk"></span><strong>Un motiu del banc + un canvi meu</strong>
+        <span class="nv">El combino amb la meva inicial o amb un altre motiu, hi afegeixo un detall
+        o en retallo una part. <em>Ha de ser meu, no només triat.</em></span></div>
+      <div class="opcio"><span class="chk"></span><strong>Un dibuix meu</strong>
+        <span class="nv">Senzill: formes grosses (cercles, rectangles, estrelles), sense detalls petits.</span></div>
+      <div class="opcio"><span class="chk"></span><strong>⭐ Un calat</strong>
+        <span class="nv">El símbol es <strong>talla</strong> i queda un forat amb la seva forma.
+        Abans, parla-ho amb el/la profe.</span></div>
+    </div>
+    <p style="font-size:8.8pt;color:#6b5d4b;margin:0">💬 Si t'encalles de veritat, el motiu del banc tal qual també val: parla-ho amb el/la profe.</p>
+
+    <h2>Decisió C · Quina lletra per al nom? <small>— marca'n una</small></h2>
+    <div class="opcions tres">
+      <div class="opcio"><span class="chk"></span>Gruixuda <span class="lletra l1">MARIA</span></div>
+      <div class="opcio"><span class="chk"></span>Rodona <span class="lletra l2">Maria</span></div>
+      <div class="opcio"><span class="chk"></span>De màquina d'escriure <span class="lletra l3">MARIA</span></div>
+    </div>
+
+    <h2>Dos esbossos del símbol <small>— ràpids, dins dels cercles (són de mida real!)</small></h2>
+    <div class="esbossos">
+      <figure><div class="cercle"></div><figcaption>Esbós 1</figcaption></figure>
+      <figure><div class="cercle"></div><figcaption>Esbós 2</figcaption></figure>
+      <div class="tria">
+        <p><strong>Trio l'esbós</strong></p>
+        <p><span class="chk"></span>1 &nbsp;&nbsp;<span class="chk"></span>2</p>
+        <p><strong>perquè</strong> (1 motiu):</p>
+        <p class="ratlla"></p><p class="ratlla"></p><p class="ratlla"></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PÀGINA 2 ============ -->
+  <section class="pagina">
+    <div class="cap">
+      <div>
+        <h1>✏️ La rajola a mida real</h1>
+        <div class="sub">Dibuixa-hi el nom i el símbol amb llapis · després, el pla de l'equip</div>
+      </div>
+      <div class="seg">SESSIÓ 1<br>ESBÓS 1:1</div>
+    </div>
+
+    <div class="rajola-wrap">
+      <svg class="rajola" viewBox="0 0 119.5 104" role="img"
+           aria-label="Rajola hexagonal a mida real: contorn vermell amb una osca a cada costat, cercle guia blau discontinu al centre i la zona del nom a baix.">
+        <g transform="translate(59.735,52)" fill="none" stroke="#d33" stroke-width="0.5">
+          <path d="M 57.735,0 L 45.801,20.67 L 40.123,14.505 L 32.623,27.495 L 40.801,29.33 L 28.868,50 L 5,50 L 7.5,42 L -7.5,42 L -5,50 L -28.868,50 L -40.801,29.33 L -32.623,27.495 L -40.123,14.505 L -45.801,20.67 L -57.735,0 L -45.801,-20.67 L -40.123,-14.505 L -32.623,-27.495 L -40.801,-29.33 L -28.868,-50 L -5,-50 L -7.5,-42 L 7.5,-42 L 5,-50 L 28.868,-50 L 40.801,-29.33 L 32.623,-27.495 L 40.123,-14.505 L 45.801,-20.67 Z"/>
+        </g>
+        <circle cx="59.74" cy="48" r="28" fill="none" stroke="#36f" stroke-width="0.4" stroke-dasharray="2,1.5"/>
+        <rect x="38" y="80.5" width="43.5" height="9.5" rx="1.2" fill="none" stroke="#999" stroke-width="0.3" stroke-dasharray="1,1"/>
+        <text x="59.74" y="87" font-size="4" fill="#aaa" text-anchor="middle" font-family="sans-serif">el meu nom</text>
+      </svg>
+      <div class="ajuda">
+        <p>🔴 <strong>Vermell = tall.</strong> El contorn i les <strong>6 osques</strong> són iguals per a
+          tothom: <strong>no els redibuixis</strong>.</p>
+        <p>🔵 <strong>Cercle blau = zona del símbol.</strong> Tot el símbol hi ha de cabre. A
+          l'ordinador s'amaga abans de tallar.</p>
+        <p>⚫ <strong>Negre = gravat.</strong> El nom i el símbol.</p>
+        <p>👀 <strong>Prova dels 2 metres:</strong> deixa el full a la taula i allunya't. Es veu què és?</p>
+        <p style="margin-top:3mm">☐ ✅ <strong>Validat per:</strong> <span class="linia c"></span></p>
+        <div class="regle"><i></i> 5 cm</div>
+        <p style="font-size:8pt;color:#6b5d4b;margin-top:1mm">Si aquesta línia no fa 5 cm, el full no s'ha imprès a mida real.</p>
+      </div>
+    </div>
+
+    <h2>El pla de l'equip <small>— escriviu el nom de cadascú a la seva cel·la</small></h2>
+    <div class="equip">
+      <svg viewBox="-2 0 256 186" role="img" aria-label="Quatre hexàgons buits units en forma de bresca, numerats de l'1 al 4.">
+        <g fill="none" stroke="#2b2318" stroke-width="1.6">
+          <polygon points="100,50 75,93 25,93 0,50 25,7 75,7"/>
+          <polygon points="175,93 150,136 100,136 75,93 100,50 150,50"/>
+          <polygon points="100,136 75,179 25,179 0,136 25,93 75,93"/>
+          <polygon points="250,50 225,93 175,93 150,50 175,7 225,7"/>
+        </g>
+        <g font-size="13" fill="#9a6400" text-anchor="middle" font-family="sans-serif" font-weight="700">
+          <text x="50" y="30">1</text><text x="125" y="73">2</text><text x="50" y="116">3</text><text x="200" y="30">4</text>
+        </g>
+      </svg>
+      <table>
+        <tr><th>Rol</th><th>Què fa</th><th>Qui</th></tr>
+        <tr><td>📏 <strong>Mesures</strong></td><td>Prova la mostra de connectors i apunta el <strong>kerf</strong> de l'equip</td><td class="qui"></td></tr>
+        <tr><td>🔗 <strong>Connectors</strong></td><td>Talla els connectors de l'equip i en compta prou</td><td class="qui"></td></tr>
+        <tr><td>📔 <strong>Documentació</strong></td><td>Fa les fotos (mostra, bresca, rusc) i revisa els diaris</td><td class="qui"></td></tr>
+        <tr><td>🎤 <strong>Presentació</strong></td><td>Organitza el guió de la Fira i l'assaig</td><td class="qui"></td></tr>
+      </table>
+    </div>
+    <p>🕐 El nostre <strong>torn de làser</strong> (sessió 3): <span class="linia"></span> &nbsp;&nbsp;
+      ☐ ✅ Pla validat per: <span class="linia c"></span></p>
+
+    <h2>Abans de demanar la validació, comprovo <small>— requisits iguals per a tothom</small></h2>
+    <div class="llista">
+      <div class="item"><span class="chk"></span>Faig servir la <strong>plantilla</strong> i <strong>no toco les osques</strong> dels costats (si no, el connector no hi entra).</div>
+      <div class="item"><span class="chk"></span>El <strong>símbol</strong> cap <strong>dins del cercle guia</strong> blau (56 mm).</div>
+      <div class="item"><span class="chk"></span>El <strong>nom</strong> va a la franja de baix, amb <strong>10 lletres com a màxim</strong>.</div>
+      <div class="item"><span class="chk"></span>Es <strong>llegeix a 2 metres</strong>: traços gruixuts (res més prim de 2 mm), pocs detalls.</div>
+    </div>
+
+    <div class="compte">⚠️ <strong>No escalis mai la rajola</strong> per fer-hi cabre més dibuix: les osques
+      canviarien de mida i el connector ja no hi entraria. Si el símbol no hi cap, el que fas més petit és el símbol.</div>
+  </section>
+
+  <!-- ============ PÀGINA 3 ============ -->
+  <section class="pagina">
+    <div class="cap">
+      <div>
+        <h1>🖥️ De l'esbós a la màquina</h1>
+        <div class="sub">Inkscape, mostra de connectors i semàfor de fabricació</div>
+      </div>
+      <div class="seg">SESSIONS<br>2 i 3</div>
+    </div>
+
+    <h2>A Inkscape, pas a pas <small>— marca cada casella quan ho tinguis</small></h2>
+    <ol class="ruta">
+      <li><span class="chk"></span>Obre <strong>rajola_hexagonal_SA3.svg</strong> (carpeta de la SA, al Drive).</li>
+      <li><span class="chk"></span>Doble clic a <strong>NOM</strong> i escriu el teu nom. Canvia-li la lletra a la que has triat (decisió C).</li>
+      <li><span class="chk"></span>Posa el símbol: <strong>Fitxer → Importa</strong> → carpeta <strong>motius_SA3</strong>, o dibuixa'l amb formes. Fes-hi <strong>el teu canvi</strong> (inicial, segon motiu, detall…).</li>
+      <li><span class="chk"></span>Fes-lo <strong>negre</strong> (gravat) — o <strong>vora vermella sense ompliment</strong> si és ⭐ calat.</li>
+      <li><span class="chk"></span>Fes-lo <strong>cabre dins del cercle blau</strong>: arrossega les cantonades amb <strong>Ctrl</strong> premut perquè no es deformi.</li>
+      <li><span class="chk"></span>Selecciona el nom → <strong>Camí → Objecte a camí</strong>.</li>
+      <li><span class="chk"></span><strong>Amaga la capa GUIA</strong> (finestra Capes, clic a l'ull 👁️): el cercle blau ha de desaparèixer.</li>
+      <li><span class="chk"></span>Desa com <strong>ElMeuNom_SA3_v1.svg</strong> a la carpeta de la SA. <em>No has tocat el contorn ni les osques.</em></li>
+    </ol>
+
+    <h2>La mostra de connectors: el nostre kerf <small>— a l'estació Maker</small></h2>
+    <p>El <strong>kerf</strong> és el gruix que es «menja» el làser en tallar. Si el connector és massa
+      just, no entra; si és massa fluix, la bresca es desmunta. La mostra té <strong>4 connectors</strong>
+      lleugerament diferents.</p>
+    <div class="llista">
+      <div class="item"><span class="chk"></span>Hem provat els 4 connectors a l'osca del cupó.</div>
+    </div>
+    <p>El que <strong>entra fent força amb el polze i no cau si sacsegem</strong> és el:</p>
+    <div class="kerf"><span>☐ 0,0</span><span>☐ 0,1</span><span>☐ 0,2</span><span>☐ 0,3</span><span style="border:none">→ <strong>el nostre kerf</strong> (mm)</span></div>
+    <p>📏 Amb el <strong>peu de rei</strong>, la <strong>cintura</strong> del connector 0,0 (dibuixat 10,0 mm) fa: <span class="linia c"></span> mm → diferència: <span class="linia c" style="min-width:14mm"></span> mm.</p>
+    <p style="font-size:8.8pt;color:#6b5d4b">Parlem de <strong>dècimes de mil·límetre</strong>: abans de mesurar, mira la micro-fitxa del peu de rei (com es llegeix el nònius).</p>
+
+    <h2>🚦 Semàfor de fabricació <small>— abans d'enviar la rajola a la làser (sessió 3)</small></h2>
+    <div class="llista">
+      <div class="item"><span class="chk"></span><strong>Mides:</strong> la rajola fa <strong>115 × 100 mm</strong> (no l'he escalat).</div>
+      <div class="item"><span class="chk"></span><strong>Colors:</strong> contorn <strong>vermell</strong> (tall) · nom i símbol <strong>negres</strong> (gravat).</div>
+      <div class="item"><span class="chk"></span><strong>Text convertit a camí</strong> · capa <strong>GUIA amagada</strong> (a la vista prèvia de l'XCS no hi ha cap cercle).</div>
+      <div class="item"><span class="chk"></span><strong>Fitxer:</strong> ElMeuNom_SA3_v1.svg, a la carpeta de la SA.</div>
+    </div>
+
+    <div class="repte">⏳ <strong>Mentre espero el torn de làser:</strong> omplo la <strong>targeta de la meva
+      rajola</strong> per a la Fira («la meva rajola diu…»), preparo la meva frase de la pàgina 4 i escric el diari.</div>
+  </section>
+
+  <!-- ============ PÀGINA 4 ============ -->
+  <section class="pagina">
+    <div class="cap">
+      <div>
+        <h1>🔗 Muntar, millorar i presentar</h1>
+        <div class="sub">La bresca, la iteració i la 🎪 Fira de mostres del 1r trimestre</div>
+      </div>
+      <div class="seg">SESSIONS<br>4 i 5</div>
+    </div>
+
+    <h2>La prova de la bresca <small>— sessió 4</small></h2>
+    <div class="duo">
+      <div class="caixa">
+        <p><strong>Aixequem la bresca agafant una sola rajola.</strong> S'aguanta?
+          &nbsp;☐ Sí &nbsp;☐ No</p>
+        <p>Si no: el connector que balla és el <span class="linia c"></span> → l'hem canviat pel de kerf <span class="linia c"></span></p>
+        <p style="font-size:8.8pt;color:#6b5d4b">La cola no val: si només s'aguanta encolada, el connector no està ajustat.</p>
+      </div>
+      <div class="caixa">
+        <p><strong>La meva rajola es llegeix a 2 metres?</strong> &nbsp;☐ Sí &nbsp;☐ No</p>
+        <p>Si no, què canvio a la <strong>v2</strong>: <span class="linia"></span></p>
+        <p><strong>La millora que hem fet com a equip:</strong></p>
+        <p><span class="linia" style="min-width:100%"></span></p>
+      </div>
+    </div>
+
+    <h2>🎪 La Fira <small>— primera presentació pública del curs, davant de famílies</small></h2>
+    <p>Cada membre diu <strong>la seva frase</strong>; l'equip explica el procés. Ompliu-ho i assajeu-ho un cop.</p>
+    <div class="frase">
+      🗣️ <strong>La meva frase:</strong> «La meva rajola diu que <span class="linia" style="min-width:62mm"></span>
+      i l'he feta <span class="linia" style="min-width:70mm"></span>.»
+    </div>
+    <div class="llista">
+      <div class="item" style="display:block"><span class="chk"></span><strong>El procés</strong> (ho diu: <span class="linia c"></span>): mostra de connectors → kerf <span class="linia c" style="min-width:12mm"></span> → tall → bresca → rusc.</div>
+      <div class="item" style="display:block;line-height:2"><span class="chk"></span><strong>La millora</strong> (ho diu: <span class="linia c"></span>): «Al principi <span class="linia c" style="min-width:38mm"></span>, i ho vam arreglar <span class="linia c" style="min-width:30mm"></span>.»</div>
+      <div class="item"><span class="chk"></span>L'hem <strong>assajat un cop</strong> abans de la Fira.</div>
+    </div>
+
+    <h2>Reflexió</h2>
+    <p>El que més m'agrada de la meva rajola: <span class="linia ll"></span></p>
+    <p>El que m'ha costat més: <span class="linia ll"></span></p>
+    <p>Com ha funcionat el nostre equip? &nbsp;🔴 ☐ &nbsp;🟡 ☐ &nbsp;🟢 ☐</p>
+
+    <h2>🔍 Com m'avaluaran? <small>— producte final del trimestre ⭐</small></h2>
+    <table>
+      <tr><th>Què es mira</th><th>Com</th></tr>
+      <tr><td>La meva <strong>rajola</strong> i la <strong>bresca</strong>: es llegeix i supera la prova</td><td>Rúbrica de la SA (la tenim des del primer dia)</td></tr>
+      <tr><td>El <strong>procés</strong>: decisions → esbós → mostra de connectors → millora</td><td>Aquest quadern + el diari</td></tr>
+      <tr><td><strong>La meva part</strong>: la meva rajola i el meu rol</td><td>La rajola + el meu diari</td></tr>
+      <tr><td>La <strong>presentació</strong> a la Fira</td><td>Dic la meva frase i expliquem el procés</td></tr>
+      <tr><td>Com hem <strong>treballat en equip</strong></td><td>Coavaluació (abans la calibrem junts)</td></tr>
+    </table>
+    <p style="font-size:9pt">Nivells: 🌱 Començo · 🙂 Ho faig · 💪 Ho faig bé · 🌟 Ho domino</p>
+
+    <div class="repte">⭐ <strong>Si acabes abans</strong> (tria'n un):
+      <ul>
+        <li><strong>Calat:</strong> passa el símbol de gravat a tall dins del cercle (sense afeblir la rajola).</li>
+        <li><strong>Rajola de vora:</strong> una rajola extra amb el nom del grup per tancar el contorn del rusc.</li>
+        <li><strong>Ajuda un altre equip</strong> a trobar el seu kerf i explica-li per què és aquest.</li>
+        <li>Porta una peça fallida al <strong>🏛️ Museu dels Errors</strong> amb la seva targeta.</li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

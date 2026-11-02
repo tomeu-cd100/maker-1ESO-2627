@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Targetes del rusc · Fira T1 (SA3, imprimible) · Aula Maker</title>
+<style>
+  :root { --acc: #d98e04; --acc-fosc: #9a6400; --ink: #2b2318; --line: #c9b89c; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", system-ui, sans-serif; color: var(--ink);
+         background: #faf6ef; margin: 0; padding: 1rem; }
+  .toolbar { max-width: 190mm; margin: 0 auto 1rem; display: flex; gap: .6rem; flex-wrap: wrap; }
+  .toolbar a, .toolbar button { font: inherit; padding: .5rem 1.1rem; border-radius: 999px;
+    border: 2px solid var(--acc-fosc); background: #fff; color: var(--acc-fosc); cursor: pointer;
+    text-decoration: none; font-weight: 600; }
+  .toolbar button { background: var(--acc-fosc); color: #fff; }
+  .hint { max-width: 190mm; margin: 0 auto 1rem; font-size: .85rem; color: #6b5d4b; }
+  .graella { width: 186mm; max-width: 100%; margin: 0 auto; background: #fff;
+    display: grid; grid-template-columns: 1fr 1fr; }
+  .t { height: 67mm; border: 1px dashed #b9ad95; padding: 5mm 6mm; display: flex;
+    flex-direction: column; gap: 2.2mm; font-size: 10.5pt; }
+  .t .tit { display: flex; align-items: center; gap: 2mm; font-weight: 700; font-size: 11pt;
+    color: var(--acc-fosc); border-bottom: 2px solid var(--acc); padding-bottom: 1.5mm; }
+  .t .tit svg { width: 7mm; height: 7mm; flex: 0 0 auto; }
+  .l { display: flex; align-items: flex-end; gap: 1.5mm; }
+  .l b { white-space: nowrap; }
+  .l i { flex: 1; border-bottom: 1.2px solid var(--ink); height: 5mm; }
+  .peu { margin-top: auto; font-size: 8pt; color: #6b5d4b; }
+  @media (max-width: 720px) { .graella { grid-template-columns: 1fr; } }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .toolbar, .hint { display: none; }
+    .graella { width: auto; }
+    @page { size: A4 portrait; margin: 10mm 12mm; }
+    .t { break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="toolbar">
+  <button onclick="print()">🖨️ Imprimeix</button>
+  <a href="../index.html">← Torna a la web</a>
+</div>
+<p class="hint">Targetes per a la <strong>🎪 Fira del T1</strong>: 8 per A4 (es retallen per la línia
+discontínua). Cada alumne n'omple una a la <strong>sessió 3</strong> mentre espera torn de làser, i es
+penja al costat de la seva rajola al rusc. A la Fira la pot llegir qui la visiti.</p>
+
+<div class="graella">
+  <!-- 8 targetes idèntiques -->
+  <div class="t"><div class="tit"><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="19,10 14.5,17.8 5.5,17.8 1,10 5.5,2.2 14.5,2.2" fill="none" stroke="#9a6400" stroke-width="2"/></svg>La meva rajola del rusc</div>
+    <div class="l"><b>Em dic:</b><i></i></div><div class="l"><b>La meva rajola diu que</b><i></i></div><div class="l"><i></i></div>
+    <div class="l"><b>El símbol és</b><i></i></div><div class="l"><b>L'he feta</b><i></i></div>
+    <div class="peu">Equip ______ · SA3 · Aula Maker 1r ESO</div></div>
+  <div class="t"><div class="tit"><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="19,10 14.5,17.8 5.5,17.8 1,10 5.5,2.2 14.5,2.2" fill="none" stroke="#9a6400" stroke-width="2"/></svg>La meva rajola del rusc</div>
+    <div class="l"><b>Em dic:</b><i></i></div><div class="l"><b>La meva rajola diu que</b><i></i></div><div class="l"><i></i></div>
+    <div class="l"><b>El símbol és</b><i></i></div><div class="l"><b>L'he feta</b><i></i></div>
+    <div class="peu">Equip ______ · SA3 · Aula Maker 1r ESO</div></div>
+  <div class="t"><div class="tit"><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="19,10 14.5,17.8 5.5,17.8 1,10 5.5,2.2 14.5,2.2" fill="none" stroke="#9a6400" stroke-width="2"/></svg>La meva rajola del rusc</div>
+    <div class="l"><b>Em dic:</b><i></i></div><div class="l"><b>La meva rajola diu que</b><i></i></div><div class="l"><i></i></div>
+    <div class="l"><b>El símbol és</b><i></i></div><div class="l"><b>L'he feta</b><i></i></div>
+    <div class="peu">Equip ______ · SA3 · Aula Maker 1r ESO</div></div>
+  <div class="t"><div class="tit"><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="19,10 14.5,17.8 5.5,17.8 1,10 5.5,2.2 14.5,2.2" fill="none" stroke="#9a6400" stroke-width="2"/></svg>La meva rajola del rusc</div>
+    <div class="l"><b>Em dic:</b><i></i></div><div class="l"><b>La meva rajola diu que</b><i></i></div><div class="l"><i></i></div>
+    <div class="l"><b>El símbol és</b><i></i></div><div class="l"><b>L'he feta</b><i></i></div>
+    <div class="peu">Equip ______ · SA3 · Aula Maker 1r ESO</div></div>
+  <div class="t"><div class="tit"><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="19,10 14.5,17.8 5.5,17.8 1,10 5.5,2.2 14.5,2.2" fill="none" stroke="#9a6400" stroke-width="2"/></svg>La meva rajola del rusc</div>
+    <div class="l"><b>Em dic:</b><i></i></div><div class="l"><b>La meva rajola diu que</b><i></i></div><div class="l"><i></i></div>
+    <div class="l"><b>El símbol és</b><i></i></div><div class="l"><b>L'he feta</b><i></i></div>
+    <div class="peu">Equip ______ · SA3 · Aula Maker 1r ESO</div></div>
+  <div class="t"><div class="tit"><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="19,10 14.5,17.8 5.5,17.8 1,10 5.5,2.2 14.5,2.2" fill="none" stroke="#9a6400" stroke-width="2"/></svg>La meva rajola del rusc</div>
+    <div class="l"><b>Em dic:</b><i></i></div><div class="l"><b>La meva rajola diu que</b><i></i></div><div class="l"><i></i></div>
+    <div class="l"><b>El símbol és</b><i></i></div><div class="l"><b>L'he feta</b><i></i></div>
+    <div class="peu">Equip ______ · SA3 · Aula Maker 1r ESO</div></div>
+  <div class="t"><div class="tit"><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="19,10 14.5,17.8 5.5,17.8 1,10 5.5,2.2 14.5,2.2" fill="none" stroke="#9a6400" stroke-width="2"/></svg>La meva rajola del rusc</div>
+    <div class="l"><b>Em dic:</b><i></i></div><div class="l"><b>La meva rajola diu que</b><i></i></div><div class="l"><i></i></div>
+    <div class="l"><b>El símbol és</b><i></i></div><div class="l"><b>L'he feta</b><i></i></div>
+    <div class="peu">Equip ______ · SA3 · Aula Maker 1r ESO</div></div>
+  <div class="t"><div class="tit"><svg viewBox="0 0 20 20" aria-hidden="true"><polygon points="19,10 14.5,17.8 5.5,17.8 1,10 5.5,2.2 14.5,2.2" fill="none" stroke="#9a6400" stroke-width="2"/></svg>La meva rajola del rusc</div>
+    <div class="l"><b>Em dic:</b><i></i></div><div class="l"><b>La meva rajola diu que</b><i></i></div><div class="l"><i></i></div>
+    <div class="l"><b>El símbol és</b><i></i></div><div class="l"><b>L'he feta</b><i></i></div>
+    <div class="peu">Equip ______ · SA3 · Aula Maker 1r ESO</div></div>
+</div>
+</body>
+</html>

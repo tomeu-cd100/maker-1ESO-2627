@@ -89,6 +89,11 @@ SA_PRINTABLES = {
     "SA2_Dissenyem_en_2D": [
         ("marcapagines_paper_SA2.html", "📑 El marcapàgines en paper (full de disseny)"),
     ],
+    "SA3_Projecte_laser_identitat": [
+        ("rajola_paper_SA3.html", "🐝 Quadern de la rajola (4 pàgines, rajola a mida real)"),
+        ("banc_motius_paper_SA3.html", "💡 Banc de motius (un per taula)"),
+        ("targetes_rusc_SA3.html", "🏷️ Targetes del rusc per a la Fira"),
+    ],
 }
 
 ALUMNAT_LINKS = [

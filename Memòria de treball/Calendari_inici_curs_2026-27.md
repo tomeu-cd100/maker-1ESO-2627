@@ -121,9 +121,9 @@ que existeix).
 |---|---|---|
 | 7 | 19-23 oct | SA2 S2: vectorització + **5' CA6.3** (llicències) — reobrir qüestionari SA0 (repàs espaiat) |
 | 8 | 26-30 oct | SA2 S3: fabricació marcapàgines + **1a coavaluació** (calibratge previ amb l'exemple resolt!) |
-| 9-12 | 2-27 nov | SA3 (5 sessions): identitat, encaixos, kerf (📏 peu de rei!), muntatge |
-| **11** | 16-20 nov | ✉️ **Invitacions de la Fira T1 a les famílies** (2 setmanes abans) |
-| **13** | 30 nov-4 des | 🎪 **FIRA T1** + tancament de trimestre: rúbrica completa, valoració trimestral, **foto producte+diari → `Portafoli/`** (abans de recollir els quaderns!), tiquet anònim + retorn, re-formar equips, 🏆 error del trimestre, ensenyar a cada alumne el seu full de progrés, revisió d'equitat amb el co-docent |
+| 9-12 | 3-26 nov | SA3 🐝 el rusc (5 sessions): s9 decisions + esbós 1:1 · s10 Inkscape + mostra de connectors (📏 peu de rei!) · s11 fabricació · s12 bresca + millora. 🖨️ PDF de l'alumnat: `genera_pdf_impressos.py SA3` (quadern 4 pàg. a doble cara, banc de motius 1/taula, targetes de la Fira) |
+| **11** | 17-19 nov | ✉️ **Invitacions de la Fira T1 a les famílies** (2 setmanes abans) |
+| **13** | 1-3 des | 🎪 **FIRA T1** + tancament de trimestre: rúbrica completa, valoració trimestral, **foto producte+diari → `Portafoli/`** (abans de recollir els quaderns!), tiquet anònim + retorn, re-formar equips, 🏆 error del trimestre, ensenyar a cada alumne el seu full de progrés, revisió d'equitat amb el co-docent |
 
 > 🔁 La llista completa de rituals de tancament de trimestre és a
 > `Feines_pendents_docent.md` §«Cada trimestre» — val per a les setmanes 13, 25 i 35.

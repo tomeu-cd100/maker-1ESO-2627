@@ -183,8 +183,10 @@ muntada amb connectors + presentació a la Fira + portafoli del procés.
 > `Programació didàctica/DUA_adaptacions_SA.md`.
 
 - **Decisions tancades** a la fitxa (marcar caselles, no omplir buits) i **plantilla 1:1 impresa**.
-- Símbol del **banc de motius** (`Recursos/Banc_motius_SA3.md`, 26 motius llestos) per a qui no
-  vol o no pot dibuixar-lo; dibuix propi per a qui sí (la mateixa pàgina té idees).
+- Símbol del **banc de motius** (`Recursos/Banc_motius_SA3.md`, 26 motius llestos) **+ un canvi
+  propi** (inicial, segon motiu, detall): així triar no es queda en «agafar un logo». El motiu tal
+  qual és la porta de sortida DUA per a qui s'encalla; dibuix propi per a qui pot (la mateixa
+  pàgina té idees).
 - Rols d'equip adaptats a fortaleses (mesures, connectors, documentació, presentació).
 - ⭐ **Ampliació**: símbol en **calat** (tallat, no gravat) dins del cercle, o una segona rajola
   «de vora» per tancar el contorn del rusc.
@@ -194,6 +196,9 @@ muntada amb connectors + presentació a la Fira + portafoli del procés.
 - Inkscape + XCS; làser xTool S1; fusta DM/contraxapat 3 mm (una rajola ≈ 12 × 10 cm).
 - Peu de rei; cinta de muntatge de doble cara o tauler de fons per penjar el rusc.
 - `Fitxa_alumnat.md` · `Rubrica_SA3.md` · `Exemple_resolt.md`.
+- 🖨️ **Imprimibles per a l'alumnat** (web → «Per imprimir» de la SA3; en PDF amb
+  `genera_pdf_impressos.py SA3`): **quadern de la rajola** (4 pàgines, plantilla 1:1 inclosa),
+  **banc de motius** (un per taula) i **targetes del rusc** per a la Fira (8 per A4).
 - Plantilles a `Recursos/Plantilles_disseny/` (generades amb `generador_rajola_hexagonal.py`):
   - `rajola_hexagonal_SA3.svg`: plantilla de la rajola (TALL, GRAVAT i capa GUIA amb la zona del símbol).
   - `mostra_connectors_SA3.svg`: 2 cupons amb osca + 4 connectors de kerf 0,0 / 0,1 / 0,2 / 0,3 mm.

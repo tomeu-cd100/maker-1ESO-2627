@@ -30,9 +30,13 @@ nom** i un **símbol que expliqui alguna cosa de tu**. Les 4 rajoles del teu equ
 
 **B. D'on surt el símbol?** Marca'n **una**:
 
-- [ ] Del **banc de motius** de la SA: 26 dibuixos llestos (`Recursos/Banc_motius_SA3.md`)
+- [ ] Un motiu del **banc de motius** (`Recursos/Banc_motius_SA3.md`) **+ un canvi meu**: el
+  combino amb la meva inicial o amb un altre motiu, hi afegeixo un detall o en retallo una part.
+  *Ha de ser meu, no només triat.*
 - [ ] Un **dibuix meu** senzill (formes grosses, sense detalls petits)
 - [ ] ⭐ Un **calat**: el símbol es talla i queda un forat amb la seva forma
+
+> 💬 Si t'encalles de veritat, el motiu del banc tal qual també val: parla-ho amb el/la profe.
 
 **C. Quina lletra per al nom?** Marca'n **una**:
 
@@ -82,6 +86,7 @@ profe (nom + símbol). Quan te la validin: ☐ ✅ validat per: ______
 > 1. ☐ Obre `rajola_hexagonal_SA3.svg` (és a la carpeta de la SA, al Drive).
 > 2. ☐ Fes doble clic a `NOM` i escriu el teu nom. Canvia la lletra a la que has triat.
 > 3. ☐ Posa el símbol: **Fitxer → Importa** → carpeta `motius_SA3` (banc de motius) o dibuixa'l amb formes.
+>    Fes-hi **el teu canvi** (inicial, segon motiu, detall…).
 >    Fes-lo **negre** (gravat) — o **vora vermella sense ompliment** si és ⭐ calat.
 > 4. ☐ Fes-lo **cabre dins del cercle blau** (arrossega les cantonades amb **Ctrl** premut perquè no es deformi).
 > 5. ☐ Selecciona el nom → **Camí → Objecte a camí**.

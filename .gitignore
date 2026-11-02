@@ -21,3 +21,6 @@ web/
 dades/
 *_DADES.*
 *_dades.*
+
+# PDF per a l'alumnat (es regeneren amb genera_pdf_impressos.py)
+PDF_alumnat/
