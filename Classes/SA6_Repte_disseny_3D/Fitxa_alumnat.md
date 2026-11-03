@@ -35,6 +35,14 @@
   ABANS de repartir-vos la feina, amb tolerància inclosa): ____ mm
 
 ## Fase 3 — Dissenyar i imprimir
+
+> ⭐ **Opcional: Layerling en lloc de Tinkercad.** Si el docent t'ho permet, pots dissenyar
+> amb [Layerling](https://layerling.com) (gratuït, al navegador, sense compte). Funciona
+> com Tinkercad: peces, forats, agrupar i exportar STL.
+> ⚠️ **Layerling guarda el disseny només en aquest navegador.** Si canvies d'ordinador o
+> s'esborra l'historial, el perds. **Al final de CADA sessió, exporta el fitxer** i
+> penja'l a la tasca de Classroom.
+
 - [ ] Mides comunes acordades   - [ ] Peces imprimibles   - [ ] Cua d'impressió planificada
 - [ ] Cada peça compleix el límit: **< 1 h i < 40 g** (previsualització de Bambu Studio)
 - [ ] Cada peça ha passat el 🚦 **semàfor de fabricació** (`Recursos/Semafor_maker.md`),

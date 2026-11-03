@@ -164,6 +164,11 @@ Solució 3D funcional al repte triat + evidència de proves amb l'usuari + prese
 ## 7. Recursos i materials
 - 🎬 Càpsula «Inspira't»: **Dissenyar és escoltar (dissenyadores industrials i usuari real)** — guió de 5 minuts a `Recursos/Capsules_inspirat.md` §SA6.
 - Tinkercad; Bambu Studio; P2S; filament PLA; material de muntatge.
+- ⭐ **Alternativa opcional: [Layerling](https://layerling.com)** (web, lliure, sense compte;
+  exporta STL/3MF). Tinkercad continua sent l'eina base. Layerling desa els dissenys al
+  navegador, no a cap compte: no hi ha vista de classe i, als Chromebooks, la feina es pot
+  perdre. Qui l'usi **exporta i penja el fitxer a Classroom al final de cada sessió**.
+  Prova-ho abans en un Chromebook de l'aula (reobrir l'endemà + laminar l'STL a Bambu Studio).
 - `Programació didàctica/Gestio_temps_maquina_fabricacio.md` (cua d'impressió en equip);
   `Reptes/Reptes_3D.md`. `Fitxa_alumnat.md` · `Rubrica_SA6.md`.
 
