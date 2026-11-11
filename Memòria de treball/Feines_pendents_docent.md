@@ -80,7 +80,7 @@
 
 ## 📋 Paperassa i coordinació (abans de setembre)
 
-- [ ] **Verificar la política d'edat vigent de Meta Quest 3** i omplir la **fitxa de
+- [ ] **Verificar la política d'edat vigent de Meta Quest 3S** i omplir la **fitxa de
   verificació anual** (`Normativa/Protocol_us_VR.md` §8); decidir via (pantalla/ulleres).
 
 - [ ] Adaptar la **carta a les famílies** i les **autoritzacions VR/360** al centre i

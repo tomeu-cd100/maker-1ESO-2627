@@ -37,7 +37,7 @@ La seguretat és la nostra prioritat. L'alumnat signa un **contracte d'aula**, t
 **sempre hi ha una alternativa en pantalla**: l'ús d'ulleres és **voluntari** i el producte es
 pot assolir igualment sense elles.
 
-> ℹ️ **Important sobre la VR:** les nostres ulleres (**Meta Quest 3**) fixen una edat mínima de
+> ℹ️ **Important sobre la VR:** les nostres ulleres (**Meta Quest 3S**) fixen una edat mínima de
 > **13 anys** per als comptes de centre. Per això l'activitat es fa **principalment en pantalla**
 > i les ulleres són un complement **condicionat a l'edat i a la vostra autorització**. Us
 > demanarem una **autorització específica** abans de les activitats immersives (full adjunt) i

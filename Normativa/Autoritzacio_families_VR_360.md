@@ -20,7 +20,7 @@ ___________________________________ del grup ______,
 - La **captura d'imatges i vídeos en 360°** d'espais del centre per crear tours virtuals
   educatius.
 
-> ℹ️ **Sobre l'edat:** el fabricant de les nostres ulleres (Meta Quest 3) fixa una edat mínima
+> ℹ️ **Sobre l'edat:** el fabricant de les nostres ulleres (Meta Quest 3S) fixa una edat mínima
 > de **13 anys** per als comptes de centre. Per això, l'activitat s'assoleix **principalment en
 > pantalla** (ordinador/projector) i l'ús d'ulleres és un complement condicionat a l'edat i a
 > aquesta autorització. Cap alumne/a queda exclòs de l'aprenentatge per no fer servir ulleres.

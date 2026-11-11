@@ -47,7 +47,7 @@
   juny; si es pot, guanyar una **36a setmana**).
 - [ ] **Reservar les 3 dates de Fira** al calendari del centre (setmanes lectives 13, 25 i
   35 ≈ principis de desembre, març i juny) — es reserven ARA, al setembre.
-- [ ] **Verificar la política d'edat de Meta Quest 3** + fitxa de verificació anual
+- [ ] **Verificar la política d'edat de Meta Quest 3S** + fitxa de verificació anual
   (`Normativa/Protocol_us_VR.md` §8); decidir via pantalla/ulleres.
 - [ ] **Carta a les famílies + autoritzacions VR/360** adaptades al centre, amb l'enllaç de
   la web i les dates de les 3 Fires — a punt per enviar la setmana 1.
