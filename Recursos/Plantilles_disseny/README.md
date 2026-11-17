@@ -15,6 +15,7 @@ Fitxers llestos per usar a l'aula. **Convenció de capes** per a la làser xTool
 | `marcapagines_SA2.svg` | SA2 | Marcapàgines 50×150 mm amb marc, missatge i zona d'imatge |
 | `generador_rajola_hexagonal.py` | SA3 | Generador de la **rajola hexagonal**, dels **connectors**, de la **mostra de connectors** i de l'esquema del **rusc** |
 | `rajola_hexagonal_SA3.svg` | SA3 | **Plantilla de la rajola** (100 mm entre costats): contorn i 6 osques en cua d'oronella (tall), `NOM` (gravat) i capa GUIA amb el cercle del símbol |
+| `rajola_hexagonal_SA3.dxf` · `connectors_SA3.dxf` · `mostra_connectors_SA3.dxf` | SA3 | **Versions DXF per a xTool Studio**, en mm reals: s'importen directament i surten a mida (rajola 115,5 × 100 mm). Només porten el tall; el nom i el símbol s'afegeixen a xTool |
 | `rajola_exemple_SA3.svg` | SA3 | Exemple resolt de rajola (nom + estrella) |
 | `mostra_connectors_SA3.svg` | SA3 | **Mostra de connectors** (70×68 mm): 2 cupons amb osca + 4 connectors de kerf 0,0 / 0,1 / 0,2 / 0,3 mm |
 | `connectors_SA3.svg` | SA3 | Full de 24 connectors en corbatí (kerf 0,15 mm) |
@@ -37,7 +38,20 @@ Paràmetres:
   Només afecta els connectors: la rajola no canvia mai.
 - `--n`: nombre de connectors del full (o de rajoles de l'esquema del rusc).
 - `--mida`: mida de la rajola entre costats (100 mm per defecte; si la canvies, canvia-la per a tothom).
-- `--salida`: nom del fitxer SVG de sortida.
+- `--format`: `svg` (per defecte) o `dxf` (per a xTool Studio; no val per al `rusc`).
+- `--salida`: nom del fitxer de sortida.
+
+> ⚠️ **xTool Studio: importa el DXF, no copiïs i enganxis des d'Inkscape.** Si copies i enganxes,
+> xTool canvia l'escala: l'hexàgon passa a uns 200 × 171 mm, les osques creixen ×1,7 i els
+> connectors ja no hi encaixen. Comprova-ho sempre: la rajola ha de fer **115,5 × 100 mm**. Si no
+> tens més remei que enganxar-la, escriu aquestes dues mides a mà a xTool, amb el cadenat obert.
+> I no la redimensionis mai: si vols una altra mida, genera-la amb `--mida`. Així les osques es
+> queden a 10/15/8 mm i els connectors continuen encaixant.
+
+```bash
+python generador_rajola_hexagonal.py --tipus rajola --format dxf --salida rajola_hexagonal_SA3.dxf
+python generador_rajola_hexagonal.py --tipus connectors --format dxf --kerf 0.2 --salida connectors_equip1.dxf
+```
 
 Comptar connectors: una bresca de 4 rajoles en fa servir **4 o 5** (segons la forma); el rusc sencer, unes
 **2,2 per rajola** (24 rajoles → 53, vegeu `rusc_esquema_SA3.svg`). Talla'n un 10 % de més per a recanvis.

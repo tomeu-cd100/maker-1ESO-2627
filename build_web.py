@@ -1017,7 +1017,7 @@ def copy_assets():
         dest = OUT / slugify("Recursos/Plantilles_disseny")
         dest.mkdir(parents=True, exist_ok=True)
         for f in plant.iterdir():
-            if f.suffix in (".svg", ".py"):
+            if f.suffix in (".svg", ".py", ".dxf"):
                 shutil.copyfile(f, dest / slugify(f.name))
     imatges = ROOT / "Recursos" / "imatges"
     if imatges.is_dir():

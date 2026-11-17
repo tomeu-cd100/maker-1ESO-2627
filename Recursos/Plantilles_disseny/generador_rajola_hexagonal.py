@@ -19,6 +19,9 @@ Convenció de capes: TALL = traç vermell (#FF0000), 0.1 mm · GRAVAT = negre (#
     python generador_rajola_hexagonal.py --tipus connectors --kerf 0.15 --n 24
     python generador_rajola_hexagonal.py --tipus mostra --salida mostra_connectors_SA3.svg
     python generador_rajola_hexagonal.py --tipus rusc --n 24 --salida rusc_esquema_SA3.svg
+    python generador_rajola_hexagonal.py --tipus rajola --format dxf --salida rajola_hexagonal_SA3.dxf
+
+xTool Studio: importa el DXF (surt a mida real). No copiïs i enganxis des d'Inkscape: canvia l'escala.
 
 Nota: pensat amb finalitat educativa; talla sempre la mostra de connectors abans del full sencer.
 """
@@ -177,15 +180,93 @@ def fitxer_rusc(n, f):
     return svg(ample, alt, cos, f"Esquema del rusc SA3: {n} rajoles i els connectors (taronja). No és per tallar.")
 
 
+# ---------------------------------------------------------------- DXF
+# xTool Studio no importa bé l'SVG d'Inkscape i, si el copies i l'enganxes, el canvia d'escala
+# (l'hexàgon passa de 115,5 × 100 a uns 200 × 171 mm) i les osques deixen d'encaixar.
+# El DXF va en mil·límetres reals ($INSUNITS = 4): s'importa directament i a mida.
+
+def dxf(polilinies, textos=()):
+    """polilinies: llista de (capa, punts) en mm, eix y cap amunt.
+    textos: llista de (x, y, alçada, text) a la capa GRAVAT."""
+    # Tot dins del quadrant positiu, amb 2 mm de marge: algunes aplicacions situen
+    # malament el que queda a coordenades negatives.
+    tots = [p for _, pts in polilinies for p in pts]
+    dx = 2 - min(x for x, _ in tots)
+    dy = 2 - min(y for _, y in tots)
+    polilinies = [(c, [(x + dx, y + dy) for x, y in pts]) for c, pts in polilinies]
+    textos = [(x + dx, y + dy, h, t) for x, y, h, t in textos]
+    l = ["0", "SECTION", "2", "HEADER", "9", "$ACADVER", "1", "AC1009",
+         "9", "$INSUNITS", "70", "4", "9", "$MEASUREMENT", "70", "1", "0", "ENDSEC",
+         "0", "SECTION", "2", "TABLES", "0", "TABLE", "2", "LAYER", "70", "2",
+         "0", "LAYER", "2", "TALL", "70", "0", "62", "1", "6", "CONTINUOUS",
+         "0", "LAYER", "2", "GRAVAT", "70", "0", "62", "7", "6", "CONTINUOUS",
+         "0", "ENDTAB", "0", "ENDSEC", "0", "SECTION", "2", "ENTITIES"]
+    for capa, pts in polilinies:
+        l += ["0", "POLYLINE", "8", capa, "66", "1", "70", "1", "10", "0", "20", "0", "30", "0"]
+        for x, y in pts:
+            l += ["0", "VERTEX", "8", capa, "10", f"{x:.4f}", "20", f"{y:.4f}", "30", "0"]
+        l += ["0", "SEQEND", "8", capa]
+    for x, y, h, t in textos:
+        l += ["0", "TEXT", "8", "GRAVAT", "10", f"{x:.3f}", "20", f"{y:.3f}", "30", "0",
+              "40", f"{h:g}", "1", t, "72", "1", "11", f"{x:.3f}", "21", f"{y:.3f}", "31", "0"]
+    l += ["0", "ENDSEC", "0", "EOF"]
+    return "\n".join(l) + "\n"
+
+
+def mou(pts, dx, dy):
+    """Trasllada i inverteix l'eix y (SVG va cap avall, DXF cap amunt)."""
+    return [(x + dx, -(y + dy)) for x, y in pts]
+
+
+def dxf_rajola(f):
+    # Només el contorn de tall: el nom i el símbol s'afegeixen a xTool.
+    return dxf([("TALL", mou(rajola(f), 0, 0))])
+
+
+def dxf_connectors(n, kerf):
+    pas_x, pas_y, columnes = 2 * FONDARIA + 3, AMPLE_FONS + 3, 6
+    pts = eixampla(corbati(), kerf)
+    return dxf([("TALL", mou(pts, 2 + FONDARIA + (i % columnes) * pas_x,
+                             2 + AMPLE_FONS / 2 + (i // columnes) * pas_y)) for i in range(n)])
+
+
+def dxf_mostra():
+    ample_c, alt_c = 30.0, 22.0
+    def cupo(x0, y0):
+        m = x0 + ample_c / 2
+        return [(x0, y0), (m - AMPLE_VORA / 2, y0), (m - AMPLE_FONS / 2, y0 + FONDARIA),
+                (m + AMPLE_FONS / 2, y0 + FONDARIA), (m + AMPLE_VORA / 2, y0),
+                (x0 + ample_c, y0), (x0 + ample_c, y0 + alt_c), (x0, y0 + alt_c)]
+    pol = [("TALL", mou(cupo(3, 3), 0, 0)), ("TALL", mou(cupo(37, 3), 0, 0))]
+    # 18 mm entre connectors (fan uns 15 mm): amb 16 mm, els talls quedaven a 0,4 mm i cremaven.
+    pol += [("TALL", mou(eixampla(corbati(), k), 10 + i * 18, 38)) for i, k in enumerate((0.0, 0.1, 0.2, 0.3))]
+    txt = [(10 + i * 18, -52, 3.2, k) for i, k in enumerate(("0,0", "0,1", "0,2", "0,3"))]
+    txt.append((37, -58, 3, "MOSTRA DE CONNECTORS"))
+    return dxf(pol, txt)
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--tipus", choices=["rajola", "connectors", "mostra", "rusc"], default="rajola")
+    ap.add_argument("--format", choices=["svg", "dxf"], default="svg",
+                    help="dxf per importar directament a xTool Studio a mida real")
     ap.add_argument("--mida", type=float, default=100, help="mida de la rajola entre costats (mm)")
     ap.add_argument("--kerf", type=float, default=0.15, help="kerf a compensar als connectors (mm)")
     ap.add_argument("--n", type=int, default=24, help="nombre de connectors o de rajoles del rusc")
     ap.add_argument("--salida", default=None)
     a = ap.parse_args()
 
+    if a.format == "dxf":
+        if a.tipus == "rusc":
+            ap.error("el rusc és un esquema per mirar: només en SVG")
+        contingut = {"rajola": lambda: dxf_rajola(a.mida),
+                     "connectors": lambda: dxf_connectors(a.n, a.kerf),
+                     "mostra": dxf_mostra}[a.tipus]()
+        sortida = a.salida or f"{a.tipus}.dxf"
+        with open(sortida, "w", encoding="ascii") as fh:
+            fh.write(contingut)
+        print(f"Creat: {sortida}  (tipus {a.tipus}, DXF en mm)")
+        return
     if a.tipus == "rajola":
         contingut, nom = fitxer_rajola(a.mida), "rajola_hexagonal.svg"
     elif a.tipus == "connectors":
