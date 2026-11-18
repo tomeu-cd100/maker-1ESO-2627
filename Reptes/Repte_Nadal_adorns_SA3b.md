@@ -23,6 +23,43 @@ de l'equip, com el connector del rusc.
 - [ ] Ha passat el 🚦 **semàfor** i l'he **tallat jo** (amb el carnet 🔴).
 - [ ] Hi he passat el **cordill** i **penja recte**.
 
+## 💡 Inspira't: vídeos i webs
+> Mira'n **un o dos** abans de dissenyar, no tots. Gairebé tots són en **anglès**: activa els
+> subtítols (⚙️ → Subtítols → Traducció automàtica → Català) o fixa't en les mans i la pantalla.
+> Els vídeos fan servir altres làsers i programes: **la idea serveix, els paràmetres no**. A
+> l'aula sempre tallem amb la nostra plantilla i el 🚦 semàfor.
+
+**🎬 Vídeos curts d'Inkscape (el que faràs tu)**
+
+| Vídeo | Durada | Què hi aprens |
+|---|---|---|
+| [Soldar un nom a un adorn](https://www.youtube.com/watch?v=KE7HugT7CD0) | 2 min | Unir el text a la forma (**Camí → Unió**) perquè surti d'una sola peça. |
+| [Un adorn de Nadal ràpid](https://www.youtube.com/watch?v=EAO-NTjMevw) | 4 min | Fer formes, retallar-ne una amb una altra (**Diferència**) i afegir-hi text. |
+| [Línia de tall al voltant d'un dibuix](https://www.youtube.com/watch?v=4XRZIhWYXuo) | 5 min | Fer el contorn exterior d'un dibuix (**Camí → Desplaça cap enfora**). |
+| ⭐ [Corbar el nom](https://www.youtube.com/watch?v=eaWyY2ub7Kk) | 7 min | Posar el text seguint una corba (**Text → Posa al camí**). |
+
+**🔥 Amb la nostra màquina, la xTool S1 (per veure tot el procés)**
+
+| Vídeo | Durada | Què hi veus |
+|---|---|---|
+| [Decoracions i arbres ràpids amb l'S1](https://www.youtube.com/watch?v=CPiY9IB0oH0) | 14 min | Idees senzilles de tallar en fusta. Mira'n trossos. |
+| [2 adorns fàcils amb l'S1](https://www.youtube.com/watch?v=IQY7wqjZCEg) | 18 min | Dos adorns de cap a peus: disseny, tall i acabat. |
+| ⭐ [Rens i avets 3D encaixats](https://www.youtube.com/watch?v=2Lj4CU4jdEI) | 9 min | Peces planes que s'encaixen amb ranures, com l'⭐ avet 3D. |
+
+**🌐 Webs pas a pas i galeries d'idees**
+- [20 idees d'adorns tallats amb làser](https://www.xtool.com/blogs/business-ideas/laser-cut-ornaments)
+  (blog d'xTool): galeria per triar estil.
+- [Flocs de neu de fusta](https://www.instructables.com/Wooden-Snowflake-Christmas-Tree-ornaments)
+  (Instructables, 6 passos): com dissenyar un floc simètric.
+- [Com tallar adorns de Nadal amb làser](https://www.instructables.com/id/How-to-Laser-Cut-Christmas-Ornaments/)
+  (Instructables): del disseny al muntatge, amb fotos de cada pas.
+- ⭐ [Peu d'avet per a adorns](https://www.instructables.com/Laser-Cut-Christmas-Tree-Ornament-Holder)
+  (Instructables): explica per què la **ranura** ha de tenir en compte el **kerf**, com el nostre avet 3D.
+- ⭐ [Flocs de neu 3D](https://www.atomm.com/es/project/76995-wooden-3d-snowflake) (Atomm, en
+  castellà, fet amb una xTool S1): idea per a l'avet o un floc encaixat.
+- Si t'encalles amb Inkscape: [10 primeros pasos en Inkscape](https://www.youtube.com/watch?v=7tUFhtIeOUQ)
+  (castellà) i el [banc de motius del rusc](../Recursos/Banc_motius_SA3.md).
+
 ## Seqüència (2 setmanes, amb el desdoblament de sempre)
 
 | Setmana | 🔧 Estació Maker (amb el docent) | 💻 Aula ordinària (amb el co-docent) |
